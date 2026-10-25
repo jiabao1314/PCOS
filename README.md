@@ -75,3 +75,14 @@ Human Reproduction作为高风险一区候选；Reproductive Health作为二区�
 - [Human Reproduction draft v3](output/GBD2023_endpoint_v3/PCOS_Human_Reproduction_candidate_v3.pdf), [Reproductive Health draft v3](output/GBD2023_endpoint_v3/PCOS_Reproductive_Health_candidate_v3.pdf), [Supplement v3](output/GBD2023_endpoint_v3/PCOS_Additional_file_1_endpoint_v3.pdf)
 
 Endpoint sensitivity: China endometriosis-related infertility +23.58% in modeled 2022–2023 restricted-age ASPR; 92.7% of the signed increment was secondary infertility. Published 2026 GBD2023 cases matched after reaggregation (181,587); published and restricted-age ASPRs require a 0.494902 weight-convention conversion. These are *same-source extraction checks*, not independently verified Chinese clinical trends. The 2023 posterior joint draws have **not** been supplied; derived GBD intervals remain unavailable. Papers are unsubmitted drafts with actual author and ethics details outstanding.
+
+
+## 方案A：独立联合国人口权重核验（2026-10-25）
+
+- [联合国UN WPP2024下载来源、分析核验与云端保存状态](docs/PLAN_A_WPP2024_SYNC_AND_QC_20261025.md)
+- [方案A中文科研结论与投稿限制](docs/UN_WPP2024_PlanA_研究结果与期刊策略_20261025.md)
+- [完整可复现研究包：分析脚本、年度结果、图形、TeX工程和3份PDF](output/PlanA_UNWPP2024_20261025/PCOS_PlanA_UN_WPP2024_analysis_TeX_PDF_20261025.zip)
+- [Human Reproduction候选稿](output/PlanA_UNWPP2024_20261025/PCOS_PlanA_Human_Reproduction_candidate_20261025.pdf) · [Reproductive Health候选稿](output/PlanA_UNWPP2024_20261025/PCOS_PlanA_Reproductive_Health_candidate_20261025.pdf) · [补充材料](output/PlanA_UNWPP2024_20261025/PCOS_PlanA_Supplement_20261025.pdf)
+- [研究的Google Drive 2026PCOS子文件夹](https://drive.google.com/drive/folders/133vTCSpkXBAxiRRQN-bnYTHO08hgFuVJ)
+
+结论：参照国人口份额变化对1990–2023年中国PCOS总不孕率差变化的贡献，由GBD人口权重的88.65/10万（58.5%）变为独立UN权重的86.76/10万（57.6%），数值接近；但继发不孕2023年中国与参照国的正差很小，对选用2023还是固定1990人口构成敏感。UN验证的是*人口构成分析*而非GBD疾病患病率，也不提供GBD联合draws。**官方WPP原始源文件已下载并保存Drive，Galaxy PCOS历史上传因当前Chat模式缺少写入工具仍待完成。**
