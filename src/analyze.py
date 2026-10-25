@@ -158,7 +158,7 @@ def run(folder, output, review):
             trends.append(dict(location=loc,cause=cause,measure=measure,start=first,end=end,**fit))
     (output/'segmented_trends_point_estimates.json').write_text(json.dumps(trends,indent=2,allow_nan=False))
     manifest = {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in folder.glob('*.csv')}
-    (output/'run_provenance.json').write_text(json.dumps({'inputs_sha256':manifest,'review':review,'python':platform.python_version(),'rows':len(b),'version':review['gbd_version'],'derived_intervals':'None; no jointly aligned draws supplied','remaining':'Formal AR(1) trend sensitivity, optional strata, forecast backtesting, figure rendering and manuscript await source-data review'},indent=2))
+    (output/'run_provenance.json').write_text(json.dumps({'inputs_sha256':manifest,'review':review,'python':platform.python_version(),'rows':len(b),'version':review['gbd_version'],'derived_intervals':'None; no jointly aligned draws supplied','module_scope':'Core analysis; additional executed modules and scientific limitations are documented in docs/STATUS.md'},indent=2))
     return len(b)
 
 

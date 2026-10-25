@@ -1,0 +1,86 @@
+{
+  "release": "GBD 2023",
+  "download_date": "2026-10-25",
+  "files": [
+    {
+      "path": "data/raw/IHME-GBD_2023_DATA-916826fb-1.zip",
+      "bytes": 154857,
+      "sha256": "815770377e634a34a79bd9e0e244dd11f25261c5877ae271b9956be54edf0e8b"
+    },
+    {
+      "path": "data/raw/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/IHME-GBD_2023_DATA-1b13e337-1.zip",
+      "bytes": 1243167,
+      "sha256": "c24899245d63786e6dbaa6496f44f7b51b0816d7f57ab51c0254e5fcca2c810f"
+    },
+    {
+      "path": "data/raw/IHME-GBD_2023_DATA-416daf73-1.zip",
+      "bytes": 1335684,
+      "sha256": "23d85bf88d821ffc1395b1923a397852da9e8d4bbc062c2fa8f41d8bf0d97bf2"
+    },
+    {
+      "path": "data/raw/IHME-GBD_2023_DATA-76c5523c-1.zip",
+      "bytes": 145854,
+      "sha256": "0622fc7b8cd4db776df980830c058c0204d4e3f5bb4e18bc185e5778d5aba77b"
+    },
+    {
+      "path": "data/raw/IHME-GBD_2023_DATA-0daed0e5-1.zip",
+      "bytes": 1034,
+      "sha256": "52c7b1a49ff3e352fa98c8cb7480bea4f5dc6c3826b7e5a3eeec414f902c7a8b"
+    },
+    {
+      "path": "data/raw/population/IHME-GBD_2023_DATA-916826fb-1.csv",
+      "bytes": 628106,
+      "sha256": "d7202eedb69a9ead4dd4994c1cf02917cca57e23d7d82af1edca32e129ae93ca"
+    },
+    {
+      "path": "data/raw/population/citation.txt",
+      "bytes": 327,
+      "sha256": "339dc2be55e1576d87c0a9640ee20865e222e4f7d19e6d30a7731a0f8e476874"
+    },
+    {
+      "path": "data/raw/strata_annual/citation.txt",
+      "bytes": 327,
+      "sha256": "339dc2be55e1576d87c0a9640ee20865e222e4f7d19e6d30a7731a0f8e476874"
+    },
+    {
+      "path": "data/raw/strata_annual/IHME-GBD_2023_DATA-416daf73-1.csv",
+      "bytes": 7210811,
+      "sha256": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f"
+    },
+    {
+      "path": "data/raw/burden_total/citation.txt",
+      "bytes": 327,
+      "sha256": "339dc2be55e1576d87c0a9640ee20865e222e4f7d19e6d30a7731a0f8e476874"
+    },
+    {
+      "path": "data/raw/burden_total/IHME-GBD_2023_DATA-1b13e337-1.csv",
+      "bytes": 6729856,
+      "sha256": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b"
+    },
+    {
+      "path": "data/raw/strata_endpoints/citation.txt",
+      "bytes": 327,
+      "sha256": "339dc2be55e1576d87c0a9640ee20865e222e4f7d19e6d30a7731a0f8e476874"
+    },
+    {
+      "path": "data/raw/strata_endpoints/IHME-GBD_2023_DATA-76c5523c-1.csv",
+      "bytes": 827804,
+      "sha256": "5d4c87c8cb2a42e3ec4dd2819e227205273526ed0376144f8c850ebbba5094da"
+    },
+    {
+      "path": "data/raw/pilot/citation.txt",
+      "bytes": 327,
+      "sha256": "339dc2be55e1576d87c0a9640ee20865e222e4f7d19e6d30a7731a0f8e476874"
+    },
+    {
+      "path": "data/raw/pilot/IHME-GBD_2023_DATA-0daed0e5-1.csv",
+      "bytes": 1654,
+      "sha256": "ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0"
+    }
+  ]
+}

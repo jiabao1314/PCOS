@@ -1,0 +1,19 @@
+{
+  "version": "GBD 2023",
+  "task_id": "0daed0e53f5ad8ebdf0dc00c23ccd110",
+  "rows": 8,
+  "country": "China",
+  "sex": "Female",
+  "age": "35-39 years",
+  "year": 2023,
+  "impairment_id": 198,
+  "causes": {
+    "Endometriosis": 607,
+    "Polycystic ovarian syndrome": 605
+  },
+  "prevalence_id": 5,
+  "ylds_id": 3,
+  "sha256": "ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0",
+  "bounds_ordered": true,
+  "denominator_status": "Number/Rate imply consistent population; official population still to download"
+}

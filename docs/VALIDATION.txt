@@ -9,11 +9,6 @@ test_gate_blocks_without_review (test_pipeline.PipelineTests.test_gate_blocks_wi
 test_wrong_outcome_and_missing_cell_rejected (test_pipeline.PipelineTests.test_wrong_outcome_and_missing_cell_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 9 tests in 1.908s
+Ran 9 tests in 1.856s
 
 OK
-
-Expected real-data invocation outcome:
-DATA GATE CLOSED: official pilot and source metadata not verified
-
-All numerical fixtures were synthetic and temporary; no empirical GBD analysis was performed.

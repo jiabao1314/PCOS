@@ -1,0 +1,81 @@
+location_name,year,cause_name,measure_name,asr,number
+Argentina,2023,Endometriosis,Prevalence,38.2927906123601,4928.926000796725
+Argentina,2023,Endometriosis,YLDs,0.2259177964529799,28.952284650884078
+Argentina,2023,Polycystic ovarian syndrome,Prevalence,622.1663252163503,78822.44172133922
+Argentina,2023,Polycystic ovarian syndrome,YLDs,3.7036324398705416,467.1298737480936
+Australia,2023,Endometriosis,Prevalence,34.796925150679506,2264.1220702132387
+Australia,2023,Endometriosis,YLDs,0.2034432964575122,13.141753037849634
+Australia,2023,Polycystic ovarian syndrome,Prevalence,1030.588312769137,67018.60934616267
+Australia,2023,Polycystic ovarian syndrome,YLDs,6.068635511781735,390.53335815625667
+Brazil,2023,Endometriosis,Prevalence,52.83800236027025,30523.302480482093
+Brazil,2023,Endometriosis,YLDs,0.3103530766370379,178.03772095280263
+Brazil,2023,Polycystic ovarian syndrome,Prevalence,218.82638596352783,122529.37954408088
+Brazil,2023,Polycystic ovarian syndrome,YLDs,1.2881277779112599,716.05418224536
+Canada,2023,Endometriosis,Prevalence,36.541307649366814,3261.0463202112337
+Canada,2023,Endometriosis,YLDs,0.2178788140016173,19.326387712527914
+Canada,2023,Polycystic ovarian syndrome,Prevalence,608.1043283433056,52372.57525773894
+Canada,2023,Polycystic ovarian syndrome,YLDs,3.6872973085982608,315.1309371519541
+China,2023,Endometriosis,Prevalence,53.303703695855276,181587.08898077882
+China,2023,Endometriosis,YLDs,0.2880393235237569,974.962217879085
+China,2023,Polycystic ovarian syndrome,Prevalence,605.0751634831119,1866706.8535355988
+China,2023,Polycystic ovarian syndrome,YLDs,3.3071206894962915,10081.570228277851
+France,2023,Endometriosis,Prevalence,51.098662922680816,7736.931352618529
+France,2023,Endometriosis,YLDs,0.31891474408416953,47.77819085983404
+France,2023,Polycystic ovarian syndrome,Prevalence,1175.3124041313054,178034.35283159732
+France,2023,Polycystic ovarian syndrome,YLDs,7.338271675821398,1096.3707988384483
+Germany,2023,Endometriosis,Prevalence,44.72119910087737,8106.844606942154
+Germany,2023,Endometriosis,YLDs,0.2689865206571076,48.2585649548147
+Germany,2023,Polycystic ovarian syndrome,Prevalence,960.192003210291,173754.04107070225
+Germany,2023,Polycystic ovarian syndrome,YLDs,5.8342108790432805,1041.5486924276045
+India,2023,Endometriosis,Prevalence,50.89545726361189,197089.1084891076
+India,2023,Endometriosis,YLDs,0.29089078026165927,1127.2017792612262
+India,2023,Polycystic ovarian syndrome,Prevalence,497.4592461260845,1937178.633904442
+India,2023,Polycystic ovarian syndrome,YLDs,2.8554908480308496,11123.159135746388
+Indonesia,2023,Endometriosis,Prevalence,73.28663197061745,57961.87655806403
+Indonesia,2023,Endometriosis,YLDs,0.42297381773460574,333.66918883481094
+Indonesia,2023,Polycystic ovarian syndrome,Prevalence,1097.8237031199164,853408.0280024355
+Indonesia,2023,Polycystic ovarian syndrome,YLDs,6.315749609868615,4886.473414214362
+Italy,2023,Endometriosis,Prevalence,43.67953058892465,5019.207549173574
+Italy,2023,Endometriosis,YLDs,0.25765204500212247,29.243605050075047
+Italy,2023,Polycystic ovarian syndrome,Prevalence,2346.563916969845,270640.32142047485
+Italy,2023,Polycystic ovarian syndrome,YLDs,13.913328846062988,1579.1086644268487
+Japan,2023,Endometriosis,Prevalence,63.69796205945035,15999.336488845129
+Japan,2023,Endometriosis,YLDs,0.35638298098898746,88.56049194425273
+Japan,2023,Polycystic ovarian syndrome,Prevalence,1699.6344812536904,414057.73993058025
+Japan,2023,Polycystic ovarian syndrome,YLDs,9.606478010645315,2306.399326318077
+Mexico,2023,Endometriosis,Prevalence,41.051323840654184,14779.874803733303
+Mexico,2023,Endometriosis,YLDs,0.22900555857795435,82.38239620226997
+Mexico,2023,Polycystic ovarian syndrome,Prevalence,1250.4857205569078,445479.1824919768
+Mexico,2023,Polycystic ovarian syndrome,YLDs,6.97363836233261,2481.600900483379
+Republic of Korea,2023,Endometriosis,Prevalence,40.68242522887674,5065.8203447041415
+Republic of Korea,2023,Endometriosis,YLDs,0.232300912467683,28.51077327141838
+Republic of Korea,2023,Polycystic ovarian syndrome,Prevalence,838.7451455811222,100451.18025420987
+Republic of Korea,2023,Polycystic ovarian syndrome,YLDs,4.783063876449288,564.7251079139528
+Russian Federation,2023,Endometriosis,Prevalence,90.97002635573044,34344.8307196783
+Russian Federation,2023,Endometriosis,YLDs,0.5158533621690776,192.18782258832692
+Russian Federation,2023,Polycystic ovarian syndrome,Prevalence,106.97374921090139,38580.072273790196
+Russian Federation,2023,Polycystic ovarian syndrome,YLDs,0.6223351457417597,220.15789832435198
+Saudi Arabia,2023,Endometriosis,Prevalence,57.72751969699748,4337.2617595279435
+Saudi Arabia,2023,Endometriosis,YLDs,0.33984246970306825,25.523585230255986
+Saudi Arabia,2023,Polycystic ovarian syndrome,Prevalence,1044.6252138811797,77451.09475603225
+Saudi Arabia,2023,Polycystic ovarian syndrome,YLDs,6.07532386940295,450.32057619937666
+South Africa,2023,Endometriosis,Prevalence,52.90579174176056,9975.280102622502
+South Africa,2023,Endometriosis,YLDs,0.30334646539462723,57.11981766568459
+South Africa,2023,Polycystic ovarian syndrome,Prevalence,453.23997528788794,83870.94330136545
+South Africa,2023,Polycystic ovarian syndrome,YLDs,2.616593917479477,482.4239921940727
+Türkiye,2023,Endometriosis,Prevalence,63.63190072589664,14231.65299456791
+Türkiye,2023,Endometriosis,YLDs,0.37361048079721837,83.1886150217167
+Türkiye,2023,Polycystic ovarian syndrome,Prevalence,782.334384242959,170517.81832077442
+Türkiye,2023,Polycystic ovarian syndrome,YLDs,4.563936996270914,990.2931520520422
+United Kingdom,2023,Endometriosis,Prevalence,63.28213752125152,10290.557023407911
+United Kingdom,2023,Endometriosis,YLDs,0.39280886087531075,63.34631814148704
+United Kingdom,2023,Polycystic ovarian syndrome,Prevalence,1282.6853659595542,205620.2522931018
+United Kingdom,2023,Polycystic ovarian syndrome,YLDs,7.8036382672076465,1235.3067311727334
+United States of America,2023,Endometriosis,Prevalence,39.955470663833914,31162.91079981022
+United States of America,2023,Endometriosis,YLDs,0.2357858547609633,183.21155281596722
+United States of America,2023,Polycystic ovarian syndrome,Prevalence,1117.7206079836315,854457.4222442484
+United States of America,2023,Polycystic ovarian syndrome,YLDs,6.721791674302084,5109.509229315819
+Other 18 G20 countries,2023,Endometriosis,Prevalence,53.506157772586484,457078.8904645066
+Other 18 G20 countries,2023,Endometriosis,YLDs,0.30846628351380384,2629.6408481962044
+Other 18 G20 countries,2023,Polycystic ovarian syndrome,Prevalence,726.4513798094144,6124244.088965053
+Other 18 G20 countries,2023,Polycystic ovarian syndrome,YLDs,4.217267488665726,35456.245970929114

@@ -1,0 +1,210 @@
+{
+  "history_id": "11ac94870d0bb33ad5abd2b59708ab6e",
+  "history_name": "PCOS",
+  "uploads": [
+    {
+      "path": "data/raw/burden_total/IHME-GBD_2023_DATA-1b13e337-1.csv",
+      "name": "GBD2023_infertility_total_raw.csv",
+      "bytes_local": 6729856,
+      "sha256_local": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b",
+      "outputs": [
+        {
+          "id": "40160950115d555eebf77aabacbbed50",
+          "name": "GBD2023_infertility_total_raw.csv",
+          "state": "ok",
+          "file_size": 6729856,
+          "file_ext": "csv",
+          "hid": 10,
+          "sha256_downloaded": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "data/raw/population/IHME-GBD_2023_DATA-916826fb-1.csv",
+      "name": "GBD2023_female_population_raw.csv",
+      "bytes_local": 628106,
+      "sha256_local": "d7202eedb69a9ead4dd4994c1cf02917cca57e23d7d82af1edca32e129ae93ca",
+      "outputs": [
+        {
+          "id": "40160950115d555eb62eb5fd9f64809c",
+          "name": "GBD2023_female_population_raw.csv",
+          "state": "ok",
+          "file_size": 628106,
+          "file_ext": "csv",
+          "hid": 11,
+          "sha256_downloaded": "d7202eedb69a9ead4dd4994c1cf02917cca57e23d7d82af1edca32e129ae93ca",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "data/processed/weights.csv",
+      "name": "GBD2023_standard_weights.csv",
+      "bytes_local": 121,
+      "sha256_local": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d",
+      "outputs": [
+        {
+          "id": "40160950115d555ec453516913e91453",
+          "name": "GBD2023_standard_weights.csv",
+          "state": "ok",
+          "file_size": 121,
+          "file_ext": "csv",
+          "hid": 12,
+          "sha256_downloaded": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "data/raw/pilot/IHME-GBD_2023_DATA-0daed0e5-1.csv",
+      "name": "GBD2023_independent_pilot.csv",
+      "bytes_local": 1654,
+      "sha256_local": "ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0",
+      "outputs": [
+        {
+          "id": "40160950115d555ed013b2b3583d4839",
+          "name": "GBD2023_independent_pilot.csv",
+          "state": "ok",
+          "file_size": 1654,
+          "file_ext": "csv",
+          "hid": 13,
+          "sha256_downloaded": "ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "sources/GBD2023_world_standard_reproduced.docx",
+      "name": "GBD2023_weight_source_Chen_S1.docx",
+      "bytes_local": 15352,
+      "sha256_local": "9e4a745a32fcaaea9a78bcc9a3179014fa6e70042e348acadd2fb94732d1c3b4",
+      "outputs": [
+        {
+          "id": "40160950115d555ef65a65c93a6409c7",
+          "name": "GBD2023_weight_source_Chen_S1.docx",
+          "state": "ok",
+          "file_size": 15352,
+          "file_ext": "binary",
+          "hid": 14
+        }
+      ]
+    },
+    {
+      "path": "docs/weights_provenance.json",
+      "name": "GBD2023_weights_provenance.json",
+      "bytes_local": 805,
+      "sha256_local": "6ede3fa08c66bc390d66da4fdcc7b90f49c53370507ab20772d3de76d2314692",
+      "outputs": [
+        {
+          "id": "40160950115d555e6707b4c0ef7e83ec",
+          "name": "GBD2023_weights_provenance.json",
+          "state": "queued",
+          "file_size": 0,
+          "file_ext": "json",
+          "hid": 15
+        }
+      ]
+    },
+    {
+      "path": "docs/raw_manifest.json",
+      "name": "GBD2023_raw_manifest.json",
+      "bytes_local": 1509,
+      "sha256_local": "65b5495e0c7773f12667e33b3e599648b5fb86810d05dbc7138b94a5e22639fa",
+      "outputs": [
+        {
+          "id": "40160950115d555ea2ec4b7e2e7afed6",
+          "name": "GBD2023_raw_manifest.json",
+          "state": "ok",
+          "file_size": 1509,
+          "file_ext": "json",
+          "hid": 16
+        }
+      ]
+    },
+    {
+      "path": "sources/GBD2023_methods_appendix1.pdf",
+      "name": "GBD2023_methods_appendix1.pdf",
+      "bytes_local": 82917810,
+      "sha256_local": "13abb92a6fa6d898d86684e1fffbf0f5d9e29f2c12ace88aca82aa8445d6b8be",
+      "outputs": [
+        {
+          "id": "40160950115d555efab530a950e0c4e2",
+          "name": "GBD2023_methods_appendix1.pdf",
+          "state": "ok",
+          "file_size": 82917810,
+          "file_ext": "pdf",
+          "hid": 17
+        }
+      ]
+    },
+    {
+      "path": "data/raw/strata_annual/IHME-GBD_2023_DATA-416daf73-1.csv",
+      "name": "GBD2023_primary_secondary_annual_Number.csv",
+      "bytes_local": 7210811,
+      "sha256_local": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f",
+      "outputs": [
+        {
+          "id": "40160950115d555e0b6e566d0ec7f593",
+          "name": "GBD2023_primary_secondary_annual_Number.csv",
+          "state": "ok",
+          "file_size": 7210811,
+          "file_ext": "csv",
+          "hid": 18,
+          "sha256_downloaded": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "data/raw/strata_endpoints/IHME-GBD_2023_DATA-76c5523c-1.csv",
+      "name": "GBD2023_primary_secondary_endpoint_Number_Rate.csv",
+      "bytes_local": 827804,
+      "sha256_local": "5d4c87c8cb2a42e3ec4dd2819e227205273526ed0376144f8c850ebbba5094da",
+      "outputs": [
+        {
+          "id": "40160950115d555ec0b5a6acf9f8474d",
+          "name": "GBD2023_primary_secondary_endpoint_Number_Rate.csv",
+          "state": "ok",
+          "file_size": 827804,
+          "file_ext": "csv",
+          "hid": 19,
+          "sha256_downloaded": "5d4c87c8cb2a42e3ec4dd2819e227205273526ed0376144f8c850ebbba5094da",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "docs/strata_qc.json",
+      "name": "GBD2023_strata_qc.json",
+      "bytes_local": 732,
+      "sha256_local": "23e30edefd5ec0365f82ce995d85192026d6937ee1ef480dc9e495c95a7e0e01",
+      "outputs": [
+        {
+          "id": "40160950115d555e8d40064eb82a9530",
+          "name": "GBD2023_strata_qc.json",
+          "state": "ok",
+          "file_size": 732,
+          "file_ext": "json",
+          "hid": 20
+        }
+      ]
+    },
+    {
+      "path": "docs/raw_manifest.json",
+      "name": "GBD2023_raw_manifest_final.json",
+      "bytes_local": 2913,
+      "sha256_local": "3b116842f0a22188b423f7ff8027e7ecc7c524fb9833f9a88247835340ac834b",
+      "outputs": [
+        {
+          "id": "40160950115d555e070a0e09ef837371",
+          "name": "GBD2023_raw_manifest_final.json",
+          "state": "ok",
+          "file_size": 2913,
+          "file_ext": "json",
+          "hid": 21
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Exploratory China prevalence only; no population projection or future case counts",
+  "criterion": "Each of 7 ages: MAE ratio <0.9 vs naive, both rolling and last10 holdout; all predictions available",
+  "gate_results": [
+    {
+      "cause": "Endometriosis",
+      "model": "ARIMA",
+      "pass_gate": false,
+      "max_mae_ratio": 1.7994809283981976
+    },
+    {
+      "cause": "Endometriosis",
+      "model": "ETS",
+      "pass_gate": false,
+      "max_mae_ratio": 2.100827450203105
+    },
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "model": "ARIMA",
+      "pass_gate": false,
+      "max_mae_ratio": 2.195750408663479
+    },
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "model": "ETS",
+      "pass_gate": false,
+      "max_mae_ratio": 1.7915268071652128
+    }
+  ],
+  "uncertainty": "Validates extrapolation against modeled GBD point series, not independent observed data; no GBD uncertainty propagation"
+}

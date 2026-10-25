@@ -1,0 +1,4796 @@
+[
+  {
+    "location": "Argentina",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2004,
+      2011
+    ],
+    "bic": -327.3476452852118,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2004,
+        "apc_percent": -0.5562512295204397
+      },
+      {
+        "start": 2004,
+        "end": 2011,
+        "apc_percent": 0.490976377978069
+      },
+      {
+        "start": 2011,
+        "end": 2023,
+        "apc_percent": -1.3627913286720195
+      }
+    ],
+    "aapc_percent": -0.6297295254131243,
+    "residual_lag1": 0.17128112154147979,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Argentina",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -127.32383425666623,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -1.3091654084220434
+      }
+    ],
+    "aapc_percent": -1.3091654084220432,
+    "residual_lag1": 0.16999181667105173,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Argentina",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2003,
+      2012
+    ],
+    "bic": -312.72430146860756,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2003,
+        "apc_percent": -0.8076335352996915
+      },
+      {
+        "start": 2003,
+        "end": 2012,
+        "apc_percent": 0.2971743632998939
+      },
+      {
+        "start": 2012,
+        "end": 2023,
+        "apc_percent": -1.3679923212526395
+      }
+    ],
+    "aapc_percent": -0.6952401685263618,
+    "residual_lag1": -0.18252699255913155,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Argentina",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -120.0698357052731,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -1.2489420474727306
+      }
+    ],
+    "aapc_percent": -1.2489420474727306,
+    "residual_lag1": 0.12305966869164602,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Argentina",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2008
+    ],
+    "bic": -320.067957521857,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 2.6291836391286783
+      },
+      {
+        "start": 2000,
+        "end": 2008,
+        "apc_percent": 1.116125421847016
+      },
+      {
+        "start": 2008,
+        "end": 2023,
+        "apc_percent": 0.48535514481924796
+      }
+    ],
+    "aapc_percent": 1.2837583657801164,
+    "residual_lag1": 0.632493911729331,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Argentina",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -133.98739096778903,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.15549987113803618
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 1.1777826120707302
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.22675486933047476
+      }
+    ],
+    "aapc_percent": 0.3508022627466223,
+    "residual_lag1": 0.08503035531889742,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Argentina",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2009
+    ],
+    "bic": -314.2334763438156,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 2.726914987870016
+      },
+      {
+        "start": 2000,
+        "end": 2009,
+        "apc_percent": 1.0048749699481376
+      },
+      {
+        "start": 2009,
+        "end": 2023,
+        "apc_percent": 0.515342563762523
+      }
+    ],
+    "aapc_percent": 1.3145954105238913,
+    "residual_lag1": 0.5780426005130599,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Argentina",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -134.49577366809808,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.12816279053809543
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 1.3006868784983596
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.24839091265858132
+      }
+    ],
+    "aapc_percent": 0.3710564357245454,
+    "residual_lag1": -0.09479707445290567,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2005
+    ],
+    "bic": -272.0670264446044,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": -1.5085782565898487
+      },
+      {
+        "start": 1995,
+        "end": 2005,
+        "apc_percent": 0.2645472435122209
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": -1.202986534832638
+      }
+    ],
+    "aapc_percent": -0.8071324314627553,
+    "residual_lag1": 0.8386765290432503,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -134.22617750416387,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": -2.0487571066251387
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": -0.7291469406326045
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.20499345523127258
+      }
+    ],
+    "aapc_percent": -0.9767407139524099,
+    "residual_lag1": -0.19122591052056445,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2005
+    ],
+    "bic": -280.45327465670255,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": -1.6567679758657978
+      },
+      {
+        "start": 1995,
+        "end": 2005,
+        "apc_percent": 0.35369727217373864
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": -1.1749768366361761
+      }
+    ],
+    "aapc_percent": -0.7877088627879123,
+    "residual_lag1": 0.643087296606306,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -129.78885354146323,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": -1.8328719996493394
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": -0.965355010170707
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.17587622237118208
+      }
+    ],
+    "aapc_percent": -0.9915024141055775,
+    "residual_lag1": -0.0067020053622295316,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1999,
+      2015
+    ],
+    "bic": -386.6466936919105,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1999,
+        "apc_percent": 1.2270706425197373
+      },
+      {
+        "start": 1999,
+        "end": 2015,
+        "apc_percent": -0.11165967446824979
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": 0.6107425357496196
+      }
+    ],
+    "aapc_percent": 0.42696819385736995,
+    "residual_lag1": 0.4370796271511767,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -161.07010975235812,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -0.2358266441706753
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 0.8262788770017652
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.40771249372406554
+      }
+    ],
+    "aapc_percent": 0.28799422851807543,
+    "residual_lag1": -0.4146011288384873,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1999,
+      2015
+    ],
+    "bic": -374.93706831667373,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1999,
+        "apc_percent": 1.1153948124649724
+      },
+      {
+        "start": 1999,
+        "end": 2015,
+        "apc_percent": -0.08018031913648094
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": 0.5798677930287067
+      }
+    ],
+    "aapc_percent": 0.40460803297034376,
+    "residual_lag1": 0.39697972033245615,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Australia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -168.23827608868413,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -0.11011563327413905
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 0.7975922920789602
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.3122578990267126
+      }
+    ],
+    "aapc_percent": 0.2984380862590215,
+    "residual_lag1": -0.22118056492248844,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2010
+    ],
+    "bic": -278.34350636199065,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 2.2154617417568176
+      },
+      {
+        "start": 1994,
+        "end": 2010,
+        "apc_percent": -2.7187591659753485
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 1.4205211638917468
+      }
+    ],
+    "aapc_percent": -0.5138410667321837,
+    "residual_lag1": 0.5642453236398811,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -127.66435880865005,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.6057827123491842
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 2.3794163413733758
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.8129258148799858
+      }
+    ],
+    "aapc_percent": 1.212252880796616,
+    "residual_lag1": -0.22310517258526202,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2010
+    ],
+    "bic": -279.6242997619356,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 2.2887890513703417
+      },
+      {
+        "start": 1994,
+        "end": 2010,
+        "apc_percent": -2.8072692792647205
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 1.49738506608006
+      }
+    ],
+    "aapc_percent": -0.5194088608756114,
+    "residual_lag1": 0.48237297891254743,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -122.35460210801979,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.6707078268101136
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 2.6345165383936147
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.6409725202938638
+      }
+    ],
+    "aapc_percent": 1.2617159668299216,
+    "residual_lag1": -0.20949599772560173,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2010
+    ],
+    "bic": -268.352681474262,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 2.2557803840230792
+      },
+      {
+        "start": 1994,
+        "end": 2010,
+        "apc_percent": -1.0465262638380854
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 1.00409848814465
+      }
+    ],
+    "aapc_percent": 0.1540088905645353,
+    "residual_lag1": 0.7888570641122271,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -153.49403627176247,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.3869234121656893
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.10782432823298241
+      }
+    ],
+    "aapc_percent": 0.9916233784547168,
+    "residual_lag1": 0.28360765430619517,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2010
+    ],
+    "bic": -274.47070731593055,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 2.086359582549564
+      },
+      {
+        "start": 1994,
+        "end": 2010,
+        "apc_percent": -1.0993918407897885
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.9911608795371164
+      }
+    ],
+    "aapc_percent": 0.10288773870173885,
+    "residual_lag1": 0.7814337310735803,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Brazil",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -155.69914251019998,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.3994006504274383
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.03191856699139753
+      }
+    ],
+    "aapc_percent": 0.9766576162703442,
+    "residual_lag1": 0.3680757202445134,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2010,
+      2015
+    ],
+    "bic": -188.41446377299695,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2010,
+        "apc_percent": 0.6414980340551858
+      },
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -8.574260941597098
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": -0.9145068076943753
+      }
+    ],
+    "aapc_percent": -1.1863101592243477,
+    "residual_lag1": 0.8383516920187937,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015
+    ],
+    "bic": -108.80042005789015,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -8.202481590020978
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": -0.9755680500852361
+      }
+    ],
+    "aapc_percent": -3.8201441671260112,
+    "residual_lag1": 0.04404418195071942,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2010,
+      2015
+    ],
+    "bic": -188.62339075409878,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2010,
+        "apc_percent": 0.5870919894649486
+      },
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -8.702823523787966
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": -0.8041192497327482
+      }
+    ],
+    "aapc_percent": -1.21308551225838,
+    "residual_lag1": 0.8318423615345252,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015
+    ],
+    "bic": -106.89712097315478,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -8.378039530887857
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": -0.8576122049739036
+      }
+    ],
+    "aapc_percent": -3.8204965588531925,
+    "residual_lag1": 0.22709430271805106,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2000
+    ],
+    "bic": -378.342713464482,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": 1.2025692635657208
+      },
+      {
+        "start": 1995,
+        "end": 2000,
+        "apc_percent": 1.8152123316989417
+      },
+      {
+        "start": 2000,
+        "end": 2023,
+        "apc_percent": 0.339379785468294
+      }
+    ],
+    "aapc_percent": 0.6922080617811682,
+    "residual_lag1": 0.7582483299816677,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2016
+    ],
+    "bic": -174.5679280430888,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2016,
+        "apc_percent": 0.3384036835106165
+      },
+      {
+        "start": 2016,
+        "end": 2023,
+        "apc_percent": 0.4523834417572663
+      }
+    ],
+    "aapc_percent": 0.39976131969031803,
+    "residual_lag1": 0.33500974024820723,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2000
+    ],
+    "bic": -369.9836316142736,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": 1.233858342810075
+      },
+      {
+        "start": 1995,
+        "end": 2000,
+        "apc_percent": 1.7935464319489467
+      },
+      {
+        "start": 2000,
+        "end": 2023,
+        "apc_percent": 0.33627864321338935
+      }
+    ],
+    "aapc_percent": 0.6915083114928998,
+    "residual_lag1": 0.4659732351517681,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Canada",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2017
+    ],
+    "bic": -152.7591309007718,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2017,
+        "apc_percent": 0.25521303576443805
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "apc_percent": 0.5170791859282698
+      }
+    ],
+    "aapc_percent": 0.3759894562651493,
+    "residual_lag1": 0.18190690242930413,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2006,
+      2010
+    ],
+    "bic": -211.70932447381986,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2006,
+        "apc_percent": -0.6569940264182513
+      },
+      {
+        "start": 2006,
+        "end": 2010,
+        "apc_percent": -5.93726705283437
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.5051911441133798
+      }
+    ],
+    "aapc_percent": -0.8592849864997272,
+    "residual_lag1": 0.12022393844650703,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -80.182900154159,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.40985029462666095
+      }
+    ],
+    "aapc_percent": 0.40985029462666095,
+    "residual_lag1": -0.037654763846420324,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2006,
+      2010
+    ],
+    "bic": -213.06725892756327,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2006,
+        "apc_percent": -0.6244825136360439
+      },
+      {
+        "start": 2006,
+        "end": 2010,
+        "apc_percent": -6.014553704230652
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.5226126645023893
+      }
+    ],
+    "aapc_percent": -0.846664308397466,
+    "residual_lag1": 0.1106957179737609,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -80.52022318887619,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.42858525327526803
+      }
+    ],
+    "aapc_percent": 0.42858525327526803,
+    "residual_lag1": -0.03560256390018005,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2001
+    ],
+    "bic": -316.0291234728776,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": 1.7308131840071006
+      },
+      {
+        "start": 1995,
+        "end": 2001,
+        "apc_percent": 4.130201590531582
+      },
+      {
+        "start": 2001,
+        "end": 2023,
+        "apc_percent": 1.3282670581364386
+      }
+    ],
+    "aapc_percent": 1.8932335358833017,
+    "residual_lag1": 0.6114993820424398,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -155.97650901002865,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": 1.3620644775606385
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": 1.6219786266964915
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.48922098746602694
+      }
+    ],
+    "aapc_percent": 1.192315559727312,
+    "residual_lag1": -0.30128501517068207,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2001
+    ],
+    "bic": -318.383563262017,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": 1.9772058948473448
+      },
+      {
+        "start": 1995,
+        "end": 2001,
+        "apc_percent": 4.129873852348349
+      },
+      {
+        "start": 2001,
+        "end": 2023,
+        "apc_percent": 1.3289101285897027
+      }
+    ],
+    "aapc_percent": 1.9309599359785816,
+    "residual_lag1": 0.6175311172288246,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "China",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -158.3936691014229,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.515086490399263
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.5790236399780961
+      }
+    ],
+    "aapc_percent": 1.2261430231843269,
+    "residual_lag1": -0.03212880786727132,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2004
+    ],
+    "bic": -365.1506982744089,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": -0.26896307942327674
+      },
+      {
+        "start": 1995,
+        "end": 2004,
+        "apc_percent": 0.6053754256237337
+      },
+      {
+        "start": 2004,
+        "end": 2023,
+        "apc_percent": -0.16875140005413214
+      }
+    ],
+    "aapc_percent": 0.02655932552219556,
+    "residual_lag1": 0.8227043117850809,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -187.37168422182714,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -0.08310752285440468
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -0.41220060801439573
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.1842730286696795
+      }
+    ],
+    "aapc_percent": -0.21558976676282798,
+    "residual_lag1": -0.02632142526296699,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2009
+    ],
+    "bic": -344.9480226966733,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": -0.28045983500539784
+      },
+      {
+        "start": 1994,
+        "end": 2009,
+        "apc_percent": 0.15172353848980913
+      },
+      {
+        "start": 2009,
+        "end": 2023,
+        "apc_percent": -0.26797390517384223
+      }
+    ],
+    "aapc_percent": -0.07893723707730713,
+    "residual_lag1": 0.09835599208418103,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -146.08662571903778,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -0.26569040000847816
+      }
+    ],
+    "aapc_percent": -0.26569040000847816,
+    "residual_lag1": 0.13269950930662763,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      1999
+    ],
+    "bic": -406.1206666876841,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": 1.0369663108350151
+      },
+      {
+        "start": 1995,
+        "end": 1999,
+        "apc_percent": 1.3236192509272287
+      },
+      {
+        "start": 1999,
+        "end": 2023,
+        "apc_percent": 0.5470890005248484
+      }
+    ],
+    "aapc_percent": 0.715035988360203,
+    "residual_lag1": 0.5013318884607217,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014
+    ],
+    "bic": -163.78475234816892,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": 0.6701964825845578
+      },
+      {
+        "start": 2014,
+        "end": 2023,
+        "apc_percent": 0.49133431351289353
+      }
+    ],
+    "aapc_percent": 0.5463349537014338,
+    "residual_lag1": 0.2905719690323228,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1999
+    ],
+    "bic": -388.5072232421034,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1999,
+        "apc_percent": 1.0756744825058033
+      },
+      {
+        "start": 1999,
+        "end": 2023,
+        "apc_percent": 0.5233563630159735
+      }
+    ],
+    "aapc_percent": 0.6736885668431304,
+    "residual_lag1": 0.3638326081962489,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "France",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -159.96201061499815,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.4950519143843888
+      }
+    ],
+    "aapc_percent": 0.4950519143843888,
+    "residual_lag1": 0.21812631270302424,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2001,
+      2005
+    ],
+    "bic": -173.66256047496057,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2001,
+        "apc_percent": 3.2923083158577415
+      },
+      {
+        "start": 2001,
+        "end": 2005,
+        "apc_percent": -2.7892892812012215
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": 1.1135698905433236
+      }
+    ],
+    "aapc_percent": 1.349932271691736,
+    "residual_lag1": 0.8677187958095796,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -116.0776873868577,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 5.436247604806463
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -3.080389173100754
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.5534673730527416
+      }
+    ],
+    "aapc_percent": 0.9066086544816927,
+    "residual_lag1": -0.1396587233029725,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2001,
+      2005
+    ],
+    "bic": -173.37314239327847,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2001,
+        "apc_percent": 2.8972969739793206
+      },
+      {
+        "start": 2001,
+        "end": 2005,
+        "apc_percent": -3.126765442307762
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": 1.1661816646859895
+      }
+    ],
+    "aapc_percent": 1.2066263377544204,
+    "residual_lag1": 0.8673042093938645,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -109.04442477508321,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 5.862853353306845
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -3.246503603473532
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.5578416774220328
+      }
+    ],
+    "aapc_percent": 1.0087475022658865,
+    "residual_lag1": -0.1367222849677105,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2000
+    ],
+    "bic": -316.7724558364814,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": 0.7989992371459065
+      },
+      {
+        "start": 1995,
+        "end": 2000,
+        "apc_percent": 2.52187086783739
+      },
+      {
+        "start": 2000,
+        "end": 2023,
+        "apc_percent": 0.4145141994259214
+      }
+    ],
+    "aapc_percent": 0.789348276032595,
+    "residual_lag1": 0.8197087881740899,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -156.105987502705,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.5300773246148033
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 0.9609834417765658
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.039651739379684504
+      }
+    ],
+    "aapc_percent": 0.5111128081702823,
+    "residual_lag1": -0.11924316178697954,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2003,
+      2011
+    ],
+    "bic": -319.42676312726894,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2003,
+        "apc_percent": 1.3504110473287942
+      },
+      {
+        "start": 2003,
+        "end": 2011,
+        "apc_percent": 0.029815175972430445
+      },
+      {
+        "start": 2011,
+        "end": 2023,
+        "apc_percent": 0.5840761599401245
+      }
+    ],
+    "aapc_percent": 0.7502206389222179,
+    "residual_lag1": 0.7008787700698145,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Germany",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -161.34816497511872,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.471632546373718
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 0.975433270020076
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.02466428902121491
+      }
+    ],
+    "aapc_percent": 0.48842668267515094,
+    "residual_lag1": -0.13638304736365545,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2006,
+      2010
+    ],
+    "bic": -305.9233540300394,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2006,
+        "apc_percent": -1.0776555215422206
+      },
+      {
+        "start": 2006,
+        "end": 2010,
+        "apc_percent": -1.870584982777252
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -0.7555432661406858
+      }
+    ],
+    "aapc_percent": -1.0474642929277906,
+    "residual_lag1": 0.3773345806075061,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -123.11081608455254,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -0.7557007756555189
+      }
+    ],
+    "aapc_percent": -0.7557007756555189,
+    "residual_lag1": 0.00914922571838528,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2006,
+      2013
+    ],
+    "bic": -302.2223689436845,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2006,
+        "apc_percent": -1.117949951261266
+      },
+      {
+        "start": 2006,
+        "end": 2013,
+        "apc_percent": -1.8625671330743065
+      },
+      {
+        "start": 2013,
+        "end": 2023,
+        "apc_percent": -0.7531014311385743
+      }
+    ],
+    "aapc_percent": -1.1661283296087477,
+    "residual_lag1": 0.4373086565106654,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -122.39881440227653,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -1.164800839479257
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.16904838339425304
+      }
+    ],
+    "aapc_percent": -0.8594779425671636,
+    "residual_lag1": 0.08249728112021355,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2005,
+      2014
+    ],
+    "bic": -301.1893151046336,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2005,
+        "apc_percent": 1.5591436214209058
+      },
+      {
+        "start": 2005,
+        "end": 2014,
+        "apc_percent": 4.09783225212097
+      },
+      {
+        "start": 2014,
+        "end": 2023,
+        "apc_percent": 0.9453110170960365
+      }
+    ],
+    "aapc_percent": 2.0763970818551285,
+    "residual_lag1": 0.7192787695953271,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -151.32556743240295,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": 3.2033109430931335
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": 1.6096247637889933
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.29070134450438756
+      }
+    ],
+    "aapc_percent": 1.687734494883546,
+    "residual_lag1": -0.25756107098398884,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2005,
+      2011
+    ],
+    "bic": -302.5905044320365,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2005,
+        "apc_percent": 1.4985240893994567
+      },
+      {
+        "start": 2005,
+        "end": 2011,
+        "apc_percent": 4.599873484658241
+      },
+      {
+        "start": 2011,
+        "end": 2023,
+        "apc_percent": 1.2955394257612096
+      }
+    ],
+    "aapc_percent": 1.9812201253122819,
+    "residual_lag1": 0.61212635674251,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "India",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -154.83416135943315,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": 2.1672595177854705
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": 1.562816186597139
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.34840037525835577
+      }
+    ],
+    "aapc_percent": 1.3725076372323355,
+    "residual_lag1": -0.16120552138546135,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2004,
+      2019
+    ],
+    "bic": -294.5472274462919,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2004,
+        "apc_percent": -0.5790030041936512
+      },
+      {
+        "start": 2004,
+        "end": 2019,
+        "apc_percent": -0.8773496243979143
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.4479382655770847
+      }
+    ],
+    "aapc_percent": -0.5909790223600904,
+    "residual_lag1": 0.5824815570731716,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -119.48486928832828,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -0.7903502947581527
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.3438246058895731
+      }
+    ],
+    "aapc_percent": -0.4427455588384678,
+    "residual_lag1": 0.19011633159028393,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2005,
+      2012
+    ],
+    "bic": -288.3954155294625,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2005,
+        "apc_percent": -0.48425650701213446
+      },
+      {
+        "start": 2005,
+        "end": 2012,
+        "apc_percent": -1.5965302096574918
+      },
+      {
+        "start": 2012,
+        "end": 2023,
+        "apc_percent": -0.3565742368406503
+      }
+    ],
+    "aapc_percent": -0.678797900121144,
+    "residual_lag1": 0.49678693858965944,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -123.90973358825302,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -0.7765698479722363
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.5175915261228179
+      }
+    ],
+    "aapc_percent": -0.38015106488299133,
+    "residual_lag1": -0.08182939223986054,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1996,
+      2019
+    ],
+    "bic": -353.5476805901569,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1996,
+        "apc_percent": 1.5961249791950936
+      },
+      {
+        "start": 1996,
+        "end": 2019,
+        "apc_percent": 2.158741752107297
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.34517108228696886
+      }
+    ],
+    "aapc_percent": 1.8348781307405624,
+    "residual_lag1": 0.678249541704475,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -145.94773500381154,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 2.1209261021173713
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.4335157675385162
+      }
+    ],
+    "aapc_percent": 1.5987252307004867,
+    "residual_lag1": 0.3251794219043005,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -305.1199677168016,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2015,
+        "apc_percent": 1.940419597725138
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 2.568360011988259
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.3380601589879711
+      }
+    ],
+    "aapc_percent": 1.8206025408247335,
+    "residual_lag1": 0.851784925075462,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Indonesia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -144.993963533027,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 1.9736445755745187
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 2.7248568936928375
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.29781106098513627
+      }
+    ],
+    "aapc_percent": 1.684425424002588,
+    "residual_lag1": 0.05342091838471552,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1998,
+      2006
+    ],
+    "bic": -254.37621312921752,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1998,
+        "apc_percent": -0.3192003784061302
+      },
+      {
+        "start": 1998,
+        "end": 2006,
+        "apc_percent": 2.546980931179753
+      },
+      {
+        "start": 2006,
+        "end": 2023,
+        "apc_percent": -0.7117169963574469
+      }
+    ],
+    "aapc_percent": 0.1643940369088186,
+    "residual_lag1": 0.5414935110111759,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -112.6351172138664,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -1.2859774602523466
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 1.3806171219429773
+      }
+    ],
+    "aapc_percent": -0.473044210284559,
+    "residual_lag1": -0.06740192852046088,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1998,
+      2006
+    ],
+    "bic": -250.18771122110317,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1998,
+        "apc_percent": -0.4162832214953546
+      },
+      {
+        "start": 1998,
+        "end": 2006,
+        "apc_percent": 2.7153396150633498
+      },
+      {
+        "start": 2006,
+        "end": 2023,
+        "apc_percent": -0.7230591185491696
+      }
+    ],
+    "aapc_percent": 0.17467207543188268,
+    "residual_lag1": 0.5680225429531798,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -111.49749089956602,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -1.357314385379087
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 1.5186713540086594
+      }
+    ],
+    "aapc_percent": -0.4811825165440005,
+    "residual_lag1": -0.014957411797074101,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2005,
+      2010
+    ],
+    "bic": -296.7061049264538,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2005,
+        "apc_percent": 0.9157062391829278
+      },
+      {
+        "start": 2005,
+        "end": 2010,
+        "apc_percent": -1.2224312415155278
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.5818681628173048
+      }
+    ],
+    "aapc_percent": 0.4575778909985808,
+    "residual_lag1": 0.803405759427389,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -166.99361207586207,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.30850107151843403
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 1.1307987467464493
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.017729288202170113
+      }
+    ],
+    "aapc_percent": 0.4710176500949262,
+    "residual_lag1": -0.2732083108887919,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2005,
+      2010
+    ],
+    "bic": -286.22868620989664,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2005,
+        "apc_percent": 1.0079060808586133
+      },
+      {
+        "start": 2005,
+        "end": 2010,
+        "apc_percent": -1.0456167719761311
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 0.5271137686275345
+      }
+    ],
+    "aapc_percent": 0.5049610158955603,
+    "residual_lag1": 0.848872148879366,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Italy",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -168.21992562526006,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.29144089316221644
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 1.0454716640062403
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.008250870218734241
+      }
+    ],
+    "aapc_percent": 0.4354271542086703,
+    "residual_lag1": -0.20282970777284495,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2005
+    ],
+    "bic": -252.85195269519895,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 0.12756758110274316
+      },
+      {
+        "start": 2000,
+        "end": 2005,
+        "apc_percent": -4.838656915333999
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": 0.5435908893967871
+      }
+    ],
+    "aapc_percent": -0.41625828556280847,
+    "residual_lag1": 0.06347100072553571,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -99.14309651100595,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 0.3809473046112408
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 2.0366742793707084
+      }
+    ],
+    "aapc_percent": 0.8875197392271175,
+    "residual_lag1": -0.17458759978380975,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2005
+    ],
+    "bic": -248.9349366005204,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 0.12369840794748449
+      },
+      {
+        "start": 2000,
+        "end": 2005,
+        "apc_percent": -5.055826043428496
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": 0.5401795296895838
+      }
+    ],
+    "aapc_percent": -0.45373329166383597,
+    "residual_lag1": 0.12293966699215354,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -98.4390909860019,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 0.37548880990473227
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 2.162655571000239
+      }
+    ],
+    "aapc_percent": 0.9220307813217467,
+    "residual_lag1": -0.1722609316798404,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2013
+    ],
+    "bic": -359.8154849024115,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 0.29346749797755994
+      },
+      {
+        "start": 2000,
+        "end": 2013,
+        "apc_percent": -0.1802574460079865
+      },
+      {
+        "start": 2013,
+        "end": 2023,
+        "apc_percent": 0.4882268272223805
+      }
+    ],
+    "aapc_percent": 0.16544897393033994,
+    "residual_lag1": 0.4832995054127729,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -140.87705199350447,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -0.03272916695951685
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 0.8369413439197902
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.17703850387209666
+      }
+    ],
+    "aapc_percent": 0.2987290717599552,
+    "residual_lag1": 0.09657185251752463,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2013
+    ],
+    "bic": -367.4177380618836,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 0.24255190689681372
+      },
+      {
+        "start": 2000,
+        "end": 2013,
+        "apc_percent": -0.1755418748832315
+      },
+      {
+        "start": 2013,
+        "end": 2023,
+        "apc_percent": 0.4295145642010565
+      }
+    ],
+    "aapc_percent": 0.1341650841119689,
+    "residual_lag1": 0.4421258530345601,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Japan",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -142.4714206100339,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -0.02181888804094624
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 0.7274310973433207
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.1514019212079353
+      }
+    ],
+    "aapc_percent": 0.2615133254847242,
+    "residual_lag1": 0.0843628980222043,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2005,
+      2011
+    ],
+    "bic": -327.37708744292445,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2005,
+        "apc_percent": -1.392307440218336
+      },
+      {
+        "start": 2005,
+        "end": 2011,
+        "apc_percent": 0.18076486767612815
+      },
+      {
+        "start": 2011,
+        "end": 2023,
+        "apc_percent": -1.4446749863967676
+      }
+    ],
+    "aapc_percent": -1.1272438634038227,
+    "residual_lag1": 0.7692603328795948,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -152.49459329872437,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": -1.0695363023838829
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": -1.683048077859159
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -1.0788421827469579
+      }
+    ],
+    "aapc_percent": -1.3088107332055225,
+    "residual_lag1": -0.14688682635946998,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2005,
+      2010
+    ],
+    "bic": -344.83785872252304,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2005,
+        "apc_percent": -1.4926240984358727
+      },
+      {
+        "start": 2005,
+        "end": 2010,
+        "apc_percent": 0.47709125125655605
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -1.3682184534151092
+      }
+    ],
+    "aapc_percent": -1.147546583422938,
+    "residual_lag1": 0.6154427114416525,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -148.23932640762797,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": -1.1416289255759973
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": -1.6707236112165407
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.9870661366810843
+      }
+    ],
+    "aapc_percent": -1.2980289078424856,
+    "residual_lag1": -0.09156125548403073,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2010
+    ],
+    "bic": -283.1379329473507,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 5.49397696633695
+      },
+      {
+        "start": 1994,
+        "end": 2010,
+        "apc_percent": -1.4783195510015106
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 1.2275321685638099
+      }
+    ],
+    "aapc_percent": 0.4076330751419559,
+    "residual_lag1": 0.5600438718258729,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -146.0732556588987,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.7142625972318426
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 2.3441884415412613
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.13626414225328393
+      }
+    ],
+    "aapc_percent": 0.9492251546019949,
+    "residual_lag1": -0.11507492960048388,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2010
+    ],
+    "bic": -285.4963780981461,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 5.033175511838716
+      },
+      {
+        "start": 1994,
+        "end": 2010,
+        "apc_percent": -1.4935414201405928
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": 1.2229346989329026
+      }
+    ],
+    "aapc_percent": 0.34505577146613936,
+    "residual_lag1": 0.5730631267001008,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Mexico",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -146.03476950019012,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.7050924400473692
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 2.3321684800360254
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.0986512525423626
+      }
+    ],
+    "aapc_percent": 0.9537384205025381,
+    "residual_lag1": -0.13528370157641167,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1998,
+      2011
+    ],
+    "bic": -325.96302412325815,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1998,
+        "apc_percent": -0.7516473684855016
+      },
+      {
+        "start": 1998,
+        "end": 2011,
+        "apc_percent": -1.043485492594645
+      },
+      {
+        "start": 2011,
+        "end": 2023,
+        "apc_percent": -0.41398703395393094
+      }
+    ],
+    "aapc_percent": -0.7442058042528139,
+    "residual_lag1": 0.26055645452959686,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [],
+    "bic": -126.14101750499447,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -0.4342275076401565
+      }
+    ],
+    "aapc_percent": -0.4342275076401565,
+    "residual_lag1": 0.2170339268908426,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1996,
+      2013
+    ],
+    "bic": -326.440044484248,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1996,
+        "apc_percent": -0.5335639584087353
+      },
+      {
+        "start": 1996,
+        "end": 2013,
+        "apc_percent": -1.1353150203942755
+      },
+      {
+        "start": 2013,
+        "end": 2023,
+        "apc_percent": -0.40789901758536234
+      }
+    ],
+    "aapc_percent": -0.8060682071639167,
+    "residual_lag1": 0.30863081666067865,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -130.57492912032396,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -0.7334328411573244
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.17159963728869804
+      }
+    ],
+    "aapc_percent": -0.4558356596167556,
+    "residual_lag1": 0.07314533731430385,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2010,
+      2019
+    ],
+    "bic": -306.8209456868361,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2010,
+        "apc_percent": 0.0843626075697262
+      },
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.6441414619632433
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.3061786142902173
+      }
+    ],
+    "aapc_percent": 0.5343416435627998,
+    "residual_lag1": 0.6153956978067594,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -121.32918280983257,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.6513314138330328
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.30061401718788955
+      }
+    ],
+    "aapc_percent": 1.233799982087988,
+    "residual_lag1": 0.3884328514383746,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2011,
+      2019
+    ],
+    "bic": -303.1366562345296,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2011,
+        "apc_percent": 0.05613335793960726
+      },
+      {
+        "start": 2011,
+        "end": 2019,
+        "apc_percent": 1.665540144007836
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.2929442908232743
+      }
+    ],
+    "aapc_percent": 0.47272325305940177,
+    "residual_lag1": 0.6285289979329324,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Other 18 G20 countries",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -120.87131982355741,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 1.0357405491645568
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 2.142256615276857
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.0637265427728262
+      }
+    ],
+    "aapc_percent": 1.0738341813115702,
+    "residual_lag1": 0.1523191672053308,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2011,
+      2016
+    ],
+    "bic": -261.618875242742,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2011,
+        "apc_percent": -0.300532715135987
+      },
+      {
+        "start": 2011,
+        "end": 2016,
+        "apc_percent": -2.289503054316056
+      },
+      {
+        "start": 2016,
+        "end": 2023,
+        "apc_percent": -0.44481028628826885
+      }
+    ],
+    "aapc_percent": -0.6350026545962854,
+    "residual_lag1": 0.8580578712476921,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -142.62170071348544,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -2.5106576790033155
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -1.005409784849637
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.12758035620160726
+      }
+    ],
+    "aapc_percent": -1.3193881070068243,
+    "residual_lag1": -0.14525708054122594,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2012,
+      2016
+    ],
+    "bic": -257.819575756566,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2012,
+        "apc_percent": -0.3696101017697718
+      },
+      {
+        "start": 2012,
+        "end": 2016,
+        "apc_percent": -2.9840838215070566
+      },
+      {
+        "start": 2016,
+        "end": 2023,
+        "apc_percent": -0.3550977361281164
+      }
+    ],
+    "aapc_percent": -0.6871629885733949,
+    "residual_lag1": 0.7658056946219077,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2016
+    ],
+    "bic": -129.060320148193,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2016,
+        "apc_percent": -2.632307732694739
+      },
+      {
+        "start": 2016,
+        "end": 2023,
+        "apc_percent": -0.41775429548031073
+      }
+    ],
+    "aapc_percent": -1.4460462720303355,
+    "residual_lag1": 0.047621290719964834,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2006
+    ],
+    "bic": -224.49504373926257,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 2.810581062104496
+      },
+      {
+        "start": 2000,
+        "end": 2006,
+        "apc_percent": -2.8367535563092323
+      },
+      {
+        "start": 2006,
+        "end": 2023,
+        "apc_percent": 1.9407297009597306
+      }
+    ],
+    "aapc_percent": 1.3154812509518785,
+    "residual_lag1": 0.8034305085794589,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015
+    ],
+    "bic": -125.76562252321658,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 4.653468021617744
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": 0.5169245271363098
+      }
+    ],
+    "aapc_percent": 2.088191979946302,
+    "residual_lag1": -0.06767905544903566,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2006
+    ],
+    "bic": -225.44316896302553,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": 2.725304467094925
+      },
+      {
+        "start": 2000,
+        "end": 2006,
+        "apc_percent": -2.7328851860071
+      },
+      {
+        "start": 2006,
+        "end": 2023,
+        "apc_percent": 1.8873139324145016
+      }
+    ],
+    "aapc_percent": 1.2823365908131155,
+    "residual_lag1": 0.8121003173222892,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Republic of Korea",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015
+    ],
+    "bic": -125.38429713826194,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 4.549571995791066
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": 0.45568517937732766
+      }
+    ],
+    "aapc_percent": 2.0109348439852726,
+    "residual_lag1": -0.07090347418687754,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1999,
+      2014
+    ],
+    "bic": -296.66754218407084,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1999,
+        "apc_percent": -1.5419637224226364
+      },
+      {
+        "start": 1999,
+        "end": 2014,
+        "apc_percent": 1.1491718806558793
+      },
+      {
+        "start": 2014,
+        "end": 2023,
+        "apc_percent": -0.7948263630969196
+      }
+    ],
+    "aapc_percent": -0.12200164743095462,
+    "residual_lag1": 0.7247052943102205,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -148.47442568294906,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.8693931722433795
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -1.3614320998673899
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.384477951131761
+      }
+    ],
+    "aapc_percent": -0.20715710090644257,
+    "residual_lag1": 0.15555800633249925,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1999,
+      2014
+    ],
+    "bic": -300.3273058974828,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1999,
+        "apc_percent": -1.5214134548245757
+      },
+      {
+        "start": 1999,
+        "end": 2014,
+        "apc_percent": 1.1114286784663459
+      },
+      {
+        "start": 2014,
+        "end": 2023,
+        "apc_percent": -0.8082833854432316
+      }
+    ],
+    "aapc_percent": -0.13695446932394134,
+    "residual_lag1": 0.7186215544243991,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -147.42375433495113,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.8493543607557053
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -1.3660920504051766
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.4235172707473689
+      }
+    ],
+    "aapc_percent": -0.2282670864350159,
+    "residual_lag1": 0.23818064577000342,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1998,
+      2019
+    ],
+    "bic": -365.96558834727944,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1998,
+        "apc_percent": 0.5448805391652912
+      },
+      {
+        "start": 1998,
+        "end": 2019,
+        "apc_percent": 1.157780874562919
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.7478433047432826
+      }
+    ],
+    "aapc_percent": 0.7762801038643377,
+    "residual_lag1": 0.5723964199788563,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -159.03009039490865,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.0792798742572254
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.6720709911000402
+      }
+    ],
+    "aapc_percent": 0.5371387326915578,
+    "residual_lag1": -0.39441956057247657,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1998,
+      2019
+    ],
+    "bic": -365.56172522545376,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1998,
+        "apc_percent": 0.4965285600805578
+      },
+      {
+        "start": 1998,
+        "end": 2019,
+        "apc_percent": 1.1578471005751207
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.8098713176350768
+      }
+    ],
+    "aapc_percent": 0.7569360619803972,
+    "residual_lag1": 0.534148059372364,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Russian Federation",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -158.96027363395686,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.101929577978558
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.7638647398864299
+      }
+    ],
+    "aapc_percent": 0.5241329966691322,
+    "residual_lag1": -0.48639311474365016,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2005
+    ],
+    "bic": -329.14107105952144,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": -2.3705951100800284
+      },
+      {
+        "start": 2000,
+        "end": 2005,
+        "apc_percent": -0.7692164008034335
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": -1.4535364708254943
+      }
+    ],
+    "aapc_percent": -1.629250781050625,
+    "residual_lag1": 0.7194835770266906,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -159.310379823773,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -1.3542761553026856
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -1.9720548290927091
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.5646487901591062
+      }
+    ],
+    "aapc_percent": -1.3029512589072356,
+    "residual_lag1": 0.3207474913494966,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2004
+    ],
+    "bic": -317.60270071470427,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": -2.397284171539237
+      },
+      {
+        "start": 2000,
+        "end": 2004,
+        "apc_percent": -0.8650147617713582
+      },
+      {
+        "start": 2004,
+        "end": 2023,
+        "apc_percent": -1.3653366485738136
+      }
+    ],
+    "aapc_percent": -1.6188771550646255,
+    "residual_lag1": 0.45195636584607585,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -140.7423270591913,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -1.5545282057492085
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.6053514223522847
+      }
+    ],
+    "aapc_percent": -1.2634432734388557,
+    "residual_lag1": -0.15074578207021114,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2019
+    ],
+    "bic": -384.4254787685885,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 0.7580119188386262
+      },
+      {
+        "start": 1994,
+        "end": 2019,
+        "apc_percent": 1.2121443152653801
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.31626340587872764
+      }
+    ],
+    "aapc_percent": 1.0480322133224775,
+    "residual_lag1": 0.0793826468411632,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -149.60915327407443,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.2013191120944595
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.30952216950711126
+      }
+    ],
+    "aapc_percent": 0.9260788554585113,
+    "residual_lag1": -0.302763291000985,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2019
+    ],
+    "bic": -357.23744441445604,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": 0.8425978860928953
+      },
+      {
+        "start": 1994,
+        "end": 2019,
+        "apc_percent": 1.1989827343497315
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.3013186231753267
+      }
+    ],
+    "aapc_percent": 1.0465300537110702,
+    "residual_lag1": 0.35946613080795714,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "Saudi Arabia",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -144.36492983252998,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 1.2175740569333076
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.2527929142252844
+      }
+    ],
+    "aapc_percent": 0.9197335584635145,
+    "residual_lag1": -0.2394097324906842,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2019
+    ],
+    "bic": -308.0898840851289,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": -3.0809143118590887
+      },
+      {
+        "start": 1994,
+        "end": 2019,
+        "apc_percent": -0.77227063274308
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 1.708670289502465
+      }
+    ],
+    "aapc_percent": -0.758389747899003,
+    "residual_lag1": 0.2987876259336636,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -119.7873861659498,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -0.8960834114423597
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 1.892626375633633
+      }
+    ],
+    "aapc_percent": -0.046246639099571316,
+    "residual_lag1": -0.18274588468073164,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2019
+    ],
+    "bic": -319.21890030781515,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": -2.306295222384245
+      },
+      {
+        "start": 1995,
+        "end": 2019,
+        "apc_percent": -0.7951624706468328
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 1.4724608975259088
+      }
+    ],
+    "aapc_percent": -0.7541061149864516,
+    "residual_lag1": 0.0588200611889908,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -123.14261166788107,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": -0.813625065420966
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 1.4696226811284487
+      }
+    ],
+    "aapc_percent": -0.11661380046980435,
+    "residual_lag1": -0.2888906419519522,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1995,
+      2007
+    ],
+    "bic": -263.19251336709124,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1995,
+        "apc_percent": -1.0715517555371499
+      },
+      {
+        "start": 1995,
+        "end": 2007,
+        "apc_percent": 1.9519243448003514
+      },
+      {
+        "start": 2007,
+        "end": 2023,
+        "apc_percent": 0.25449477415837696
+      }
+    ],
+    "aapc_percent": 0.6651568359519987,
+    "residual_lag1": 0.6833983241154655,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2016
+    ],
+    "bic": -119.64034745001244,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2016,
+        "apc_percent": -0.7799762144829685
+      },
+      {
+        "start": 2016,
+        "end": 2023,
+        "apc_percent": 1.2020995474771987
+      }
+    ],
+    "aapc_percent": 0.2824225541555724,
+    "residual_lag1": -0.07789453110626658,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1994,
+      2008
+    ],
+    "bic": -264.3969555907049,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1994,
+        "apc_percent": -1.3305963560953755
+      },
+      {
+        "start": 1994,
+        "end": 2008,
+        "apc_percent": 1.680189438825039
+      },
+      {
+        "start": 2008,
+        "end": 2023,
+        "apc_percent": 0.1965198817644065
+      }
+    ],
+    "aapc_percent": 0.63577063700427,
+    "residual_lag1": 0.6689490473928675,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "South Africa",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2016
+    ],
+    "bic": -118.56909637461548,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2016,
+        "apc_percent": -0.7813048061089934
+      },
+      {
+        "start": 2016,
+        "end": 2023,
+        "apc_percent": 1.1705000430918397
+      }
+    ],
+    "aapc_percent": 0.26494118674095746,
+    "residual_lag1": -0.12378045857336474,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2000,
+      2004
+    ],
+    "bic": -337.9543625972657,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2000,
+        "apc_percent": -0.5174753880110935
+      },
+      {
+        "start": 2000,
+        "end": 2004,
+        "apc_percent": -2.311840448958609
+      },
+      {
+        "start": 2004,
+        "end": 2023,
+        "apc_percent": -0.24831963820828454
+      }
+    ],
+    "aapc_percent": -0.5821793527554527,
+    "residual_lag1": 0.7277168819078806,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2019
+    ],
+    "bic": -171.98229568863417,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": -0.36989744109854106
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "apc_percent": -0.23844965847771177
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.6238502484354312
+      }
+    ],
+    "aapc_percent": -0.39760915070769154,
+    "residual_lag1": -0.03711384323610312,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1997,
+      2005
+    ],
+    "bic": -322.5673399200033,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1997,
+        "apc_percent": -0.5482063503550232
+      },
+      {
+        "start": 1997,
+        "end": 2005,
+        "apc_percent": -1.6410605868525552
+      },
+      {
+        "start": 2005,
+        "end": 2023,
+        "apc_percent": -0.5811832705892176
+      }
+    ],
+    "aapc_percent": -0.8321912768880999,
+    "residual_lag1": 0.5948487278037254,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2014,
+      2018
+    ],
+    "bic": -157.22171415870835,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2014,
+        "apc_percent": -0.9641278199585984
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "apc_percent": -0.44154043834679385
+      },
+      {
+        "start": 2018,
+        "end": 2023,
+        "apc_percent": -0.882037333871939
+      }
+    ],
+    "aapc_percent": -0.7720081649398484,
+    "residual_lag1": 0.010678780428059474,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2012,
+      2017
+    ],
+    "bic": -252.60763555554215,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2012,
+        "apc_percent": 1.0090908121258804
+      },
+      {
+        "start": 2012,
+        "end": 2017,
+        "apc_percent": 0.010477973719983527
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "apc_percent": 2.4935078624656293
+      }
+    ],
+    "aapc_percent": 1.1250294912835346,
+    "residual_lag1": 0.35214673239940913,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2017
+    ],
+    "bic": -98.08365559911708,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2017,
+        "apc_percent": 0.09941773449023196
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "apc_percent": 2.4635233856992613
+      }
+    ],
+    "aapc_percent": 1.1836882030392992,
+    "residual_lag1": -0.11592497835168193,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2010,
+      2017
+    ],
+    "bic": -249.03036259280944,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2010,
+        "apc_percent": 0.9585788660642638
+      },
+      {
+        "start": 2010,
+        "end": 2017,
+        "apc_percent": -0.1932293456317677
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "apc_percent": 1.9794458811126556
+      }
+    ],
+    "aapc_percent": 0.8975499992403047,
+    "residual_lag1": 0.5243256001860532,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "T\u00fcrkiye",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2017
+    ],
+    "bic": -102.70411904494559,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2017,
+        "apc_percent": -0.2770803120455361
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "apc_percent": 2.010153421377886
+      }
+    ],
+    "aapc_percent": 0.7721229352051382,
+    "residual_lag1": -0.134917134881601,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2004,
+      2010
+    ],
+    "bic": -189.94474250903326,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2004,
+        "apc_percent": 3.7302692417938292
+      },
+      {
+        "start": 2004,
+        "end": 2010,
+        "apc_percent": -7.11224137595679
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -0.7927787906716438
+      }
+    ],
+    "aapc_percent": -0.10118798655019832,
+    "residual_lag1": 0.7288891509527535,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -161.6468251459511,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -0.7530931532382384
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -0.979264929106258
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.18211006821329537
+      }
+    ],
+    "aapc_percent": -0.6475241222141715,
+    "residual_lag1": 0.32773886535829677,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2004,
+      2010
+    ],
+    "bic": -188.88794171264257,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2004,
+        "apc_percent": 3.740355989176467
+      },
+      {
+        "start": 2004,
+        "end": 2010,
+        "apc_percent": -7.147606729777464
+      },
+      {
+        "start": 2010,
+        "end": 2023,
+        "apc_percent": -0.7335549916473963
+      }
+    ],
+    "aapc_percent": -0.08049537354261431,
+    "residual_lag1": 0.7337661956928877,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -155.59451019662615,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": -0.6712507191572037
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": -0.905436764019616
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": -0.18618539948087462
+      }
+    ],
+    "aapc_percent": -0.5944757644413641,
+    "residual_lag1": -0.1394391857306869,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1999,
+      2008
+    ],
+    "bic": -379.244035844745,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1999,
+        "apc_percent": 1.6279454366186905
+      },
+      {
+        "start": 1999,
+        "end": 2008,
+        "apc_percent": -0.0755540624875066
+      },
+      {
+        "start": 2008,
+        "end": 2023,
+        "apc_percent": 0.296941788220939
+      }
+    ],
+    "aapc_percent": 0.5561106345703819,
+    "residual_lag1": 0.5509585683301316,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015
+    ],
+    "bic": -155.80126494705158,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 0.1761660070648401
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "apc_percent": 0.38424229626608025
+      }
+    ],
+    "aapc_percent": 0.30416185577795335,
+    "residual_lag1": 0.3379814780126474,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1999,
+      2007
+    ],
+    "bic": -379.6437713940006,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1999,
+        "apc_percent": 1.6187210518082016
+      },
+      {
+        "start": 1999,
+        "end": 2007,
+        "apc_percent": -0.10837172846938374
+      },
+      {
+        "start": 2007,
+        "end": 2023,
+        "apc_percent": 0.2618389683408001
+      }
+    ],
+    "aapc_percent": 0.5398866906719207,
+    "residual_lag1": 0.5310619988915624,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United Kingdom",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2016
+    ],
+    "bic": -156.9653677550071,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2016,
+        "apc_percent": 0.17669126165517943
+      },
+      {
+        "start": 2016,
+        "end": 2023,
+        "apc_percent": 0.37600167182584715
+      }
+    ],
+    "aapc_percent": 0.28396302453646594,
+    "residual_lag1": 0.2280597913834175,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1996,
+      2007
+    ],
+    "bic": -223.23821188868774,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1996,
+        "apc_percent": -1.4102921395487906
+      },
+      {
+        "start": 1996,
+        "end": 2007,
+        "apc_percent": -4.010475125519587
+      },
+      {
+        "start": 2007,
+        "end": 2023,
+        "apc_percent": 0.8012601546493532
+      }
+    ],
+    "aapc_percent": -1.2280678979497754,
+    "residual_lag1": 0.46747954299608124,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Endometriosis",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -90.83763355013144,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 0.08991665026448782
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 3.598135093708357
+      }
+    ],
+    "aapc_percent": 1.1565245714983037,
+    "residual_lag1": 0.24935727548237122,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      1996,
+      2007
+    ],
+    "bic": -220.7976641112545,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 1996,
+        "apc_percent": -1.4033777927321756
+      },
+      {
+        "start": 1996,
+        "end": 2007,
+        "apc_percent": -4.163652917174297
+      },
+      {
+        "start": 2007,
+        "end": 2023,
+        "apc_percent": 0.755547807915106
+      }
+    ],
+    "aapc_percent": -1.3010850159606921,
+    "residual_lag1": 0.4860145402281113,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Endometriosis",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2019
+    ],
+    "bic": -91.13657897307327,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2019,
+        "apc_percent": 0.0008928626121085637
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 3.735187004978222
+      }
+    ],
+    "aapc_percent": 1.1353591804260186,
+    "residual_lag1": 0.22087149582484547,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2001,
+      2011
+    ],
+    "bic": -197.65342859018585,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2001,
+        "apc_percent": 0.021403262088629034
+      },
+      {
+        "start": 2001,
+        "end": 2011,
+        "apc_percent": -3.075903114715339
+      },
+      {
+        "start": 2011,
+        "end": 2023,
+        "apc_percent": 4.912967509862516
+      }
+    ],
+    "aapc_percent": 0.8076842533023926,
+    "residual_lag1": 0.42253996292236856,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "Prevalence",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -72.79670906114953,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 2.6189358174154123
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 8.872862335844598
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.44513010986112594
+      }
+    ],
+    "aapc_percent": 3.817762482088907,
+    "residual_lag1": 0.08659337837608393,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 1990,
+    "end": 2023,
+    "knots": [
+      2001,
+      2011
+    ],
+    "bic": -198.05242638329352,
+    "segments": [
+      {
+        "start": 1990,
+        "end": 2001,
+        "apc_percent": -0.08234334119299277
+      },
+      {
+        "start": 2001,
+        "end": 2011,
+        "apc_percent": -3.145297292508869
+      },
+      {
+        "start": 2011,
+        "end": 2023,
+        "apc_percent": 4.939682516120999
+      }
+    ],
+    "aapc_percent": 0.7602775341001193,
+    "residual_lag1": 0.4146367601785156,
+    "intervals": "Not estimated: point-estimate trend only"
+  },
+  {
+    "location": "United States of America",
+    "cause": "Polycystic ovarian syndrome",
+    "measure": "YLDs",
+    "start": 2010,
+    "end": 2023,
+    "knots": [
+      2015,
+      2019
+    ],
+    "bic": -73.00586494621841,
+    "segments": [
+      {
+        "start": 2010,
+        "end": 2015,
+        "apc_percent": 2.7599110932487636
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "apc_percent": 8.77510012215427
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "apc_percent": 0.4116565171241448
+      }
+    ],
+    "aapc_percent": 3.8332366275814134,
+    "residual_lag1": 0.0776801200529227,
+    "intervals": "Not estimated: point-estimate trend only"
+  }
+]

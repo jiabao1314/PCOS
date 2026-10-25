@@ -1,0 +1,13 @@
+{
+  "version": "GBD 2023",
+  "burden_rows": 36176,
+  "population_rows": 4522,
+  "countries": 19,
+  "years": 34,
+  "ages": 7,
+  "duplicate_keys": 0,
+  "bounds_ordered": true,
+  "max_denominator_rate_absolute_difference": 1.5006662579253316e-11,
+  "weights": "pending authoritative source verification",
+  "draws": "not included in official results CSV"
+}

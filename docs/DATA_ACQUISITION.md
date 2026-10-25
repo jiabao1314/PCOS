@@ -36,3 +36,21 @@ weights.csv：age_name, weight。必须为官方标准人口的对应年龄权�
 仅当试下载、病例定义、分母、标准人口权重、损伤与病因ID、总不孕定义和原始清单均经来源核对后，更新config/data_review.json并锁定版本。缺失不作0。核验lower≤val≤upper，患病率0–100000，人数允许小数，Number/同龄女性人口×100000应重现Rate。主分析要求完整年度×年龄×国家×病因×指标×度量网格。
 
 无联合匹配draws时，派生差值、率比、合并参照及分解只给点估计。不得把各国上下限相加或从边际UI独立抽样伪造draws。
+
+## 2026-10-25实际取得记录
+
+已锁定GBD2023，未混合GBD2021：
+
+| 数据 | 任务ID | 实际行数 |
+|---|---|---:|
+| 独立中国35–39岁、2023小样本 | 0daed0e53f5ad8ebdf0dc00c23ccd110 | 8 |
+| Total infertility，两病因、Number/Rate、Prevalence/YLDs | 1b13e3376135ab41a4bc5e0ffc60e84f | 36,176 |
+| 同版女性年龄别人口 | 916826fb285f8d3c3e53117dd2133406 | 4,522 |
+| 原发/继发、1990及2023、原始Number/Rate | 76c5523c52f32caf342843daf2326fa4 | 4,256 |
+| 原发/继发、完整年度、Number | 416daf735b9fc79bec35506514424e73 | 36,176 |
+
+下载入口：https://vizhub.healthdata.org/gbd-results/ 。任务链接生成的文件仅保留7天，故原始ZIP与CSV均另存研究者私有档案。年度分层率按Number/同版人口×100000计算；端点独立Rate用于核验。完整Number+Rate分层请求超过账户剩余额度，采用此减少重复输出的方案；不绕过账户限额。
+
+已核验的标识：Female sex_id=2；Total infertility rei_id=198；Primary infertility=220；Secondary infertility=221；Endometriosis cause_id=607；Polycystic ovarian syndrome cause_id=605；Prevalence measure_id=5；YLD measure_id=3；Population measure_id=44；Number metric_id=1；Rate metric_id=3。
+
+标准权重来自Chen等PLOS ONE 2026，doi:10.1371/journal.pone.0351539，S1表（补充文件s002），六位小数。来源与舍入限制见weights_provenance.json。不能宣称已取得IHME机器精度原始权重。

@@ -1,0 +1,32 @@
+{
+  "inputs_sha256": {
+    "population.csv": "d53e366841deaadcafe2231524ed466aa801538868fd86fe4db34664111f39e8",
+    "burden.csv": "c5dcaf31762103ecb40489f9d74e66029201ef8ad9752045fea3c6a9ba96c1ac",
+    "weights.csv": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d"
+  },
+  "review": {
+    "approved": true,
+    "gbd_version": "GBD 2023",
+    "pilot_verified": true,
+    "case_definition_verified": true,
+    "denominator_verified": true,
+    "weights_source_verified": true,
+    "infertility_labels_and_ids_verified": true,
+    "type_total_verified": true,
+    "raw_manifest_verified": true,
+    "joint_draws_available": false,
+    "notes": "Official impairment CSVs and matching population checked. Case definition read in GBD2023 appendix1 PDF pp685-691. Total Infertility rei_id198. Standard weights taken from published GBD2023 reproduction (Chen 2026 S1 Table); original machine-precision IHME weights unavailable. See docs/weights_provenance.json."
+  },
+  "python": "3.12.14",
+  "rows": 18088,
+  "version": "GBD 2023",
+  "derived_intervals": "None; no jointly aligned draws supplied",
+  "executed_additional_modules": [
+    "trend_sensitivity",
+    "endpoint_sensitivity",
+    "forecast_validation",
+    "make_figures",
+    "analyze_strata"
+  ],
+  "limitations": "No joint GBD draws; published rounded weights; author declarations pending; forecasts withheld after failed validation"
+}
