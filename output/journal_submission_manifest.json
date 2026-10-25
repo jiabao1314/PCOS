@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-25",
+  "target_journal": "Reproductive Health",
+  "article_type": "Research",
+  "ranking_basis": "2025 CAS upgraded table, public NCEPU archive; not authenticated CAS subscription certificate",
+  "analysis_revision": "d66e3e17fbc85b23e58a96395bb112236a2b0289",
+  "github_repository": "https://github.com/jiabao1314/PCOS",
+  "published_files_hash_verified": 32,
+  "drive_files": [
+    {
+      "type": "main",
+      "local_file": "output/pdf/GBD2023_Reproductive_Health_main.pdf",
+      "bytes": 115793,
+      "sha256": "760ca8cf1295a339bf49de0a5ab399d5b93260496bf5b5d38a4f026db5f5761e",
+      "drive_file_id": "1YzPvErgQXudO1UbtOyJimOJYmJ4s9OQV",
+      "drive_parent": "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey",
+      "drive_metadata_size_and_parent_verified": true
+    },
+    {
+      "type": "supplement",
+      "local_file": "output/pdf/GBD2023_Reproductive_Health_Additional_file_1.pdf",
+      "bytes": 156669,
+      "sha256": "d0f1288da074a584e8a965c4b724c8c0bc3c2a8650d6e2dd8950d654c1a62f59",
+      "drive_file_id": "1w0RMK7lYqoBlJzJQyQaTohXHu_pBQ1-0",
+      "drive_parent": "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey",
+      "drive_metadata_size_and_parent_verified": true
+    },
+    {
+      "type": "journal_audit",
+      "local_file": "docs/JOURNAL_AND_NOVELTY_AUDIT_ZH.md",
+      "bytes": 11889,
+      "sha256": "5d4bc9398884ca1262c8e855d0970c0c787dd6a2967bb463fe2f90b0b4b9fdf1",
+      "drive_file_id": "1xMfTI1YBRDiZDnTxU1w2Uy20XXIWA60e",
+      "drive_parent": "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey",
+      "drive_metadata_size_and_parent_verified": true
+    },
+    {
+      "type": "complete_revision_package",
+      "local_file": "output/PCOS_Reproductive_Health_revision_2026-10-25.zip",
+      "bytes": 2943540,
+      "sha256": "52ef7a7f53ffad8e1ca61a57add6f8038cf01e1a5a5ac559a412c88821cb0d05",
+      "drive_file_id": "1IqhPrYK3D10CbPOZQz3yY5nKvnhRbb4T",
+      "drive_parent": "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey",
+      "drive_metadata_size_and_parent_verified": true
+    }
+  ],
+  "quality_checks": {
+    "GBD2023_Reproductive_Health_main": {
+      "pages": 18,
+      "bytes": 115793,
+      "all_fonts_embedded": true,
+      "fonts": 11,
+      "replacement_character": false,
+      "unresolved_reference": false
+    },
+    "GBD2023_Reproductive_Health_Additional_file_1": {
+      "pages": 8,
+      "bytes": 156669,
+      "all_fonts_embedded": true,
+      "fonts": 19,
+      "replacement_character": false,
+      "unresolved_reference": false
+    },
+    "abstract_word_count": 262,
+    "plain_english_word_count": 181,
+    "manual_page_breaks": 0,
+    "visual_review": "All 18 main and 8 supplementary pages inspected after final compilation; no clipping, overlap or unreadable symbols.",
+    "core_tests": "9 passed",
+    "new_analysis_checks": "720 exact decompositions and subtype additivity; independent pipeline endpoint agreement"
+  },
+  "status": "Targeted research draft; not submitted",
+  "remaining_author_tasks": [
+    "actual authors, institutional addresses and correspondence",
+    "funding, competing interests and contributions",
+    "applicable institutional ethics determination",
+    "all-author approval and exclusive-consideration confirmation",
+    "permanent archive identifier and journal-acceptable source-input access arrangements"
+  ],
+  "scientific_limitations": [
+    "no joint draws: no propagated GBD intervals",
+    "no independent epidemiological validation",
+    "unresolved terminal-year endometriosis instability",
+    "post hoc reference-composition decomposition and endpoint analyses"
+  ],
+  "galaxy": "Previously verified raw source inputs remain in PCOS history; no additional source data were downloaded in this journal revision."
+}
