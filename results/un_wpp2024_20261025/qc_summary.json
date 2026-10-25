@@ -1,0 +1,35 @@
+{
+  "study": "GBD 2023 age-specific modeled infertility rates with independent UN WPP 2024 reference-country population shares",
+  "population_weighing_only": true,
+  "WPP_source_SHA256": "a04d7d1486a5eb2832cc812d599448f0a71e8ac9e1e7e6fa4066673d6a2487cd",
+  "WPP_subset_SHA256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9",
+  "GBD_source_SHA256": {
+    "IHME-GBD_2023_DATA-1b13e337-1.csv": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b",
+    "IHME-GBD_2023_DATA-916826fb-1.csv": "d7202eedb69a9ead4dd4994c1cf02917cca57e23d7d82af1edca32e129ae93ca",
+    "IHME-GBD_2023_DATA-416daf73-1.csv": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f",
+    "weights.csv": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d"
+  },
+  "record_count": {
+    "UNWPP_country_year_age": 4522,
+    "GBD_population_country_year_age": 4522,
+    "GBD_rate_country_year_age_cause_subtype": 27132
+  },
+  "weights": {
+    "15": 0.1674897252385321,
+    "20": 0.1576312077946745,
+    "25": 0.15339198467575396,
+    "30": 0.14794242092373844,
+    "35": 0.13796872916254127,
+    "40": 0.12421449094972338,
+    "45": 0.11136144125503636
+  },
+  "population_shares_tvd": {
+    "mean": 0.011332055596872998,
+    "max": 0.030206167491049676,
+    "2023_age_mean": 0.013196541147636843
+  },
+  "GBD_reference_2023_pcos_gap": -121.37621632629896,
+  "national_marginal_UIs_not_joint_draws": true,
+  "GBD_draws": false,
+  "interpretation": "Descriptive point estimates, scenario sensitivity not posterior uncertainty, no independent disease-rate validation by UN population."
+}
