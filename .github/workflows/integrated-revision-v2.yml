@@ -1,0 +1,60 @@
+name: Integrated infertility revision v2
+on:
+  push:
+    paths:
+      - '.github/workflows/integrated-revision-v2.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install reproducibility dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends r-base-core r-cran-survey texlive-latex-extra texlive-fonts-recommended
+          python -m pip install numpy pandas scipy matplotlib statsmodels
+      - name: Acquire hash-locked official public-use observations
+        shell: bash
+        run: |
+          mkdir -p data/external/nsfg results/external/Rcheck output/revision_v2
+          curl --fail --location --connect-timeout 20 --max-time 180 'https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NSFG/NSFG-2022-2023-FemRespPUFData.zip' -o data/external/nsfg/source.zip
+          echo 'ef9f0ec715ce7909b50f1ea67958166b2cd1ad3482c4b083174898ec8c7ceaaa  data/external/nsfg/source.zip' | sha256sum -c -
+          unzip -o data/external/nsfg/source.zip -d data/external/nsfg
+      - name: Independent R and Python computations
+        run: |
+          Rscript src/nsfg_independent_Rcheck.R data/external/nsfg/NSFG_2022_2023_FemRespPUFData.csv results/external/Rcheck | tee results/external/Rcheck/console.log
+          python src/check_nsfg_python.py | tee results/external/python_check.log
+          python -m unittest discover -s tests -v > output/revision_v2/core_tests.log 2>&1
+      - name: Integrate real survey estimates and compile revised sources
+        run: |
+          python src/revision_v2_build.py
+          python src/finish_revision_v2.py
+      - name: Publish only code, aggregate results and manuscript products
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add manuscript docs/revision_v2_repository_build.json results/external sources/revision_v2
+          git add -f output/revision_v2 output/audit_previous/main_before_v2.tex output/audit_previous/supplement_before_v2.tex
+          git diff --cached --name-only > /tmp/staged_paths.txt
+          if grep -E '^data/|\.env|credential|token' /tmp/staged_paths.txt; then echo 'Unsafe staged path'; exit 1; fi
+          git commit -m 'Publish integrated NSFG replication, covariance and revised TeX/PDF drafts [skip ci]' || test -z "$(git status --porcelain --untracked-files=no)"
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        with:
+          name: integrated-infertility-revision-v2
+          retention-days: 30
+          if-no-files-found: error
+          path: |
+            output/revision_v2/
+            output/build_v2/*.log
+            manuscript/
+            docs/revision_v2_repository_build.json
+            results/external/
+            sources/revision_v2/
