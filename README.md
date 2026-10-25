@@ -60,3 +60,9 @@ GBD 2023的95%不确定区间来自posterior draws，但公共Results Tool仅发
 Human Reproduction作为高风险一区候选；Reproductive Health作为二区备选。相近研究已覆盖常规GBD更新、趋势、分型、分解与预测，因此不能以这些内容宣称“首次”。当前较强的增量是：显式区分中国率、参照国家率、参照国家人口份额对国际差距解释的影响，并用独立NSFG个体数据展示结局定义/分母变化如何改变关联强度。
 
 仍需真实研究团队最终补充和确认作者、单位、通讯作者/ORCID、伦理适用认定、基金、利益冲突、作者贡献、全体作者批准及永久归档DOI；项目尚未正式投稿。
+
+## 2026-10-25 NSFG source-file age-standardization update
+
+- [New independently verified NSFG age-standardized analysis and methodological limitations](docs/NSFG_AGE_STANDARDIZATION_AUDIT_20261025.md)
+- [Compiled updated manuscript, supplemental PDFs, full TeX project, code, Figure S6 and Table S7](output/PCOS_NSFG_age_standardized_manuscript_update_20261025.zip)
+- The new sensitivity analyses concern US survey-reported diagnoses and broad fertility problems, not GBD cause attribution; jointly indexed GBD draws remain unavailable.
