@@ -1,0 +1,5 @@
+authors_year,source,verified_scope,relevance,verification_status
+Lu 2026,https://pubmed.ncbi.nlm.nih.gov/42373487/,"China/global; females 15-49; both infertility causes; GBD2021; Joinpoint and BAPC","Close comparator; country set and year updates alone insufficient novelty",PubMed abstract read 2026-10-25
+Xu 2025,https://pmc.ncbi.nlm.nih.gov/articles/PMC12750491/,"GBD2021; endometriosis PCOS unexplained infertility and attributable infertility","Close outcome overlap; focus on age-gap contributions and demographic explanation",Abstract/search excerpt read 2026-10-25
+GBD2023 Europe 2026,https://pubmed.ncbi.nlm.nih.gov/42866635/,"Europe; two diseases; incidence and DALYs","Disease burden study differs from infertility impairment; do not substitute disease outcomes",Abstract/search excerpt read 2026-10-25
+GATHER,https://data.who.int/about/data/gather,"Reporting input data estimation and uncertainty","Use applicable items and code provenance",Official WHO page read 2026-10-25

@@ -1,0 +1,16 @@
+{
+  "protocol_date": "2026-10-25",
+  "version_preference": ["GBD 2023", "GBD 2021"],
+  "start_year": 1990,
+  "countries": ["China", "Argentina", "Australia", "Brazil", "Canada", "France", "Germany", "India", "Indonesia", "Italy", "Japan", "Republic of Korea", "Mexico", "Russian Federation", "Saudi Arabia", "South Africa", "Türkiye", "United Kingdom", "United States of America"],
+  "ages": ["15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49"],
+  "causes": ["Endometriosis", "Polycystic ovarian syndrome"],
+  "measures": ["Prevalence", "YLDs"],
+  "metrics": ["Number", "Rate"],
+  "sex": "Female",
+  "main_type": "Total",
+  "rate_scale": 100000,
+  "number_rate_rtol": 0.0001,
+  "number_rate_atol": 0.000001,
+  "derived_uncertainty": "Point estimates only unless jointly aligned draws are independently verified"
+}

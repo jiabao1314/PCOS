@@ -1,0 +1,19 @@
+test_log_linear (test_core.CoreTests.test_log_linear) ... ok
+test_piecewise_and_zero_rejection (test_core.CoreTests.test_piecewise_and_zero_rejection) ... ok
+test_scale_only (test_core.CoreTests.test_scale_only) ... ok
+test_shapley_reversal_and_additivity (test_core.CoreTests.test_shapley_reversal_and_additivity) ... ok
+test_standardization_and_pooling (test_core.CoreTests.test_standardization_and_pooling) ... ok
+test_bad_denominator_rejected (test_pipeline.PipelineTests.test_bad_denominator_rejected) ... ok
+test_full_pipeline_and_additivity (test_pipeline.PipelineTests.test_full_pipeline_and_additivity) ... ok
+test_gate_blocks_without_review (test_pipeline.PipelineTests.test_gate_blocks_without_review) ... ok
+test_wrong_outcome_and_missing_cell_rejected (test_pipeline.PipelineTests.test_wrong_outcome_and_missing_cell_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.908s
+
+OK
+
+Expected real-data invocation outcome:
+DATA GATE CLOSED: official pilot and source metadata not verified
+
+All numerical fixtures were synthetic and temporary; no empirical GBD analysis was performed.

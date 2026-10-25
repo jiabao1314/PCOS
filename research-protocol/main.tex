@@ -1,0 +1,97 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{amsmath,booktabs,enumitem,xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist{nosep,leftmargin=*}
+\title{\textbf{Age-specific disparities and demographic contributions to cause-specific infertility in China and other G20 countries}\\[6pt]\large Pre-analysis protocol}
+\author{Research project: PCOS}
+\date{25 October 2026}
+\begin{document}
+\maketitle
+\begin{center}
+\fbox{\parbox{0.90\linewidth}{\textbf{Data acquisition pending.} This document specifies planned analyses. It contains no empirical GBD findings and is not a completed research manuscript.}}
+\end{center}
+\begin{abstract}
+This protocol defines a comparison of infertility associated with endometriosis and polycystic ovarian syndrome among women aged 15--49 years in China and the other 18 G20 sovereign-country members. The primary estimand is the difference in restricted-age standardized prevalence rates between China and a population-pooled reference excluding China. Age contributions and a symmetric demographic decomposition will distinguish changes in population size, age composition, and age-specific prevalence. Source-data verification precedes analysis. GBD 2023 is preferred; a complete GBD 2021 analysis will be used only if the required newer outcome data are unavailable. No empirical results are reported.
+\end{abstract}
+\section{Rationale and research question}
+Recent work already examines both causes of infertility in China and globally using GBD 2021, Joinpoint regression, and Bayesian age--period--cohort projections \cite{lu}. A related study considers infertility attributable to these conditions \cite{xu}. The intended contribution therefore concerns the age distribution and demographic explanation of international differences, rather than a change in country set alone. Whether this contribution supports a competitive manuscript will depend on verified results.
+
+The principal questions are: How does China's standardized infertility burden differ from that of the other G20 countries? Which ages account for the signed difference and its change? How much of each country's case-count change reflects population size, age composition, and age-specific prevalence?
+
+\section{Population, outcomes, and data gate}
+The fixed set comprises China, Argentina, Australia, Brazil, Canada, France, Germany, India, Indonesia, Italy, Japan, the Republic of Korea, Mexico, the Russian Federation, Saudi Arabia, South Africa, T\"urkiye, the United Kingdom, and the United States. The EU and AU are not added as extra population units. Ages are 15--19 through 45--49 years in seven five-year groups, female only, 1990 through the selected release's final year.
+
+The target is \emph{infertility impairment associated with each cause}, not the total disease burden of endometriosis or PCOS. Prevalence is primary and years lived with disability (YLDs) secondary, each as Number and Rate. The pilot extract will cover China, the final year, ages 35--39, both causes, both measures and both metrics. Exact labels, IDs, the infertility case definition, female denominators, total versus primary/secondary classification, and official standard weights must be verified before the data gate opens.
+
+The complete main-outcome grid contains 36,176 cells for GBD 2023 or 34,048 for GBD 2021, before optional strata. Missing cells are not zero. All source files, queries, extraction dates, and SHA256 hashes will be retained. The data-release choice remains unresolved while source access is pending.
+
+\section{Estimands and calculations}
+For country $c$, age $a$, and year $t$, let $C_{cat}$ denote cases and $P_{cat}$ female population. The reference excludes China:
+\[
+ r_{\mathrm{ref},at}=100000
+ \frac{\sum_{c\ne\mathrm{China}}C_{cat}}
+      {\sum_{c\ne\mathrm{China}}P_{cat}}.
+\]
+Official standard-population weights $w_a$ are renormalized within the study ages, $\widetilde w_a=w_a/\sum_a w_a$. With rates already expressed per 100,000,
+\[
+ \mathrm{ASPR}_{gt}=\sum_a\widetilde w_a r_{gat},\qquad
+ D_t=\mathrm{ASPR}_{\mathrm{China},t}-\mathrm{ASPR}_{\mathrm{ref},t},
+ \qquad RR_t=\frac{\mathrm{ASPR}_{\mathrm{China},t}}{\mathrm{ASPR}_{\mathrm{ref},t}}.
+\]
+The same age weights define the restricted-age YLD rate. Country ASRs are not directly averaged. Official all-age ASRs do not replace restricted-age estimates.
+
+The primary temporal contrast is $D_T-D_{1990}$. An upward signed difference does not necessarily mean a larger absolute gap. The age contribution is
+\[
+ A_{at}=\widetilde w_a(r_{\mathrm{China},at}-r_{\mathrm{ref},at}),
+ \qquad \sum_a A_{at}=D_t.
+\]
+Age contributions to gap change are $A_{aT}-A_{a,1990}$. A separate descriptive benchmark difference applies the two sets of age-specific rates to China's observed population:
+\[
+ B_t=\sum_a P_{\mathrm{China},at}
+ \frac{r_{\mathrm{China},at}-r_{\mathrm{ref},at}}{100000}.
+\]
+$B_t$ is not an estimate of preventable cases, treatment demand, or policy effects. The two causes are reported separately and are not summed as unique women.
+
+\section{Decomposition, trends, and sensitivity}
+For each country and cause,
+\[
+ C_t=N_t\sum_a f_{at}p_{at},
+\]
+where $N_t$ is the female population aged 15--49, $f_{at}$ its age shares, and $p_{at}$ the age-specific infertility proportion. The contribution of each of the three factors is the average marginal change across all six replacement orders. Contributions must sum to $C_T-C_{1990}$. Counts may be fractional. The main interval is 1990--$T$; 2010--$T$ is a prespecified sensitivity. Contributions are reported as counts, without unstable percentages when net change is near zero.
+
+Continuous segmented log-linear trends use zero to two knots, at least five annual observations per segment, and BIC selection. The current code implements transparent grid-search point estimates with residual lag-one diagnostics; it does not claim NCI permutation-test inference. Formal AR(1) sensitivity and conditional intervals require further implementation and review with the actual series.
+
+Other sensitivity analyses use fixed 1990 country weights within each age, leave-one-country-out references, ages 20--49 with renormalized weights, and alternative periods. Both GBD versions may be compared over their overlap only if each is complete; they will not be spliced.
+
+\section{Uncertainty and conditional extensions}
+Jointly aligned draws will be used only if their indexing and joint interpretation can be verified from the source. Without them, derived pooled rates, differences, ratios, age contributions, and decompositions receive point estimates only. Marginal lower and upper bounds cannot reconstruct joint uncertainty. Original official intervals retain the UI label; conditional regression and forecast intervals use CI and PI as appropriate.
+
+Forecasting to 2035 is conditional on the main analysis and historical backtesting. Age-specific logit models will compare fixed final-year rates, low-order nonseasonal ARIMA, and damped ETS using an initial training period of at least 20 years, expanding-window horizons of one, three, and five years, and a final ten-year holdout. If gains over the simple baseline are unstable, only a fixed-rate population scenario will be emphasized. Population forecasts require a documented link to GBD denominators. Aggregate forecast uncertainty must address cross-age dependence. These forecasting modules have not yet been run.
+
+NSFG is optional independent evidence with different definitions; it cannot validate Chinese GBD estimates or calibrate cause attribution.
+
+\section{Reporting and current status}
+Planned outputs are a first/final-year burden table; 19-country rates; annual ASPR, $D$ and $RR$; age-gap contributions; and demographic decomposition with benchmark differences. Forecast figures are conditional. Applicable GATHER items will guide reporting of inputs, methods, uncertainty, and code \cite{gather}.
+
+As of 25 October 2026, the proposal, prior chat, project destinations, and core analysis code have been reviewed or established. The GBD Results interface requires login and displays automated-traffic verification. No target CSV, official standard weights, empirical analysis, or final SCI paper has been produced. Institutional ethics status, author details, funding, competing interests, and journal classification remain to be verified rather than invented.
+
+\small
+\begin{thebibliography}{9}
+\bibitem{lu} Lu S, Zhang P, Qian H, Li HM.
+Analysis and projection of the disease burden of endometriosis and polycystic ovary syndrome-related infertility among women aged 15--49 years in China and globally from 1990 to 2021.
+\emph{Zhonghua Liu Xing Bing Xue Za Zhi}. 2026;47:1091--1098.
+doi:10.3760/cma.j.cn112338-20250929-00691.
+\bibitem{xu} Xu Y et al.
+Global, regional, and national burden of endometriosis, PCOS, and unexplained infertility and their attribution to infertility, 1990--2021.
+\emph{J Evid Based Med}. 2025;18:e70100.
+doi:10.1111/jebm.70100.
+\bibitem{gather} Stevens GA et al.
+Guidelines for accurate and transparent health estimates reporting: the GATHER statement.
+\emph{Lancet}. 2016.
+doi:10.1016/S0140-6736(16)30388-9.
+\end{thebibliography}
+\end{document}

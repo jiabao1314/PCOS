@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "gbd_version": null,
+  "pilot_verified": false,
+  "case_definition_verified": false,
+  "denominator_verified": false,
+  "weights_source_verified": false,
+  "infertility_labels_and_ids_verified": false,
+  "type_total_verified": false,
+  "raw_manifest_verified": false,
+  "joint_draws_available": false,
+  "notes": "Await official small-sample CSV and metadata. Do not set true based on disease-only data."
+}
