@@ -1,43 +1,62 @@
-# 中国与G20病因特异不孕：GBD 2023
+# 中国与G20病因特异不孕：GBD 2023 + 独立NSFG复现
 
-真实数据分析：19个G20主权国家、女性15–49岁、1990–2023年，分别研究PCOS及子宫内膜异位症所致不孕。已生成英文论文草稿、结果表和图。总不孕主分析输入为36,176行，年度分层Number另有36,176行、端点分层验证4,256行，匹配人口为4,522行；同版、完整网格和分母核验通过。
+当前版本（2026-10-25）完成了19个G20主权国家、女性15–49岁、1990–2023年PCOS及子宫内膜异位症相关不孕的GBD 2023比较分析，并新增美国NSFG 2022–2023个体公共调查的独立复杂抽样复现，用于检验结局定义与分母敏感性。
 
-- [执行状态与限制](docs/STATUS.md)
-- [英文论文TeX](manuscript/main.tex)
-- [Reproductive Health定向主稿PDF](output/pdf/GBD2023_Reproductive_Health_main.pdf)
-- [独立补充材料PDF](output/pdf/GBD2023_Reproductive_Health_Additional_file_1.pdf)
-- [创新性、不足与分区核验](docs/JOURNAL_AND_NOVELTY_AUDIT_ZH.md)
-- [可编译TeX及图表源文件包](output/GBD2023_Reproductive_Health_TeX_sources.zip)
-- [Additional file 2派生数据与代码](output/GBD2023_Reproductive_Health_Additional_file_2.zip)
-- [预分析方案](docs/PROTOCOL_ZH.md)
-- [数据下载与字典](docs/DATA_ACQUISITION.md)
-- [结果表](results/tables)
-- [图表](results/figures)
+## 当前主成果
 
-本轮新增：PCOS差值缩小的58.5%对应参照国内各年龄人口份额变化，不能把全部趋近归结为中国率变化。69.4%的继发分型贡献与58.5%的参照构成贡献属于相交维度，不可相加。
+- [最终数据与同步状态](docs/FINAL_DATA_STATUS_2026-10-25.md)
+- [Human Reproduction候选稿TeX](manuscript/human_reproduction.tex)
+- [Reproductive Health备选稿TeX](manuscript/main.tex)
+- [Human Reproduction候选稿PDF](output/revision_v2/PCOS_Human_Reproduction_candidate_v2.pdf)
+- [Reproductive Health整合稿PDF](output/revision_v2/PCOS_Reproductive_Health_integrated_v2.pdf)
+- [Additional file 1](output/revision_v2/PCOS_Additional_file_1_v2.pdf)
+- [Additional file 2：代码与派生结果](output/revision_v2/PCOS_Additional_file_2_code_results_v2.zip)
+- [可编译TeX源文件包](output/revision_v2/PCOS_manuscript_TeX_sources_v2.zip)
+- [NSFG复现结果](results/external)
+- [外部证据与GBD draws核验](docs/EXTERNAL_TRIANGULATION_AND_DRAWS_AUDIT_2026-10-25.md)
+- [Galaxy上传清单与状态](docs/GALAXY_PCOS_UPLOAD_MANIFEST_2026-10-25.json)
+- [创新性、不足与期刊核验](docs/JOURNAL_AND_NOVELTY_AUDIT_ZH.md)
 
-主要发现：中国PCOS相关不孕ASPR从333.56升至605.08/10万，仍低于其余18国合并参照，但差距缩小；病例增加主要对应年龄别患病水平变化，人口因素部分抵消。分层显示原发不孕仍明显低于参照，继发不孕接近参照。内异症2023年近似参照的结果对末年和参照构成敏感，不能概括为稳定长期收敛。
+## GBD 2023 主分析
 
-## 复现
+总不孕主分析输入36,176行，年度原发/继发Number 36,176行，端点分层Number/Rate 4,256行，匹配女性人口4,522行；同版、完整网格、分母和端点Rate核验通过。
 
-Python 3.12。将合法取得的原始数据放入数据字典指定目录；源数据因IHME条款及文件体量，存于研究者的Galaxy/Drive档案，不包含于本公开代码仓库。预分析方案的早期“未取得数据”表述属于执行前记录，以当前STATUS和回执为准。
+核心结果包括：
+- 中国PCOS相关不孕15–49岁标准化患病率从333.56升至605.08/10万；其他18个G20主权国家合并参照从606.48升至726.45/10万。
+- 中国减参照差值由−272.92变为−121.38/10万，净变化+151.54。
+- 对称分解：中国产生率变化+271.51、参照国家率变化−208.62、参照国家人口份额变化+88.65；后者对应净差值变化的58.5%。年度链式敏感性给出+87.11（57.5%）。
+- 原发/继发分型显示，继发不孕贡献69.4%的净差值变化；这与58.5%的参照构成贡献属于相交维度，不能相加。
+- 内异症2023年接近参照对终点年份敏感；2022总差值为−8.76，而2023为−0.20/10万，因此不作稳定长期收敛结论。
+- 预测模型未稳定优于朴素基准，故不报告长期外推作为主结果。
 
-```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python src/prepare_inputs.py
-.venv/bin/python src/analyze.py
-.venv/bin/python src/trend_sensitivity.py
-.venv/bin/python src/endpoint_sensitivity.py
-.venv/bin/python src/forecast_validation.py
-.venv/bin/python src/make_figures.py
-.venv/bin/python src/analyze_strata.py
-.venv/bin/python src/manuscript_tables.py
-.venv/bin/python src/reference_composition.py
-.venv/bin/python -m unittest discover -s tests -v
-tectonic --outdir output/pdf manuscript/main.tex
-```
+## NSFG 2022–2023 独立个体复现
 
-预测验证比较朴素模型、训练期AICc选择的低阶ARIMA和阻尼ETS，完整结果包含失败保留判断。没有通过稳定增益条件，故不外推未来病例。TeX项目自带矢量图及表，可独立编译；重新生成图后需同步复制PDF到manuscript/figures。
+GitHub Actions直接从CDC官方 `ftp.cdc.gov` 下载公共女性受访者ZIP并锁定SHA-256：`ef9f0ec715ce7909b50f1ea67958166b2cd1ad3482c4b083174898ec8c7ceaaa`。原始文件5,586名女性、1,912个变量；主要20–49岁访谈年龄域4,855人，CDC筛查年龄敏感性4,856人。
 
-无联合匹配draws，不生成派生GBD不确定区间；趋势CI仅条件模型CI。基准差额不称可避免病例，国家层面差异不作因果或个体解释。测试使用临时人工固定值，仅验证数学和数据门控，不作为研究结果。稿件中的作者及利益声明待真实团队填写，2025升级版分区已核验，Reproductive Health医学2区为首选；录用没有保证。
+设计使用 `WGT2022_2023`、`VEST`、`VECL`；20个分层、80个PSU、60个设计自由度。R `survey` 与独立Python线性化实现重建36个比例和36×36联合设计协方差，达到数值一致。
+
+主要无调整结果：
+- PCOS：广义当前生育困难45.16% vs 17.07%，PR 2.65（95%设计CI 2.30–3.04）；当前婚姻/同居人群12个月不孕PR 1.77（1.22–2.57）。
+- 内异症：广义当前生育困难33.00% vs 18.59%，PR 1.78（1.40–2.25）；当前婚姻/同居人群12个月不孕PR 0.84（0.50–1.43），区间跨1，不支持保护性结论。
+- NSFG用于独立测量/定义敏感性三角验证，不是中国GBD水平、病因归因或终点跳变的直接外部验证。
+
+## GBD联合draws：仍受提供方访问限制
+
+GBD 2023的95%不确定区间来自posterior draws，但公共Results Tool仅发布最终估计和边际区间。当前没有获得跨国家、年龄、年份、病因和不孕类型联合对齐的posterior draw文件。已向IHME Data Team发送正式请求并获得自动收件回执，尚未获数据或批准。
+
+因此：
+- 派生的中国–参照差值、合并标准化率、分型贡献和参照构成分解仍报告点估计；
+- 不从边际lower/upper独立抽样制造伪draws；
+- 国家剔除、权重/终点敏感性和趋势模型CI不冒充GBD posterior uncertainty。
+
+## 云端同步
+
+- GitHub：当前代码、NSFG独立R/Python验证、设计协方差、整合TeX/PDF均已发布。
+- Google Drive `2026PCOS`：已保存官方NSFG审计输入包、Human Reproduction候选稿、Reproductive Health备选稿、补充材料、TeX源文件和完整整合ZIP。
+- Galaxy PCOS历史：既有GBD原始数据仍在；当前Chat浏览器连接仅支持读取、没有Galaxy写入/API工具，因此新增NSFG和整合v2文件已准备为Galaxy上传包，但未虚报已上传。详见上传清单。
+
+## 投稿边界
+
+Human Reproduction作为高风险一区候选；Reproductive Health作为二区备选。相近研究已覆盖常规GBD更新、趋势、分型、分解与预测，因此不能以这些内容宣称“首次”。当前较强的增量是：显式区分中国率、参照国家率、参照国家人口份额对国际差距解释的影响，并用独立NSFG个体数据展示结局定义/分母变化如何改变关联强度。
+
+仍需真实研究团队最终补充和确认作者、单位、通讯作者/ORCID、伦理适用认定、基金、利益冲突、作者贡献、全体作者批准及永久归档DOI；项目尚未正式投稿。
