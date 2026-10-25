@@ -1,0 +1,9 @@
+{
+  "phase": "repository build",
+  "source_zip_sha256": "ef9f0ec715ce7909b50f1ea67958166b2cd1ad3482c4b083174898ec8c7ceaaa",
+  "survey_estimates": 36,
+  "survey_design_df": 60,
+  "GBD_draws_obtained": false,
+  "submitted": false,
+  "note": "Repository build reproduces revised core results. The full locally formatted candidate and complete audited archive are in 2026PCOS."
+}

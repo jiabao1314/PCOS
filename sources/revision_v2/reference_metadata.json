@@ -1,0 +1,1944 @@
+{
+  "pcos": {
+    "doi": "10.1210/clinem/dgad463",
+    "url": "https://api.crossref.org/works/10.1210%2Fclinem%2Fdgad463",
+    "title": [
+      "Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7609-577X",
+        "authenticated-orcid": false,
+        "given": "Helena J",
+        "family": "Teede",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chau Thien",
+        "family": "Tay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joop J E",
+        "family": "Laven",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "Division of Reproductive Endocrinology and Infertility, Department of Obstetrics and Gynaecology, Erasmus Medical Centre , Rotterdam , The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anuja",
+        "family": "Dokras",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Obstetrics and Gynecology, University of Pennsylvania , Philadelphia, PA , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5772-6484",
+        "authenticated-orcid": false,
+        "given": "Lisa J",
+        "family": "Moran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9921-7300",
+        "authenticated-orcid": false,
+        "given": "Terhi T",
+        "family": "Piltonen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynaecology, Medical Research Center Oulu, Research Unit of Clinical Medicine, University of Oulu and Oulu University Hospital , Oulu , Finland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael F",
+        "family": "Costello",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "University of New South Wales , New South Wales , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9498-1708",
+        "authenticated-orcid": false,
+        "given": "Jacky",
+        "family": "Boivin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cymru Fertility and Reproductive Research, School of Psychology, Cardiff University , Cardiff, Wales , UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leanne M",
+        "family": "Redman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pennington Biomedical Research Center , Louisiana State University, Baton Rouge, LA , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacqueline A",
+        "family": "Boyle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "Eastern Health Clinical School, Monash University , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert J",
+        "family": "Norman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "Robinson Research Institute, University of Adelaide , Adelaide, South Australia , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7356-4523",
+        "authenticated-orcid": false,
+        "given": "Aya",
+        "family": "Mousa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anju E",
+        "family": "Joham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "verified DOI registration metadata"
+  },
+  "eshre": {
+    "doi": "10.1093/hropen/hoac009",
+    "url": "https://api.crossref.org/works/10.1093%2Fhropen%2Fhoac009",
+    "title": [
+      "ESHRE guideline: endometriosis"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9870-9581",
+        "authenticated-orcid": false,
+        "given": "Christian M",
+        "family": "Becker",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Nuffield Department of Women’s and Reproductive Health, Endometriosis CaRe Centre, University of Oxford , Oxford, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Attila",
+        "family": "Bokor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynecology, Semmelweis University , Budapest, Hungary"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8671-130X",
+        "authenticated-orcid": false,
+        "given": "Oskari",
+        "family": "Heikinheimo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics & Gynecology, University of Helsinki and Helsinki University Hospital , Helsinki, Finland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9656-493X",
+        "authenticated-orcid": false,
+        "given": "Andrew",
+        "family": "Horne",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "EXPPECT Centre for Endometriosis and Pelvic Pain, MRC Centre for Reproductive Health, University of Edinburgh , Edinburgh, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Femke",
+        "family": "Jansen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "EndoHome—Endometriosis Association Belgium , Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ludwig",
+        "family": "Kiesel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Gynecology and Obstetrics, University Hospital Muenster , Muenster, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kathleen",
+        "family": "King",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Individual Endometriosis Advocate , Ireland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4557-3772",
+        "authenticated-orcid": false,
+        "given": "Marina",
+        "family": "Kvaskoff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Paris-Saclay University, UVSQ, Univ. Paris-Sud, Inserm, Gustave Roussy, “Exposome and Heredity” Team, CESP , Villejuif, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Annemiek",
+        "family": "Nap",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Gynaecology and Obstetrics, Radboudumc , Nijmegen, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katrine",
+        "family": "Petersen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pain Management Centre, UCLH , London, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ertan",
+        "family": "Saridogan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynaecology, University College London Hospital , London, UK"
+          },
+          {
+            "name": "Elizabeth Garrett Anderson Institute for Women’s Health, University College London , London, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carla",
+        "family": "Tomassetti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynaecology, Leuven University Fertility Center, University Hospitals Leuven , Leuven, Belgium"
+          },
+          {
+            "name": "Faculty of Medicine, Department of Development and Regeneration, LEERM (Lab of Endometrium, Endometriosis and Reproductive Medicine), KU Leuven , Leuven, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nehalennia",
+        "family": "van Hanegem",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Reproductive Medicine and Gynecology, University Medical Center Utrecht , Utrecht, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicolas",
+        "family": "Vulliemoz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Woman Mother Child, Fertility Medicine and Gynaecological Endocrinology, Lausanne University Hospital , Lausanne, Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8046-6799",
+        "authenticated-orcid": false,
+        "given": "Nathalie",
+        "family": "Vermeulen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Society of Human Reproduction and Embryology , Strombeek-Bever, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "ESHRE Endometriosis Guideline Group",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Signe",
+        "family": "Altmäe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Baris",
+        "family": "Ata",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Ball",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fabio",
+        "family": "Barra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ercan",
+        "family": "Bastu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexandra",
+        "family": "Bianco-Anil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ulla Breth",
+        "family": "Knudsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Réka",
+        "family": "Brubel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julia",
+        "family": "Cambitzi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Astrid",
+        "family": "Cantineau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying",
+        "family": "Cheong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Angelos",
+        "family": "Daniilidis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bianca",
+        "family": "De Bie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Caterina",
+        "family": "Exacoustos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simone",
+        "family": "Ferrero",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tarek",
+        "family": "Gelbaya",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Josepha",
+        "family": "Goetz-Collinet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gernot",
+        "family": "Hudelist",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Munawar",
+        "family": "Hussain",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tereza",
+        "family": "Indrielle-Kelly",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shaheen",
+        "family": "Khazali",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sujata Lalit",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Umberto",
+        "family": "Leone Roberti Maggiore",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacques W M",
+        "family": "Maas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Helen",
+        "family": "McLaughlin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "José",
+        "family": "Metello",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Velja",
+        "family": "Mijatovic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yasaman",
+        "family": "Miremadi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles",
+        "family": "Muteshi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michelle",
+        "family": "Nisolle",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Engin",
+        "family": "Oral",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "George",
+        "family": "Pados",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dana",
+        "family": "Parades",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicola",
+        "family": "Pluchino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prasanna Raj",
+        "family": "Supramaniam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maren",
+        "family": "Schick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Beata",
+        "family": "Seeber",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Renato",
+        "family": "Seracchioli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antonio Simone",
+        "family": "Laganà",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Stavroulis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linda",
+        "family": "Tebache",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gürkan",
+        "family": "Uncu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Uschi",
+        "family": "Van den Broeck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arno",
+        "family": "van Peperstraten",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Attila",
+        "family": "Vereczkey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Albert",
+        "family": "Wolthuis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pınar Yalçın",
+        "family": "Bahat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chadi",
+        "family": "Yazbeck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "verified DOI registration metadata"
+  },
+  "xu": {
+    "doi": "10.1111/jebm.70100",
+    "url": "https://api.crossref.org/works/10.1111%2Fjebm.70100",
+    "title": [
+      "Global, Regional, and National Burden of Endometriosis, PCOS, and Unexplained Infertility and Their Attribution to Infertility, 1990–2021: Global Burden of Disease Study 2021"
+    ],
+    "authors": [
+      {
+        "given": "Ye",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yulong",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Qianrui",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Department of Nuclear Medicine West China Hospital of Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yiquan",
+        "family": "Xiong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wengxue",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xuehong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yunxiang",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kang",
+        "family": "Zou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "status": "verified DOI registration metadata"
+  },
+  "lu": {
+    "doi": "10.3760/cma.j.cn112338-20250929-00691",
+    "url": "https://api.crossref.org/works/10.3760%2Fcma.j.cn112338-20250929-00691",
+    "status": "not retrieved; existing reference retained",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "wang": {
+    "doi": "10.1186/s10020-026-01548-8",
+    "url": "https://api.crossref.org/works/10.1186%2Fs10020-026-01548-8",
+    "title": [
+      "Global estimates of infertility burden and contributions of congenital, endocrine, metabolic and infectious factors"
+    ],
+    "authors": [
+      {
+        "given": "Jieyan",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chengzi",
+        "family": "Gan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zixuan",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zesen",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Youao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "verified DOI registration metadata"
+  },
+  "feng": {
+    "doi": "10.1186/s12978-025-01966-7",
+    "url": "https://api.crossref.org/works/10.1186%2Fs12978-025-01966-7",
+    "title": [
+      "Epidemiological characteristics of infertility, 1990–2021, and 15-year forecasts: an analysis based on the global burden of disease study 2021"
+    ],
+    "authors": [
+      {
+        "given": "Jiale",
+        "family": "Feng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qingguo",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yangbing",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yiwen",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qin",
+        "family": "Bin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "verified DOI registration metadata"
+  },
+  "chen": {
+    "doi": "10.1371/journal.pone.0351539",
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0351539",
+    "title": [
+      "Burden and temporal trends of female-specific cancers in China: A systematic analysis of the 2023 global burden of disease study"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-4475-3151",
+        "authenticated-orcid": true,
+        "given": "Shaoxing",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaohuang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shaona",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yina",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leijuan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huiqin",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinzhu",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuanfu",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0553-379X",
+        "authenticated-orcid": true,
+        "given": "Zhixing",
+        "family": "Kuang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "verified DOI registration metadata"
+  },
+  "gather": {
+    "doi": "10.1371/journal.pmed.1002056",
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pmed.1002056",
+    "title": [
+      "Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement"
+    ],
+    "authors": [
+      {
+        "given": "Gretchen A.",
+        "family": "Stevens",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leontine",
+        "family": "Alkema",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert E.",
+        "family": "Black",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Ties",
+        "family": "Boerma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2772-2316",
+        "authenticated-orcid": false,
+        "given": "Gary S.",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2109-8081",
+        "authenticated-orcid": false,
+        "given": "Majid",
+        "family": "Ezzati",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John T.",
+        "family": "Grove",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel R.",
+        "family": "Hogan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Margaret C.",
+        "family": "Hogan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Horton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joy E.",
+        "family": "Lawn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ana",
+        "family": "Marušić",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Colin D.",
+        "family": "Mathers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher J. L.",
+        "family": "Murray",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Igor",
+        "family": "Rudan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joshua A.",
+        "family": "Salomon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paul J.",
+        "family": "Simpson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Theo",
+        "family": "Vos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vivian",
+        "family": "Welch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "The GATHER Working Group",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "verified DOI registration metadata"
+  }
+}

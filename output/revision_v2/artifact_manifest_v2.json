@@ -1,0 +1,47 @@
+{
+  "version": "integrated_v2_repository",
+  "submitted": false,
+  "GBD_joint_draws": "not obtained; no propagated derived GBD intervals",
+  "NSFG_joint_covariance": "computed; independently reconstructed in R and Python",
+  "files": [
+    {
+      "file": "PCOS_Additional_file_1_v2.pdf",
+      "bytes": 243140,
+      "sha256": "acd0a4ca68430e21602691a6f13d17c823534769c927fd4c0ef67825609faf86"
+    },
+    {
+      "file": "PCOS_Additional_file_2_code_results_v2.zip",
+      "bytes": 1058344,
+      "sha256": "faea4987cab31958b118794e85dbbcd5025a340f489b5bc5d871f678668f822e"
+    },
+    {
+      "file": "PCOS_Human_Reproduction_candidate_v2.pdf",
+      "bytes": 216453,
+      "sha256": "88eb6feca99b6b05e208f2ff8221fc8e99a284e037000a652c1f5cbf1140bd13"
+    },
+    {
+      "file": "PCOS_Reproductive_Health_integrated_v2.pdf",
+      "bytes": 213976,
+      "sha256": "d47771522f1fa9dcc3b823fc16179bfba8cf633a9556989b900fa2004897f08e"
+    },
+    {
+      "file": "PCOS_manuscript_TeX_sources_v2.zip",
+      "bytes": 254920,
+      "sha256": "c6c1cc8c89ce1d149fabb7b6341d63da8ec6bb533019d82fe5d21a6cfa946945"
+    },
+    {
+      "file": "core_tests.log",
+      "bytes": 945,
+      "sha256": "df82d5a196f309830a4f090cfa30e94edf621d0693b6aef18f9451c6b0125b60"
+    }
+  ],
+  "visual_layout": "requires final local rendered review; compilation alone is not visual validation",
+  "remaining_human_items": [
+    "authorship and affiliations",
+    "corresponding ORCID",
+    "ethics determination",
+    "funding/conflicts",
+    "all-author approval",
+    "permanent archive DOI"
+  ]
+}

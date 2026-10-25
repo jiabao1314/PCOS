@@ -1,0 +1,13 @@
+id,quantity,actual,published,match
+ENDO_diagnosis,percent,6.159187580537028,6.2,True
+ENDO_diagnosis,SE_percent,0.48570156377480306,0.49,True
+PCOS_diagnosis,percent,8.708978814579412,8.7,True
+PCOS_diagnosis,SE_percent,0.5088303835310121,0.51,True
+ENDO_current_problems_all_diagnosed,percent,33.00278587570459,33.0,True
+ENDO_current_problems_all_not_diagnosed,percent,18.592661028989394,18.6,True
+PCOS_current_problems_all_diagnosed,percent,45.16009388970522,45.2,True
+PCOS_current_problems_all_not_diagnosed,percent,17.071538588758745,17.1,True
+ENDO_ever_services_all_diagnosed,percent,30.840714448137614,30.7,False
+ENDO_ever_services_all_not_diagnosed,percent,12.716253443236935,12.7,True
+PCOS_ever_services_all_diagnosed,percent,34.48898885765073,34.5,True
+PCOS_ever_services_all_not_diagnosed,percent,11.802162323986028,11.7,False

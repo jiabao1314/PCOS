@@ -1,0 +1,123 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo,amsmath,amssymb,graphicx,booktabs,longtable,array,caption,setspace,microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[mathlines]{lineno}
+\setstretch{1.2}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\captionsetup{font=small,labelfont=bf}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small GBD 2023: infertility contrasts}\fancyhead[R]{\small Additional file 1}\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{2em}
+\newcommand{\ASPR}{\mathrm{ASPR}}
+\title{Additional file 1: Supplementary methods and results}
+\author{Companion to the Reproductive Health manuscript draft}
+\date{25 October 2026}
+\begin{document}\maketitle
+\subsection*{Additional arithmetic definitions}
+The same-population benchmark is $B_T=\sum_a P_{C,aT}(r_{C,aT}-r_{R,aT})/10^5$. It uses China's actual age distribution rather than standard weights and is not preventable burden. Age-specific contributions to the standardized difference are $w_a(r_{C,at}-r_{R,at})$. The seven published unnormalized standard weights, in ascending age order, are 0.082891, 0.078012, 0.075914, 0.073217, 0.068281, 0.061474 and 0.055113; they sum to 0.494902 before renormalization. References and outcome definitions are given in the main manuscript.
+\section{Supplementary methods and results}
+\renewcommand{\thetable}{S\arabic{table}}\setcounter{table}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}\setcounter{figure}{0}
+\subsection{Decomposition of case-count changes}
+We expressed the case count as $F(N,\boldsymbol f,\boldsymbol p)=N\sum_a f_a p_a$, where $N$ is the total female population aged 15--49, $f_a$ is its age distribution, and $p_a$ is age-specific prevalence as a proportion. For each factor, we averaged its marginal contribution across all six possible replacement orders between the starting and ending states. These Shapley contributions sum exactly to the observed modeled case-count change. We examined 1990--2023 and 2010--2023 for both causes in all 19 countries. Population size here refers specifically to females aged 15--49; age composition refers to redistribution within this range. The age-specific prevalence component includes epidemiological change, ascertainment and modeling changes and cannot be interpreted as a causal risk-factor contribution.
+
+\subsection{Trends, sensitivities and forecast validation}
+We fitted continuous piecewise linear models to log standardized rates, searching integer-year knot locations with zero to two knots and at least five observations per segment, counting shared boundary years in each segment. Model selection used the Bayesian information criterion, including a penalty for knot locations. Segment-specific annual percentage change was $100[\exp(\beta)-1]$; average annual percentage change (AAPC) was obtained from duration-weighted log slopes. These fits summarize modeled trajectories and are not outputs of the proprietary Joinpoint program. AR(1) generalized least-squares refits retained the OLS-selected knots; allowing up to three knots and restricting the period to 2010--2023 were additional sensitivities. Trend confidence intervals are conditional on selected knots and fixed GBD point estimates.
+
+Reference sensitivities used age-specific country population shares fixed at 1990, excluded one reference country at a time, and restricted ages to 20--49 with renormalized weights. Following inspection of the terminal-year endometriosis increase, we added analyses ending in 2021 and 2022; these endpoint analyses were not prespecified. To evaluate numerical sensitivity to published weight rounding, we evaluated all $2^7$ combinations of perturbing unnormalized weights by $\pm0.5\times10^{-6}$. The resulting deterministic envelopes are not uncertainty intervals.
+
+An exploratory forecasting module evaluated each Chinese age-specific prevalence series on the logit scale. Candidates were a constant-last-rate baseline, ARIMA with $p,q\in\{0,1,2\}$ and $d\in\{0,1\}$ selected by training-set corrected AIC, and additive damped-trend exponential smoothing. ARIMA candidates failing convergence were excluded. Rolling training windows contained at least 20 years and assessed horizons 1, 3 and 5; a separate last-10-year holdout assessed horizons 1--10. We specified an exploratory retention rule before running this module: at least 10\% lower mean absolute error (MAE) than the baseline in every age group in both validation schemes, with complete predictions. Future counts would additionally require compatible population projections; none were generated when validation failed. This module was not a validation against independent observed infertility data.
+
+\begin{table}[htbp]\centering\small
+\caption{Shapley decomposition of changes in China's modeled prevalent cases, thousands.}\label{tab:decomp}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrr}\toprule
+Cause & Period & Net change & Population size & Age composition & Prevalence\\\midrule
+\input{tables/decomposition.tex}\end{tabular}
+\caption*{Population size is the female population aged 15--49; age composition is its within-range distribution; prevalence is age-specific modeled infertility prevalence. Contributions may exceed the net change and need not have the same sign. Rounding can cause small displayed discrepancies.}
+\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Restricted-age standardized YLD rates and YLD totals.}\label{tab:yld}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{llrrrrrr}\toprule
+ & & \multicolumn{2}{c}{YLDs, thousands} & \multicolumn{2}{c}{Rate per 100,000} & & \\
+Cause & Year & China & Reference & China & Reference & $D$ & $RR$\\\midrule
+\input{tables/yld.tex}\end{tabular}
+\caption*{All values are derived point estimates. YLD: years lived with disability.}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Endpoint sensitivity added after inspection of terminal-year estimates.}\label{tab:endpoint}
+\begin{tabular}{llrrrrr}\toprule
+Cause & End year & China ASPR & Ref. ASPR & $D$ & $RR$ & $D_T-D_{1990}$\\\midrule
+\input{tables/endpoint.tex}\end{tabular}
+\caption*{The source release remains GBD 2023 in all rows. Ending in 2021 is not substitution of GBD 2021 estimates. Rate units: per 100,000 women.}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Conditional trend sensitivity for prevalence, 1990--2023.}\label{tab:trends}
+\begin{tabular}{lllrr}\toprule
+Location & Cause & Model & AAPC (\%) & Conditional 95\% CI\\\midrule
+\input{tables/trends.tex}\end{tabular}
+\caption*{Intervals condition on selected knots and fixed GBD point estimates. AR(1) retains the knots selected by OLS with up to two knots. These intervals exclude GBD, knot-selection and structural model uncertainty. Full periods, measures, knots and residual-correlation estimates are in the accompanying CSV.}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Age-specific forecast-validation MAE ratios relative to the naive baseline.}\label{tab:forecast}
+\begin{tabular}{llccc}\toprule
+Cause & Model & Rolling: min--max & Last 10 years: min--max & Retained\\\midrule
+\input{tables/forecast.tex}\end{tabular}
+\caption*{Ranges span seven age groups. Values below 1 favor the candidate. Retention required every age-specific ratio to be below 0.9 in both schemes, with complete predictions. The rule was specified before running this exploratory module, not externally preregistered. Rolling MAE combines horizons 1, 3 and 5; the holdout combines horizons 1--10.}
+\end{table}
+\subsection{Acquisition and computation audit}
+The official query identifiers were:
+\begin{description}
+\item[Burden:] \texttt{1b13e3376135ab41a4bc5e0ffc60e84f}.
+\item[Population:] \texttt{916826fb285f8d3c3e53117dd2133406}.
+\item[Pilot:] \texttt{0daed0e53f5ad8ebdf0dc00c23ccd110}.
+\item[Annual strata:] \texttt{416daf735b9fc79bec35506514424e73}.
+\item[Endpoint strata:] \texttt{76c5523c52f32caf342843daf2326fa4}.
+\end{description}
+Raw uncertainty limits remain in the original CSVs. Country and outcome mappings, source hashes, rounding sensitivities and all analytical tables are separate machine-readable files. Nine automated core checks plus the new reference-composition accounting checks cover core accounting identities, the complete data grid, denominator consistency and outcome gates; temporary artificial test fixtures were not used as research data.
+
+The protocol was written before analysis but was not externally preregistered. The endpoint and weight-rounding sensitivities were added following quality inspection. Forecasting remained exploratory and was withheld after failed comparative validation. Primary/secondary stratification was completed using annual Number exports and independent endpoint Number/Rate checks. The symmetric reference-composition and age-by-type analyses were added during manuscript review and were not prespecified. External survey comparisons and future population scenarios were not completed; they were optional extensions. The annual stratum rate reconstruction reduced redundant metrics within the remaining GBD download allowance.
+
+\subsection{GATHER reporting map}
+This map applies GATHER to the secondary analysis; upstream input reconstruction and primary disease estimation belong to the original GBD study. It is not a claim of independent GBD model replication.
+\small
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.08\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}>{\raggedright\arraybackslash}p{0.54\textwidth}}
+\toprule Item & Topic & Location or applicability\\\midrule\endhead
+1 & Indicators and populations & Methods: causes, ages, female sex, fixed countries and 1990--2023.\\
+2 & Funding & Declarations: author-supplied information remains pending.\\
+3 & Data identification and access & Official Results Tool, download date, query identifiers and cited GBD methods.\\
+4 & Eligibility and exclusions & Exact outcome filters and completeness gates; no country removals from the main set. Sensitivity exclusions are explicit.\\
+5 & Source characteristics & GBD model outputs, dimensional mappings and acquisition audit. Original source-study characteristics are documented by GBD.\\
+6 & Potential input biases & Discussion: sparse evidence, diagnostic heterogeneity, attribution and modeled denominators.\\
+7 & Other inputs & Matching GBD population and published standard weights with provenance.\\
+8 & Input data access & CSVs retained in the research archive; source institution IHME and exact queries identified for reproducibility.\\
+9 & Conceptual overview & Equations for within-age pooling, standardization, contrasts and decomposition.\\
+10 & Analytical detail & Normalization, validation, comparison, decomposition, trend and sensitivity methods and scripts.\\
+11 & Candidate evaluation and selection & Segmented-model BIC, training AICc and explicit forecast-retention criterion.\\
+12 & Evaluation results & Reference, endpoint, AR(1), rounding and forecast-validation results.\\
+13 & Uncertainty methods and scope & Joint draws unavailable; no propagated derived intervals; conditional trend interval scope stated.\\
+14 & Source code access & GitHub repository, pinned dependencies and executable scripts.\\
+15 & Machine-readable estimates & Complete derived CSV tables accompany the paper.\\
+16 & Quantitative uncertainty & Incomplete for derived estimates: marginal source limits retained but cannot substitute for joint uncertainty. Trend intervals are conditional only.\\
+17 & Interpretation and prior evidence & Discussion compares prior GBD studies. Release-to-release differences were not estimated.\\
+18 & Limitations & Discussion: endpoint, reference, denominator, source, rounding and inference limitations.\\\bottomrule
+\end{longtable}
+\normalsize
+\begin{figure}[p]\centering\includegraphics[width=\textwidth]{figures/figS1_reference_sensitivity.pdf}
+\caption{Sensitivity of the 2023 prevalence difference to reference-country exclusions, fixed 1990 country shares within ages, and restriction to ages 20--49. Dashed lines show the main 15--49 comparison. PCOS signs are stable; endometriosis signs vary. All are point estimates.}\label{fig:sensitivity}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\textwidth]{figures/figS2_yld_trends.pdf}
+\caption{Restricted-age standardized YLD rates for both infertility causes, 1990--2023. These are infertility-impairment YLD rates rather than the total disability burden of either underlying disease.}\label{fig:yld}\end{figure}
+
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/fig1_country_comparison_2023.pdf}
+\caption{Country-specific prevalence rates in 2023, restricted to ages 15--49. Dashed lines are the pooled reference. Descriptive point estimates only.}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/fig3_age_disparities.pdf}
+\caption{Age contrasts and standard-weighted contributions to changes in China minus reference. Contributions are not case counts or causal effects.}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/fig4_decomposition_and_benchmark.pdf}
+\caption{China's case-count decomposition and same-population benchmarks. The latter are signed arithmetic contrasts using China's actual age distribution, not preventable cases.}\end{figure}
+\end{document}

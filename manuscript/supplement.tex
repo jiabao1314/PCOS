@@ -1,7 +1,9 @@
+% INTEGRATED_REVISION_V2
 \documentclass[11pt,a4paper]{article}
 \usepackage[margin=25mm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{mathpazo,amsmath,amssymb,graphicx,booktabs,longtable,array,caption,setspace,microtype}
+\usepackage{placeins}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[mathlines]{lineno}
@@ -120,4 +122,6 @@ This map applies GATHER to the secondary analysis; upstream input reconstruction
 \caption{Age contrasts and standard-weighted contributions to changes in China minus reference. Contributions are not case counts or causal effects.}\end{figure}
 \begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/fig4_decomposition_and_benchmark.pdf}
 \caption{China's case-count decomposition and same-population benchmarks. The latter are signed arithmetic contrasts using China's actual age distribution, not preventable cases.}\end{figure}
+\FloatBarrier
+\input{sections/revision_supplement.tex}
 \end{document}

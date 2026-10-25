@@ -1,0 +1,10 @@
+{
+  "estimates": 36,
+  "design_df": 60,
+  "max_abs_estimate_difference": 4.440892098500626e-16,
+  "max_abs_se_difference": 5.551115123125783e-17,
+  "max_abs_covariance_difference": 3.469446951953614e-18,
+  "passed": true,
+  "input_sha256": "eb10fa3bd11e671b1a3533781a01550261bde9c6b8ad9b17a87dd7250bc131a8",
+  "GBD_joint_draws_obtained": false
+}

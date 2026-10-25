@@ -1,0 +1,11 @@
+{
+  "raw_rows": 5586,
+  "strict20_49": 4855,
+  "sampled20plus": 4856,
+  "strata": 20,
+  "psus": 80,
+  "design_df": 60,
+  "core_targets_reproduced": 8,
+  "services_all_reproduced": false,
+  "status": "post hoc unadjusted survey triangulation; not held-out GBD validation"
+}
