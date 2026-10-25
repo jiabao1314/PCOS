@@ -1,0 +1,32 @@
+name: Independent NSFG survey verification
+on:
+  push:
+    paths:
+      - '.github/workflows/nsfg-independent-survey-check.yml'
+      - 'src/nsfg_independent_Rcheck.R'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install R survey
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends r-base-core r-cran-survey
+      - name: Acquire original public-use file and verify hash
+        shell: bash
+        run: |
+          mkdir -p data/external/nsfg results/external/Rcheck
+          curl --fail --location --connect-timeout 20 --max-time 180 'https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NSFG/NSFG-2022-2023-FemRespPUFData.zip' -o data/external/nsfg/source.zip
+          echo 'ef9f0ec715ce7909b50f1ea67958166b2cd1ad3482c4b083174898ec8c7ceaaa  data/external/nsfg/source.zip' | sha256sum -c -
+          unzip -o data/external/nsfg/source.zip -d data/external/nsfg
+      - name: Independently reconstruct 36 estimates and joint covariance
+        run: Rscript src/nsfg_independent_Rcheck.R data/external/nsfg/NSFG_2022_2023_FemRespPUFData.csv results/external/Rcheck | tee results/external/Rcheck/console.log
+      - uses: actions/upload-artifact@v4
+        with:
+          name: independent-R-survey-check
+          path: results/external/Rcheck/
+          retention-days: 30
+          if-no-files-found: error
