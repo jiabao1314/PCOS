@@ -1,0 +1,11 @@
+{
+  "rows": 720,
+  "age_type_rows": 252,
+  "checks": [
+    "symmetric identity equals independent endpoint difference",
+    "primary + secondary = total for all components",
+    "previous pipeline endpoint agreement"
+  ],
+  "analysis_status": "post hoc after review; not preregistered",
+  "derived_uncertainty": "none; point estimates only"
+}

@@ -13,3 +13,6 @@ data/processed/*
 tmp/
 logs/*
 !logs/.gitkeep
+
+# Keep the complete ranking catalogue local; publish only audited candidate rows.
+sources/journal_audit/*.xlsx

@@ -1,0 +1,24 @@
+{
+  "GBD2023_Reproductive_Health_main": {
+    "pages": 18,
+    "bytes": 115793,
+    "all_fonts_embedded": true,
+    "fonts": 11,
+    "replacement_character": false,
+    "unresolved_reference": false
+  },
+  "GBD2023_Reproductive_Health_Additional_file_1": {
+    "pages": 8,
+    "bytes": 156669,
+    "all_fonts_embedded": true,
+    "fonts": 19,
+    "replacement_character": false,
+    "unresolved_reference": false
+  },
+  "abstract_word_count": 262,
+  "plain_english_word_count": 181,
+  "manual_page_breaks": 0,
+  "visual_review": "All 18 main and 8 supplementary pages inspected after final compilation; no clipping, overlap or unreadable symbols.",
+  "core_tests": "9 passed",
+  "new_analysis_checks": "720 exact decompositions and subtype additivity; independent pipeline endpoint agreement"
+}

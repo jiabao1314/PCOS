@@ -1,4 +1,4 @@
-# 数据提取与验收清单（尚未下载真实GBD结果）
+# GBD数据提取规范与实际验收记录
 
 更新时间：2026-10-25（Europe/Paris）。GBD 2023为首选；不能获取两病因完整不孕分项时，整体退回GBD 2021，禁止拼接版本。
 
@@ -6,7 +6,7 @@
 
 在 https://vizhub.healthdata.org/gbd-results/ 登录后，选择Infertility损伤类别与Endometriosis、Polycystic ovarian syndrome病因交叉。国家China，女性Female，35–39岁，2023年，Prevalence和YLDs，Number和Rate。总不孕口径下预期8个结果单元。保留筛选截图、实际标签/ID、查询时间、官方CSV、下载邮件/任务标识和方法定义。先验证目标数据存在，不能将疾病本身的负担替代所致不孕。
 
-工具当前未登录且出现自动访问验证。没有记录或调用隐藏接口，没有绕过验证。方法页面通过网页检索访问返回403，病例定义未完成核对。GBD采用的定义不得直接用WHO临床12个月定义替代。
+早期访问曾因未登录和网站验证而受限；随后取得真实导出并完成核验，详见本文后半部分实际记录及当前STATUS。GBD采用的定义不得直接用WHO临床12个月定义替代。
 
 ## 2. 完整提取
 
@@ -27,7 +27,7 @@ burden.csv必需列（参见src/analyze.py）：gbd_version, location_id, year, 
 
 population.csv：gbd_version, location_id, year, sex_id, age_group_id, population。单位为人，不是千人。
 
-weights.csv：age_name, weight。必须为官方标准人口的对应年龄权重，程序只在15–49内归一化，不自行假设等权。
+weights.csv：age_name, weight。使用GBD2023标准人口公开论文复现的六位小数权重，非IHME原始机器精度文件；详见weights_provenance.json。程序只在15–49内归一化，不自行假设等权。
 
 不提供伪数据模板作为研究输入。tests仅使用临时合成数值验证公式，运行结束即清理。
 

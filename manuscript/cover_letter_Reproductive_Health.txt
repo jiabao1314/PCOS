@@ -1,0 +1,17 @@
+DRAFT FOR AUTHOR COMPLETION — NOT SUBMITTED
+25 October 2026
+
+Dear Editors of Reproductive Health,
+
+We would like to submit the Research article “Infertility subtype and reference population composition shape China's contrasts with other G20 countries: an ecological analysis of GBD 2023”.
+
+This analysis addresses how international summaries of infertility should be interpreted. Using female estimates for ages 15–49, we distinguish changes in Chinese rates, reference-country rates and reference-country population shares. In the main comparison, 58.5% of the signed narrowing in the PCOS-related infertility difference corresponded to changing reference composition. Primary and secondary infertility also contributed differently; their apparent aggregation concealed a persistent primary-infertility contrast. Country and endpoint analyses qualify these findings, particularly the unstable 2023 endometriosis comparison.
+
+Previous GBD publications already cover these causes, subtype attribution, China/global trends and conventional decomposition. Our incremental contribution is their joint accounting within an explicitly defined comparison population, rather than a claim of a new method or novelty from database updates alone. We believe this interpretation problem is relevant to the journal's interest in population reproductive health and female fertility.
+
+The manuscript provides a Plain English summary, reproducible scripts, machine-readable derived tables and supplementary sensitivity analyses. It reports that aligned uncertainty draws were unavailable, avoids causal and significance claims, discloses post hoc analyses and documents AI assistance. Original IHME inputs require access through the Results Tool under its applicable terms; exact retrieval specifications are supplied.
+
+Before this letter can be sent, the corresponding author must provide their identity, affiliation and contact details and verify originality, exclusive consideration, approval by all authors, competing interests, funding and the applicable ethics determination. These statements have not been presumed in this draft. A permanent analysis archive identifier and final data-access arrangements also require completion.
+
+Sincerely,
+Corresponding author and contact details to be completed by the research team

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "review_type": "targeted novelty and journal-fit check, not systematic review",
+  "queries": [
+    "endometriosis PCOS infertility China global GBD2021 GBD2023",
+    "primary secondary infertility G20 reference composition",
+    "site:link.springer.com/article/ Reproductive Health Global Burden of Disease infertility 2025 2026",
+    "infertility reference composition GBD"
+  ],
+  "primary_sources_screened": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12750491/",
+    "https://pubmed.ncbi.nlm.nih.gov/42373487/",
+    "https://link.springer.com/article/10.1186/s10020-026-01548-8",
+    "https://link.springer.com/article/10.1186/s12978-025-01966-7"
+  ],
+  "limitation": "PubMed Lu abstract verified earlier; current fetch limited. Targeted search cannot prove first-ever novelty."
+}

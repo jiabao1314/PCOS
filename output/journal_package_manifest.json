@@ -1,0 +1,20 @@
+[
+  {
+    "file": "output/GBD2023_Reproductive_Health_Additional_file_2.zip",
+    "bytes": 1224204,
+    "sha256": "8907d4d224907ef4def78d53caec5351c81609fee30397ab4b74daf63182ba41",
+    "members": 77
+  },
+  {
+    "file": "output/GBD2023_Reproductive_Health_TeX_sources.zip",
+    "bytes": 232126,
+    "sha256": "90ae541bc337abddfe2fdf48a43193a554d3a236ee40a148ae3ec46448f65027",
+    "members": 22
+  },
+  {
+    "file": "output/PCOS_Reproductive_Health_revision_2026-10-25.zip",
+    "bytes": 2943540,
+    "sha256": "52ef7a7f53ffad8e1ca61a57add6f8038cf01e1a5a5ac559a412c88821cb0d05",
+    "members": 88
+  }
+]

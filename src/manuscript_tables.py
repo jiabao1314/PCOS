@@ -6,11 +6,11 @@ def run():
  for measure,name in [('Prevalence','prevalence'),('YLDs','yld')]:
   rows=[]
   for _,r in d[d.measure_name==measure].sort_values(['cause_name','year']).iterrows():
-   rows.append(f"{'Endometriosis' if r.cause_name=='Endometriosis' else 'PCOS'} & {r.year} & {r.number_china/1000:,.1f} & {r.number_reference/1000:,.1f} & {r.asr_china:.2f} & {r.asr_reference:.2f} & {r.rate_difference:.2f} & {r.rate_ratio:.3f} \\\\")
+   rows.append(f"{'Endometriosis' if r.cause_name=='Endometriosis' else 'PCOS'} & {r.year} & {r.number_china/1000:.1f} & {r.number_reference/1000:.1f} & {r.asr_china:.2f} & {r.asr_reference:.2f} & {r.rate_difference:.2f} & {r.rate_ratio:.3f} \\\\")
   (OUT/f'{name}.tex').write_text('\n'.join(rows)+'\n'+r'\bottomrule'+'\n')
  d=pd.read_csv(ROOT/'results/tables/case_change_decomposition.csv');rows=[]
  for _,r in d[d.country=='China'].iterrows():
-  rows.append(f"{'Endometriosis' if r.cause=='Endometriosis' else 'PCOS'} & {r.start}--{r.end} & {r.net_case_change/1000:,.1f} & {r.population_size/1000:,.1f} & {r.age_composition/1000:,.1f} & {r.age_specific_prevalence/1000:,.1f} \\\\")
+  rows.append(f"{'Endometriosis' if r.cause=='Endometriosis' else 'PCOS'} & {r.start}--{r.end} & {r.net_case_change/1000:.1f} & {r.population_size/1000:.1f} & {r.age_composition/1000:.1f} & {r.age_specific_prevalence/1000:.1f} \\\\")
  (OUT/'decomposition.tex').write_text('\n'.join(rows)+'\n'+r'\bottomrule'+'\n')
  d=pd.read_csv(ROOT/'results/tables/endpoint_sensitivity.csv');rows=[]
  for _,r in d.iterrows():

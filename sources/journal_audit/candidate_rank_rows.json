@@ -1,0 +1,100 @@
+[
+  {
+    "row": 281,
+    "values": [
+      280,
+      "HUMAN REPRODUCTION",
+      null,
+      "0268-1161",
+      "医学",
+      1,
+      "是",
+      "否",
+      "OBSTETRICS & GYNECOLOGY 妇产科学(1区)；REPRODUCTIVE BIOLOGY 生殖生物学(1区)"
+    ]
+  },
+  {
+    "row": 2000,
+    "values": [
+      1999,
+      "Human Reproduction Open",
+      null,
+      "2399-3529",
+      "医学",
+      2,
+      "否",
+      "是",
+      "OBSTETRICS & GYNECOLOGY 妇产科学(2区)；REPRODUCTIVE BIOLOGY 生殖生物学(2区)"
+    ]
+  },
+  {
+    "row": 2164,
+    "values": [
+      2163,
+      "Journal of Ovarian Research",
+      null,
+      "1757-2215",
+      "医学",
+      2,
+      "否",
+      "是",
+      "REPRODUCTIVE BIOLOGY 生殖生物学(2区)"
+    ]
+  },
+  {
+    "row": 2305,
+    "values": [
+      2304,
+      "REPRODUCTIVE BIOMEDICINE ONLINE",
+      null,
+      "1472-6483",
+      "医学",
+      2,
+      "否",
+      "否",
+      "OBSTETRICS & GYNECOLOGY 妇产科学(2区)；REPRODUCTIVE BIOLOGY 生殖生物学(2区)"
+    ]
+  },
+  {
+    "row": 2318,
+    "values": [
+      2317,
+      "Reproductive Biology and Endocrinology",
+      null,
+      "1477-7827",
+      "医学",
+      2,
+      "是",
+      "是",
+      "ENDOCRINOLOGY & METABOLISM 内分泌学与代谢(2区)；REPRODUCTIVE BIOLOGY 生殖生物学(1区)"
+    ]
+  },
+  {
+    "row": 2319,
+    "values": [
+      2318,
+      "Reproductive Health",
+      null,
+      "1742-4755",
+      "医学",
+      2,
+      "是",
+      "是",
+      "PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH 公共卫生、环境卫生与职业卫生(1区)"
+    ]
+  },
+  {
+    "row": 5322,
+    "values": [
+      5321,
+      "Journal of Global Health",
+      null,
+      "2047-2978",
+      "医学",
+      3,
+      "否",
+      "是",
+      "PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH 公共卫生、环境卫生与职业卫生(3区)"
+    ]
+  }
+]
