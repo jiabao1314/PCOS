@@ -1,0 +1,21 @@
+{
+  "history_id": "11ac94870d0bb33ad5abd2b59708ab6e",
+  "history_name": "PCOS",
+  "status": "prepared_not_uploaded_from_this_chat",
+  "reason": "Current Chat browser connector exposes read-only tab context; no authenticated Galaxy write/API action or Galaxy plugin is available.",
+  "official_nsfg_inputs": [
+    {"name":"NSFG-2022-2023-FemRespPUFData.zip","url":"https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NSFG/NSFG-2022-2023-FemRespPUFData.zip","sha256":"ef9f0ec715ce7909b50f1ea67958166b2cd1ad3482c4b083174898ec8c7ceaaa","bytes":2541378},
+    {"name":"NSFG-2022-2023-codebook.pdf","url":"https://www.cdc.gov/nchs/data/nsfg/codebooks/2022-2023-NSFG-FemRespPUFCodebook.pdf","sha256":"d0453a3c07127e7fa053c9eed8ca578ec5b3dbb0fdfe13c5b34f710289ec975e"},
+    {"name":"NSFG-2022-2023-design.pdf","url":"https://www.cdc.gov/nchs/data/nsfg/varest/2022-2023-NSFG-DesignandWeightVariables.pdf","sha256":"7f632b3f808ddfb5de03ab06ce815815b527c8421e91c9461ee8c41c72ae85d1"},
+    {"name":"CDC-Health-EStat121.pdf","url":"https://www.cdc.gov/nchs/data/hestat/hestat121.pdf","sha256":"44be5b948f4e5684e9e30e205cd8eeff7d7a000f492c447ee125b8804437eb4b"},
+    {"name":"NSFG-recodes.pdf","url":"https://www.cdc.gov/nchs/data/nsfg/recodespecs/2022-2023-NSFG-FemResp-RecodeSpecs.pdf","sha256":"072ee6d60a7b0c6294dfc9d22ed2ab70617fbfe78ed572b5a55b245d256b4ebb"}
+  ],
+  "public_github_outputs": [
+    "https://raw.githubusercontent.com/jiabao1314/PCOS/main/output/revision_v2/PCOS_Human_Reproduction_candidate_v2.pdf",
+    "https://raw.githubusercontent.com/jiabao1314/PCOS/main/output/revision_v2/PCOS_Reproductive_Health_integrated_v2.pdf",
+    "https://raw.githubusercontent.com/jiabao1314/PCOS/main/output/revision_v2/PCOS_Additional_file_1_v2.pdf",
+    "https://raw.githubusercontent.com/jiabao1314/PCOS/main/output/revision_v2/PCOS_Additional_file_2_code_results_v2.zip",
+    "https://raw.githubusercontent.com/jiabao1314/PCOS/main/output/revision_v2/PCOS_manuscript_TeX_sources_v2.zip"
+  ],
+  "gbd_joint_draws": {"available_for_upload":false,"reason":"IHME has not delivered or approved the jointly indexed GBD 2023 infertility posterior draws; public point estimates/marginal UIs are not a substitute."}
+}
