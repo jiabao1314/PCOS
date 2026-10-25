@@ -91,22 +91,6 @@
       ]
     },
     {
-      "path": "docs/weights_provenance.json",
-      "name": "GBD2023_weights_provenance.json",
-      "bytes_local": 805,
-      "sha256_local": "6ede3fa08c66bc390d66da4fdcc7b90f49c53370507ab20772d3de76d2314692",
-      "outputs": [
-        {
-          "id": "40160950115d555e6707b4c0ef7e83ec",
-          "name": "GBD2023_weights_provenance.json",
-          "state": "queued",
-          "file_size": 0,
-          "file_ext": "json",
-          "hid": 15
-        }
-      ]
-    },
-    {
       "path": "docs/raw_manifest.json",
       "name": "GBD2023_raw_manifest.json",
       "bytes_local": 1509,
@@ -205,6 +189,102 @@
           "hid": 21
         }
       ]
+    },
+    {
+      "path": "output/PCOS_GBD2023_analysis_and_manuscript_2026-10-25.zip",
+      "name": "PCOS_GBD2023_analysis_and_manuscript_2026-10-25.zip",
+      "bytes_local": 4505716,
+      "sha256_local": "43a961317bddc21eeb0c8781192bc0b406e4d24340f2804e0598cce9d9cc6120",
+      "outputs": [
+        {
+          "id": "40160950115d555e5d9be5860fe06e18",
+          "name": "PCOS_GBD2023_analysis_and_manuscript_2026-10-25.zip",
+          "state": "ok",
+          "file_size": 4505716,
+          "file_ext": "binary",
+          "hid": 22,
+          "sha256_downloaded": "43a961317bddc21eeb0c8781192bc0b406e4d24340f2804e0598cce9d9cc6120",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "output/pdf/GBD2023_infertility_manuscript_draft.pdf",
+      "name": "GBD2023_infertility_manuscript_draft.pdf",
+      "bytes_local": 238472,
+      "sha256_local": "8f24f32c4cf30a71aea01c54984d02c1a8a9abd59e525589ae3c81a22ad50cf1",
+      "outputs": [
+        {
+          "id": "40160950115d555ebd3bf3cd9624b9f3",
+          "name": "GBD2023_infertility_manuscript_draft.pdf",
+          "state": "ok",
+          "file_size": 238472,
+          "file_ext": "pdf",
+          "hid": 23,
+          "sha256_downloaded": "8f24f32c4cf30a71aea01c54984d02c1a8a9abd59e525589ae3c81a22ad50cf1",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "docs/STATUS.md",
+      "name": "STATUS_final_2026-10-25.md",
+      "bytes_local": 2463,
+      "sha256_local": "617148f80ad27efec294f4b3080b83dfa13eed509f3310b304b6faf34a02980c",
+      "outputs": [
+        {
+          "id": "40160950115d555e62d83d39b7601e05",
+          "name": "STATUS_final_2026-10-25.md",
+          "state": "ok",
+          "file_size": 2463,
+          "file_ext": "txt",
+          "hid": 24
+        }
+      ]
+    },
+    {
+      "path": "docs/RESULTS_ZH.md",
+      "name": "RESULTS_ZH.md",
+      "bytes_local": 2832,
+      "sha256_local": "5fba414bc989554ec1069bd5b6105eef36337c860ae31c2b2bfec217b8f074b7",
+      "outputs": [
+        {
+          "id": "40160950115d555e2b052bcf5fc0b506",
+          "name": "RESULTS_ZH.md",
+          "state": "ok",
+          "file_size": 2832,
+          "file_ext": "txt",
+          "hid": 25
+        }
+      ]
     }
-  ]
+  ],
+  "superseded_attempts": [
+    {
+      "path": "docs/weights_provenance.json",
+      "name": "GBD2023_weights_provenance.json",
+      "bytes_local": 805,
+      "sha256_local": "6ede3fa08c66bc390d66da4fdcc7b90f49c53370507ab20772d3de76d2314692",
+      "outputs": [
+        {
+          "id": "40160950115d555e6707b4c0ef7e83ec",
+          "name": "GBD2023_weights_provenance.json",
+          "state": "queued",
+          "file_size": 0,
+          "file_ext": "json",
+          "hid": 15
+        }
+      ]
+    }
+  ],
+  "metadata_archive_members": [
+    {
+      "member": "docs/weights_provenance.json",
+      "dataset_id": "40160950115d555e5d9be5860fe06e18",
+      "sha256_verified": true,
+      "reason": "Direct metadata upload remained queued; identical metadata verified inside completed analysis archive"
+    }
+  ],
+  "all_required_inputs_available": true,
+  "analysis_package_and_manuscript_verified": true
 }

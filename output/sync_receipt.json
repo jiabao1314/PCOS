@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-25",
+  "github": {
+    "repository": "https://github.com/jiabao1314/PCOS",
+    "analysis_commit": "0b523bd42359b77896a321666b9536b83bd9c735",
+    "published_file_blobs_verified": 82
+  },
+  "drive": {
+    "folder": "https://drive.google.com/drive/folders/1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey",
+    "files": [
+      {
+        "id": "1vjDRumSvVa86xYGJ2tC1qyDhuHA52CrS",
+        "title": "PCOS_GBD2023_analysis_and_manuscript_2026-10-25.zip",
+        "mime_type": null,
+        "size": "4505716",
+        "url": "https://drive.google.com/file/d/1vjDRumSvVa86xYGJ2tC1qyDhuHA52CrS/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1vjDRumSvVa86xYGJ2tC1qyDhuHA52CrS/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      {
+        "id": "12-dm14SsiKK3KK96xP-wUVU5QVQIVKbA",
+        "title": "GBD2023_infertility_manuscript_draft.pdf",
+        "mime_type": null,
+        "size": "238472",
+        "url": "https://drive.google.com/file/d/12-dm14SsiKK3KK96xP-wUVU5QVQIVKbA/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/12-dm14SsiKK3KK96xP-wUVU5QVQIVKbA/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      {
+        "id": "1FoDl6GDqSJWZyh2HFSI8BTl-AUGLqGT6",
+        "title": "PCOS_GBD2023_raw_data_2026-10-25.zip",
+        "mime_type": null,
+        "size": "5778271",
+        "url": "https://drive.google.com/file/d/1FoDl6GDqSJWZyh2HFSI8BTl-AUGLqGT6/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1FoDl6GDqSJWZyh2HFSI8BTl-AUGLqGT6/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      {
+        "id": "1GRBRVlZleZ8O-CqPmUCWFmUut86NPxfy",
+        "title": "GBD2023_official_methods_appendix1.pdf",
+        "mime_type": null,
+        "size": "82917810",
+        "url": "https://drive.google.com/file/d/1GRBRVlZleZ8O-CqPmUCWFmUut86NPxfy/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1GRBRVlZleZ8O-CqPmUCWFmUut86NPxfy/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1Db9GIWdXt9eoCOD9oMgNCmoGkiOcQXey"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    ],
+    "verification": "Read-back file sizes and parent folder match local artifacts; connector did not expose MD5"
+  },
+  "galaxy": {
+    "history_id": "11ac94870d0bb33ad5abd2b59708ab6e",
+    "history_name": "PCOS",
+    "verification": "Required raw CSVs and final analysis ZIP/PDF downloaded back and SHA-256 matched. See galaxy_upload_receipt.json."
+  },
+  "manuscript": {
+    "path": "output/pdf/GBD2023_infertility_manuscript_draft.pdf",
+    "pages": 20,
+    "status": "Research draft; author metadata, declarations, institutional review and journal ranking not yet verified"
+  },
+  "scientific_limits": [
+    "No jointly aligned GBD draws; derived results are point estimates",
+    "Published six-decimal weights; rounding sensitivity reported",
+    "Forecasts withheld after failed comparative validation"
+  ]
+}
