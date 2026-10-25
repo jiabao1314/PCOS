@@ -66,3 +66,12 @@ Human Reproduction作为高风险一区候选；Reproductive Health作为二区�
 - [New independently verified NSFG age-standardized analysis and methodological limitations](docs/NSFG_AGE_STANDARDIZATION_AUDIT_20261025.md)
 - [Compiled updated manuscript, supplemental PDFs, full TeX project, code, Figure S6 and Table S7](output/PCOS_NSFG_age_standardized_manuscript_update_20261025.zip)
 - The new sensitivity analyses concern US survey-reported diagnoses and broad fertility problems, not GBD cause attribution; jointly indexed GBD draws remain unavailable.
+
+## 2026-10-25: GBD 2023 endometriosis endpoint and source-concordance review (v3)
+
+- [Fixed storage rules for all PCOS work: raw data → Galaxy PCOS; outputs/TeX/PDF → GitHub + Drive 2026PCOS](docs/PCOS_FIXED_STORAGE_POLICY.md)
+- [GBD jointly indexed draws access and independent-data alternatives: detailed analysis](docs/GBD2023_DRAWS_AND_EXTERNAL_VALIDATION_ROADMAP_20261025.md)
+- [Full derived audit, reproducible Python code, TeX project and three compiled PDFs](output/GBD2023_endpoint_v3/PCOS_GBD2023_endpoint_evidence_v3_20261025.zip)
+- [Human Reproduction draft v3](output/GBD2023_endpoint_v3/PCOS_Human_Reproduction_candidate_v3.pdf), [Reproductive Health draft v3](output/GBD2023_endpoint_v3/PCOS_Reproductive_Health_candidate_v3.pdf), [Supplement v3](output/GBD2023_endpoint_v3/PCOS_Additional_file_1_endpoint_v3.pdf)
+
+Endpoint sensitivity: China endometriosis-related infertility +23.58% in modeled 2022–2023 restricted-age ASPR; 92.7% of the signed increment was secondary infertility. Published 2026 GBD2023 cases matched after reaggregation (181,587); published and restricted-age ASPRs require a 0.494902 weight-convention conversion. These are *same-source extraction checks*, not independently verified Chinese clinical trends. The 2023 posterior joint draws have **not** been supplied; derived GBD intervals remain unavailable. Papers are unsubmitted drafts with actual author and ethics details outstanding.
