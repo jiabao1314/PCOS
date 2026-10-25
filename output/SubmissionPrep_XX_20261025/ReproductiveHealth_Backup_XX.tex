@@ -1,0 +1,232 @@
+% INTEGRATED_REVISION_V2
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo,amsmath,amssymb,graphicx,booktabs,longtable,array,caption,setspace,microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[mathlines]{lineno}
+\doublespacing
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\captionsetup{font=small,labelfont=bf}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small GBD 2023: infertility contrasts}\fancyhead[R]{\small Reproductive Health draft}\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{2em}
+\newcommand{\ASPR}{\mathrm{ASPR}}
+\title{Reference-country composition changes the interpretation of PCOS-attributed infertility comparisons: GBD 2023 and UN WPP 2024}
+\author{XX Author$^{1}$, XX Author$^{2}$, XX Corresponding Author$^{1,*}$\\
+{\small $^{1}$XX Department, XX Institution, XX City, XX Country, XX Postal code}\\
+{\small $^{2}$XX Department, XX Institution, XX City, XX Country, XX Postal code}\\
+{\small $^{*}$Correspondence: XX email; ORCID: XX}}
+\date{XX Month 2026}
+\begin{document}
+\maketitle
+\linenumbers
+\begin{abstract}
+\noindent\textbf{Background:} International comparisons can be altered by the changing country composition of a population-pooled reference, even after age standardization. We evaluated this possibility for infertility attributed by GBD to PCOS and endometriosis.
+
+\noindent\textbf{Methods:} We analysed GBD 2023 modeled infertility rates for females aged 15--49 in China and 18 other sovereign G20 countries, 1990--2023, including primary and secondary infertility. A symmetric decomposition partitioned change in China-minus-reference contrasts into Chinese rate, reference rate and country-share components. UN WPP 2024 female population estimates (19 countries, 34 years, seven five-year ages) independently replaced the reference-country shares without changing GBD disease rates. Fixed-1990, equal-country and other scenario sensitivities were assessed. Unavailable GBD posterior draws precluded derived uncertainty intervals.
+
+\noindent\textbf{Results:} The PCOS-related total-infertility rate contrast narrowed by +151.54 per 100,000 (signed difference change) between 1990 and 2023. Reference-country population composition contributed +88.65 (58.5\%) with GBD weights and +86.76 (57.6\%) with UN weights. With UN 2023 shares, the secondary-infertility difference was +2.26 per 100,000; fixing shares at 1990 instead yielded -48.34. The apparent 2023 endometriosis parity was endpoint-sensitive.
+
+\noindent\textbf{Conclusions:} Reference composition materially changes the interpretation of descriptive infertility contrasts. Independent demographic-source weighting supports numerical robustness of the decomposition but is not independent validation of disease rates. Neither benchmark scenarios nor this arithmetic decomposition establish causal effects or uncertainty about the GBD estimates.
+\end{abstract}
+
+\section*{Plain English summary}
+Comparisons of infertility estimates between countries depend not only on the estimated rates but also on how comparison countries are weighted. We studied GBD estimates for China and 18 other countries, and repeated the reference-group weighting with independent United Nations population data. Population composition accounted for a substantial part of the change in the modeled PCOS infertility comparison. Some near-equal comparisons changed direction when country weights were fixed at an earlier year. These are methodological interpretations of existing model estimates: they do not prove that disease or infertility care improved or worsened, and the full statistical uncertainty of the combined differences remains unknown.
+
+\textbf{Keywords:} infertility; polycystic ovary syndrome; endometriosis; GBD 2023; comparator population; age standardization; United Nations.
+
+\section{Background}
+Infertility associated with polycystic ovarian syndrome (PCOS) and endometriosis is relevant to population reproductive health as well as individualized clinical care \cite{pcos,eshre}. Estimates attributed to these causes within the Global Burden of Disease (GBD) infertility impairment describe a different outcome from total PCOS or endometriosis prevalence. They are also distinct from lifetime infertility or infertility measured exclusively among people currently trying to conceive \cite{gbd}.
+
+Existing GBD analyses include PCOS-attributed infertility estimates \cite{liu_pcos2024}, international infertility trends \cite{liang2025}, primary/secondary attribution \cite{xu}, China--global estimates \cite{lu} and GBD 2021/2023 burden \cite{wang}. Standard trend, forecasting and burden decomposition analyses have also been published \cite{feng}. The present incremental question is not how many additional countries can be plotted but how reference-country population shares modify the estimand of an international comparison.
+
+A narrower unresolved question concerns the interpretation of an aggregate international contrast. A population-pooled reference combines country rates with country population shares that may change over time, even after age standardization. A narrowing difference could therefore reflect changing Chinese rates, changing reference-country rates, or changing reference-country composition. Primary and secondary infertility may contribute differently to each component. These are separable accounting questions; they do not identify causal mechanisms.
+
+We compared China's cause-specific infertility estimates with a fixed set of 18 other sovereign G20 countries. We quantified subtype and age contributions to changes in the contrast and added an explicit decomposition of reference composition during manuscript review. We also assessed country and endpoint dependence. Endometriosis was retained as a contrasting cause, with terminal-year instability treated as a finding requiring caution rather than evidence of sustained convergence.
+
+\section{Methods}
+\subsection{Design, data and outcome definitions}
+This ecological secondary analysis used GBD 2023 Results Tool downloads obtained on 25 October 2026 \cite{results}. The analysis included females aged 15--49, seven five-year age groups and annual estimates for 1990--2023. China was compared with Argentina, Australia, Brazil, Canada, France, Germany, India, Indonesia, Italy, Japan, Republic of Korea, Mexico, Russian Federation, Saudi Arabia, South Africa, T\"urkiye, United Kingdom and United States of America. These are the other sovereign country members of the G20; regional organizations were excluded. The G20 is an economically defined comparison, not a matched control population or a global benchmark.
+
+We selected infertility impairment 198, underlying causes endometriosis (607) and PCOS (605), prevalence and years lived with disability (YLDs), and Number and Rate. Primary (220) and secondary (221) infertility were downloaded separately. Matched female populations came from the same release. Main analyses concern prevalence; YLDs, case-count decompositions, country distributions, trend models and failed forecast validation are secondary results in Additional file 1. The present manuscript uses aggregate GBD estimates and UN population counts; it does not use individual participant records.
+
+The GBD methods appendix describes survey-based primary infertility in couples without a previous live birth who desire a child, have been in a union for at least five years, and report no contraceptive use. Secondary infertility also uses the interval since the last live birth. Heterogeneous survey and clinical definitions are harmonized within GBD; the resulting estimates should not be equated with a uniform 12-month clinical definition. Underlying-cause allocation occurs within the modeled infertility envelope \cite{gbd}. The denominator here is all females in each age group, not only couples attempting pregnancy.
+
+\subsection{Validation and standardization}
+We required complete dimensional coverage, unique cells, consistent cause and infertility identifiers, finite non-negative values and ordered original marginal uncertainty bounds. Number divided by matching population was compared with official Rate. Annual subtype rates were reconstructed from Number and matched population; independent original Number/Rate exports for 1990 and 2023 checked this reconstruction. Primary plus secondary point estimates were required to reproduce the total. Input hashes, mappings and retrieval specifications accompany the code \cite{repository}.
+
+We used published GBD 2023 standard-population weights reproduced to six decimals, normalized over ages 15--49 \cite{chen}. The original machine-precision IHME weight file was not retrieved. Thus, all standardized rates are restricted-age rates. With normalized age weight $w_a$, country $c$, age $a$, year $t$, infertility type $k$, modeled cases $C$ and female population $P$, rates per 100,000 were $r_{catk}=10^5 C_{catk}/P_{cat}$. The age-specific reference was formed before standardization:
+\begin{equation}
+ r_{Ratk}=\sum_{c\in R}s_{cat}r_{catk},\quad
+ s_{cat}=\frac{P_{cat}}{\sum_{j\in R}P_{jat}},\quad
+ A_{Ctk}=\sum_a w_a r_{Catk},\quad A_{Rtk}=\sum_a w_a r_{Ratk}.
+\end{equation}
+Here $R$ always excludes China. The country-share weights $s$ vary within age and year; the standard age weights $w$ are fixed. Rates were not constructed by averaging country standardized rates.
+
+\subsection{Subtype and reference-composition accounting}
+We calculated the signed difference $D_{tk}=A_{Ctk}-A_{Rtk}$ and ratio $A_{Ctk}/A_{Rtk}$. Because primary and secondary counts sum to total, their differences and changes also sum exactly. Their signed contributions are not attributable fractions or causal effects. Each age group's contribution is its standard weight multiplied by its age-specific difference change.
+
+During manuscript review, we added a symmetric decomposition between start year 0 and end year $T$:
+\begin{align}
+ \Delta D_k &= X_k+Q_k+S_k,\\
+ X_k &=\sum_a w_a(r_{CaTk}-r_{Ca0k}),\\
+ Q_k &=-\sum_a w_a\sum_{c\in R}\frac{s_{ca0}+s_{caT}}{2}(r_{caTk}-r_{ca0k}),\\
+ S_k &=-\sum_a w_a\sum_{c\in R}\frac{r_{ca0k}+r_{caTk}}{2}(s_{caT}-s_{ca0}).
+\end{align}
+$X$ is the Chinese rate component, $Q$ the reference-country rate component and $S$ the reference country-share component. The mean of the two replacement orders shares the product interaction symmetrically. Components sum exactly to the change in the standardized contrast, separately by subtype and age. A positive component moves China minus reference upward; with an initially negative contrast, it can indicate narrowing without indicating health improvement. This decomposition describes reference weighting, whereas the separate case-count decomposition concerns China's own population size and age distribution.
+
+\input{sections/un_population_methods.tex}
+\subsection{Sensitivity analyses and uncertainty}
+We excluded each reference country in turn, restricted ages to 20--49, and fixed within-age reference-country shares at their 1990 values. The symmetric decomposition was repeated for country exclusions, the restricted age range, periods starting in 1990 or 2010, and endpoints 2021, 2022 and 2023. Endpoint analyses were added after inspection of a terminal-year endometriosis increase; the reference-composition decomposition was added during manuscript review. Neither was externally preregistered. Fixed-share contrasts are a separate, order-specific sensitivity, not an interchangeable estimate of the symmetric share component.
+
+\input{sections/endo_endpoint_methods.tex}
+
+We examined all 128 combinations of perturbing each unnormalized standard weight by half of its last published decimal. These deterministic rounding envelopes do not measure epidemiological uncertainty. Additional file 1 describes all secondary methods, including conditional trend intervals and forecast-validation rules.
+
+Jointly aligned GBD draws across ages, countries and years were unavailable. We therefore report derived point estimates without propagated uncertainty intervals or significance tests. Original marginal limits are preserved but not summed or treated as standard errors. Country exclusions describe reference sensitivity, not sampling uncertainty. YLDs and prevalence share inputs and are not independent replications. Python 3.12 and pinned NumPy, pandas, SciPy, statsmodels and Matplotlib dependencies were used. Code and machine-readable outputs are available in Additional file 2 and the repository \cite{repository}. Applicable GATHER items, including incomplete propagated uncertainty reporting, are mapped in Additional file 1 \cite{gather}.
+
+\subsection{Use of artificial intelligence}
+OpenAI-assisted tools supported code development, document drafting and technical checks. No artificial observations were substituted for the downloaded GBD data. Final human review of code, sources, interpretation and all author declarations remains necessary before submission. The tool is not an author and cannot approve the manuscript.
+
+\section{Results}
+\subsection{Coverage and overall contrasts}
+The total burden export contained 36,176 rows and the population export 4,522 age--country--year cells. A further 36,176 annual subtype Number rows and 4,256 endpoint Number/Rate rows covered both causes and measures. Primary plus secondary reproduced total point estimates throughout. Reconstructed subtype endpoint rates agreed with original rates to within $1.51\times10^{-11}$ per 100,000. These checks establish extraction and arithmetic consistency, not independent validity of GBD estimates.
+
+China's PCOS-related infertility standardized prevalence increased from 333.56 to 605.08 per 100,000, compared with 606.48 to 726.45 in the reference (Table~\ref{tab:prevalence}; Figure~\ref{fig:trends}). The difference changed from $-272.92$ to $-121.38$ and the ratio from 0.550 to 0.833. For endometriosis, rates changed from 63.70 to 53.30 in China and 66.63 to 53.51 in the reference. The 2023 total difference was $-0.20$; it was $-8.76$ in 2022. China's endometriosis estimate rose by 23.6\% in the last year, so the terminal comparison does not summarize a stable trajectory.
+
+\input{sections/endo_endpoint_results.tex}
+
+\begin{table}[htbp]\centering\small\setstretch{1.2}
+\caption{Total infertility prevalence in China and the reference population.}\label{tab:prevalence}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{llrrrrrr}\toprule
+ & & \multicolumn{2}{c}{Cases, thousands} & \multicolumn{2}{c}{Rate per 100,000} & & \\
+Cause & Year & China & Reference & China & Reference & $D$ & Ratio\\\midrule
+\input{tables/prevalence.tex}\end{tabular}
+\caption*{Rates standardized within ages 15--49. Reference pools the other 18 sovereign G20 countries within age. $D$: China minus reference. All cells are modeled point estimates without propagated uncertainty.}
+\end{table}
+
+\subsection{Primary and secondary infertility}
+In 2023, the PCOS primary-infertility difference was $-123.54$ per 100,000 (ratio 0.441), whereas the secondary difference was +2.16 (ratio 1.004; Table~\ref{tab:strata}; Figure~\ref{fig:strata}). Their changes since 1990 were +46.40 and +105.14, respectively, summing to +151.54. Thus secondary infertility accounted for 69.4\% of the signed total change. The share was 70.5\% ending in 2021 and 69.0\% ending in 2022. Across country exclusions and restriction to ages 20--49, the 2023 share ranged from 64.2\% to 75.4\%; fixing reference-country shares at 1990 yielded 78.1\%. The exact percentage therefore depends on reference construction, while secondary infertility remained the larger positive component in these checks.
+
+The 2023 PCOS primary difference remained negative under every country exclusion ($-201.52$ to $-101.89$), but the secondary difference ranged from $-113.63$ to +30.72. Near parity of secondary infertility was therefore a main-reference result, not a stable sign conclusion. For endometriosis, the 2023 primary difference of $-7.94$ and secondary difference of +7.73 nearly canceled. Both subtype signs survived country exclusions in 2023, but the secondary difference was $-0.40$ in 2022. Its endpoint dependence limits the interpretation of cancellation.
+
+\begin{table}[htbp]\centering\small\setstretch{1.2}
+\caption{Primary and secondary infertility prevalence at the endpoints.}\label{tab:strata}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lllrrrr}\toprule
+Cause & Type & Year & China rate & Ref. rate & $D$ & Ratio\\\midrule
+\input{tables/strata.tex}\end{tabular}
+\caption*{Rate units: per 100,000 females; standardization restricted to ages 15--49. Point estimates only. Annual rates were reconstructed from Number and same-release population, with original endpoint Rate checks. Types sum to total before displayed rounding.}
+\end{table}
+
+\subsection{Changing reference composition}
+For PCOS, Chinese rate changes contributed +271.51 per 100,000 to the changing contrast, reference-country rate changes $-208.62$, and reference-country share changes +88.65 (Table~\ref{tab:composition}; Figure~\ref{fig:composition}). An additional post hoc annual-chained decomposition gave a share component of +87.11 (57.5\%), compared with the endpoint value +88.65 (58.5\%). This is a deterministic time-path sensitivity, not uncertainty estimation. The endpoint share component accounted for 58.5\% of the +151.54 signed net change; the combined rate components accounted for +62.89. The corresponding share components were +88.11 ending in 2021 and +86.74 ending in 2022. Across country exclusions and the age-range sensitivity, the 2023 composition share ranged from 39.8\% to 67.9\%. A material reference-composition contribution persisted, although a majority contribution did not hold in every specification.
+
+For primary PCOS infertility, the three components were +52.65, $-38.09$ and +31.84; for secondary infertility, they were +218.86, $-170.53$ and +56.81. Thus subtype and reference composition are intersecting dimensions of the same contrast change: the 69.4\% subtype share and 58.5\% composition share must not be added. Fixing all reference-country shares at 1990 instead yielded a 2023 total difference of $-202.48$, compared with $-121.38$ under current pooling. This fixed-share calculation follows one replacement path and therefore differs from the symmetric component.
+
+Endometriosis's +2.73 net difference change combined Chinese rate changes of $-10.39$, reference-country rate changes of +13.50 and reference composition of $-0.38$. Its near-zero net change makes percentage contributions unstable; we report absolute components. Age-by-type component tables for each endpoint accompany Additional file 2.
+
+\begin{table}[htbp]\centering\small\setstretch{1.2}
+\caption{Symmetric decomposition of changes in standardized differences, 1990--2023.}\label{tab:composition}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrr}\toprule
+Cause & Type & Net change & China rates & Ref. rates & Ref. shares\\\midrule
+\input{tables/reference_composition.tex}\end{tabular}
+\caption*{All components use per 100,000 females and sum to net change. Reference shares are country population shares within each age. Positive values move China minus reference upward. Percentages of a signed net change are accounting summaries, not causal fractions.}
+\end{table}
+
+\input{sections/un_population_results.tex}
+\subsection{Age patterns and secondary analyses}
+Ages 35--39 and 40--44 contributed +31.07 and +33.60 per 100,000, respectively, to the PCOS difference change, together 42.7\% of the total. These are standard-weighted contrast contributions, not case counts. The age-by-type table separates Chinese rates, reference rates and reference composition within each cell.
+
+China's PCOS-related infertility count rose by 783,425. A separate case-count decomposition assigned +860,721 to age-specific prevalence, offset by $-68,426$ from female population size and $-8,869$ from age distribution within ages 15--49. This is consistent with increasing modeled prevalence despite demographic offsets; it does not identify its causes. The total PCOS difference remained negative across reference exclusions. The endometriosis total difference changed sign across country exclusions. Rounding the published standard weights within their evaluated precision did not reverse the main 2023 signs. Secondary YLD, trend and benchmark results are retained in Additional file 1. Forecast candidates failed the comparative validation rule, so no long-range forecasts are reported.
+
+\section{Discussion}
+The principal finding is that subtype composition and reference population composition both affect the interpretation of international infertility contrasts. China's negative PCOS-related infertility difference narrowed, but a substantial part of that change corresponded to population redistribution among reference countries. At the same time, secondary infertility accounted for most of the total contrast change, while a primary-infertility difference persisted. These results concern how an international comparison is constructed and what its summary conceals. The external demographic reweighting is a sensitivity analysis of the reference estimand, not independent clinical validation.
+
+This is an incremental contribution to an extensively studied field. Previous work already examined these causes, their primary and secondary infertility attribution, China/global patterns and standard trend and decomposition methods \cite{xu,lu,wang,feng}. Our contribution is the joint accounting of subtype and within-age reference-country shares, with sensitivity to country inclusion and endpoint. We do not propose a new decomposition method or claim that GBD 2023 or subtype stratification alone is novel. The value is an interpretable application that changes the substantive reading of apparent convergence.
+
+Age standardization removes changes in the chosen age weights, but it does not fix the mix of countries within an age group. When countries with different infertility rates gain or lose population share, a pooled reference can move even with unchanged country rates. The symmetric identity quantifies this component separately from the rate component and avoids assigning the entire rate--share interaction to one replacement order. The fixed-1990-share sensitivity gives a complementary contrast under a different reference definition. Neither is a preferred target rate or a causal counterfactual.
+
+The subtype results further discourage describing narrowing as improved reproductive health. Both Chinese and reference PCOS rates increased. Secondary infertility's larger contribution does not show that individual women moved from primary to secondary infertility, nor that parity history caused the increase. The GBD categories reflect modeled estimates and survey definitions; diagnosis, fertility intentions, exposure to pregnancy, treatment and underlying disease attribution could all affect interpretation, but were not directly measured. The all-female denominator cannot estimate the risk among couples trying to conceive.
+
+For endometriosis, the final-year near cancellation should be viewed as an unstable contrast. Independent download checks reproduced the source values, yet these checks cannot determine whether the abrupt terminal-year change reflects new evidence, model behavior or an actual epidemiological shift. Analyses ending in 2021 or 2022 gave a materially different overall picture. This unresolved source-level issue warrants investigation with independent evidence before a substantive convergence claim. Retaining the earlier endpoints and full annual trajectories makes the limitation visible.
+
+\input{sections/endo_endpoint_discussion.tex}
+
+Case-count accounting answers a different public-health question. The PCOS increase occurred despite offsets from China's reproductive-age female population size and age composition. The age-specific prevalence component includes any changes embedded in the modeled rates; calling it an epidemiological component does not isolate biological risk, diagnosis or policy. Clinical guidelines support individualized reproductive and broader health assessment \cite{pcos,eshre}; these ecological comparisons cannot select interventions, estimate treatment benefits or demonstrate service inequity. They can identify patterns that surveillance and independent studies should examine.
+
+\input{sections/un_population_discussion.tex}
+
+The principal GBD limitation remains unavailable joint uncertainty draws. We cannot propagate GBD uncertainty through pooling, standardization, subtype shares or the new decomposition. A 58.5\% or 69.4\% point estimate should therefore not be read as a precisely established population parameter. Country exclusions test dependence on the reference; they cannot replace draw-based intervals. Bootstrap resampling of the deliberately selected G20 countries would answer another question and would not recover GBD uncertainty. Conditional trend intervals are confined to the supplement and do not establish cross-country differences.
+
+Other limitations include sparse or heterogeneous upstream evidence, modeled cause allocation, the distinction between impairment and disease prevalence, the economically selected comparison group, and the absence of definitionally matched external validation of GBD. Standard weights were available only as a rounded published reproduction. Several analyses were added after inspection, including endpoint checks and the reference-composition decomposition; their exploratory status requires transparent reporting and future corroboration. No release-to-release comparison was performed, so differences from previous publications cannot be assigned to real changes rather than GBD revision. These constraints limit the strength of inference even after formatting and numerical checks.
+
+\section{Conclusions}
+Within GBD 2023 point estimates, China's apparent convergence toward other G20 countries for PCOS-related infertility partly reflected changing reference-country population shares and concealed contrasting primary and secondary infertility patterns. Endometriosis near parity in 2023 depended strongly on the terminal year. International summaries should distinguish subtype, age and reference composition; these results require propagated uncertainty and independent corroboration before causal or policy conclusions.
+
+\section*{List of abbreviations}
+AAPC, average annual percentage change; ARIMA, autoregressive integrated moving average; ASPR, age-standardized prevalence rate restricted here to ages 15--49; GATHER, Guidelines for Accurate and Transparent Health Estimates Reporting; GBD, Global Burden of Disease; G20, Group of Twenty; IHME, Institute for Health Metrics and Evaluation; MAE, mean absolute error; OLS, ordinary least squares; PCOS, polycystic ovarian syndrome; YLD, years lived with disability.
+
+\section*{Declarations}
+\subsection*{Ethics approval and consent to participate}
+Public aggregate GBD estimates and UN demographic data were analysed, without individually identifiable participants. XX: ethics review applicability or an institutional non-human-subject/exemption determination to be confirmed by the responsible author, without assuming approval.
+\subsection*{Consent for publication}
+Not applicable: the manuscript contains no individual person's data, images or identifiable details.
+\subsection*{Availability of data and materials}
+The independently sourced United Nations WPP 2024 female population table is publicly available from the UN Population Division. The 19-country age--year subset, original-file SHA-256, full crosswalk and analytical source code are provided in the accompanying reproducibility package. The UN data were used for reference-country weights only; original GBD clinical/infertility estimates are governed by IHME conditions.
+
+The derived datasets supporting the reported results and their analysis code are provided in Additional file 2 and the public GitHub repository \cite{repository}. Original GBD inputs are obtained from IHME through the Results Tool \cite{results}, subject to its data-use terms and access requirements. Exact dimensions, identifiers, download date, hashes and acquisition specifications are supplied. The original CSVs are retained in the research archive; they are not included in the public additional file. Re-running the full source-to-result pipeline requires obtaining these IHME inputs. The repository contains version history; XX: add an immutable archive identifier if available and verify permitted access under original data licences.
+\subsection*{Competing interests}
+XX: complete author-specific disclosures after verification; do not presume no conflicts.
+\subsection*{Funding}
+XX: verified funding sponsors, grants and funder roles, or an approved statement of no specific funding.
+\subsection*{Authors' contributions}
+XX: insert verified author-by-author contributions. Obtain documented full-team manuscript approval prior to submission.
+\subsection*{Acknowledgements}
+We acknowledge the GBD data resource and the contributions of its data providers and collaborators. XX: acknowledgements and permissions, if applicable.
+
+\section*{Additional files}
+\textbf{Additional file 1 (PDF, with editable TeX source).} Supplementary methods, secondary case-count and trend analyses, endpoint checks, forecast validation, acquisition audit and GATHER reporting map; supplementary tables and figures.
+
+\textbf{Additional file 2 (ZIP).} Machine-readable derived result tables, executable Python source, configuration, dependencies, acquisition and validation manifests, and a README specifying licensed IHME inputs needed to reproduce the analysis. No synthetic research observations or raw licensed GBD downloads are included; the unrelated US survey work is not in this manuscript package.
+{\small\doublespacing
+\begin{thebibliography}{99}
+\bibitem{chen} Chen S, Yang X, Jiang S, Lin Y, Huang L, Chen H, Zheng J, Xie Y, Kuang Z. Burden and temporal trends of female-specific cancers in China: a systematic analysis of the 2023 global burden of disease study. \emph{PLOS One}. 2026;21:e0351539. Supplemental table of reproduced GBD standard population. \href{https://doi.org/10.1371/journal.pone.0351539}{doi:10.1371/journal.pone.0351539}.
+\bibitem{eshre}Becker CM, Bokor A, Heikinheimo O, Horne A, Jansen F, Kiesel L, King K, Kvaskoff M, Nap A, Petersen K, et al. ESHRE guideline: endometriosis. \emph{Hum Reprod Open}. 2022;2022:hoac009. \href{https://doi.org/10.1093/hropen/hoac009}{doi:10.1093/hropen/hoac009}.
+\bibitem{feng}Feng J, Wu Q, Liang Y, Liang Y, Bin Q. Epidemiological characteristics of infertility, 1990--2021, and 15-year forecasts: an analysis based on the global burden of disease study 2021. \emph{Reprod Health}. 2025;22:26. \href{https://doi.org/10.1186/s12978-025-01966-7}{doi:10.1186/s12978-025-01966-7}.
+\bibitem{gather} Stevens GA, Alkema L, Black RE, Boerma JT, Collins GS, Ezzati M, Grove JT, Hogan DR, Hogan MC, Horton R, et al. Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement. \emph{PLOS Med}. 2016;13:e1002056. \href{https://doi.org/10.1371/journal.pmed.1002056}{doi:10.1371/journal.pmed.1002056}.
+\bibitem{gbd} GBD 2023 Collaborators. Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990--2023: a systematic analysis for the Global Burden of Disease Study 2023. \emph{Lancet}. 2025. \href{https://doi.org/10.1016/S0140-6736(25)01637-X}{doi:10.1016/S0140-6736(25)01637-X}. Includes Supplementary Appendix 1, infertility methods.
+\bibitem[Liang et al.(2025)]{liang2025} Liang Y, Huang J, Zhao Q, Mo H, Su Z, Feng S, Li S, Ruan X. Global, regional, and national prevalence and trends of infertility among individuals of reproductive age (15--49 years) from 1990 to 2021, with projections to 2040. \emph{Hum Reprod}. 2025;40:529--544. \href{https://doi.org/10.1093/humrep/deae292}{doi:10.1093/humrep/deae292}.
+\bibitem[Liu et al.(2024)]{liu_pcos2024} Liu X, Zhang J, Wang S. Global, regional, and national burden of infertility attributable to PCOS, 1990--2019. \emph{Hum Reprod}. 2024;39:108--118. \href{https://doi.org/10.1093/humrep/dead241}{doi:10.1093/humrep/dead241}.
+\bibitem{liu2026} Liu Y, Hua S, Wang F, Zhou C, Wan G, Tang W. Endometriosis-associated infertility in China: epidemiological trends, future projection, and real-world clinical insights. \emph{Int J Womens Health}. 2026;18:622604. \href{https://doi.org/10.2147/IJWH.S622604}{doi:10.2147/IJWH.S622604}.
+\bibitem{lu} Lu S, Zhang P, Qian H, Li HM. Analysis and projection of the disease burden of endometriosis and polycystic ovary syndrome-related infertility among women aged 15--49 years in China and globally from 1990 to 2021. \emph{Zhonghua Liu Xing Bing Xue Za Zhi}. 2026;47:1091--1098. In Chinese. \href{https://doi.org/10.3760/cma.j.cn112338-20250929-00691}{doi:10.3760/cma.j.cn112338-20250929-00691}.
+\bibitem{pcos}Teede HJ, Tay CT, Laven JJE, Dokras A, Moran LJ, Piltonen TT, Costello MF, Boivin J, Redman LM, Boyle JA, et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. \emph{J Clin Endocrinol Metab}. 2023;108:2447--2469. \href{https://doi.org/10.1210/clinem/dgad463}{doi:10.1210/clinem/dgad463}.
+\bibitem{repository} PCOS research workspace. Analysis code, query manifests and derived results for GBD 2023 infertility comparisons. GitHub. \url{https://github.com/jiabao1314/PCOS}. Accessed 25 October 2026. Exact analysis revision is recorded in the accompanying submission manifest.
+\bibitem{results} Institute for Health Metrics and Evaluation. GBD Results Tool. \url{https://vizhub.healthdata.org/gbd-results/}. Accessed 25 October 2026.
+\bibitem{wang}Wang J, Gan C, Jia Z, Zheng Z, Zhang Y, Liang H. Global estimates of infertility burden and contributions of congenital, endocrine, metabolic and infectious factors. \emph{Mol Med}. 2026;32:192. \href{https://doi.org/10.1186/s10020-026-01548-8}{doi:10.1186/s10020-026-01548-8}.
+\bibitem{who2023} World Health Organization. Infertility prevalence estimates, 1990--2021. WHO; 2023. \url{https://www.who.int/publications/i/item/978920068315}.
+\bibitem{wpp2024} United Nations, Department of Economic and Social Affairs, Population Division. World Population Prospects 2024, Online Edition: population by five-year age group and sex (midyear). \url{https://population.un.org/wpp/}. 2024. Creative Commons Attribution 3.0 IGO.
+\bibitem{xu}Xu Y, Jia Y, Li Q, Jiang H, Xiong Y, Liang W, Liu X, Huang Y, Zou K, Sun X, et al. Global, regional, and national burden of endometriosis, PCOS, and unexplained infertility and their attribution to infertility, 1990--2021: Global Burden of Disease Study 2021. \emph{J Evid Based Med}. 2025;18:e70100. \href{https://doi.org/10.1111/jebm.70100}{doi:10.1111/jebm.70100}.
+\end{thebibliography}
+}
+
+\section*{Figure legends}
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/RH_Figure1.pdf}
+\caption{\textbf{Annual total infertility rates and China--reference contrasts.} Rates are standardized within ages 15--49. The reference pools population and modeled cases within age across 18 countries. Point trajectories have no propagated GBD uncertainty. The terminal-year endometriosis change is a source-estimate feature requiring independent corroboration.}\label{fig:trends}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/RH_Figure2.pdf}
+\caption{\textbf{Primary and secondary infertility trajectories.} The same restricted-age standard and annual population-pooled reference are used for both types. Opposing subtype contrasts can cancel in the total. These modeled categories do not track transitions in individual women.}\label{fig:strata}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/RH_Figure3.pdf}
+\caption{\textbf{Rate and reference-composition contributions to contrast changes.} Contributions sum to the 1990--2023 change in China minus reference, separately by infertility type. Diamonds denote net changes. Positive components move the signed contrast upward. Reference-country shares vary within age; fixed standard age weights are used throughout. The decomposition was added during manuscript review and is descriptive.}\label{fig:composition}\end{figure}
+
+
+\begin{figure}[htbp]\centering\includegraphics[width=.92\textwidth]{figures/fig_un_population_benchmark_trends.pdf}
+\caption{\textbf{GBD and UN demographic-source sensitivity of the China-minus-reference PCOS contrast.} Both scenarios hold GBD 2023 country- and age-specific disease rates constant; only the reference-country female population shares differ within age and year. Values are model-conditioned point estimates, not confidence intervals.}\label{fig:un_trends}\par\smallskip{\footnotesize\textit{Alt text:} Two closely similar annual curves of China minus 18-country PCOS infertility burden; GBD and UN population weighting produce similar results.}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=.92\textwidth]{figures/fig_un_population_decomposition.pdf}
+\caption{\textbf{Population-source comparison of symmetric decomposition components.} Chinese age-specific modeled prevalence rates, reference-country rates and changing reference shares contribute to the signed 1990--2023 China-minus-reference contrast; the three components sum exactly to the model-conditioned net change. UN shares substitute only the reference population composition, not GBD disease rates.}\label{fig:un_decomp}\par\smallskip{\footnotesize\textit{Alt text:} Population composition is a substantial positive contribution to a narrowing modeled PCOS contrast under either GBD or UN population weights.}\end{figure}
+
+\end{document}
