@@ -11,27 +11,33 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Download public CDC inputs with provenance
+      - name: Download public sources with curl and retain status
         shell: bash
         run: |
           mkdir -p inputs
           python3 - <<'PY'
-          import urllib.request, pathlib, hashlib, json, datetime
+          import subprocess, pathlib, hashlib, json, datetime
           files = {
             'NSFG-2022-2023-FemRespPUFData.zip': 'https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NSFG/NSFG-2022-2023-FemRespPUFData.zip',
             'NSFG-2022-2023-codebook.pdf': 'https://www.cdc.gov/nchs/data/nsfg/codebooks/2022-2023-NSFG-FemRespPUFCodebook.pdf',
             'NSFG-2022-2023-design.pdf': 'https://www.cdc.gov/nchs/data/nsfg/varest/2022-2023-NSFG-DesignandWeightVariables.pdf',
-            'CDC-Health-EStat121.pdf': 'https://www.cdc.gov/nchs/data/hestat/hestat121.pdf'
+            'CDC-Health-EStat121.pdf': 'https://www.cdc.gov/nchs/data/hestat/hestat121.pdf',
+            'NSFG-recodes.pdf': 'https://www.cdc.gov/nchs/data/nsfg/recodespecs/2022-2023-NSFG-FemResp-RecodeSpecs.pdf'
           }
           records=[]
           for name,url in files.items():
-              request=urllib.request.Request(url,headers={'User-Agent':'PCOS academic reproducibility audit'})
-              with urllib.request.urlopen(request,timeout=180) as response:
-                  data=response.read(); status=response.status; final_url=response.url
-              if name.endswith('.zip') and not data.startswith(b'PK'): raise ValueError('Not ZIP: '+name)
-              if name.endswith('.pdf') and not data.startswith(b'%PDF'): raise ValueError('Not PDF: '+name)
-              pathlib.Path('inputs',name).write_bytes(data)
-              records.append({'filename':name,'url':url,'resolved_url':final_url,'http_status':status,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'retrieved_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()})
+              target=pathlib.Path('inputs',name)
+              cp=subprocess.run(['curl','--fail','--location','--connect-timeout','20','--max-time','180','--output',str(target),'--write-out','%{http_code}',url],capture_output=True,text=True)
+              rec={'filename':name,'url':url,'http_status':cp.stdout.strip(),'exit_code':cp.returncode,'retrieved_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+              if cp.returncode==0:
+                  data=target.read_bytes()
+                  valid=data.startswith(b'PK') if name.endswith('.zip') else data.startswith(b'%PDF')
+                  rec.update(bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),signature_verified=valid)
+                  if not valid: target.unlink()
+              else:
+                  rec['error']=cp.stderr[-500:]
+                  if target.exists(): target.unlink()
+              records.append(rec)
           pathlib.Path('inputs/download_manifest.json').write_text(json.dumps(records,indent=2))
           print(json.dumps(records,indent=2))
           PY
