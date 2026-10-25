@@ -1,0 +1,46 @@
+name: Acquire independent UN WPP 2024 population
+on:
+  push:
+    paths:
+      - '.github/workflows/acquire-wpp2024.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pandas
+        run: python -m pip install --disable-pip-version-check pandas
+      - name: Download official UN WPP2024 population by 5-year age and sex
+        shell: bash
+        run: |
+          mkdir -p data/external/un_wpp2024 output/un_wpp2024
+          curl -fSL --retry 4 --retry-delay 8 --connect-timeout 35 --max-time 600 \
+            'https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20%28Standard%29/CSV_FILES/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz' \
+            -o data/external/un_wpp2024/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz
+          gzip -t data/external/un_wpp2024/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz
+          python src/wpp2024_extract.py \
+            --input data/external/un_wpp2024/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz \
+            --output output/un_wpp2024/UN_WPP2024_G20_female_15_49_1990_2023.csv \
+            --manifest output/un_wpp2024/UN_WPP2024_source_manifest.json
+          cd output/un_wpp2024
+          zip -9 -q UN_WPP2024_G20_female_15_49_1990_2023_GALAXY_READY.zip UN_WPP2024_G20_female_15_49_1990_2023.csv UN_WPP2024_source_manifest.json
+      - name: Hash original UN source
+        run: |
+          cd data/external/un_wpp2024
+          sha256sum WPP2024_PopulationByAge5GroupSex_Medium.csv.gz > UN_WPP2024_SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: WPP2024_G20_19countries_historical_subset_for_Galaxy
+          path: output/un_wpp2024/
+          retention-days: 30
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: WPP2024_official_original_source
+          path: data/external/un_wpp2024/
+          retention-days: 30
+          if-no-files-found: error
