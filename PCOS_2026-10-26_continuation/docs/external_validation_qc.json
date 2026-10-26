@@ -1,0 +1,24 @@
+{
+  "raw_rows": 5586,
+  "raw_columns": 1912,
+  "age_20_49_respondents": 4855,
+  "published_report_eligible_n": 4856,
+  "eligible_n_explanation": "One respondent was 49 at screening and 50 at interview; strict 20-49 excludes her. Her disease questions are inapplicable, so known-diagnosis domains are unaffected.",
+  "strata": 20,
+  "nested_psus": 80,
+  "design_df": 60,
+  "source_codebook_frequencies_match": true,
+  "cdc_six_point_estimates_rounded_match": true,
+  "cdc_two_diagnosis_ses_rounded_match": true,
+  "population_birth_history_components_add": true,
+  "independent_R_validation": {
+    "rows": 20,
+    "survey_package": "4.5",
+    "max_point_discrepancy_percent": 7.8159700933611e-14,
+    "max_se_discrepancy_percent": 3.99680288865056e-15,
+    "additional_narrow_definition_rows": 4
+  },
+  "interpretation": "External observational triangulation; not validation of GBD etiologic attribution, China-G20 contrasts, trend or joint uncertainty",
+  "nonresponse": "Female response rate 23.4%; survey mode and ascertainment may bias estimates",
+  "input_sha256": "eb10fa3bd11e671b1a3533781a01550261bde9c6b8ad9b17a87dd7250bc131a8"
+}

@@ -1,0 +1,5 @@
+cause,metric,standard,estimate_percent,se_percent,lower_percent,upper_percent,n_denominator,n_events,design_df,interval,small_event_caution
+Endometriosis,no_prior_live_birth_share_of_cooccurrence,survey_weighted_crude,66.55427924324202,5.886778584697603,53.968977407013426,77.1551773891751,105,65,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Endometriosis,no_prior_live_birth_share_of_cooccurrence,GBD_weights_20_49,68.13382895697373,5.657308774605091,55.939816805171375,78.26433959313674,105,65,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Polycystic ovarian syndrome,no_prior_live_birth_share_of_cooccurrence,survey_weighted_crude,58.470433363338714,4.00039608451391,50.314465188133504,66.18730624445615,208,121,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Polycystic ovarian syndrome,no_prior_live_birth_share_of_cooccurrence,GBD_weights_20_49,59.522880715890004,4.004300453497953,51.32900751822162,67.21829857943236,208,121,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False

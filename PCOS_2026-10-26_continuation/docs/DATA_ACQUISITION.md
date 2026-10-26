@@ -1,0 +1,56 @@
+# GBD数据提取规范与实际验收记录
+
+更新时间：2026-10-25（Europe/Paris）。GBD 2023为首选；不能获取两病因完整不孕分项时，整体退回GBD 2021，禁止拼接版本。
+
+## 1. 首批试下载
+
+在 https://vizhub.healthdata.org/gbd-results/ 登录后，选择Infertility损伤类别与Endometriosis、Polycystic ovarian syndrome病因交叉。国家China，女性Female，35–39岁，2023年，Prevalence和YLDs，Number和Rate。总不孕口径下预期8个结果单元。保留筛选截图、实际标签/ID、查询时间、官方CSV、下载邮件/任务标识和方法定义。先验证目标数据存在，不能将疾病本身的负担替代所致不孕。
+
+早期访问曾因未登录和网站验证而受限；随后取得真实导出并完成核验，详见本文后半部分实际记录及当前STATUS。GBD采用的定义不得直接用WHO临床12个月定义替代。
+
+## 2. 完整提取
+
+固定19个主权国家见config/study.json；EU和AU不作为额外人口加入。实际国家标签必须根据导出映射到配置中的规范标签，原始标签和ID同时保留。GBD 2023：1990–2023，7个五岁年龄组，2病因，2指标，2度量，总不孕预期36,176行；同版女性年龄别人口4,522行。GBD 2021对应34,048行和4,256行。原发/继发不孕单独存放，核对互斥与可加性后才能作为可选分层，不重复加入总不孕。
+
+另需：官方GBD标准人口各年龄权重和来源；与目标版本匹配的人口；方法文件；数据使用条款；匹配draws可得性。人口预测仅在完成主分析后获取，UN WPP 2024属于条件模块。
+
+## 3. 保存位置
+
+- Galaxy：现有PCOS历史（用户所称文件夹），以原始文件名上传CSV、人口、权重、方法文档和query记录。验收后保留原文件，清理另存。
+- 本地：data/raw只读保留下载，data/processed保存规范化输入；记录每个文件SHA256。
+- GitHub公开仓库：先同步代码、方案与数据字典。原始数据公开再分发前核对许可。私有账户信息、会话、密码、API密钥不入库。
+- Drive 2026PCOS：研究包及后续分析产物。
+
+## 4. 规范化文件接口
+
+burden.csv必需列（参见src/analyze.py）：gbd_version, location_id, year, sex_id, age_group_id, cause_id, impairment_id, infertility_type, measure_name, metric_name, location_name, age_name, sex_name, cause_name, impairment_name, val, lower, upper。保留额外原始字段，例如measure_id、metric_id、sequela_id、原始名称、提取日期和query_id。版本为GBD 2023或GBD 2021；age_name使用15-19等ASCII标签；规范化名称不改变ID。
+
+population.csv：gbd_version, location_id, year, sex_id, age_group_id, population。单位为人，不是千人。
+
+weights.csv：age_name, weight。使用GBD2023标准人口公开论文复现的六位小数权重，非IHME原始机器精度文件；详见weights_provenance.json。程序只在15–49内归一化，不自行假设等权。
+
+不提供伪数据模板作为研究输入。tests仅使用临时合成数值验证公式，运行结束即清理。
+
+## 5. 数据门控
+
+仅当试下载、病例定义、分母、标准人口权重、损伤与病因ID、总不孕定义和原始清单均经来源核对后，更新config/data_review.json并锁定版本。缺失不作0。核验lower≤val≤upper，患病率0–100000，人数允许小数，Number/同龄女性人口×100000应重现Rate。主分析要求完整年度×年龄×国家×病因×指标×度量网格。
+
+无联合匹配draws时，派生差值、率比、合并参照及分解只给点估计。不得把各国上下限相加或从边际UI独立抽样伪造draws。
+
+## 2026-10-25实际取得记录
+
+已锁定GBD2023，未混合GBD2021：
+
+| 数据 | 任务ID | 实际行数 |
+|---|---|---:|
+| 独立中国35–39岁、2023小样本 | 0daed0e53f5ad8ebdf0dc00c23ccd110 | 8 |
+| Total infertility，两病因、Number/Rate、Prevalence/YLDs | 1b13e3376135ab41a4bc5e0ffc60e84f | 36,176 |
+| 同版女性年龄别人口 | 916826fb285f8d3c3e53117dd2133406 | 4,522 |
+| 原发/继发、1990及2023、原始Number/Rate | 76c5523c52f32caf342843daf2326fa4 | 4,256 |
+| 原发/继发、完整年度、Number | 416daf735b9fc79bec35506514424e73 | 36,176 |
+
+下载入口：https://vizhub.healthdata.org/gbd-results/ 。任务链接生成的文件仅保留7天，故原始ZIP与CSV均另存研究者私有档案。年度分层率按Number/同版人口×100000计算；端点独立Rate用于核验。完整Number+Rate分层请求超过账户剩余额度，采用此减少重复输出的方案；不绕过账户限额。
+
+已核验的标识：Female sex_id=2；Total infertility rei_id=198；Primary infertility=220；Secondary infertility=221；Endometriosis cause_id=607；Polycystic ovarian syndrome cause_id=605；Prevalence measure_id=5；YLD measure_id=3；Population measure_id=44；Number metric_id=1；Rate metric_id=3。
+
+标准权重来自Chen等PLOS ONE 2026，doi:10.1371/journal.pone.0351539，S1表（补充文件s002），六位小数。来源与舍入限制见weights_provenance.json。不能宣称已取得IHME机器精度原始权重。

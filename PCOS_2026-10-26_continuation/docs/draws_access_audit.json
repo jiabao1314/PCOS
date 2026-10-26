@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-25",
+  "status": "aligned posterior draws not obtained",
+  "checks": [
+    {"route":"existing official exports", "result":"Four schemas inspected; only marginal summaries, no draw columns", "evidence":"sources/external_validation/existing_exports_schema_audit.json"},
+    {"route":"logged-in current GBD Results download dialog", "result":"ID/name/both choices only; no draw-level setting observed; no redundant download submitted", "url":"https://vizhub.healthdata.org/gbd-results/"},
+    {"route":"official GBD2023 user guide", "result":"Documents summary CSV downloads; no posterior draw export procedure identified", "url":"https://www.healthdata.org/sites/default/files/2025-10/GBD_Results_Tool_User_Guide_2023.pdf", "sha256":"84a0f8a0d65f32d68dfe96104b59514532666d9fefa1d7fa910380ecadeaafef"},
+    {"route":"current GBD2023 Data Resources catalog", "result":"No public draw archive for the required cause-specific infertility grid identified. Sequela-level results listed on request via engage@healthdata.org; this is not confirmation that joint draws are available.", "url":"https://ghdx.healthdata.org/gbd-2023"}
+  ],
+  "application_status": "Unsent; actual applicant name, affiliation and correspondence are not supplied. No collaborator status or affiliation has been invented.",
+  "request_specification": "config/joint_draws_request.json",
+  "request_draft": "docs/IHME_joint_draws_request_draft.txt",
+  "derived_GBD_intervals": "not generated",
+  "survey_intervals": "NSFG design-based intervals are separate and do not replace GBD posterior uncertainty"
+}

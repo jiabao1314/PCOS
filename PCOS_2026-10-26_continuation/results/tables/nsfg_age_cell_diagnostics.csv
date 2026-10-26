@@ -1,0 +1,13 @@
+cause,metric,standard,estimate_percent,se_percent,lower_percent,upper_percent,n_denominator,n_events,design_df,interval,small_event_caution
+Endometriosis,cooccurring_diagnosis_and_problem,20-24,2.2285753775116386,0.7179385374774239,1.1654307417103205,4.220144770936915,599,11,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Endometriosis,cooccurring_diagnosis_and_problem,25-29,1.91813601396468,0.6374151174416625,0.9832640954028046,3.70857787595127,798,15,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Endometriosis,cooccurring_diagnosis_and_problem,30-34,2.655830030286854,0.7064947159795157,1.5548423290058573,4.5007869766648625,1021,27,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Endometriosis,cooccurring_diagnosis_and_problem,35-39,2.6689783300412167,0.6988729954735867,1.575737938174853,4.486132906188497,922,21,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Endometriosis,cooccurring_diagnosis_and_problem,40-44,1.0353688168153141,0.37758952540691965,0.49810203724364915,2.139684781394647,792,14,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Endometriosis,cooccurring_diagnosis_and_problem,45-49,1.5908939800691868,0.4549754104543978,0.895857719572892,2.809873811795022,681,17,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Polycystic ovarian syndrome,cooccurring_diagnosis_and_problem,20-24,3.1511755082652115,0.8437026115330452,1.8372345796858969,5.353563030172045,596,19,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Polycystic ovarian syndrome,cooccurring_diagnosis_and_problem,25-29,4.911893884053638,1.0159452800429754,3.235035684760218,7.391545555243202,799,40,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Polycystic ovarian syndrome,cooccurring_diagnosis_and_problem,30-34,4.003453935088088,0.8157313226787897,2.6552325301434276,5.994095277881021,1016,48,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Polycystic ovarian syndrome,cooccurring_diagnosis_and_problem,35-39,3.7111364523263237,0.6943246750029278,2.5464428986349907,5.379134386664754,919,39,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Polycystic ovarian syndrome,cooccurring_diagnosis_and_problem,40-44,4.902925789778007,0.9311900273556954,3.3421590822517535,7.138729438933031,791,40,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Polycystic ovarian syndrome,cooccurring_diagnosis_and_problem,45-49,2.821027121470742,0.7880568477022041,1.607222818397637,4.905813250292,680,22,60,Taylor variance; logit-t 95% CI; no GBD uncertainty,True

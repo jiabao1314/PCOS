@@ -1,0 +1,29 @@
+{
+  "gbd_version": "GBD 2023",
+  "sex_id": 2,
+  "locations": "19 sovereign G20 countries listed in config/study.json",
+  "years": "1990-2023 inclusive",
+  "ages": ["15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49"],
+  "cause_ids": [605, 607],
+  "impairment_ids": [220, 221],
+  "optional_total_impairment_id": 198,
+  "measures": ["Prevalence", "YLDs"],
+  "metrics": ["Number", "Rate if available"],
+  "draw_count": "all available posterior draws; do not assume 1000",
+  "mandatory_provider_metadata": [
+    "published final release and model version, not intermediate sequela draws",
+    "meaning of draw identifiers and confirmation of joint alignment across countries, ages, years and infertility types",
+    "whether numerator, subtype and any uncertain population draws are coherently aligned",
+    "whether primary plus secondary equals total within each draw after final reconciliation",
+    "licensing, permitted derived-result publication and redistribution conditions"
+  ],
+  "acceptance_checks": [
+    "official provenance and checksums",
+    "complete dimensional coverage, unique cell/draw keys, finite nonnegative values",
+    "draw identity and alignment verified from provider metadata, not inferred from column names",
+    "reproduce supplied marginal summaries within provider-specified numerical tolerance",
+    "subtype additivity and annual denominator consistency",
+    "compute contrasts and decompositions separately for each accepted draw, then summarize quantiles"
+  ],
+  "fallback": "If no confirmed aligned draws, do not create GBD intervals from marginal limits, independent simulations or country bootstrap."
+}

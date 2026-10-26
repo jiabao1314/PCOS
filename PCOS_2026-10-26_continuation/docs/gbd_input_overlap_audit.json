@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-25",
+  "queries": [
+    {
+      "outcome": "PCOS",
+      "metadata_rows": 3084,
+      "unique_citations": 16,
+      "latest_source_end_year": 2016.0,
+      "NSFG2022_2023_matches": 0,
+      "metadata_sha256": "da827edff56eb3295c3caa74a66711b7f1fb6ff8a2ab5769888129e9ca3a4783",
+      "stable_query_url": "https://sources.healthdata.org/collection/sources-2023?components=5&causes=605&impairments=0&locations=102"
+    },
+    {
+      "outcome": "Endometriosis",
+      "metadata_rows": 3920,
+      "unique_citations": 22,
+      "latest_source_end_year": 2017.0,
+      "NSFG2022_2023_matches": 0,
+      "metadata_sha256": "105417c97e10d9034e722a2dfe0811bf646402c50129fd55016870b4ee71152c",
+      "stable_query_url": "https://sources.healthdata.org/collection/sources-2023?components=5&causes=607&impairments=0&locations=102"
+    },
+    {
+      "outcome": "Infertility",
+      "metadata_rows": 61,
+      "unique_citations": 3,
+      "latest_source_end_year": 2007.0,
+      "NSFG2022_2023_matches": 0,
+      "metadata_sha256": "0a856c59642fc594aba8f9087b07eaaa6624c42756909c322a3d8ee8a05ac687",
+      "stable_query_url": "https://sources.healthdata.org/collection/sources-2023?components=5&causes=0&impairments=198&locations=102"
+    }
+  ],
+  "finding": "NSFG2022-2023 not listed in these three US input metadata sets. This supports held-out status for these queried outputs, not independence from every upstream GBD covariate.",
+  "additional_support": "GBD2023 methods Appendix1 PDF pp687-688 states no new infertility household surveys and unchanged infertility-specific sources from GBD2021; disease attribution proportions use ALSWH.",
+  "not_an_external_validator": "ALSWH was explicitly an upstream source; other GBD secondary publications share modeled data."
+}

@@ -1,0 +1,19 @@
+DRAFT FOR AUTHOR COMPLETION — NOT SUBMITTED
+25 October 2026
+
+Dear Editors of Reproductive Health,
+
+We would like to submit the Research article “Infertility subtype and reference composition in China–G20 comparisons: a GBD 2023 analysis with external survey triangulation”.
+
+This study examines how reference-population composition and infertility subtype alter the interpretation of international comparisons. In the main GBD analysis, changing country population shares within age groups corresponded to 58.5% of the signed narrowing of the PCOS-related infertility difference between China and the other 18 sovereign G20 countries. Primary and secondary infertility contributed differently, while the endometriosis result depended strongly on the terminal year.
+
+We added an external analysis of the NSFG2022–2023 public-use female respondent file. An audit of GBD's US PCOS, endometriosis and infertility input metadata did not list this survey cycle. Survey statistics reproduced CDC headline estimates, and all 20 main estimates and Taylor standard errors were independently checked using R survey. The external population analysis provides evidence about diagnosed disease and fertility-problem co-occurrence, while explicitly demonstrating why it cannot calibrate GBD etiologic attribution. The endometriosis contrast changed direction under a narrower outcome and a different partnership universe; this limiting result is retained in the abstract and paper.
+
+The contribution is incremental and interpretive. Prior studies already cover these causes, subtype attribution, GBD2023 and external clinical series. We do not claim a new decomposition method or first-ever combination of GBD and external data. The added value is transparent joint accounting of reference composition and subtype, an audit of upstream model assumptions, and a source-audited population survey comparison with explicit comparability limits.
+
+The manuscript includes a Plain English summary, machine-readable outputs, editable figure and manuscript sources, and sensitivity analyses. It reports unsuccessful retrieval of joint GBD draws, avoids invented uncertainty intervals and causal claims, and discloses all post hoc additions and AI assistance. Public CDC inputs and exact IHME retrieval specifications are identified.
+
+Before sending, the corresponding author must supply their identity, affiliation and contact details and verify originality, exclusive consideration, all-author approval, competing interests, funding and the applicable ethics determination. These declarations remain unverified in this draft. No submission or fee payment has been made.
+
+Sincerely,
+Corresponding author and contact details to be completed by the research team

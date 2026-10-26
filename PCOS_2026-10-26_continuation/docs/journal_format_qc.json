@@ -1,0 +1,22 @@
+{
+  "GBD2023_Reproductive_Health_main": {
+    "pages": 21,
+    "bytes": 144712,
+    "all_fonts_embedded": true,
+    "unresolved_references": false,
+    "replacement_characters": false
+  },
+  "GBD2023_Reproductive_Health_Additional_file_1": {
+    "pages": 10,
+    "bytes": 164842,
+    "all_fonts_embedded": true,
+    "unresolved_references": false,
+    "replacement_characters": false
+  },
+  "abstract_word_count": 268,
+  "plain_english_word_count": 218,
+  "manual_page_breaks": 0,
+  "visual_review": "All 21 main and 10 supplementary pages inspected after final compilation; no clipping, overlap or missing symbols.",
+  "core_tests": "9 passed",
+  "external_validation": "20 main and 4 narrower-definition estimates/SEs independently matched R survey; six CDC points and two diagnosis SEs reproduced; source audit passed"
+}

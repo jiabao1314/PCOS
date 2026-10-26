@@ -1,0 +1,9 @@
+cause,metric,standard,estimate_percent,se_percent,lower_percent,upper_percent,n_denominator,n_events,design_df,interval,small_event_caution
+Endometriosis,12month_infertility_in_union_diagnosed,survey_weighted_crude,6.492758351920131,1.5998772468959241,3.937442555859374,10.524729025761378,173.0,15.0,60.0,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Endometriosis,12month_infertility_in_union_not_diagnosed,survey_weighted_crude,7.702349851038487,0.7522065383015547,6.326056360311651,9.34818785317916,2474.0,188.0,60.0,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Endometriosis,missing_diagnosis_cooccurrence_lower,GBD_weights_20_49,2.0397327792158424,,,,,,,"classification sensitivity point limit, not CI",
+Endometriosis,missing_diagnosis_cooccurrence_upper,GBD_weights_20_49,2.3006812933901353,,,,,,,"classification sensitivity point limit, not CI",
+Polycystic ovarian syndrome,12month_infertility_in_union_diagnosed,survey_weighted_crude,12.630428166867194,1.967702276953957,9.189480029767362,17.116959732339055,252.0,29.0,60.0,Taylor variance; logit-t 95% CI; no GBD uncertainty,True
+Polycystic ovarian syndrome,12month_infertility_in_union_not_diagnosed,survey_weighted_crude,7.11952624598199,0.7418546120619437,5.771013931783632,8.753871898856556,2394.0,175.0,60.0,Taylor variance; logit-t 95% CI; no GBD uncertainty,False
+Polycystic ovarian syndrome,missing_diagnosis_cooccurrence_lower,GBD_weights_20_49,3.899412640401096,,,,,,,"classification sensitivity point limit, not CI",
+Polycystic ovarian syndrome,missing_diagnosis_cooccurrence_upper,GBD_weights_20_49,4.147977606629664,,,,,,,"classification sensitivity point limit, not CI",

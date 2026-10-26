@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.key
+sources/*.pptx
+sources/plan_extracted.txt
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+tmp/
+logs/*
+!logs/.gitkeep
+
+# Keep the complete ranking catalogue local; publish only audited candidate rows.
+sources/journal_audit/*.xlsx

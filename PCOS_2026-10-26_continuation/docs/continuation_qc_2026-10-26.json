@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-26",
+  "original_baseline_files_unchanged": 420,
+  "core_tests_passed": 9,
+  "external_major_R_checks": 20,
+  "external_narrow_R_checks": 4,
+  "copied_pdf_sha256_unchanged": true,
+  "notes": "No scientific result changes after copying; new environment and rerun within dated folder; PDF content not recompiled."
+}

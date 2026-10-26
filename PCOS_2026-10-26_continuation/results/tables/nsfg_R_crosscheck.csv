@@ -1,0 +1,21 @@
+"cause","metric","standard","r_percent","r_se_percent","absolute_point_difference","absolute_se_difference"
+"Endometriosis","cooccurrence_at_least_one_live_birth","GBD_weights_20_49",0.655473210397952,0.127403371307694,7.7715611723761e-16,1.38777878078145e-16
+"Endometriosis","cooccurrence_at_least_one_live_birth","survey_weighted_crude",0.679852332706235,0.133350786931071,2.99760216648792e-15,6.10622663543836e-16
+"Endometriosis","cooccurrence_no_prior_live_birth","GBD_weights_20_49",1.40148308194392,0.222017508445193,2.22044604925031e-16,0
+"Endometriosis","cooccurrence_no_prior_live_birth","survey_weighted_crude",1.3528511561814,0.214994288953425,5.55111512312578e-15,8.60422844084496e-16
+"Endometriosis","cooccurring_diagnosis_and_problem","GBD_weights_20_49",2.05695629234187,0.246803860908984,8.88178419700125e-16,1.38777878078145e-16
+"Endometriosis","cooccurring_diagnosis_and_problem","survey_weighted_crude",2.03270348888763,0.241439177050603,8.43769498715119e-15,9.99200722162641e-16
+"Endometriosis","current_problem_if_diagnosed","survey_weighted_crude",33.0027858757046,3.73583994021629,0,1.77635683940025e-15
+"Endometriosis","current_problem_if_not_diagnosed","survey_weighted_crude",18.5926610289895,0.69410202571924,6.03961325396085e-14,2.33146835171283e-15
+"Endometriosis","ever_diagnosed","GBD_weights_20_49",5.99406035500636,0.477764580929008,1.77635683940025e-15,0
+"Endometriosis","ever_diagnosed","survey_weighted_crude",6.15918758053706,0.485701563774805,2.66453525910038e-14,1.83186799063151e-15
+"Polycystic ovarian syndrome","cooccurrence_at_least_one_live_birth","GBD_weights_20_49",1.5936062237266,0.185368647800995,6.66133814775094e-16,5.55111512312578e-17
+"Polycystic ovarian syndrome","cooccurrence_at_least_one_live_birth","survey_weighted_crude",1.63335079973829,0.190715641881622,6.43929354282591e-15,7.49400541621981e-16
+"Polycystic ovarian syndrome","cooccurrence_no_prior_live_birth","GBD_weights_20_49",2.34344822063994,0.282356243528451,4.44089209850063e-16,0
+"Polycystic ovarian syndrome","cooccurrence_no_prior_live_birth","survey_weighted_crude",2.29963220976032,0.273280232582615,8.43769498715119e-15,1.16573417585641e-15
+"Polycystic ovarian syndrome","cooccurring_diagnosis_and_problem","GBD_weights_20_49",3.93705444436654,0.340108070191908,2.22044604925031e-15,0
+"Polycystic ovarian syndrome","cooccurring_diagnosis_and_problem","survey_weighted_crude",3.93298300949862,0.336698005873064,1.64313007644523e-14,1.38777878078145e-15
+"Polycystic ovarian syndrome","current_problem_if_diagnosed","survey_weighted_crude",45.1600938897053,3.09015338270723,7.8159700933611e-14,3.99680288865056e-15
+"Polycystic ovarian syndrome","current_problem_if_not_diagnosed","survey_weighted_crude",17.0715385887588,0.633935782281584,4.61852778244065e-14,1.99840144432528e-15
+"Polycystic ovarian syndrome","ever_diagnosed","GBD_weights_20_49",8.62624362721293,0.504181708643726,5.32907051820075e-15,1.11022302462516e-16
+"Polycystic ovarian syndrome","ever_diagnosed","survey_weighted_crude",8.70897881457946,0.508830383531014,4.61852778244065e-14,1.99840144432528e-15

@@ -1,0 +1,5 @@
+"cause","metric","r_percent","r_se_percent"
+"Endometriosis","12month_infertility_in_union_diagnosed",6.49275835192013,1.59987724689592
+"Endometriosis","12month_infertility_in_union_not_diagnosed",7.70234985103848,0.752206538301554
+"Polycystic ovarian syndrome","12month_infertility_in_union_diagnosed",12.6304281668672,1.96770227695396
+"Polycystic ovarian syndrome","12month_infertility_in_union_not_diagnosed",7.11952624598198,0.741854612061943

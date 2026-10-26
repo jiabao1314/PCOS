@@ -1,0 +1,7 @@
+cause,metric,cdc_published_percent,reproduced_percent,rounded_match
+Endometriosis,ever_diagnosed,6.2,6.159187580537029,True
+Endometriosis,current_problem_if_diagnosed,33.0,33.00278587570459,True
+Endometriosis,current_problem_if_not_diagnosed,18.6,18.592661028989394,True
+Polycystic ovarian syndrome,ever_diagnosed,8.7,8.708978814579412,True
+Polycystic ovarian syndrome,current_problem_if_diagnosed,45.2,45.16009388970522,True
+Polycystic ovarian syndrome,current_problem_if_not_diagnosed,17.1,17.071538588758745,True

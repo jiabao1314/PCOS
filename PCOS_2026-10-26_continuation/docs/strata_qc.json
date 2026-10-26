@@ -1,0 +1,21 @@
+{
+  "annual_number_rows": 36176,
+  "endpoint_number_rate_rows": 4256,
+  "original_id_map": [
+    {
+      "impairment_id": 220,
+      "infertility_type": "Primary infertility"
+    },
+    {
+      "impairment_id": 221,
+      "infertility_type": "Secondary infertility"
+    }
+  ],
+  "endpoint_max_absolute_errors": {
+    "Number": 0.0,
+    "Rate": 1.1596057447604835e-11
+  },
+  "max_primary_secondary_sum_discrepancy": 5.238689482212067e-10,
+  "rate_source": "Annual strata Number divided by verified GBD2023 female population; independently verified against original Rate at both endpoints",
+  "reason": "Full combined metric request exceeded remaining release quota; downloaded Number annually and original Number/Rate at endpoints"
+}

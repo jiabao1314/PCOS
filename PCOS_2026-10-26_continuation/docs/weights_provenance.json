@@ -1,0 +1,10 @@
+{
+  "source_type": "Published reproduction of GBD 2023 world standard weights, six decimal places",
+  "publication": "Chen et al. PLOS One 2026; doi:10.1371/journal.pone.0351539",
+  "table": "S1 Table, supplementary file s002",
+  "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0351539.s002&type=supplementary",
+  "upstream_citation_reported_by_source": "Gil et al. Lancet Obstet Gynaecol Womens Health 2025;1:e96-e113; doi:10.1016/j.lanogw.2025.100031",
+  "source_sha256": "9e4a745a32fcaaea9a78bcc9a3179014fa6e70042e348acadd2fb94732d1c3b4",
+  "limitation": "Published weights are rounded; original machine-precision IHME weight file was not retrieved. Same published weights applied consistently and normalized within each age range.",
+  "restriction_15_49_sum": 0.494902
+}

@@ -1,0 +1,137 @@
+year,cause,measure,lower_rounding_bound,upper_rounding_bound,scope
+1990,Endometriosis,Prevalence,-2.929350753964552,-2.929206035310427,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1990,Endometriosis,YLDs,-0.05032247575878436,-0.050321467321818664,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1990,Polycystic ovarian syndrome,Prevalence,-272.9162796327607,-272.9141596815067,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1990,Polycystic ovarian syndrome,YLDs,-1.7885704141293444,-1.7885575737119128,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1991,Endometriosis,Prevalence,-3.6871411261808826,-3.6869870044996857,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1991,Endometriosis,YLDs,-0.054602597001038644,-0.054601541199379725,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1991,Polycystic ovarian syndrome,Prevalence,-272.98730228984806,-272.9851672691675,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1991,Polycystic ovarian syndrome,YLDs,-1.7882445616332376,-1.7882315064612189,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1992,Endometriosis,Prevalence,-4.290942282880248,-4.290779428191436,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1992,Endometriosis,YLDs,-0.057763697090119706,-0.05776260213510288,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1992,Polycystic ovarian syndrome,Prevalence,-270.7647918467703,-270.7626522948588,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1992,Polycystic ovarian syndrome,YLDs,-1.7756714354052205,-1.7756582721052676,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1993,Endometriosis,Prevalence,-4.765653827452779,-4.765484369235313,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1993,Endometriosis,YLDs,-0.060108248022687424,-0.06010712354859134,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1993,Polycystic ovarian syndrome,Prevalence,-266.9288696803815,-266.9267174848391,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1993,Polycystic ovarian syndrome,YLDs,-1.7504203383875194,-1.7504071177332228,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1994,Endometriosis,Prevalence,-5.075328479664149,-5.075154638643954,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1994,Endometriosis,YLDs,-0.060051344198512976,-0.060050219773765665,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1994,Polycystic ovarian syndrome,Prevalence,-261.4333171190871,-261.4311586071626,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1994,Polycystic ovarian syndrome,YLDs,-1.7192557835479527,-1.7192425511813512,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1995,Endometriosis,Prevalence,-5.189427366717222,-5.189251915172854,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1995,Endometriosis,YLDs,-0.06163484201438117,-0.06163369741065444,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1995,Polycystic ovarian syndrome,Prevalence,-254.3960693446552,-254.39391616793745,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1995,Polycystic ovarian syndrome,YLDs,-1.6764229723174502,-1.6764097861141782,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1996,Endometriosis,Prevalence,-5.120900152256739,-5.120724816214368,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1996,Endometriosis,YLDs,-0.06136584397388405,-0.06136469267197127,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1996,Polycystic ovarian syndrome,Prevalence,-244.6303388175531,-244.62819245572408,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1996,Polycystic ovarian syndrome,YLDs,-1.6183166307137977,-1.6183034920080464,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1997,Endometriosis,Prevalence,-4.918421140157264,-4.91824641926084,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1997,Endometriosis,YLDs,-0.06002223766849379,-0.06002109779150659,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1997,Polycystic ovarian syndrome,Prevalence,-231.06096538893092,-231.05882342044384,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1997,Polycystic ovarian syndrome,YLDs,-1.5423946423515251,-1.5423816305319815,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1998,Endometriosis,Prevalence,-4.616751080967831,-4.6165778120731495,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1998,Endometriosis,YLDs,-0.05808753629189752,-0.05808640692396745,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1998,Polycystic ovarian syndrome,Prevalence,-215.45385826831722,-215.45171097968887,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1998,Polycystic ovarian syndrome,YLDs,-1.4509230860551916,-1.4509102495489616,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1999,Endometriosis,Prevalence,-4.235413486058382,-4.235242262476867,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1999,Endometriosis,YLDs,-0.05501498322623986,-0.05501386687596542,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1999,Polycystic ovarian syndrome,Prevalence,-199.63455232178154,-199.63241004815427,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+1999,Polycystic ovarian syndrome,YLDs,-1.3641656369951982,-1.3641530370199322,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2000,Endometriosis,Prevalence,-3.8130183109582636,-3.8128493421108622,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2000,Endometriosis,YLDs,-0.052057056924766365,-0.05205594657585921,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2000,Polycystic ovarian syndrome,Prevalence,-185.54021930437085,-185.53809881670497,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2000,Polycystic ovarian syndrome,YLDs,-1.2848444860942188,-1.2848321582107074,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2001,Endometriosis,Prevalence,-3.268004599452044,-3.267839437868757,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2001,Endometriosis,YLDs,-0.04780235050235719,-0.047801268720692826,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2001,Polycystic ovarian syndrome,Prevalence,-172.759783902916,-172.75770904247128,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2001,Polycystic ovarian syndrome,YLDs,-1.2134194185876954,-1.2134074797204577,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2002,Endometriosis,Prevalence,-2.6049822475036537,-2.604822860425847,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2002,Endometriosis,YLDs,-0.04380942569305797,-0.043808381805385974,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2002,Polycystic ovarian syndrome,Prevalence,-159.92730773495248,-159.9252888420796,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2002,Polycystic ovarian syndrome,YLDs,-1.1416726035492233,-1.1416610362842103,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2003,Endometriosis,Prevalence,-1.947313725873753,-1.9471591331469917,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2003,Endometriosis,YLDs,-0.03958086192084606,-0.039579838123296324,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2003,Polycystic ovarian syndrome,Prevalence,-147.64767193917413,-147.64571349748167,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2003,Polycystic ovarian syndrome,YLDs,-1.0743905606488477,-1.0743793211225376,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2004,Endometriosis,Prevalence,-1.4023043114857465,-1.4021504829537217,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2004,Endometriosis,YLDs,-0.036090028930497,-0.03608901820340271,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2004,Polycystic ovarian syndrome,Prevalence,-136.73264693472302,-136.73074625914364,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2004,Polycystic ovarian syndrome,YLDs,-1.0143605617575098,-1.014349646360968,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2005,Endometriosis,Prevalence,-1.0790234472938334,-1.078870623576425,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2005,Endometriosis,YLDs,-0.03293021175548845,-0.03292923041203316,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2005,Polycystic ovarian syndrome,Prevalence,-127.92367494830688,-127.92182149474809,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2005,Polycystic ovarian syndrome,YLDs,-0.962302014787942,-0.9622914194836889,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2006,Endometriosis,Prevalence,-2.1077057904323944,-2.107560061851159,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2006,Endometriosis,YLDs,-0.037938074699263455,-0.037937112514126334,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2006,Polycystic ovarian syndrome,Prevalence,-121.56397271298121,-121.56216109387796,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2006,Polycystic ovarian syndrome,YLDs,-0.9240036929092231,-0.923993349839705,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2007,Endometriosis,Prevalence,-4.809174984422605,-4.809031921459283,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2007,Endometriosis,YLDs,-0.052341389708156535,-0.052340452427281255,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2007,Polycystic ovarian syndrome,Prevalence,-117.1172303788754,-117.11546204679001,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2007,Polycystic ovarian syndrome,YLDs,-0.899499725995121,-0.8994895858299573,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2008,Endometriosis,Prevalence,-8.034621033878544,-8.034474280605162,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2008,Endometriosis,YLDs,-0.06919710416887859,-0.06919616545896472,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2008,Polycystic ovarian syndrome,Prevalence,-114.26559877097667,-114.26387422055404,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2008,Polycystic ovarian syndrome,YLDs,-0.878000548879744,-0.8779905962749477,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2009,Endometriosis,Prevalence,-10.653712661491198,-10.653558291909881,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2009,Endometriosis,YLDs,-0.08203829562574508,-0.08203733906440581,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2009,Polycystic ovarian syndrome,Prevalence,-112.44439391177721,-112.44271218805798,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2009,Polycystic ovarian syndrome,YLDs,-0.8724652817270917,-0.8724555077569143,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2010,Endometriosis,Prevalence,-11.542231674898535,-11.54207568642534,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2010,Endometriosis,YLDs,-0.08735649573929413,-0.08735553221903813,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2010,Polycystic ovarian syndrome,Prevalence,-110.92776871851132,-110.92613009956867,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2010,Polycystic ovarian syndrome,YLDs,-0.8624088838067624,-0.8623992808933216,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2011,Endometriosis,Prevalence,-10.999985731477835,-10.999833844005295,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2011,Endometriosis,YLDs,-0.0829890340087579,-0.08298810326335104,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2011,Polycystic ovarian syndrome,Prevalence,-111.27920759817529,-111.27759870806103,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2011,Polycystic ovarian syndrome,YLDs,-0.8574226902601585,-0.8574131938370924,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2012,Endometriosis,Prevalence,-10.188880709925467,-10.188735071443226,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2012,Endometriosis,YLDs,-0.0775656841637382,-0.07756478549748935,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2012,Polycystic ovarian syndrome,Prevalence,-113.36490939265869,-113.36333076656106,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2012,Polycystic ovarian syndrome,YLDs,-0.8610150407493196,-0.8610055496429005,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2013,Endometriosis,Prevalence,-9.312998571604904,-9.3128597603919,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2013,Endometriosis,YLDs,-0.07043758157524924,-0.07043672310023513,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2013,Polycystic ovarian syndrome,Prevalence,-116.22436738437631,-116.22281335309468,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2013,Polycystic ovarian syndrome,YLDs,-0.86370771192173,-0.8636982270426478,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2014,Endometriosis,Prevalence,-8.566750627885199,-8.566617697470011,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2014,Endometriosis,YLDs,-0.06547546629500212,-0.0654746431507858,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2014,Polycystic ovarian syndrome,Prevalence,-118.45099161752019,-118.44945916510248,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2014,Polycystic ovarian syndrome,YLDs,-0.8661991534374651,-0.8661897082254824,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2015,Endometriosis,Prevalence,-8.139219119807464,-8.139089144920337,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2015,Endometriosis,YLDs,-0.06268256877156382,-0.06268177018347997,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2015,Polycystic ovarian syndrome,Prevalence,-118.6153700486087,-118.61385544114586,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2015,Polycystic ovarian syndrome,YLDs,-0.8671836970271825,-0.8671742856120639,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2016,Endometriosis,Prevalence,-7.995074680080866,-7.9949457070591645,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2016,Endometriosis,YLDs,-0.0625980262924042,-0.06259722846642371,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2016,Polycystic ovarian syndrome,Prevalence,-118.65815589819114,-118.65666331982024,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2016,Polycystic ovarian syndrome,YLDs,-0.8732259350532088,-0.87321660175509,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2017,Endometriosis,Prevalence,-7.954011917878004,-7.953883566769548,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2017,Endometriosis,YLDs,-0.06184873950355653,-0.06184794166558635,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2017,Polycystic ovarian syndrome,Prevalence,-120.91044647108876,-120.90896786916633,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2017,Polycystic ovarian syndrome,YLDs,-0.8952351172686435,-0.8952258351055571,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2018,Endometriosis,Prevalence,-7.986552604043324,-7.986424828657283,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2018,Endometriosis,YLDs,-0.06178841550526397,-0.06178761031837941,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2018,Polycystic ovarian syndrome,Prevalence,-124.72711387952424,-124.72564051991512,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2018,Polycystic ovarian syndrome,YLDs,-0.9264687527082378,-0.9264595207456296,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2019,Endometriosis,Prevalence,-8.063567092192285,-8.063440151252637,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2019,Endometriosis,YLDs,-0.06205374365137912,-0.06205296152752246,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2019,Polycystic ovarian syndrome,Prevalence,-129.58085298759067,-129.57937950105634,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2019,Polycystic ovarian syndrome,YLDs,-0.961243548214102,-0.9612343541984267,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2020,Endometriosis,Prevalence,-8.154854633146805,-8.154729079052483,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2020,Endometriosis,YLDs,-0.062341612043805276,-0.062340828382477155,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2020,Polycystic ovarian syndrome,Prevalence,-145.47722287887785,-145.4758867313762,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2020,Polycystic ovarian syndrome,YLDs,-1.0411179180283687,-1.0411095528542644,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2021,Endometriosis,Prevalence,-8.45217196391732,-8.452048890669875,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2021,Endometriosis,YLDs,-0.06447137823030039,-0.06447060807330457,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2021,Polycystic ovarian syndrome,Prevalence,-143.44135308642225,-143.43990187931024,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2021,Polycystic ovarian syndrome,YLDs,-1.0381245902515932,-1.038115558821802,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2022,Endometriosis,Prevalence,-8.760232297011001,-8.760111557848784,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2022,Endometriosis,YLDs,-0.06605475085078834,-0.0660540023161885,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2022,Polycystic ovarian syndrome,Prevalence,-124.00298448626006,-124.00171168735574,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2022,Polycystic ovarian syndrome,YLDs,-0.9186233334676752,-0.9186152943032291,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2023,Endometriosis,Prevalence,-0.20251215108066312,-0.20239600226439336,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2023,Endometriosis,YLDs,-0.020427299831577848,-0.02042662014920278,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2023,Polycystic ovarian syndrome,Prevalence,-121.37684552020548,-121.37558713112841,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
+2023,Polycystic ovarian syndrome,YLDs,-0.9101507922039285,-0.9101428061107356,Deterministic six-decimal weight rounding envelope; not a confidence or uncertainty interval
