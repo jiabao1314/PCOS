@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-26",
+  "article_scope": "New SubmissionPrep_XX_20261025 article: GBD 2023 + UN WPP 2024; NSFG excluded",
+  "local_directory": "/Users/wangjiajia/Documents/ChatGPT/PCOS/PCOS_NewArticle_GBD_UNWPP_2026-10-26",
+  "github": {
+    "commit": "9dee48327b51898a9f5fdf63a9d5eb4d4bfde4d9",
+    "parent_commit": "6834841a6150db85aa99229ddda64c47bee9d5af",
+    "remote_files_blob_verified": 23,
+    "prior_files_preserved": 288,
+    "url": "https://github.com/jiabao1314/PCOS/tree/main/PCOS_NewArticle_GBD_UNWPP_2026-10-26/"
+  },
+  "drive": {
+    "folder_id": "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS",
+    "folder_url": "https://drive.google.com/drive/folders/1BXFhYhyrT1df7IVF82us3_B5DCa66VWS",
+    "files": [
+      {
+        "kind": "presentation",
+        "path": "presentation/PCOS_新文章组会汇报_5页_2026-10-26_终版.pptx",
+        "id": "1JKauE8MBWDAewfKT7UhXuDZcAZUg-DjJ",
+        "url": "https://docs.google.com/presentation/d/1JKauE8MBWDAewfKT7UhXuDZcAZUg-DjJ/edit?usp=drivesdk&ouid=118165433750711898514&rtpof=true&sd=true",
+        "metadata": {
+          "id": "1JKauE8MBWDAewfKT7UhXuDZcAZUg-DjJ",
+          "title": "PCOS_新文章组会汇报_5页_2026-10-26_终版.pptx",
+          "mime_type": null,
+          "size": "49281",
+          "url": null,
+          "file_or_folder": null,
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "size_and_parent_verified": true,
+        "local_sha256": "96ec7d2526d7143ddc959cb3a61615f4cf2b33c7a2b06eac6301980210f1756d"
+      },
+      {
+        "kind": "complete_handoff",
+        "path": "delivery/PCOS_新文章_师兄复核完整包_2026-10-26.zip",
+        "id": "1lMjk74GytufMPOIWuyjX_TImKN6VChEm",
+        "url": "https://drive.google.com/file/d/1lMjk74GytufMPOIWuyjX_TImKN6VChEm/view?usp=drivesdk",
+        "metadata": {
+          "id": "1lMjk74GytufMPOIWuyjX_TImKN6VChEm",
+          "title": "PCOS_新文章_师兄复核完整包_2026-10-26.zip",
+          "mime_type": null,
+          "size": "12625625",
+          "url": null,
+          "file_or_folder": null,
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "size_and_parent_verified": true,
+        "local_sha256": "16bfe10d255f8e0cae5b52bff899fa17e26e245e6d8d2b355bac52825132595f"
+      },
+      {
+        "kind": "Python_complete",
+        "path": "code/PCOS_NewArticle_complete.py",
+        "id": "11dwBYIxd5mpCe55qSQP7wAEHLtJTgL7w",
+        "url": "https://drive.google.com/file/d/11dwBYIxd5mpCe55qSQP7wAEHLtJTgL7w/view?usp=drivesdk",
+        "metadata": {
+          "id": "11dwBYIxd5mpCe55qSQP7wAEHLtJTgL7w",
+          "title": "PCOS_NewArticle_complete.py",
+          "mime_type": null,
+          "size": "11881",
+          "url": null,
+          "file_or_folder": null,
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "size_and_parent_verified": true,
+        "local_sha256": "96dc848c7ea9080a297d347c9857a6700da9f0af48728fcc82b50cf676e2fe43"
+      },
+      {
+        "kind": "R_complete",
+        "path": "code/PCOS_NewArticle_complete.R",
+        "id": "1vwOYD3E_dwdElw4eF0BbEb5aFV70z01n",
+        "url": "https://drive.google.com/file/d/1vwOYD3E_dwdElw4eF0BbEb5aFV70z01n/view?usp=drivesdk",
+        "metadata": {
+          "id": "1vwOYD3E_dwdElw4eF0BbEb5aFV70z01n",
+          "title": "PCOS_NewArticle_complete.R",
+          "mime_type": null,
+          "size": "9006",
+          "url": null,
+          "file_or_folder": null,
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "size_and_parent_verified": true,
+        "local_sha256": "31508e785aa63c15bc7b3d04faa474775aec7681ff1e21d2982519365ede831e"
+      },
+      {
+        "kind": "Python_notebook",
+        "path": "PCOS_NewArticle_Python.ipynb",
+        "id": "1ArU8-0XzS2IHhyY-8gi2LE2pC_csOQE1",
+        "url": "https://drive.google.com/file/d/1ArU8-0XzS2IHhyY-8gi2LE2pC_csOQE1/view?usp=drivesdk",
+        "metadata": {
+          "id": "1ArU8-0XzS2IHhyY-8gi2LE2pC_csOQE1",
+          "title": "PCOS_NewArticle_Python.ipynb",
+          "mime_type": null,
+          "size": "393866",
+          "url": null,
+          "file_or_folder": null,
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "size_and_parent_verified": true,
+        "local_sha256": "6418b9b7e2ff8667becf57badb2f8f99b2f6a1ebd16212507064e4d5e387aa2b"
+      },
+      {
+        "kind": "R_notebook",
+        "path": "PCOS_NewArticle_R.ipynb",
+        "id": "1HD3CBKsArKpncHLrAHfoXSFDIYHjlh6E",
+        "url": "https://drive.google.com/file/d/1HD3CBKsArKpncHLrAHfoXSFDIYHjlh6E/view?usp=drivesdk",
+        "metadata": {
+          "id": "1HD3CBKsArKpncHLrAHfoXSFDIYHjlh6E",
+          "title": "PCOS_NewArticle_R.ipynb",
+          "mime_type": null,
+          "size": "62940",
+          "url": null,
+          "file_or_folder": null,
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "size_and_parent_verified": true,
+        "local_sha256": "8f214a8012678b5ee73fe7c82fef62278d327789e0f9c5f2be15226d5607e3fe"
+      },
+      {
+        "kind": "README",
+        "path": "README_先读我.md",
+        "id": "1JZZAFKR1v771HbURpT7oFNjj2_r6msdR",
+        "url": "https://drive.google.com/file/d/1JZZAFKR1v771HbURpT7oFNjj2_r6msdR/view?usp=drivesdk",
+        "metadata": {
+          "id": "1JZZAFKR1v771HbURpT7oFNjj2_r6msdR",
+          "title": "README_先读我.md",
+          "mime_type": null,
+          "size": "4953",
+          "url": null,
+          "file_or_folder": null,
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1BXFhYhyrT1df7IVF82us3_B5DCa66VWS"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "size_and_parent_verified": true,
+        "local_sha256": "ce49960b2582eb0fc3bfbd44ad0907603dfa538e21a1be22d4ca513aa55d4dc5"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "file": "delivery/PCOS_新文章_师兄复核完整包_2026-10-26.zip",
+      "bytes": 12625625,
+      "files": 247,
+      "sha256": "16bfe10d255f8e0cae5b52bff899fa17e26e245e6d8d2b355bac52825132595f",
+      "includes_original_GBD_inputs": true
+    },
+    {
+      "file": "delivery/PCOS_NewArticle_public_code_results_2026-10-26.zip",
+      "bytes": 1884853,
+      "files": 66,
+      "sha256": "47c107b7095f9db4165b0f22e73e976e2c48dc646d520590482387d636de6bf4",
+      "includes_original_GBD_inputs": false
+    }
+  ],
+  "scientific_scope": "Core comparator analysis reproduced independently in R and Python; no joint GBD draws acquired or inferred; no journal submission",
+  "software": "JupyterLab installed with working Python and R kernels; both complete-code notebooks executed successfully",
+  "old_files": "Original project and prior continuation folder were preserved"
+}
