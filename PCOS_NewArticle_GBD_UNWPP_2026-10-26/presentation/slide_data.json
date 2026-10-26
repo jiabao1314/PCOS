@@ -1,0 +1,144 @@
+{
+  "decomposition": [
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "subtype": "Total",
+      "source": "GBD",
+      "end": 2023,
+      "initial_gap": -272.9152196581999,
+      "end_gap": -121.37621632629872,
+      "net_gap_change": 151.53900333190114,
+      "china_rate_effect": 271.5137227009629,
+      "reference_rate_effect": -208.6232525250872,
+      "reference_country_composition_effect": 88.64853315602541,
+      "composition_share_of_net": 0.5849882288183402
+    },
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "subtype": "Total",
+      "source": "UN-WPP2024",
+      "end": 2023,
+      "initial_gap": -273.3129722626848,
+      "end_gap": -122.62139289924689,
+      "net_gap_change": 150.69157936343794,
+      "china_rate_effect": 271.5137227009629,
+      "reference_rate_effect": -207.58515876802113,
+      "reference_country_composition_effect": 86.76301543049604,
+      "composition_share_of_net": 0.5757655191949446
+    }
+  ],
+  "secondary_benchmarks": [
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "subtype": "Secondary",
+      "source": "UN-WPP2024",
+      "year": 2023,
+      "benchmark": "dynamic",
+      "china_aspr": 507.72205986410455,
+      "ref_aspr": 505.4593486355077,
+      "gap": 2.2627112285969133,
+      "ratio": 1.00447654442381
+    },
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "subtype": "Secondary",
+      "source": "UN-WPP2024",
+      "year": 2023,
+      "benchmark": "fixed1990",
+      "china_aspr": 507.72205986410455,
+      "ref_aspr": 556.0647727412193,
+      "gap": -48.34271287711471,
+      "ratio": 0.9130628026681122
+    },
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "subtype": "Secondary",
+      "source": "UN-WPP2024",
+      "year": 2023,
+      "benchmark": "equal",
+      "china_aspr": 507.72205986410455,
+      "ref_aspr": 635.6080024351152,
+      "gap": -127.88594257101062,
+      "ratio": 0.7987974630887917
+    }
+  ],
+  "endometriosis_endpoints": [
+    {
+      "cause": "Endometriosis",
+      "subtype": "Total",
+      "source": "GBD",
+      "year": 2021,
+      "benchmark": "dynamic",
+      "china_aspr": 43.475088866006715,
+      "ref_aspr": 51.92719929348325,
+      "gap": -8.452110427476534,
+      "ratio": 0.8372315367962228
+    },
+    {
+      "cause": "Endometriosis",
+      "subtype": "Total",
+      "source": "GBD",
+      "year": 2022,
+      "benchmark": "dynamic",
+      "china_aspr": 43.131356908766705,
+      "ref_aspr": 51.89152883637684,
+      "gap": -8.760171927610138,
+      "ratio": 0.8311830057034452
+    },
+    {
+      "cause": "Endometriosis",
+      "subtype": "Total",
+      "source": "GBD",
+      "year": 2023,
+      "benchmark": "dynamic",
+      "china_aspr": 53.30370369586087,
+      "ref_aspr": 53.50615777258648,
+      "gap": -0.2024540767256084,
+      "ratio": 0.996216247154466
+    }
+  ],
+  "crosscheck": [
+    {
+      "table": "all_annual_benchmark_aspr",
+      "rows": 1224,
+      "max_abs_R_python_difference": 5.684341886080801e-13
+    },
+    {
+      "table": "symmetric_decomposition_1990_endpoints",
+      "rows": 36,
+      "max_abs_R_python_difference": 4.831690603168681e-13
+    },
+    {
+      "table": "leave_one_country_out",
+      "rows": 216,
+      "max_abs_R_python_difference": 5.115907697472721e-13
+    },
+    {
+      "table": "annual_chained_decomposition",
+      "rows": 12,
+      "max_abs_R_python_difference": 4.831690603168681e-13
+    }
+  ],
+  "chained": [
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "subtype": "Total",
+      "source": "GBD",
+      "china_rate_effect": 271.5137227009629,
+      "reference_rate_effect": -207.0815581806086,
+      "reference_country_composition_effect": 87.10683881154675,
+      "net_gap_change": 151.53900333190103,
+      "composition_share_of_net": 0.5748146476901738
+    },
+    {
+      "cause": "Polycystic ovarian syndrome",
+      "subtype": "Total",
+      "source": "UN-WPP2024",
+      "china_rate_effect": 271.5137227009629,
+      "reference_rate_effect": -207.6569059917939,
+      "reference_country_composition_effect": 86.83476265426876,
+      "net_gap_change": 150.69157936343774,
+      "composition_share_of_net": 0.5762416388565469
+    }
+  ]
+}

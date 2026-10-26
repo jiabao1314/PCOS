@@ -1,0 +1,22 @@
+[
+  {
+    "table": "all_annual_benchmark_aspr",
+    "rows": 1224,
+    "max_abs_R_python_difference": 5.684341886080801e-13
+  },
+  {
+    "table": "symmetric_decomposition_1990_endpoints",
+    "rows": 36,
+    "max_abs_R_python_difference": 4.831690603168681e-13
+  },
+  {
+    "table": "leave_one_country_out",
+    "rows": 216,
+    "max_abs_R_python_difference": 5.115907697472721e-13
+  },
+  {
+    "table": "annual_chained_decomposition",
+    "rows": 12,
+    "max_abs_R_python_difference": 4.831690603168681e-13
+  }
+]

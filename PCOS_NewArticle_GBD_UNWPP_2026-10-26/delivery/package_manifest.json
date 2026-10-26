@@ -1,0 +1,16 @@
+[
+  {
+    "file": "delivery/PCOS_新文章_师兄复核完整包_2026-10-26.zip",
+    "bytes": 12625625,
+    "files": 247,
+    "sha256": "16bfe10d255f8e0cae5b52bff899fa17e26e245e6d8d2b355bac52825132595f",
+    "includes_original_GBD_inputs": true
+  },
+  {
+    "file": "delivery/PCOS_NewArticle_public_code_results_2026-10-26.zip",
+    "bytes": 1884853,
+    "files": 66,
+    "sha256": "47c107b7095f9db4165b0f22e73e976e2c48dc646d520590482387d636de6bf4",
+    "includes_original_GBD_inputs": false
+  }
+]

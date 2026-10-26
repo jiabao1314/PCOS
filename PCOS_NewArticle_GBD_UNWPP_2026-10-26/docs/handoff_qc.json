@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-26",
+  "source_article": "SubmissionPrep_XX_20261025: GBD 2023 + UN WPP 2024; NSFG excluded",
+  "slide_count": 5,
+  "native_charts": 3,
+  "embedded_chart_workbooks": 3,
+  "visual_review": "All five final PPTX slides reimported, rendered and inspected individually. No clipping or overlaps.",
+  "native_PowerPoint_application_test": false,
+  "chart_precision": "chart workbook numbers rounded to 6 decimals for Excel portability, shown to 2 decimals; machine results retain full precision",
+  "python_notebook_executed": true,
+  "R_notebook_executed": true,
+  "R_Python_max_absolute_difference": 5.684341886080801e-13,
+  "joint_draws_available": false,
+  "final_pptx_sha256": "96ec7d2526d7143ddc959cb3a61615f4cf2b33c7a2b06eac6301980210f1756d"
+}
