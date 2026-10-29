@@ -1,5 +1,11 @@
 # 项目状态
 
+## 2026-10-29T19:57:42+01:00 — 完整Word版已完成，暂不投稿
+
+完整v4 Word主稿20页、补充稿20页已完成，40页均逐页检查。56个原生可编辑公式对象、12条主稿参考文献、13张可编辑表格（161个正文数据/报告行）和12幅图均已核对；XX主稿22处、补充稿2处保留。旧v4的70个文件及v3的65个文件字节不变。16个制品在Drive及GitHub均已逐字节读回核验；制品提交 `f8be9f7e69704f2d5038ef968673f7ae9cdaa29c`；Drive：https://drive.google.com/drive/folders/1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6。
+
+未新增数据或重跑统计，DATA_CATALOG不变。共享记录和回执在后继提交中发布并再次读回。当前待办仅为作者最终审阅、投稿时补全既定XX与签字/伦理适用性/声明核定，以及投稿当天复核期刊要求。
+
 ## 2026-10-29T19:11:20+01:00 — 最新：Human Reproduction v4，暂不投稿
 
 独立 Human Reproduction v4 已完成；正文19页、补充稿19页、附信1页；v3的65文件字节不变。正文55个GitHub文件、Drive17个独立文件及包内105项已读回比对，制品提交 `e973d1ff09e1d673fd2b082442178bba5afd972b`；Drive: https://drive.google.com/drive/folders/1_Dztm9ZegBc5iaYlgQZFx7r67_N1HOt2。
@@ -56,3 +62,7 @@
 - 2026-10-29T19:05:30+01:00 [hr-v4-final-20261029] Human Reproduction v4修复后科学与文档核验、完整公开复现包封装（不投稿）：failed；结果发布待核验。
 
 - 2026-10-29T19:06:06+01:00 [hr-v4-final-retry-20261029] Human Reproduction v4修复后科学与文档核验、完整公开复现包封装（不投稿）：verified；结果发布待核验。
+
+- 2026-10-29T19:38:17+01:00 [hr-v4-word-20261029] 将HR v4主稿与补充稿转换为完整可编辑Word并保留既有TeX/PDF及XX：failed；结果发布待核验。
+
+- 2026-10-29T19:52:22+01:00 [hr-v4-word-final-20261029] HR v4完整Word最终内容与40页排版核验、公开交付包封装（不投稿）：verified；结果发布待核验。

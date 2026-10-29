@@ -1,5 +1,11 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-29T19:57:42+01:00 — v4完整Word交付
+
+完整v4 Word主稿20页、补充稿20页已完成，40页均逐页检查。56个原生可编辑公式对象、12条主稿参考文献、13张可编辑表格（161个正文数据/报告行）和12幅图均已核对；XX主稿22处、补充稿2处保留。旧v4的70个文件及v3的65个文件字节不变。16个制品在Drive及GitHub均已逐字节读回核验；制品提交 `f8be9f7e69704f2d5038ef968673f7ae9cdaa29c`；Drive：https://drive.google.com/drive/folders/1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6。
+
+完整Word已不再是缺项。保留现有TeX/PDF与XX；不解释本交接为完整聊天历史。暂不投稿。
+
 ## 2026-10-29T19:11:20+01:00 — Codex回交：HR v4 已落实，暂不投稿
 
 独立 Human Reproduction v4 已完成；正文19页、补充稿19页、附信1页；v3的65文件字节不变。正文55个GitHub文件、Drive17个独立文件及包内105项已读回比对，制品提交 `e973d1ff09e1d673fd2b082442178bba5afd972b`；Drive: https://drive.google.com/drive/folders/1_Dztm9ZegBc5iaYlgQZFx7r67_N1HOt2。

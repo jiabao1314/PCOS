@@ -1,0 +1,198 @@
+{
+  "artifact_commit": "f8be9f7e69704f2d5038ef968673f7ae9cdaa29c",
+  "github_files_verified": 16,
+  "drive_files": [
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/CONVERSION_PROVENANCE.json",
+      "id": "1gJRp6a4KjwOdhInvVcUaRsIUW72g9pbZ",
+      "bytes": 1218,
+      "sha256": "bc33736217dac1ba411f59824543c60a9c3947644c62bd4f377762e12b6f5365",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/CONVERSION_QC.json",
+      "id": "1AitB9txlpbXGMyW0Wo61sjzioKueEXFH",
+      "bytes": 1374,
+      "sha256": "802c9db2cafc218fd01414d51efea877307df8b80376f29da5ee1b3d5ccf847b",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/EXECUTION_RECORD.json",
+      "id": "1l9l6l1YAMNgfZlPOM6_PbGMQlv_2p1iZ",
+      "bytes": 4010,
+      "sha256": "36191d8fac7c346cc446dc3dc47d6f74a95f8a6363e99113ef068de757773092",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/FINAL_CONVERSION_QC.json",
+      "id": "1Ch5hlOXmfFuPYb18VjgCOV6_w0wJKPmF",
+      "bytes": 1374,
+      "sha256": "802c9db2cafc218fd01414d51efea877307df8b80376f29da5ee1b3d5ccf847b",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx",
+      "id": "1inHL5OlnkBJO9K6aVTbVAr31d3Ofbi6l",
+      "bytes": 376570,
+      "sha256": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx",
+      "id": "1y0kYc7f6vzrq5OeX0YiSLeNiJOD-b8ln",
+      "bytes": 479891,
+      "sha256": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Word_Complete.zip",
+      "id": "1BGDsXJ3QJxrMuyvAOVExMFxb9HLfavMe",
+      "bytes": 888682,
+      "sha256": "505bf0d67393b918c7175737afffd651ea57e2cb0a99d8a69fa5b9e3cf03b287",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/README_ZH.md",
+      "id": "1Vyge7ueB7HtteR3Eb2Jl3JIeCDyohScY",
+      "bytes": 2012,
+      "sha256": "074b6a2b9751e8f57818c55f252f07c52e3fde6921d697aa5bc92fa5d0cd3050",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/SOURCE_PRESERVATION.json",
+      "id": "1IfsYraQvTrcNao5vZpkCqkfCFTu5JQBD",
+      "bytes": 10590,
+      "sha256": "bfaac65b98f88a991caa01b6586a59322603c13fab8749b31b45f0f39fbad6c4",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/VISUAL_QA.json",
+      "id": "1GzwkcMmCYP7RvP75ZYACnkyU6PG4wDy-",
+      "bytes": 6360,
+      "sha256": "94c0d3e0ef456503ecfe167e6e42e532c114ee53083edb0c01f6aa08e9ed5ec5",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/WORD_DELIVERY_MANIFEST.json",
+      "id": "1UqXUmLdgrEOwNHodnszH7ozaoXq2v3-Z",
+      "bytes": 3040,
+      "sha256": "64ad4819118d38b3b884646b9e71b87935156a08465e14f3168eda0b6fd3b85c",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/main_content_map.json",
+      "id": "1Q4LZzKIYQVBPgW4FKHIyLxnA4KdM_lni",
+      "bytes": 15610,
+      "sha256": "f92ba046ac3d009111d2f62ecd403ff617830af35b3f3220544c4417da25dd14",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/main_math_roundtrip.json",
+      "id": "1UkFjPF5ekJFWVRkmnDUuUBbjinkEBKyd",
+      "bytes": 3962,
+      "sha256": "2871ed0da891a43ae23cc1e84ce891a478d5cdf408d8403da652a314e0f57bba",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/supplement_content_map.json",
+      "id": "13SssoCpzplGTr-d768sLhjIOhFhmx4DC",
+      "bytes": 25452,
+      "sha256": "416e34b5330d8ad38723aed6d2993cbe0a3cad29b56bd84666dbbf0f92917d94",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/supplement_math_roundtrip.json",
+      "id": "1XU8Z1a3ns6u5lejl685BXFVz33AQ-IsC",
+      "bytes": 350,
+      "sha256": "0fc4a30fce8a93c6270092ce9712d33b62b44f76d816a07554ab1d3d8db8df20",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    },
+    {
+      "path": "scripts/convert_hr_v4_word_20261029.py",
+      "id": "1qHFwYGR5awRWlqfJbAslyQakHPJdaMu0",
+      "bytes": 24684,
+      "sha256": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f",
+      "parent_id": "1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6",
+      "equal": true
+    }
+  ],
+  "archive_members_verified_both": 15,
+  "old_remote_files_preserved": 551,
+  "existing_v4_files_unchanged": 70,
+  "data_changed": false,
+  "submitted": false,
+  "recorded_at": "2026-10-29T19:57:42+01:00",
+  "actual_successful_run": {
+    "id": "hr-v4-word-final-20261029",
+    "task": "HR v4完整Word最终内容与40页排版核验、公开交付包封装（不投稿）",
+    "command": [
+      "/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-c",
+      "import runpy,json,shutil; m=runpy.run_path('scripts/convert_hr_v4_word_20261029.py'); m['verify'](); p=m['OUT']/'CONVERSION_QC.json'; q=json.loads(p.read_text()); q['visual_inspection']='passed all 40 final pages; see VISUAL_QA.json'; p.write_text(json.dumps(q,ensure_ascii=False,indent=2)); shutil.copy2(p,m['OUT']/'FINAL_CONVERSION_QC.json'); m['package']()"
+    ],
+    "inputs": [
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx",
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx",
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/VISUAL_QA.json",
+      "PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex",
+      "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex"
+    ],
+    "code": [
+      "scripts/convert_hr_v4_word_20261029.py"
+    ],
+    "outputs": [
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/FINAL_CONVERSION_QC.json",
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Word_Complete.zip"
+    ],
+    "verify_commands": [
+      [
+        "/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-c",
+        "from pathlib import Path; import zipfile,json,hashlib; root=Path.cwd(); z=zipfile.ZipFile(root/'PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Word_Complete.zip'); assert z.testzip() is None; assert all(z.read(n)==(root/n).read_bytes() for n in z.namelist()); old=root/'PCOS_Revision_2026-10-29_v3'; b=json.loads((root/'PCOS_HumanReproduction_v4_2026-10-29/docs/V3_PRESERVATION_BASELINE.json').read_text()); assert all(hashlib.sha256((old/p).read_bytes()).hexdigest()==h for p,h in b.items()); print('Archive byte checks and old v3 preservation passed')"
+      ]
+    ],
+    "public_metadata_reviewed": true,
+    "error_resolution": "保留最初failed记录；修复BaseOxmlElement文本读取、缺失样式导致的表格渲染、作者空基上标和原生下括号，改进短表/表注分页。主稿20页、补充20页逐页检查后通过。无统计重算。",
+    "next_actions": "渲染全部Word页面并逐页核对公式、参考文献、表格及图；双云同步后核验，暂不投稿。",
+    "started_at": "2026-10-29T19:52:20+01:00",
+    "ended_at": "2026-10-29T19:52:22+01:00",
+    "exit_code": 0,
+    "verification_exit_codes": [
+      0
+    ],
+    "state": "verified",
+    "code_base_commit": "f17691ea374fec76cabc331d94a0220c06cd94fd",
+    "working_tree_dirty": true,
+    "inputs_and_code_unchanged": true,
+    "input_code_sha256": {
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48",
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea",
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/VISUAL_QA.json": "94c0d3e0ef456503ecfe167e6e42e532c114ee53083edb0c01f6aa08e9ed5ec5",
+      "PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28",
+      "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69",
+      "scripts/convert_hr_v4_word_20261029.py": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f"
+    },
+    "output_sha256": {
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/FINAL_CONVERSION_QC.json": "802c9db2cafc218fd01414d51efea877307df8b80376f29da5ee1b3d5ccf847b",
+      "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Word_Complete.zip": "505bf0d67393b918c7175737afffd651ea57e2cb0a99d8a69fa5b9e3cf03b287"
+    },
+    "publication_commit": "pending",
+    "cloud_sync": "pending"
+  },
+  "note": "Artifacts were read back byte-for-byte from both destinations. This receipt and shared records are published in a subsequent commit; final readback is retained privately to avoid self-referential hashes."
+}

@@ -159,3 +159,45 @@ Web工具实际核验中科院2026-03-27声明、NCEPU原附件页、HR范围/�
 实际发布：基于远端fb4b547a4447d5a6f755d618a546c46431d144f6树创建提交 `e973d1ff09e1d673fd2b082442178bba5afd972b`，使用expected_sha非强制更新main，保留495个已有远端文件；本地HEAD和既有脏工作区未重置/暂存。git fetch后逐个git show核验55文件；Drive连接器17项原文件回下载，父目录正确、SHA-256和完整字节一致；两端完整包105项均匹配。未包含受限原始GBD、源单元或医院记录。未投稿/发邮件。
 
 后继共享记录/本回执提交后的最终核验写入本机 `.shared_context_runtime/HR_V4_FINAL_RECEIPT.json`，避免自引用提交号。
+
+## 2026-10-29T19:38:14+01:00 — hr-v4-word-20261029
+
+任务：将HR v4主稿与补充稿转换为完整可编辑Word并保留既有TeX/PDF及XX
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/convert_hr_v4_word_20261029.py build`
+
+状态：failed；exit=1；验证退出码=[]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69", "scripts/convert_hr_v4_word_20261029.py": "3e424a0619067f11e0f2a88f1d3ada8dd5c6d92ccc0db1dda339ee9942a9d6f1"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx": "5444166f0c077031b30e98ecfcbab4593e4b2f26de5d3bb6368affc27ead78b0", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx": "c4dad682c7553cc2ce048f8b7b448ca616372c60cef0b30640e3e6eec1a24e10", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/CONVERSION_QC.json": null}`。
+
+错误/解决办法：实际转换和排版错误若有，保留初次记录并另记修复。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T19:52:20+01:00 — hr-v4-word-final-20261029
+
+任务：HR v4完整Word最终内容与40页排版核验、公开交付包封装（不投稿）
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -c 'import runpy,json,shutil; m=runpy.run_path('"'"'scripts/convert_hr_v4_word_20261029.py'"'"'); m['"'"'verify'"'"'](); p=m['"'"'OUT'"'"']/'"'"'CONVERSION_QC.json'"'"'; q=json.loads(p.read_text()); q['"'"'visual_inspection'"'"']='"'"'passed all 40 final pages; see VISUAL_QA.json'"'"'; p.write_text(json.dumps(q,ensure_ascii=False,indent=2)); shutil.copy2(p,m['"'"'OUT'"'"']/'"'"'FINAL_CONVERSION_QC.json'"'"'); m['"'"'package'"'"']()'`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/VISUAL_QA.json": "94c0d3e0ef456503ecfe167e6e42e532c114ee53083edb0c01f6aa08e9ed5ec5", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69", "scripts/convert_hr_v4_word_20261029.py": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/FINAL_CONVERSION_QC.json": "802c9db2cafc218fd01414d51efea877307df8b80376f29da5ee1b3d5ccf847b", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Word_Complete.zip": "505bf0d67393b918c7175737afffd651ea57e2cb0a99d8a69fa5b9e3cf03b287"}`。
+
+错误/解决办法：保留最初failed记录；修复BaseOxmlElement文本读取、缺失样式导致的表格渲染、作者空基上标和原生下括号，改进短表/表注分页。主稿20页、补充20页逐页检查后通过。无统计重算。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T19:57:42+01:00 — Word转换与两端制品核验
+
+完整v4 Word主稿20页、补充稿20页已完成，40页均逐页检查。56个原生可编辑公式对象、12条主稿参考文献、13张可编辑表格（161个正文数据/报告行）和12幅图均已核对；XX主稿22处、补充稿2处保留。旧v4的70个文件及v3的65个文件字节不变。16个制品在Drive及GitHub均已逐字节读回核验；制品提交 `f8be9f7e69704f2d5038ef968673f7ae9cdaa29c`；Drive：https://drive.google.com/drive/folders/1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6。
+
+初次审计因python-docx XPath接口参数不兼容失败，保留失败记录；后续修复表格样式、作者上标、underbrace以及分页问题，再次完整生成。实际成功事件为 `hr-v4-word-final-20261029`，exit=0，verification=[0]；输入/代码/输出SHA-256、原始命令数组与脏工作树状态见Word/SYNC_RECEIPT.json。基线代码提交 `f17691ea374fec76cabc331d94a0220c06cd94fd`；未暂存无关改动。
+
+实际最终渲染命令：
+
+`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx --output_dir .shared_context_runtime/word_v4/delivery_manuscript --emit_pdf`
+
+`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx --output_dir .shared_context_runtime/word_v4/delivery_supplement --emit_pdf`
+
+最终40页PNG均实际逐页打开检查，结果见VISUAL_QA.json及FINAL_CONVERSION_QC.json。渲染中间PDF/PNG仅作私人校对，不替代旧PDF。无raw/processed数据变化，DATA_CATALOG不变。共享记录后继提交需另行读回，最终回执私存避免循环哈希。
