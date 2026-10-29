@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-29T18:29:30+01:00",
+  "scope": "Targeted verification of three named papers; not a systematic novelty search",
+  "sources": [
+    {
+      "doi": "10.1093/humrep/dead241",
+      "authors": "Liu X, Zhang J, Wang S",
+      "issue_year": 2024,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38011904/",
+      "read_scope": "Author abstract and indexed citation",
+      "supported_use": "GBD 2019 PCOS-attributed infertility burden, geographical and temporal descriptions"
+    },
+    {
+      "doi": "10.3389/fpubh.2025.1693486",
+      "authors": "Liang Y, Zhong K, Huang Z, Shi W, Ou Y",
+      "issue_year": 2025,
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1693486/full",
+      "read_scope": "Publisher abstract and decomposition-analysis section",
+      "supported_use": "Existing burden trends and case-count decomposition into population growth, ageing and epidemiological change"
+    },
+    {
+      "doi": "10.1016/j.rbmo.2025.105239",
+      "authors": "Liang Q",
+      "issue_year": 2026,
+      "volume_issue": "52(2):105239",
+      "online_date": "2025-09-02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41456540/",
+      "read_scope": "Author abstract and indexed citation; no full-text access claimed",
+      "supported_use": "China/global GBD trend analysis with Joinpoint and ARIMA forecasting"
+    }
+  ],
+  "access_notes": "Initial DOI resolver attempts failed. Publisher and PubMed records were then opened successfully. No priority or exhaustive absence claim is made."
+}

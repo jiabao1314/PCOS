@@ -1,0 +1,29 @@
+claim,computed,displayed,status,manuscript_location,result_evidence,code_evidence,input_manifest
+net_gap_change,151.53900333190103,151.54,PASS,Abstract; Table 2; Figure 3,symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+china_rate_effect,271.51372270096294,271.51,PASS,Abstract; Table 2; Figure 3,symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+reference_rate_effect,-208.6232525250873,-208.62,PASS,Abstract; Table 2; Figure 3,symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+reference_country_composition_effect,88.6485331560254,88.65,PASS,Abstract; Table 2; Figure 3,symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Signed composition ratio (%),58.49882288183406,58.5,PASS,Abstract; Discussion,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Specified sensitivity minimum (%),39.814088996904864,39.8,PASS,Main Results,composition_sensitivities.csv; 1990/2023/GBD,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Specified sensitivity maximum (%),67.85716524916859,67.9,PASS,Main Results,composition_sensitivities.csv; 1990/2023/GBD,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+1990 total china_aspr,333.5614407821527,333.56,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+1990 total ref_aspr,606.4766604403526,606.48,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+1990 total gap,-272.9152196581999,-272.92,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+1990 total ratio,0.5499988087587069,0.550,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+2023 total china_aspr,605.0751634831156,605.08,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+2023 total ref_aspr,726.4513798094144,726.45,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+2023 total gap,-121.37621632629885,-121.38,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+2023 total ratio,0.8329190091728615,0.833,PASS,Table 1; Figure 1,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Secondary 2023 UN-WPP2024/dynamic,2.2627112285968565,2.26,PASS,Abstract; Table 3; Figure 5,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Secondary 2023 UN-WPP2024/fixed1990,-48.342712877114764,-48.34,PASS,Abstract; Table 3; Figure 5,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Secondary 2023 UN-WPP2024/equal,-127.88594257101056,-127.89,PASS,Abstract; Table 3; Figure 5,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Secondary 2023 GBD/dynamic,2.1633544728941843,2.16,PASS,Abstract; Table 3; Figure 5,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Secondary 2023 GBD/fixed1990,-47.9921697631612,-47.99,PASS,Abstract; Table 3; Figure 5,all_annual_benchmark_aspr.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Primary net change,46.39769172934935,46.40,PASS,Main Results,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Secondary net change,105.14131160255162,105.14,PASS,Main Results,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Secondary fraction of total net (%),69.38234335108496,69.4,PASS,Main Results,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+UN net_gap_change,150.69157936343774,150.69,PASS,Results; Figure 4,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+UN reference_rate_effect,-207.5851587680212,-207.59,PASS,Results; Figure 4,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+UN reference_country_composition_effect,86.76301543049604,86.76,PASS,Results; Figure 4,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+UN signed composition ratio (%),57.576551919494534,57.6,PASS,Main Results,symmetric_decomposition_1990_endpoints.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json
+Raw restricted-age weight sum,0.494902,0.494902,PASS,Methods; Supplement,weights.csv,code/PCOS_NewArticle_complete.py; code/revision_analysis.py,docs/input_manifest.json

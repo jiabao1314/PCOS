@@ -1,0 +1,17 @@
+note: Running TeX ...
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: supplement.tex:27: Underfull \hbox (badness 1348) in paragraph at lines 26--27
+warning: supplement.tex:34: Underfull \hbox (badness 1097) in paragraph at lines 33--34
+warning: supplement.tex:68: Underfull \hbox (badness 10000) in paragraph at lines 67--68
+note: Rerunning TeX because "supplement.aux" changed ...
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: supplement.tex:27: Underfull \hbox (badness 1348) in paragraph at lines 26--27
+warning: supplement.tex:34: Underfull \hbox (badness 1097) in paragraph at lines 33--34
+warning: supplement.tex:68: Underfull \hbox (badness 10000) in paragraph at lines 67--68
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+warning: Object @table.1 already defined.
+note: Writing `../output/supplement.pdf` (126.1220703125 KiB)
+note: Writing `../output/supplement.out` (1.0517578125 KiB)
+note: Writing `../output/supplement.log` (20.12890625 KiB)
+note: Writing `../output/supplement.aux` (8.8857421875 KiB)

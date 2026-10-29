@@ -1,0 +1,529 @@
+{
+  "at": "2026-10-29T18:24:04+01:00",
+  "scope": "Independent source-to-estimand recomputation and manuscript evidence audit; not upstream GBD validation",
+  "input_hashes_verified": 7,
+  "population_cells": 4522,
+  "disease_cells": 27132,
+  "subtype_additivity_max_error": 5.820766091346741e-10,
+  "official_endpoint_rate_cells": 1064,
+  "official_endpoint_rate_max_error": 1.1596057447604835e-11,
+  "comparisons": [
+    {
+      "table": "all_annual_benchmark_aspr",
+      "comparator": "python",
+      "rows": 1224,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "table": "all_annual_benchmark_aspr",
+      "comparator": "R",
+      "rows": 1224,
+      "max_abs_difference": 6.252776074688882e-13
+    },
+    {
+      "table": "symmetric_decomposition_1990_endpoints",
+      "comparator": "python",
+      "rows": 36,
+      "max_abs_difference": 1.9895196601282805e-13
+    },
+    {
+      "table": "symmetric_decomposition_1990_endpoints",
+      "comparator": "R",
+      "rows": 36,
+      "max_abs_difference": 5.258016244624741e-13
+    },
+    {
+      "table": "leave_one_country_out",
+      "comparator": "python",
+      "rows": 216,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "table": "leave_one_country_out",
+      "comparator": "R",
+      "rows": 216,
+      "max_abs_difference": 5.684341886080801e-13
+    },
+    {
+      "table": "annual_chained_decomposition",
+      "comparator": "python",
+      "rows": 12,
+      "max_abs_difference": 5.684341886080802e-14
+    },
+    {
+      "table": "annual_chained_decomposition",
+      "comparator": "R",
+      "rows": 12,
+      "max_abs_difference": 5.400124791776761e-13
+    },
+    {
+      "table": "composition_sensitivities",
+      "comparator": "python",
+      "rows": 1440,
+      "max_abs_difference": 7.001972335274331e-09
+    }
+  ],
+  "claims": [
+    {
+      "claim": "net_gap_change",
+      "computed": 151.53900333190103,
+      "displayed": "151.54",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 2; Figure 3",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "china_rate_effect",
+      "computed": 271.51372270096294,
+      "displayed": "271.51",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 2; Figure 3",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "reference_rate_effect",
+      "computed": -208.6232525250873,
+      "displayed": "-208.62",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 2; Figure 3",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "reference_country_composition_effect",
+      "computed": 88.6485331560254,
+      "displayed": "88.65",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 2; Figure 3",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv; PCOS/Total/GBD/2023",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Signed composition ratio (%)",
+      "computed": 58.49882288183406,
+      "displayed": "58.5",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Discussion",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Specified sensitivity minimum (%)",
+      "computed": 39.814088996904864,
+      "displayed": "39.8",
+      "status": "PASS",
+      "manuscript_location": "Main Results",
+      "result_evidence": "composition_sensitivities.csv; 1990/2023/GBD",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Specified sensitivity maximum (%)",
+      "computed": 67.85716524916859,
+      "displayed": "67.9",
+      "status": "PASS",
+      "manuscript_location": "Main Results",
+      "result_evidence": "composition_sensitivities.csv; 1990/2023/GBD",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "1990 total china_aspr",
+      "computed": 333.5614407821527,
+      "displayed": "333.56",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "1990 total ref_aspr",
+      "computed": 606.4766604403526,
+      "displayed": "606.48",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "1990 total gap",
+      "computed": -272.9152196581999,
+      "displayed": "-272.92",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "1990 total ratio",
+      "computed": 0.5499988087587069,
+      "displayed": "0.550",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "2023 total china_aspr",
+      "computed": 605.0751634831156,
+      "displayed": "605.08",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "2023 total ref_aspr",
+      "computed": 726.4513798094144,
+      "displayed": "726.45",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "2023 total gap",
+      "computed": -121.37621632629885,
+      "displayed": "-121.38",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "2023 total ratio",
+      "computed": 0.8329190091728615,
+      "displayed": "0.833",
+      "status": "PASS",
+      "manuscript_location": "Table 1; Figure 1",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Secondary 2023 UN-WPP2024/dynamic",
+      "computed": 2.2627112285968565,
+      "displayed": "2.26",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 3; Figure 5",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Secondary 2023 UN-WPP2024/fixed1990",
+      "computed": -48.342712877114764,
+      "displayed": "-48.34",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 3; Figure 5",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Secondary 2023 UN-WPP2024/equal",
+      "computed": -127.88594257101056,
+      "displayed": "-127.89",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 3; Figure 5",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Secondary 2023 GBD/dynamic",
+      "computed": 2.1633544728941843,
+      "displayed": "2.16",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 3; Figure 5",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Secondary 2023 GBD/fixed1990",
+      "computed": -47.9921697631612,
+      "displayed": "-47.99",
+      "status": "PASS",
+      "manuscript_location": "Abstract; Table 3; Figure 5",
+      "result_evidence": "all_annual_benchmark_aspr.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Primary net change",
+      "computed": 46.39769172934935,
+      "displayed": "46.40",
+      "status": "PASS",
+      "manuscript_location": "Main Results",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Secondary net change",
+      "computed": 105.14131160255162,
+      "displayed": "105.14",
+      "status": "PASS",
+      "manuscript_location": "Main Results",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Secondary fraction of total net (%)",
+      "computed": 69.38234335108496,
+      "displayed": "69.4",
+      "status": "PASS",
+      "manuscript_location": "Main Results",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "UN net_gap_change",
+      "computed": 150.69157936343774,
+      "displayed": "150.69",
+      "status": "PASS",
+      "manuscript_location": "Results; Figure 4",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "UN reference_rate_effect",
+      "computed": -207.5851587680212,
+      "displayed": "-207.59",
+      "status": "PASS",
+      "manuscript_location": "Results; Figure 4",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "UN reference_country_composition_effect",
+      "computed": 86.76301543049604,
+      "displayed": "86.76",
+      "status": "PASS",
+      "manuscript_location": "Results; Figure 4",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "UN signed composition ratio (%)",
+      "computed": 57.576551919494534,
+      "displayed": "57.6",
+      "status": "PASS",
+      "manuscript_location": "Main Results",
+      "result_evidence": "symmetric_decomposition_1990_endpoints.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    },
+    {
+      "claim": "Raw restricted-age weight sum",
+      "computed": 0.494902,
+      "displayed": "0.494902",
+      "status": "PASS",
+      "manuscript_location": "Methods; Supplement",
+      "result_evidence": "weights.csv",
+      "code_evidence": "code/PCOS_NewArticle_complete.py; code/revision_analysis.py",
+      "input_manifest": "docs/input_manifest.json"
+    }
+  ],
+  "tables": [
+    {
+      "table": "prevalence",
+      "rows": 6,
+      "sha256": "689c14a9b487e60f34eab15e8a259df4f4f40a73025fd8822997bef01b3f79c8",
+      "evidence": "results/python/all_annual_benchmark_aspr.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "decomposition",
+      "rows": 6,
+      "sha256": "a5eb811427b12dab42a8412f86b519a988c3dd9629efaf92190d8ddb1f8b3ab6",
+      "evidence": "results/python/symmetric_decomposition_1990_endpoints.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "benchmark",
+      "rows": 6,
+      "sha256": "24fd4ce09f5b1919945407224afbf1a9c28d4385d9da20a6bf4fb3325ac02986",
+      "evidence": "results/python/all_annual_benchmark_aspr.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s1_endpoints",
+      "rows": 8,
+      "sha256": "5a1dfbd028c429e4cb3b618bb143138fe7655869a0cb75607d2da7e58d015a02",
+      "evidence": "results/python/all_annual_benchmark_aspr.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s2_sensitivity",
+      "rows": 40,
+      "sha256": "89938ebff929b19a79a552d7a844eb14a80941a3e2e4b7c0609a97a288877c8f",
+      "evidence": "results/python/composition_sensitivities.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s3_age",
+      "rows": 21,
+      "sha256": "31ddcc211c3b459c45a3c0d7d753898a285c708d3cfcb6aa2681f008ba1e79ad",
+      "evidence": "results/python/age_decomposition.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s4_chained",
+      "rows": 12,
+      "sha256": "f399941f6f2f8936b00feb3eb67270e34d4590fcf021a155008025d222113b9f",
+      "evidence": "results/python/annual_chained_decomposition.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s5_population",
+      "rows": 7,
+      "sha256": "b1223c376ea87888fdabfe73a38067d823512834f3ffaa42cc55a116194b194f",
+      "evidence": "results/python/population_share_TVD.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s6_rate_conventions",
+      "rows": 2,
+      "sha256": "771c4bcdfef5461602b7c3e574eb075fda70abbfd642b29724a6490e41f17ede",
+      "evidence": "results/python/national_annual_standardized.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s7_terminal",
+      "rows": 19,
+      "sha256": "f92d0a97b4c835f4d8803027abe59525af1b5585c41ab46c2ba81ff17d5087ac",
+      "evidence": "results/python/terminal_year_audit.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    },
+    {
+      "table": "s8_rounding",
+      "rows": 12,
+      "sha256": "f55008b295a690bc6d0c70df02939d7586651633eb7556d1116638f444210f25",
+      "evidence": "results/python/standard_weight_rounding.csv",
+      "verification": "CSV audited or supplementary source mapped; copied bytes checked during build"
+    }
+  ],
+  "figures": [
+    {
+      "figure": "Figure1_PCOS_trends",
+      "sha256": "8af120e00eb5a0aeb87d747903900201d664dd3edaf9213b12a204b4cac2f9f2",
+      "evidence": "all_annual_benchmark_aspr",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "Figure2_PCOS_subtypes",
+      "sha256": "3d197c8a9a468859e02265b6a33d676ceb94a5ad82289c8c031dd1d55f499fd9",
+      "evidence": "all_annual_benchmark_aspr",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "Figure3_decomposition",
+      "sha256": "a4043017e58d32adacf3aa38bdd2aa429f30c330a490f6ae38f722646b1abbd1",
+      "evidence": "symmetric_decomposition_1990_endpoints",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "Figure4_population_source",
+      "sha256": "4ab3d8c37525d4b13270e7f26ceb82217e7186f1573865dcf40979c874264f35",
+      "evidence": "all_annual_benchmark_aspr; symmetric_decomposition_1990_endpoints",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "Figure5_benchmark_sensitivity",
+      "sha256": "97617555192b4d40b3182d12d94b1a956247209cbb06fff9e96ef17b95388b0d",
+      "evidence": "all_annual_benchmark_aspr",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "FigureS1_reference_exclusions",
+      "sha256": "924a4f3db85560d3ce2c8baea4982b2accbfe4aa68c311a756b21c2ef43a9fcb",
+      "evidence": "composition_sensitivities",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "FigureS2_benchmark_trajectories",
+      "sha256": "b0be9660e1f9b38f1fab107d83d5d6443e9d6c22b61c27acc8e94f8fec275305",
+      "evidence": "all_annual_benchmark_aspr",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "FigureS3_composition_sensitivity",
+      "sha256": "74c7f2a09b3009efbc16762b290b9e0c47c42992ffbed2faf22c4186835b7dfa",
+      "evidence": "composition_sensitivities",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "FigureS4_endometriosis_trajectory",
+      "sha256": "c47e5b5dab7e3c25fbb6981c2b574f4bb783e1c1fbdaaecb948fbb3034bcb933",
+      "evidence": "all_annual_benchmark_aspr",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "FigureS5_country_shifts",
+      "sha256": "27eca824c96c1d7acf3fdfbd962ea1170e1166e2426b67d20a869ee35e9fb15c",
+      "evidence": "age_weighted_reference_shifts",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "FigureS6_terminal_country",
+      "sha256": "0eebdf059c46c1bb1b23fc6bd4237eb00e7d76a05b16f6e6529a5c9bd6947490",
+      "evidence": "terminal_year_audit",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    },
+    {
+      "figure": "FigureS7_terminal_age_type",
+      "sha256": "a46abef801dd9417855d19e52937483efc2841d386b982679bd3c96b05fe7053",
+      "evidence": "endometriosis_terminal_age_type",
+      "generator": "code/revision_analysis.py:figures",
+      "verification": "Reused unchanged; generator mapping reviewed; new PDF render reviewed separately"
+    }
+  ],
+  "normalized_weight_sum": 1.0,
+  "all_claims_pass": true,
+  "no_joint_draws": true,
+  "limitations": [
+    "No joint posterior uncertainty can be identified from these inputs.",
+    "R/Python agreement checks existing R outputs; base R was not rerun this round.",
+    "Figures are reused rather than newly estimated; evidence mappings do not independently validate the GBD model."
+  ],
+  "source_code_sha256": {
+    "code/PCOS_NewArticle_complete.py": "96dc848c7ea9080a297d347c9857a6700da9f0af48728fcc82b50cf676e2fe43",
+    "code/extract_wpp2024.py": "3fa4866d460ede2e0d7a40c07e6549c82cd175528173833a8ff09e8402342057",
+    "code/verify_revision.py": "680a849fbd9f2cc098265828f8f89282d003e4b0434ca157f79bda39fe94541d",
+    "code/revision_analysis.py": "b82d9dddd971d25ba0261923799e87308bd94865d0dbe02d55b827d04c13db01",
+    "code/package_revision.py": "122e27f49f3b33056c16686d9f2e969b63bb2b9c689a5443291af0dd6a43db7a",
+    "code/PCOS_NewArticle_complete.R": "31508e785aa63c15bc7b3d04faa474775aec7681ff1e21d2982519365ede831e"
+  }
+}

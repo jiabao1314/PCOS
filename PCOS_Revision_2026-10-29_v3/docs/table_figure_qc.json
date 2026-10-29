@@ -1,0 +1,128 @@
+{
+  "tables": [
+    {
+      "table": "benchmark.tex",
+      "rows": 6,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "decomposition.tex",
+      "rows": 6,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "prevalence.tex",
+      "rows": 6,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s1_endpoints.tex",
+      "rows": 8,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s2_sensitivity.tex",
+      "rows": 40,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s3_age.tex",
+      "rows": 21,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s4_chained.tex",
+      "rows": 12,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s5_population.tex",
+      "rows": 7,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s6_rate_conventions.tex",
+      "rows": 2,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s7_terminal.tex",
+      "rows": 19,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s8_rounding.tex",
+      "rows": 12,
+      "regenerated_bytes_equal": true
+    }
+  ],
+  "figures": [
+    {
+      "figure": "Figure1_PCOS_trends.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure2_PCOS_subtypes.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure3_decomposition.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure4_population_source.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure5_benchmark_sensitivity.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS1_reference_exclusions.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS2_benchmark_trajectories.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS3_composition_sensitivity.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS4_endometriosis_trajectory.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS5_country_shifts.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS6_terminal_country.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS7_terminal_age_type.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    }
+  ],
+  "table_count": 11,
+  "figure_count": 12,
+  "numerical_table_rows": 139,
+  "archived_generator_reexecuted": true,
+  "old_assets_unchanged": true,
+  "scope": "All 11 table fragments and 12 figure PDFs compared with an isolated rerun of the archived generator; independent raw-input audit in claim_audit.json",
+  "no_new_estimates_adopted": true
+}

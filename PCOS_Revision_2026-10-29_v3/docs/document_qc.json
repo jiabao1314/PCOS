@@ -1,0 +1,52 @@
+{
+  "main": {
+    "pages": 19,
+    "table_labels": {
+      "tab:pcos": "1",
+      "tab:decomp": "2",
+      "tab:bench": "3"
+    },
+    "figure_labels": {
+      "fig:trends": "1",
+      "fig:subtypes": "2",
+      "fig:decomp": "3",
+      "fig:source": "4",
+      "fig:bench": "5"
+    },
+    "citations_resolved": true,
+    "no_overfull_boxes": true,
+    "no_blank_pages": true
+  },
+  "supplement": {
+    "pages": 18,
+    "table_labels": {
+      "tab:s1": "S1",
+      "tab:s2": "S2",
+      "tab:s3": "S3",
+      "tab:s4": "S4",
+      "tab:s5": "S5",
+      "tab:s6": "S6",
+      "tab:s7": "S7",
+      "tab:s8": "S8"
+    },
+    "figure_labels": {
+      "fig:s1": "S1",
+      "fig:s2": "S2",
+      "fig:s3": "S3",
+      "fig:s4": "S4",
+      "fig:s5": "S5",
+      "fig:s6": "S6",
+      "fig:s7": "S7"
+    },
+    "citations_resolved": true,
+    "no_overfull_boxes": true,
+    "no_blank_pages": true
+  },
+  "at": "2026-10-29T18:27:26+01:00",
+  "old_source_files_unchanged": 184,
+  "numerical_assets_unchanged": true,
+  "XX_preserved": true,
+  "no_joint_draws": true,
+  "visual_review": "reviewed",
+  "visual_review_scope": "All 19 main and 18 supplementary pages rendered and inspected as contact sheets; selected benchmark and figure detail renders inspected; main rerendered after final prose edit."
+}

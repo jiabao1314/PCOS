@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-29",
+  "R_Python_crosscheck": [
+    {
+      "table": "all_annual_benchmark_aspr",
+      "rows": 1224,
+      "max_abs_R_python_difference": 5.684341886080801e-13
+    },
+    {
+      "table": "symmetric_decomposition_1990_endpoints",
+      "rows": 36,
+      "max_abs_R_python_difference": 4.831690603168681e-13
+    },
+    {
+      "table": "leave_one_country_out",
+      "rows": 216,
+      "max_abs_R_python_difference": 5.115907697472721e-13
+    },
+    {
+      "table": "annual_chained_decomposition",
+      "rows": 12,
+      "max_abs_R_python_difference": 4.831690603168681e-13
+    }
+  ],
+  "sensitivity_rows": 1440,
+  "max_identity_residual": 1.9895196601282805e-13,
+  "GBD_PCOS_composition_fraction_range": [
+    0.3981408899690482,
+    0.6785716524916856
+  ],
+  "GBD_PCOS_components": {
+    "net_gap_change": 151.53900333190114,
+    "china_rate_effect": 271.5137227009629,
+    "reference_rate_effect": -208.6232525250872,
+    "reference_country_composition_effect": 88.64853315602541
+  },
+  "figures_main": 5,
+  "figures_supplement": 7,
+  "tables_main": 3,
+  "tables_supplement": 8,
+  "original_weight_sum": 0.494902,
+  "analysis_used_existing_inputs": true,
+  "no_joint_draws": true
+}
+{
+  "tables": [
+    {
+      "table": "benchmark.tex",
+      "rows": 6,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "decomposition.tex",
+      "rows": 6,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "prevalence.tex",
+      "rows": 6,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s1_endpoints.tex",
+      "rows": 8,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s2_sensitivity.tex",
+      "rows": 40,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s3_age.tex",
+      "rows": 21,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s4_chained.tex",
+      "rows": 12,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s5_population.tex",
+      "rows": 7,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s6_rate_conventions.tex",
+      "rows": 2,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s7_terminal.tex",
+      "rows": 19,
+      "regenerated_bytes_equal": true
+    },
+    {
+      "table": "s8_rounding.tex",
+      "rows": 12,
+      "regenerated_bytes_equal": true
+    }
+  ],
+  "figures": [
+    {
+      "figure": "Figure1_PCOS_trends.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure2_PCOS_subtypes.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure3_decomposition.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure4_population_source.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "Figure5_benchmark_sensitivity.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS1_reference_exclusions.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS2_benchmark_trajectories.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS3_composition_sensitivity.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS4_endometriosis_trajectory.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS5_country_shifts.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS6_terminal_country.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    },
+    {
+      "figure": "FigureS7_terminal_age_type.pdf",
+      "regenerated_text_equal": true,
+      "regenerated_raster_equal": true
+    }
+  ],
+  "table_count": 11,
+  "figure_count": 12,
+  "numerical_table_rows": 139,
+  "archived_generator_reexecuted": true,
+  "old_assets_unchanged": true,
+  "scope": "All 11 table fragments and 12 figure PDFs compared with an isolated rerun of the archived generator; independent raw-input audit in claim_audit.json",
+  "no_new_estimates_adopted": true
+}

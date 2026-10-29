@@ -1,0 +1,166 @@
+{
+  "stage": "audit",
+  "claims": 28,
+  "recomputed_core_rows": 1488,
+  "recomputed_sensitivity_rows": 1440,
+  "comparisons": [
+    {
+      "table": "all_annual_benchmark_aspr",
+      "comparator": "python",
+      "rows": 1224,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "table": "all_annual_benchmark_aspr",
+      "comparator": "R",
+      "rows": 1224,
+      "max_abs_difference": 6.252776074688882e-13
+    },
+    {
+      "table": "symmetric_decomposition_1990_endpoints",
+      "comparator": "python",
+      "rows": 36,
+      "max_abs_difference": 1.9895196601282805e-13
+    },
+    {
+      "table": "symmetric_decomposition_1990_endpoints",
+      "comparator": "R",
+      "rows": 36,
+      "max_abs_difference": 5.258016244624741e-13
+    },
+    {
+      "table": "leave_one_country_out",
+      "comparator": "python",
+      "rows": 216,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "table": "leave_one_country_out",
+      "comparator": "R",
+      "rows": 216,
+      "max_abs_difference": 5.684341886080801e-13
+    },
+    {
+      "table": "annual_chained_decomposition",
+      "comparator": "python",
+      "rows": 12,
+      "max_abs_difference": 5.684341886080802e-14
+    },
+    {
+      "table": "annual_chained_decomposition",
+      "comparator": "R",
+      "rows": 12,
+      "max_abs_difference": 5.400124791776761e-13
+    },
+    {
+      "table": "composition_sensitivities",
+      "comparator": "python",
+      "rows": 1440,
+      "max_abs_difference": 7.001972335274331e-09
+    }
+  ]
+}
+{"stage": "revise", "new_directory": "/Users/wangjiajia/Documents/ChatGPT/PCOS/PCOS_Revision_2026-10-29_v3", "old_manuscript_unchanged": true}
+{"stage": "build", "at": "2026-10-29T18:24:05+01:00", "compiled": ["main", "supplement"]}
+{
+  "main": {
+    "pages": 19,
+    "table_labels": {
+      "tab:pcos": "1",
+      "tab:decomp": "2",
+      "tab:bench": "3"
+    },
+    "figure_labels": {
+      "fig:trends": "1",
+      "fig:subtypes": "2",
+      "fig:decomp": "3",
+      "fig:source": "4",
+      "fig:bench": "5"
+    },
+    "citations_resolved": true,
+    "no_overfull_boxes": true,
+    "no_blank_pages": true
+  },
+  "supplement": {
+    "pages": 18,
+    "table_labels": {
+      "tab:s1": "S1",
+      "tab:s2": "S2",
+      "tab:s3": "S3",
+      "tab:s4": "S4",
+      "tab:s5": "S5",
+      "tab:s6": "S6",
+      "tab:s7": "S7",
+      "tab:s8": "S8"
+    },
+    "figure_labels": {
+      "fig:s1": "S1",
+      "fig:s2": "S2",
+      "fig:s3": "S3",
+      "fig:s4": "S4",
+      "fig:s5": "S5",
+      "fig:s6": "S6",
+      "fig:s7": "S7"
+    },
+    "citations_resolved": true,
+    "no_overfull_boxes": true,
+    "no_blank_pages": true
+  },
+  "at": "2026-10-29T18:24:06+01:00",
+  "old_source_files_unchanged": 184,
+  "numerical_assets_unchanged": true,
+  "XX_preserved": true,
+  "no_joint_draws": true,
+  "visual_review": "pending"
+}
+{
+  "main": {
+    "pages": 19,
+    "table_labels": {
+      "tab:pcos": "1",
+      "tab:decomp": "2",
+      "tab:bench": "3"
+    },
+    "figure_labels": {
+      "fig:trends": "1",
+      "fig:subtypes": "2",
+      "fig:decomp": "3",
+      "fig:source": "4",
+      "fig:bench": "5"
+    },
+    "citations_resolved": true,
+    "no_overfull_boxes": true,
+    "no_blank_pages": true
+  },
+  "supplement": {
+    "pages": 18,
+    "table_labels": {
+      "tab:s1": "S1",
+      "tab:s2": "S2",
+      "tab:s3": "S3",
+      "tab:s4": "S4",
+      "tab:s5": "S5",
+      "tab:s6": "S6",
+      "tab:s7": "S7",
+      "tab:s8": "S8"
+    },
+    "figure_labels": {
+      "fig:s1": "S1",
+      "fig:s2": "S2",
+      "fig:s3": "S3",
+      "fig:s4": "S4",
+      "fig:s5": "S5",
+      "fig:s6": "S6",
+      "fig:s7": "S7"
+    },
+    "citations_resolved": true,
+    "no_overfull_boxes": true,
+    "no_blank_pages": true
+  },
+  "at": "2026-10-29T18:24:06+01:00",
+  "old_source_files_unchanged": 184,
+  "numerical_assets_unchanged": true,
+  "XX_preserved": true,
+  "no_joint_draws": true,
+  "visual_review": "pending"
+}
