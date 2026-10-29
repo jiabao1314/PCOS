@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "hospital_files_read_in_place": 4,
+  "new_research_data_downloads": false,
+  "raw_hospital_data_exported": false,
+  "clinical_outcome_model_fitted": false,
+  "ethics_or_data_use_permission_confirmed": false,
+  "pending_user_information": [
+    "institution/identifier system and research permission",
+    "pregnancy outcome definition and additional follow-up availability"
+  ],
+  "GBD_point_estimate_stress_only": true,
+  "no_official_posterior_draws_generated": true,
+  "summary_publication": "Only aggregate audits, methods and code; raw private patient files excluded"
+}

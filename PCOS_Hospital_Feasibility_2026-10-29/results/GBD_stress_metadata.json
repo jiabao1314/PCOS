@@ -1,0 +1,8 @@
+{
+  "scope": "Preliminary PCOS marginal-limit Cartesian-box stress test; not a simultaneous posterior interval, no claimed 95% coverage, no inferred joint draws.",
+  "rate_cells": 798,
+  "population_shares_fixed": true,
+  "subtype_joint_additivity_not_imposed_on_box_corners": true,
+  "point_result_matches_reproduced_core": true,
+  "interpretation": "Corners may not be jointly plausible. A zero-crossing box establishes scenario sensitivity only; it does not show non-significance or a posterior probability. A net-change box crossing zero can make an unconstrained percentage box unstable or unbounded, so no percentage interval is calculated."
+}

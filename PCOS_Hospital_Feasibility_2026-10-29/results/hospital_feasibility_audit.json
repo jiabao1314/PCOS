@@ -1,0 +1,993 @@
+{
+  "date": "2026-10-29",
+  "scope": "Read-only feasibility audit; no outcome association tests or clinical model fit. No patient-level data exported.",
+  "files": [
+    {
+      "file": "20230508IUI(1).xlsx",
+      "bytes": 57647,
+      "sha256": "5b72c24cfb3c76efdeacdd3263f0778e7521d76fc487fc97c885b9d02debc87a",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "nonempty_rows_including_header": 143,
+          "declared_rows": 143,
+          "declared_columns": 46
+        },
+        {
+          "sheet": "Sheet2",
+          "nonempty_rows_including_header": 0,
+          "declared_rows": 1,
+          "declared_columns": 1
+        },
+        {
+          "sheet": "Sheet3",
+          "nonempty_rows_including_header": 0,
+          "declared_rows": 1,
+          "declared_columns": 1
+        }
+      ],
+      "records": 142,
+      "columns": [
+        "序号",
+        "女姓名",
+        "女年龄",
+        "男姓名",
+        "男方年龄",
+        "通讯地址",
+        "不孕年限",
+        "女方病历诊断",
+        "男方病历诊断",
+        "适应症",
+        "末次月经",
+        "女职业",
+        "男职业",
+        "左侧AFC",
+        "右侧AFC",
+        "激素FSH",
+        "激素AMH",
+        "女文化",
+        "男文化",
+        "女方民族",
+        "男方民族",
+        "月经周期",
+        "排卵监测单备注",
+        "基础激素FSH",
+        "基础激素LH",
+        "基础激素E2",
+        "基础激素P",
+        "基础激素PRL",
+        "基础激素T",
+        "月经史初潮",
+        "婚育史孕次",
+        "婚育史产次",
+        "婚育史婚姻状况",
+        "婚育史人工流产",
+        "婚育史自然流产",
+        "婚育史宫外孕次数",
+        "婚育史足月产",
+        "家族史",
+        "女方吸烟情况",
+        "男方吸烟情况",
+        "女方饮酒情况",
+        "男方饮酒情况",
+        "女方血压",
+        "女方血型",
+        "女方甲功",
+        "女方染色体"
+      ],
+      "nonmissing_by_column": {
+        "序号": 142,
+        "女姓名": 142,
+        "女年龄": 142,
+        "男姓名": 142,
+        "男方年龄": 142,
+        "通讯地址": 142,
+        "不孕年限": 142,
+        "女方病历诊断": 142,
+        "男方病历诊断": 93,
+        "适应症": 133,
+        "末次月经": 142,
+        "女职业": 142,
+        "男职业": 142,
+        "左侧AFC": 113,
+        "右侧AFC": 116,
+        "激素FSH": 106,
+        "激素AMH": 83,
+        "女文化": 142,
+        "男文化": 142,
+        "女方民族": 142,
+        "男方民族": 142,
+        "月经周期": 142,
+        "排卵监测单备注": 139,
+        "基础激素FSH": 106,
+        "基础激素LH": 106,
+        "基础激素E2": 106,
+        "基础激素P": 92,
+        "基础激素PRL": 91,
+        "基础激素T": 90,
+        "月经史初潮": 140,
+        "婚育史孕次": 142,
+        "婚育史产次": 142,
+        "婚育史婚姻状况": 142,
+        "婚育史人工流产": 142,
+        "婚育史自然流产": 142,
+        "婚育史宫外孕次数": 142,
+        "婚育史足月产": 142,
+        "家族史": 99,
+        "女方吸烟情况": 142,
+        "男方吸烟情况": 50,
+        "女方饮酒情况": 142,
+        "男方饮酒情况": 49,
+        "女方血压": 0,
+        "女方血型": 104,
+        "女方甲功": 140,
+        "女方染色体": 103
+      },
+      "sensitive_columns": [
+        "女姓名",
+        "男姓名",
+        "通讯地址"
+      ],
+      "distinct_female_name_tokens": 68,
+      "female_name_tokens_with_multiple_rows": 46,
+      "rows_beyond_first_by_female_name": 74,
+      "name_deduplication_is_not_verified_patient_identity": true,
+      "PCOS_text_flag_records": 142,
+      "primary_infertility_text_flag_records": 44,
+      "secondary_infertility_text_flag_records": 98,
+      "outcome_fields_present": [
+        "婚育史人工流产",
+        "婚育史自然流产"
+      ],
+      "婚育史人工流产_coding": {
+        "common_coded_values_n_ge_5": {
+          "0": 97,
+          "1": 43
+        },
+        "other_nonempty_records": 2,
+        "distinct_nonempty_values": 3
+      },
+      "婚育史自然流产_coding": {
+        "common_coded_values_n_ge_5": {
+          "0": 104,
+          "1": 26,
+          "2": 6
+        },
+        "other_nonempty_records": 6,
+        "distinct_nonempty_values": 7
+      },
+      "numeric_summaries": {
+        "女年龄": {
+          "numeric_n": 142,
+          "unparsed_nonempty": 0,
+          "min": 20.0,
+          "median": 30.0,
+          "max": 40.0
+        },
+        "不孕年限": {
+          "numeric_n": 142,
+          "unparsed_nonempty": 0,
+          "min": 0.0,
+          "median": 3.0,
+          "max": 10.0
+        },
+        "左侧AFC": {
+          "numeric_n": 70,
+          "unparsed_nonempty": 43,
+          "min": 1.0,
+          "median": 12.0,
+          "max": 45179.0
+        },
+        "右侧AFC": {
+          "numeric_n": 74,
+          "unparsed_nonempty": 42,
+          "min": 1.0,
+          "median": 12.0,
+          "max": 45211.0
+        },
+        "婚育史孕次": {
+          "numeric_n": 142,
+          "unparsed_nonempty": 0,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 1.0
+        },
+        "婚育史产次": {
+          "numeric_n": 142,
+          "unparsed_nonempty": 0,
+          "min": 0.0,
+          "median": 1.0,
+          "max": 5.0
+        }
+      },
+      "duplicate_header_consistency": {},
+      "history_field_checks": {
+        "parity_gt_gravidity_if_headers_interpreted_literally": 91,
+        "primary_label_with_positive_gravidity": 0,
+        "secondary_label_with_zero_gravidity": 85,
+        "AFC_numeric_above_100": {
+          "左侧AFC": 6,
+          "右侧AFC": 7
+        },
+        "interpretation": "Potential label/encoding problems requiring source clarification; no automatic recoding."
+      }
+    },
+    {
+      "file": "20230508IVF  PCOS(1)(1).xlsx",
+      "bytes": 125553,
+      "sha256": "8dcfbd7329a836ae4e5031410ad938384b76f65bb74501d59ff72544c1b83ff2",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "nonempty_rows_including_header": 257,
+          "declared_rows": 257,
+          "declared_columns": 57
+        },
+        {
+          "sheet": "Sheet2",
+          "nonempty_rows_including_header": 0,
+          "declared_rows": 1,
+          "declared_columns": 1
+        },
+        {
+          "sheet": "Sheet3",
+          "nonempty_rows_including_header": 0,
+          "declared_rows": 1,
+          "declared_columns": 1
+        }
+      ],
+      "records": 256,
+      "columns": [
+        "序号",
+        "女姓名",
+        "女年龄",
+        "女门诊号",
+        "男姓名",
+        "男方年龄",
+        "男门诊号",
+        "通讯地址",
+        "不孕年限",
+        "周期开始日期",
+        "女方病历诊断",
+        "男方病历诊断",
+        "适应症",
+        "末次月经",
+        "基础激素FSH",
+        "基础激素LH",
+        "基础激素PRL",
+        "基础激素E2",
+        "基础激素P",
+        "基础激素T",
+        "随访日期",
+        "是否妊娠",
+        "流产",
+        "是否移植",
+        "女职业",
+        "男职业",
+        "左侧AFC",
+        "右侧AFC",
+        "女文化",
+        "男文化",
+        "总AFC数",
+        "女方BMI",
+        "女方民族",
+        "男方民族",
+        "月经周期",
+        "基础激素FSH__repeat2",
+        "基础激素LH__repeat2",
+        "基础激素E2__repeat2",
+        "基础激素P__repeat2",
+        "基础激素PRL__repeat2",
+        "基础激素T__repeat2",
+        "月经史初潮",
+        "婚育史孕次",
+        "婚育史产次",
+        "婚育史婚姻状况",
+        "婚育史人工流产",
+        "婚育史自然流产",
+        "婚育史宫外孕次数",
+        "婚育史足月产",
+        "家族史",
+        "女方吸烟情况",
+        "男方吸烟情况",
+        "女方饮酒情况",
+        "男方饮酒情况",
+        "女方血压",
+        "女方血型",
+        "女方甲功"
+      ],
+      "nonmissing_by_column": {
+        "序号": 256,
+        "女姓名": 256,
+        "女年龄": 256,
+        "女门诊号": 255,
+        "男姓名": 256,
+        "男方年龄": 256,
+        "男门诊号": 250,
+        "通讯地址": 256,
+        "不孕年限": 256,
+        "周期开始日期": 256,
+        "女方病历诊断": 256,
+        "男方病历诊断": 256,
+        "适应症": 244,
+        "末次月经": 256,
+        "基础激素FSH": 242,
+        "基础激素LH": 241,
+        "基础激素PRL": 207,
+        "基础激素E2": 241,
+        "基础激素P": 235,
+        "基础激素T": 206,
+        "随访日期": 256,
+        "是否妊娠": 100,
+        "流产": 5,
+        "是否移植": 256,
+        "女职业": 256,
+        "男职业": 256,
+        "左侧AFC": 239,
+        "右侧AFC": 239,
+        "女文化": 254,
+        "男文化": 254,
+        "总AFC数": 239,
+        "女方BMI": 256,
+        "女方民族": 255,
+        "男方民族": 253,
+        "月经周期": 256,
+        "基础激素FSH__repeat2": 256,
+        "基础激素LH__repeat2": 255,
+        "基础激素E2__repeat2": 255,
+        "基础激素P__repeat2": 249,
+        "基础激素PRL__repeat2": 217,
+        "基础激素T__repeat2": 216,
+        "月经史初潮": 255,
+        "婚育史孕次": 256,
+        "婚育史产次": 256,
+        "婚育史婚姻状况": 256,
+        "婚育史人工流产": 256,
+        "婚育史自然流产": 256,
+        "婚育史宫外孕次数": 256,
+        "婚育史足月产": 256,
+        "家族史": 256,
+        "女方吸烟情况": 256,
+        "男方吸烟情况": 256,
+        "女方饮酒情况": 256,
+        "男方饮酒情况": 254,
+        "女方血压": 0,
+        "女方血型": 249,
+        "女方甲功": 256
+      },
+      "sensitive_columns": [
+        "女姓名",
+        "女门诊号",
+        "男姓名",
+        "男门诊号",
+        "通讯地址"
+      ],
+      "distinct_female_name_tokens": 239,
+      "female_name_tokens_with_multiple_rows": 15,
+      "rows_beyond_first_by_female_name": 17,
+      "name_deduplication_is_not_verified_patient_identity": true,
+      "nonmissing_female_outpatient_ID_records": 255,
+      "distinct_female_outpatient_IDs": 238,
+      "ID_tokens_with_multiple_rows": 15,
+      "rows_beyond_first_by_ID": 17,
+      "unique_ID_and_cycle_date_pairs": 256,
+      "same_ID_multiple_name_tokens": 0,
+      "PCOS_text_flag_records": 256,
+      "primary_infertility_text_flag_records": 130,
+      "secondary_infertility_text_flag_records": 126,
+      "outcome_fields_present": [
+        "随访日期",
+        "是否妊娠",
+        "流产",
+        "是否移植",
+        "婚育史人工流产",
+        "婚育史自然流产"
+      ],
+      "随访日期_coding": {
+        "nonmissing": 256
+      },
+      "是否妊娠_coding": {
+        "common_coded_values_n_ge_5": {
+          "怀孕": 61,
+          "未怀孕": 39
+        },
+        "other_nonempty_records": 0,
+        "distinct_nonempty_values": 2
+      },
+      "流产_coding": {
+        "common_coded_values_n_ge_5": {},
+        "other_nonempty_records": 5,
+        "distinct_nonempty_values": 2
+      },
+      "是否移植_coding": {
+        "common_coded_values_n_ge_5": {
+          "否": 154,
+          "是": 102
+        },
+        "other_nonempty_records": 0,
+        "distinct_nonempty_values": 2
+      },
+      "婚育史人工流产_coding": {
+        "common_coded_values_n_ge_5": {
+          "0": 210,
+          "1": 45
+        },
+        "other_nonempty_records": 1,
+        "distinct_nonempty_values": 3
+      },
+      "婚育史自然流产_coding": {
+        "common_coded_values_n_ge_5": {
+          "0": 196,
+          "2": 17,
+          "1": 39
+        },
+        "other_nonempty_records": 4,
+        "distinct_nonempty_values": 6
+      },
+      "numeric_summaries": {
+        "女年龄": {
+          "numeric_n": 256,
+          "unparsed_nonempty": 0,
+          "min": 21.0,
+          "median": 30.0,
+          "max": 42.0
+        },
+        "女方BMI": {
+          "numeric_n": 256,
+          "unparsed_nonempty": 0,
+          "min": 15.82,
+          "median": 24.085,
+          "max": 36.73
+        },
+        "不孕年限": {
+          "numeric_n": 256,
+          "unparsed_nonempty": 0,
+          "min": 0.33,
+          "median": 3.0,
+          "max": 15.0
+        },
+        "总AFC数": {
+          "numeric_n": 239,
+          "unparsed_nonempty": 0,
+          "min": 11.0,
+          "median": 26.0,
+          "max": 60.0
+        },
+        "左侧AFC": {
+          "numeric_n": 239,
+          "unparsed_nonempty": 0,
+          "min": 4.0,
+          "median": 12.0,
+          "max": 37.0
+        },
+        "右侧AFC": {
+          "numeric_n": 239,
+          "unparsed_nonempty": 0,
+          "min": 4.0,
+          "median": 13.0,
+          "max": 33.0
+        },
+        "婚育史孕次": {
+          "numeric_n": 256,
+          "unparsed_nonempty": 0,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 1.0
+        },
+        "婚育史产次": {
+          "numeric_n": 256,
+          "unparsed_nonempty": 0,
+          "min": 0.0,
+          "median": 1.0,
+          "max": 6.0
+        }
+      },
+      "duplicate_header_consistency": {
+        "基础激素FSH": {
+          "both_nonempty": 242,
+          "equal_text": 241
+        },
+        "基础激素LH": {
+          "both_nonempty": 241,
+          "equal_text": 240
+        },
+        "基础激素E2": {
+          "both_nonempty": 241,
+          "equal_text": 240
+        },
+        "基础激素P": {
+          "both_nonempty": 235,
+          "equal_text": 234
+        },
+        "基础激素PRL": {
+          "both_nonempty": 207,
+          "equal_text": 207
+        },
+        "基础激素T": {
+          "both_nonempty": 206,
+          "equal_text": 206
+        }
+      },
+      "history_field_checks": {
+        "parity_gt_gravidity_if_headers_interpreted_literally": 119,
+        "primary_label_with_positive_gravidity": 2,
+        "secondary_label_with_zero_gravidity": 93,
+        "AFC_numeric_above_100": {
+          "左侧AFC": 0,
+          "右侧AFC": 0
+        },
+        "interpretation": "Potential label/encoding problems requiring source clarification; no automatic recoding."
+      },
+      "transfer_and_outcome": [
+        {
+          "transfer": "否",
+          "outcome_recorded": false,
+          "records": 154
+        },
+        {
+          "transfer": "是",
+          "outcome_recorded": false,
+          "records": 2
+        },
+        {
+          "transfer": "是",
+          "outcome_recorded": true,
+          "records": 100
+        }
+      ],
+      "outcome_distinct_nonempty_female_IDs": 96,
+      "outcome_distinct_female_name_tokens": 97,
+      "cycle_start_year_range": [
+        2019,
+        2023
+      ],
+      "cycle_start_nonmissing": 256
+    },
+    {
+      "file": "性激素202206-202209检验结果查询.xls",
+      "bytes": 14919168,
+      "sha256": "13b92b3c905e2895e23195ad398d0505202186601c8ad88a73ac80483c2394fa",
+      "records": 36660,
+      "columns": [
+        "患者类型",
+        "标本号",
+        "患者姓名",
+        "患者性别",
+        "患者年龄",
+        "科室",
+        "床号",
+        "患者编码",
+        "病区",
+        "检验日期",
+        "检验仪器",
+        "项目编码",
+        "项目名称",
+        "结果",
+        "单位",
+        "参考范围",
+        "标本类型",
+        "诊断",
+        "审核者",
+        "检验备注",
+        "条码号",
+        "后处理架子号",
+        "开立医生",
+        "患者生日",
+        "患者身份证号",
+        "患者电话"
+      ],
+      "sensitive_columns": [
+        "标本号",
+        "患者姓名",
+        "床号",
+        "患者编码",
+        "审核者",
+        "条码号",
+        "开立医生",
+        "患者生日",
+        "患者身份证号",
+        "患者电话"
+      ],
+      "nonmissing_by_column": {
+        "患者类型": 36654,
+        "标本号": 36660,
+        "患者姓名": 36660,
+        "患者性别": 36464,
+        "患者年龄": 36464,
+        "科室": 36383,
+        "床号": 4752,
+        "患者编码": 36383,
+        "病区": 4752,
+        "检验日期": 36660,
+        "检验仪器": 36660,
+        "项目编码": 36660,
+        "项目名称": 36218,
+        "结果": 36659,
+        "单位": 36218,
+        "参考范围": 36218,
+        "标本类型": 36305,
+        "诊断": 31807,
+        "审核者": 36214,
+        "检验备注": 407,
+        "条码号": 36660,
+        "后处理架子号": 36621,
+        "开立医生": 36373,
+        "患者生日": 36660,
+        "患者身份证号": 35321,
+        "患者电话": 34677
+      },
+      "distinct_patient_codes": 5973,
+      "distinct_female_patient_codes": 5355,
+      "sex_codes": {
+        "common_coded_values_n_ge_5": {
+          "女": 33229,
+          "男": 3235
+        },
+        "other_nonempty_records": 0,
+        "distinct_nonempty_values": 2
+      },
+      "distinct_name_tokens": 5601,
+      "numeric_result_records": 33577,
+      "test_date_year_month_range": [
+        "2022-06",
+        "2022-09"
+      ],
+      "PCOS_text_flag_lab_rows": 926,
+      "PCOS_text_flag_patient_codes": 145,
+      "named_test_rows": 36218,
+      "missing_patient_code_rows": 277,
+      "tests": [
+        {
+          "test": "孕酮",
+          "unit": "ng/mL",
+          "records": 7026,
+          "distinct_patient_codes": 4521,
+          "numeric_results": 6331
+        },
+        {
+          "test": "雌二醇",
+          "unit": "pg/mL",
+          "records": 6341,
+          "distinct_patient_codes": 4068,
+          "numeric_results": 5753
+        },
+        {
+          "test": "促黄体生成素",
+          "unit": "IU/L",
+          "records": 5925,
+          "distinct_patient_codes": 3869,
+          "numeric_results": 5724
+        },
+        {
+          "test": "促卵泡生成素",
+          "unit": "IU/L",
+          "records": 5823,
+          "distinct_patient_codes": 3843,
+          "numeric_results": 5821
+        },
+        {
+          "test": "催乳素",
+          "unit": "ug/L",
+          "records": 3440,
+          "distinct_patient_codes": 3294,
+          "numeric_results": 3439
+        },
+        {
+          "test": "睾酮",
+          "unit": "ug/L",
+          "records": 3365,
+          "distinct_patient_codes": 3248,
+          "numeric_results": 3006
+        },
+        {
+          "test": "(稀释)绒毛膜促性腺激素",
+          "unit": "mIU/mL",
+          "records": 1776,
+          "distinct_patient_codes": 1245,
+          "numeric_results": 1503
+        },
+        {
+          "test": "绒毛膜促性腺激素",
+          "unit": "mIU/mL",
+          "records": 1526,
+          "distinct_patient_codes": 1373,
+          "numeric_results": 602
+        },
+        {
+          "test": "抗缪勒管激素",
+          "unit": "ng/mL",
+          "records": 996,
+          "distinct_patient_codes": 986,
+          "numeric_results": 959
+        },
+        {
+          "test": "",
+          "unit": "",
+          "records": 442,
+          "distinct_patient_codes": 253,
+          "numeric_results": 439
+        }
+      ]
+    },
+    {
+      "file": "检验结果查询.xls",
+      "bytes": 14596096,
+      "sha256": "8e293dd00ec4014b4efbc886fc39cbb83cb814b133198e96392046808e63882e",
+      "records": 36894,
+      "columns": [
+        "患者类型",
+        "标本号",
+        "患者姓名",
+        "患者性别",
+        "患者年龄",
+        "科室",
+        "床号",
+        "患者编码",
+        "病区",
+        "检验日期",
+        "检验仪器",
+        "项目编码",
+        "项目名称",
+        "结果",
+        "单位",
+        "参考范围",
+        "标本类型",
+        "诊断",
+        "审核者",
+        "检验备注",
+        "条码号",
+        "后处理架子号",
+        "开立医生",
+        "患者生日",
+        "患者身份证号",
+        "患者电话"
+      ],
+      "sensitive_columns": [
+        "标本号",
+        "患者姓名",
+        "床号",
+        "患者编码",
+        "审核者",
+        "条码号",
+        "开立医生",
+        "患者生日",
+        "患者身份证号",
+        "患者电话"
+      ],
+      "nonmissing_by_column": {
+        "患者类型": 36894,
+        "标本号": 36894,
+        "患者姓名": 36894,
+        "患者性别": 36877,
+        "患者年龄": 36860,
+        "科室": 36701,
+        "床号": 294,
+        "患者编码": 36701,
+        "病区": 294,
+        "检验日期": 36894,
+        "检验仪器": 36894,
+        "项目编码": 36894,
+        "项目名称": 36888,
+        "结果": 36883,
+        "单位": 13436,
+        "参考范围": 13328,
+        "标本类型": 36871,
+        "诊断": 36419,
+        "审核者": 36877,
+        "检验备注": 151,
+        "条码号": 36894,
+        "后处理架子号": 0,
+        "开立医生": 36814,
+        "患者生日": 36894,
+        "患者身份证号": 36463,
+        "患者电话": 35697
+      },
+      "distinct_patient_codes": 1673,
+      "distinct_female_patient_codes": 0,
+      "sex_codes": {
+        "common_coded_values_n_ge_5": {
+          "男": 36877
+        },
+        "other_nonempty_records": 0,
+        "distinct_nonempty_values": 1
+      },
+      "distinct_name_tokens": 1657,
+      "numeric_result_records": 35603,
+      "test_date_year_month_range": [
+        "2022-06",
+        "2022-12"
+      ],
+      "PCOS_text_flag_lab_rows": 0,
+      "PCOS_text_flag_patient_codes": 0,
+      "named_test_rows": 36888,
+      "missing_patient_code_rows": 193,
+      "tests": [
+        {
+          "test": "禁欲天数",
+          "unit": "百万/ml",
+          "records": 2240,
+          "distinct_patient_codes": 1672,
+          "numeric_results": 964
+        },
+        {
+          "test": "精子密度",
+          "unit": "百万/ml",
+          "records": 2240,
+          "distinct_patient_codes": 1672,
+          "numeric_results": 2240
+        },
+        {
+          "test": "精子总数",
+          "unit": "百万/ml",
+          "records": 2240,
+          "distinct_patient_codes": 1672,
+          "numeric_results": 2240
+        },
+        {
+          "test": "精子活动力",
+          "unit": "%",
+          "records": 2240,
+          "distinct_patient_codes": 1672,
+          "numeric_results": 2240
+        },
+        {
+          "test": "精子活率",
+          "unit": "%",
+          "records": 2240,
+          "distinct_patient_codes": 1672,
+          "numeric_results": 2240
+        },
+        {
+          "test": "精液量(ml)",
+          "unit": "ml",
+          "records": 2236,
+          "distinct_patient_codes": 1670,
+          "numeric_results": 2233
+        },
+        {
+          "test": "主段缺陷",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "头部缺陷",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "异常形态数",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "所数精子总数",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "正常形态数",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "正常形态精子百分率（%）",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "畸形精子指数（TZI）",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "畸形精子部位总数",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "精子畸形指数（SDI）",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "过量残留胞浆（ERC）",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2130
+        },
+        {
+          "test": "颈部和中段缺陷",
+          "unit": "",
+          "records": 2132,
+          "distinct_patient_codes": 1605,
+          "numeric_results": 2131
+        },
+        {
+          "test": "",
+          "unit": "",
+          "records": 6,
+          "distinct_patient_codes": 1,
+          "numeric_results": 6
+        }
+      ]
+    }
+  ],
+  "lab_overlap": [
+    {
+      "files": [
+        "性激素202206-202209检验结果查询.xls",
+        "检验结果查询.xls"
+      ],
+      "exact_lab_row_fingerprint_overlap": 0,
+      "unique_lab_row_fingerprints_union": 73554,
+      "within_file_repeated_fingerprints": [
+        0,
+        0
+      ],
+      "shared_patient_code_tokens": 163
+    }
+  ],
+  "linkage_diagnostics": [
+    {
+      "clinical_file": "20230508IUI(1).xlsx",
+      "lab_file": "性激素202206-202209检验结果查询.xls",
+      "overlapping_name_tokens_only": 21,
+      "not_a_validated_patient_linkage": true
+    },
+    {
+      "clinical_file": "20230508IUI(1).xlsx",
+      "lab_file": "检验结果查询.xls",
+      "overlapping_name_tokens_only": 1,
+      "not_a_validated_patient_linkage": true
+    },
+    {
+      "clinical_file": "20230508IVF  PCOS(1)(1).xlsx",
+      "lab_file": "性激素202206-202209检验结果查询.xls",
+      "overlapping_name_tokens_only": 104,
+      "not_a_validated_patient_linkage": true,
+      "exact_outpatient_ID_vs_lab_code_token_overlap": 87,
+      "female_rows_shared_ID_and_name_concordant": 84,
+      "female_shared_ID_records": 89,
+      "male_ID_vs_lab_code_token_overlap": 15,
+      "male_rows_shared_ID_and_name_concordant": 15,
+      "male_shared_ID_records": 16
+    },
+    {
+      "clinical_file": "20230508IVF  PCOS(1)(1).xlsx",
+      "lab_file": "检验结果查询.xls",
+      "overlapping_name_tokens_only": 0,
+      "not_a_validated_patient_linkage": true,
+      "exact_outpatient_ID_vs_lab_code_token_overlap": 0,
+      "female_rows_shared_ID_and_name_concordant": 0,
+      "female_shared_ID_records": 0,
+      "male_ID_vs_lab_code_token_overlap": 47,
+      "male_rows_shared_ID_and_name_concordant": 49,
+      "male_shared_ID_records": 50
+    }
+  ],
+  "limits": [
+    "Column labels and diagnosis text do not establish Rotterdam PCOS eligibility or outcome definitions.",
+    "Name-token duplicates are not verified patient identities.",
+    "Exact ID token comparisons do not prove or exclude linkage across incompatible hospital systems.",
+    "No individual-level source data are suitable for a public repository."
+  ]
+}
