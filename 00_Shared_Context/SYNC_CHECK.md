@@ -47,3 +47,12 @@
 - DATA_CATALOG含72条现有数据清单记录（含4个医院非识别性别名）；RESULTS_INDEX含262条成果记录。这是文件/哈希清单，不代表所有条目已重新统计验证或当前已逐一云端读回。未知生成代码处明确标注，不能猜测。
 - 历史修订原始输入清单哈希已核对；历史成果科学QC和云端状态仅引用既有记录。Galaxy完整UN压缩源最后旧记录为running，本轮未访问Galaxy更新其状态，不宣称完成。
 - 医院旧回执的pending_clarifications已由用户后续确认解决，见DECISIONS；伦理审批未确认；XX投稿字段保持待用户填写。
+
+## 2026-10-29T18:34:47+01:00 — PCOS v3内容发布核验
+
+- 论文/结果状态：完成。28项主要主张、1488核心行、1440敏感行；11表139行、12图一致；19+18页PDF编译、引用/编号与视觉检查通过。旧版本184文件保留。
+- GitHub内容提交：`569db0252538868e27181a41dc90f253e15fd4e2`，基于`cf1b4ae47694921382d9b2cde7a9fde77c3b2a66`最新tree，仅新增47条已审查路径，原有440路径全部保留。连接器expected_sha非force更新后实际fetch并逐blob校验bytes。
+- Drive内容：新版文件夹`1tNldHZ1Bs2ah063jy2HuMngrr4FoMGxL`；16文件经原文件回下载核验，全bytes相同；完整ZIP85条目与本地bytes一致。ZIP SHA-256：`ac29ef7c0518fa7fed5970fc8a3ab65dc22ddef289a2a2dc0e1c7131c7a218ea`。
+- 逐文件哈希与ID：新版`docs/SYNC_RECEIPT.json`、PUBLIC_ARTIFACT_MANIFEST及RESULTS_INDEX。只发布汇总、代码和论文，未发布许可GBD原件、国家年龄源单元、医院记录或凭证。
+- 执行中的环境及Git CLI问题已保留实际失败记录并解决；并未要求用户重新授权。
+- 收尾共享文档及本回执自身由后继提交保存并再次读回。为避免自引用，最终回执提交号和本文件哈希单独记入私有`.shared_context_runtime/FINAL_V3_RECEIPT.json`。只有该读回成功后才向用户报告全部同步完成。
