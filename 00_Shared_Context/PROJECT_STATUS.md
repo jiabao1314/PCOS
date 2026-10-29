@@ -1,5 +1,14 @@
 # 项目状态
 
+## 2026-10-29T19:11:20+01:00 — 最新：Human Reproduction v4，暂不投稿
+
+独立 Human Reproduction v4 已完成；正文19页、补充稿19页、附信1页；v3的65文件字节不变。正文55个GitHub文件、Drive17个独立文件及包内105项已读回比对，制品提交 `e973d1ff09e1d673fd2b082442178bba5afd972b`；Drive: https://drive.google.com/drive/folders/1_Dztm9ZegBc5iaYlgQZFx7r67_N1HOt2。
+
+已落实前三项：实际参照使用场景与文献目标比较（S9）；唯一主估计目标；数学性质与条件于GBD点估计的经验结论分离。摘要遵循2026-05-20模板，Funding/Disclosures分列；附信、Alt text、连续行号、右上页码、独立可编辑表格和TIFF已备。未重拟合疾病模型、未增加研究数据，DATA_CATALOG不变。
+
+剩余：投稿时填写既定XX、核定伦理适用性/签字/独家审稿等；完整Word主文未制作，TeX上传路径需正式投稿时确认。联合后验draws仍缺失，不能补造区间。暂未投稿或发送邮件。共享记录的后继提交读回结果见SYNC_CHECK及本机HR_V4_FINAL_RECEIPT。
+
+
 ## 2026-10-29T18:51:18+01:00 — v3创新性与投稿竞争力定向评估完成
 
 报告：`PCOS_v3_Submission_Assessment_2026-10-29/REPORT_ZH.md`。本轮未修改v3、未运行新的GBD统计、未投稿或外发。重新核对2025原表11期刊条目和官方范围/指南；HR与F&S医学大类1区，RH/IJE/EJE医学大类2区，不能混淆小类一区。建议先补P0实际使用场景、主估计目标和证据层级，再有条件冲刺HR、其次F&S；均为编辑判断及建议，尚非选刊决定。部分专门指南受timeout/403限制，精确上限未验证。报告/代码7文件已Drive及GitHub内容核验，提交`5d994f75303f5f8208a7423f02b5d9b0ef8a1d0e`。
@@ -41,3 +50,9 @@
 - 2026-10-29T18:25:38+01:00 [20261029_editorial_v3_assets_final] 隔离重建并核对11表12图的所有数值与绘图资产：verified；结果发布待核验。
 
 - 2026-10-29T18:49:05+01:00 [20261029_v3_submission_assessment] v3创新性、中科院2025大类一区目标与投稿前缺口定向评估：verified；结果发布待核验。
+
+- 2026-10-29T19:01:37+01:00 [hr-v4-positioning-20261029] 完成前三项科学定位补强并生成Human Reproduction独立v4、补充稿和投稿附信（不投稿）：failed；结果发布待核验。
+
+- 2026-10-29T19:05:30+01:00 [hr-v4-final-20261029] Human Reproduction v4修复后科学与文档核验、完整公开复现包封装（不投稿）：failed；结果发布待核验。
+
+- 2026-10-29T19:06:06+01:00 [hr-v4-final-retry-20261029] Human Reproduction v4修复后科学与文档核验、完整公开复现包封装（不投稿）：verified；结果发布待核验。

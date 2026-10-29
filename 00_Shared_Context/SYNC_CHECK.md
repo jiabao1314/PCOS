@@ -1,5 +1,16 @@
 # 共享配置与同步验证
 
+## 2026-10-29T19:11:20+01:00 — HR v4 内容核验
+
+独立 Human Reproduction v4 已完成；正文19页、补充稿19页、附信1页；v3的65文件字节不变。正文55个GitHub文件、Drive17个独立文件及包内105项已读回比对，制品提交 `e973d1ff09e1d673fd2b082442178bba5afd972b`；Drive: https://drive.google.com/drive/folders/1_Dztm9ZegBc5iaYlgQZFx7r67_N1HOt2。
+
+- 远端495个已有文件在制品提交中保留；本地HEAD未变，未暂存无关修改。
+- 3份PDF已逐页渲染核查；18个Word表数据行精确一致；12幅1200dpi TIFF包含在两端完整包中。
+- 共享7文件编辑前已用Drive原始字节与本机核对，无外部冲突；保留此前失败和成功事件。无raw/processed数据变化，DATA_CATALOG不变。
+- 本段、七份共享记录和制品回执在后继提交中保存；发布后按相同方法再次读回，其最终提交号及文件哈希保存在本机 `.shared_context_runtime/HR_V4_FINAL_RECEIPT.json`，不在本段制造自引用哈希。
+- 科学状态：定位与文档修订完成；无联合后验draws，完整Word主文/正式上传路径尚需提交前处理；作者XX保留；未投稿。
+
+
 核验日期：2026-10-29T17:15:26+01:00（Europe/Paris）。范围：本次共享配置，未重跑历史科研分析。
 
 ## 实测结果

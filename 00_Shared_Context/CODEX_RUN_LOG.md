@@ -107,3 +107,55 @@ Git命令行尝试以隔离index推送9cd9820失败（无HTTPS写入登录态，
 Web工具实际核验中科院2026-03-27声明、NCEPU原附件页、HR范围/通用准备/在线投稿、ASRM范围、RH范围/Research、BMC Medicine范围、HR2024前作及2025/2026竞争文献。访问失败及复用范围记录于EVIDENCE_SOURCES；未虚构HR Original Article/F&S指南的字数上限、APC或录用概率。stdlib HTML读取尝试先因bs4缺失未发请求，改用HTMLParser后得到403；Excel用stdlib zip/XML只读，未安装包。
 
 报告及脚本7个白名单路径，经GitHub连接器base tree+expected_sha非force提交`5d994f75303f5f8208a7423f02b5d9b0ef8a1d0e`，实际fetch/git show逐文件bytes一致；Drive文件夹1gSjRYLF0CHBJNsgDCzYdfTNgIbgtX3Or中7文件原文件回下载一致。具体输入/代码/输出哈希及dirty基线见run日志、ASSESSMENT_PROVENANCE和私有最终回执。以下收尾共享文档由后继提交核验；未执行所建议的新修改。
+
+## 2026-10-29T19:01:19+01:00 — hr-v4-positioning-20261029
+
+任务：完成前三项科学定位补强并生成Human Reproduction独立v4、补充稿和投稿附信（不投稿）
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/build_hr_v4_20261029.py build`
+
+状态：failed；exit=0；验证退出码=[1]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_Revision_2026-10-29_v3/manuscript/main.tex": "86b659756036df447eb8c5945304caecf007bdfbb9286f1fe764c790fcce1d87", "PCOS_Revision_2026-10-29_v3/manuscript/supplement.tex": "2a31832aa07211e3f42898d25f939da55f228eed6dfc20e9bfe03eea644aaa46", "PCOS_Revision_2026-10-29_v3/docs/PUBLIC_ARTIFACT_MANIFEST.json": "c5785dbdab3f393711e0550abeb1df4062671f18d1f2b46dd1d567dc0efa1e80", "PCOS_v3_Submission_Assessment_2026-10-29/REPORT_ZH.md": "96f5c183b439ba27f0ca65aa71b468dbc52bf7b319c5619dcce5ddf352396799", "scripts/build_hr_v4_20261029.py": "b37d2a0b30cdd1b7f79ed731819d77453673f1e440b1df2c4a6730ae29b18cfd"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/output/PCOS_HumanReproduction_v4.pdf": "dd6d60a93ab325eba275f8e6b673b60efe5532589d0065e20152c68ccc204cae", "PCOS_HumanReproduction_v4_2026-10-29/output/PCOS_HumanReproduction_v4_Supplement.pdf": "a0d99cfd977a2c499044ba3b147082954b608078ae5c8fa023c26c58f1ad140b", "PCOS_HumanReproduction_v4_2026-10-29/output/HumanReproduction_Cover_Letter_v4.pdf": "631f5ca70feaf211d58ac8c19ceb8619623eee29b1bf5ebc3ca18603e2213d0b", "PCOS_HumanReproduction_v4_2026-10-29/submission/Tables.docx": "19a066388b7b55bfef010dce23dd5d61d3fe137a9d55384e7a6bf6210e1c48da", "PCOS_HumanReproduction_v4_2026-10-29/submission/Cover_Letter.docx": "80e7be02aaca01f0ee6edfe4da19969ea21bf03105f5a0b578f1a523e5dacc8a"}`。
+
+错误/解决办法：实际错误及后续排版修复另见本轮日志；不宣称重新拟合统计模型。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T19:05:29+01:00 — hr-v4-final-20261029
+
+任务：Human Reproduction v4修复后科学与文档核验、完整公开复现包封装（不投稿）
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -c 'import runpy,shutil; m=runpy.run_path('"'"'scripts/build_hr_v4_20261029.py'"'"'); m['"'"'verify'"'"'](); shutil.copy2(m['"'"'NEW'"'"']/'"'"'docs/DOCUMENT_AND_SCIENCE_QC.json'"'"',m['"'"'NEW'"'"']/'"'"'docs/FINAL_VERIFICATION.json'"'"'); m['"'"'package'"'"']()'`
+
+状态：failed；exit=1；验证退出码=[]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/cover_letter.tex": "f7e1099ac31a6968424c5ffa22d6953f5a72bc65d53fd4b7fe86f776d4bc64ba", "PCOS_HumanReproduction_v4_2026-10-29/submission/Tables.docx": "0e2adf16312b1aa286e0593ca4f7a275f8e3953c2bb6d4c836acadc4320fe668", "PCOS_HumanReproduction_v4_2026-10-29/submission/Cover_Letter.docx": "9d5ea69a81dfb353fe8c65a2292e7f05ca4a3b7400828050dcf036a871db2e23", "PCOS_Revision_2026-10-29_v3/docs/claim_audit.json": "d0b50d9b7e6012e418f41ba58f27dc97beb5e0e9e4d7e322f4ce666576c17ed8", "PCOS_Revision_2026-10-29_v3/docs/table_figure_qc.json": "04b02d9d5331ac3326850e4bfe03d1b329848b7afae8814158df008d5a276977", "scripts/build_hr_v4_20261029.py": "a672bedf82f83469d3df7b9173b3366e591559c69cd58246c274238b43b98ae5"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/docs/FINAL_VERIFICATION.json": "f837c5767a6f253cb59566ff68b37534518bf21637ffe1f6731df66dee1f7abd", "PCOS_HumanReproduction_v4_2026-10-29/output/PCOS_HumanReproduction_v4_Complete.zip": null}`。
+
+错误/解决办法：保留初次failed记录；pdftotext路径改为pypdf，TIFF分辨率值转float，修复摘要/附信溢出、补充PDF重复锚点和首页页码；逐页渲染检查通过。统计估计未重新拟合，v3数值资产未修改。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T19:06:04+01:00 — hr-v4-final-retry-20261029
+
+任务：Human Reproduction v4修复后科学与文档核验、完整公开复现包封装（不投稿）
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -c 'import runpy,shutil; m=runpy.run_path('"'"'scripts/build_hr_v4_20261029.py'"'"'); m['"'"'verify'"'"'](); shutil.copy2(m['"'"'NEW'"'"']/'"'"'docs/DOCUMENT_AND_SCIENCE_QC.json'"'"',m['"'"'NEW'"'"']/'"'"'docs/FINAL_VERIFICATION_RETRY.json'"'"'); m['"'"'package'"'"']()'`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/cover_letter.tex": "f7e1099ac31a6968424c5ffa22d6953f5a72bc65d53fd4b7fe86f776d4bc64ba", "PCOS_HumanReproduction_v4_2026-10-29/submission/Tables.docx": "0e2adf16312b1aa286e0593ca4f7a275f8e3953c2bb6d4c836acadc4320fe668", "PCOS_HumanReproduction_v4_2026-10-29/submission/Cover_Letter.docx": "9d5ea69a81dfb353fe8c65a2292e7f05ca4a3b7400828050dcf036a871db2e23", "PCOS_Revision_2026-10-29_v3/docs/claim_audit.json": "d0b50d9b7e6012e418f41ba58f27dc97beb5e0e9e4d7e322f4ce666576c17ed8", "PCOS_Revision_2026-10-29_v3/docs/table_figure_qc.json": "04b02d9d5331ac3326850e4bfe03d1b329848b7afae8814158df008d5a276977", "scripts/build_hr_v4_20261029.py": "a7363e53e86743f5c17b1f11eae6ebc3fa6f332f49b83b0c41d7dac104ca6acb"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/docs/FINAL_VERIFICATION_RETRY.json": "f473e765804d618560e76ea23096b084a0ee4eaa4ac0ad8bfabf13fd58c9207e", "PCOS_HumanReproduction_v4_2026-10-29/output/PCOS_HumanReproduction_v4_Complete.zip": "e5e40914b86886467ded3f0470b25495532e388de24feb9160136560eb1fa224"}`。
+
+错误/解决办法：保留初次failed记录；pdftotext路径改为pypdf，TIFF分辨率值转float，修复摘要/附信溢出、补充PDF重复锚点和首页页码；逐页渲染检查通过。统计估计未重新拟合，v3数值资产未修改。 首次封装在runpy相对__file__路径处失败，已改为resolve后封装；保留原记录。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T19:11:20+01:00 — HR v4 实际运行修复与发布核验
+
+初次build的PDF/DOCX生成完成，verify因pdftotext路径失败；改pypdf后TIFF IFDRational需float序列化；首次package因runpy相对__file__失败，改resolve。以上失败保留，最终 `hr-v4-final-retry-20261029` exit=0，检查退出码[0]，105个压缩成员逐字节匹配。统计估计未重新拟合。最终代码/输入/输出哈希保留在运行记录和制品SYNC_RECEIPT。
+
+实际渲染：bundled render_docx.py处理Tables.docx、Cover_Letter.docx，Poppler处理3份PDF；人工查看全部页面并复核修正页。18个可编辑表数据行与TeX源一致；12幅TIFF均1200dpi；没有Overfull/未定义引用/重复目标警告。
+
+实际发布：基于远端fb4b547a4447d5a6f755d618a546c46431d144f6树创建提交 `e973d1ff09e1d673fd2b082442178bba5afd972b`，使用expected_sha非强制更新main，保留495个已有远端文件；本地HEAD和既有脏工作区未重置/暂存。git fetch后逐个git show核验55文件；Drive连接器17项原文件回下载，父目录正确、SHA-256和完整字节一致；两端完整包105项均匹配。未包含受限原始GBD、源单元或医院记录。未投稿/发邮件。
+
+后继共享记录/本回执提交后的最终核验写入本机 `.shared_context_runtime/HR_V4_FINAL_RECEIPT.json`，避免自引用提交号。
