@@ -1,0 +1,69 @@
+{
+  "id": "hr-v5-final-20261029",
+  "task": "v5全部四项技术修改和84页视觉核验后最终封装（不投稿）",
+  "public_metadata_reviewed": true,
+  "command": [
+    "/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "scripts/build_hr_v5_20261029.py",
+    "finalize"
+  ],
+  "inputs": [
+    "PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+    "PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+    "PCOS_HumanReproduction_v5_2026-10-29/manuscript/cover_letter.tex",
+    "PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Manuscript.docx",
+    "PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Supplement.docx",
+    "PCOS_HumanReproduction_v5_2026-10-29/submission/Cover_Letter.docx",
+    "PCOS_HumanReproduction_v5_2026-10-29/submission/Tables.docx",
+    "PCOS_HumanReproduction_v5_2026-10-29/docs/VISUAL_QA.json"
+  ],
+  "code": [
+    "scripts/build_hr_v5_20261029.py",
+    "scripts/convert_hr_v4_word_20261029.py",
+    "scripts/build_hr_v4_20261029.py"
+  ],
+  "outputs": [
+    "PCOS_HumanReproduction_v5_2026-10-29/docs/FINAL_VERIFICATION.json",
+    "PCOS_HumanReproduction_v5_2026-10-29/docs/DELIVERY_MANIFEST.json",
+    "PCOS_HumanReproduction_v5_2026-10-29/output/PCOS_HumanReproduction_v5_Complete.zip"
+  ],
+  "verify_commands": [
+    [
+      "/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-c",
+      "from pathlib import Path;from zipfile import ZipFile;import json;v=Path('PCOS_HumanReproduction_v5_2026-10-29/');d=json.loads((v/'docs/FINAL_VERIFICATION.json').read_text());assert d['all_original_XX_preserved'] and not d['submitted'];z=ZipFile(v/'output/PCOS_HumanReproduction_v5_Complete.zip');assert all(z.read(n)==Path(n).read_bytes() for n in z.namelist());print('All archive members byte equal',len(z.namelist()))"
+    ]
+  ],
+  "next_actions": "Drive/GitHub制品发布与原始字节读回，更新共享交接；作者声明待确认，暂不投稿。",
+  "error_resolution": "初次构建核验成功。最后将UN historical observations改为historical estimates、prior published改为archived，清除独立表格默认标题线；已重建并逐页检查最终文件。渲染器部分PNG采用page000N-N名称，按页序规范化私用QA文件名后检查，不改变稿件。",
+  "started_at": "2026-10-29T20:28:18+01:00",
+  "ended_at": "2026-10-29T20:28:22+01:00",
+  "exit_code": 0,
+  "verification_exit_codes": [
+    0
+  ],
+  "state": "verified",
+  "code_base_commit": "f17691ea374fec76cabc331d94a0220c06cd94fd",
+  "working_tree_dirty": true,
+  "inputs_and_code_unchanged": true,
+  "input_code_sha256": {
+    "PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex": "c2f6d63ae14028c36cd969d20d7cc5feb91b7ed41fe841367b82ccd5a542d67a",
+    "PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex": "9af098b9176f1bcdd380a4a4f31b3e4e2b3051b567419cdf36f070c82ccef385",
+    "PCOS_HumanReproduction_v5_2026-10-29/manuscript/cover_letter.tex": "b44bf09182a1c449629fe975e809e01af9b3c4ece9b2d79448418198b1b9035c",
+    "PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Manuscript.docx": "3411413a97ebc647edc61d3013b3cf7820c93e20eddd29f93eb03125aef5d4dd",
+    "PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Supplement.docx": "3ece57a2e5aaafba093cc2dee14427cca88e0c09d9b494034dd97463fc68dedf",
+    "PCOS_HumanReproduction_v5_2026-10-29/submission/Cover_Letter.docx": "6583edd322b37a5035de13ecf3f5868e1a4434ec2f77cf8a74b39ca0946996f7",
+    "PCOS_HumanReproduction_v5_2026-10-29/submission/Tables.docx": "110aeb4a4bf8b8d89f2bc6553acd2be47aa5a8ac0c8e87acaa12905064b69a9e",
+    "PCOS_HumanReproduction_v5_2026-10-29/docs/VISUAL_QA.json": "9ad978293478f4389dc0e2550439c4d1b84220e67f318d89321ac268004b744a",
+    "scripts/build_hr_v5_20261029.py": "6f36620886af4beabd14b4dcc0f1e17e6c2d96effaa065410ca9ac7ada4e7d23",
+    "scripts/convert_hr_v4_word_20261029.py": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f",
+    "scripts/build_hr_v4_20261029.py": "a7363e53e86743f5c17b1f11eae6ebc3fa6f332f49b83b0c41d7dac104ca6acb"
+  },
+  "output_sha256": {
+    "PCOS_HumanReproduction_v5_2026-10-29/docs/FINAL_VERIFICATION.json": "587dd6703c0caf76620eca77ac65b18a5265008dbd0830eb05a8882eb3cf6bf0",
+    "PCOS_HumanReproduction_v5_2026-10-29/docs/DELIVERY_MANIFEST.json": "2d1f7dd178cad3177ef9b0425cefc1d35aa0ae790f1366473a03dfccb2066cb8",
+    "PCOS_HumanReproduction_v5_2026-10-29/output/PCOS_HumanReproduction_v5_Complete.zip": "7fc2869d61b01291a009642bd856e2f82859617768af6100a48acd10911c5bdb"
+  },
+  "publication_commit": "pending",
+  "cloud_sync": "pending"
+}

@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-29T20:28:20.231271+01:00",
+  "documents": {
+    "main": {
+      "sha256": "3411413a97ebc647edc61d3013b3cf7820c93e20eddd29f93eb03125aef5d4dd",
+      "native_editable_math_objects": 52,
+      "numbered_equations": 7,
+      "math_recovered_by_docx_reader": 52,
+      "all_nonmath_text_exact_after_whitespace_normalization": true,
+      "nonmath_characters_verified": 29103,
+      "references": 12,
+      "editable_tables": 3,
+      "body_table_rows_exactly_verified": 18,
+      "source_pngs_byte_identical": 5,
+      "xx_occurrences_preserved": 22,
+      "continuous_line_numbers": true,
+      "right_header_page_field": true
+    },
+    "supplement": {
+      "sha256": "3ece57a2e5aaafba093cc2dee14427cca88e0c09d9b494034dd97463fc68dedf",
+      "native_editable_math_objects": 4,
+      "numbered_equations": 0,
+      "math_recovered_by_docx_reader": 4,
+      "all_nonmath_text_exact_after_whitespace_normalization": true,
+      "nonmath_characters_verified": 15188,
+      "references": 0,
+      "editable_tables": 10,
+      "body_table_rows_exactly_verified": 143,
+      "source_pngs_byte_identical": 7,
+      "xx_occurrences_preserved": 2,
+      "continuous_line_numbers": true,
+      "right_header_page_field": true
+    }
+  },
+  "existing_v4_files_preserved": 89,
+  "visual_inspection": "passed all 84 pages (45 Word-render pages and 39 TeX PDF pages)",
+  "submitted": false
+}

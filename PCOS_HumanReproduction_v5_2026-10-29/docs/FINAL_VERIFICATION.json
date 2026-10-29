@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-29T20:28:20.309724+01:00",
+  "v4_files_preserved": 89,
+  "all_original_XX_preserved": true,
+  "all_original_formulas_tables_figures_unchanged": true,
+  "running_title_characters": 42,
+  "dataset_citations": 3,
+  "code_results_snapshot": "1abf337d9f23cc69292e03cd581b6a1557e6effe",
+  "ai_version_scope": "current documented Codex session only",
+  "author_declarations_pending": true,
+  "statistics_rerun": false,
+  "visual_inspection": "passed all 84 pages (45 Word-render pages and 39 TeX PDF pages)",
+  "submitted": false,
+  "word_pages": {
+    "main": 21,
+    "supplement": 20,
+    "cover": 1,
+    "tables": 3
+  },
+  "tex_pdf_pages": {
+    "main": 19,
+    "supplement": 19,
+    "cover": 1
+  }
+}

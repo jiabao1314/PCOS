@@ -1,0 +1,143 @@
+--- PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex
++++ PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex
+@@ -1,4 +1,4 @@
+-% HUMAN_REPRODUCTION_V4_2026_10_29
++% HUMAN_REPRODUCTION_V5_2026_10_29
+ \documentclass[11pt,a4paper]{article}
+ \usepackage[margin=25mm]{geometry}
+ \usepackage[T1]{fontenc}
+@@ -25,6 +25,8 @@
+ 
+ \begin{document}
+ \maketitle\thispagestyle{fancy}
++\noindent\textbf{Running title:} PCOS infertility and reference composition
++
+ \linenumbers
+ \begingroup\sloppy
+ \begin{abstract}
+@@ -114,7 +116,7 @@
+ Public aggregate GBD estimates and UN demographic data were analysed without individual participant records. XX: institutional ethics-review applicability or exemption determination to be confirmed by the responsible author. No ethics approval number is asserted.
+ 
+ \subsection{Use of artificial intelligence}
+-OpenAI-assisted tools supported coding, drafting and technical checks. No artificial observations or posterior draws were substituted for the downloaded study data. Human review of scientific interpretation, code and author declarations remains necessary; the tool is not an author.
++OpenAI ChatGPT and Codex supported code development, analysis checks, drafting and technical editing. The documented Codex session used the recorded model identifier \texttt{gpt-6.1-sol} on 29 October 2026. Further disclosure and the pending author-review status are given in Acknowledgements.
+ 
+ \section{Results}
+ \subsection{Coverage and PCOS contrasts}
+@@ -187,6 +189,8 @@
+ \section*{Acknowledgements}
+ We acknowledge the GBD data providers and collaborators and the United Nations Population Division. XX: additional acknowledgements, if applicable.
+ 
++OpenAI ChatGPT and Codex supported code development, analysis checks, drafting and technical editing under researcher-specified questions and revision instructions. The recorded model identifier for the documented Codex session on 29 October 2026 was \texttt{gpt-6.1-sol}; exact model versions for earlier separate ChatGPT sessions could not be independently verified and are not specified. No artificial observations or posterior draws replaced study data. The authors' final scientific review, verification of AI-supported content and approval remain to be confirmed before submission; human authors retain responsibility for the work.
++
+ \section*{Funding}
+ XX: verified sponsors, grants and funder roles, or an author-approved no-specific-funding statement, to be supplied at submission.
+ 
+@@ -194,7 +198,7 @@
+ XX: author-specific financial, personal and professional disclosures to be supplied at submission.
+ 
+ \section*{Data availability}
+-Code, aggregate derived results, input specifications and checksums are available in the public repository \citep{repository}. The accompanying reproducibility archive provides the executable Python and R workflow. Original licensed GBD CSVs must be obtained through the GBD Results Tool \citep{results} using the stated dimensions; they are retained in the private research archive and excluded from the public package, together with country--age source-cell extracts. The UN subset is available with source attribution \citep{wpp2024}. No hospital data were used. The immutable publication revision and byte-verification receipt accompany this manuscript.
++The executable Python and R workflow, aggregate derived results, query specifications and checksums are available in the immutable public research snapshot \citep{repository}. The snapshot identifies the analysis underlying the present article and is distinct from the manuscript version. Licensed original GBD 2023 extracts were accessed through the GBD Results Tool on 25 October 2026 \citep{results}; the query dimensions, export identifiers and SHA-256 hashes needed to identify them are recorded in the snapshot's input manifest. These originals and country--age source-cell extracts are retained in the private research archive and are excluded from the public repository. UN WPP 2024 population data are identified by the exact source product and file in the reference list \citep{wpp2024}; the attributed 4,522-row subset and its source manifest are included in the immutable snapshot. No hospital data were used.
+ 
+ \section*{Supplementary data}
+ Supplementary methods, eight numerical tables, seven figures, a literature/estimand comparison table (S9), and a GATHER reporting map accompany the article. The reproducibility archive contains code, aggregate results, source specifications and a README; licensed GBD originals and restricted source cells are excluded.
+@@ -203,15 +207,15 @@
+ \begin{thebibliography}{99}
+ \bibitem[Chen et al.(2026)]{chen}Chen S, Yang X, Jiang S, Lin Y, Huang L, Chen H, Zheng J, Xie Y, Kuang Z. Burden and temporal trends of female-specific cancers in China: a systematic analysis of the 2023 global burden of disease study. \emph{PLOS One}. 2026;21:e0351539. Supplemental table of reproduced GBD standard population. \href{https://doi.org/10.1371/journal.pone.0351539}{doi:10.1371/journal.pone.0351539}.
+ \bibitem[GBD 2023 Collaborators(2025)]{gbd}GBD 2023 Disease and Injury and Risk Factor Collaborators. Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990--2023: a systematic analysis for the Global Burden of Disease Study 2023. \emph{Lancet}. 2025;406(10513):1873--1922. \href{https://doi.org/10.1016/S0140-6736(25)01637-X}{doi:10.1016/S0140-6736(25)01637-X}. Includes Supplementary Appendix 1, infertility methods.
+-\bibitem[Institute for Health Metrics and Evaluation(2026)]{results}Institute for Health Metrics and Evaluation. GBD Results Tool. \url{https://vizhub.healthdata.org/gbd-results/}. Accessed 25 October 2026.
++\bibitem[Institute for Health Metrics and Evaluation(2026)]{results}[dataset] Institute for Health Metrics and Evaluation. GBD 2023 prevalence and matched female-population extracts for China and 18 other G20 countries, 1990--2023. GBD Results Tool; extracts accessed 25 October 2026. \url{https://vizhub.healthdata.org/gbd-results/}. Release: GBD 2023; export identifiers 1b13e337, 916826fb, 416daf73 and 76c5523c. Query specifications and input hashes are provided in the versioned research snapshot listed below. Access is subject to IHME terms.
+ \bibitem[Kitagawa(1955)]{kitagawa}Kitagawa EM. Components of a difference between two rates. \emph{J Am Stat Assoc}. 1955;50(272):1168--1194. \href{https://doi.org/10.1080/01621459.1955.10501299}{doi:10.1080/01621459.1955.10501299}.
+ \bibitem[Liang(2026)]{liang_trend2026}Liang Q. Trend analysis of the burden of PCOS and related infertility in China and worldwide between 1990 and 2021. \emph{Reprod Biomed Online}. 2026;52(2):105239. Published online 2 September 2025. \href{https://doi.org/10.1016/j.rbmo.2025.105239}{doi:10.1016/j.rbmo.2025.105239}.
+ \bibitem[Liang et al.(2025)]{liang_burden2025}Liang Y, Zhong K, Huang Z, Shi W, Ou Y. Global, regional, and national burden of infertility attributable to polycystic ovary syndrome, 1990--2021: results from the Global Burden of Disease Study 2021. \emph{Front Public Health}. 2025;13:1693486. \href{https://doi.org/10.3389/fpubh.2025.1693486}{doi:10.3389/fpubh.2025.1693486}.
+ \bibitem[Liu et al.(2024)]{liu_pcos2024}Liu X, Zhang J, Wang S. Global, regional, and national burden of infertility attributable to PCOS, 1990--2019. \emph{Hum Reprod}. 2024;39:108--118. \href{https://doi.org/10.1093/humrep/dead241}{doi:10.1093/humrep/dead241}.
+-\bibitem[PCOS research workspace(2026)]{repository}PCOS research workspace. Analysis code, query manifests and derived results for GBD 2023 infertility comparisons. GitHub. \url{https://github.com/jiabao1314/PCOS}. Revised analysis executed 29 October 2026. The immutable revision is recorded in the synchronization receipt accompanying this manuscript.
++\bibitem[PCOS research workspace(2026)]{repository}[dataset] PCOS research workspace. Analysis code, query manifests and aggregate derived results for GBD 2023 infertility comparisons. GitHub; 2026. Immutable revision 1abf337d9f23cc69292e03cd581b6a1557e6effe. \url{https://github.com/jiabao1314/PCOS/tree/1abf337d9f23cc69292e03cd581b6a1557e6effe/PCOS_Revision_2026-10-29}. Includes the Python/R workflow, input manifest, aggregate results and attributed UN population subset; restricted GBD originals are excluded.
+ \bibitem[Stevens et al.(2016)]{gather}Stevens GA, Alkema L, Black RE, Boerma JT, Collins GS, Ezzati M, Grove JT, Hogan DR, Hogan MC, Horton R, et al. Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement. \emph{PLOS Med}. 2016;13:e1002056. \href{https://doi.org/10.1371/journal.pmed.1002056}{doi:10.1371/journal.pmed.1002056}.
+ \bibitem[Teede et al.(2023)]{pcos}Teede HJ, Tay CT, Laven JJE, Dokras A, Moran LJ, Piltonen TT, Costello MF, Boivin J, Redman LM, Boyle JA, et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. \emph{J Clin Endocrinol Metab}. 2023;108:2447--2469. \href{https://doi.org/10.1210/clinem/dgad463}{doi:10.1210/clinem/dgad463}.
+-\bibitem[United Nations(2024)]{wpp2024}United Nations, Department of Economic and Social Affairs, Population Division. World Population Prospects 2024, Online Edition: population by five-year age group and sex (midyear). \url{https://population.un.org/wpp/}. 2024. Creative Commons Attribution 3.0 IGO.
++\bibitem[United Nations(2024)]{wpp2024}[dataset] United Nations, Department of Economic and Social Affairs, Population Division. World Population Prospects 2024, Online Edition: population by five-year age group and sex, medium variant, midyear. United Nations; 2024. Source file: \texttt{WPP2024\_PopulationByAge5GroupSex\_Medium.csv.gz}. \url{https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz}. Historical estimates through 2023 only were selected. Creative Commons Attribution 3.0 IGO.
+ \bibitem[Xu et al.(2025)]{xu}Xu Y, Jia Y, Li Q, Jiang H, Xiong Y, Liang W, Liu X, Huang Y, Zou K, Sun X, et al. Global, regional, and national burden of endometriosis, PCOS, and unexplained infertility and their attribution to infertility, 1990--2021: Global Burden of Disease Study 2021. \emph{J Evid Based Med}. 2025;18:e70100. \href{https://doi.org/10.1111/jebm.70100}{doi:10.1111/jebm.70100}.
+ \end{thebibliography}
+ }
+--- PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex
++++ PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex
+@@ -1,4 +1,4 @@
+-% HUMAN_REPRODUCTION_V4_SUPPLEMENT
++% HUMAN_REPRODUCTION_V5_SUPPLEMENT
+ \documentclass[11pt,a4paper]{article}
+ \usepackage[margin=25mm]{geometry}
+ \usepackage[T1]{fontenc}
+@@ -15,8 +15,8 @@
+ \setlength{\headheight}{14pt}
+ \setlength{\emergencystretch}{2em}
+ \newcommand{\ASPR}{\mathrm{ASPR}}
+-\title{Supplementary data: Reference-country composition and PCOS-attributed infertility}
+-\author{Companion to Human Reproduction v4}
++\title{Supplementary data: Reference-country composition and age-standardized PCOS-attributed infertility contrasts: China and 18 G20 countries, 1990--2023}
++\author{Companion supplementary methods and results}
+ \date{29 October 2026}
+ 
+ \hypersetup{hypertexnames=false}
+@@ -24,11 +24,11 @@
+ \renewcommand{\thetable}{S\arabic{table}}\setcounter{table}{0}
+ \renewcommand{\thefigure}{S\arabic{figure}}\setcounter{figure}{0}
+ \section{Scope and computational audit}
+-This supplement documents the secondary computations accompanying the main article. The primary estimand is the 1990--2023 change in the total PCOS-attributed infertility difference under contemporary GBD reference shares. Numerical assets are reused from the independently verified analysis. This revision changes scientific framing and reporting, without introducing new observations or reestimating the upstream GBD model.
++This supplement documents the secondary computations accompanying the main article. The primary estimand is the 1990--2023 change in the total PCOS-attributed infertility difference under contemporary GBD reference shares. The analyses use aggregate GBD estimates and matched demographic data; the upstream GBD model was not reestimated.
+ 
+ The GBD inputs comprise total burden export \texttt{1b13e337}, matched population \texttt{916826fb}, annual primary/secondary Number export \texttt{416daf73} and separate endpoint Number/Rate export \texttt{76c5523c}. The full filenames, query specifications and SHA-256 values are in the accompanying README, input manifest and data-acquisition document. Expected coverage is 19 countries by 34 years by seven ages: 4,522 population cells under each source and 27,132 prevalence cells across two causes and three infertility types. The original GBD burden/stratum exports also contain other measures/metrics; the focused analysis selects prevalence counts and reconstructs rates from matching GBD populations.
+ 
+-The 1,064 original endpoint subtype rates agreed with the reconstructed rates to within $1.16\times10^{-11}$ per 100,000. Core R/Python outputs agreed within $5.69\times10^{-13}$. The 1,440 decomposition sensitivity rows passed the exact additive identity with maximum residual $1.99\times10^{-13}$. Numerical tolerances are stated in code; no artificial research observations were created. The prior published aggregate tables are used only for post-computation regression checks, not to generate results.
++The 1,064 original endpoint subtype rates agreed with the reconstructed rates to within $1.16\times10^{-11}$ per 100,000. Core R/Python outputs agreed within $5.69\times10^{-13}$. The 1,440 decomposition sensitivity rows passed the exact additive identity with maximum residual $1.99\times10^{-13}$. Numerical tolerances are stated in code; no artificial research observations were created. Archived aggregate tables are used only for post-computation regression checks, not to generate results.
+ 
+ \section{Sensitivity definitions and interpretation}
+ Country exclusions renormalize within-age shares among the remaining reference countries. The age-20--49 specification sets the age-15--19 weight to zero and renormalizes the remaining six standard weights. Core sensitivity scenarios use both GBD and UN shares, 1990 or 2010 start years, and 2021, 2022 or 2023 endpoints. Complete results are in \texttt{composition\_sensitivities.csv}; Table~\ref{tab:s2} displays 1990--2023 total PCOS results. A 2021 endpoint always uses GBD 2023 estimates for 2021, not a previous GBD release.
+@@ -45,12 +45,12 @@
+ These are repeated computations from the same GBD release. They establish source-output concordance, not independent epidemiological corroboration, a pandemic effect, a new biological event or a clinical mechanism. The endometriosis net China-minus-reference change over 1990--2023 is small, so its decomposition percentage would be unstable; absolute components are provided in the machine-readable results. No mechanism is inferred for the final-year jump.
+ 
+ \section{Joint uncertainty and acquisition status}
+-The accessible GBD input files provide point estimates and marginal lower/upper limits, without draw columns. No provider-confirmed jointly aligned posterior array covering this analysis was found in the available local files or connected Drive search. A previous acquisition audit and a specification for a potential official request are retained with the code. The present revision did not receive new posterior draws and did not send a new request. Attempts to revisit the official online guide/catalogue during this revision returned access errors; this is not evidence that such draws do not exist or can never be supplied.
++The GBD input files contain point estimates and marginal lower/upper limits, without posterior draw columns. Availability of a provider-confirmed joint posterior array aligned across all dimensions required by this analysis was not established from the study inputs. This does not imply that suitable draws do not exist or cannot be supplied. The present analyses therefore do not quantify joint posterior uncertainty.
+ 
+ Until official joint alignment is confirmed across countries, ages, years, types and any uncertain denominators, the covariance of custom pooled estimates remains unknown. Original marginal limits must not be added or simulated independently to manufacture intervals. G20 resampling measures a different, hypothetical country-selection process. UN share replacement assesses benchmark construction, not GBD posterior uncertainty. All custom contrasts, components, rankings and ratios remain descriptive point estimates. If draws are obtained, recompute each entire formula within each draw and report posterior quantiles, alongside diagnostics for near-zero net-change denominators.
+ 
+ \section{GATHER reporting map}
+-The map below concerns secondary calculations and does not claim replication of GBD's upstream evidence synthesis. Author-provided declarations remain XX at the user's request for completion at submission.
++The map below concerns secondary calculations and does not claim replication of GBD's upstream evidence synthesis. Author-provided declarations remain XX pending author confirmation before submission.
+ \small
+ \begin{longtable}{p{.06\textwidth}p{.28\textwidth}p{.55\textwidth}}
+ \toprule Item & Topic & Location or limitation\\\midrule\endhead
+@@ -164,7 +164,7 @@
+ \clearpage
+ \setcounter{table}{8}
+ \section*{Prior questions and the present estimand}
+-This targeted comparison supports scientific positioning; it is not an exhaustive systematic review or proof that no prior analysis has used similar accounting. Bibliographic details and source URLs are in the companion evidence audit. No pooled-comparator error is attributed to a paper simply because it reports national age-standardized rates.
++This targeted comparison supports scientific positioning; it is not an exhaustive systematic review or proof that no prior analysis has used similar accounting. Bibliographic details and source URLs are provided in the main article reference list. No pooled-comparator error is attributed to a paper simply because it reports national age-standardized rates.
+ \small
+ \begin{longtable}{p{.17\textwidth}p{.34\textwidth}p{.39\textwidth}}
+ \caption{Questions addressed by selected prior PCOS-attributed infertility analyses and the present study.}\\
+--- PCOS_HumanReproduction_v4_2026-10-29/manuscript/cover_letter.tex
++++ PCOS_HumanReproduction_v5_2026-10-29/manuscript/cover_letter.tex
+@@ -12,15 +12,15 @@
+ 
+ Dear Editor-in-Chief,
+ 
+-Please consider our manuscript, ``Reference-country composition and age-standardized PCOS-attributed infertility contrasts: China and 18 G20 countries, 1990--2023", as an Original Article.
++Please consider our manuscript, ``Reference-country composition and age-standardized PCOS-attributed infertility contrasts: China and 18 G20 countries, 1990--2023'', as an Original Article.
+ 
+-The scientific question is how much of the changing China-minus-international-reference difference in modeled PCOS-attributed infertility is allocated to changing country population shares within age, even when age-standardization weights remain fixed. This is relevant to readers using international burden estimates to monitor reproductive health: the reference population represented at each date is part of the question being answered.
++We ask how changing country population shares within age contribute to a changing China-minus-international-reference difference in modeled PCOS-attributed infertility, even when age-standardization weights remain fixed. This informs the interpretation of pooled international benchmarks used in reproductive-health monitoring.
+ 
+-In GBD 2023 estimates for females aged 15--49, the total China-minus-18-country difference changed by +151.54 per 100,000 between 1990 and 2023. Established symmetric accounting allocated +88.65 to reference-country composition, alongside +271.51 from Chinese rates and $-208.62$ from reference-country rates. Replacing reference shares with UN WPP 2024 gave a similar +86.76 composition component. Alternative benchmark definitions changed the sign of a near-zero secondary-infertility contrast in 2023. We report absolute components before ratios and distinguish demographic sensitivity from statistical uncertainty.
++In GBD 2023 estimates for females aged 15--49, the total China-minus-18-country difference changed by +151.54 per 100,000 between 1990 and 2023. Established symmetric accounting allocated +88.65 to reference-country composition, +271.51 to Chinese rates and $-208.62$ to reference-country rates. Substituting UN WPP 2024 shares gave +86.76 for composition. Alternative benchmark definitions changed the sign of a near-zero secondary-infertility contrast in 2023.
+ 
+-Liu and colleagues' 2024 \emph{Human Reproduction} paper (doi:10.1093/humrep/dead241) described PCOS-attributed infertility burden and geographical trends. Our manuscript addresses the different question of how an explicitly pooled reference is constructed. Its contribution is a focused reproductive-epidemiology application and reporting implication, not a new decomposition algorithm or a claim that earlier national rate comparisons were erroneous. It does not estimate individual infertility risk, treatment benefit or causal effects.
++Liu and colleagues' 2024 \emph{Human Reproduction} study (doi:10.1093/humrep/dead241) examined burden and geographical trends. Our contribution addresses pooled-reference construction and reporting, rather than a new decomposition algorithm, clinical association or allegation that earlier national comparisons were erroneous. This exploratory aggregate analysis does not estimate causal effects, individual risk or treatment benefit. Confirmed jointly aligned GBD posterior draws were unavailable; derived uncertainty intervals are therefore not supplied. Code and aggregate results are available at an immutable public revision identified in the article; licensed GBD originals and restricted source-cell extracts are excluded.
+ 
+-The work is an exploratory secondary analysis of aggregate estimates. Confirmed jointly aligned GBD posterior draws were unavailable; uncertainty intervals for our custom contrasts and components are therefore not supplied. This limitation is explicit in the abstract and article. Code, aggregate results and a reproducibility archive are provided; licensed GBD originals and restricted source-cell extracts are excluded from the public repository. OpenAI-assisted coding and drafting are disclosed in the manuscript.
++OpenAI ChatGPT and Codex supported code development, analysis checks, drafting and technical editing under researcher-specified questions and revision instructions. The recorded model identifier for the documented Codex session on 29 October 2026 was \texttt{gpt-6.1-sol}; exact model versions for earlier separate ChatGPT sessions could not be independently verified and are not specified. No artificial observations or posterior draws replaced study data. The authors' final scientific review, verification of AI-supported content and approval remain to be confirmed before submission; human authors retain responsibility for the work.
+ 
+ XX: Corresponding author to confirm final author approval, authorship order, exclusive consideration, related manuscripts/preprints, funding and disclosures, and institutional ethics-review applicability before submission. These declarations have not been assumed on behalf of the authors.
+ 
