@@ -1,5 +1,11 @@
 # 项目状态
 
+## 2026-10-29T20:16:42+01:00 — 最终投稿审查完成，仍有提交前事项
+
+v4主稿、补充稿和附信最终审查完成：关键数值与定位一致；仍需短标题、AI披露、数据引用和补充稿制作措辞四项技术整理，以及真实作者声明。未改原稿、未重跑统计、未投稿。报告：PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/FINAL_REVIEW_ZH.txt。4个审查制品已Drive回下载及GitHub已提交blob逐字节核验，制品提交 `9ce31304584d08fa16066678c4dd4e0d66b89a64`；Drive：https://drive.google.com/drive/folders/18hLx4XZiJYgkUCM7x2wUeX2HgXR_lRdT。
+
+Word制作完成不等于已获作者批准或所有投稿声明完成。XX按既定规则由作者提交前填写；本稿不使用医院资料。DATA_CATALOG不变。
+
 ## 2026-10-29T19:57:42+01:00 — 完整Word版已完成，暂不投稿
 
 完整v4 Word主稿20页、补充稿20页已完成，40页均逐页检查。56个原生可编辑公式对象、12条主稿参考文献、13张可编辑表格（161个正文数据/报告行）和12幅图均已核对；XX主稿22处、补充稿2处保留。旧v4的70个文件及v3的65个文件字节不变。16个制品在Drive及GitHub均已逐字节读回核验；制品提交 `f8be9f7e69704f2d5038ef968673f7ae9cdaa29c`；Drive：https://drive.google.com/drive/folders/1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6。
@@ -66,3 +72,5 @@
 - 2026-10-29T19:38:17+01:00 [hr-v4-word-20261029] 将HR v4主稿与补充稿转换为完整可编辑Word并保留既有TeX/PDF及XX：failed；结果发布待核验。
 
 - 2026-10-29T19:52:22+01:00 [hr-v4-word-final-20261029] HR v4完整Word最终内容与40页排版核验、公开交付包封装（不投稿）：verified；结果发布待核验。
+
+- 2026-10-29T20:15:25+01:00 [hr-v4-presubmission-audit-20261029] Human Reproduction v4 Word主稿、补充稿与附信最终一致性及现行投稿要求审查（不投稿）：verified；结果发布待核验。

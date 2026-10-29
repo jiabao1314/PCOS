@@ -201,3 +201,23 @@ Web工具实际核验中科院2026-03-27声明、NCEPU原附件页、HR范围/�
 `/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx --output_dir .shared_context_runtime/word_v4/delivery_supplement --emit_pdf`
 
 最终40页PNG均实际逐页打开检查，结果见VISUAL_QA.json及FINAL_CONVERSION_QC.json。渲染中间PDF/PNG仅作私人校对，不替代旧PDF。无raw/processed数据变化，DATA_CATALOG不变。共享记录后继提交需另行读回，最终回执私存避免循环哈希。
+
+## 2026-10-29T20:15:24+01:00 — hr-v4-presubmission-audit-20261029
+
+任务：Human Reproduction v4 Word主稿、补充稿与附信最终一致性及现行投稿要求审查（不投稿）
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/audit_hr_v4_presubmission_20261029.py`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea", "PCOS_HumanReproduction_v4_2026-10-29/submission/Cover_Letter.docx": "9d5ea69a81dfb353fe8c65a2292e7f05ca4a3b7400828050dcf036a871db2e23", "PCOS_HumanReproduction_v4_2026-10-29/submission/Tables.docx": "0e2adf16312b1aa286e0593ca4f7a275f8e3953c2bb6d4c836acadc4320fe668", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/FINAL_CONVERSION_QC.json": "802c9db2cafc218fd01414d51efea877307df8b80376f29da5ee1b3d5ccf847b", "PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/FINAL_REVIEW_ZH.txt": "4366d64ce0a97a782a4a919d15345ebde06bd5ee4eb4765022f0052896c81bb2", "scripts/audit_hr_v4_presubmission_20261029.py": "4102fd3481814f6a7b6aa939f61f6a9e1455018e10424cec178f135c56ec8b56"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/AUDIT.json": "cfec57774383a499788dbe9c00f6059b7113eb11971e81d4c3429c68b934d1ef"}`。
+
+错误/解决办法：本次自动检查不等于已修复投稿缺项；官方直开timeout后用官方检索结果交叉核对。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T20:16:42+01:00 — 最终审查发布与范围说明
+
+v4主稿、补充稿和附信最终审查完成：关键数值与定位一致；仍需短标题、AI披露、数据引用和补充稿制作措辞四项技术整理，以及真实作者声明。未改原稿、未重跑统计、未投稿。报告：PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/FINAL_REVIEW_ZH.txt。4个审查制品已Drive回下载及GitHub已提交blob逐字节核验，制品提交 `9ce31304584d08fa16066678c4dd4e0d66b89a64`；Drive：https://drive.google.com/drive/folders/18hLx4XZiJYgkUCM7x2wUeX2HgXR_lRdT。
+
+成功事件hr-v4-presubmission-audit-20261029，exit=0、verification=[0]。真实输入/代码/输出哈希、脏工作树及代码基线见本轮EXECUTION_RECORD.json。附信本轮用bundled render_docx.py实际渲染1页并查看；两Word哈希未变，沿用此前全40页QA，本轮另查主稿1/5/6/14和补充20页，不声称全部重看。源文件与独立表一致，无未解决批注/修订。官网直接timeout后用官方检索结果核对；无已核实统一词数/图表硬上限，门户未访问。DATA_CATALOG不变。

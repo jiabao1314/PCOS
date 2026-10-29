@@ -1,5 +1,11 @@
 # 共享配置与同步验证
 
+## 2026-10-29T20:16:42+01:00 — 最终审查制品已核验
+
+v4主稿、补充稿和附信最终审查完成：关键数值与定位一致；仍需短标题、AI披露、数据引用和补充稿制作措辞四项技术整理，以及真实作者声明。未改原稿、未重跑统计、未投稿。报告：PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/FINAL_REVIEW_ZH.txt。4个审查制品已Drive回下载及GitHub已提交blob逐字节核验，制品提交 `9ce31304584d08fa16066678c4dd4e0d66b89a64`；Drive：https://drive.google.com/drive/folders/18hLx4XZiJYgkUCM7x2wUeX2HgXR_lRdT。
+
+审查使用的3份Word已与Drive云端原始字节一致。70份旧v4文件保留；本轮仅新增审查报告/JSON/代码/执行记录，不编辑稿件。六份共享记录修改前已通过Drive字节基线检查；此共享更新随后继提交发布并逐文件读回，最终提交和回执保存在私人运行目录，避免自引用哈希。
+
 ## 2026-10-29T19:57:42+01:00 — Word制品两端字节核验
 
 完整v4 Word主稿20页、补充稿20页已完成，40页均逐页检查。56个原生可编辑公式对象、12条主稿参考文献、13张可编辑表格（161个正文数据/报告行）和12幅图均已核对；XX主稿22处、补充稿2处保留。旧v4的70个文件及v3的65个文件字节不变。16个制品在Drive及GitHub均已逐字节读回核验；制品提交 `f8be9f7e69704f2d5038ef968673f7ae9cdaa29c`；Drive：https://drive.google.com/drive/folders/1rrrF2YMiAnGY98Qgj6RJpSR00IDcowE6。
