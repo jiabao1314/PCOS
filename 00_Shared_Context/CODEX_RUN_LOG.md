@@ -85,3 +85,25 @@
 阶段run中的输出哈希记录的是该次执行时点，最终编辑稿哈希以PUBLIC_ARTIFACT_MANIFEST、RESULTS_INDEX与同步回执为准。最终代码哈希、失败/修复及构建参数见新版EXECUTION_RECORD；初始工作树HEAD仍为f17691e且有既存修改；不把旧HEAD冒充最终发布内容。
 
 Git命令行尝试以隔离index推送9cd9820失败（无HTTPS写入登录态，分支未改变）。随后复用GitHub连接器create_blob/create_tree/create_commit，并以expected_sha、非force更新main，发布提交`569db0252538868e27181a41dc90f253e15fd4e2`；实际git fetch后逐一git show验证47blob。原有全部440远端路径保留，未暂存无关脏工作区。Drive连接器原文件回下载16文件，85压缩条目与本地bytes一致。原稿184文件哈希仍一致。未新增研究输入，DATA_CATALOG原有数据内容不变。收尾共享记录另作回执提交，验证记录见SYNC_CHECK与私有FINAL_V3_RECEIPT。
+
+## 2026-10-29T18:49:04+01:00 — 20261029_v3_submission_assessment
+
+任务：v3创新性、中科院2025大类一区目标与投稿前缺口定向评估
+
+实际命令：`python3 scripts/assess_v3_submission_20261029.py`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_Revision_2026-10-29_v3/manuscript/main.tex": "86b659756036df447eb8c5945304caecf007bdfbb9286f1fe764c790fcce1d87", "PCOS_Revision_2026-10-29_v3/docs/claim_audit.json": "d0b50d9b7e6012e418f41ba58f27dc97beb5e0e9e4d7e322f4ce666576c17ed8", "sources/journal_audit/CAS2025_NCEPU_public_archive.xlsx": "f6739ef4287110c0c0edf27ed30c04dc6b685da98833c4bd463d6877f37464a4", "scripts/assess_v3_submission_20261029.py": "a166477ccb2b596e8c085938d4e8b2ff493edcb4fd5a7d8869b6c1629c4aca6a"}`。
+
+输出 SHA-256：`{"PCOS_v3_Submission_Assessment_2026-10-29/REPORT_ZH.md": "96f5c183b439ba27f0ca65aa71b468dbc52bf7b319c5619dcce5ddf352396799", "PCOS_v3_Submission_Assessment_2026-10-29/JOURNAL_MATRIX.json": "874c0fd58c12badc90cd4948f893981dc75d5edf495a5cf5e0cf3b0b1d49c1a3", "PCOS_v3_Submission_Assessment_2026-10-29/CAS2025_CANDIDATE_ROWS.json": "d2762e1b8f52ece27ff48478ec4b577eca7fe31f9ceae56a9f1bacc26802663e", "PCOS_v3_Submission_Assessment_2026-10-29/MANUSCRIPT_READINESS_CHECKS.json": "af3d651b7bc9657881d542dd53b7f33abba97503785384b4ab099e67693e839b", "PCOS_v3_Submission_Assessment_2026-10-29/EVIDENCE_SOURCES.json": "bdaf8478951ebc6e82b596d64e7b4df06b9111c54ea03fcd7ef72177b339259e", "PCOS_v3_Submission_Assessment_2026-10-29/ASSESSMENT_PROVENANCE.json": "a19fb5565a1f480719421ad6755624760995ab88c9596c258e9e11a7b8af620c"}`。
+
+错误/解决办法：读取HR通用指南和在线投稿说明成功，专门Original Article页多次timeout/403；F&S作者指南403，改用ASRM官方范围并明确细项未核实；不据旧页面或第三方捏造字数上限。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T18:51:18+01:00 — v3-submission-assessment-final
+
+实际运行`python3 scripts/shared_context.py run --spec .shared_context_runtime/v3_assessment_spec.json`，状态verified，验证退出0；代码`科学/编辑评估`不等于新统计结果。重新读取云端共享基线后pull，未覆盖v3。脚本从原有2025分区xlsx的XML提取11候选行（原件哈希f6739e...），检查正文约261词摘要、3表5图、12条文献、RH页眉、alt text和定向cover letter缺口，输出6份评估文件。原件未转载，原始/处理研究数据未变化，DATA_CATALOG不变。
+
+Web工具实际核验中科院2026-03-27声明、NCEPU原附件页、HR范围/通用准备/在线投稿、ASRM范围、RH范围/Research、BMC Medicine范围、HR2024前作及2025/2026竞争文献。访问失败及复用范围记录于EVIDENCE_SOURCES；未虚构HR Original Article/F&S指南的字数上限、APC或录用概率。stdlib HTML读取尝试先因bs4缺失未发请求，改用HTMLParser后得到403；Excel用stdlib zip/XML只读，未安装包。
+
+报告及脚本7个白名单路径，经GitHub连接器base tree+expected_sha非force提交`5d994f75303f5f8208a7423f02b5d9b0ef8a1d0e`，实际fetch/git show逐文件bytes一致；Drive文件夹1gSjRYLF0CHBJNsgDCzYdfTNgIbgtX3Or中7文件原文件回下载一致。具体输入/代码/输出哈希及dirty基线见run日志、ASSESSMENT_PROVENANCE和私有最终回执。以下收尾共享文档由后继提交核验；未执行所建议的新修改。

@@ -56,3 +56,10 @@
 - 逐文件哈希与ID：新版`docs/SYNC_RECEIPT.json`、PUBLIC_ARTIFACT_MANIFEST及RESULTS_INDEX。只发布汇总、代码和论文，未发布许可GBD原件、国家年龄源单元、医院记录或凭证。
 - 执行中的环境及Git CLI问题已保留实际失败记录并解决；并未要求用户重新授权。
 - 收尾共享文档及本回执自身由后继提交保存并再次读回。为避免自引用，最终回执提交号和本文件哈希单独记入私有`.shared_context_runtime/FINAL_V3_RECEIPT.json`。只有该读回成功后才向用户报告全部同步完成。
+
+## 2026-10-29T18:51:18+01:00 — v3投稿竞争力评估内容核验
+
+- 评估文件6份及代码1份已完成双端内容核验；不是新GBD统计或新修订稿。GitHub内容提交`5d994f75303f5f8208a7423f02b5d9b0ef8a1d0e`；Drive目录`1gSjRYLF0CHBJNsgDCzYdfTNgIbgtX3Or`。
+- Drive7文件原文件回下载，父目录及完整bytes一致；GitHub7文件在实际fetch后逐一git show比对完整bytes一致。私有回执assessment_drive_verified.json及assessment_git_verified.json。
+- 只发布报告、少量候选期刊条目、证据索引和代码；整份原始分区xlsx、许可研究原件、患者数据均未发布。v3论文/数据未修改，DATA_CATALOG不变。
+- 本轮收尾6共享文件的后继提交与完整字节读回，另存私有ASSESSMENT_FINAL_RECEIPT.json，避免本回执自引用；成功后才向用户报告全部同步完成。
