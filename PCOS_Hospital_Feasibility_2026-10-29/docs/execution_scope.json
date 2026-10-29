@@ -4,12 +4,16 @@
   "new_research_data_downloads": false,
   "raw_hospital_data_exported": false,
   "clinical_outcome_model_fitted": false,
-  "ethics_or_data_use_permission_confirmed": false,
-  "pending_user_information": [
-    "institution/identifier system and research permission",
-    "pregnancy outcome definition and additional follow-up availability"
-  ],
   "GBD_point_estimate_stress_only": true,
   "no_official_posterior_draws_generated": true,
-  "summary_publication": "Only aggregate audits, methods and code; raw private patient files excluded"
+  "summary_publication": "Only aggregate audits, methods and code; raw private patient files excluded",
+  "user_confirmed_on": "2026-10-29",
+  "single_hospital_confirmed": true,
+  "shared_patient_identifier_system_confirmed": true,
+  "data_use_permission_confirmed": true,
+  "ethics_approval_status": "Not provided; do not infer from data-use permission",
+  "pregnancy_outcome_definition": "Ultrasound-confirmed clinical pregnancy",
+  "additional_hospital_data_available": false,
+  "clinical_scope": "Exploratory association in recorded transferred IVF patients; patient-level index-cycle definition before modelling; no live-birth or cumulative-treatment claims",
+  "unresolved_metadata_handling": "Use existing files; exclude ambiguous fields or report unknown, without assuming additional data collection"
 }

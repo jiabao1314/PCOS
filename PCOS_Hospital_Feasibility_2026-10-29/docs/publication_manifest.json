@@ -1,5 +1,6 @@
 {
   "raw_patient_data_included": false,
+  "updated_after_user_confirmation": "2026-10-29",
   "files": [
     {
       "path": ".gitignore",
@@ -9,9 +10,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2033,
-      "sha256": "b3f357daf0c4913fddce5570bdd1df0f6f92b9ceda08640f61504484fcb849b5",
-      "git_blob_sha": "0ee736fe614485dc992b1905bd299be452a8bdc2"
+      "bytes": 2209,
+      "sha256": "59f32d225872314580a5d8616e16764ba6452a508e3f5e90c34c12754d9237c2",
+      "git_blob_sha": "be97c706e887674aa6c582cc37330e1e621a46e6"
     },
     {
       "path": "code/audit_hospital.py",
@@ -27,15 +28,15 @@
     },
     {
       "path": "docs/execution_scope.json",
-      "bytes": 602,
-      "sha256": "2e5a7abc5295cd01d218bec807990f17b45130263cd4c71cb1e6162111182a4e",
-      "git_blob_sha": "933401294b6e819288b4345d9052867fba117bd5"
+      "bytes": 1086,
+      "sha256": "5a7c038b1e32adaaa3767d38aa1fe7ce10476c08cc2600c9d3afb04fa7191fc5",
+      "git_blob_sha": "09f6e31b3a5e4b734647987f1f0bd7a127aebf20"
     },
     {
-      "path": "docs/\u8bc4\u4f30\u4e0e\u64cd\u4f5c\u65b9\u6848_2026-10-29.md",
-      "bytes": 15192,
-      "sha256": "ecc978f3c4346faf53bb4f9dbd44c3408bd794315707050dcc8edb8d66945e0b",
-      "git_blob_sha": "4ddd4c1dd19e50cc9f1a6ae9a996d24f489bffba"
+      "path": "docs/评估与操作方案_2026-10-29.md",
+      "bytes": 17337,
+      "sha256": "7356a1c220a4bec0d1d563f8ff429f235fb3aed964111a5eb4cc3e7780a6b437",
+      "git_blob_sha": "0346c00ed20ae65b7991122dfdef5e3369b3a221"
     },
     {
       "path": "requirements.txt",
