@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-10-29T20:15:24+01:00",
+  "task": "Final consistency and journal-requirements audit; no manuscript edits; no submission",
+  "scientific_analysis_rerun": false,
+  "source_v4_files_unchanged": 70,
+  "numerical_claims_consistent": true,
+  "separate_main_tables_match_including_math": true,
+  "title_words": 13,
+  "missing_running_title_in_word": true,
+  "native_math_objects": 56,
+  "prior_all_40_page_visual_qa_reused_after_hash_verification": true,
+  "visual_recheck_this_turn": {
+    "main": [
+      1,
+      5,
+      6,
+      14
+    ],
+    "supplement": [
+      20
+    ],
+    "cover": [
+      1
+    ]
+  },
+  "documents": {
+    "main": {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx",
+      "sha256": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48",
+      "header_text": [
+        ""
+      ],
+      "math_objects": 52,
+      "tracked_changes": 0,
+      "comments": 0
+    },
+    "supplement": {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx",
+      "sha256": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea",
+      "header_text": [
+        ""
+      ],
+      "math_objects": 4,
+      "tracked_changes": 0,
+      "comments": 0
+    },
+    "cover": {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/Cover_Letter.docx",
+      "sha256": "9d5ea69a81dfb353fe8c65a2292e7f05ca4a3b7400828050dcf036a871db2e23",
+      "header_text": [
+        ""
+      ],
+      "math_objects": 0,
+      "tracked_changes": 0,
+      "comments": 0
+    },
+    "tables": {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/Tables.docx",
+      "sha256": "0e2adf16312b1aa286e0593ca4f7a275f8e3953c2bb6d4c836acadc4320fe668",
+      "header_text": [
+        ""
+      ],
+      "math_objects": 0,
+      "tracked_changes": 0,
+      "comments": 0
+    }
+  },
+  "source_cloud_verification": [
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx",
+      "sha256": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48",
+      "drive_id": "1inHL5OlnkBJO9K6aVTbVAr31d3Ofbi6l",
+      "byte_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx",
+      "sha256": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea",
+      "drive_id": "1y0kYc7f6vzrq5OeX0YiSLeNiJOD-b8ln",
+      "byte_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/Cover_Letter.docx",
+      "sha256": "9d5ea69a81dfb353fe8c65a2292e7f05ca4a3b7400828050dcf036a871db2e23",
+      "drive_id": "1Veij32fK7u48qrkJkYSW-DUAdcsEwKZ5",
+      "byte_equal": true
+    }
+  ],
+  "assessment": "Content consistent; not ready to submit before technical corrections and author declarations",
+  "corrections": [
+    "Add the 42-character running title to Word title page",
+    "Expand AI disclosure with real tool names/versions, purposes and human oversight; cover letter and Acknowledgements",
+    "Complete dataset citations and explicit immutable code/results URL",
+    "Remove internal production and user-request wording from supplementary submission copy"
+  ],
+  "portal_upload_and_consolidated_proof_checked": false,
+  "submitted": false
+}
