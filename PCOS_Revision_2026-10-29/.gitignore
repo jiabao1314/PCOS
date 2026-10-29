@@ -1,0 +1,9 @@
+data/input/IHME-*.csv
+results/*/rate_cells.csv
+private/
+logs/
+__pycache__/
+*.aux
+*.log
+*.out
+*.synctex.gz

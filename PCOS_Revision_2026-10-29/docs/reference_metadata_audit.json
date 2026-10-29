@@ -1,0 +1,865 @@
+[
+  {
+    "doi": "10.1093/humrep/dead241",
+    "title": [
+      "Global, regional, and national burden of infertility attributable to PCOS, 1990–2019"
+    ],
+    "authors": [
+      {
+        "given": "Xingyu",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology , Wuhan, China"
+          },
+          {
+            "name": "National Clinical Research Center for Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology , Wuhan, China"
+          },
+          {
+            "name": "Key Laboratory of Cancer Invasion and Metastasis, Ministry of Education, Huazhong University of Science and Technology , Wuhan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5557-3637",
+        "authenticated-orcid": false,
+        "given": "Jinjin",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology , Wuhan, China"
+          },
+          {
+            "name": "National Clinical Research Center for Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology , Wuhan, China"
+          },
+          {
+            "name": "Key Laboratory of Cancer Invasion and Metastasis, Ministry of Education, Huazhong University of Science and Technology , Wuhan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8610-952X",
+        "authenticated-orcid": false,
+        "given": "Shixuan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology , Wuhan, China"
+          },
+          {
+            "name": "National Clinical Research Center for Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology , Wuhan, China"
+          },
+          {
+            "name": "Key Laboratory of Cancer Invasion and Metastasis, Ministry of Education, Huazhong University of Science and Technology , Wuhan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Human Reproduction"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          27
+        ]
+      ]
+    },
+    "volume": "39",
+    "pages": "108-118",
+    "article_number": null
+  },
+  {
+    "doi": "10.1093/humrep/deae292",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1111/jebm.70100",
+    "title": [
+      "Global, Regional, and National Burden of Endometriosis, PCOS, and Unexplained Infertility and Their Attribution to Infertility, 1990–2021: Global Burden of Disease Study 2021"
+    ],
+    "authors": [
+      {
+        "given": "Ye",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yulong",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Qianrui",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Department of Nuclear Medicine West China Hospital of Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yiquan",
+        "family": "Xiong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wengxue",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xuehong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yunxiang",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kang",
+        "family": "Zou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "General Practice Medical Center, Clinical Epidemiology and Evidence‐based Medicine Center West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "NHC Key Laboratory of Clinical Epidemiology and Evidence‐Based Medicine West China Hospital Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Center of Technology Innovation for Real World Data West China Hospital, Sichuan University  Chengdu China"
+          },
+          {
+            "name": "Sichuan Provincial Center for Evidence‐Based Chinese Herbal Medicine Research West China Hospital, Sichuan University  Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of Evidence-Based Medicine"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "volume": "18",
+    "pages": null,
+    "article_number": "e70100"
+  },
+  {
+    "doi": "10.3760/cma.j.cn112338-20250929-00691",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "doi": "10.1186/s10020-026-01548-8",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1371/journal.pone.0351539",
+    "title": [
+      "Burden and temporal trends of female-specific cancers in China: A systematic analysis of the 2023 global burden of disease study"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-4475-3151",
+        "authenticated-orcid": true,
+        "given": "Shaoxing",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaohuang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shaona",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yina",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leijuan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huiqin",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinzhu",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuanfu",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0553-379X",
+        "authenticated-orcid": true,
+        "given": "Zhixing",
+        "family": "Kuang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "PLOS One"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          10
+        ]
+      ]
+    },
+    "volume": "21",
+    "pages": "e0351539",
+    "article_number": null
+  },
+  {
+    "doi": "10.1016/S0140-6736(25)01637-X",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1080/01621459.1955.10501299",
+    "title": [
+      "Components of a Difference Between Two Rates*"
+    ],
+    "authors": [
+      {
+        "given": "Evelyn M.",
+        "family": "Kitagawa",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of the American Statistical Association"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          1955,
+          12
+        ]
+      ]
+    },
+    "volume": "50",
+    "pages": "1168-1194",
+    "article_number": null
+  },
+  {
+    "doi": "10.1371/journal.pmed.1002056",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1210/clinem/dgad463",
+    "title": [
+      "Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7609-577X",
+        "authenticated-orcid": false,
+        "given": "Helena J",
+        "family": "Teede",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chau Thien",
+        "family": "Tay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joop J E",
+        "family": "Laven",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "Division of Reproductive Endocrinology and Infertility, Department of Obstetrics and Gynaecology, Erasmus Medical Centre , Rotterdam , The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anuja",
+        "family": "Dokras",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Obstetrics and Gynecology, University of Pennsylvania , Philadelphia, PA , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5772-6484",
+        "authenticated-orcid": false,
+        "given": "Lisa J",
+        "family": "Moran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9921-7300",
+        "authenticated-orcid": false,
+        "given": "Terhi T",
+        "family": "Piltonen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Obstetrics and Gynaecology, Medical Research Center Oulu, Research Unit of Clinical Medicine, University of Oulu and Oulu University Hospital , Oulu , Finland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael F",
+        "family": "Costello",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "University of New South Wales , New South Wales , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9498-1708",
+        "authenticated-orcid": false,
+        "given": "Jacky",
+        "family": "Boivin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cymru Fertility and Reproductive Research, School of Psychology, Cardiff University , Cardiff, Wales , UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leanne M",
+        "family": "Redman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pennington Biomedical Research Center , Louisiana State University, Baton Rouge, LA , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacqueline A",
+        "family": "Boyle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "Eastern Health Clinical School, Monash University , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert J",
+        "family": "Norman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "Robinson Research Institute, University of Adelaide , Adelaide, South Australia , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7356-4523",
+        "authenticated-orcid": false,
+        "given": "Aya",
+        "family": "Mousa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anju E",
+        "family": "Joham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash Centre for Health Research and Implementation, Monash University and Monash Health , Melbourne, Victoria , Australia"
+          },
+          {
+            "name": "National Health and Medical Research Council Centre for Research Excellence in Women's Health in Reproductive Life , Melbourne, Victoria , Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "The Journal of Clinical Endocrinology &amp; Metabolism"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          15
+        ]
+      ]
+    },
+    "volume": "108",
+    "pages": "2447-2469",
+    "article_number": null
+  }
+]

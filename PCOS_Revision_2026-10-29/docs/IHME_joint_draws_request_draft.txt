@@ -1,0 +1,17 @@
+UNSENT DATA REQUEST DRAFT — applicant identity and affiliation required
+Official route observed in GBD2023 Data Resources: engage@healthdata.org
+Subject: Availability of aligned final GBD2023 posterior draws for female cause-specific infertility
+
+Dear IHME data access team,
+
+We are preparing a non-commercial secondary analysis of GBD2023 female infertility attributed to PCOS and endometriosis, comparing China with the other 18 sovereign G20 countries for ages 15–49, 1990–2023. The public research code is at https://github.com/jiabao1314/PCOS.
+
+Could you advise whether final, published-release posterior draws are available for prevalence, with underlying causes 605 and 607 and infertility impairment categories 220 and 221 (optionally total 198)? The full location/age specification and acceptance checks are in docs/joint_draws_request.json. We would prefer Number draws plus compatible populations, or Rate draws with a clear denominator specification. We request all available draw indices, without assuming a particular draw count.
+
+The analysis pools numerators and denominators within age groups and decomposes changes across years and infertility types. It therefore requires confirmation of how posterior dependence is preserved across locations, ages, years and primary/secondary categories. Identical column labels alone would not establish joint alignment. Please clarify final reconciliation, subtype additivity, population uncertainty, and whether any restrictions apply to reporting derived contrasts and decomposition intervals or archiving code/results.
+
+If the full grid is not available, a first-stage subset could cover China, India and the United States in 1990, 2010, 2022 and 2023 across all seven five-year age groups, followed by the full study grid if feasible. Please also advise any access, collaborator or data-use requirements. This inquiry does not assume that collaborator membership guarantees access.
+
+Applicant name, institutional affiliation and correspondence: to be supplied by the actual research team before sending.
+
+This draft has not been sent and no response or access decision is claimed.

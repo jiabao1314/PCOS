@@ -1,0 +1,53 @@
+{
+  "main": {
+    "pages": 18,
+    "table_labels": {
+      "tab:pcos": "1",
+      "tab:decomp": "2",
+      "tab:bench": "3"
+    },
+    "figure_labels": {
+      "fig:trends": "1",
+      "fig:subtypes": "2",
+      "fig:decomp": "3",
+      "fig:source": "4",
+      "fig:bench": "5"
+    },
+    "all_local_references_resolved": true,
+    "no_blank_pages": true,
+    "no_overfull_boxes": true,
+    "no_unresolved_citations": true
+  },
+  "supplement": {
+    "pages": 18,
+    "table_labels": {
+      "tab:s1": "S1",
+      "tab:s2": "S2",
+      "tab:s3": "S3",
+      "tab:s4": "S4",
+      "tab:s5": "S5",
+      "tab:s6": "S6",
+      "tab:s7": "S7",
+      "tab:s8": "S8"
+    },
+    "figure_labels": {
+      "fig:s1": "S1",
+      "fig:s2": "S2",
+      "fig:s3": "S3",
+      "fig:s4": "S4",
+      "fig:s5": "S5",
+      "fig:s6": "S6",
+      "fig:s7": "S7"
+    },
+    "all_local_references_resolved": true,
+    "no_blank_pages": true,
+    "no_overfull_boxes": true,
+    "no_unresolved_citations": true
+  },
+  "scientific_claim_checks": {
+    "benchmark_values": true,
+    "composition_range": true,
+    "XX_preserved": true
+  },
+  "visual_QA": "All final pages rendered; page contact sheets and enlarged Figures 3/5/S6/S7 inspected separately before distribution. This entry does not replace human scientific review."
+}

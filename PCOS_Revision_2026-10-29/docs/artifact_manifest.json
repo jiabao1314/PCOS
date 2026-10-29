@@ -1,0 +1,576 @@
+{
+  "date": "2026-10-29",
+  "includes_licensed_raw_GBD": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 106,
+      "sha256": "0023ffea6f30d4a1bae315531ebedef1e7b059ff35cf77c3ba2e892fc2d57186",
+      "git_blob_sha": "81641030e28e0867a7db8a032591159f3cc19651"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4282,
+      "sha256": "d77d52bd5b414ca8b297fea4c627159f3c100ab6b5c7daa97366e6de5276f345",
+      "git_blob_sha": "a3f75fb03cc69289296a6bbc053900ddd5615114"
+    },
+    {
+      "path": "code/PCOS_NewArticle_complete.R",
+      "bytes": 9006,
+      "sha256": "31508e785aa63c15bc7b3d04faa474775aec7681ff1e21d2982519365ede831e",
+      "git_blob_sha": "594e48b450d2f084349a921ee8fcf93cd8ca2f08"
+    },
+    {
+      "path": "code/PCOS_NewArticle_complete.py",
+      "bytes": 11881,
+      "sha256": "96dc848c7ea9080a297d347c9857a6700da9f0af48728fcc82b50cf676e2fe43",
+      "git_blob_sha": "da4f8b0a3248e6663ef4dcb4eb6344fc00b36754"
+    },
+    {
+      "path": "code/extract_wpp2024.py",
+      "bytes": 3800,
+      "sha256": "3fa4866d460ede2e0d7a40c07e6549c82cd175528173833a8ff09e8402342057",
+      "git_blob_sha": "5d49434dda45adcb463512af5864da37b2dfce0c"
+    },
+    {
+      "path": "code/package_revision.py",
+      "bytes": 2956,
+      "sha256": "122e27f49f3b33056c16686d9f2e969b63bb2b9c689a5443291af0dd6a43db7a",
+      "git_blob_sha": "5abf1582fd7a55c3b4726f513635f18b1dab477d"
+    },
+    {
+      "path": "code/revision_analysis.py",
+      "bytes": 20179,
+      "sha256": "b82d9dddd971d25ba0261923799e87308bd94865d0dbe02d55b827d04c13db01",
+      "git_blob_sha": "f7b6f6976d2c1fa2599745895f2dccaa2e695409"
+    },
+    {
+      "path": "code/verify_revision.py",
+      "bytes": 3984,
+      "sha256": "680a849fbd9f2cc098265828f8f89282d003e4b0434ca157f79bda39fe94541d",
+      "git_blob_sha": "d4ced1424e46b2329ef87e565cb0318d83cb5e8c"
+    },
+    {
+      "path": "data/input/UN_WPP2024_G20_female_15_49_1990_2023.csv",
+      "bytes": 344829,
+      "sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9",
+      "git_blob_sha": "836926e36637c22c14ae00f92e1128c08c6e4747"
+    },
+    {
+      "path": "data/input/UN_WPP2024_source_manifest.json",
+      "bytes": 970,
+      "sha256": "437240da1b218808563763424772ffc1f0c6fd683e956a01a44cc8f8c9d29033",
+      "git_blob_sha": "fe58307ce2be5e6992ea7c3f311db4857fb965ae"
+    },
+    {
+      "path": "data/input/weights.csv",
+      "bytes": 121,
+      "sha256": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d",
+      "git_blob_sha": "354a89fac3331bc414c586f3fbd31ca45256626a"
+    },
+    {
+      "path": "data/published_expected/all_annual_benchmark_aspr.csv",
+      "bytes": 152278,
+      "sha256": "84def8c966a4e821befd0cca83c1b475a9d5af6fa9d88b22db2afb56c018268b",
+      "git_blob_sha": "7289eb1cfda622fcb5b680f3d83db0e4de183fb6"
+    },
+    {
+      "path": "data/published_expected/leave_one_country_out.csv",
+      "bytes": 22645,
+      "sha256": "eb3e66b193a6e81edd455e888d6e39bab47ecbf87136788a4f95c77fc98a993e",
+      "git_blob_sha": "ef41385e6eb009bab5972d0a33294110f0dcbb6d"
+    },
+    {
+      "path": "data/published_expected/qc_summary.json",
+      "bytes": 1608,
+      "sha256": "6384faa94f55ac35ad0baae812e429c342d71a29f6d3274437f00e05ae2fabe5",
+      "git_blob_sha": "91e51734d533214547818ddecf4e263c9be7452f"
+    },
+    {
+      "path": "data/published_expected/symmetric_decomposition_1990_endpoints.csv",
+      "bytes": 6504,
+      "sha256": "19e22c8904d4b23bb50b2586c76118575991e4fa027f685e334acd2f284dabe9",
+      "git_blob_sha": "58a9f5d10c4d41817382bcc4f0a397c761702965"
+    },
+    {
+      "path": "docs/DATA_ACQUISITION.md",
+      "bytes": 2889,
+      "sha256": "0d657f44d5f9c18e9c2d19408c2d1dbb36d847a327db6b1d4b529ab1f9e8be17",
+      "git_blob_sha": "e0a41e371eff24be9f2a49c8ea899910e15356ba"
+    },
+    {
+      "path": "docs/IHME_joint_draws_request_draft.txt",
+      "bytes": 2147,
+      "sha256": "f29ee4e013e51ce3c34306f61bb0ed58050667b3bfa5ce1d2937b1a96b56d562",
+      "git_blob_sha": "0ac54e2f87945dda5619392870bc71bbd1afb4ed"
+    },
+    {
+      "path": "docs/RESPONSE_TO_REVIEW_2026-10-29.md",
+      "bytes": 3284,
+      "sha256": "e4312c9cfac063d15bf5ab9025e994368f85c82e9a867d589e93486aea2999b8",
+      "git_blob_sha": "8d70bdc76034a72928b6609ecac533cd8fa6ce08"
+    },
+    {
+      "path": "docs/R_Python_crosscheck.json",
+      "bytes": 513,
+      "sha256": "fa0fbb7b5bd36e7699186ef7cf6a32eba3e6cabb02e27df9335569fdebea608d",
+      "git_blob_sha": "04c859ae1cf96e130d20093188b94c256f4d9e79"
+    },
+    {
+      "path": "docs/UN_reextraction_check.json",
+      "bytes": 1303,
+      "sha256": "f59a8e36b9afb6d7b2ca1c04545db2989b31261d7c7ca514a3d1857303f83ffd",
+      "git_blob_sha": "538c5e023bb62be22ab7b723395b6b7fc91f6100"
+    },
+    {
+      "path": "docs/document_qc.json",
+      "bytes": 1306,
+      "sha256": "62cea9928631439e5fb5785eb7b3fe00958698fd088b2c8c2596c993eb6467b8",
+      "git_blob_sha": "6ae22c6e5b1a53c2418a12be02b4186ca6e30161"
+    },
+    {
+      "path": "docs/input_manifest.json",
+      "bytes": 1095,
+      "sha256": "96a1ac29bda9d126d3bd461f38d02c49dfbadc724c3b728487285233fa54884b",
+      "git_blob_sha": "9fa979e2e58a7fd3874e1aa3b7e87b2ff91062da"
+    },
+    {
+      "path": "docs/joint_draws_request.json",
+      "bytes": 2034,
+      "sha256": "13740add0a6d92ecf90db008ae0e56677c55f4751622664ee6291639dd482abf",
+      "git_blob_sha": "7d20089e388a357551c166650157bdbe6b2c0b98"
+    },
+    {
+      "path": "docs/new_article_source_manifest.json",
+      "bytes": 738,
+      "sha256": "22ac5ba47a9d652bce090238c682247cc59b701e37acee0a975bbb3d80f91085",
+      "git_blob_sha": "56e7c02a7ee71adb606a6e3e8bb5275efec54d91"
+    },
+    {
+      "path": "docs/reference_metadata_audit.json",
+      "bytes": 26958,
+      "sha256": "b647ab9a4713d12485ced0e891bd9a215087c7e0d5c748e356a6beae4687dd16",
+      "git_blob_sha": "1705ee243351d81390d41b37a285d95758cec4cf"
+    },
+    {
+      "path": "docs/revision_analysis_qc.json",
+      "bytes": 1207,
+      "sha256": "defef1dcf6b8cf1a31368f1795ab273cbd11f2bff3688e99d29d2e081eb20fc8",
+      "git_blob_sha": "559c5e2e8669f2d9df1bfc71a47110d23ce213fc"
+    },
+    {
+      "path": "docs/source_documents.json",
+      "bytes": 267,
+      "sha256": "7a7ac27410c94f9a065011330cd6e20d3c6cbe9a124e20d771a324a6248a31c3",
+      "git_blob_sha": "ee87ceb705695b5c18bd6056010ddee179fc11c5"
+    },
+    {
+      "path": "docs/uncertainty_access_audit_2026-10-29.json",
+      "bytes": 723,
+      "sha256": "cc8344d81eae109057ac44a2570158aa0c969d4b22c2ae57106d5578746cefb9",
+      "git_blob_sha": "86b5db0c57518f1021552dbc076672ea881e44dc"
+    },
+    {
+      "path": "manuscript/figures/Figure1_PCOS_trends.pdf",
+      "bytes": 14189,
+      "sha256": "8af120e00eb5a0aeb87d747903900201d664dd3edaf9213b12a204b4cac2f9f2",
+      "git_blob_sha": "de152e514479ed342e0b1912158e9f91c06ff5f7"
+    },
+    {
+      "path": "manuscript/figures/Figure1_PCOS_trends.png",
+      "bytes": 86460,
+      "sha256": "1a33085e7426d120855a109818272204c9ffdf39371f84de0d2b64195ce6a4cf",
+      "git_blob_sha": "915b8fbc4c459339eda57d39dad3ce89e53e9fab"
+    },
+    {
+      "path": "manuscript/figures/Figure2_PCOS_subtypes.pdf",
+      "bytes": 13326,
+      "sha256": "3d197c8a9a468859e02265b6a33d676ceb94a5ad82289c8c031dd1d55f499fd9",
+      "git_blob_sha": "077a77aa6da90ef649d7721d2ed3c16b3aedbaa8"
+    },
+    {
+      "path": "manuscript/figures/Figure2_PCOS_subtypes.png",
+      "bytes": 90451,
+      "sha256": "49c46f01048a7e0c5f0952a61092b42633c19c94f92d1c0d2c43299f060bc94d",
+      "git_blob_sha": "1141913260d3c5d1defc7e451fa44738dfc84fef"
+    },
+    {
+      "path": "manuscript/figures/Figure3_decomposition.pdf",
+      "bytes": 14244,
+      "sha256": "a4043017e58d32adacf3aa38bdd2aa429f30c330a490f6ae38f722646b1abbd1",
+      "git_blob_sha": "d7181d55c8f051a0b666d3858a8f6003498b7768"
+    },
+    {
+      "path": "manuscript/figures/Figure3_decomposition.png",
+      "bytes": 53229,
+      "sha256": "bcfa95341b505d4ddf46db1dcb466acd71ba813cae205d29c0628db044134e8a",
+      "git_blob_sha": "f855ff3725e2ca0ddc8c261ec1eefc787b7a39ca"
+    },
+    {
+      "path": "manuscript/figures/Figure4_population_source.pdf",
+      "bytes": 14754,
+      "sha256": "4ab3d8c37525d4b13270e7f26ceb82217e7186f1573865dcf40979c874264f35",
+      "git_blob_sha": "57b4925f9004f538f4ba69f13dcdf2d8cac16b8a"
+    },
+    {
+      "path": "manuscript/figures/Figure4_population_source.png",
+      "bytes": 90883,
+      "sha256": "92e3457a2cbe84083acd16355e1efea6ca83cc4000b20743ab4efd59e2f881ae",
+      "git_blob_sha": "116ff72dd988e45861770145a39950a95e7ed756"
+    },
+    {
+      "path": "manuscript/figures/Figure5_benchmark_sensitivity.pdf",
+      "bytes": 14056,
+      "sha256": "97617555192b4d40b3182d12d94b1a956247209cbb06fff9e96ef17b95388b0d",
+      "git_blob_sha": "8586cce64545f380113b830981fedace63eb687c"
+    },
+    {
+      "path": "manuscript/figures/Figure5_benchmark_sensitivity.png",
+      "bytes": 46513,
+      "sha256": "de0c408d14dfe0c3c06e1756b1e3d1d90d6ce355a02213bc1c5a2468a4df0a87",
+      "git_blob_sha": "5ca98c713cd5fcd04804baaee8e365264926ac0c"
+    },
+    {
+      "path": "manuscript/figures/FigureS1_reference_exclusions.pdf",
+      "bytes": 15683,
+      "sha256": "924a4f3db85560d3ce2c8baea4982b2accbfe4aa68c311a756b21c2ef43a9fcb",
+      "git_blob_sha": "bdfa2e57053bf3412e08af668b4fba86c679145f"
+    },
+    {
+      "path": "manuscript/figures/FigureS1_reference_exclusions.png",
+      "bytes": 91167,
+      "sha256": "ba6d205e6152b13e22d42bef2446241ee4bb82071878249ebd8439dc99cd96f9",
+      "git_blob_sha": "036b7b3b03405838d97a66d9c83ae8a58e3f37cf"
+    },
+    {
+      "path": "manuscript/figures/FigureS2_benchmark_trajectories.pdf",
+      "bytes": 14092,
+      "sha256": "b0be9660e1f9b38f1fab107d83d5d6443e9d6c22b61c27acc8e94f8fec275305",
+      "git_blob_sha": "84107f13ae4c75615528375294037c343861a25a"
+    },
+    {
+      "path": "manuscript/figures/FigureS2_benchmark_trajectories.png",
+      "bytes": 103550,
+      "sha256": "62f7d0fe7e4c3aa538b6abd55aab959f401d20287963f256cdcb27c7d35a5a17",
+      "git_blob_sha": "fbebbf1f1fbae4d7629d35c932474e7a682f5d6d"
+    },
+    {
+      "path": "manuscript/figures/FigureS3_composition_sensitivity.pdf",
+      "bytes": 16512,
+      "sha256": "74c7f2a09b3009efbc16762b290b9e0c47c42992ffbed2faf22c4186835b7dfa",
+      "git_blob_sha": "28941900e560bc728d38a712d92e7a165f521a7d"
+    },
+    {
+      "path": "manuscript/figures/FigureS3_composition_sensitivity.png",
+      "bytes": 94639,
+      "sha256": "5c01ac0d621768d3e9f236009326e4f3d6096e0f9f605b06ab16116f4451119c",
+      "git_blob_sha": "ad2e6d6e80841d2a09d0d9911649d85c2df13971"
+    },
+    {
+      "path": "manuscript/figures/FigureS4_endometriosis_trajectory.pdf",
+      "bytes": 10836,
+      "sha256": "c47e5b5dab7e3c25fbb6981c2b574f4bb783e1c1fbdaaecb948fbb3034bcb933",
+      "git_blob_sha": "a7c608a936ce9a7df76901fb314c40ad25aea7f3"
+    },
+    {
+      "path": "manuscript/figures/FigureS4_endometriosis_trajectory.png",
+      "bytes": 56511,
+      "sha256": "4077b7fdf2a5d0a66cc68b25fa268c2b6a61783ea89f68f21a19f9f33822b49a",
+      "git_blob_sha": "de64fd81f32117256c64fe477b03cb2031a4ec1b"
+    },
+    {
+      "path": "manuscript/figures/FigureS5_country_shifts.pdf",
+      "bytes": 15215,
+      "sha256": "27eca824c96c1d7acf3fdfbd962ea1170e1166e2426b67d20a869ee35e9fb15c",
+      "git_blob_sha": "98f655f4f65ed3a791547f93e5a3cb349ad5e539"
+    },
+    {
+      "path": "manuscript/figures/FigureS5_country_shifts.png",
+      "bytes": 64656,
+      "sha256": "9010117947ae4dad7e5ceddabc124e6a58302707fdc22a47d10a95f16cd3eb2e",
+      "git_blob_sha": "ce282457208095cf409af3f8863de56b112f68c9"
+    },
+    {
+      "path": "manuscript/figures/FigureS6_terminal_country.pdf",
+      "bytes": 15147,
+      "sha256": "0eebdf059c46c1bb1b23fc6bd4237eb00e7d76a05b16f6e6529a5c9bd6947490",
+      "git_blob_sha": "85ca2f9ebb59f8ef15d2b57d8d0e069ba98e7cec"
+    },
+    {
+      "path": "manuscript/figures/FigureS6_terminal_country.png",
+      "bytes": 64828,
+      "sha256": "b644708d9695b25fd323dfd6554c9a45b6b9363d29dc09926640d906edc30f34",
+      "git_blob_sha": "4592faddbf5f9e8da54dd585e590199d22941fa0"
+    },
+    {
+      "path": "manuscript/figures/FigureS7_terminal_age_type.pdf",
+      "bytes": 10795,
+      "sha256": "a46abef801dd9417855d19e52937483efc2841d386b982679bd3c96b05fe7053",
+      "git_blob_sha": "1345f65c757c54bb3b6f4d667344137226a94f1d"
+    },
+    {
+      "path": "manuscript/figures/FigureS7_terminal_age_type.png",
+      "bytes": 31730,
+      "sha256": "42b033c0a036732bfa5cd2dd8614a8c0b433c54edd50e2316e657ffc132752c3",
+      "git_blob_sha": "88c490be37134478ec96326745c7cc53e36e4f7d"
+    },
+    {
+      "path": "manuscript/main.tex",
+      "bytes": 32355,
+      "sha256": "42ed5f305ec2fd7e20d27b902b3f72c96835a75241e4b9a82db90f437acafa06",
+      "git_blob_sha": "b2afae74b534dc07a73b571986def52a2f1b4d44"
+    },
+    {
+      "path": "manuscript/supplement.tex",
+      "bytes": 16671,
+      "sha256": "20bea871365a9f0ac76b81f6b68f95dddb2694ebd9750c4055c46abb38aea95d",
+      "git_blob_sha": "183f5b28fe1dc1a9541baf55a9a13416ca661bf3"
+    },
+    {
+      "path": "manuscript/tables/benchmark.tex",
+      "bytes": 285,
+      "sha256": "24fd4ce09f5b1919945407224afbf1a9c28d4385d9da20a6bf4fb3325ac02986",
+      "git_blob_sha": "4cd8bc7be69d26e4e508465896786328b9559c8e"
+    },
+    {
+      "path": "manuscript/tables/decomposition.tex",
+      "bytes": 345,
+      "sha256": "a5eb811427b12dab42a8412f86b519a988c3dd9629efaf92190d8ddb1f8b3ab6",
+      "git_blob_sha": "3c5e667e9f4fbc28481d9ae1e926839299fc619b"
+    },
+    {
+      "path": "manuscript/tables/prevalence.tex",
+      "bytes": 326,
+      "sha256": "689c14a9b487e60f34eab15e8a259df4f4f40a73025fd8822997bef01b3f79c8",
+      "git_blob_sha": "8849c518052d0bfa71caa7179a36fb3e47f72d95"
+    },
+    {
+      "path": "manuscript/tables/s1_endpoints.tex",
+      "bytes": 368,
+      "sha256": "5a1dfbd028c429e4cb3b618bb143138fe7655869a0cb75607d2da7e58d015a02",
+      "git_blob_sha": "5006ea214b993c725d8fe18e40a4a7bebef08cc0"
+    },
+    {
+      "path": "manuscript/tables/s2_sensitivity.tex",
+      "bytes": 2150,
+      "sha256": "89938ebff929b19a79a552d7a844eb14a80941a3e2e4b7c0609a97a288877c8f",
+      "git_blob_sha": "46c099164566cfb80ff83e9f262e6b5f0361f9db"
+    },
+    {
+      "path": "manuscript/tables/s3_age.tex",
+      "bytes": 1134,
+      "sha256": "31ddcc211c3b459c45a3c0d7d753898a285c708d3cfcb6aa2681f008ba1e79ad",
+      "git_blob_sha": "550bbdc73f22ffa7fd47064955ba8a297cbdda75"
+    },
+    {
+      "path": "manuscript/tables/s4_chained.tex",
+      "bytes": 676,
+      "sha256": "f399941f6f2f8936b00feb3eb67270e34d4590fcf021a155008025d222113b9f",
+      "git_blob_sha": "e925032fc5cc609e14e4bfad8cc86630c2bdb196"
+    },
+    {
+      "path": "manuscript/tables/s5_population.tex",
+      "bytes": 187,
+      "sha256": "b1223c376ea87888fdabfe73a38067d823512834f3ffaa42cc55a116194b194f",
+      "git_blob_sha": "7bf6d2a1d0f7c9c8a022a04ae7ad4e85300bf009"
+    },
+    {
+      "path": "manuscript/tables/s6_rate_conventions.tex",
+      "bytes": 88,
+      "sha256": "771c4bcdfef5461602b7c3e574eb075fda70abbfd642b29724a6490e41f17ede",
+      "git_blob_sha": "3a881699ec2c0759acd051c0d57403d0ad03454c"
+    },
+    {
+      "path": "manuscript/tables/s7_terminal.tex",
+      "bytes": 561,
+      "sha256": "f92d0a97b4c835f4d8803027abe59525af1b5585c41ab46c2ba81ff17d5087ac",
+      "git_blob_sha": "8d36ea1d09073b27504b61f712856918e2081ff5"
+    },
+    {
+      "path": "manuscript/tables/s8_rounding.tex",
+      "bytes": 632,
+      "sha256": "f55008b295a690bc6d0c70df02939d7586651633eb7556d1116638f444210f25",
+      "git_blob_sha": "4cb1b9bc4375eff539e704adea7ce7cde412a330"
+    },
+    {
+      "path": "output/PCOS_ReproductiveHealth_Revised_2026-10-29.pdf",
+      "bytes": 134227,
+      "sha256": "ffe36924f838e4fb4e17c46be6da96b6e74c92d69dbc53697820e9560449376c",
+      "git_blob_sha": "c0f28698fe1c7391e4daf5c855b7e7d6e4851fbc"
+    },
+    {
+      "path": "output/PCOS_Supplement_Revised_2026-10-29.pdf",
+      "bytes": 129053,
+      "sha256": "28e0596536619edb91017b6bedb7aed79f3d61c47d75ef1a46024b988e3e31e0",
+      "git_blob_sha": "4c56e24a22394118265f38c6fbab3e9cc265c798"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "bytes": 1888,
+      "sha256": "2a00f67cbcfa8be9162cf7519e58e7704f5653919b46b13760378cf83515f14b",
+      "git_blob_sha": "1ff265d7f2197f4351dc43d2a1b0a5e44985b989"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 59,
+      "sha256": "f53f9f3dd77e35129678ec954ecaa0d017a538078b98f442751bdb7a870ec275",
+      "git_blob_sha": "d517096ac22259a285e959941087510feba17e12"
+    },
+    {
+      "path": "results/R/R_session_info.txt",
+      "bytes": 583,
+      "sha256": "eae6e30517cd6542b2b6a77af35bd59611da24156b20b3a14930abc00681b23a",
+      "git_blob_sha": "cb33f66477b4af1c8da8df48bc32a64781860946"
+    },
+    {
+      "path": "results/R/all_annual_benchmark_aspr.csv",
+      "bytes": 155316,
+      "sha256": "ed0921abc4ccea8b69015e663574f0668f0b6bebbca651614353bfaad0531575",
+      "git_blob_sha": "7e45f869a4e6f09c3212ce61e20e7e2eb91b42f3"
+    },
+    {
+      "path": "results/R/annual_chained_decomposition.csv",
+      "bytes": 1725,
+      "sha256": "f385ed5145feb93b1fd9279e4cb6d8ea0de7be57e6960f57ea18702be5f554cd",
+      "git_blob_sha": "f09931b9c6a0c07a4989640f8fbf158a17acbb23"
+    },
+    {
+      "path": "results/R/figure_R_decomposition.pdf",
+      "bytes": 4642,
+      "sha256": "4585e3d28c51196fabce6de7f6567deb98198ee9f8eb90ee1762202d40e4cf47",
+      "git_blob_sha": "4e0a733da2079e49255663a083d78af04f092082"
+    },
+    {
+      "path": "results/R/leave_one_country_out.csv",
+      "bytes": 23387,
+      "sha256": "323ccb99f8d96282fbdba6ba35b205ac7dcebc65ce0e6f6f4b4521c348b749b3",
+      "git_blob_sha": "59a69a5ce83214719ea1967d5fc194ac91d2b064"
+    },
+    {
+      "path": "results/R/published_result_checks.csv",
+      "bytes": 209,
+      "sha256": "78e52a0d4ad4f5a5992d46717db8219b31004893cd18fd18430991681b7a4845",
+      "git_blob_sha": "7f409c21b4f7f1362b3e97112bc88ae73876211d"
+    },
+    {
+      "path": "results/R/qc_checks.csv",
+      "bytes": 167,
+      "sha256": "9e2324b9ae8264481abbba5f253815a2b163e825e0e93fd983de1cae39c683d7",
+      "git_blob_sha": "9a7db29124e59ba9383fee38910d7e8222f7eb86"
+    },
+    {
+      "path": "results/R/symmetric_decomposition_1990_endpoints.csv",
+      "bytes": 6365,
+      "sha256": "cd600e5282733ebead3b4c53f9a59f22bb4526bf2e89d2948a805ced3aa8fd8a",
+      "git_blob_sha": "0f59399616f53154a8ba9dc1bb35707031237330"
+    },
+    {
+      "path": "results/python/age_decomposition.csv",
+      "bytes": 32081,
+      "sha256": "a52202aecd3beb00473816dc54fe296e465597c880299951bd2b3c8e6cf4b487",
+      "git_blob_sha": "06380d71abd3fc5026d457b13157514347ab43c6"
+    },
+    {
+      "path": "results/python/age_weighted_reference_shifts.csv",
+      "bytes": 2956,
+      "sha256": "8e611292edfceb78e8a8e7b6aa2b564b5875c466941dbe6b776d8f45e0ee6dbe",
+      "git_blob_sha": "5db2bdfd97bd65024ad92516660c55f302d8bb9c"
+    },
+    {
+      "path": "results/python/all_annual_benchmark_aspr.csv",
+      "bytes": 152282,
+      "sha256": "942f16120889db8bf03f7cc3b2185f38cbae96cd60640b1fffcc897ee524f40a",
+      "git_blob_sha": "7dcb5ffa14b5f5bc60eb6f034e6d148c6c19b425"
+    },
+    {
+      "path": "results/python/annual_chained_decomposition.csv",
+      "bytes": 1728,
+      "sha256": "c0a35d11f7d90c3f83a509447f3283c9be3ae0159bccf274279595d03091a949",
+      "git_blob_sha": "6da8f815af92000abc39b67de3b81087513792c2"
+    },
+    {
+      "path": "results/python/composition_sensitivities.csv",
+      "bytes": 313359,
+      "sha256": "169a7041a361bab68b18095332c7ee132a6e687b0f2187259d0beede0a84f09e",
+      "git_blob_sha": "f1147c94ea8b7f522361e351684d86252e5c7506"
+    },
+    {
+      "path": "results/python/endometriosis_terminal_age_type.csv",
+      "bytes": 1000,
+      "sha256": "4c50204bb4bc2d25fad62de90237886704c3bd23564cb8e406203c0d43541a04",
+      "git_blob_sha": "a7fa2b280808f497f84280ce2f75a65978d82989"
+    },
+    {
+      "path": "results/python/figure1_gap_trends.pdf",
+      "bytes": 13778,
+      "sha256": "82a8dee47fb65f09605f1675c7051e7318433fb6875bb8a7b0afa5861a9ac851",
+      "git_blob_sha": "0ab30b6ba6c269b5441c939feed725fc44b4659b"
+    },
+    {
+      "path": "results/python/figure2_decomposition.pdf",
+      "bytes": 12242,
+      "sha256": "a35c24add048cbb3fbf1d12026d84f0a48a96e8f66f3b3bdf61d2e420aef508a",
+      "git_blob_sha": "66caf5557890561db75d76fb9326afa3f922d730"
+    },
+    {
+      "path": "results/python/figure3_benchmark_sensitivity.pdf",
+      "bytes": 13334,
+      "sha256": "d04d1b3c50b2f172ebe1c957ac612cfc7ac1739ac3cfb0b198692bb147cd1ab2",
+      "git_blob_sha": "43ac9e1326a3d685209a12203d0ac7033988e246"
+    },
+    {
+      "path": "results/python/figure4_endometriosis.pdf",
+      "bytes": 11612,
+      "sha256": "8d2e97f63ca8e983299342150f979f2295fea376ee871c3d355614ad988c8eb3",
+      "git_blob_sha": "3f5d302f30d7f1997c765f4a91590c3d06973fd0"
+    },
+    {
+      "path": "results/python/leave_one_country_out.csv",
+      "bytes": 22643,
+      "sha256": "7c26d571ad15b8b06e5350b42f9c9e14840170f23fc452f624be1eab1e2e896d",
+      "git_blob_sha": "388264621b54aae17bfa713bc317135f72eb6326"
+    },
+    {
+      "path": "results/python/national_annual_standardized.csv",
+      "bytes": 388483,
+      "sha256": "e13082da0090489afeb24f78a1cccd7abc1b2d58e2614aa1960d7696d9524a87",
+      "git_blob_sha": "52fb9e898c25812439b07b9c46d63c4fefbd1472"
+    },
+    {
+      "path": "results/python/population_share_TVD.csv",
+      "bytes": 6906,
+      "sha256": "d9f1149210ff3055a1a37522f1327cd932ecd8c495be6597683b887c0025fa5e",
+      "git_blob_sha": "859d51874a7e26d6134d28f81697718eeb9425bf"
+    },
+    {
+      "path": "results/python/qc_summary.json",
+      "bytes": 887,
+      "sha256": "9794325d24493ce422a173472638575d6b6dae66d95e564447375a5d22a91b5e",
+      "git_blob_sha": "3bd3a34dc4537e1cc210675d6b7d871011ce364e"
+    },
+    {
+      "path": "results/python/standard_weight_rounding.csv",
+      "bytes": 1933,
+      "sha256": "fdb414d68f9f3a625d3ea36045f4d29ed0fe94fc3487f55784ddf42ec6f0936c",
+      "git_blob_sha": "767211656b0fecb1ec0e1abd1d5086a1c868e1a2"
+    },
+    {
+      "path": "results/python/symmetric_decomposition_1990_endpoints.csv",
+      "bytes": 6497,
+      "sha256": "3a3be73287981b762e9dad4151c9e04ac33d559f0a4b3f9996f2028a84dde0bf",
+      "git_blob_sha": "c995a6e351defb336dfe45ff6877efba26050bc0"
+    },
+    {
+      "path": "results/python/terminal_year_audit.csv",
+      "bytes": 13703,
+      "sha256": "1bbf872d42e74a8fb80d97deb2d5f7eb59983fbe625ae43a9e17206bb3f9b2e1",
+      "git_blob_sha": "4aa9a9c13a536a2369606b78d62ee74c52399ed5"
+    },
+    {
+      "path": "run_revision.sh",
+      "bytes": 785,
+      "sha256": "1431c3e3ed87fda2cc38e345f49cedfc15a391294664ae0ac3761727f2d9d03e",
+      "git_blob_sha": "5632470298be1d9104364957d6e560d7361dbde7"
+    }
+  ]
+}

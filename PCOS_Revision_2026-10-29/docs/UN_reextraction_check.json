@@ -1,0 +1,49 @@
+{
+  "source_url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz",
+  "source_release": "UN WPP 2024, historical mid-year 1 July 1950-2023 estimates; NOT probabilistic GBD posterior draws",
+  "license": "Creative Commons Attribution 3.0 IGO",
+  "full_source_filename": "WPP2024_PopulationByAge5GroupSex_Medium.csv.gz",
+  "full_source_bytes": 29948947,
+  "full_source_sha256": "a04d7d1486a5eb2832cc812d599448f0a71e8ac9e1e7e6fa4066673d6a2487cd",
+  "subset_rows": 4522,
+  "subset_sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9",
+  "iso_codes": [
+    "ARG",
+    "AUS",
+    "BRA",
+    "CAN",
+    "CHN",
+    "DEU",
+    "FRA",
+    "GBR",
+    "IDN",
+    "IND",
+    "ITA",
+    "JPN",
+    "KOR",
+    "MEX",
+    "RUS",
+    "SAU",
+    "TUR",
+    "USA",
+    "ZAF"
+  ],
+  "country_n": 19,
+  "years": [
+    1990,
+    2023
+  ],
+  "ages": [
+    "15-19",
+    "20-24",
+    "25-29",
+    "30-34",
+    "35-39",
+    "40-44",
+    "45-49"
+  ],
+  "unit_source": "thousands",
+  "unit_output": "persons",
+  "measure": "mid-year 1 July female population",
+  "note": "UN WPP 2024 population reweights country shares; GBD disease-specific age rates unchanged; do not recompute GBD burden numbers using UN denominator."
+}

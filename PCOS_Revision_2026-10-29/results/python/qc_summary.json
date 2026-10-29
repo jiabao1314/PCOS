@@ -1,0 +1,25 @@
+{
+  "gbd_population_cells": 4522,
+  "un_population_cells": 4522,
+  "disease_rate_cells": 27132,
+  "subtype_additivity_max_error": 5.820766091346741e-10,
+  "official_endpoint_rate_max_error": 1.1596057447604835e-11,
+  "official_endpoint_rate_cells": 1064,
+  "published_result_comparison": {
+    "all_annual_benchmark_aspr": {
+      "rows": 1224,
+      "max_absolute_difference": 3.410605131648481e-13
+    },
+    "symmetric_decomposition_1990_endpoints": {
+      "rows": 36,
+      "max_absolute_difference": 3.410605131648481e-13
+    },
+    "leave_one_country_out": {
+      "rows": 216,
+      "max_absolute_difference": 3.410605131648481e-13
+    }
+  },
+  "no_joint_draws": true,
+  "interpretation": "GBD model point estimates; UN substitutes only within-age reference-country shares; no independent disease validation",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+}
