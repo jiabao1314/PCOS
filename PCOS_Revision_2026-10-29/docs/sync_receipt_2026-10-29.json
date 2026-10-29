@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-29",
+  "checked_at": "2026-10-29T15:37:01.119415+01:00",
+  "storage_rule": "Downloaded research inputs in Galaxy; analysis results and generated manuscripts in Google Drive and GitHub. XX placeholders retained per user instruction.",
+  "github": {
+    "commit": "6533cafa0c75da6879972af2b2183997e90e1af8",
+    "parent": "6b98dd0f892f9d6ea8ee8f5a861afcbb31ff20c0",
+    "published_file_blobs_verified": 98,
+    "prior_files_preserved": 312,
+    "raw_GBD_excluded": true,
+    "UN_subset_path_verified": "PCOS_Revision_2026-10-29/data/input/UN_WPP2024_G20_female_15_49_1990_2023.csv"
+  },
+  "drive": {
+    "folder_url": "https://drive.google.com/drive/folders/1Y4VCLziB2HIgHLRd16Mkd_LUy9a3luc6",
+    "files": [
+      {
+        "path": "output/PCOS_ReproductiveHealth_Revised_2026-10-29.pdf",
+        "id": "1PIxlrEFwYyfBSMbkTc8tiJdYKfA0cVj2",
+        "bytes": 134227,
+        "sha256_local": "ffe36924f838e4fb4e17c46be6da96b6e74c92d69dbc53697820e9560449376c",
+        "url": "https://drive.google.com/file/d/1PIxlrEFwYyfBSMbkTc8tiJdYKfA0cVj2/view",
+        "verification": "Connector metadata read-back: size and destination parent match. MD5 was not exposed by connector."
+      },
+      {
+        "path": "output/PCOS_Supplement_Revised_2026-10-29.pdf",
+        "id": "1L86aDf13rFaNsYitqStFaP94HZPJ8h6r",
+        "bytes": 129053,
+        "sha256_local": "28e0596536619edb91017b6bedb7aed79f3d61c47d75ef1a46024b988e3e31e0",
+        "url": "https://drive.google.com/file/d/1L86aDf13rFaNsYitqStFaP94HZPJ8h6r/view",
+        "verification": "Connector metadata read-back: size and destination parent match. MD5 was not exposed by connector."
+      },
+      {
+        "path": "output/PCOS_Revision_Code_Results_Manuscript_2026-10-29.zip",
+        "id": "1orlqgDnuqTlZJMwFyS5AIu-w8ZXAGbXo",
+        "bytes": 1752825,
+        "sha256_local": "791b1fb4b397d6d3094e87d44ce6f141e2bbdbd81f42fe622700022bfbe2681b",
+        "url": "https://drive.google.com/file/d/1orlqgDnuqTlZJMwFyS5AIu-w8ZXAGbXo/view",
+        "verification": "Connector metadata read-back: size and destination parent match. MD5 was not exposed by connector."
+      },
+      {
+        "path": "docs/RESPONSE_TO_REVIEW_2026-10-29.md",
+        "id": "1gIqcxEEcVTG-uhY9OnykfAVKjWLk5Obs",
+        "bytes": 3284,
+        "sha256_local": "e4312c9cfac063d15bf5ab9025e994368f85c82e9a867d589e93486aea2999b8",
+        "url": "https://drive.google.com/file/d/1gIqcxEEcVTG-uhY9OnykfAVKjWLk5Obs/view",
+        "verification": "Connector metadata read-back: size and destination parent match. MD5 was not exposed by connector."
+      }
+    ]
+  },
+  "galaxy": {
+    "history_id": "11ac94870d0bb33ad5abd2b59708ab6e",
+    "history_name": "PCOS",
+    "GBD_inputs": "Existing datasets 10,11,12,18,19 found in PCOS history; previously downloaded-back byte verification is in the prior galaxy_upload_receipt.json. No new full GBD checksum readback claimed.",
+    "UN_subset": {
+      "dataset_id": "40160950115d555efae902574403d634",
+      "hid": 27,
+      "state": "ok",
+      "rows": 4522,
+      "columns": 9,
+      "bytes": 344829,
+      "download_back_sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9",
+      "byte_identical": true
+    },
+    "UN_manifest": {
+      "dataset_id": "40160950115d555e62507ae1c412416d",
+      "hid": 28,
+      "state": "ok",
+      "downloaded_bytes": 971,
+      "local_bytes": 970,
+      "downloaded_json_semantically_identical": true,
+      "note": "Galaxy output includes one extra trailing newline; JSON values unchanged."
+    },
+    "additional_full_UN_source": {
+      "dataset_id": "40160950115d555e1b198115a2e0bdec",
+      "hid": 26,
+      "state_last_observed": "running",
+      "not_claimed_complete": true,
+      "purpose": "Additional provenance archive; analysis uses the verified 4522-row subset. Original compressed file remains in the existing private research archive."
+    },
+    "duplicate_direct_paste_fallbacks": [
+      {
+        "hid": 29,
+        "dataset_id": "40160950115d555e3757d31cf68fd29b",
+        "status": "Created as fallback while URL transfers were running; not required for verified input availability."
+      },
+      {
+        "hid": 30,
+        "dataset_id": "40160950115d555e3aa02fd2337bffe2",
+        "status": "Created as fallback while URL transfers were running; not required for verified input availability."
+      }
+    ]
+  },
+  "analysis": {
+    "date": "2026-10-29",
+    "R_Python_crosscheck": [
+      {
+        "table": "all_annual_benchmark_aspr",
+        "rows": 1224,
+        "max_abs_R_python_difference": 5.684341886080801e-13
+      },
+      {
+        "table": "symmetric_decomposition_1990_endpoints",
+        "rows": 36,
+        "max_abs_R_python_difference": 4.831690603168681e-13
+      },
+      {
+        "table": "leave_one_country_out",
+        "rows": 216,
+        "max_abs_R_python_difference": 5.115907697472721e-13
+      },
+      {
+        "table": "annual_chained_decomposition",
+        "rows": 12,
+        "max_abs_R_python_difference": 4.831690603168681e-13
+      }
+    ],
+    "sensitivity_rows": 1440,
+    "max_identity_residual": 1.9895196601282805e-13,
+    "GBD_PCOS_composition_fraction_range": [
+      0.3981408899690482,
+      0.6785716524916856
+    ],
+    "GBD_PCOS_components": {
+      "net_gap_change": 151.53900333190114,
+      "china_rate_effect": 271.5137227009629,
+      "reference_rate_effect": -208.6232525250872,
+      "reference_country_composition_effect": 88.64853315602541
+    },
+    "figures_main": 5,
+    "figures_supplement": 7,
+    "tables_main": 3,
+    "tables_supplement": 8,
+    "original_weight_sum": 0.494902,
+    "analysis_used_existing_inputs": true,
+    "no_joint_draws": true
+  },
+  "documents": {
+    "main": {
+      "pages": 18,
+      "table_labels": {
+        "tab:pcos": "1",
+        "tab:decomp": "2",
+        "tab:bench": "3"
+      },
+      "figure_labels": {
+        "fig:trends": "1",
+        "fig:subtypes": "2",
+        "fig:decomp": "3",
+        "fig:source": "4",
+        "fig:bench": "5"
+      },
+      "all_local_references_resolved": true,
+      "no_blank_pages": true,
+      "no_overfull_boxes": true,
+      "no_unresolved_citations": true
+    },
+    "supplement": {
+      "pages": 18,
+      "table_labels": {
+        "tab:s1": "S1",
+        "tab:s2": "S2",
+        "tab:s3": "S3",
+        "tab:s4": "S4",
+        "tab:s5": "S5",
+        "tab:s6": "S6",
+        "tab:s7": "S7",
+        "tab:s8": "S8"
+      },
+      "figure_labels": {
+        "fig:s1": "S1",
+        "fig:s2": "S2",
+        "fig:s3": "S3",
+        "fig:s4": "S4",
+        "fig:s5": "S5",
+        "fig:s6": "S6",
+        "fig:s7": "S7"
+      },
+      "all_local_references_resolved": true,
+      "no_blank_pages": true,
+      "no_overfull_boxes": true,
+      "no_unresolved_citations": true
+    },
+    "scientific_claim_checks": {
+      "benchmark_values": true,
+      "composition_range": true,
+      "XX_preserved": true
+    },
+    "visual_QA": "All final pages rendered; page contact sheets and enlarged Figures 3/5/S6/S7 inspected separately before distribution. This entry does not replace human scientific review."
+  },
+  "limits": [
+    "No jointly aligned GBD posterior draws obtained; derived results remain descriptive point estimates.",
+    "Additional full-UN source Galaxy job remains running; it is not required for reproducing the present subset-based analysis.",
+    "XX author and declaration fields intentionally left for the user to complete at submission."
+  ],
+  "receipt_scope": "This receipt is distributed separately after publication so it can record the immutable scientific artifact commit and completed cloud readbacks without a circular archive hash."
+}
