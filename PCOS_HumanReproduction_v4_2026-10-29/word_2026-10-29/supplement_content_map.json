@@ -1,0 +1,1147 @@
+{
+  "kind": "supplement",
+  "references": [],
+  "citation_groups": [],
+  "cross_references": [
+    "tab:s2",
+    "tab:s3",
+    "tab:s4",
+    "tab:s5",
+    "fig:s5",
+    "tab:s6",
+    "tab:s8",
+    "tab:s7",
+    "fig:s6",
+    "fig:s7"
+  ],
+  "tables": [
+    {
+      "number": "",
+      "caption_tex": "",
+      "note_tex": "",
+      "rows": [
+        [
+          "Item",
+          "Topic",
+          "Location or limitation"
+        ],
+        [
+          "1",
+          "Indicators/populations",
+          "Main Methods: females, ages, years, countries, infertility types and cause IDs."
+        ],
+        [
+          "2",
+          "Funding",
+          "Main Funding section: XX pending author completion."
+        ],
+        [
+          "3",
+          "Data identification",
+          "Official GBD and UN resources; acquisition specifications and hashes."
+        ],
+        [
+          "4",
+          "Inclusion/exclusion",
+          "Complete fixed country set; explicit sensitivity removals and age restrictions."
+        ],
+        [
+          "5",
+          "Source characteristics",
+          "Modeled GBD outputs and UN population counts; original evidence belongs to GBD."
+        ],
+        [
+          "6",
+          "Input bias",
+          "Main Discussion: heterogeneity, cause allocation, denominator and model limitations."
+        ],
+        [
+          "7",
+          "Other inputs",
+          "Matched populations and published rounded standard weights."
+        ],
+        [
+          "8",
+          "Input access",
+          "Galaxy source archive, IHME acquisition instructions and public UN subset."
+        ],
+        [
+          "9",
+          "Conceptual overview",
+          "Main equations: pooling, standardization, contrast and symmetric decomposition."
+        ],
+        [
+          "10",
+          "Analytical details",
+          "Main Methods, this supplement and executable code."
+        ],
+        [
+          "11",
+          "Model selection",
+          "No fitted trend/forecast candidate selection in this focused revision; benchmark definitions are explicit."
+        ],
+        [
+          "12",
+          "Evaluation",
+          "Deterministic sensitivity outputs, official endpoint checks and R/Python comparison."
+        ],
+        [
+          "13",
+          "Uncertainty approach",
+          "No joint draws; no custom posterior intervals."
+        ],
+        [
+          "14",
+          "Source code",
+          "Reproducibility archive and versioned GitHub repository."
+        ],
+        [
+          "15",
+          "Estimates",
+          "Aggregate CSV results and generated tables."
+        ],
+        [
+          "16",
+          "Quantitative uncertainty",
+          "Incomplete: available marginal limits do not identify derived uncertainty."
+        ],
+        [
+          "17",
+          "Interpretation",
+          "Main Discussion and established Kitagawa literature."
+        ],
+        [
+          "18",
+          "Limitations",
+          "Main Discussion and uncertainty section above."
+        ]
+      ]
+    },
+    {
+      "number": "S1",
+      "caption_tex": "Endpoint sensitivity of total infertility under contemporary GBD shares.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Cause",
+          "Year",
+          "China",
+          "Reference",
+          "Difference"
+        ],
+        [
+          "Endometriosis",
+          "1990",
+          "63.70",
+          "66.63",
+          "-2.93"
+        ],
+        [
+          "Endometriosis",
+          "2021",
+          "43.48",
+          "51.93",
+          "-8.45"
+        ],
+        [
+          "Endometriosis",
+          "2022",
+          "43.13",
+          "51.89",
+          "-8.76"
+        ],
+        [
+          "Endometriosis",
+          "2023",
+          "53.30",
+          "53.51",
+          "-0.20"
+        ],
+        [
+          "PCOS",
+          "1990",
+          "333.56",
+          "606.48",
+          "-272.92"
+        ],
+        [
+          "PCOS",
+          "2021",
+          "601.79",
+          "745.23",
+          "-143.44"
+        ],
+        [
+          "PCOS",
+          "2022",
+          "602.09",
+          "726.09",
+          "-124.00"
+        ],
+        [
+          "PCOS",
+          "2023",
+          "605.08",
+          "726.45",
+          "-121.38"
+        ]
+      ]
+    },
+    {
+      "number": "S2",
+      "caption_tex": "Reference-composition sensitivity for total PCOS, 1990--2023.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Shares",
+          "Specification",
+          "Net change",
+          "Share term",
+          "100S/net"
+        ],
+        [
+          "GBD",
+          "Main",
+          "+151.54",
+          "+88.65",
+          "58.5"
+        ],
+        [
+          "GBD",
+          "Ages 20–49",
+          "+183.78",
+          "+109.22",
+          "59.4"
+        ],
+        [
+          "GBD",
+          "Without Argentina",
+          "+152.71",
+          "+89.88",
+          "58.9"
+        ],
+        [
+          "GBD",
+          "Without Australia",
+          "+151.60",
+          "+89.24",
+          "58.9"
+        ],
+        [
+          "GBD",
+          "Without Brazil",
+          "+143.40",
+          "+94.90",
+          "66.2"
+        ],
+        [
+          "GBD",
+          "Without Canada",
+          "+152.10",
+          "+90.16",
+          "59.3"
+        ],
+        [
+          "GBD",
+          "Without France",
+          "+151.04",
+          "+87.32",
+          "57.8"
+        ],
+        [
+          "GBD",
+          "Without Germany",
+          "+151.68",
+          "+87.96",
+          "58.0"
+        ],
+        [
+          "GBD",
+          "Without India",
+          "+141.07",
+          "+56.16",
+          "39.8"
+        ],
+        [
+          "GBD",
+          "Without Indonesia",
+          "+188.27",
+          "+98.35",
+          "52.2"
+        ],
+        [
+          "GBD",
+          "Without Italy",
+          "+134.12",
+          "+70.88",
+          "52.9"
+        ],
+        [
+          "GBD",
+          "Without Japan",
+          "+117.03",
+          "+59.35",
+          "50.7"
+        ],
+        [
+          "GBD",
+          "Without Mexico",
+          "+155.77",
+          "+94.91",
+          "60.9"
+        ],
+        [
+          "GBD",
+          "Without Republic of Korea",
+          "+154.16",
+          "+90.25",
+          "58.5"
+        ],
+        [
+          "GBD",
+          "Without Russian Federation",
+          "+162.61",
+          "+110.34",
+          "67.9"
+        ],
+        [
+          "GBD",
+          "Without Saudi Arabia",
+          "+153.44",
+          "+89.87",
+          "58.6"
+        ],
+        [
+          "GBD",
+          "Without South Africa",
+          "+149.37",
+          "+88.67",
+          "59.4"
+        ],
+        [
+          "GBD",
+          "Without Türkiye",
+          "+153.63",
+          "+90.25",
+          "58.7"
+        ],
+        [
+          "GBD",
+          "Without United Kingdom",
+          "+150.10",
+          "+86.94",
+          "57.9"
+        ],
+        [
+          "GBD",
+          "Without United States of America",
+          "+136.85",
+          "+82.66",
+          "60.4"
+        ],
+        [
+          "UN WPP",
+          "Main",
+          "+150.69",
+          "+86.76",
+          "57.6"
+        ],
+        [
+          "UN WPP",
+          "Ages 20–49",
+          "+182.92",
+          "+107.12",
+          "58.6"
+        ],
+        [
+          "UN WPP",
+          "Without Argentina",
+          "+151.96",
+          "+88.07",
+          "58.0"
+        ],
+        [
+          "UN WPP",
+          "Without Australia",
+          "+150.67",
+          "+87.28",
+          "57.9"
+        ],
+        [
+          "UN WPP",
+          "Without Brazil",
+          "+141.88",
+          "+92.39",
+          "65.1"
+        ],
+        [
+          "UN WPP",
+          "Without Canada",
+          "+151.23",
+          "+88.28",
+          "58.4"
+        ],
+        [
+          "UN WPP",
+          "Without France",
+          "+149.81",
+          "+85.05",
+          "56.8"
+        ],
+        [
+          "UN WPP",
+          "Without Germany",
+          "+150.80",
+          "+86.01",
+          "57.0"
+        ],
+        [
+          "UN WPP",
+          "Without India",
+          "+139.63",
+          "+52.67",
+          "37.7"
+        ],
+        [
+          "UN WPP",
+          "Without Indonesia",
+          "+185.19",
+          "+95.35",
+          "51.5"
+        ],
+        [
+          "UN WPP",
+          "Without Italy",
+          "+133.50",
+          "+69.18",
+          "51.8"
+        ],
+        [
+          "UN WPP",
+          "Without Japan",
+          "+115.95",
+          "+57.20",
+          "49.3"
+        ],
+        [
+          "UN WPP",
+          "Without Mexico",
+          "+155.64",
+          "+93.67",
+          "60.2"
+        ],
+        [
+          "UN WPP",
+          "Without Republic of Korea",
+          "+153.32",
+          "+88.38",
+          "57.6"
+        ],
+        [
+          "UN WPP",
+          "Without Russian Federation",
+          "+162.89",
+          "+109.28",
+          "67.1"
+        ],
+        [
+          "UN WPP",
+          "Without Saudi Arabia",
+          "+153.13",
+          "+88.57",
+          "57.8"
+        ],
+        [
+          "UN WPP",
+          "Without South Africa",
+          "+148.87",
+          "+87.12",
+          "58.5"
+        ],
+        [
+          "UN WPP",
+          "Without Türkiye",
+          "+152.85",
+          "+88.41",
+          "57.8"
+        ],
+        [
+          "UN WPP",
+          "Without United Kingdom",
+          "+148.79",
+          "+84.57",
+          "56.8"
+        ],
+        [
+          "UN WPP",
+          "Without United States of America",
+          "+137.34",
+          "+82.18",
+          "59.8"
+        ]
+      ]
+    },
+    {
+      "number": "S3",
+      "caption_tex": "GBD-share age-by-type decomposition of PCOS contrast changes, 1990--2023.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Type",
+          "Age",
+          "China rates",
+          "Ref. rates",
+          "Ref. shares",
+          "Net change"
+        ],
+        [
+          "Total",
+          "15–19",
+          "+20.02",
+          "-19.20",
+          "-2.27",
+          "-1.46"
+        ],
+        [
+          "Total",
+          "20–24",
+          "+54.07",
+          "-41.65",
+          "+11.32",
+          "+23.75"
+        ],
+        [
+          "Total",
+          "25–29",
+          "+50.64",
+          "-40.16",
+          "+15.36",
+          "+25.85"
+        ],
+        [
+          "Total",
+          "30–34",
+          "+45.85",
+          "-36.00",
+          "+15.79",
+          "+25.64"
+        ],
+        [
+          "Total",
+          "35–39",
+          "+43.43",
+          "-32.79",
+          "+20.42",
+          "+31.07"
+        ],
+        [
+          "Total",
+          "40–44",
+          "+38.48",
+          "-28.65",
+          "+23.76",
+          "+33.60"
+        ],
+        [
+          "Total",
+          "45–49",
+          "+19.01",
+          "-10.18",
+          "+4.27",
+          "+13.10"
+        ],
+        [
+          "Primary",
+          "15–19",
+          "+8.82",
+          "-3.65",
+          "-0.75",
+          "+4.41"
+        ],
+        [
+          "Primary",
+          "20–24",
+          "+19.84",
+          "-13.65",
+          "+8.74",
+          "+14.92"
+        ],
+        [
+          "Primary",
+          "25–29",
+          "+12.18",
+          "-9.79",
+          "+10.09",
+          "+12.48"
+        ],
+        [
+          "Primary",
+          "30–34",
+          "+4.86",
+          "-3.58",
+          "+5.95",
+          "+7.24"
+        ],
+        [
+          "Primary",
+          "35–39",
+          "+2.71",
+          "-2.34",
+          "+4.32",
+          "+4.69"
+        ],
+        [
+          "Primary",
+          "40–44",
+          "+2.67",
+          "-3.38",
+          "+3.29",
+          "+2.57"
+        ],
+        [
+          "Primary",
+          "45–49",
+          "+1.59",
+          "-1.71",
+          "+0.21",
+          "+0.09"
+        ],
+        [
+          "Secondary",
+          "15–19",
+          "+11.21",
+          "-15.55",
+          "-1.52",
+          "-5.87"
+        ],
+        [
+          "Secondary",
+          "20–24",
+          "+34.24",
+          "-28.00",
+          "+2.58",
+          "+8.83"
+        ],
+        [
+          "Secondary",
+          "25–29",
+          "+38.47",
+          "-30.37",
+          "+5.27",
+          "+13.37"
+        ],
+        [
+          "Secondary",
+          "30–34",
+          "+40.98",
+          "-32.43",
+          "+9.84",
+          "+18.40"
+        ],
+        [
+          "Secondary",
+          "35–39",
+          "+40.73",
+          "-30.45",
+          "+16.10",
+          "+26.38"
+        ],
+        [
+          "Secondary",
+          "40–44",
+          "+35.82",
+          "-25.27",
+          "+20.48",
+          "+31.03"
+        ],
+        [
+          "Secondary",
+          "45–49",
+          "+17.42",
+          "-8.47",
+          "+4.06",
+          "+13.01"
+        ]
+      ]
+    },
+    {
+      "number": "S4",
+      "caption_tex": "Annual-chained decomposition summed across 1990--2023.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Cause",
+          "Type",
+          "Shares",
+          "Ref. rates",
+          "Ref. shares",
+          "Net change"
+        ],
+        [
+          "Endometriosis",
+          "Primary",
+          "GBD",
+          "+6.95",
+          "-0.18",
+          "+6.79"
+        ],
+        [
+          "Endometriosis",
+          "Primary",
+          "UN WPP",
+          "+6.98",
+          "-0.21",
+          "+6.79"
+        ],
+        [
+          "Endometriosis",
+          "Secondary",
+          "GBD",
+          "+6.63",
+          "-0.28",
+          "-4.06"
+        ],
+        [
+          "Endometriosis",
+          "Secondary",
+          "UN WPP",
+          "+6.50",
+          "-0.16",
+          "-4.07"
+        ],
+        [
+          "Endometriosis",
+          "Total",
+          "GBD",
+          "+13.58",
+          "-0.46",
+          "+2.73"
+        ],
+        [
+          "Endometriosis",
+          "Total",
+          "UN WPP",
+          "+13.48",
+          "-0.36",
+          "+2.72"
+        ],
+        [
+          "PCOS",
+          "Primary",
+          "GBD",
+          "-35.11",
+          "+28.86",
+          "+46.40"
+        ],
+        [
+          "PCOS",
+          "Primary",
+          "UN WPP",
+          "-35.22",
+          "+27.59",
+          "+45.02"
+        ],
+        [
+          "PCOS",
+          "Secondary",
+          "GBD",
+          "-171.97",
+          "+58.25",
+          "+105.14"
+        ],
+        [
+          "PCOS",
+          "Secondary",
+          "UN WPP",
+          "-172.44",
+          "+59.25",
+          "+105.67"
+        ],
+        [
+          "PCOS",
+          "Total",
+          "GBD",
+          "-207.08",
+          "+87.11",
+          "+151.54"
+        ],
+        [
+          "PCOS",
+          "Total",
+          "UN WPP",
+          "-207.66",
+          "+86.83",
+          "+150.69"
+        ]
+      ]
+    },
+    {
+      "number": "S5",
+      "caption_tex": "Total-variation distance between GBD and UN country-share vectors.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Age",
+          "1990–2023 mean",
+          "2023"
+        ],
+        [
+          "15–19",
+          "1.313",
+          "1.530"
+        ],
+        [
+          "20–24",
+          "1.147",
+          "1.358"
+        ],
+        [
+          "25–29",
+          "0.843",
+          "1.339"
+        ],
+        [
+          "30–34",
+          "0.912",
+          "1.105"
+        ],
+        [
+          "35–39",
+          "0.957",
+          "1.254"
+        ],
+        [
+          "40–44",
+          "1.085",
+          "1.188"
+        ],
+        [
+          "45–49",
+          "1.674",
+          "1.463"
+        ]
+      ]
+    },
+    {
+      "number": "S6",
+      "caption_tex": "China endometriosis rate-convention reconciliation.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Year",
+          "Modeled cases",
+          "Restricted 15–49",
+          "Unnormalized weights"
+        ],
+        [
+          "1990",
+          "192,845.45",
+          "63.697",
+          "31.524"
+        ],
+        [
+          "2023",
+          "181,587.09",
+          "53.304",
+          "26.380"
+        ]
+      ]
+    },
+    {
+      "number": "S7",
+      "caption_tex": "All-country endometriosis-attributed infertility terminal-year audit.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Country",
+          "2022–2023 change (%)",
+          "1991–2022 max (%)"
+        ],
+        [
+          "Argentina",
+          "+2.14",
+          "+0.86"
+        ],
+        [
+          "Australia",
+          "+2.01",
+          "+0.47"
+        ],
+        [
+          "Brazil",
+          "-1.91",
+          "+3.62"
+        ],
+        [
+          "Canada",
+          "-0.05",
+          "+10.07"
+        ],
+        [
+          "China",
+          "+23.58",
+          "+1.56"
+        ],
+        [
+          "France",
+          "-0.41",
+          "+0.99"
+        ],
+        [
+          "Germany",
+          "-0.31",
+          "+8.49"
+        ],
+        [
+          "India",
+          "+3.68",
+          "-0.39"
+        ],
+        [
+          "Indonesia",
+          "+4.35",
+          "+0.07"
+        ],
+        [
+          "Italy",
+          "+7.00",
+          "+3.62"
+        ],
+        [
+          "Japan",
+          "+11.93",
+          "+1.38"
+        ],
+        [
+          "Mexico",
+          "-1.87",
+          "+0.37"
+        ],
+        [
+          "Republic of Korea",
+          "-0.41",
+          "+1.56"
+        ],
+        [
+          "Russian Federation",
+          "+0.07",
+          "+1.86"
+        ],
+        [
+          "Saudi Arabia",
+          "-0.45",
+          "-0.29"
+        ],
+        [
+          "South Africa",
+          "-1.85",
+          "+3.78"
+        ],
+        [
+          "Türkiye",
+          "-0.96",
+          "+0.26"
+        ],
+        [
+          "United Kingdom",
+          "-0.00",
+          "+11.21"
+        ],
+        [
+          "United States of America",
+          "+14.82",
+          "+3.88"
+        ]
+      ]
+    },
+    {
+      "number": "S8",
+      "caption_tex": "Standard-age-weight rounding envelopes for 2023 rate differences.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Cause",
+          "Type",
+          "Shares",
+          "Minimum difference",
+          "Maximum difference"
+        ],
+        [
+          "PCOS",
+          "Total",
+          "GBD",
+          "-121.37685",
+          "-121.37559"
+        ],
+        [
+          "PCOS",
+          "Total",
+          "UN WPP",
+          "-122.62203",
+          "-122.62076"
+        ],
+        [
+          "PCOS",
+          "Primary",
+          "GBD",
+          "-123.53997",
+          "-123.53917"
+        ],
+        [
+          "PCOS",
+          "Primary",
+          "UN WPP",
+          "-124.88451",
+          "-124.88370"
+        ],
+        [
+          "PCOS",
+          "Secondary",
+          "GBD",
+          "2.16290",
+          "2.16381"
+        ],
+        [
+          "PCOS",
+          "Secondary",
+          "UN WPP",
+          "2.26225",
+          "2.26317"
+        ],
+        [
+          "Endometriosis",
+          "Total",
+          "GBD",
+          "-0.20251",
+          "-0.20240"
+        ],
+        [
+          "Endometriosis",
+          "Total",
+          "UN WPP",
+          "-0.02923",
+          "-0.02912"
+        ],
+        [
+          "Endometriosis",
+          "Primary",
+          "GBD",
+          "-7.93574",
+          "-7.93569"
+        ],
+        [
+          "Endometriosis",
+          "Primary",
+          "UN WPP",
+          "-7.92095",
+          "-7.92090"
+        ],
+        [
+          "Endometriosis",
+          "Secondary",
+          "GBD",
+          "7.73321",
+          "7.73331"
+        ],
+        [
+          "Endometriosis",
+          "Secondary",
+          "UN WPP",
+          "7.89170",
+          "7.89180"
+        ]
+      ]
+    },
+    {
+      "number": "S9",
+      "caption_tex": "Questions addressed by selected prior PCOS-attributed infertility analyses and the present study.",
+      "note_tex": "",
+      "rows": [
+        [
+          "Study",
+          "Verified question or analysis",
+          "Relation to the present primary estimand"
+        ],
+        [
+          "Liu et al., 2024",
+          "GBD 2019 global, regional and national prevalence, YLD and trends, 1990–2019. Published Methods describe direct age standardization.",
+          "Provides disease-burden context. It does not establish that a China-versus-18-country pool with our within-age weights was used. We do not reinterpret its individual national comparisons."
+        ],
+        [
+          "Liang et al., 2025",
+          "GBD 2021 burden and trends; the Methods describe a Das Gupta allocation to population growth, ageing and epidemiological factors.",
+          "A burden/count change and a national restricted-age standardized-rate difference against a changing pool are different targets. Our share term concerns countries within each age, not changing age structure."
+        ],
+        [
+          "Liang, 2026",
+          "Indexed abstract: GBD 2021 China and worldwide PCOS/related-infertility trends, including Joinpoint and ARIMA. Full comparator construction was not independently verified.",
+          "Supports a China/worldwide monitoring use case. No claim about an undocumented pooling formula is made; conclusions here do not test that paper’s estimates."
+        ],
+        [
+          "Present study",
+          "GBD 2023 China-minus-contemporaneous-18-country pooled total-infertility difference, 1990–2023; fixed age weights.",
+          "Primary change and established symmetric allocation to national rates, reference rates and within-age country shares. UN shares test demographic-source sensitivity; fixed-1990/equal-country weights change the target."
+        ]
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "number": "S1",
+      "image": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS1_reference_exclusions.png",
+      "sha256": "ba6d205e6152b13e22d42bef2446241ee4bb82071878249ebd8439dc99cd96f9",
+      "caption_tex": "\\textbf{2023 total PCOS differences under country exclusions and age restriction.} GBD population shares; all values are point estimates.",
+      "alt_tex": ""
+    },
+    {
+      "number": "S2",
+      "image": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS2_benchmark_trajectories.png",
+      "sha256": "62f7d0fe7e4c3aa538b6abd55aab959f401d20287963f256cdcb27c7d35a5a17",
+      "caption_tex": "\\textbf{PCOS subtype differences under three benchmark definitions.} UN current-year shares, UN fixed-1990 shares and equal-country weights are applied within age. Disease rates remain GBD estimates.",
+      "alt_tex": ""
+    },
+    {
+      "number": "S3",
+      "image": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS3_composition_sensitivity.png",
+      "sha256": "5c01ac0d621768d3e9f236009326e4f3d6096e0f9f605b06ab16116f4451119c",
+      "caption_tex": "\\textbf{Signed PCOS composition ratios under reference and age specifications.} The dashed line marks 50 percent, not a significance threshold. The 39.8--67.9 percent range is not a posterior interval.",
+      "alt_tex": ""
+    },
+    {
+      "number": "S4",
+      "image": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS4_endometriosis_trajectory.png",
+      "sha256": "4077b7fdf2a5d0a66cc68b25fa268c2b6a61783ea89f68f21a19f9f33822b49a",
+      "caption_tex": "\\textbf{Endometriosis total-infertility China-minus-reference trajectory.} The highlighted endpoints show why the 2023 near-zero contrast does not summarize a stable trajectory.",
+      "alt_tex": ""
+    },
+    {
+      "number": "S5",
+      "image": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS5_country_shifts.png",
+      "sha256": "9010117947ae4dad7e5ceddabc124e6a58302707fdc22a47d10a95f16cd3eb2e",
+      "caption_tex": "\\textbf{Changes in age-weighted reference-country shares, UN WPP 2024.} Country proportions within age are averaged with fixed standard age weights. These are composition changes, not disease-rate changes.",
+      "alt_tex": ""
+    },
+    {
+      "number": "S6",
+      "image": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS6_terminal_country.png",
+      "sha256": "b644708d9695b25fd323dfd6554c9a45b6b9363d29dc09926640d906edc30f34",
+      "caption_tex": "\\textbf{Endometriosis modeled rate changes across 19 countries, 2022--2023.} This reproduces the source release. It does not establish an epidemiological event or external validation.",
+      "alt_tex": ""
+    },
+    {
+      "number": "S7",
+      "image": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS7_terminal_age_type.png",
+      "sha256": "42b033c0a036732bfa5cd2dd8614a8c0b433c54edd50e2316e657ffc132752c3",
+      "caption_tex": "\\textbf{Age and infertility-type contributions to the Chinese endometriosis rate increment, 2022--2023.} Standard-weighted contributions sum to +10.1723 per 100,000. Most of the signed modeled increment is secondary infertility; this is not an etiologic fraction.",
+      "alt_tex": ""
+    }
+  ],
+  "numbered_equations": [],
+  "all_math_latex": [
+    "1.16\\times10^{-11}",
+    "5.69\\times10^{-13}",
+    "1.99\\times10^{-13}",
+    "-0.41"
+  ],
+  "xx_count": 2
+}

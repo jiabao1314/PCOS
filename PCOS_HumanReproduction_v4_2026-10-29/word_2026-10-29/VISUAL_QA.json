@@ -1,0 +1,189 @@
+{
+  "main": {
+    "pages": 20,
+    "all_pages_visually_inspected": true,
+    "page_png_sha256": [
+      {
+        "page": 1,
+        "sha256": "100cfef88ec703c03b6ad02ea66d057904c0738f8b9a542eb7e0267ef1a3d455"
+      },
+      {
+        "page": 2,
+        "sha256": "34884331d8a7e910bdbc1fb0f34aeb1de3cbdd521aba27a6af27df632c480b3d"
+      },
+      {
+        "page": 3,
+        "sha256": "2eb5ec214ddfbdf4e8e100895c9758b0bc1301e720449b85654e6747f9f0efa6"
+      },
+      {
+        "page": 4,
+        "sha256": "016de6d16e740fee4145343350067290d8f50a381b8b8c491669c815412a9f29"
+      },
+      {
+        "page": 5,
+        "sha256": "2690d12550236d993070aef2d7792e0003755c749d8d3eefb3163ee8d242fd4a"
+      },
+      {
+        "page": 6,
+        "sha256": "05f10f7d8cd85b836ca646cda6e6a1bfbd1072acfedb3b33d27fe334e0f81deb"
+      },
+      {
+        "page": 7,
+        "sha256": "ce2137a3d33ddbf5e74ef3e9c6ef3d2346b5da03fd0b0ed9fb21388c6e22dc30"
+      },
+      {
+        "page": 8,
+        "sha256": "22204eb7127d28e2dd57b5a718c59239770bfc5dcd5c71459b6d5cc7a4d389f9"
+      },
+      {
+        "page": 9,
+        "sha256": "92c3c976b06f1d2adbfcca99cf1faae276c3f834fc0b225a2019afeb96a22f85"
+      },
+      {
+        "page": 10,
+        "sha256": "0a7f2faa5d462b6043bd3235c53b67ccf86c455442601e4155246d21bf79081d"
+      },
+      {
+        "page": 11,
+        "sha256": "f400827bb61cacc41082e25d105d195b75846f9346168f34ea2bbe4a7a477871"
+      },
+      {
+        "page": 12,
+        "sha256": "346acf1d07b6bea943dcca011d09c224fc2b7cfafa69836f2f6eec271f35d6e8"
+      },
+      {
+        "page": 13,
+        "sha256": "0d8c7532d22ca3580aebde1c66cc9840a1185b71a97b8ce8c04f96cef161caa1"
+      },
+      {
+        "page": 14,
+        "sha256": "17b43b62102882c7e7b91d328a8b82c2bbd933ec17ecf59b701d1039154ab44a"
+      },
+      {
+        "page": 15,
+        "sha256": "c917ea374c345f8837aed947c65d6fd16b4e78dd4a381f74aa12accf4254d4aa"
+      },
+      {
+        "page": 16,
+        "sha256": "7c7293bab148ef794eba7f0b3672a5aa88f22e83aa670d59b48d1618b767d72d"
+      },
+      {
+        "page": 17,
+        "sha256": "f5f8d16fea345794b7ea6875b8cdba77b651ca27b0aac6b1174aef562c8c9498"
+      },
+      {
+        "page": 18,
+        "sha256": "73bf3d65151cc6a85fc8ee060c55bf6d9b02a3b934c9095acd7bee8d6bb9f3e2"
+      },
+      {
+        "page": 19,
+        "sha256": "63f37f165ec370bd53a59c5ad18ed8cf37a2c1448e78f419342760966f1635e7"
+      },
+      {
+        "page": 20,
+        "sha256": "c244d735dff5df37a58fac8e922dc22cb05411a6dae5b4fcdd5bfabec9071e34"
+      }
+    ],
+    "rendered_pdf_sha256": "b6461323938541595ff7a32a59df2488a38a8fb7898e43c87878cce50662ee7e",
+    "render_engine": "bundled LibreOfficeDev 26.8 via canonical render_docx.py and Poppler",
+    "status": "passed"
+  },
+  "supplement": {
+    "pages": 20,
+    "all_pages_visually_inspected": true,
+    "page_png_sha256": [
+      {
+        "page": 1,
+        "sha256": "aac3650a72c209334f996dd14ecae3082480f953a784778f61650387c00af32d"
+      },
+      {
+        "page": 2,
+        "sha256": "63a5c560e5234c5353e4bc3ea6876587e4440852e1633386c89c96573272f8b0"
+      },
+      {
+        "page": 3,
+        "sha256": "ed2389966d06ee2ebf6658a4c023533e46d75b9f59585f1bebbe874b3d46b70b"
+      },
+      {
+        "page": 4,
+        "sha256": "c1674dae5896f32723c1b5603e403e61e80e87b44a83185e1b848ae8caac2bbd"
+      },
+      {
+        "page": 5,
+        "sha256": "ce0a2c44388caa0961e4ae70f8be509a230a888ce7aa045cfce79b407dfbe5cb"
+      },
+      {
+        "page": 6,
+        "sha256": "85ebc7ce0de915d663fb0c5f360591e3d5558213c732882d25495b2fb585f9b0"
+      },
+      {
+        "page": 7,
+        "sha256": "5966ff3a2b5847a09efd4aa65008e100cf017ee5d2a5b4b5668752ffb71dbf4a"
+      },
+      {
+        "page": 8,
+        "sha256": "851d534c90dd813be9ea229885c4786187ed239ed77904c59cc76aa530ef3816"
+      },
+      {
+        "page": 9,
+        "sha256": "0b7378663feaff917fddc4fc79d6801fa0737f793a5f987afed9f5007f249976"
+      },
+      {
+        "page": 10,
+        "sha256": "93a6b0a0ba39db4a01f0a6b3d0b51595c107f0b3c01792fba29328480e50b6fb"
+      },
+      {
+        "page": 11,
+        "sha256": "46be10872b0738d083e18f70ae427b845b8208ccbe11098f94e26f32ca5ade08"
+      },
+      {
+        "page": 12,
+        "sha256": "61e3eda7ca9c436e2556b382206b83ebe9d91a5d957d5f637b951668c8e29b22"
+      },
+      {
+        "page": 13,
+        "sha256": "4803f39c352996f6ab8c3edbb1c405834449934a25f54992682b42eac956ff34"
+      },
+      {
+        "page": 14,
+        "sha256": "6406283d56bfc178f897d76eafbe84dd44e08297ad03643879163c940e7afd00"
+      },
+      {
+        "page": 15,
+        "sha256": "ce3141221ecd4cb67bb47067f3f68ad8f10785e6f8e2f17049855a060e7a6b58"
+      },
+      {
+        "page": 16,
+        "sha256": "bfd9b316dba8f7f39357d0dbb7248b676c3f432367a52995ffc843ace6474454"
+      },
+      {
+        "page": 17,
+        "sha256": "9a66d8ac1eb01d705d6646fd60356d4cea49213bdbdf74e4d856730baa491173"
+      },
+      {
+        "page": 18,
+        "sha256": "cc58f0cf0b65bf759e6e7fd2b888118ae50b83561a0e9cb96e9a7cb00fdbc81c"
+      },
+      {
+        "page": 19,
+        "sha256": "5df6d030e95da9386a0b98986d29aa8a9113b31b5fae2ddc8d1a824fdf0d1fa6"
+      },
+      {
+        "page": 20,
+        "sha256": "3fa3495f3d91b09f0992f3c6c4426afff9ca877faa2aa0487335ad83332f87dd"
+      }
+    ],
+    "rendered_pdf_sha256": "efb02126fee2864b69978f56e3627629173559c29651c326bb1a2c45765242ab",
+    "render_engine": "bundled LibreOfficeDev 26.8 via canonical render_docx.py and Poppler",
+    "status": "passed"
+  },
+  "at": "2026-10-29T19:51:44.175194+01:00",
+  "notes": [
+    "Compared all seven numbered main equations with preserved TeX, including sum indices, endpoint subscripts, signs, fractions and four underbraces.",
+    "Main bibliography has 12 entries, original author-year citations and clickable identifiers; no bibliography content was rewritten.",
+    "All 161 body rows across 13 editable tables exactly match parsed source cells; 12 chart PNGs match source bytes.",
+    "Preserved 22 main and 2 supplementary XX occurrences.",
+    "Initial missing Compact/Table styles caused LibreOffice table import defects; assigned defined styles. Empty-base author math became normal superscripts. Native groupChr preserves underbraces. Short table blocks and notes stay paired; S2 padding adjusted so its footnote is on the same page."
+  ],
+  "submitted": false
+}

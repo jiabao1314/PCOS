@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/CONVERSION_PROVENANCE.json",
+      "bytes": 1218,
+      "sha256": "bc33736217dac1ba411f59824543c60a9c3947644c62bd4f377762e12b6f5365"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/CONVERSION_QC.json",
+      "bytes": 1374,
+      "sha256": "802c9db2cafc218fd01414d51efea877307df8b80376f29da5ee1b3d5ccf847b"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/EXECUTION_RECORD.json",
+      "bytes": 4010,
+      "sha256": "36191d8fac7c346cc446dc3dc47d6f74a95f8a6363e99113ef068de757773092"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/FINAL_CONVERSION_QC.json",
+      "bytes": 1374,
+      "sha256": "802c9db2cafc218fd01414d51efea877307df8b80376f29da5ee1b3d5ccf847b"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Manuscript.docx",
+      "bytes": 376570,
+      "sha256": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/PCOS_HumanReproduction_v4_Supplement.docx",
+      "bytes": 479891,
+      "sha256": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/README_ZH.md",
+      "bytes": 2012,
+      "sha256": "074b6a2b9751e8f57818c55f252f07c52e3fde6921d697aa5bc92fa5d0cd3050"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/SOURCE_PRESERVATION.json",
+      "bytes": 10590,
+      "sha256": "bfaac65b98f88a991caa01b6586a59322603c13fab8749b31b45f0f39fbad6c4"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/VISUAL_QA.json",
+      "bytes": 6360,
+      "sha256": "94c0d3e0ef456503ecfe167e6e42e532c114ee53083edb0c01f6aa08e9ed5ec5"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/main_content_map.json",
+      "bytes": 15610,
+      "sha256": "f92ba046ac3d009111d2f62ecd403ff617830af35b3f3220544c4417da25dd14"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/main_math_roundtrip.json",
+      "bytes": 3962,
+      "sha256": "2871ed0da891a43ae23cc1e84ce891a478d5cdf408d8403da652a314e0f57bba"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/supplement_content_map.json",
+      "bytes": 25452,
+      "sha256": "416e34b5330d8ad38723aed6d2993cbe0a3cad29b56bd84666dbbf0f92917d94"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/supplement_math_roundtrip.json",
+      "bytes": 350,
+      "sha256": "0fc4a30fce8a93c6270092ce9712d33b62b44f76d816a07554ab1d3d8db8df20"
+    },
+    {
+      "path": "scripts/convert_hr_v4_word_20261029.py",
+      "bytes": 24684,
+      "sha256": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f"
+    }
+  ],
+  "restricted_raw_data_included": false,
+  "old_tex_pdf_modified": false
+}

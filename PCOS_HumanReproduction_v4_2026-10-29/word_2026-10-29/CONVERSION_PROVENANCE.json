@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-29T19:47:48.735453+01:00",
+  "converter": {
+    "url": "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-arm64-macOS.zip",
+    "archive_sha256": "f436d18bebbfb3ddd326597686dacab9fac5dc23bd060495020f35a28a43a7c3",
+    "binary_sha256": "8f17378a70e46eed7b63b5433fff6f5a0802f92659aa5782418548e0ca4a8e44",
+    "version": "3.13"
+  },
+  "code_sha256": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f",
+  "inputs": {
+    "PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28",
+    "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69"
+  },
+  "records": {
+    "main": {
+      "file": "PCOS_HumanReproduction_v4_Manuscript.docx",
+      "math_nodes_expected": 52,
+      "references": 12,
+      "tables": 3,
+      "figures": 5
+    },
+    "supplement": {
+      "file": "PCOS_HumanReproduction_v4_Supplement.docx",
+      "math_nodes_expected": 4,
+      "references": 0,
+      "tables": 10,
+      "figures": 7
+    }
+  },
+  "math": "Native editable OMML; no equation images",
+  "scientific_changes": false,
+  "submitted": false
+}

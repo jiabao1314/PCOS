@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-29T19:52:21.874853+01:00",
+  "documents": {
+    "main": {
+      "sha256": "25d32400e0b2278be3d5a81d5d366784a3d996dcb0a079e94ec17b214fdccb48",
+      "native_editable_math_objects": 52,
+      "numbered_equations": 7,
+      "math_recovered_by_docx_reader": 52,
+      "all_nonmath_text_exact_after_whitespace_normalization": true,
+      "nonmath_characters_verified": 27595,
+      "references": 12,
+      "editable_tables": 3,
+      "body_table_rows_exactly_verified": 18,
+      "source_pngs_byte_identical": 5,
+      "xx_occurrences_preserved": 22,
+      "continuous_line_numbers": true,
+      "right_header_page_field": true
+    },
+    "supplement": {
+      "sha256": "376007cc0f80838e892c5fa62cc02a7cd5f42bdc4b0fe99d0bbec33dc2fa80ea",
+      "native_editable_math_objects": 4,
+      "numbered_equations": 0,
+      "math_recovered_by_docx_reader": 4,
+      "all_nonmath_text_exact_after_whitespace_normalization": true,
+      "nonmath_characters_verified": 15376,
+      "references": 0,
+      "editable_tables": 10,
+      "body_table_rows_exactly_verified": 143,
+      "source_pngs_byte_identical": 7,
+      "xx_occurrences_preserved": 2,
+      "continuous_line_numbers": true,
+      "right_header_page_field": true
+    }
+  },
+  "existing_v4_files_preserved": 70,
+  "visual_inspection": "passed all 40 final pages; see VISUAL_QA.json",
+  "submitted": false
+}
