@@ -1,5 +1,11 @@
 # 共享配置与同步验证
 
+## 2026-10-29T20:33:26+01:00 — v5制品双云已核验
+
+Human Reproduction独立v5已完成四项技术修改：42字符短标题、可核实AI声明、3项数据/代码引用及固定研究快照、补充稿制作措辞清理。Word主稿21页、补充20页、附信1页（另有独立表3页）；TeX PDF为19/19/1页。84页均已逐页检查。7编号公式、56原生数学对象、13表161正文行和12图保留；主稿22/补充2/附信5处XX保留。v4全部89文件哈希不变。66条GitHub路径、20个Drive独立文件及完整包78成员已字节核验。制品提交 `07b3a3e305e98770117b81fbed340090150b493c`；Drive：https://drive.google.com/drive/folders/1SDO13cK9jCLY_bnfcahHX97Isg5Ju1jU。
+
+GitHub的全部原有路径及blob保留于制品提交；新增路径采用显式允许清单，不暂存无关修改、不force/reset。本地HEAD保留原值。12幅TIFF包含在完整包中逐成员核验。共有记录编辑前已获取最新Drive云端字节基线并核对；此段、共享7文件及制品回执在后继提交发布并再次读回，最终回执私存避免循环哈希。
+
 ## 2026-10-29T20:16:42+01:00 — 最终审查制品已核验
 
 v4主稿、补充稿和附信最终审查完成：关键数值与定位一致；仍需短标题、AI披露、数据引用和补充稿制作措辞四项技术整理，以及真实作者声明。未改原稿、未重跑统计、未投稿。报告：PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/FINAL_REVIEW_ZH.txt。4个审查制品已Drive回下载及GitHub已提交blob逐字节核验，制品提交 `9ce31304584d08fa16066678c4dd4e0d66b89a64`；Drive：https://drive.google.com/drive/folders/18hLx4XZiJYgkUCM7x2wUeX2HgXR_lRdT。

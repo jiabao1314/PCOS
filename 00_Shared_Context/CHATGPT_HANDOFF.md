@@ -1,5 +1,11 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-29T20:33:26+01:00 — 回交v5并保留作者确认
+
+Human Reproduction独立v5已完成四项技术修改：42字符短标题、可核实AI声明、3项数据/代码引用及固定研究快照、补充稿制作措辞清理。Word主稿21页、补充20页、附信1页（另有独立表3页）；TeX PDF为19/19/1页。84页均已逐页检查。7编号公式、56原生数学对象、13表161正文行和12图保留；主稿22/补充2/附信5处XX保留。v4全部89文件哈希不变。66条GitHub路径、20个Drive独立文件及完整包78成员已字节核验。制品提交 `07b3a3e305e98770117b81fbed340090150b493c`；Drive：https://drive.google.com/drive/folders/1SDO13cK9jCLY_bnfcahHX97Isg5Ju1jU。
+
+用户已批准四项技术修订并独立生成v5，暂不投稿。当前最新文稿目录PCOS_HumanReproduction_v5_2026-10-29。Word/TeX/PDF和附信对应同一技术版本；数据引用固定的是既有分析快照1abf337d9f23cc69292e03cd581b6a1557e6effe，不冒充v5稿件提交。AI声明在Methods、致谢、附信适当位置，真实作者批准仍待确认；XX未代填。
+
 ## 2026-10-29T20:16:42+01:00 — v4最终审查发现待办
 
 v4主稿、补充稿和附信最终审查完成：关键数值与定位一致；仍需短标题、AI披露、数据引用和补充稿制作措辞四项技术整理，以及真实作者声明。未改原稿、未重跑统计、未投稿。报告：PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/FINAL_REVIEW_ZH.txt。4个审查制品已Drive回下载及GitHub已提交blob逐字节核验，制品提交 `9ce31304584d08fa16066678c4dd4e0d66b89a64`；Drive：https://drive.google.com/drive/folders/18hLx4XZiJYgkUCM7x2wUeX2HgXR_lRdT。

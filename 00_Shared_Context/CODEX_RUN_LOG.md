@@ -221,3 +221,49 @@ Web工具实际核验中科院2026-03-27声明、NCEPU原附件页、HR范围/�
 v4主稿、补充稿和附信最终审查完成：关键数值与定位一致；仍需短标题、AI披露、数据引用和补充稿制作措辞四项技术整理，以及真实作者声明。未改原稿、未重跑统计、未投稿。报告：PCOS_HumanReproduction_v4_2026-10-29/preflight_2026-10-29/FINAL_REVIEW_ZH.txt。4个审查制品已Drive回下载及GitHub已提交blob逐字节核验，制品提交 `9ce31304584d08fa16066678c4dd4e0d66b89a64`；Drive：https://drive.google.com/drive/folders/18hLx4XZiJYgkUCM7x2wUeX2HgXR_lRdT。
 
 成功事件hr-v4-presubmission-audit-20261029，exit=0、verification=[0]。真实输入/代码/输出哈希、脏工作树及代码基线见本轮EXECUTION_RECORD.json。附信本轮用bundled render_docx.py实际渲染1页并查看；两Word哈希未变，沿用此前全40页QA，本轮另查主稿1/5/6/14和补充20页，不声称全部重看。源文件与独立表一致，无未解决批注/修订。官网直接timeout后用官方检索结果核对；无已核实统一词数/图表硬上限，门户未访问。DATA_CATALOG不变。
+
+## 2026-10-29T20:22:07+01:00 — hr-v5-technical-20261029
+
+任务：落实四项投稿技术修改并制作独立Human Reproduction v5主稿、补充稿和附信，保留v4/XX且不投稿
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/build_hr_v5_20261029.py build`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69", "PCOS_HumanReproduction_v4_2026-10-29/manuscript/cover_letter.tex": "f7e1099ac31a6968424c5ffa22d6953f5a72bc65d53fd4b7fe86f776d4bc64ba", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/main_content_map.json": "f92ba046ac3d009111d2f62ecd403ff617830af35b3f3220544c4417da25dd14", "PCOS_HumanReproduction_v4_2026-10-29/word_2026-10-29/supplement_content_map.json": "416e34b5330d8ad38723aed6d2993cbe0a3cad29b56bd84666dbbf0f92917d94", ".shared_context_runtime/v5/session_model_evidence.json": "f450a519f4fb26812144e55ad708cdc533d2e552df168e061b30e8992e8f2470", "scripts/build_hr_v5_20261029.py": "010dcd6a8f4f8b3928c72d67aa0979a1ff78f18c9c99e757eff5c84e5e84e64e", "scripts/convert_hr_v4_word_20261029.py": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f", "scripts/build_hr_v4_20261029.py": "a7363e53e86743f5c17b1f11eae6ebc3fa6f332f49b83b0c41d7dac104ca6acb"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Manuscript.docx": "8d65e7b2b9aa20fb1a970c488e05e1d2e0be17548a98f43d23a2768fa964980e", "PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Supplement.docx": "bb8feaab65ebee4b20ec9db6509fa149925969e511fd767d0503e50d4cd6a046", "PCOS_HumanReproduction_v5_2026-10-29/submission/Cover_Letter.docx": "a2f44018ea816f021cf5ef6d46fe53cae32e40b9f0bcc269e269ac9371c4bf5f", "PCOS_HumanReproduction_v5_2026-10-29/submission/Tables.docx": "ab5e43c68011e1e5ceac4b0945e2ba64be482aac3c3b8da2a6636b4bd39b02b9", "PCOS_HumanReproduction_v5_2026-10-29/output/PCOS_HumanReproduction_v5.pdf": "c41c51e2375f32a553943456de7a03e2046ed90d846159650f9a90f22956003a", "PCOS_HumanReproduction_v5_2026-10-29/output/PCOS_HumanReproduction_v5_Supplement.pdf": "6d95d4c72a8a310d29cb2279946817d693e1a1c2d930950accbc74bab35f4970", "PCOS_HumanReproduction_v5_2026-10-29/output/HumanReproduction_Cover_Letter_v5.pdf": "d847748d3f5ebd64ebb0b149624073687c926fd5ee299ee9b728c1f5b795c896", "PCOS_HumanReproduction_v5_2026-10-29/docs/TECHNICAL_VERIFICATION.json": "db37fd9a478564b7a4f12ee402468e87715e6ecb699ac3fa2aacb8b4d90f6c8c"}`。
+
+错误/解决办法：尚未执行；如果失败保留真实记录并修复，不伪造成功。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T20:28:18+01:00 — hr-v5-final-20261029
+
+任务：v5全部四项技术修改和84页视觉核验后最终封装（不投稿）
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/build_hr_v5_20261029.py finalize`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex": "c2f6d63ae14028c36cd969d20d7cc5feb91b7ed41fe841367b82ccd5a542d67a", "PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex": "9af098b9176f1bcdd380a4a4f31b3e4e2b3051b567419cdf36f070c82ccef385", "PCOS_HumanReproduction_v5_2026-10-29/manuscript/cover_letter.tex": "b44bf09182a1c449629fe975e809e01af9b3c4ece9b2d79448418198b1b9035c", "PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Manuscript.docx": "3411413a97ebc647edc61d3013b3cf7820c93e20eddd29f93eb03125aef5d4dd", "PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Supplement.docx": "3ece57a2e5aaafba093cc2dee14427cca88e0c09d9b494034dd97463fc68dedf", "PCOS_HumanReproduction_v5_2026-10-29/submission/Cover_Letter.docx": "6583edd322b37a5035de13ecf3f5868e1a4434ec2f77cf8a74b39ca0946996f7", "PCOS_HumanReproduction_v5_2026-10-29/submission/Tables.docx": "110aeb4a4bf8b8d89f2bc6553acd2be47aa5a8ac0c8e87acaa12905064b69a9e", "PCOS_HumanReproduction_v5_2026-10-29/docs/VISUAL_QA.json": "9ad978293478f4389dc0e2550439c4d1b84220e67f318d89321ac268004b744a", "scripts/build_hr_v5_20261029.py": "6f36620886af4beabd14b4dcc0f1e17e6c2d96effaa065410ca9ac7ada4e7d23", "scripts/convert_hr_v4_word_20261029.py": "498396d4233a2b98895b10b45860c97b81d5eaea1350f90f11b6840d4da23d7f", "scripts/build_hr_v4_20261029.py": "a7363e53e86743f5c17b1f11eae6ebc3fa6f332f49b83b0c41d7dac104ca6acb"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_v5_2026-10-29/docs/FINAL_VERIFICATION.json": "587dd6703c0caf76620eca77ac65b18a5265008dbd0830eb05a8882eb3cf6bf0", "PCOS_HumanReproduction_v5_2026-10-29/docs/DELIVERY_MANIFEST.json": "2d1f7dd178cad3177ef9b0425cefc1d35aa0ae790f1366473a03dfccb2066cb8", "PCOS_HumanReproduction_v5_2026-10-29/output/PCOS_HumanReproduction_v5_Complete.zip": "7fc2869d61b01291a009642bd856e2f82859617768af6100a48acd10911c5bdb"}`。
+
+错误/解决办法：初次构建核验成功。最后将UN historical observations改为historical estimates、prior published改为archived，清除独立表格默认标题线；已重建并逐页检查最终文件。渲染器部分PNG采用page000N-N名称，按页序规范化私用QA文件名后检查，不改变稿件。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-29T20:33:26+01:00 — 独立v5最终制品与同步
+
+Human Reproduction独立v5已完成四项技术修改：42字符短标题、可核实AI声明、3项数据/代码引用及固定研究快照、补充稿制作措辞清理。Word主稿21页、补充20页、附信1页（另有独立表3页）；TeX PDF为19/19/1页。84页均已逐页检查。7编号公式、56原生数学对象、13表161正文行和12图保留；主稿22/补充2/附信5处XX保留。v4全部89文件哈希不变。66条GitHub路径、20个Drive独立文件及完整包78成员已字节核验。制品提交 `07b3a3e305e98770117b81fbed340090150b493c`；Drive：https://drive.google.com/drive/folders/1SDO13cK9jCLY_bnfcahHX97Isg5Ju1jU。
+
+真实成功事件hr-v5-technical-20261029及hr-v5-final-20261029：exit=0、verification=[0]。输入/代码/输出SHA-256、原始命令、旧本地代码基线和dirty状态见EXECUTION_RECORD及FINAL_EXECUTION_RECORD，制品提交见上。初稿成功后修正UN historical observations→estimates、prior published→archived，并清除独立Tables.docx默认标题装饰；重新生成、编译及渲染后全部通过。渲染PNG偶有page000N-N命名，规范化私用QA文件名后打开，不修改稿件。
+
+实际最终Word渲染命令：
+
+`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Manuscript.docx --output_dir .shared_context_runtime/v5/final_main --emit_pdf`
+
+`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v5_2026-10-29/word/PCOS_HumanReproduction_v5_Supplement.docx --output_dir .shared_context_runtime/v5/final_supplement --emit_pdf`
+
+`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v5_2026-10-29/submission/Cover_Letter.docx --output_dir .shared_context_runtime/v5/final_cover --emit_pdf`
+
+`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v5_2026-10-29/submission/Tables.docx --output_dir .shared_context_runtime/v5/clean_tables --emit_pdf`
+
+TeX三稿经tectonic真实编译成功，以pdftoppm -scale-to 1800 -png逐页渲染；45页Word校对页及39页TeX PDF均打开检查，页图哈希见VISUAL_QA。lineno包UTF-8注释警告及Underfull hbox未伴随可见缺字/溢出；无Overfull/未定义引用。单独表格与主稿逐单元格一致，无未处理批注/修订。无raw/processed研究数据变更，DATA_CATALOG不变。投稿系统未访问、未提交。
