@@ -18,3 +18,6 @@ GitHub：https://github.com/jiabao1314/PCOS/tree/main/00_Shared_Context
 原始研究下载保存Galaxy PCOS history；许可原件留档，结果与论文双存Drive/GitHub。患者原件只留既有私人位置，公开库仅代码与许可允许的汇总。不得把患者数据、凭证或许可GBD原件写到公开共享记录。
 
 Google Drive共享文件不是自动同步的全部ChatGPT/Codex聊天历史。没有授权接口时不尝试绕过权限读取完整历史；以已经保存且核验的交接记录为准。项目指令文件已生成不等于项目设置已应用；只有实际设置和来源读取验证后才能称已生效。
+
+
+用户确认的论文文件命名规则（2026-10-29）：今后新生成的论文相关交付文件名必须以实际生成/修订日期的八位YYYYMMDD加下划线开头，例如20261029_PCOS_HumanReproduction_v6_Manuscript.docx；同一版本的主稿、补充稿、投稿附信及其Word/PDF/TeX和论文交付包统一遵循。日期示例不是固定日期。保留版本标识；不追溯重命名现有文件，除非用户另行要求。

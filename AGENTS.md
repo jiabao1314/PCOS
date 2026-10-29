@@ -6,6 +6,7 @@ The user confirmed on 29 October 2026 that these storage rules remain in force:
 - Verify writes and report any incomplete synchronization honestly.
 - Retain licensed original GBD data in the research archive; use aggregate derived results and code for the public repository in accordance with the existing project practice.
 - Preserve older manuscripts and results when making dated revisions.
+- User naming preference confirmed 29 October 2026: prefix every newly generated manuscript-related deliverable filename with its actual creation/revision date as YYYYMMDD_ (e.g. 20261029_PCOS_HumanReproduction_v6_Manuscript.docx). Apply consistently to main manuscripts, supplements, cover letters, Word/PDF/TeX deliverables and manuscript delivery archives. Keep version labels. Do not retroactively rename existing files unless requested.
 - Manuscript author, affiliation, correspondence, funding and competing-interest XX placeholders are intentionally left for the user to complete at submission. Do not ask for them again or block revisions on them.
 
 Galaxy PCOS history: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33ad5abd2b59708ab6e
