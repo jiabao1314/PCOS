@@ -1,0 +1,15 @@
+# Human Reproduction v4: scientific positioning and preparation
+
+Prepared 29 October 2026. v3 is preserved byte-for-byte. No submission or email sent.
+
+1. Actual use case and prior evidence: the Introduction defines longitudinal monitoring against a contemporary population-pooled fixed country set. Supplementary Table S9 compares the verified aims of Liu 2024, Liang 2025 and Liang 2026, with full-text/abstract access limits. It does not allege earlier national ASPR comparisons used our pool or were erroneous. No exhaustive priority or new-method claim is made.
+2. Primary estimand: change from 1990 to 2023 in total PCOS-attributed infertility China-minus-18-country age-standardized difference under contemporary GBD shares. Subtypes, UN shares and other benchmarks are secondary and explicitly answer other questions. Target population, outcome, denominator, time, comparison and units are stated.
+3. Algebra versus evidence: the standardization equation and zero-component conditions are mathematical properties. +88.65 and 58.5% are empirical, conditional GBD point-estimate quantities. The lack of aligned posterior draws, signed-denominator cancellation and limits on near-zero signs are explicit. No intervals were fabricated and no new disease observations were added.
+
+Journal preparation: dated May 2026 extended abstract with separate FUNDING and DISCLOSURES; five keywords; author-date alphabetized references; authors' roles directly after Discussion; separate ethics subsection; Data availability; right-top page numbers; continuous line numbers; main figure Alt text. Existing five numerical figures and three tables retained. Endometriosis is confined to the supplement. Production-history narration removed from main scientific methods.
+
+The article PDF is a review copy with figures/tables embedded for reading. Editable Tables.docx and high-resolution separate figure TIFFs are supplied. TeX is the authoritative editable article; a full Word article has not been produced. The journal's current upload guidance discourages LaTeX because automatic PDF conversion is unavailable. Before eventual submission, the corresponding author should use the portal's supported route or convert and proofread the complete article in Word. This is a remaining packaging step, not a scientific result.
+
+Remaining author tasks (intentionally not blocking this revision): fill XX identity/affiliation/ORCID, author-specific contributions, funding/disclosures; establish institutional ethics-review applicability; obtain all author signatures and final approval; verify exclusivity/related preprints. No approval, absence of conflicts or exclusivity is asserted. Joint posterior uncertainty remains scientifically unavailable; these revisions improve positioning without converting the study into a clinical validation or a guaranteed Q1 acceptance.
+
+No new raw/processed research data: DATA_CATALOG unchanged. All numerical table fragments and figure PDFs are identical to v3. Reproducibility code/results remain in PCOS_Revision_2026-10-29, referenced by the archive. Private licensed raw files remain in the existing archive.

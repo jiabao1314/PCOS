@@ -1,0 +1,527 @@
+{
+  "licensed_raw_GBD_included": false,
+  "country_age_source_cells_included": false,
+  "patient_data_included": false,
+  "files": [
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/README.md",
+      "bytes": 1569,
+      "sha256": "bda2cf4ed2031a441eefe1e0f2277df9ab18547bdac45fb377e7567bd2cdbf65"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/CHANGES_AND_PRE_SUBMISSION_ZH.md",
+      "bytes": 3137,
+      "sha256": "c5c39aa5702968f9c08d5944c9c27435081bf5846e896a213874e68db720f047"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/DOCUMENT_AND_SCIENCE_QC.json",
+      "bytes": 2589,
+      "sha256": "f473e765804d618560e76ea23096b084a0ee4eaa4ac0ad8bfabf13fd58c9207e"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/EXECUTION_RECORD.json",
+      "bytes": 4721,
+      "sha256": "810e3e28884bb8d032a966deeec2d52b4b7268ea8c5e57060bd9645667f68065"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/FINAL_VERIFICATION.json",
+      "bytes": 2589,
+      "sha256": "f837c5767a6f253cb59566ff68b37534518bf21637ffe1f6731df66dee1f7abd"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/FINAL_VERIFICATION_RETRY.json",
+      "bytes": 2589,
+      "sha256": "f473e765804d618560e76ea23096b084a0ee4eaa4ac0ad8bfabf13fd58c9207e"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/HR_REQUIREMENTS_AND_EVIDENCE.json",
+      "bytes": 2824,
+      "sha256": "11598908c6258aa14dc4bd79520a5dcfe1b61bb5d5cabfbf1aa14a789a43fc64"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/SUBMISSION_READINESS_ZH.md",
+      "bytes": 3031,
+      "sha256": "80d504148cf92a3bb46d83e35d9782448503431bc69dd76c0deee9cc7b24f010"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/docs/V3_PRESERVATION_BASELINE.json",
+      "bytes": 7100,
+      "sha256": "193db5193d86775fceb0c4571fa5cc0dee4afa7533a1cc4906f1f141c00dc98e"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/cover_letter.tex",
+      "bytes": 3058,
+      "sha256": "f7e1099ac31a6968424c5ffa22d6953f5a72bc65d53fd4b7fe86f776d4bc64ba"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure1_PCOS_trends.pdf",
+      "bytes": 14189,
+      "sha256": "8af120e00eb5a0aeb87d747903900201d664dd3edaf9213b12a204b4cac2f9f2"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure1_PCOS_trends.png",
+      "bytes": 86460,
+      "sha256": "1a33085e7426d120855a109818272204c9ffdf39371f84de0d2b64195ce6a4cf"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure2_PCOS_subtypes.pdf",
+      "bytes": 13326,
+      "sha256": "3d197c8a9a468859e02265b6a33d676ceb94a5ad82289c8c031dd1d55f499fd9"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure2_PCOS_subtypes.png",
+      "bytes": 90451,
+      "sha256": "49c46f01048a7e0c5f0952a61092b42633c19c94f92d1c0d2c43299f060bc94d"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure3_decomposition.pdf",
+      "bytes": 14244,
+      "sha256": "a4043017e58d32adacf3aa38bdd2aa429f30c330a490f6ae38f722646b1abbd1"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure3_decomposition.png",
+      "bytes": 53229,
+      "sha256": "bcfa95341b505d4ddf46db1dcb466acd71ba813cae205d29c0628db044134e8a"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure4_population_source.pdf",
+      "bytes": 14754,
+      "sha256": "4ab3d8c37525d4b13270e7f26ceb82217e7186f1573865dcf40979c874264f35"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure4_population_source.png",
+      "bytes": 90883,
+      "sha256": "92e3457a2cbe84083acd16355e1efea6ca83cc4000b20743ab4efd59e2f881ae"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure5_benchmark_sensitivity.pdf",
+      "bytes": 14056,
+      "sha256": "97617555192b4d40b3182d12d94b1a956247209cbb06fff9e96ef17b95388b0d"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/Figure5_benchmark_sensitivity.png",
+      "bytes": 46513,
+      "sha256": "de0c408d14dfe0c3c06e1756b1e3d1d90d6ce355a02213bc1c5a2468a4df0a87"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS1_reference_exclusions.pdf",
+      "bytes": 15683,
+      "sha256": "924a4f3db85560d3ce2c8baea4982b2accbfe4aa68c311a756b21c2ef43a9fcb"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS1_reference_exclusions.png",
+      "bytes": 91167,
+      "sha256": "ba6d205e6152b13e22d42bef2446241ee4bb82071878249ebd8439dc99cd96f9"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS2_benchmark_trajectories.pdf",
+      "bytes": 14092,
+      "sha256": "b0be9660e1f9b38f1fab107d83d5d6443e9d6c22b61c27acc8e94f8fec275305"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS2_benchmark_trajectories.png",
+      "bytes": 103550,
+      "sha256": "62f7d0fe7e4c3aa538b6abd55aab959f401d20287963f256cdcb27c7d35a5a17"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS3_composition_sensitivity.pdf",
+      "bytes": 16512,
+      "sha256": "74c7f2a09b3009efbc16762b290b9e0c47c42992ffbed2faf22c4186835b7dfa"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS3_composition_sensitivity.png",
+      "bytes": 94639,
+      "sha256": "5c01ac0d621768d3e9f236009326e4f3d6096e0f9f605b06ab16116f4451119c"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS4_endometriosis_trajectory.pdf",
+      "bytes": 10836,
+      "sha256": "c47e5b5dab7e3c25fbb6981c2b574f4bb783e1c1fbdaaecb948fbb3034bcb933"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS4_endometriosis_trajectory.png",
+      "bytes": 56511,
+      "sha256": "4077b7fdf2a5d0a66cc68b25fa268c2b6a61783ea89f68f21a19f9f33822b49a"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS5_country_shifts.pdf",
+      "bytes": 15215,
+      "sha256": "27eca824c96c1d7acf3fdfbd962ea1170e1166e2426b67d20a869ee35e9fb15c"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS5_country_shifts.png",
+      "bytes": 64656,
+      "sha256": "9010117947ae4dad7e5ceddabc124e6a58302707fdc22a47d10a95f16cd3eb2e"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS6_terminal_country.pdf",
+      "bytes": 15147,
+      "sha256": "0eebdf059c46c1bb1b23fc6bd4237eb00e7d76a05b16f6e6529a5c9bd6947490"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS6_terminal_country.png",
+      "bytes": 64828,
+      "sha256": "b644708d9695b25fd323dfd6554c9a45b6b9363d29dc09926640d906edc30f34"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS7_terminal_age_type.pdf",
+      "bytes": 10795,
+      "sha256": "a46abef801dd9417855d19e52937483efc2841d386b982679bd3c96b05fe7053"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/figures/FigureS7_terminal_age_type.png",
+      "bytes": 31730,
+      "sha256": "42b033c0a036732bfa5cd2dd8614a8c0b433c54edd50e2316e657ffc132752c3"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/main.tex",
+      "bytes": 36333,
+      "sha256": "85c845ef11fcea00c71a079d8815996d4ad9fa68447b1cf4c1c3dea62d27ff28"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/supplement.tex",
+      "bytes": 18835,
+      "sha256": "07b2c458412752a2528e0dd4eac5f0cefb19840f50355e199fa382ab2ebe3a69"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/benchmark.tex",
+      "bytes": 285,
+      "sha256": "24fd4ce09f5b1919945407224afbf1a9c28d4385d9da20a6bf4fb3325ac02986"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/decomposition.tex",
+      "bytes": 345,
+      "sha256": "a5eb811427b12dab42a8412f86b519a988c3dd9629efaf92190d8ddb1f8b3ab6"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/prevalence.tex",
+      "bytes": 326,
+      "sha256": "689c14a9b487e60f34eab15e8a259df4f4f40a73025fd8822997bef01b3f79c8"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s1_endpoints.tex",
+      "bytes": 368,
+      "sha256": "5a1dfbd028c429e4cb3b618bb143138fe7655869a0cb75607d2da7e58d015a02"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s2_sensitivity.tex",
+      "bytes": 2150,
+      "sha256": "89938ebff929b19a79a552d7a844eb14a80941a3e2e4b7c0609a97a288877c8f"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s3_age.tex",
+      "bytes": 1134,
+      "sha256": "31ddcc211c3b459c45a3c0d7d753898a285c708d3cfcb6aa2681f008ba1e79ad"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s4_chained.tex",
+      "bytes": 676,
+      "sha256": "f399941f6f2f8936b00feb3eb67270e34d4590fcf021a155008025d222113b9f"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s5_population.tex",
+      "bytes": 187,
+      "sha256": "b1223c376ea87888fdabfe73a38067d823512834f3ffaa42cc55a116194b194f"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s6_rate_conventions.tex",
+      "bytes": 88,
+      "sha256": "771c4bcdfef5461602b7c3e574eb075fda70abbfd642b29724a6490e41f17ede"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s7_terminal.tex",
+      "bytes": 561,
+      "sha256": "f92d0a97b4c835f4d8803027abe59525af1b5585c41ab46c2ba81ff17d5087ac"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/manuscript/tables/s8_rounding.tex",
+      "bytes": 632,
+      "sha256": "f55008b295a690bc6d0c70df02939d7586651633eb7556d1116638f444210f25"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/output/HumanReproduction_Cover_Letter_v4.pdf",
+      "bytes": 14890,
+      "sha256": "be58f586b597ac70d183a64558435bc387fd9b7d2fb888ef89efc39f18058b7a"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/output/PCOS_HumanReproduction_v4.pdf",
+      "bytes": 139557,
+      "sha256": "77467c3786e12e102c4bf58ecaf72a6789e7369b37a7ba9f87dc532ecfe0450b"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/output/PCOS_HumanReproduction_v4_Supplement.pdf",
+      "bytes": 130903,
+      "sha256": "6509f2605701edfd0e280cf31b673fc5de0c6141a1826199b7f1d640a0050c66"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/Cover_Letter.docx",
+      "bytes": 38589,
+      "sha256": "9d5ea69a81dfb353fe8c65a2292e7f05ca4a3b7400828050dcf036a871db2e23"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/Tables.docx",
+      "bytes": 38632,
+      "sha256": "0e2adf16312b1aa286e0593ca4f7a275f8e3953c2bb6d4c836acadc4320fe668"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/Figure1_PCOS_trends.tif",
+      "bytes": 2082538,
+      "sha256": "803e4c9daf1b78bcbdacd39392ea332bb976455143eac14ccff87bc056381e05"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/Figure2_PCOS_subtypes.tif",
+      "bytes": 2280954,
+      "sha256": "f0f741520f9576f74855bdc6a9eca3049e1eea6b863a186c79a5b97e1cdd197c"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/Figure3_decomposition.tif",
+      "bytes": 2881032,
+      "sha256": "02df08aabbefc1d3d248ad5889f06dae8f986156c4d693c97d3e02faab84add7"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/Figure4_population_source.tif",
+      "bytes": 3326912,
+      "sha256": "b91ef8611bd4731993f2d4aa7fbbdbe042bb33869e6a7b586b65cffd95d24161"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/Figure5_benchmark_sensitivity.tif",
+      "bytes": 2595938,
+      "sha256": "53e64d4ffc4afa51a92dcf0c4d7fd357c78840e53a2daed3254e4219d93e53a6"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/FigureS1_reference_exclusions.tif",
+      "bytes": 4224836,
+      "sha256": "b84fbe56e84be58830c5e2a6f2ba3c5aa589f818097b4f8819289e26da3b6a2b"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/FigureS2_benchmark_trajectories.tif",
+      "bytes": 2561426,
+      "sha256": "02e5288199c6631b77c9b8e8c8742a0182577c15e5325e3add3b9ea01c9f13c1"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/FigureS3_composition_sensitivity.tif",
+      "bytes": 4466194,
+      "sha256": "e6f4cf8c858c2595a77147e5980dcd881b049a982d14f2d01c77082ff01f6fc7"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/FigureS4_endometriosis_trajectory.tif",
+      "bytes": 1786764,
+      "sha256": "98908b16bf3d0a86986bab834a4d1a63056830a43959ed1a4e48b617201320f3"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/FigureS5_country_shifts.tif",
+      "bytes": 3187104,
+      "sha256": "a749fbceb6385ebbcba6dcd31ea4a93175cae61453a69f62ee4811b9deee0bf7"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/FigureS6_terminal_country.tif",
+      "bytes": 3180080,
+      "sha256": "7c29d0a6c12bfc64a64fb7b7e4e030dedd0f2bedf77f90f3fea7cb3860a52097"
+    },
+    {
+      "path": "PCOS_HumanReproduction_v4_2026-10-29/submission/figures/FigureS7_terminal_age_type.tif",
+      "bytes": 2884630,
+      "sha256": "40a776f549ee4bf851778d8ff206f53df0da6abd9e257c89bd51f43ce263342a"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/README.md",
+      "bytes": 4282,
+      "sha256": "d77d52bd5b414ca8b297fea4c627159f3c100ab6b5c7daa97366e6de5276f345"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/code/PCOS_NewArticle_complete.R",
+      "bytes": 9006,
+      "sha256": "31508e785aa63c15bc7b3d04faa474775aec7681ff1e21d2982519365ede831e"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/code/PCOS_NewArticle_complete.py",
+      "bytes": 11881,
+      "sha256": "96dc848c7ea9080a297d347c9857a6700da9f0af48728fcc82b50cf676e2fe43"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/code/extract_wpp2024.py",
+      "bytes": 3800,
+      "sha256": "3fa4866d460ede2e0d7a40c07e6549c82cd175528173833a8ff09e8402342057"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/code/package_revision.py",
+      "bytes": 2956,
+      "sha256": "122e27f49f3b33056c16686d9f2e969b63bb2b9c689a5443291af0dd6a43db7a"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/code/revision_analysis.py",
+      "bytes": 20179,
+      "sha256": "b82d9dddd971d25ba0261923799e87308bd94865d0dbe02d55b827d04c13db01"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/code/verify_revision.py",
+      "bytes": 3984,
+      "sha256": "680a849fbd9f2cc098265828f8f89282d003e4b0434ca157f79bda39fe94541d"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/data/input/UN_WPP2024_G20_female_15_49_1990_2023.csv",
+      "bytes": 344829,
+      "sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/data/input/UN_WPP2024_source_manifest.json",
+      "bytes": 970,
+      "sha256": "437240da1b218808563763424772ffc1f0c6fd683e956a01a44cc8f8c9d29033"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/data/input/weights.csv",
+      "bytes": 121,
+      "sha256": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/data/published_expected/all_annual_benchmark_aspr.csv",
+      "bytes": 152278,
+      "sha256": "84def8c966a4e821befd0cca83c1b475a9d5af6fa9d88b22db2afb56c018268b"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/data/published_expected/leave_one_country_out.csv",
+      "bytes": 22645,
+      "sha256": "eb3e66b193a6e81edd455e888d6e39bab47ecbf87136788a4f95c77fc98a993e"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/data/published_expected/qc_summary.json",
+      "bytes": 1608,
+      "sha256": "6384faa94f55ac35ad0baae812e429c342d71a29f6d3274437f00e05ae2fabe5"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/data/published_expected/symmetric_decomposition_1990_endpoints.csv",
+      "bytes": 6504,
+      "sha256": "19e22c8904d4b23bb50b2586c76118575991e4fa027f685e334acd2f284dabe9"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/docs/DATA_ACQUISITION.md",
+      "bytes": 2889,
+      "sha256": "0d657f44d5f9c18e9c2d19408c2d1dbb36d847a327db6b1d4b529ab1f9e8be17"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/docs/R_Python_crosscheck.json",
+      "bytes": 513,
+      "sha256": "fa0fbb7b5bd36e7699186ef7cf6a32eba3e6cabb02e27df9335569fdebea608d"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/docs/input_manifest.json",
+      "bytes": 1095,
+      "sha256": "96a1ac29bda9d126d3bd461f38d02c49dfbadc724c3b728487285233fa54884b"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/docs/revision_analysis_qc.json",
+      "bytes": 1207,
+      "sha256": "defef1dcf6b8cf1a31368f1795ab273cbd11f2bff3688e99d29d2e081eb20fc8"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/requirements.lock.txt",
+      "bytes": 1888,
+      "sha256": "2a00f67cbcfa8be9162cf7519e58e7704f5653919b46b13760378cf83515f14b"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/requirements.txt",
+      "bytes": 59,
+      "sha256": "f53f9f3dd77e35129678ec954ecaa0d017a538078b98f442751bdb7a870ec275"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/R/all_annual_benchmark_aspr.csv",
+      "bytes": 155316,
+      "sha256": "ed0921abc4ccea8b69015e663574f0668f0b6bebbca651614353bfaad0531575"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/R/annual_chained_decomposition.csv",
+      "bytes": 1725,
+      "sha256": "f385ed5145feb93b1fd9279e4cb6d8ea0de7be57e6960f57ea18702be5f554cd"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/R/leave_one_country_out.csv",
+      "bytes": 23387,
+      "sha256": "323ccb99f8d96282fbdba6ba35b205ac7dcebc65ce0e6f6f4b4521c348b749b3"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/R/published_result_checks.csv",
+      "bytes": 209,
+      "sha256": "78e52a0d4ad4f5a5992d46717db8219b31004893cd18fd18430991681b7a4845"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/R/qc_checks.csv",
+      "bytes": 167,
+      "sha256": "9e2324b9ae8264481abbba5f253815a2b163e825e0e93fd983de1cae39c683d7"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/R/symmetric_decomposition_1990_endpoints.csv",
+      "bytes": 6365,
+      "sha256": "cd600e5282733ebead3b4c53f9a59f22bb4526bf2e89d2948a805ced3aa8fd8a"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/age_decomposition.csv",
+      "bytes": 32081,
+      "sha256": "a52202aecd3beb00473816dc54fe296e465597c880299951bd2b3c8e6cf4b487"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/age_weighted_reference_shifts.csv",
+      "bytes": 2956,
+      "sha256": "8e611292edfceb78e8a8e7b6aa2b564b5875c466941dbe6b776d8f45e0ee6dbe"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/all_annual_benchmark_aspr.csv",
+      "bytes": 152282,
+      "sha256": "942f16120889db8bf03f7cc3b2185f38cbae96cd60640b1fffcc897ee524f40a"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/annual_chained_decomposition.csv",
+      "bytes": 1728,
+      "sha256": "c0a35d11f7d90c3f83a509447f3283c9be3ae0159bccf274279595d03091a949"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/composition_sensitivities.csv",
+      "bytes": 313359,
+      "sha256": "169a7041a361bab68b18095332c7ee132a6e687b0f2187259d0beede0a84f09e"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/endometriosis_terminal_age_type.csv",
+      "bytes": 1000,
+      "sha256": "4c50204bb4bc2d25fad62de90237886704c3bd23564cb8e406203c0d43541a04"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/leave_one_country_out.csv",
+      "bytes": 22643,
+      "sha256": "7c26d571ad15b8b06e5350b42f9c9e14840170f23fc452f624be1eab1e2e896d"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/national_annual_standardized.csv",
+      "bytes": 388483,
+      "sha256": "e13082da0090489afeb24f78a1cccd7abc1b2d58e2614aa1960d7696d9524a87"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/population_share_TVD.csv",
+      "bytes": 6906,
+      "sha256": "d9f1149210ff3055a1a37522f1327cd932ecd8c495be6597683b887c0025fa5e"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/standard_weight_rounding.csv",
+      "bytes": 1933,
+      "sha256": "fdb414d68f9f3a625d3ea36045f4d29ed0fe94fc3487f55784ddf42ec6f0936c"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/symmetric_decomposition_1990_endpoints.csv",
+      "bytes": 6497,
+      "sha256": "3a3be73287981b762e9dad4151c9e04ac33d559f0a4b3f9996f2028a84dde0bf"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/results/python/terminal_year_audit.csv",
+      "bytes": 13703,
+      "sha256": "1bbf872d42e74a8fb80d97deb2d5f7eb59983fbe625ae43a9e17206bb3f9b2e1"
+    },
+    {
+      "path": "PCOS_Revision_2026-10-29/run_revision.sh",
+      "bytes": 785,
+      "sha256": "1431c3e3ed87fda2cc38e345f49cedfc15a391294664ae0ac3761727f2d9d03e"
+    },
+    {
+      "path": "scripts/build_hr_v4_20261029.py",
+      "bytes": 43396,
+      "sha256": "a7363e53e86743f5c17b1f11eae6ebc3fa6f332f49b83b0c41d7dac104ca6acb"
+    }
+  ]
+}

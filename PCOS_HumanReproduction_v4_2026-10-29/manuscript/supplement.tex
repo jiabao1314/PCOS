@@ -1,0 +1,178 @@
+% HUMAN_REPRODUCTION_V4_SUPPLEMENT
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo,amsmath,amssymb,graphicx,booktabs,longtable,array,caption,setspace,microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{placeins}
+\usepackage[mathlines]{lineno}
+\setstretch{1.15}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\captionsetup{font=small,labelfont=bf}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small GBD 2023: infertility contrasts}\fancyhead[R]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{2em}
+\newcommand{\ASPR}{\mathrm{ASPR}}
+\title{Supplementary data: Reference-country composition and PCOS-attributed infertility}
+\author{Companion to Human Reproduction v4}
+\date{29 October 2026}
+
+\hypersetup{hypertexnames=false}
+\begin{document}\maketitle\thispagestyle{fancy}
+\renewcommand{\thetable}{S\arabic{table}}\setcounter{table}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}\setcounter{figure}{0}
+\section{Scope and computational audit}
+This supplement documents the secondary computations accompanying the main article. The primary estimand is the 1990--2023 change in the total PCOS-attributed infertility difference under contemporary GBD reference shares. Numerical assets are reused from the independently verified analysis. This revision changes scientific framing and reporting, without introducing new observations or reestimating the upstream GBD model.
+
+The GBD inputs comprise total burden export \texttt{1b13e337}, matched population \texttt{916826fb}, annual primary/secondary Number export \texttt{416daf73} and separate endpoint Number/Rate export \texttt{76c5523c}. The full filenames, query specifications and SHA-256 values are in the accompanying README, input manifest and data-acquisition document. Expected coverage is 19 countries by 34 years by seven ages: 4,522 population cells under each source and 27,132 prevalence cells across two causes and three infertility types. The original GBD burden/stratum exports also contain other measures/metrics; the focused analysis selects prevalence counts and reconstructs rates from matching GBD populations.
+
+The 1,064 original endpoint subtype rates agreed with the reconstructed rates to within $1.16\times10^{-11}$ per 100,000. Core R/Python outputs agreed within $5.69\times10^{-13}$. The 1,440 decomposition sensitivity rows passed the exact additive identity with maximum residual $1.99\times10^{-13}$. Numerical tolerances are stated in code; no artificial research observations were created. The prior published aggregate tables are used only for post-computation regression checks, not to generate results.
+
+\section{Sensitivity definitions and interpretation}
+Country exclusions renormalize within-age shares among the remaining reference countries. The age-20--49 specification sets the age-15--19 weight to zero and renormalizes the remaining six standard weights. Core sensitivity scenarios use both GBD and UN shares, 1990 or 2010 start years, and 2021, 2022 or 2023 endpoints. Complete results are in \texttt{composition\_sensitivities.csv}; Table~\ref{tab:s2} displays 1990--2023 total PCOS results. A 2021 endpoint always uses GBD 2023 estimates for 2021, not a previous GBD release.
+
+The symmetric identity is applied within age and subtype. Table~\ref{tab:s3} displays age-by-type components for the GBD main reference. Annual chaining applies the same identity to each consecutive year, then adds components from 1990 to 2023 (Table~\ref{tab:s4}). For total PCOS under GBD shares, chaining gives +87.11 for reference composition rather than +88.65 from the endpoint calculation, while the net change remains +151.54. Neither path is an uncertainty interval.
+
+Total-variation distance between GBD and UN reference-country share vectors is one half of the sum of absolute country-share differences for each age and year (Table~\ref{tab:s5}). Age-weighted national shares used in Figure~\ref{fig:s5} average the age-specific country proportions using the same fixed standard age weights. They are descriptive summary weights, not actual pooled all-age population percentages.
+
+The seven unnormalized published standard weights are 0.082891, 0.078012, 0.075914, 0.073217, 0.068281, 0.061474 and 0.055113, summing to 0.494902. We normalize them over ages 15--49. Using them without renormalization multiplies restricted-age standardized rates by 0.494902 (Table~\ref{tab:s6}). These conventions must not be mixed. Table~\ref{tab:s8} evaluates all 128 corner perturbations of the unnormalized weights by half the last published decimal before renormalization. This rounding envelope quantifies numerical precision sensitivity alone.
+
+\section{Endometriosis terminal-year audit}
+The endometriosis example is secondary. China's modeled restricted-age standardized rate increased from 43.13 to 53.30 per 100,000 in 2022--2023, or +23.58\%. The absolute increment was +10.17; primary and secondary contributions were +0.74 and +9.43. The historical maximum positive annual change over the preceding 1991--2022 intervals was +1.56\%. Selected other 2022--2023 changes were +14.82\% in the United States, +11.93\% in Japan and $-0.41$\% in the Republic of Korea. All 19 countries appear in Table~\ref{tab:s7} and Figure~\ref{fig:s6}; the within-age/type accounting appears in Figure~\ref{fig:s7}.
+
+These are repeated computations from the same GBD release. They establish source-output concordance, not independent epidemiological corroboration, a pandemic effect, a new biological event or a clinical mechanism. The endometriosis net China-minus-reference change over 1990--2023 is small, so its decomposition percentage would be unstable; absolute components are provided in the machine-readable results. No mechanism is inferred for the final-year jump.
+
+\section{Joint uncertainty and acquisition status}
+The accessible GBD input files provide point estimates and marginal lower/upper limits, without draw columns. No provider-confirmed jointly aligned posterior array covering this analysis was found in the available local files or connected Drive search. A previous acquisition audit and a specification for a potential official request are retained with the code. The present revision did not receive new posterior draws and did not send a new request. Attempts to revisit the official online guide/catalogue during this revision returned access errors; this is not evidence that such draws do not exist or can never be supplied.
+
+Until official joint alignment is confirmed across countries, ages, years, types and any uncertain denominators, the covariance of custom pooled estimates remains unknown. Original marginal limits must not be added or simulated independently to manufacture intervals. G20 resampling measures a different, hypothetical country-selection process. UN share replacement assesses benchmark construction, not GBD posterior uncertainty. All custom contrasts, components, rankings and ratios remain descriptive point estimates. If draws are obtained, recompute each entire formula within each draw and report posterior quantiles, alongside diagnostics for near-zero net-change denominators.
+
+\section{GATHER reporting map}
+The map below concerns secondary calculations and does not claim replication of GBD's upstream evidence synthesis. Author-provided declarations remain XX at the user's request for completion at submission.
+\small
+\begin{longtable}{p{.06\textwidth}p{.28\textwidth}p{.55\textwidth}}
+\toprule Item & Topic & Location or limitation\\\midrule\endhead
+1 & Indicators/populations & Main Methods: females, ages, years, countries, infertility types and cause IDs.\\
+2 & Funding & Main Funding section: XX pending author completion.\\
+3 & Data identification & Official GBD and UN resources; acquisition specifications and hashes.\\
+4 & Inclusion/exclusion & Complete fixed country set; explicit sensitivity removals and age restrictions.\\
+5 & Source characteristics & Modeled GBD outputs and UN population counts; original evidence belongs to GBD.\\
+6 & Input bias & Main Discussion: heterogeneity, cause allocation, denominator and model limitations.\\
+7 & Other inputs & Matched populations and published rounded standard weights.\\
+8 & Input access & Galaxy source archive, IHME acquisition instructions and public UN subset.\\
+9 & Conceptual overview & Main equations: pooling, standardization, contrast and symmetric decomposition.\\
+10 & Analytical details & Main Methods, this supplement and executable code.\\
+11 & Model selection & No fitted trend/forecast candidate selection in this focused revision; benchmark definitions are explicit.\\
+12 & Evaluation & Deterministic sensitivity outputs, official endpoint checks and R/Python comparison.\\
+13 & Uncertainty approach & No joint draws; no custom posterior intervals.\\
+14 & Source code & Reproducibility archive and versioned GitHub repository.\\
+15 & Estimates & Aggregate CSV results and generated tables.\\
+16 & Quantitative uncertainty & Incomplete: available marginal limits do not identify derived uncertainty.\\
+17 & Interpretation & Main Discussion and established Kitagawa literature.\\
+18 & Limitations & Main Discussion and uncertainty section above.\\\bottomrule
+\end{longtable}\normalsize
+\clearpage
+\setcounter{table}{0}
+\small\begin{longtable}{llrrr}
+\caption{Endpoint sensitivity of total infertility under contemporary GBD shares.}\label{tab:s1}\\
+\toprule Cause & Year & China & Reference & Difference\\\midrule\endfirsthead
+\multicolumn{5}{l}{\textit{Table \thetable\ continued}}\\\toprule Cause & Year & China & Reference & Difference\\\midrule\endhead
+\input{tables/s1_endpoints.tex}
+\end{longtable}\normalsize
+{\small Rates/differences per 100,000 females, standardized within ages 15--49. All years come from GBD 2023.}
+\clearpage
+\small\begin{longtable}{llrrr}
+\caption{Reference-composition sensitivity for total PCOS, 1990--2023.}\label{tab:s2}\\
+\toprule Shares & Specification & Net change & Share term & 100S/net\\\midrule\endfirsthead
+\multicolumn{5}{l}{\textit{Table \thetable\ continued}}\\\toprule Shares & Specification & Net change & Share term & 100S/net\\\midrule\endhead
+\input{tables/s2_sensitivity.tex}
+\end{longtable}\normalsize
+{\small Country-exclusion rows omit one reference country and renormalize shares; ages 20--49 renormalizes the age standard. The last column is a signed accounting ratio in percent, not an uncertainty interval.}
+\clearpage
+\small\begin{longtable}{llrrrr}
+\caption{GBD-share age-by-type decomposition of PCOS contrast changes, 1990--2023.}\label{tab:s3}\\
+\toprule Type & Age & China rates & Ref. rates & Ref. shares & Net change\\\midrule\endfirsthead
+\multicolumn{6}{l}{\textit{Table \thetable\ continued}}\\\toprule Type & Age & China rates & Ref. rates & Ref. shares & Net change\\\midrule\endhead
+\input{tables/s3_age.tex}
+\end{longtable}\normalsize
+{\small Contributions per 100,000. Age/type contributions add exactly before rounding.}
+\clearpage
+\small\begin{longtable}{lllrrr}
+\caption{Annual-chained decomposition summed across 1990--2023.}\label{tab:s4}\\
+\toprule Cause & Type & Shares & Ref. rates & Ref. shares & Net change\\\midrule\endfirsthead
+\multicolumn{6}{l}{\textit{Table \thetable\ continued}}\\\toprule Cause & Type & Shares & Ref. rates & Ref. shares & Net change\\\midrule\endhead
+\input{tables/s4_chained.tex}
+\end{longtable}\normalsize
+{\small The Chinese-rate component is identical under chaining and endpoint calculation. Results describe accounting-path sensitivity.}
+\clearpage
+\small\begin{longtable}{lrr}
+\caption{Total-variation distance between GBD and UN country-share vectors.}\label{tab:s5}\\
+\toprule Age & 1990--2023 mean & 2023\\\midrule\endfirsthead
+\multicolumn{3}{l}{\textit{Table \thetable\ continued}}\\\toprule Age & 1990--2023 mean & 2023\\\midrule\endhead
+\input{tables/s5_population.tex}
+\end{longtable}\normalsize
+{\small Distances are expressed in percentage points. The simple mean across seven age groups in 2023 is 1.32 percentage points.}
+\clearpage
+\small\begin{longtable}{rrrr}
+\caption{China endometriosis rate-convention reconciliation.}\label{tab:s6}\\
+\toprule Year & Modeled cases & Restricted 15--49 & Unnormalized weights\\\midrule\endfirsthead
+\multicolumn{4}{l}{\textit{Table \thetable\ continued}}\\\toprule Year & Modeled cases & Restricted 15--49 & Unnormalized weights\\\midrule\endhead
+\input{tables/s6_rate_conventions.tex}
+\end{longtable}\normalsize
+{\small Rates per 100,000. The last column equals the preceding column multiplied by 0.494902. This is a numerical convention check, not independent validation.}
+\clearpage
+\small\begin{longtable}{lrr}
+\caption{All-country endometriosis-attributed infertility terminal-year audit.}\label{tab:s7}\\
+\toprule Country & 2022--2023 change (\%) & 1991--2022 max (\%)\\\midrule\endfirsthead
+\multicolumn{3}{l}{\textit{Table \thetable\ continued}}\\\toprule Country & 2022--2023 change (\%) & 1991--2022 max (\%)\\\midrule\endhead
+\input{tables/s7_terminal.tex}
+\end{longtable}\normalsize
+{\small The historical column is the largest signed annual percentage change over 1991--2022. All values are model estimates from one release; no significance test or mechanism is inferred.}
+\clearpage
+\small\begin{longtable}{lllrr}
+\caption{Standard-age-weight rounding envelopes for 2023 rate differences.}\label{tab:s8}\\
+\toprule Cause & Type & Shares & Minimum difference & Maximum difference\\\midrule\endfirsthead
+\multicolumn{5}{l}{\textit{Table \thetable\ continued}}\\\toprule Cause & Type & Shares & Minimum difference & Maximum difference\\\midrule\endhead
+\input{tables/s8_rounding.tex}
+\end{longtable}\normalsize
+{\small All 128 corner perturbations of seven unnormalized weights by plus/minus half the last decimal, renormalized within ages 15--49. This envelope is numerical sensitivity, not a confidence interval.}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.92\textwidth,height=.73\textheight,keepaspectratio]{figures/FigureS1_reference_exclusions.pdf}
+\caption{\textbf{2023 total PCOS differences under country exclusions and age restriction.} GBD population shares; all values are point estimates.}\label{fig:s1}\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.92\textwidth,height=.73\textheight,keepaspectratio]{figures/FigureS2_benchmark_trajectories.pdf}
+\caption{\textbf{PCOS subtype differences under three benchmark definitions.} UN current-year shares, UN fixed-1990 shares and equal-country weights are applied within age. Disease rates remain GBD estimates.}\label{fig:s2}\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.92\textwidth,height=.73\textheight,keepaspectratio]{figures/FigureS3_composition_sensitivity.pdf}
+\caption{\textbf{Signed PCOS composition ratios under reference and age specifications.} The dashed line marks 50 percent, not a significance threshold. The 39.8--67.9 percent range is not a posterior interval.}\label{fig:s3}\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.92\textwidth,height=.73\textheight,keepaspectratio]{figures/FigureS4_endometriosis_trajectory.pdf}
+\caption{\textbf{Endometriosis total-infertility China-minus-reference trajectory.} The highlighted endpoints show why the 2023 near-zero contrast does not summarize a stable trajectory.}\label{fig:s4}\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.92\textwidth,height=.73\textheight,keepaspectratio]{figures/FigureS5_country_shifts.pdf}
+\caption{\textbf{Changes in age-weighted reference-country shares, UN WPP 2024.} Country proportions within age are averaged with fixed standard age weights. These are composition changes, not disease-rate changes.}\label{fig:s5}\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.92\textwidth,height=.73\textheight,keepaspectratio]{figures/FigureS6_terminal_country.pdf}
+\caption{\textbf{Endometriosis modeled rate changes across 19 countries, 2022--2023.} This reproduces the source release. It does not establish an epidemiological event or external validation.}\label{fig:s6}\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.92\textwidth,height=.73\textheight,keepaspectratio]{figures/FigureS7_terminal_age_type.pdf}
+\caption{\textbf{Age and infertility-type contributions to the Chinese endometriosis rate increment, 2022--2023.} Standard-weighted contributions sum to +10.1723 per 100,000. Most of the signed modeled increment is secondary infertility; this is not an etiologic fraction.}\label{fig:s7}\end{figure}
+\clearpage
+
+\clearpage
+\setcounter{table}{8}
+\section*{Prior questions and the present estimand}
+This targeted comparison supports scientific positioning; it is not an exhaustive systematic review or proof that no prior analysis has used similar accounting. Bibliographic details and source URLs are in the companion evidence audit. No pooled-comparator error is attributed to a paper simply because it reports national age-standardized rates.
+\small
+\begin{longtable}{p{.17\textwidth}p{.34\textwidth}p{.39\textwidth}}
+\caption{Questions addressed by selected prior PCOS-attributed infertility analyses and the present study.}\\
+\toprule Study & Verified question or analysis & Relation to the present primary estimand\\\midrule\endhead
+Liu et al., 2024 & GBD 2019 global, regional and national prevalence, YLD and trends, 1990--2019. Published Methods describe direct age standardization. & Provides disease-burden context. It does not establish that a China-versus-18-country pool with our within-age weights was used. We do not reinterpret its individual national comparisons.\\
+Liang et al., 2025 & GBD 2021 burden and trends; the Methods describe a Das Gupta allocation to population growth, ageing and epidemiological factors. & A burden/count change and a national restricted-age standardized-rate difference against a changing pool are different targets. Our share term concerns countries within each age, not changing age structure.\\
+Liang, 2026 & Indexed abstract: GBD 2021 China and worldwide PCOS/related-infertility trends, including Joinpoint and ARIMA. Full comparator construction was not independently verified. & Supports a China/worldwide monitoring use case. No claim about an undocumented pooling formula is made; conclusions here do not test that paper's estimates.\\
+Present study & GBD 2023 China-minus-contemporaneous-18-country pooled total-infertility difference, 1990--2023; fixed age weights. & Primary change and established symmetric allocation to national rates, reference rates and within-age country shares. UN shares test demographic-source sensitivity; fixed-1990/equal-country weights change the target.\\\bottomrule
+\end{longtable}\normalsize
+
+\end{document}

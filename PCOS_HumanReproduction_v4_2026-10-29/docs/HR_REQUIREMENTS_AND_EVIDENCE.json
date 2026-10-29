@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-10-29",
+  "abstract_template_version": "20/05/2026",
+  "official_sources": [
+    {
+      "url": "https://academic.oup.com/humrep/pages/Original_Article",
+      "access": "browser read",
+      "scope": "article type routes and ORCID"
+    },
+    {
+      "url": "https://academic.oup.com/humrep/pages/Clinical_Studies",
+      "access": "browser read",
+      "scope": "title<=25 words, running title<=50 chars, <=5 keywords, extended abstract, journal order, author-date references, separate editable Word tables, separate jpg/tif figures"
+    },
+    {
+      "url": "https://academic.oup.com/humrep/pages/Manuscript_Preparation",
+      "access": "browser read",
+      "scope": "double spacing, continuous line numbers, page number top right, cover letter, authorship signatures, disclosures, alt text, data availability"
+    },
+    {
+      "url": "https://static.primary.prod.gcms.the-infra.com/static/site/humrep/document/clinical-study-extended-abstract.doc?node=7434962e6537ca0ef7c5",
+      "access": "download and textutil read",
+      "scope": "11 exact headings; FUNDING and DISCLOSURES separate; no numerical abstract cap found in template"
+    },
+    {
+      "url": "https://academic.oup.com/humrep/pages/Submission_Online",
+      "access": "read during preceding assessment",
+      "scope": "Word-oriented upload guidance; LaTeX conversion not automatic; line art 1200 dpi and colour 300 dpi guidance"
+    },
+    {
+      "url": "https://academic.oup.com/humrep/pages/Policies",
+      "access": "read during preceding assessment",
+      "scope": "ethics/AI/editorial policies; author verification still needed"
+    }
+  ],
+  "literature": [
+    {
+      "doi": "10.1093/humrep/dead241",
+      "url": "https://academic.oup.com/humrep/article/39/1/108/7452815",
+      "access": "publisher full text via browser",
+      "verified": "GBD2019 prevalence/YLD/trends; direct age standardization; no accusation of exact comparator use"
+    },
+    {
+      "doi": "10.3389/fpubh.2025.1693486",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1693486/full",
+      "access": "publisher full text",
+      "verified": "GBD2021 burden; Methods: Das Gupta population growth, ageing, epidemiological factors"
+    },
+    {
+      "doi": "10.1016/j.rbmo.2025.105239",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41456540/",
+      "access": "indexed abstract verified in prior audit",
+      "verified": "China/worldwide trends and Joinpoint/ARIMA; full comparator definition unverified; do not infer formula"
+    }
+  ],
+  "limits": "No current numerical main-text word or combined figure/table cap found on the accessible official general/type pages. No invented 3500-word, 600-word or 6-object rule. Recheck live portal at eventual submission; no submission performed."
+}

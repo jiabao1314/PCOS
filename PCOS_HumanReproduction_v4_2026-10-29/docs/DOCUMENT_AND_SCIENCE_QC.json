@@ -1,0 +1,153 @@
+{
+  "verified_at": "2026-10-29T19:06:05.114595+01:00",
+  "title_words": 13,
+  "running_title_characters": 42,
+  "abstract_approx_words": 420,
+  "keywords": 5,
+  "extended_abstract_headings": 11,
+  "v3_files_unchanged": 65,
+  "numerical_assets_unchanged": true,
+  "main_tables": 3,
+  "main_figures": 5,
+  "main_alt_texts": 5,
+  "separate_editable_tables": 3,
+  "editable_table_rows_verified": 18,
+  "tiff_exports": [
+    {
+      "name": "Figure1_PCOS_trends.tif",
+      "pixels": [
+        12140,
+        4340
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "Figure2_PCOS_subtypes.tif",
+      "pixels": [
+        12140,
+        4340
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "Figure3_decomposition.tif",
+      "pixels": [
+        10940,
+        5420
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "Figure4_population_source.tif",
+      "pixels": [
+        12140,
+        4700
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "Figure5_benchmark_sensitivity.tif",
+      "pixels": [
+        10940,
+        5060
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "FigureS1_reference_exclusions.tif",
+      "pixels": [
+        9740,
+        7940
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "FigureS2_benchmark_trajectories.tif",
+      "pixels": [
+        12140,
+        4700
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "FigureS3_composition_sensitivity.tif",
+      "pixels": [
+        9740,
+        7940
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "FigureS4_endometriosis_trajectory.tif",
+      "pixels": [
+        9740,
+        4700
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "FigureS5_country_shifts.tif",
+      "pixels": [
+        9740,
+        7340
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "FigureS6_terminal_country.tif",
+      "pixels": [
+        9740,
+        7340
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "name": "FigureS7_terminal_age_type.tif",
+      "pixels": [
+        9740,
+        4940
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    }
+  ],
+  "statistical_analysis_rerun": false,
+  "new_research_data": false,
+  "posterior_intervals_available": false,
+  "submitted": false
+}
