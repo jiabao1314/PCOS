@@ -1,0 +1,17 @@
+{
+  "abstract_words_approx": 261,
+  "word_count_method": "TeX command stripping and tokenization; approximate, not a submission-system count",
+  "main_figures": 5,
+  "main_tables": 3,
+  "references": 12,
+  "reproductive_health_draft_header": true,
+  "figure_alt_text_present": false,
+  "HR_extended_study_question_heading": false,
+  "four_part_abstract": true,
+  "dedicated_cover_letter_in_v3": false,
+  "intentionally_preserved_XX": true,
+  "source_manuscript_sha256": "86b659756036df447eb8c5945304caecf007bdfbb9286f1fe764c790fcce1d87",
+  "existing_scientific_audit": true,
+  "original_v3_files_modified": false,
+  "new_statistical_analysis": false
+}

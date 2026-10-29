@@ -1,0 +1,83 @@
+{
+  "checked_on": "2026-10-29",
+  "timezone": "Europe/Paris",
+  "scope": "Targeted primary-source review, not a systematic review or a verified acceptance prediction",
+  "sources": [
+    {
+      "label": "CAS statement",
+      "url": "https://las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "access": "Opened: official 27 March 2026 discontinuation statement"
+    },
+    {
+      "label": "2025 workbook provenance",
+      "url": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+      "access": "Opened: university attachment page; existing original workbook hash and candidate cells rechecked"
+    },
+    {
+      "label": "Human Reproduction scope",
+      "url": "https://academic.oup.com/humrep/pages/about",
+      "access": "Opened: publisher scope; current metrics not used as CAS evidence"
+    },
+    {
+      "label": "Human Reproduction preparation",
+      "url": "https://academic.oup.com/humrep/pages/Manuscript_Preparation",
+      "access": "Opened successfully initially; later fetches intermittent timeout"
+    },
+    {
+      "label": "Human Reproduction online submission",
+      "url": "https://academic.oup.com/humrep/pages/Submission_Online",
+      "access": "Opened: Word-oriented instructions and discouraged automatic LaTeX handling; page contains legacy details, so reconfirm in live submission system"
+    },
+    {
+      "label": "HR direct predecessor",
+      "url": "https://academic.oup.com/humrep/article/39/1/108/7452815",
+      "access": "Opened: Liu et al., 2024, DOI 10.1093/humrep/dead241; author article text"
+    },
+    {
+      "label": "Existing PCOS burden decomposition",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1693486/full",
+      "access": "Opened publisher article and PMC copy; existing case-count decomposition"
+    },
+    {
+      "label": "RBMO trend study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41456540/",
+      "access": "Existing v3 targeted verification reused; new PubMed retrieval was partially unavailable; no new full-text access claimed"
+    },
+    {
+      "label": "2026 GBD infertility overlap",
+      "url": "https://link.springer.com/article/10.1186/s10020-026-01548-8",
+      "access": "Opened publisher article/abstract, July 2026; newer GBD burden/causes/decomposition already covered"
+    },
+    {
+      "label": "ASRM scope",
+      "url": "https://www.asrm.org/journals/",
+      "access": "Opened official society scope for Fertility and Sterility"
+    },
+    {
+      "label": "BMC Medicine scope",
+      "url": "https://link.springer.com/journal/12916/aims-and-scope",
+      "access": "Opened publisher scope"
+    },
+    {
+      "label": "Reproductive Health scope",
+      "url": "https://link.springer.com/journal/12978/aims-and-scope",
+      "access": "Opened publisher scope"
+    },
+    {
+      "label": "Reproductive Health research instructions",
+      "url": "https://link.springer.com/journal/12978/submission-guidelines/research",
+      "access": "Opened: abstract 350, plain summary 250, declarations and restricted-data availability options"
+    },
+    {
+      "label": "IJE instructions",
+      "url": "https://academic.oup.com/ije/pages/General_Instructions",
+      "access": "Search tool returned official full instructions including Education Corner; no role as major-category Q1 claimed"
+    }
+  ],
+  "access_limits": [
+    "HR dedicated Original_Article subpage could not be retrieved",
+    "Fertility and Sterility author-guide endpoints returned 403",
+    "No current APCs or editorial acceptance probabilities established"
+  ],
+  "ranking_rule": "2025 upgraded CAS major category used conservatively; third-party 2026 lists and JCR Q1 are separate systems"
+}

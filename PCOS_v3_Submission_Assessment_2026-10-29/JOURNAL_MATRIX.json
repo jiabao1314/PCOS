@@ -1,0 +1,74 @@
+[
+  {
+    "journal": "Human Reproduction",
+    "ISSN": "0268-1161",
+    "CAS2025_major": "医学1区",
+    "priority": "First conditional stretch target",
+    "fit": "PCOS-related infertility and reproductive epidemiology; the journal published the direct GBD-PCOS predecessor",
+    "risk": "Incremental application, no joint posterior uncertainty, indirect clinical implications",
+    "requirements_verified": [
+      "General preparation, alt text, continuous lines, top-right page numbers, cover letter rationale, ORCID/signatures",
+      "Online-submission guidance discourages relying on unconverted LaTeX"
+    ],
+    "requirements_unverified": [
+      "Dedicated Original Article subpage returned timeout/403; current exact abstract, word, table/figure caps not established"
+    ]
+  },
+  {
+    "journal": "Fertility and Sterility",
+    "ISSN": "0015-0282",
+    "CAS2025_major": "医学1区",
+    "priority": "Second conditional stretch target",
+    "fit": "Official ASRM scope covers infertility/reproductive research",
+    "risk": "Clinical/laboratory emphasis makes a benchmark-measurement study a less direct fit",
+    "requirements_verified": [
+      "ASRM official journal scope"
+    ],
+    "requirements_unverified": [
+      "Publisher author-guide URLs returned 403; exact current length, abstract, figure/table and fee rules not verified"
+    ]
+  },
+  {
+    "journal": "BMC Medicine",
+    "ISSN": "1741-7015",
+    "CAS2025_major": "医学1区",
+    "priority": "Not recommended for current v3",
+    "fit": "Official scope includes public/global health and influential general-medical research",
+    "risk": "Current single-disease, one-index-country descriptive contribution has limited broad clinical/public-health impact"
+  },
+  {
+    "journal": "EClinicalMedicine",
+    "ISSN": "2589-5370",
+    "CAS2025_major": "医学1区",
+    "priority": "Not recommended for current v3",
+    "fit": "Classification checked only this round",
+    "risk": "Not shortlisted for current manuscript; author requirements not checked"
+  },
+  {
+    "journal": "Reproductive Health",
+    "ISSN": "1742-4755",
+    "CAS2025_major": "医学2区",
+    "CAS2025_minor": "公共卫生1区",
+    "priority": "More realistic scope-aligned fallback; not a major-category Q1 target",
+    "fit": "Official scope emphasizes global reproductive health; current v3 follows its general format",
+    "risk": "Still needs a convincing substantive measurement question and honest uncertainty reporting"
+  },
+  {
+    "journal": "International Journal of Epidemiology",
+    "ISSN": "0300-5771",
+    "CAS2025_major": "医学2区",
+    "CAS2025_minor": "公共卫生1区",
+    "priority": "Alternative methodological/educational route only if minor-category Q1 is acceptable",
+    "fit": "Education Corner provides a possible reframing; not an unchanged original-research resubmission",
+    "risk": "Requires a broadly reusable teaching contribution; generalization should not be asserted from one case"
+  },
+  {
+    "journal": "European Journal of Epidemiology",
+    "ISSN": "0393-2990",
+    "CAS2025_major": "医学2区",
+    "CAS2025_minor": "公共卫生1区",
+    "priority": "Excluded from strict major-category Q1 shortlist",
+    "fit": "Classification checked",
+    "risk": "Not a default rescue target and not major-category Q1"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-29T18:49:05+01:00",
+  "task": "Targeted v3 novelty, competitiveness, CAS2025 journal and submission-readiness assessment",
+  "original_v3_unchanged": true,
+  "statistical_analysis_rerun": false,
+  "code_base_commit": "f17691ea374fec76cabc331d94a0220c06cd94fd",
+  "assessed_published_commit": "20f91f341aa17bf01381197b9c1db32e7ff45e27",
+  "code_sha256": "a166477ccb2b596e8c085938d4e8b2ff493edcb4fd5a7d8869b6c1629c4aca6a",
+  "input_sha256": {
+    "PCOS_Revision_2026-10-29_v3/manuscript/main.tex": "86b659756036df447eb8c5945304caecf007bdfbb9286f1fe764c790fcce1d87",
+    "PCOS_Revision_2026-10-29_v3/docs/claim_audit.json": "d0b50d9b7e6012e418f41ba58f27dc97beb5e0e9e4d7e322f4ce666576c17ed8",
+    "sources/journal_audit/CAS2025_NCEPU_public_archive.xlsx": "f6739ef4287110c0c0edf27ed30c04dc6b685da98833c4bd463d6877f37464a4"
+  },
+  "output_sha256": {
+    "PCOS_v3_Submission_Assessment_2026-10-29/CAS2025_CANDIDATE_ROWS.json": "d2762e1b8f52ece27ff48478ec4b577eca7fe31f9ceae56a9f1bacc26802663e",
+    "PCOS_v3_Submission_Assessment_2026-10-29/REPORT_ZH.md": "96f5c183b439ba27f0ca65aa71b468dbc52bf7b319c5619dcce5ddf352396799",
+    "PCOS_v3_Submission_Assessment_2026-10-29/JOURNAL_MATRIX.json": "874c0fd58c12badc90cd4948f893981dc75d5edf495a5cf5e0cf3b0b1d49c1a3",
+    "PCOS_v3_Submission_Assessment_2026-10-29/MANUSCRIPT_READINESS_CHECKS.json": "af3d651b7bc9657881d542dd53b7f33abba97503785384b4ab099e67693e839b",
+    "PCOS_v3_Submission_Assessment_2026-10-29/EVIDENCE_SOURCES.json": "bdaf8478951ebc6e82b596d64e7b4df06b9111c54ea03fcd7ef72177b339259e"
+  }
+}
