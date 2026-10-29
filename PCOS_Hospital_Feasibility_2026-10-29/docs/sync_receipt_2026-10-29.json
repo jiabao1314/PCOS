@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-29",
+  "checked_at": "2026-10-29T16:13:06.324933+01:00",
+  "github": {
+    "commit": "d12c1bd08f58e20e47fa560df682705e08fde197",
+    "published_blobs_verified": 13,
+    "prior_files_preserved": 411,
+    "folder_url": "https://github.com/jiabao1314/PCOS/tree/main/PCOS_Hospital_Feasibility_2026-10-29"
+  },
+  "drive": {
+    "folder_id": "1Y--nA7QSxJaC02L24LRzhnns3W6FHcs9",
+    "files": [
+      {
+        "path": "docs/评估与操作方案_2026-10-29.md",
+        "drive_id": "1LzAqmSr8u-pMPiWmRn7GtyPor8ZUvgq-",
+        "bytes": 15192,
+        "sha256_local": "ecc978f3c4346faf53bb4f9dbd44c3408bd794315707050dcc8edb8d66945e0b",
+        "size_and_parent_verified": true
+      },
+      {
+        "path": "PCOS_不确定性与医院数据评估_代码与汇总结果_2026-10-29.zip",
+        "drive_id": "1bZPs3BvLIpf3prUhlHUo_OXEpWntqvU6",
+        "bytes": 26986,
+        "sha256_local": "9596df8cc4de49d1ecb50c2978ebfbc3b453183c72481b1e880592fe5746e600",
+        "size_and_parent_verified": true
+      }
+    ],
+    "verification_scope": "Connector metadata sizes and parent folder matched; provider checksum not exposed."
+  },
+  "patient_level_data_published": false,
+  "source_hospital_workbooks": "Read in place in their existing private folder; not modified or copied to GitHub or Galaxy.",
+  "new_research_data_downloaded": false,
+  "scientific_scope": "Read-only hospital feasibility audit plus a non-probabilistic GBD marginal-limit stress test. No clinical outcome model fitted, no official joint GBD draws generated.",
+  "pending_clarifications": [
+    "hospital identifier system and research permission",
+    "pregnancy outcome definition and follow-up availability"
+  ]
+}
