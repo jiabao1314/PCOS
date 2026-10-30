@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-10-30T15:00:00+01:00",
+  "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+  "project_name": "PCOS",
+  "source_commit": "3dd7b5c3aabdc670c034c161cec4f7f6bf094a45",
+  "method": "Overleaf UI From external URL imported two .tex files from immutable verified GitHub sources; each Overleaf Download link used to download its stored blob and compare full bytes and SHA256 with original",
+  "files": [
+    {
+      "path": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_v6_Manuscript.tex",
+      "bytes": 35894,
+      "sha256": "ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e",
+      "git_blob": "b8d79c3b11044aec280a9533b53af48680f45280",
+      "overleaf_download_sha256": "ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e",
+      "overleaf_download_bytes": 35894,
+      "overleaf_blob": "b8d79c3b11044aec280a9533b53af48680f45280",
+      "overleaf_download_bytes_match": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_v6_Supplement.tex",
+      "bytes": 24109,
+      "sha256": "0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166",
+      "git_blob": "36182678655c327d987d672641a93d5aec691fa5",
+      "overleaf_download_sha256": "0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166",
+      "overleaf_download_bytes": 24109,
+      "overleaf_blob": "36182678655c327d987d672641a93d5aec691fa5",
+      "overleaf_download_bytes_match": true
+    }
+  ],
+  "uploaded_files": 2,
+  "uploaded_extensions": [
+    ".tex"
+  ],
+  "old_project_file_names_retained": 10,
+  "old_files_overwritten_or_deleted": false,
+  "verification_scope_old_files": "Original ten file names remain visible; no overwrite/delete action taken; older bytes were not redownloaded",
+  "non_tex_files_uploaded": false,
+  "manuscript_text_changed": false,
+  "XX_preserved": true,
+  "complete_Overleaf_compilation_verified": false,
+  "compilation_note": "Only main and supplementary paper TeX were imported; required table/figure assets were not uploaded. Existing main.tex compile error was visible before this task; no Recompile or main-document setting change was performed.",
+  "submitted": false,
+  "direct_upload_attempt": "Browser extension file URL access unavailable; native picker unavailable; used built-in external URL import successfully without changing permissions",
+  "screenshot": "20261030_v6_Overleaf_uploaded.jpg"
+}

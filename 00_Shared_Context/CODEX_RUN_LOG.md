@@ -406,3 +406,17 @@ GBD2023现存Appendix 1的PDF685–687页核实调查五年定义/临床12个月
 固定目标：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。已在此前核验浏览器读访问；桌面应用为用户报告可用。每次实际上传后核对目标项目、文件名及论文TeX内容，记录成功/失败。若缺少非.tex资源导致无法编译，应如实报告，不自行上传被排除的资源。本轮只更新长期规则，没有向Overleaf上传、删除或修改稿件，也没有投稿；v6内容和此前核验不变。
 
 证据：用户原话“请记住Overleaf的PCOS项目永远只上传tex文件，上传后核验，暂不投稿。”及“也就是论文tex”。编辑前六份共享记录均经Drive raw引用下载与本机全文字节核对，执行冲突安全pull。仅修改操作规则/配置；无科学分析，无数据或v6修改，DATA_CATALOG/RESULTS_INDEX不变。显式发布八条规则路径，保留本地HEAD和无关脏修改。云端规则及GitHub提交blob的完整字节核验另存后继回执。
+
+### 2026-10-30T15:00:00+01:00 — Overleaf v6主/补论文TeX上传与回读
+
+按本轮用户指令，仅向既有Overleaf PCOS项目导入v6主稿和补充稿两份论文.tex，未上传附信、Word、PDF、ZIP、图像、独立.bib或数据。目标：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。两文件保留20261030日期和v6版本名，原10个项目文件名仍在，无覆盖或删除操作。
+
+本地源文件先与已验证v6交付manifest核对，再用Overleaf界面From external URL从GitHub固定提交3dd7b5c3aabdc670c034c161cec4f7f6bf094a45导入。两文件在Overleaf标为Imported file，源地址固定至该提交；分别用项目Download链接下载存储副本后，与本地原件逐字节及SHA256比较通过。主稿35894字节/ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e，补充24109字节/0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166。Overleaf blob分别等于b8d79c3b11044aec280a9533b53af48680f45280及36182678655c327d987d672641a93d5aec691fa5。
+
+上传及完整源字节核验已完成；完整Overleaf编译未验证。仅两份论文TeX，图表资源与被引用的其他文件未上传；项目原main.tex编译错误在操作前已存在，本轮未改主文档设置或点击Recompile。旧文件内容未重新下载，因此旧版保全证据是原文件名仍在且本轮无覆盖/删除，不冒称全部旧blob逐字节核验。
+
+v6正文、XX与既有无合格draws限制保持不变，无科学重算，无原始/处理数据改变。暂不投稿。证据：PCOS_HumanReproduction_v6_2026-10-30/docs/20261030_v6_Overleaf_upload_verification.json。
+
+真实操作/错误处理：浏览器filechooser选择两份.tex后，setFiles因ChatGPT扩展未开放file URL访问而失败；未更改扩展权限。原生选择器尝试报告noWindowsAvailable。改用Overleaf自带From external URL，分别导入两个固定提交raw URL并成功；没有请求额外权限。一次按row精确名的Playwright定位超时，改用当前AX行选择成功。分别点击Download取得两个真实本机副本，执行Python bytes/SHA256比较通过；全程无提交期刊。保存当前项目截图供用户核对，截图不上传Overleaf。
+
+这是存储核验，无科学分析/模型执行。DATA_CATALOG不变；RESULTS_INDEX只给两份.tex追加Overleaf核验状态，并索引新增公开核验记录。原HEAD与脏修改保留，不自动stage其他稿件。元数据云端与GitHub提交回读在后继回执记录，不伪造自动分析run。

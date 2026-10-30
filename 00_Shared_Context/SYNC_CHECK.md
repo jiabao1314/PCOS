@@ -1,5 +1,17 @@
 # 共享配置与同步验证
 
+## 2026-10-30T15:00:00+01:00 — Overleaf两份v6论文TeX已下载全文字节与哈希核验
+
+按本轮用户指令，仅向既有Overleaf PCOS项目导入v6主稿和补充稿两份论文.tex，未上传附信、Word、PDF、ZIP、图像、独立.bib或数据。目标：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。两文件保留20261030日期和v6版本名，原10个项目文件名仍在，无覆盖或删除操作。
+
+本地源文件先与已验证v6交付manifest核对，再用Overleaf界面From external URL从GitHub固定提交3dd7b5c3aabdc670c034c161cec4f7f6bf094a45导入。两文件在Overleaf标为Imported file，源地址固定至该提交；分别用项目Download链接下载存储副本后，与本地原件逐字节及SHA256比较通过。主稿35894字节/ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e，补充24109字节/0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166。Overleaf blob分别等于b8d79c3b11044aec280a9533b53af48680f45280及36182678655c327d987d672641a93d5aec691fa5。
+
+上传及完整源字节核验已完成；完整Overleaf编译未验证。仅两份论文TeX，图表资源与被引用的其他文件未上传；项目原main.tex编译错误在操作前已存在，本轮未改主文档设置或点击Recompile。旧文件内容未重新下载，因此旧版保全证据是原文件名仍在且本轮无覆盖/删除，不冒称全部旧blob逐字节核验。
+
+v6正文、XX与既有无合格draws限制保持不变，无科学重算，无原始/处理数据改变。暂不投稿。证据：PCOS_HumanReproduction_v6_2026-10-30/docs/20261030_v6_Overleaf_upload_verification.json。
+
+编辑前六份共享云端文件已重新raw下载并与本机字节核对，再执行冲突安全pull。源论文未改，Drive/GitHub已有v6制品核验不变；本次新增上传核验记录及六份共享收尾按显式路径发布，并进行Drive完整字节和GitHub已提交blob回读，最终证据另存共享目录20261030_v6_Overleaf_delivery_sync_receipt.json。
+
 ## 2026-10-30T14:47:55+01:00 — 仅论文TeX规则：八份记录双云完整字节核验通过
 
 AGENTS、配置及六份共享规则均已Drive原文件全文字节与GitHub提交blob核对一致，规则内容提交`4a65d78baea339bb5c53b40e4a4928c2d5031786`。最新规则：Overleaf PCOS永远仅上传论文.tex，上传后核验，暂不投稿；此前允许配套资源的表述已失效。

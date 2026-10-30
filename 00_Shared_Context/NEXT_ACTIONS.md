@@ -1,5 +1,17 @@
 # 下一阶段任务
 
+## 2026-10-30T15:00:00+01:00 — Overleaf两份论文TeX上传核验完成
+
+此项用户授权任务已完成，无需重复上传同版本。仅源文件内容核验，不宣称完整编译通过。下一项仍为作者审阅v6及17条回应；无合格draws则保留限制，暂不投稿。未来新论文仍只上传论文.tex并核验。
+
+按本轮用户指令，仅向既有Overleaf PCOS项目导入v6主稿和补充稿两份论文.tex，未上传附信、Word、PDF、ZIP、图像、独立.bib或数据。目标：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。两文件保留20261030日期和v6版本名，原10个项目文件名仍在，无覆盖或删除操作。
+
+本地源文件先与已验证v6交付manifest核对，再用Overleaf界面From external URL从GitHub固定提交3dd7b5c3aabdc670c034c161cec4f7f6bf094a45导入。两文件在Overleaf标为Imported file，源地址固定至该提交；分别用项目Download链接下载存储副本后，与本地原件逐字节及SHA256比较通过。主稿35894字节/ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e，补充24109字节/0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166。Overleaf blob分别等于b8d79c3b11044aec280a9533b53af48680f45280及36182678655c327d987d672641a93d5aec691fa5。
+
+上传及完整源字节核验已完成；完整Overleaf编译未验证。仅两份论文TeX，图表资源与被引用的其他文件未上传；项目原main.tex编译错误在操作前已存在，本轮未改主文档设置或点击Recompile。旧文件内容未重新下载，因此旧版保全证据是原文件名仍在且本轮无覆盖/删除，不冒称全部旧blob逐字节核验。
+
+v6正文、XX与既有无合格draws限制保持不变，无科学重算，无原始/处理数据改变。暂不投稿。证据：PCOS_HumanReproduction_v6_2026-10-30/docs/20261030_v6_Overleaf_upload_verification.json。
+
 ## 2026-10-30T14:46:40+01:00 — 最新优先规则：Overleaf永远仅上传论文.tex，上传后核验，暂不投稿
 
 用户于2026-10-30进一步明确并优先覆盖此前Overleaf存储表述：Overleaf的PCOS项目永远只上传论文的.tex源文件，上传后必须核验，暂不投稿。不得上传Word、PDF、ZIP、图片、TIFF、独立.bib、数据或其他非.tex文件，也不通过改后缀规避限制。Drive与GitHub继续保留完整交付。保留日期前缀、版本与旧稿；不因此清理或删除Overleaf已有文件。
