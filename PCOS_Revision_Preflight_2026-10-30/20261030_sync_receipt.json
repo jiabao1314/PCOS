@@ -1,0 +1,156 @@
+{
+  "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f",
+  "old_paths_preserved": 647,
+  "files": [
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_baseline_manifest.json",
+      "drive_id": "1ZZ7CdXmKQl94PAyaLuXj7IilK_TyjG-O",
+      "bytes": 16242,
+      "sha256": "53ef643aefb330fb6d0ff2341303346ece346dec585cd9e4edb91bcebffbbf1e",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_country_reference_mapping.csv",
+      "drive_id": "1aAL6KSU2Gwd0aBlypKmItzO8h-sUr6kR",
+      "bytes": 406,
+      "sha256": "24ab82fcdd22789caf1f77a649fc8683e5599b11e1774343d871b6e90a6b2a3b",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_source_definition_audit.json",
+      "drive_id": "1mqtoL_MLK75xmvM0B4Gv93gSlVKQk4SH",
+      "bytes": 4588,
+      "sha256": "bdd62bb6cd094a49a8db3e1deeabbee07f9bc025e118bdf184c31373413e4009",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_annual_endpoint_check.csv",
+      "drive_id": "1quvXwrIByoa0FaiXwNBa15P0yFXviFW8",
+      "bytes": 49377,
+      "sha256": "b5f98cb154f7ab37a238e13aa1ea2245015a3fed7ce63c92f5e719abea239080",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_annual_endpoint_qc.json",
+      "drive_id": "1Lb0knDl1UVMRSgPL02TiKikSW3f0Noc_",
+      "bytes": 2240,
+      "sha256": "ed2e7df1f8acb652bbf1f9ae5cc44d264c545ad0388aefe95d356cd3c091b660",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_joint_draws_access_audit.json",
+      "drive_id": "1Es9qdETbpS9sRz5oVRjn18p_KOAbaQ3U",
+      "bytes": 5737,
+      "sha256": "6c1084fea0ca8646e9927c40d917cbe751eca5ecb5f7ca5e785fd1e28ca5d61d",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_preflight_verification.json",
+      "drive_id": "14JNFLoF2e_1DIN_7uix-4wo4crUmu7qx",
+      "bytes": 627,
+      "sha256": "141cccd5171b0194aa29591a709a5974d98b9e42e0facd6ec117ebc5915fb26f",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "PCOS_Revision_Preflight_2026-10-30/20261030_README_ZH.txt",
+      "drive_id": "18gFbXqfh9SPYjd5A1_TfT9D-OmZuwa3_",
+      "bytes": 2046,
+      "sha256": "92f2ae3605e46be0a6524796207cc908788cc4be0d88936375807d4144adf1f3",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    },
+    {
+      "path": "scripts/pcos_revision_preflight_20261030.py",
+      "drive_id": "129iCePNEApOLA9DwWKz9F1IUIGQQ1D81",
+      "bytes": 18785,
+      "sha256": "c88c7a30199e7a3da64759097e012b32b208b3885450e59d87224c816eb543d4",
+      "drive_verified": true,
+      "method": "Connector raw-file reference materialized, full-byte comparison and parent-ID check",
+      "github_committed_bytes_verified": true,
+      "artifact_commit": "0254e74e0e5718c16c4ce82828fbfa70603b1b5f"
+    }
+  ],
+  "shared_context_commit": "c0c2df31f993a9ddec4a5a552d83f2fa1353a6af",
+  "shared_context_files": [
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "drive_id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "bytes": 15566,
+      "sha256": "d6446d99e54d75742586c5ce7dd54764811298265d8b8cd7698a5611c37c876b",
+      "drive_raw_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "drive_id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "bytes": 15389,
+      "sha256": "e902e4a44670fca6bc0b718ae78c659447982869bb21b35db6f100b4269cfeb5",
+      "drive_raw_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "drive_id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "bytes": 18244,
+      "sha256": "48c4fbc3b061f09e04d6910c9e9319125b5464a7e47c0710768bc7a4a37884de",
+      "drive_raw_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "drive_id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "bytes": 52988,
+      "sha256": "6774dcd773b5a023ea927508a633f401e0afb0d32398f253303d2428f8894880",
+      "drive_raw_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "drive_id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "bytes": 307227,
+      "sha256": "deb9b4c0b60afe119c7ffa95ebbdbdecc7f1941818ac1becffc0323b465aca23",
+      "drive_raw_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "drive_id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "bytes": 17070,
+      "sha256": "1f3319f4e203729ab1cab23e11dd67c280d2e9e204b213d892a108e3da740375",
+      "drive_raw_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    }
+  ],
+  "verified_at": "2026-10-30 Europe/Paris",
+  "status": "VERIFIED",
+  "v6_created": false,
+  "qualified_draws_obtained": false,
+  "source_data_changed": false,
+  "data_catalog_changed": false,
+  "submitted": false,
+  "next_task": "T03 independent editorial revision; then T05/T07; no posterior intervals without qualified aligned draws",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1LCe-A_EWuZMmroIJRwyEaLM_LBQmhFaF"
+}
