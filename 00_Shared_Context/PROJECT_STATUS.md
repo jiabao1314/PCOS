@@ -1,5 +1,19 @@
 # 项目状态
 
+## 2026-10-30T19:36:27+01:00 — 全部原始数据留存核验与桌面整理完成；第8条可恢复删除
+
+用户要求核验Galaxy本论文全部原始数据并整理到原桌面文件夹、保留既有记录；随后补充“如果已经全部下载完成，请把galaxy里的红色删掉”。后一句覆盖了第8条保持活动状态的旧要求，仅授权在全部核验通过后可恢复删除，不授权永久清除。
+
+已实际下载回读14个成功条目：10/11/12/18/19为GBD/人口/权重，27/28为UN子集/来源清单，26为完整UN人口源，29/30为重复留存，13/31为历史试下载，14/17为权重来源文档/GBD方法附录。4 GBD CSV、UN子集及权重共6个数值输入与论文原件字节/SHA256一致；两份来源JSON(28/30)均比论文原件多1个末尾LF，971对970字节，JSON对象完全一致，不冒称7原条目均原字节一致。Galaxy26名字虽为.gz，实际保存188318047字节CSV、1759905数据行；其SHA256 8cbadcc33b304dfe74156bf3066a1d700879b89cf27aea7fba045ef86e2bffa0，与原始gzip解压并CRLF转LF后的完整流完全相同。原gzip29948947字节/SHA256 a04d7d1486a5eb2832cc812d599448f0a71e8ac9e1e7e6fa4066673d6a2487cd仍有原档。未丢失人口值。完整UN原gzip重新抽取4522行，子集SHA256仍07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9。
+
+为保护未经解压/换行处理的文件，新增Galaxy第32条20261030_PCOS_Original_Data_COMPLETE_PRIVATE.zip，id 40160950115d555e150beff2e0da6968，类型no_unzip.zip。包含7个论文精确输入、4份原IHME官方下载ZIP、完整原UN gzip、历史试下载及来源副本/清单，23成员。来源JSON仅明确恢复原970字节以符合既有input_manifest，原样971字节另保留；没有改任何疾病或人口数值。第32条已ok绿色，并重新下载全文35808790字节，SHA256 295372c0d5b90cf4352799ec2ecba445b7932290f53311de67fd9e5f2d2f5e13；ZIP CRC、23成员逐一字节、7精确输入哈希全通过。4份原GBD ZIP本地原清单SHA256及其内CSV与正式输入也全部一致。
+
+只有上述核验完成之后，才点击第8条(id 40160950115d555edbcb7f0cbb270400)的普通删除。已勾选Include deleted实际看到Undelete入口，证实可恢复；未永久purge。随后取消Include deleted，活动列表该项不再显示，红色数0。全部14个成功旧条目和第31条恢复ZIP保留。用户的“保留记录”通过失败审计记录及可恢复状态保留，不再声称第8条仍在活动列表。
+
+桌面原目录20261030_PCOS论文复现包中新增20261030_论文全部原始数据_已核验，内有data/input、data/original_downloads、history_pilot、Galaxy_preserved_variants、sources、code、verification及中文说明；根目录另有35.8 MB原始数据合集ZIP和本次位置说明。sources另附82.9 MB方法PDF与权重复刻文档，均与Galaxy/既有源文件相同；这些文档不必塞入Galaxy原始数据合集。原先FULL_PRIVATE程序包及先看这里.txt的2个既有文件SHA256未变。老师继续按原程序包在Windows运行；本次归档不等于老师实机复现已完成。
+
+私人Drive原始合集 https://drive.google.com/drive/folders/1cGr1-6EUyOrhxMYKZHo3H9cv6UM3l448 ，owner-only元数据已确认，35808790字节全文回读匹配。GitHub制品提交7e7d34618ce65d1a817cfcc9b79bcddf2bc9b72b只含2验证/整理脚本、JSON报告、CSV清单和说明共5项；全部与Drive全文/提交blob匹配。不公开原始GBD ZIP/CSV或临时链接。证据PCOS_Galaxy_AllRaw_2026-10-30/20261030_Galaxy_all_raw_verification.json。无新IHME导出、GBD模型拟合、核心PCOS估计重算、联合draws或投稿；v6/XX、旧稿、无合格draws及六位标准权重的既有限制保持。Overleaf未改，继续仅论文tex。
+
 ## 2026-10-30T19:17:06+01:00 — Galaxy原始ZIP恢复到第31条并回读核验；第8条保留
 
 用户授权恢复Galaxy第8条红色ZIP，要求保留原失败记录并核验。本次官方原URL普通HTTPS GET仍403，Chrome直开报ERR_BLOCKED_BY_CLIENT；不得宣称本轮从IHME重新下载成功。经核对既有data/raw原始ZIP与原清单哈希相同，使用此前下载的原始ZIP归档恢复，而非从CSV重打包。
