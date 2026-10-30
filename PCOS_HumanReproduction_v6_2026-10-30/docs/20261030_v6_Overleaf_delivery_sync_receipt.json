@@ -1,0 +1,94 @@
+{
+  "verified_at": "2026-10-30T15:01:46+01:00",
+  "overleaf_verification": {
+    "verified_at": "2026-10-30T15:00:00+01:00",
+    "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+    "project_name": "PCOS",
+    "source_commit": "3dd7b5c3aabdc670c034c161cec4f7f6bf094a45",
+    "method": "Overleaf UI From external URL imported two .tex files from immutable verified GitHub sources; each Overleaf Download link used to download its stored blob and compare full bytes and SHA256 with original",
+    "files": [
+      {
+        "path": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_v6_Manuscript.tex",
+        "bytes": 35894,
+        "sha256": "ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e",
+        "git_blob": "b8d79c3b11044aec280a9533b53af48680f45280",
+        "overleaf_download_sha256": "ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e",
+        "overleaf_download_bytes": 35894,
+        "overleaf_blob": "b8d79c3b11044aec280a9533b53af48680f45280",
+        "overleaf_download_bytes_match": true
+      },
+      {
+        "path": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_v6_Supplement.tex",
+        "bytes": 24109,
+        "sha256": "0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166",
+        "git_blob": "36182678655c327d987d672641a93d5aec691fa5",
+        "overleaf_download_sha256": "0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166",
+        "overleaf_download_bytes": 24109,
+        "overleaf_blob": "36182678655c327d987d672641a93d5aec691fa5",
+        "overleaf_download_bytes_match": true
+      }
+    ],
+    "uploaded_files": 2,
+    "uploaded_extensions": [
+      ".tex"
+    ],
+    "old_project_file_names_retained": 10,
+    "old_files_overwritten_or_deleted": false,
+    "verification_scope_old_files": "Original ten file names remain visible; no overwrite/delete action taken; older bytes were not redownloaded",
+    "non_tex_files_uploaded": false,
+    "manuscript_text_changed": false,
+    "XX_preserved": true,
+    "complete_Overleaf_compilation_verified": false,
+    "compilation_note": "Only main and supplementary paper TeX were imported; required table/figure assets were not uploaded. Existing main.tex compile error was visible before this task; no Recompile or main-document setting change was performed.",
+    "submitted": false,
+    "direct_upload_attempt": "Browser extension file URL access unavailable; native picker unavailable; used built-in external URL import successfully without changing permissions",
+    "screenshot": "20261030_v6_Overleaf_uploaded.jpg"
+  },
+  "metadata_commit": "d60097e6d031ea3bf45b6895454c0ec00cd66fd0",
+  "Drive_and_GitHub_full_bytes_verified": [
+    {
+      "path": "PCOS_HumanReproduction_v6_2026-10-30/docs/20261030_v6_Overleaf_upload_verification.json",
+      "sha256": "b6f3de5205e552b1fb1bdde4e69bc259176950141225ec5642d20fc94b7ecf0b",
+      "blob": "4154d7af5949464f95fa5a3a9409d5336d59e9c3",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "sha256": "63d5d11a5044d0cd844d13f0ba5844d9eb4ab8732bb00db4da8a46dab289297f",
+      "blob": "ac7191963309554fbb23f2a22b6637aca1b5b5e1",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "sha256": "c834711633772005b1f197371732891c438160cb65d34d68477c76cad9f84d76",
+      "blob": "dd018d4177fba2df877a499a8cf627b46e9a24a8",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "sha256": "3b2da87dce667195903b19cdef2884c52e52c38f18e807ed9d18e9b1f85134c3",
+      "blob": "d77a079ed06151265c80c7ff93a764fa1934da38",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "sha256": "effc946cd7f03a1902ae2c0b8f6ef2b341a27e9824bbc84af162090ee3b32df8",
+      "blob": "3bf0f879556d8e976107a13a733e7159c965dec3",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "sha256": "37301430e9b68be1d98ca3613d14c489b8a349731630415333e90a15022e37c7",
+      "blob": "ff03c4a4084fb51ed8295290dbf7c622202c925c",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "sha256": "043c8e77dadc1e1a50779cfa22c7bb49dd5257ad8aa31456542e82401110b7b9",
+      "blob": "7bae359d05e28c36d681930cbde18b1fa138cb62",
+      "drive_id": null
+    }
+  ],
+  "source_paper_TeX_unchanged": true,
+  "submitted": false
+}
