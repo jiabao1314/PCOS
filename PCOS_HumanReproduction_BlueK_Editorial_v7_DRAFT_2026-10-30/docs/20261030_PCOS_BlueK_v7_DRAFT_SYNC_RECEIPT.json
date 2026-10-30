@@ -1,0 +1,384 @@
+{
+  "at": "2026-10-30T21:51:01+01:00",
+  "status": "finite_editorial_revision_and_three_destination_verification_complete",
+  "candidate_status": "v7 DRAFT; awaiting author review; accepted v6 baseline preserved",
+  "scope": "Only the nine fixes in the actual supplied Markdown, based on completed teacher Blue K; no reanalysis",
+  "initial_artifact_commit": "8bb9c39b84cbbc98cd2cc6a89966c06ff4672ae1",
+  "shared_and_added_proofs_commit": "07a4573e60ec08af22343ec23497241186a105ac",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE",
+  "initial_28_full_byte_checks": [
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/20261030_README_ZH.txt",
+      "drive_id": "1JiHVJRZlZ_ld3JiiJcSsJhvKqIl1ICj-",
+      "bytes": 2207,
+      "sha256": "bece11680c11052e4519fb98b2333e36a4df8f2637dc9c4d932823b43fa66562",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_BlueK_vs_v6_crosswalk.csv",
+      "drive_id": "1m-LMOKdz34ljupprZx_AwyafB8_m6uZ_",
+      "bytes": 76533,
+      "sha256": "d9b14da035538cfc5eb52c8c1557ce92304b6c53da199a3ab2cd94e2ae2719c3",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_ChangeLog.csv",
+      "drive_id": "1ox2ddSHJ172MLl584q6PwLLUe74e5m8J",
+      "bytes": 5056,
+      "sha256": "e529ded7a3c9b8be02894aed7d6d33c05b994301ede4658514efc8e0b65a7596",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_ChangeLog.md",
+      "drive_id": "1iSr2-qY2mxg11ZbUytrp6cPHM1uPxv25",
+      "bytes": 4937,
+      "sha256": "cd223e53eb81b6a1355db341757998b96a5899a08722da72728b34cedfd09f45",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Execution_Receipt.json",
+      "drive_id": "1-OQesECOfPgVI6_SHczfCI-bDvOl0yCr",
+      "bytes": 427,
+      "sha256": "28d434cf352fb3d68dc8226b82ceebda080c06d21f7efab483f2f63253c3ad54",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Input_Manifest.json",
+      "drive_id": "1v9pwi7ZMbeev9wRZ9pr5o4Pgj1yONj6S",
+      "bytes": 3346,
+      "sha256": "1a5bccbcdf78f676d25b0c07e5059ce3fa154afaeb1e2bb27acc9456112c88ab",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Numeric_Audit.json",
+      "drive_id": "1ooTSm911XPbKS7MY6sR4LPT16faWKWU_",
+      "bytes": 3151,
+      "sha256": "9d8a3b6c1d11faf6fb0c785c1a87cdf6129b4629a5128c7758f198dc327e717e",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Preservation.json",
+      "drive_id": "1rpQoGqef23Qb8sIXmY9TkjLr8IkIw5Ub",
+      "bytes": 44935,
+      "sha256": "f68b4fd5abde0adfc067e9667959c3178815b1b41733941f50d4d89a6f43b5e6",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Source_Evidence.json",
+      "drive_id": "1SgKJL-un0djQK42bLipslejDobSPRpXv",
+      "bytes": 1343,
+      "sha256": "9aa858eeed13b7cabee97a598e2082083b3f7bf4d6e9c9b86b505ef4e71c75f8",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Verification.json",
+      "drive_id": "1QDR3uSVFwcpLxDpbz06BfTsK_-Aw8Veg",
+      "bytes": 11059,
+      "sha256": "ef0f45862ecbcb47d4d7d68352a1025a5b9e17789a91bd16d5a9d7c6d47c39cd",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Word_Content_Map.json",
+      "drive_id": "1era5ylZaqb-eWofMTtxVJafTV_Cg2ie8",
+      "bytes": 16695,
+      "sha256": "91a8363001142f3548d273037050b167d90ef99ff906442535c63ee3d14d3639",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review_compile.txt",
+      "drive_id": "1bIRPGHQjVsneQevzoWyeCFl4Ot11sHLe",
+      "bytes": 4196,
+      "sha256": "fb2173d8c107b9641caa7de03122073b99fdb203fe7f1d15f854ba79612e1ef4",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_compile.txt",
+      "drive_id": "1PJOjlp_kdUPyma4IeoSuHuRdxfM6lsb2",
+      "bytes": 4022,
+      "sha256": "e53363d7ea394a7e602bfa0bd2dcdfdf59104cc04b1bc9651a0aea694a585a6e",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.tex",
+      "drive_id": "1ohotq2wqjczAwhrzd-qowrOJVyjxhBvn",
+      "bytes": 206631,
+      "sha256": "0e2f5cbcb200ff862940078e0fa5f380c4849dea345d776d09f0354f02ffa1a4",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.tex",
+      "drive_id": "1DOZ5WYY5b0Wi1yWy-cE9e8ClRNPQgOk7",
+      "bytes": 206751,
+      "sha256": "255496e6d2bd5bae2205180cf2d2e6c7fb01c421c04de411931071a84409b11d",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/output/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.log",
+      "drive_id": "1jsNkZh451kUA2T4xrblIc-jQ5p61ptFg",
+      "bytes": 27569,
+      "sha256": "a1d9a7e34f40df4a75f8e0778fc566dea6033b79a196f0b34d7f9123ba1103b9",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/output/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.pdf",
+      "drive_id": "1cY7GI8BWgdyw_Bq-V7IegJVYBIsRyGgD",
+      "bytes": 103122,
+      "sha256": "bbcdfb93035e1f084a33edffc70c003e82375ae46d8becca9f567a7e7cdcc1d7",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/output/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.log",
+      "drive_id": "1rb4fhX_rgS2UMpjL0JoCCuhayLbQfe7g",
+      "bytes": 27634,
+      "sha256": "01a749821f77db8f2eb27b7423c13abcad59dd6ac60eb676248a3e517e34f6c0",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/output/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.pdf",
+      "drive_id": "1o2nMpbNGbslEaOLBP6V9Vq2Ybw58BIve",
+      "bytes": 103267,
+      "sha256": "eb7a3d8f4e50764a019d8ee075b6713277cf823b2effe122fe004a21b4cdffe4",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/sources/20261030_PCOS_BlueK_Codex_README.txt",
+      "drive_id": "1uEBawNt_sfHjhpeOPAHaQSuM5F_a7QqJ",
+      "bytes": 372,
+      "sha256": "17a55c3b13be300de8cc2a283e734c1c87be5542e1563638b7f77fac4bd65f64",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/sources/20261030_PCOS_BlueK_EditorialFixes_Codex_Package.zip",
+      "drive_id": "1iyGvcWxmZxik0OYPLzn_muG8WelL9BDe",
+      "bytes": 111513,
+      "sha256": "949b29e72b6ad355720521f7721b9a632463dc33a9c57b4bb616b3bfef47ead4",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/sources/20261030_PCOS_BlueK_EditorialFixes_for_Codex.md",
+      "drive_id": "1YxELYa6QBGBPqXGa23859c7bD4aKuLzO",
+      "bytes": 16127,
+      "sha256": "05225ebfdd631a765bed6de02ceb2206a8be899bd16aa580c1e97851f752834a",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/sources/20261030_PCOS_BlueK_Teacher_Original.pdf",
+      "drive_id": "1F1ou7RSm8XFHObyGijhbmgFVl4l3Kry5",
+      "bytes": 108563,
+      "sha256": "e6884c181a3992ba1612635133c58b60f1a1762c98bddbdbd39576a1c10e5d5d",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/word/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.docx",
+      "drive_id": "1I4WtmBxcdjOZlPLX2L42UolZLZOjT0pM",
+      "bytes": 377269,
+      "sha256": "cd82840ed85b72ac455161a952825686d4ec2b07450f58da6e3e68e3ae465e04",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "scripts/build_bluek_v7_20261030.py",
+      "drive_id": "1IgNxgLNDPorI8mgYHz6YBUjanDCxPAJn",
+      "bytes": 20171,
+      "sha256": "a1439395db88b6047c6f7949c0c3ef650f226f8f49a85a26da9aca04d1a1f09d",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "scripts/verify_bluek_v7_20261030.py",
+      "drive_id": "1Tr47iB21EkREY3wiayxta8N62a1e9NPb",
+      "bytes": 13962,
+      "sha256": "772695741384281e6cc8db92f49ed0c47b2b372aeeb6ae773ecf0078ccb23d2a",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Delivery_Manifest.json",
+      "drive_id": "14At4L7rzXHZLoGzdSUYhivSG6axdDfp4",
+      "bytes": 6589,
+      "sha256": "d3963f2b49bee377d9964268243578b1d4ac5189efe35bf578810cf917fea696",
+      "Drive_raw_full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/output/20261030_PCOS_BlueK_v7_DRAFT_Complete.zip",
+      "drive_id": "1jPL80PuAt2MN8WMN65Ojc-AgNsS_CPCr",
+      "bytes": 935688,
+      "sha256": "5903b989f78b9100783304ba26750a20b0d0ccc5bfecb44321297cb1969c7748",
+      "Drive_raw_full_bytes_equal": true
+    }
+  ],
+  "subsequent_8_full_byte_checks": [
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "bytes": 37551,
+      "sha256": "780100a3a40d157b756ad02ca45f2a8e7a1131d08e1217ddbd563d95f65fefb7",
+      "drive_full_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "bytes": 53034,
+      "sha256": "42c7e726924a79769b10c2df83ab109f97d75650127c4193b3dd26537f6d8b25",
+      "drive_full_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "bytes": 28679,
+      "sha256": "ef7affd6970ed076817906424bdae05a6c651347dcaac22482f34def0f86b4ce",
+      "drive_full_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "bytes": 41950,
+      "sha256": "ed2dd7bc85fad49d37a9d7ddcb56130bc00c3d316986b2f758c602296f00b5e1",
+      "drive_full_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "bytes": 106534,
+      "sha256": "c38f72dbdb05ed92ae24d38ad143a2d45e42abfc4a783132746aad536d564d90",
+      "drive_full_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "bytes": 515938,
+      "sha256": "19f896ccbb5ac1af8da6c9d7e088f420fc464fda42181e7763088bf90cfedb15",
+      "drive_full_bytes_verified": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Native_Teacher_Source_Check.json",
+      "id": "1a9ONixkNKByZSDinMjM8B6Sxsr8LdGpt",
+      "bytes": 1478,
+      "sha256": "51db4b5fc78022cf04512c3254ece981944e90fcdf82b619ecf101c87516395f",
+      "drive_full_bytes_verified": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Overleaf_Verification.json",
+      "id": "1IBKNGkgUryte6fPAPBkHgjnDOpCl_Yk_",
+      "bytes": 2589,
+      "sha256": "3ee8a8d1be908951f6badcecc4feba92182b52168ce63af853f32e276aa07547",
+      "drive_full_bytes_verified": true
+    }
+  ],
+  "GitHub_verification": {
+    "initial28": true,
+    "subsequent8": true,
+    "only_explicit_reviewed_paths_changed": true,
+    "verification_method": "git fetch then git show <committed sha>:<path> full bytes compared to local; not only metadata or desktop sync"
+  },
+  "Overleaf": {
+    "at": "2026-10-30T21:49:33+01:00",
+    "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+    "main_document": "20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.tex",
+    "main_setting_readback_verified": true,
+    "editable_project_document": true,
+    "compiler": "XeLaTeX",
+    "TeX_Live": "2026",
+    "source_download_full_byte_equality": true,
+    "source_bytes": 206631,
+    "source_sha256": "0e2f5cbcb200ff862940078e0fa5f380c4849dea345d776d09f0354f02ffa1a4",
+    "compiled_pdf_pages": 19,
+    "compiled_pdf_sha256": "f11dfb9791baa6a8ef89c64684b173cbb2d1acbffff8f6b92c2e9c3748bb9261",
+    "errors": 0,
+    "warnings": 0,
+    "info": 4,
+    "info_type": "Underfull hbox only; no missing resource/citation/font warning",
+    "all_19_pages_text_equal_local_PDF_after_whitespace_and_standalone_line_number_normalization": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "cloud_visual_spot_check_pages": [
+      1,
+      4,
+      5,
+      12,
+      15,
+      19
+    ],
+    "old_13_filenames_observed_preserved": [
+      "20251026-1HumanReproduction_SubmissionDraft_XX.pdf",
+      "20261025-1-GBD2023_Reproductive_Health_main.pdf",
+      "20261025-1-supplement.pdf",
+      "20261025-GBD_不孕研究_技术路线与执行方案.pptx",
+      "20261025-GBD_不孕研究_技术路线图.png",
+      "20261028-意见.tex",
+      "20261029-26版原文翻译及修改意见.docx",
+      "20261029-PCOS_HumanReproduction_v5_Manuscript.docx",
+      "20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.tex",
+      "20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement.tex",
+      "20261030_PCOS_v6_revised_blue.tex",
+      "PCOS_新文章组会汇报_5页_2026-10-26_终版.pptx",
+      "Share.tex"
+    ],
+    "old_file_content_scope": "No old file writes or deletion; original BlueK native source additionally downloaded and checked. Other old blob bytes not re-downloaded this round.",
+    "new_paper_tex_files": [
+      "20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.tex",
+      "20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Imported_Archive.tex"
+    ],
+    "non_tex_uploaded": false,
+    "import_recovery": "External URL import created read-only attachment not eligible as main. Retained it with Imported_Archive.tex suffix; created native editable TeX, pasted complete approved source, selected main setting and compiled. Initial old-source compile was excluded from final verification.",
+    "supplement_modified_or_reuploaded": false,
+    "submitted": false
+  },
+  "local_validation": {
+    "fixes_verified": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Word_rendered_pages": 21,
+    "Word_native_editable_math_objects": 32,
+    "Word_editable_numbered_equations": 7,
+    "Word_editable_main_tables": 3,
+    "Word_original_figures": 5,
+    "clean_PDF_pages": 19,
+    "review_PDF_pages": 19,
+    "all_Word_and_clean_PDF_pages_visually_inspected": true,
+    "review_PDF_all_19_pages_colour_neutralized_pixel_comparison": true,
+    "baseline_crosswalk_rows": 55,
+    "native_teacher_source_narrative_blocks_matched": 51,
+    "existing_aggregate_scalar_checks": 15,
+    "old_files_hashes_unchanged": 305,
+    "supplement_unchanged_compatible": true
+  },
+  "restrictions": {
+    "no_qualified_joint_draws_obtained": true,
+    "no_invented_intervals_or_estimates": true,
+    "official_full_precision_age_standard_vector_not_independently_confirmed": true,
+    "XX_preserved": true,
+    "author_final_review_pending": true,
+    "teacher_Windows_reproduction_pending": true,
+    "licensed_raw_or_hospital_patient_data_published": false,
+    "submitted": false
+  },
+  "environment_note": "Local Tectonic cached lineno.sty UTF-8 diagnostic recorded separately; final PDF text/glyph QA passed. Actual Overleaf 0 errors, 0 warnings, 4 Underfull information messages.",
+  "archive_scope": "Complete_Verified.zip includes this receipt, all current non-output-archive deliverables, original supplied package and both build/check scripts. Earlier Complete.zip and its Delivery_Manifest remain preserved as initial publication records.",
+  "receipt_publication_note": "This receipt records already verified predecessor commits. Its own and final ZIP cloud readback/committed-blob verification is a subsequent non-self-referential publication check retained in the private run record and reported to the user.",
+  "local_HEAD": "f17691ea374fec76cabc331d94a0220c06cd94fd",
+  "dirty_workspace_preserved": true
+}
