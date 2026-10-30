@@ -1,0 +1,33 @@
+{
+  "verified_at": "2026-10-30T15:25:39+01:00",
+  "documents": {
+    "Manuscript": {
+      "tex_sha256": "141819d0b11ce9ae4d5ff44dc3d709b8c608f890d01d79469de575e2af1d16bd",
+      "tex_bytes": 204613,
+      "pdf_sha256": "9296437149b0be520fc58570335b3ebd479e762fb2642f2065725cf257b3e8da",
+      "pages": 19,
+      "paper_text_equations_tables_exactly_preserved": true,
+      "original_XX_count_preserved": 22,
+      "native_PGF_figures": 5,
+      "no_external_asset_dependency": true,
+      "unresolved_citations_references_missing_glyphs_overfull_boxes": 0,
+      "visual_check": "pending",
+      "Overleaf_compile": "pending"
+    },
+    "Supplement": {
+      "tex_sha256": "798d23bdf6ebb1d362b1348ca9819a548ff9a15200e81d2c95caa80c3e0436ce",
+      "tex_bytes": 293941,
+      "pdf_sha256": "edcd7303b7821fb2d570930f23d585488a6fde88d4c948231cea72c5c7d591ea",
+      "pages": 21,
+      "paper_text_equations_tables_exactly_preserved": true,
+      "original_XX_count_preserved": 2,
+      "native_PGF_figures": 7,
+      "no_external_asset_dependency": true,
+      "unresolved_citations_references_missing_glyphs_overfull_boxes": 0,
+      "visual_check": "pending",
+      "Overleaf_compile": "pending"
+    }
+  },
+  "original_v6_files_preserved": 97,
+  "submitted": false
+}

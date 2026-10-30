@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "source_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.pdf",
+      "source_sha256": "9296437149b0be520fc58570335b3ebd479e762fb2642f2065725cf257b3e8da",
+      "ASCII_PDF_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript_ASCII.pdf",
+      "ASCII_PDF_sha256": "831a4d6fc95512dd51f6fbe59a623dcdfbe0e0312eaa8f8790a99742dec7e317",
+      "pages": 19,
+      "all_pages_text_and_pixels_identical": true,
+      "binary_sources_preserved": true
+    },
+    {
+      "source_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript_Cloud.pdf",
+      "source_sha256": "a3cd04ba7a0011934a11952e876121b4b3b34ea41d29c4893a7765aef890647f",
+      "ASCII_PDF_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript_Cloud_ASCII.pdf",
+      "ASCII_PDF_sha256": "f57db109bdd9c4b34d87b32fb282f847e9eefb5a660d7e99fadfb43388fa3053",
+      "pages": 19,
+      "all_pages_text_and_pixels_identical": true,
+      "binary_sources_preserved": true
+    },
+    {
+      "source_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement.pdf",
+      "source_sha256": "edcd7303b7821fb2d570930f23d585488a6fde88d4c948231cea72c5c7d591ea",
+      "ASCII_PDF_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement_ASCII.pdf",
+      "ASCII_PDF_sha256": "e6316ad4b6b74bcebf246a212a1ec6a5043c306165d7425689ec32a622efe948",
+      "pages": 21,
+      "all_pages_text_and_pixels_identical": true,
+      "binary_sources_preserved": true
+    },
+    {
+      "source_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement_Cloud.pdf",
+      "source_sha256": "a1c2a30ac03cd9be659f4f1ab522c2027dd86eea7c9ad99c48b4c22cc52bb781",
+      "ASCII_PDF_path": "PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/output/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement_Cloud_ASCII.pdf",
+      "ASCII_PDF_sha256": "e55bd04017690cb545d2329debf8a934c3f6fd4e085188b89146296c8e4fd821",
+      "pages": 21,
+      "all_pages_text_and_pixels_identical": true,
+      "binary_sources_preserved": true
+    }
+  ],
+  "reason": "GitHub base64 blob endpoint internal errors; valid ASCII PDF permits ordinary UTF-8 transport without changing rendering",
+  "not_an_embedded_or_renamed_non_PDF": true,
+  "uploaded_to_Overleaf": false
+}

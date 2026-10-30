@@ -1,0 +1,27 @@
+{
+  "source": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_v6_Manuscript.tex",
+  "source_sha256": "ce5516065805cd8415fbc38cea7dd31325ca985a6435d38e71744623b8cb175e",
+  "output_sha256": "141819d0b11ce9ae4d5ff44dc3d709b8c608f890d01d79469de575e2af1d16bd",
+  "inline_tables": [
+    {
+      "table": "tables/20261030_v6_prevalence.tex",
+      "sha256": "689c14a9b487e60f34eab15e8a259df4f4f40a73025fd8822997bef01b3f79c8"
+    },
+    {
+      "table": "tables/20261030_v6_decomposition.tex",
+      "sha256": "a5eb811427b12dab42a8412f86b519a988c3dd9629efaf92190d8ddb1f8b3ab6"
+    },
+    {
+      "table": "tables/20261030_v6_benchmark.tex",
+      "sha256": "24fd4ce09f5b1919945407224afbf1a9c28d4385d9da20a6bf4fb3325ac02986"
+    }
+  ],
+  "native_PGF_figures": [
+    "Figure1_PCOS_trends",
+    "Figure2_PCOS_subtypes",
+    "Figure3_decomposition",
+    "Figure4_population_source",
+    "Figure5_benchmark_sensitivity"
+  ],
+  "XX_preserved": true
+}

@@ -1,0 +1,171 @@
+{
+  "verified_at": "2026-10-30T15:25:39+01:00",
+  "documents": {
+    "Manuscript": {
+      "tex_sha256": "141819d0b11ce9ae4d5ff44dc3d709b8c608f890d01d79469de575e2af1d16bd",
+      "tex_bytes": 204613,
+      "pdf_sha256": "9296437149b0be520fc58570335b3ebd479e762fb2642f2065725cf257b3e8da",
+      "pages": 19,
+      "paper_text_equations_tables_exactly_preserved": true,
+      "original_XX_count_preserved": 22,
+      "native_PGF_figures": 5,
+      "no_external_asset_dependency": true,
+      "unresolved_citations_references_missing_glyphs_overfull_boxes": 0,
+      "visual_check": "passed",
+      "Overleaf_compile": "passed",
+      "Overleaf_tex_download_bytes_sha256_verified": true,
+      "Overleaf_log_errors": 0,
+      "Overleaf_log_warnings": 0,
+      "Overleaf_typesetting_info": 4
+    },
+    "Supplement": {
+      "tex_sha256": "798d23bdf6ebb1d362b1348ca9819a548ff9a15200e81d2c95caa80c3e0436ce",
+      "tex_bytes": 293941,
+      "pdf_sha256": "edcd7303b7821fb2d570930f23d585488a6fde88d4c948231cea72c5c7d591ea",
+      "pages": 21,
+      "paper_text_equations_tables_exactly_preserved": true,
+      "original_XX_count_preserved": 2,
+      "native_PGF_figures": 7,
+      "no_external_asset_dependency": true,
+      "unresolved_citations_references_missing_glyphs_overfull_boxes": 0,
+      "visual_check": "passed",
+      "Overleaf_compile": "passed",
+      "Overleaf_tex_download_bytes_sha256_verified": true,
+      "Overleaf_log_errors": 0,
+      "Overleaf_log_warnings": 0,
+      "Overleaf_typesetting_info": 23
+    }
+  },
+  "original_v6_files_preserved": 97,
+  "submitted": false,
+  "compiler": "Overleaf XeLaTeX / TeX Live 2026; local Tectonic cross-check",
+  "default_main_document": "20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.tex",
+  "technical_revision_only": true,
+  "new_scientific_analysis": false,
+  "source_code_sha256": "2405dc962f878940d4f83694c99866c23b095f84e1d2989230dcec5558f4cde6",
+  "old_Overleaf_files_retained": 12,
+  "new_Overleaf_regular_paper_tex_documents": 2,
+  "non_tex_files_uploaded_to_Overleaf": false,
+  "cloud_compile_evidence": {
+    "Manuscript": {
+      "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+      "regular_source_document": "20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.tex",
+      "tex_download_sha256": "141819d0b11ce9ae4d5ff44dc3d709b8c608f890d01d79469de575e2af1d16bd",
+      "pages": 19,
+      "errors": 0,
+      "warnings": 0,
+      "typesetting_info": 4,
+      "info_class": "Underfull hbox layout notices; no missing files or undefined labels",
+      "engine": "XeLaTeX",
+      "TeX_Live": "2026",
+      "PDF_download_verified": true,
+      "cloud_pdf_sha256": "a3cd04ba7a0011934a11952e876121b4b3b34ea41d29c4893a7765aef890647f",
+      "screenshot_sha256": "72eb4bce55fc5e1c25d6c3d0c9a6e29afe4eb93cd361e02d3c1549e321316785"
+    },
+    "Supplement": {
+      "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+      "regular_source_document": "20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement.tex",
+      "tex_download_sha256": "798d23bdf6ebb1d362b1348ca9819a548ff9a15200e81d2c95caa80c3e0436ce",
+      "pages": 21,
+      "errors": 0,
+      "warnings": 0,
+      "typesetting_info": 23,
+      "info_class": "Underfull hbox layout notices; no missing files or undefined labels",
+      "engine": "XeLaTeX",
+      "TeX_Live": "2026",
+      "PDF_download_verified": true,
+      "cloud_pdf_sha256": "a1c2a30ac03cd9be659f4f1ab522c2027dd86eea7c9ad99c48b4c22cc52bb781",
+      "screenshot_sha256": "3e16d5ce6cda9e53d47b9e779f86b82d9dd1f56ca535660296469d97961eac65"
+    }
+  },
+  "visual_QA": {
+    "at": "2026-10-30T15:25:38+01:00",
+    "local_pages_covered_by_visual_review": 40,
+    "render_scale_dpi": 120,
+    "local_changed_pages_individually_viewed": {
+      "Manuscript": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "Supplement": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ]
+    },
+    "local_pixel_identical_pages_reusing_previous_completed_visual_checks": {
+      "Manuscript": [
+        1,
+        3,
+        5,
+        12,
+        13,
+        14
+      ],
+      "Supplement": [
+        1,
+        2,
+        3,
+        19,
+        21
+      ]
+    },
+    "extra_continuation_page_21_checked": true,
+    "cloud_pages_individually_viewed": {
+      "Manuscript": [
+        1,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "Supplement": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21
+      ]
+    },
+    "cloud_PDF_all_paper_text_checked_per_page": true,
+    "main_pdf_comparison_excludes_67pt_left_margin_line_numbers": true,
+    "all_12_cloud_chart_pages_visually_checked": true,
+    "unresolved_visible_defects": 0,
+    "scientific_figures_not_replaced_by_placeholders": true
+  },
+  "publication_transport": {
+    "format": "Valid ASCII PDF; all pages text and pixels identical to original PDF",
+    "proof": "20261030_v6_Overleaf_ASCII_PDF_verification.json",
+    "original_binary_PDF_archive": "original local files and Drive; canonical ASCII PDF distributed to both Drive and GitHub",
+    "final_published_builder_sha256": "6bd6d00c08f383d6c3d1372309d1cfb94bcba50ee692219d1694c14195304834"
+  }
+}

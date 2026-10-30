@@ -1,0 +1,108 @@
+{
+  "at": "2026-10-30T15:12:31+01:00",
+  "code_sha256": "d15b38afc0d99b5b49847ab1dac90c6b46e82a6083f4732922aa4ebf8fb92166",
+  "reused_figure_code": {
+    "path": "PCOS_Revision_2026-10-29/code/revision_analysis.py",
+    "sha256": "b82d9dddd971d25ba0261923799e87308bd94865d0dbe02d55b827d04c13db01"
+  },
+  "aggregate_inputs": {
+    "PCOS_Revision_2026-10-29/results/python/all_annual_benchmark_aspr.csv": "942f16120889db8bf03f7cc3b2185f38cbae96cd60640b1fffcc897ee524f40a",
+    "PCOS_Revision_2026-10-29/results/python/symmetric_decomposition_1990_endpoints.csv": "3a3be73287981b762e9dad4151c9e04ac33d559f0a4b3f9996f2028a84dde0bf",
+    "PCOS_Revision_2026-10-29/results/python/composition_sensitivities.csv": "169a7041a361bab68b18095332c7ee132a6e687b0f2187259d0beede0a84f09e",
+    "PCOS_Revision_2026-10-29/results/python/age_weighted_reference_shifts.csv": "8e611292edfceb78e8a8e7b6aa2b564b5875c466941dbe6b776d8f45e0ee6dbe",
+    "PCOS_Revision_2026-10-29/results/python/terminal_year_audit.csv": "1bbf872d42e74a8fb80d97deb2d5f7eb59983fbe625ae43a9e17206bb3f9b2e1",
+    "PCOS_Revision_2026-10-29/results/python/endometriosis_terminal_age_type.csv": "4c50204bb4bc2d25fad62de90237886704c3bd23564cb8e406203c0d43541a04"
+  },
+  "figures": [
+    {
+      "figure": "Figure1_PCOS_trends",
+      "data_artist_sha256_before_and_after": "5eb88635f018f83aeee214c00a912ba650aa2fe8dc30b10dbdabf6d6911b3d2d",
+      "pgf_sha256": "b45c37b7f223b557242f72c5baba3ec690bf91d2c17381f3c7fed7827d7b22ea",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "Figure2_PCOS_subtypes",
+      "data_artist_sha256_before_and_after": "df2a0dabcb991cf742efcd5e058ff55979ab7adf07b70680f0e1090e93ae5242",
+      "pgf_sha256": "abfffc7c7aa223112277b394e69bb625d2e184f82a1bdb751852174f03d10b39",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "Figure3_decomposition",
+      "data_artist_sha256_before_and_after": "12dc2d8fdea61d4dba1e1dca9f3e9fc5b05391ec1c541f92ba7ce27529edf1ee",
+      "pgf_sha256": "72dfa59174935f21a6fa75fe20b52077bf6cf64d05c1123af7e476bc8ca2dadd",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "Figure4_population_source",
+      "data_artist_sha256_before_and_after": "78220294fcc7c5c32d2f60da94a11b478e52d548a57d9d27562b5e804c20b9e9",
+      "pgf_sha256": "5c38b2018c1fc4222ffd2aefcf4cb153ed4c84b3cc0d4d66cdf607ab5e04f002",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "Figure5_benchmark_sensitivity",
+      "data_artist_sha256_before_and_after": "9683f801a3f5f73fa33dbb489c74af5d0b6020d210eaaa7f7016a4abf0d56000",
+      "pgf_sha256": "20e470f0b16c7ed9429b6185ca7298c17128bfcc25ac721afd8a65aceb9ba6a2",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "FigureS1_reference_exclusions",
+      "data_artist_sha256_before_and_after": "946b6d96a30b3996530375d2d7d0f34eca16f571e634a0b1b100cea406e2573c",
+      "pgf_sha256": "c7ac79d15105b06c8cb4d9924d5b992ba769d36701321048efc978b3bb6892e7",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "FigureS2_benchmark_trajectories",
+      "data_artist_sha256_before_and_after": "f4d4f84b7e0d40061fccc1508e1296e910a5a25775b1f78b9a91aeee1505e366",
+      "pgf_sha256": "4ac2d62e2c1fa2daa715e757ab6a65d3b8c7f60d1637638f5b52ea72675f3093",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "FigureS3_composition_sensitivity",
+      "data_artist_sha256_before_and_after": "269605168c14f0a8408ec66b0b90f549f05f8424e84cb7952dee51e3201e68a4",
+      "pgf_sha256": "fc785306dd86b3811579796f2d27716a24d5909745e71d22fbe4cf293f90adcf",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "FigureS4_endometriosis_trajectory",
+      "data_artist_sha256_before_and_after": "150b50b6863d6df67536fb1b9c6e0ef305cda489aca422a169db9316bf2906a2",
+      "pgf_sha256": "a4fa22279f753ca9fcf2ace96d0127cf9c08cb09361a3290aa16914da583f2d4",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "FigureS5_country_shifts",
+      "data_artist_sha256_before_and_after": "5ecdc60e21404052d7fe64f02906bf08838e3cbc3a53f38355c2d29f38adba47",
+      "pgf_sha256": "68f0bbd188c7904358385a35ce9c84dc9bbb82834bf76b53d8e3ffe96ddb6e42",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "FigureS6_terminal_country",
+      "data_artist_sha256_before_and_after": "675473ee8ec13924e3224b268770e6d25748f2dda985040e5d3b1fc183f4d098",
+      "pgf_sha256": "1441e8cf59aac537e77f60d1eaf7d60bf89359611f0cb5e76f2cf3728ae2f361",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    },
+    {
+      "figure": "FigureS7_terminal_age_type",
+      "data_artist_sha256_before_and_after": "025f57aa6f432680d1ca65e71ea9601249ec3f4f949a758b20f0425cd581205c",
+      "pgf_sha256": "2ce49ffc38a774315553c8d3bb5f505ea8bc30c4e4ebacb355e5e049f01df359",
+      "native_vector_TeX": true,
+      "external_image_references": 0
+    }
+  ],
+  "raw_data_read": false,
+  "new_scientific_analysis": false,
+  "old_files": 97,
+  "submitted": false,
+  "final_builder_sha256": "2405dc962f878940d4f83694c99866c23b095f84e1d2989230dcec5558f4cde6",
+  "fixed_scientific_snapshot_inputs_verified": true
+}

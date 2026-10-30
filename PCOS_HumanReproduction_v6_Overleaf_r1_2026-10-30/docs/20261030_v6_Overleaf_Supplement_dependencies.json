@@ -1,0 +1,53 @@
+{
+  "source": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_v6_Supplement.tex",
+  "source_sha256": "0b584aaec01ef0c1c02a5d6e9b24be79d01e2a0980afdf12949876051ceae166",
+  "output_sha256": "798d23bdf6ebb1d362b1348ca9819a548ff9a15200e81d2c95caa80c3e0436ce",
+  "inline_tables": [
+    {
+      "table": "tables/20261030_v6_s1_endpoints.tex",
+      "sha256": "5a1dfbd028c429e4cb3b618bb143138fe7655869a0cb75607d2da7e58d015a02"
+    },
+    {
+      "table": "tables/20261030_v6_s2_sensitivity.tex",
+      "sha256": "89938ebff929b19a79a552d7a844eb14a80941a3e2e4b7c0609a97a288877c8f"
+    },
+    {
+      "table": "tables/20261030_v6_s3_age.tex",
+      "sha256": "31ddcc211c3b459c45a3c0d7d753898a285c708d3cfcb6aa2681f008ba1e79ad"
+    },
+    {
+      "table": "tables/20261030_v6_s4_chained.tex",
+      "sha256": "f399941f6f2f8936b00feb3eb67270e34d4590fcf021a155008025d222113b9f"
+    },
+    {
+      "table": "tables/20261030_v6_s5_population.tex",
+      "sha256": "b1223c376ea87888fdabfe73a38067d823512834f3ffaa42cc55a116194b194f"
+    },
+    {
+      "table": "tables/20261030_v6_s6_rate_conventions.tex",
+      "sha256": "771c4bcdfef5461602b7c3e574eb075fda70abbfd642b29724a6490e41f17ede"
+    },
+    {
+      "table": "tables/20261030_v6_s7_terminal.tex",
+      "sha256": "f92d0a97b4c835f4d8803027abe59525af1b5585c41ab46c2ba81ff17d5087ac"
+    },
+    {
+      "table": "tables/20261030_v6_s8_rounding.tex",
+      "sha256": "f55008b295a690bc6d0c70df02939d7586651633eb7556d1116638f444210f25"
+    },
+    {
+      "table": "tables/20261030_v6_s10_endometriosis_endpoints.tex",
+      "sha256": "75db636f34fdaf20b2e82d22e71cf2f398ef8f795ce56d7ce1c7d83d4ad12b3b"
+    }
+  ],
+  "native_PGF_figures": [
+    "FigureS1_reference_exclusions",
+    "FigureS2_benchmark_trajectories",
+    "FigureS3_composition_sensitivity",
+    "FigureS4_endometriosis_trajectory",
+    "FigureS5_country_shifts",
+    "FigureS6_terminal_country",
+    "FigureS7_terminal_age_type"
+  ],
+  "XX_preserved": true
+}
