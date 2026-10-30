@@ -1,5 +1,15 @@
 # 共享配置与同步验证
 
+## 2026-10-30T21:49:33+01:00 — v7有限编辑的实际三端核验与收尾回执
+
+28项初批稿件/审计/代码已Drive完整原字节回读及GitHub提交blob逐项匹配，制品提交8bb9c39b84cbbc98cd2cc6a89966c06ff4672ae1；Drive新文件夹https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE 。额外原生老师源检查与Overleaf实测JSON随本次收尾发布；最终各目的地/共享记录提交和逐字节证据以本目录docs/20261030_PCOS_BlueK_v7_DRAFT_SYNC_RECEIPT.json及后继云端回读为准。
+
+Overleaf仅论文TeX：保留初次只读导入Archive副本，另建实际可编辑clean主稿，Main document设置回读确为v7。XeLaTeX/TeX Live2026实际19页、Errors0/Warnings0/Info4（Underfull）；下载可编辑TeX206631字节/SHA256 0e2f5cbcb200ff862940078e0fa5f380c4849dea345d776d09f0354f02ffa1a4完全一致。云端PDF19页去空白/独立行号后逐页文本与本地PDF一致，1/4/5/12/15/19页目视通过。原13文件名仍在，无旧稿写入/删除，不冒称全部旧blob重下核验。未上传非TeX或重复补充。
+
+共享8份在最终写前再次Drive原始回读；云端与本地全部一致（其中4份已由真实runner的桌面同步到云端），没有双方未合并变化。保留该fresh基线和本轮前备份，再更新6份共享状态/交接/下一步/同步/日志/结果索引。桌面push不等于云端完成；6份更新及2补充核验文件需再逐字节回读，并在后继SYNC_RECEIPT中写实际GitHub提交。
+
+本机HEAD f17691ea374fec76cabc331d94a0220c06cd94fd及既有dirty工作区保留。GitHub始终基于最新remote tree只改逐项审查路径、expected_sha非force；不reset、不全目录暂存。首次CLI push因缺终端用户名未执行远端变更，后用GitHub连接器原始base64建立blob成功。既有限制仍在：没有合格联合对齐draws，不补区间；全精度官方年龄权重向量未独立确认；AI仅证实2026-10-29会话gpt-6.1-sol，其他模型标识未独立核实，老师新增作者核查XX条款仍为待确认，不能声称最终人类批准。老师Windows/D盘实机复现未发生；这不因编辑完成而自动通过。新数据未下载、未改科研数据，DATA_CATALOG及科学DECISIONS无新变更。
+
 ## 2026-10-30T21:15:24+01:00 — 蓝字稿有限修订已授权；待指定Markdown原文
 
 本轮蓝字有限修订前置检查已完成，但缺少用户指定Markdown/压缩包，论文修改和交付尚未执行。8份共享文档fresh Drive raw比对相同；本轮仅更新HANDOFF、NEXT_ACTIONS及本同步记录，保留历史。三份收尾字节回读与Git提交blob验证在私有bluek_editorial_20261030/PREFLIGHT_SYNC_VERIFIED.json记录，不把共享状态写回当成论文修订完成。暂不投稿。

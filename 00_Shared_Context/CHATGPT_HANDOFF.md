@@ -1,5 +1,21 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-30T21:49:33+01:00 — 本次9项完成：v7候选交接，不扩展历史建议
+
+本轮以实际取得的20261030_PCOS_BlueK_EditorialFixes_Codex_Package.zip内Markdown为9项唯一编辑范围，老师19页Blue K已修改正文为基线。先前21:15“缺文件”依赖已解决；旧HANDOFF审阅建议不能扩展本次9项。生成独立v7 DRAFT候选稿，尚非作者最终接受；原v6/XX及全部旧稿保留，未投稿。
+
+输入：MD SHA256 05225ebfdd631a765bed6de02ceb2206a8be899bd16aa580c1e97851f752834a；老师PDF108563字节/e6884c181a3992ba1612635133c58b60f1a1762c98bddbdbd39576a1c10e5d5d；老师原生TeX e7ed2a2b73304a85ce56f53d11c0a593bad394830264e9d205cdb34e860f873c。
+
+独立目录PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30。clean/Review TeX和PDF各19页，Word实际渲染21页，32原生可编辑数学对象、7编号式、3可编辑主表、5原图。有限补丁逆转严格恢复老师基线；55行对照（51正文/脚注与4结构审计）、原生老师TeX的51区块核对通过；全部图表/公式及305旧文件哈希保持。13条文献双向对应，未引用Xu2025删除；15项既有汇总值/58.5%及情景比例读回通过，非新估计。补充稿无改动，S1–S11/S1–S7、GATHER13部分满足及16 Incomplete均保留。
+
+28项初批稿件/审计/代码已Drive完整原字节回读及GitHub提交blob逐项匹配，制品提交8bb9c39b84cbbc98cd2cc6a89966c06ff4672ae1；Drive新文件夹https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE 。额外原生老师源检查与Overleaf实测JSON随本次收尾发布；最终各目的地/共享记录提交和逐字节证据以本目录docs/20261030_PCOS_BlueK_v7_DRAFT_SYNC_RECEIPT.json及后继云端回读为准。
+
+Overleaf仅论文TeX：保留初次只读导入Archive副本，另建实际可编辑clean主稿，Main document设置回读确为v7。XeLaTeX/TeX Live2026实际19页、Errors0/Warnings0/Info4（Underfull）；下载可编辑TeX206631字节/SHA256 0e2f5cbcb200ff862940078e0fa5f380c4849dea345d776d09f0354f02ffa1a4完全一致。云端PDF19页去空白/独立行号后逐页文本与本地PDF一致，1/4/5/12/15/19页目视通过。原13文件名仍在，无旧稿写入/删除，不冒称全部旧blob重下核验。未上传非TeX或重复补充。
+
+既有限制仍在：没有合格联合对齐draws，不补区间；全精度官方年龄权重向量未独立确认；AI仅证实2026-10-29会话gpt-6.1-sol，其他模型标识未独立核实，老师新增作者核查XX条款仍为待确认，不能声称最终人类批准。老师Windows/D盘实机复现未发生；这不因编辑完成而自动通过。新数据未下载、未改科研数据，DATA_CATALOG及科学DECISIONS无新变更。
+
+下一项由作者逐份查看独立v7及9项修改表；老师按既有FULL_PRIVATE在Windows保存真实复现日志、表/图差异和验收模板。完成标准为明确审阅意见及真实实机证据；不自动开始额外科学分析、填XX、提交期刊或发送给老师。
+
 ## 2026-10-30T21:15:24+01:00 — 蓝字稿有限修订已授权；待指定Markdown原文
 
 用户本轮明确要求以老师已完成修改的19页PCOS 20261030 Blue K.pdf为基础，严格执行压缩包内20261030_PCOS_BlueK_EditorialFixes_for_Codex.md指定9项有限修正，实际生成独立可编辑TeX/Word/PDF、修改对照与真实核验，再同步Drive/GitHub；Overleaf仅论文TeX，旧v6、老师合理修改、统计结果、图表及XX保留，不投稿。这是新修订授权，不再沿用旧备注“未采纳”作为停止理由。
