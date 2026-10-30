@@ -1,5 +1,11 @@
 # 下一阶段任务
 
+## 2026-10-30T19:17:06+01:00 — 第8条ZIP恢复任务完成，保留官网下载限制
+
+Galaxy新增第31条原始ZIP已绿色，并下载回读核对1034字节、SHA256、CRC和内部8行CSV通过；旧第8条失败记录保留。原IHME链接本次仍403，本次是历史原始归档恢复，不应记为本轮官网下载成功。证据PCOS_Galaxy_Recovery_2026-10-30/20261030_Galaxy_ZIP_recovery_verification.json，提交e655b8c46ce1166d276cb7d2042d3cf1b52ab62e。
+
+下一项仍为老师Windows实机复现，并由用户处理后续投稿。Blue K建议待作者采纳，不因本恢复任务自动实施；XX/旧稿/无合格draws限制保持。没有待自动执行的新科学分析。若用户专门要求新的IHME官方导出，依赖有效官方下载访问，不反复尝试过期403链接。
+
 ## 2026-10-30T15:58:49+01:00 — 复现包完成；下一步老师Windows实机验收
 
 用户接受当前论文；复现整理任务已完成，目录20261030_PCOS_v6_Reproduction，Drive https://drive.google.com/drive/folders/1efGZdjoLTDKT_G5p0fehjzp_X7zWcTMv ，GitHub c9200003d1298ba0c7119ab987adb758222f9c11。Mac上的原始数据重算、三notebook、13类双语表、12图像素及中文/空格路径全新迁移测试通过，不能等同老师电脑已通过。

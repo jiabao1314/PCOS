@@ -1,5 +1,19 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-30T19:17:06+01:00 — 第31条ZIP恢复核验通过；官网重新下载仍403
+
+用户授权恢复Galaxy第8条红色ZIP，要求保留原失败记录并核验。本次官方原URL普通HTTPS GET仍403，Chrome直开报ERR_BLOCKED_BY_CLIENT；不得宣称本轮从IHME重新下载成功。经核对既有data/raw原始ZIP与原清单哈希相同，使用此前下载的原始ZIP归档恢复，而非从CSV重打包。
+
+Galaxy PCOS history 11ac94870d0bb33ad5abd2b59708ab6e 新增第31条：20261030_IHME-GBD_2023_DATA-0daed0e5-1_recovered_original.zip，dataset id 40160950115d555e7a6fa417b07b9855。已实际完成为ok绿色，no_unzip.zip类型保留压缩包字节；详情 https://usegalaxy.eu/datasets/40160950115d555e7a6fa417b07b9855/details 。旧第8条id 40160950115d555edbcb7f0cbb270400仍为HTTP403错误记录，界面核实存在，未删除或覆盖。
+
+从新第31条的Download链接下载回读，全文1034字节，SHA256 52c7b1a49ff3e352fa98c8cb7480bea4f5dc6c3826b7e5a3eeec414f902c7a8b，与原档完全相同；ZIP CRC通过，成员原CSV及citation.txt。CSV1654字节、8行，SHA256 ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0。此为历史中国35–39岁2023年试下载，不是替换v6正式分析输入，无新科学计算、draws、稿件改动或投稿。
+
+Chrome自动文件选择缺扩展file-URL权限，系统选择器也不能提交，未擅自扩大扩展权限。改用只指向该ZIP的私人临时下载引用导入Galaxy；临时访问参数不进入公开记录，现有权限不变。私人Drive原始ZIP与原档全文核对通过，权限元数据仅owner。Drive归档 https://drive.google.com/drive/folders/1r1WN7AJKlbrWCD2TyUaxhMdK7og_AA0n 。GitHub制品提交e655b8c46ce1166d276cb7d2042d3cf1b52ab62e仅含核验JSON、中文说明及验证代码三文件，均与Drive全文字节一致；原ZIP/CSV不公开。证据PCOS_Galaxy_Recovery_2026-10-30/20261030_Galaxy_ZIP_recovery_verification.json，代码scripts/verify_galaxy_zip_recovery_20261030.py。
+
+写共享记录前重新raw读取七份Drive文件及最新GitHub树；发现GitHub e5fe6ef仅HANDOFF新增Blue K拟议审阅备注而Drive尚未含该段，已按保存基线合并，完整保留该proposed备注，不视为已接受新科学决定，不替换已接受v6。原历史记录和本机脏工作区保留，无force/reset或全目录暂存。
+
+下一步仍是老师Windows复现及用户后续决定；Blue K改稿建议保持proposed，未经本任务采纳。无需因旧第8条仍红而重复重跑正式分析；用户如要求真正重新从IHME获取，仍需有效官方下载访问。Overleaf仅论文tex、XX/旧稿及不投稿边界保持。
+
 ## 2026-10-30T19:09:00+01:00 — Blue K蓝字修订审阅；建议待作者确认，科学基线未更换
 
 状态：**审阅已完成；以下改稿建议为proposed，未获得作者最终采纳，不改DECISIONS，不替换已接受v6/Overleaf r1。** 本轮未重跑完整统计、未获取联合draws、未编辑论文、未投稿或发送消息。

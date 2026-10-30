@@ -1,5 +1,22 @@
 # Codex 实际运行日志
 
+## 2026-10-30T19:17:06+01:00 — Galaxy ZIP恢复的真实操作及失败/成功分开记录
+
+用户授权恢复Galaxy第8条红色ZIP，要求保留原失败记录并核验。本次官方原URL普通HTTPS GET仍403，Chrome直开报ERR_BLOCKED_BY_CLIENT；不得宣称本轮从IHME重新下载成功。经核对既有data/raw原始ZIP与原清单哈希相同，使用此前下载的原始ZIP归档恢复，而非从CSV重打包。
+
+Galaxy PCOS history 11ac94870d0bb33ad5abd2b59708ab6e 新增第31条：20261030_IHME-GBD_2023_DATA-0daed0e5-1_recovered_original.zip，dataset id 40160950115d555e7a6fa417b07b9855。已实际完成为ok绿色，no_unzip.zip类型保留压缩包字节；详情 https://usegalaxy.eu/datasets/40160950115d555e7a6fa417b07b9855/details 。旧第8条id 40160950115d555edbcb7f0cbb270400仍为HTTP403错误记录，界面核实存在，未删除或覆盖。
+
+从新第31条的Download链接下载回读，全文1034字节，SHA256 52c7b1a49ff3e352fa98c8cb7480bea4f5dc6c3826b7e5a3eeec414f902c7a8b，与原档完全相同；ZIP CRC通过，成员原CSV及citation.txt。CSV1654字节、8行，SHA256 ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0。此为历史中国35–39岁2023年试下载，不是替换v6正式分析输入，无新科学计算、draws、稿件改动或投稿。
+
+Chrome自动文件选择缺扩展file-URL权限，系统选择器也不能提交，未擅自扩大扩展权限。改用只指向该ZIP的私人临时下载引用导入Galaxy；临时访问参数不进入公开记录，现有权限不变。私人Drive原始ZIP与原档全文核对通过，权限元数据仅owner。Drive归档 https://drive.google.com/drive/folders/1r1WN7AJKlbrWCD2TyUaxhMdK7og_AA0n 。GitHub制品提交e655b8c46ce1166d276cb7d2042d3cf1b52ab62e仅含核验JSON、中文说明及验证代码三文件，均与Drive全文字节一致；原ZIP/CSV不公开。证据PCOS_Galaxy_Recovery_2026-10-30/20261030_Galaxy_ZIP_recovery_verification.json，代码scripts/verify_galaxy_zip_recovery_20261030.py。
+
+写共享记录前重新raw读取七份Drive文件及最新GitHub树；发现GitHub e5fe6ef仅HANDOFF新增Blue K拟议审阅备注而Drive尚未含该段，已按保存基线合并，完整保留该proposed备注，不视为已接受新科学决定，不替换已接受v6。原历史记录和本机脏工作区保留，无force/reset或全目录暂存。
+同步冲突修复：第一次push检测到HANDOFF两端均改而拒绝覆盖；桌面字节与刚保存的Git-only Blue K合并基线完全一致。保存桌面备份，核对本轮文本完整保留该基线后，显式写入合并结果，再执行push。未使用last-writer-wins。
+
+实际操作：普通urllib HTTPS GET原IHME URL返回403，结果私存official_redownload_attempt.json；原ZIP本地1034字节及CSV1654字节通过原清单SHA256/CRC检查。浏览器FileChooser.setFiles要求Chrome扩展允许file URLs；按工具提示说明，尝试系统选择器仍无法提交。改用私有Drive file reference经Galaxy Paste/Fetch UI导入，显式选no_unzip.zip；经历queued、running，刷新后ok，未提前标完成。临时链接不公开，未新建/读取API密钥或改变权限。
+
+真实回读路径为Downloads/Galaxy31-[20261030_IHME-GBD_2023_DATA-0daed0e5-1_recovered_original.zip].no_unzip.zip。执行python3 scripts/verify_galaxy_zip_recovery_20261030.py --download <该回读文件> --ui-record <私有UI状态记录> --output PCOS_Galaxy_Recovery_2026-10-30/20261030_Galaxy_ZIP_recovery_verification.json，退出0。一次UI核验错误把图标Download的accessible label当innerText匹配，未误写成功；改为实际下载链接存在、alert-success类、ok标题及真实字节核对。说明文件首次stdin UTF-8错误未写成，改apply_patch成功。这是数据档案恢复审计，不是科研重算，不虚构科学runner。
+
 ## 2026-10-30T15:58:49+01:00 — v6私人复现包及独立R/Jupyter真实执行
 
 用户已明确“现在的论文已经可以了”，并授权整理当前论文所有必需代码和数据供老师复现、用Jupyter逐张学习图片；用户计划复现后自行投稿，本轮不投稿。当前已接受论文仍为Human Reproduction v6 / Overleaf r1，科学快照1abf337d9f23cc69292e03cd581b6a1557e6effe，正文、XX、旧稿及联合draws限制未改。
