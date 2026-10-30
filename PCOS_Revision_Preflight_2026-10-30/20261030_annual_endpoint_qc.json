@@ -1,0 +1,71 @@
+{
+  "input": "PCOS_Revision_2026-10-29/results/python/all_annual_benchmark_aspr.csv",
+  "input_sha256": "942f16120889db8bf03f7cc3b2185f38cbae96cd60640b1fffcc897ee524f40a",
+  "annual_input_rows": 1224,
+  "aggregate_output_rows": 408,
+  "annual_subtype_gap_sum_max_absolute_error": 6.821210263296962e-13,
+  "endometriosis_dynamic_endpoints": [
+    {
+      "cause": "Endometriosis",
+      "source": "GBD",
+      "benchmark": "dynamic",
+      "year": 2021,
+      "Primary": -8.34650248892823,
+      "Secondary": -0.1056079385482746,
+      "Total": -8.452110427476534,
+      "subtype_sum_residual": -2.8477220581635265e-14
+    },
+    {
+      "cause": "Endometriosis",
+      "source": "GBD",
+      "benchmark": "dynamic",
+      "year": 2022,
+      "Primary": -8.360464011702131,
+      "Secondary": -0.3997079159079959,
+      "Total": -8.760171927610138,
+      "subtype_sum_residual": -1.0658141036401503e-14
+    },
+    {
+      "cause": "Endometriosis",
+      "source": "GBD",
+      "benchmark": "dynamic",
+      "year": 2023,
+      "Primary": -7.935716952788706,
+      "Secondary": 7.73326287606308,
+      "Total": -0.2024540767256084,
+      "subtype_sum_residual": 1.7763568394002505e-14
+    },
+    {
+      "cause": "Endometriosis",
+      "source": "UN-WPP2024",
+      "benchmark": "dynamic",
+      "year": 2021,
+      "Primary": -8.329508720913054,
+      "Secondary": 0.0203060586128316,
+      "Total": -8.309202662300244,
+      "subtype_sum_residual": -2.128158760328347e-14
+    },
+    {
+      "cause": "Endometriosis",
+      "source": "UN-WPP2024",
+      "benchmark": "dynamic",
+      "year": 2022,
+      "Primary": -8.345995449728346,
+      "Secondary": -0.2610620219826955,
+      "Total": -8.607057471711059,
+      "subtype_sum_residual": -1.7819079545233762e-14
+    },
+    {
+      "cause": "Endometriosis",
+      "source": "UN-WPP2024",
+      "benchmark": "dynamic",
+      "year": 2023,
+      "Primary": -7.920924674473968,
+      "Secondary": 7.891749922643257,
+      "Total": -0.0291747518307019,
+      "subtype_sum_residual": 8.881784197001252e-15
+    }
+  ],
+  "interpretation": "Annual and endpoint point-estimate cancellation can be described. No correlation P value or posterior interval was computed.",
+  "new_model_fitted": false
+}

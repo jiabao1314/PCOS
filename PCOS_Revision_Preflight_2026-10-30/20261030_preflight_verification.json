@@ -1,0 +1,14 @@
+{
+  "input_hashes_verified": 7,
+  "old_v5_files_unchanged": 82,
+  "source_checks_passed": true,
+  "annual_subtype_sum_check_passed": true,
+  "scope": "Preflight and reuse checks only, not completed manuscript revision",
+  "T00": "verified",
+  "T01": "audit verified; full-precision weight provenance unresolved",
+  "T02": "access audit verified; no qualified draws",
+  "T04": "annual aggregate table and additivity verified; manuscript incorporation pending",
+  "T03_T05_T07": "pending; no v6 created",
+  "joint_uncertainty_resolved": false,
+  "cloud_sync": "pending until connector readback and committed-blob verification"
+}

@@ -1,0 +1,128 @@
+{
+  "status": "input and definition checks verified; original full-precision official age-weight vector not established",
+  "countries": 19,
+  "reference_countries": 18,
+  "population_cells_each_source": 4522,
+  "prevalence_cells_two_causes_three_types": 27132,
+  "pcos_prevalence_cells": 13566,
+  "subtype_cases_additivity_max_absolute_error": 5.820766091346741e-10,
+  "official_endpoint_rate_rows": 1064,
+  "official_endpoint_rate_max_absolute_error": 1.1596057447604835e-11,
+  "reference_definition": "Fixed sovereign-country set applied retrospectively to 1990-2023; China excluded; EU and AU not added as countries.",
+  "g20_official_evidence": "https://www.dfat.gov.au/trade/organisations/g20",
+  "g20_evidence_accessed": "2026-10-30; official page lists members and establishment in 1999",
+  "appendix": {
+    "path": "sources/GBD2023_methods_appendix1.pdf",
+    "sha256": "13abb92a6fa6d898d86684e1fffbf0f5d9e29f2c12ace88aca82aa8445d6b8be",
+    "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12535840/",
+    "pdf_pages_read": [
+      590,
+      591,
+      592,
+      593,
+      594,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      693,
+      694
+    ],
+    "pdf_pages_visually_checked": [
+      591,
+      685,
+      686,
+      691
+    ],
+    "printed_page_number_offset": "printed page = one-based PDF page minus 1",
+    "remote_pdf_download_this_run": false,
+    "local_existing_copy_used": true
+  },
+  "definitions": [
+    {
+      "quantity": "survey primary infertility",
+      "definition": "No livebirth, desire for a child, union at least five years, and no current contraception.",
+      "pdf_pages": [
+        685,
+        686
+      ]
+    },
+    {
+      "quantity": "survey secondary infertility",
+      "definition": "Last livebirth more than five years ago, desire for another child, union at least five years, and no current contraception.",
+      "pdf_pages": [
+        685,
+        686
+      ]
+    },
+    {
+      "quantity": "modeled denominator",
+      "definition": "Infertility expressed among all females of reproductive age in the general population after sex attribution and exposure modeling.",
+      "pdf_pages": [
+        686,
+        687
+      ]
+    },
+    {
+      "quantity": "clinical input definition",
+      "definition": "Clinic case series use twelve months without pregnancy; the appendix separately describes household-survey and clinic definitions.",
+      "pdf_pages": [
+        685,
+        686,
+        687
+      ]
+    },
+    {
+      "quantity": "PCOS model and infertility attribution",
+      "definition": "NIH reference definition with crosswalks for alternatives; disease sequela proportions applied to PCOS prevalence, split by primary/secondary envelope proportions, then reconciled with infertility envelopes.",
+      "pdf_pages": [
+        591,
+        592,
+        691,
+        692,
+        693
+      ]
+    }
+  ],
+  "weights": {
+    "raw": {
+      "15-19": 0.082891,
+      "20-24": 0.078012,
+      "25-29": 0.075914,
+      "30-34": 0.073217,
+      "35-39": 0.068281,
+      "40-44": 0.061474,
+      "45-49": 0.055113
+    },
+    "raw_sum": 0.494902,
+    "normalized_sum": 1.0,
+    "reproduced_docx_sha256": "9e4a745a32fcaaea9a78bcc9a3179014fa6e70042e348acadd2fb94732d1c3b4",
+    "seven_values_match_existing_reproduction": true,
+    "provenance": "Six-decimal published reproduction cited to Chen et al. 2026, DOI 10.1371/journal.pone.0351539 in v5. Not an independently verified full-precision IHME vector.",
+    "decision": "Retain baseline and existing 128-corner rounding sensitivity; no weight upgrade performed."
+  },
+  "environment": {
+    "original_python_record": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "original_R_record": "R 4.6.1 (2026-06-24), aarch64-apple-darwin23; results/R/R_session_info.txt",
+    "current_audit_python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "current_audit_packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.7"
+    },
+    "original_environment_evidence": [
+      "PCOS_NewArticle_GBD_UNWPP_2026-10-26/docs/software_environment.json",
+      "PCOS_Revision_2026-10-29/requirements.lock.txt"
+    ],
+    "upstream_GBD_fit_reproduced": false
+  },
+  "un_role": "Replace within-age reference shares only; disease rates retain matched GBD population denominators.",
+  "un_unit_conversion_verified": true,
+  "full_UN_Galaxy_archive_status": "not rechecked; historical running status not promoted to complete",
+  "new_research_downloads": false,
+  "source_data_changed": false
+}

@@ -1,0 +1,163 @@
+{
+  "status": "bounded access audit completed; qualified joint posterior draws not obtained",
+  "source_summary_schemas": [
+    {
+      "file": "IHME-GBD_2023_DATA-1b13e337-1.csv",
+      "rows": 36176,
+      "columns": [
+        "population_group_id",
+        "population_group_name",
+        "measure_id",
+        "measure_name",
+        "location_id",
+        "location_name",
+        "sex_id",
+        "sex_name",
+        "age_id",
+        "age_name",
+        "cause_id",
+        "cause_name",
+        "rei_id",
+        "rei_name",
+        "metric_id",
+        "metric_name",
+        "year",
+        "val",
+        "upper",
+        "lower"
+      ],
+      "draw_columns": 0,
+      "sha256": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b"
+    },
+    {
+      "file": "IHME-GBD_2023_DATA-416daf73-1.csv",
+      "rows": 36176,
+      "columns": [
+        "population_group_id",
+        "population_group_name",
+        "measure_id",
+        "measure_name",
+        "location_id",
+        "location_name",
+        "sex_id",
+        "sex_name",
+        "age_id",
+        "age_name",
+        "cause_id",
+        "cause_name",
+        "rei_id",
+        "rei_name",
+        "metric_id",
+        "metric_name",
+        "year",
+        "val",
+        "upper",
+        "lower"
+      ],
+      "draw_columns": 0,
+      "sha256": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f"
+    },
+    {
+      "file": "IHME-GBD_2023_DATA-76c5523c-1.csv",
+      "rows": 4256,
+      "columns": [
+        "population_group_id",
+        "population_group_name",
+        "measure_id",
+        "measure_name",
+        "location_id",
+        "location_name",
+        "sex_id",
+        "sex_name",
+        "age_id",
+        "age_name",
+        "cause_id",
+        "cause_name",
+        "rei_id",
+        "rei_name",
+        "metric_id",
+        "metric_name",
+        "year",
+        "val",
+        "upper",
+        "lower"
+      ],
+      "draw_columns": 0,
+      "sha256": "5d4c87c8cb2a42e3ec4dd2819e227205273526ed0376144f8c850ebbba5094da"
+    }
+  ],
+  "matched_population_has_draw_columns": false,
+  "existing_audit": "PCOS_Revision_2026-10-29/docs/uncertainty_access_audit_2026-10-29.json",
+  "current_access_evidence": {
+    "date": "2026-10-30",
+    "official_checks": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12535840/",
+        "result": "Full main article read; reports mean and percentile summaries across 250 draws for GBD2023. Does not supply or certify project-specific aligned draw array."
+      },
+      {
+        "url": "https://ghdx.healthdata.org/gbd-2023",
+        "result": "403 Forbidden through web fetch"
+      },
+      {
+        "url": "https://ghdx.healthdata.org/gbd-2023/code",
+        "result": "403 Forbidden through web fetch"
+      },
+      {
+        "url": "https://vizhub.healthdata.org/gbd-results/",
+        "result": "403 Forbidden through web fetch"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12535840/bin/mmc1.pdf",
+        "result": "Preparing to download challenge; reused existing appendix instead"
+      }
+    ],
+    "drive_filename_search": {
+      "query": "trashed = false and (name contains 'draw' or name contains 'Draw' or name contains 'posterior')",
+      "results": [
+        {
+          "name": "DRAWS_AND_EXTERNAL_VALIDATION_ZH.md",
+          "id": "1vx3F2miiaJkWRfNO479TlCjH6RyjQ4YL",
+          "mime_type": "text/markdown"
+        },
+        {
+          "name": "PCOS_数据获取与联合draws阶段核验_20261025",
+          "id": "1e1pHtuycPUYhJvbUMZsLxUwfWWZ-hf1uuGNr1OtK1-M",
+          "mime_type": "application/vnd.google-apps.document"
+        },
+        {
+          "name": "PCOS_外部证据与联合draws核验_2026-10-25",
+          "id": "1XgeeW9uzu1cQjfglWA94sZ9kFMP_zYlGfE5VnKmVFjM",
+          "mime_type": "application/vnd.google-apps.document"
+        },
+        {
+          "name": "drawing",
+          "id": "1WeZPmz2W_q3NMNpngqPCAUDIm-e-2ZFZ",
+          "mime_type": "application/vnd.google-apps.folder"
+        },
+        {
+          "name": "drawing",
+          "id": "1UxJp6Iylc-VJi_TLxCripKsJ316gNlmK",
+          "mime_type": "application/vnd.google-apps.folder"
+        }
+      ],
+      "scope": "Accessible Drive filename metadata search; not exhaustive content inspection or provider entitlement audit",
+      "error_fixed": "Initial raw q used invalid contains(name,...) syntax and returned 400. Corrected to name contains 'draw'; successful query then returned five named items."
+    },
+    "local_scope": "Existing seven-item scientific input manifest, four original GBD CSV schemas, v5 and the scientific snapshot; no posterior sample product provided by these inputs.",
+    "requests_sent": false,
+    "new_data_downloaded": false,
+    "qualified_draws_obtained": false
+  },
+  "interpretation": "403 errors and unsuccessful bounded discovery do not prove provider unavailability.",
+  "provider_alignment_verified": false,
+  "posterior_intervals_generated": false,
+  "comment_51_status": "access audit verified; statistical uncertainty propagation remains blocked by missing qualified draws",
+  "eligible_product_requires": [
+    "GBD2023 version and required cause/impairment/sex/location/age/year coverage",
+    "Provider evidence of joint draw pairing across required dimensions; matching column names alone insufficient",
+    "Compatible denominators and weight specification",
+    "Reconstruction of product summaries, per-draw identities, independent verification"
+  ],
+  "point_branch": "Continue editorial correction using existing estimates and sensitivity results; do not substitute marginal bounds, independent simulations or country bootstrap for posterior propagation."
+}
