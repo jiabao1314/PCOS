@@ -50,6 +50,15 @@
     "read_access_evidence": "Chrome project title, exact project URL and file tree observed",
     "upload_verification": "not performed in preference-only task",
     "preserve_prior_versions": true,
-    "desktop_app": "user reports installed; not independently inspected"
+    "desktop_app": "user reports installed; not independently inspected",
+    "allowed_upload_extensions": [
+      ".tex"
+    ],
+    "upload_content_scope": "paper/manuscript TeX source files only",
+    "upload_verification_required": true,
+    "non_tex_upload_allowed": false,
+    "journal_submission_authorized": false,
+    "restriction_confirmed_on": "2026-10-30",
+    "missing_asset_policy": "Report compilation limitations; never upload excluded assets or rename them to .tex"
   }
 }

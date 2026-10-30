@@ -398,3 +398,11 @@ GBD2023现存Appendix 1的PDF685–687页核实调查五年定义/临床12个月
 本轮仅保存未来交付偏好，未生成新论文、未修改v6文稿、未向Overleaf上传文件。用户随后提供并确认目标链接：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。已通过Chrome既有标签读取并核验标题“PCOS - Online LaTeX Editor Overleaf”、项目ID及现有文件树，读访问已验证；写入/编译同步尚未执行或验证。当前没有Overleaf专用连接器，插件搜索未返回匹配；可用浏览器完成后续操作。规则已保存不等于本轮已上传。
 
 实际检查：按Overleaf关键词检索现有AGENTS/共享/配置/docs，无匹配；插件管理search_plugins查询Overleaf返回空列表。编辑前通过Drive连接器raw获取七份最新文件并下载逐字节比较通过，再执行shared_context.py pull。仅更新操作规则，不属于科研分析，DATA_CATALOG/RESULTS_INDEX和v6内容均不变。本机旧HEAD与既有脏修改保留；本轮显式路径单独发布，不stage其他稿件。
+
+### 2026-10-30T14:46:40+01:00 — 用户收窄Overleaf上传为论文TeX
+
+用户于2026-10-30进一步明确并优先覆盖此前Overleaf存储表述：Overleaf的PCOS项目永远只上传论文的.tex源文件，上传后必须核验，暂不投稿。不得上传Word、PDF、ZIP、图片、TIFF、独立.bib、数据或其他非.tex文件，也不通过改后缀规避限制。Drive与GitHub继续保留完整交付。保留日期前缀、版本与旧稿；不因此清理或删除Overleaf已有文件。
+
+固定目标：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。已在此前核验浏览器读访问；桌面应用为用户报告可用。每次实际上传后核对目标项目、文件名及论文TeX内容，记录成功/失败。若缺少非.tex资源导致无法编译，应如实报告，不自行上传被排除的资源。本轮只更新长期规则，没有向Overleaf上传、删除或修改稿件，也没有投稿；v6内容和此前核验不变。
+
+证据：用户原话“请记住Overleaf的PCOS项目永远只上传tex文件，上传后核验，暂不投稿。”及“也就是论文tex”。编辑前六份共享记录均经Drive raw引用下载与本机全文字节核对，执行冲突安全pull。仅修改操作规则/配置；无科学分析，无数据或v6修改，DATA_CATALOG/RESULTS_INDEX不变。显式发布八条规则路径，保留本地HEAD和无关脏修改。云端规则及GitHub提交blob的完整字节核验另存后继回执。
