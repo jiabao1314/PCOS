@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-30T15:52:19+01:00",
+  "old_research_and_v6_files_sha256_unchanged": 304,
+  "all_12_Python_figures_and_notebook_figures_match_accepted_paper_pixels": [
+    "Figure1_PCOS_trends",
+    "Figure2_PCOS_subtypes",
+    "Figure3_decomposition",
+    "Figure4_population_source",
+    "Figure5_benchmark_sensitivity",
+    "FigureS1_reference_exclusions",
+    "FigureS2_benchmark_trajectories",
+    "FigureS3_composition_sensitivity",
+    "FigureS4_endometriosis_trajectory",
+    "FigureS5_country_shifts",
+    "FigureS6_terminal_country",
+    "FigureS7_terminal_age_type"
+  ],
+  "R_figures_individually_visually_reviewed": 12,
+  "R_legend_layout_changes_rechecked": [
+    "Figure1",
+    "Figure2",
+    "FigureS2"
+  ],
+  "R_style": "Independent base R rendering; data cross-checked, not claimed pixel-identical to Python",
+  "fresh_relocation_check": "passed from zero outputs under Chinese and space-containing folder, cwd outside package",
+  "native_Windows_test": false,
+  "raw_research_data_downloaded_this_task": false,
+  "raw_inputs_copied_byte_identical": 7,
+  "GBD_refit": false,
+  "qualified_joint_draws_added": false,
+  "paper_text_or_scientific_claims_changed": false,
+  "overleaf_changed": false,
+  "submitted": false,
+  "real_errors_and_fixes": [
+    "Python-only revision initially required missing R outputs; checks made optional during Python calculation, required in final crosscheck.",
+    "First notebook file patch rejected syntax before mutation; corrected patch generation.",
+    "Rscript encoded spaces as ~+~ in --file; decoded and fresh relocation v2 passed.",
+    "First shared-context runner rejected existing output paths before execution; used new final validation output, actual final runner verified."
+  ]
+}

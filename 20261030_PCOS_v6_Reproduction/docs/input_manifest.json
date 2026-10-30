@@ -1,0 +1,30 @@
+{
+  "data/input/IHME-GBD_2023_DATA-916826fb-1.csv": {
+    "bytes": 628106,
+    "sha256": "d7202eedb69a9ead4dd4994c1cf02917cca57e23d7d82af1edca32e129ae93ca"
+  },
+  "data/input/IHME-GBD_2023_DATA-1b13e337-1.csv": {
+    "bytes": 6729856,
+    "sha256": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b"
+  },
+  "data/input/IHME-GBD_2023_DATA-416daf73-1.csv": {
+    "bytes": 7210811,
+    "sha256": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f"
+  },
+  "data/input/UN_WPP2024_G20_female_15_49_1990_2023.csv": {
+    "bytes": 344829,
+    "sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9"
+  },
+  "data/input/IHME-GBD_2023_DATA-76c5523c-1.csv": {
+    "bytes": 827804,
+    "sha256": "5d4c87c8cb2a42e3ec4dd2819e227205273526ed0376144f8c850ebbba5094da"
+  },
+  "data/input/weights.csv": {
+    "bytes": 121,
+    "sha256": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d"
+  },
+  "data/input/UN_WPP2024_source_manifest.json": {
+    "bytes": 970,
+    "sha256": "437240da1b218808563763424772ffc1f0c6fd683e956a01a44cc8f8c9d29033"
+  }
+}

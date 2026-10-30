@@ -1,0 +1,110 @@
+[
+  {
+    "figure": "Figure1_PCOS_trends",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1820,
+      650
+    ]
+  },
+  {
+    "figure": "Figure2_PCOS_subtypes",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1820,
+      650
+    ]
+  },
+  {
+    "figure": "Figure3_decomposition",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1640,
+      812
+    ]
+  },
+  {
+    "figure": "Figure4_population_source",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1820,
+      704
+    ]
+  },
+  {
+    "figure": "Figure5_benchmark_sensitivity",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1640,
+      758
+    ]
+  },
+  {
+    "figure": "FigureS1_reference_exclusions",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1460,
+      1190
+    ]
+  },
+  {
+    "figure": "FigureS2_benchmark_trajectories",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1820,
+      704
+    ]
+  },
+  {
+    "figure": "FigureS3_composition_sensitivity",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1460,
+      1190
+    ]
+  },
+  {
+    "figure": "FigureS4_endometriosis_trajectory",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1460,
+      704
+    ]
+  },
+  {
+    "figure": "FigureS5_country_shifts",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1460,
+      1100
+    ]
+  },
+  {
+    "figure": "FigureS6_terminal_country",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1460,
+      1100
+    ]
+  },
+  {
+    "figure": "FigureS7_terminal_age_type",
+    "python_matches_accepted_paper_pixels": true,
+    "notebook_matches_python_pixels": true,
+    "dimensions": [
+      1460,
+      740
+    ]
+  }
+]

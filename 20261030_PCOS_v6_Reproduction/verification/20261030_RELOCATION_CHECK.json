@@ -1,0 +1,11 @@
+{
+  "run_at": "2026-10-30T15:50:10+01:00",
+  "fresh_copy_without_results": true,
+  "moved_folder_has_Chinese_and_spaces": true,
+  "unrelated_working_directory": true,
+  "full_raw_to_Python_and_R_run_exit_code": 0,
+  "independent_numeric_tables": 13,
+  "native_Windows_D_drive_execution": false,
+  "limitation": "Executed on macOS after relocation; Windows must be checked on the teacher computer.",
+  "command_structure": "<Python 3.12> <moved package>/code/reproduce.py all (cwd outside package)"
+}

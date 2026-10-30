@@ -1,0 +1,27 @@
+{
+  "created": "2026-10-30T15:41:57",
+  "scientific_commit": "1abf337d9f23cc69292e03cd581b6a1557e6effe",
+  "v6_editorial_commit": "3dd7b5c3aabdc670c034c161cec4f7f6bf094a45",
+  "v6_compile_commit": "e877d47434c3aa5af5230892ba1a57db6187dca5",
+  "local_code_base_commit": "f17691ea374fec76cabc331d94a0220c06cd94fd",
+  "source_snapshot": "PCOS_Revision_2026-10-29",
+  "R_core_changes": "Only explicit UTF-8 reading for Windows portability; numerical algorithm preserved.",
+  "original_code_sha256": {
+    "PCOS_NewArticle_complete.py": "96dc848c7ea9080a297d347c9857a6700da9f0af48728fcc82b50cf676e2fe43",
+    "PCOS_NewArticle_complete.R": "31508e785aa63c15bc7b3d04faa474775aec7681ff1e21d2982519365ede831e",
+    "revision_analysis.py": "b82d9dddd971d25ba0261923799e87308bd94865d0dbe02d55b827d04c13db01",
+    "extract_wpp2024.py": "3fa4866d460ede2e0d7a40c07e6549c82cd175528173833a8ff09e8402342057"
+  },
+  "new_code_is_uncommitted_until_publication": true,
+  "no_new_draws": true,
+  "restricted_raw_input_count": 4,
+  "public_raw_input_count": 3,
+  "hospital_data_included": false,
+  "Windows_D_drive_available_on_build_machine": false,
+  "adaptations": [
+    "R core explicit UTF-8 file input/output for Windows and decode Rscript ~+~ path spaces",
+    "Python revision main(check_r=False) permits Python-only teaching; full R checks run later via reproduce.py check",
+    "Python TeX table writer explicit UTF-8; no numerical formulas changed",
+    "Independent new base-R sensitivity and plotting code; Python orchestrator, notebooks and Windows launchers added"
+  ]
+}

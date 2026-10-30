@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29",
+  "posterior_draws_obtained": false,
+  "accessible_input_schemas": "Original exported CSV files contain val/lower/upper summaries and no draw columns",
+  "local_search": "No new draw archive found in the project, Downloads or PCOS Drive sync folder",
+  "connected_Drive_search": "No provider-aligned draw file identified; prior plan documents are not posterior samples",
+  "official_guide_catalog_revisit": "Web access returned 403; does not prove draws are unavailable from provider",
+  "request_sent_this_revision": false,
+  "fallback": "Model-point-estimate descriptive manuscript; no propagated GBD intervals or inferential ranking claims",
+  "specification": "docs/joint_draws_request.json"
+}

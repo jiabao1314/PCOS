@@ -1,0 +1,86 @@
+[
+  {
+    "order": 1,
+    "figure": "图1",
+    "output_basename": "Figure1_PCOS_trends",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "先看中国与合并参照的水平，再看差值。中国下降不必然意味着差值下降，参照也在变化。"
+  },
+  {
+    "order": 2,
+    "figure": "图2",
+    "output_basename": "Figure2_PCOS_subtypes",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "总量可能掩盖亚型不同趋势。两亚型用相同全部育龄女性分母和权重，可与总率加和一起理解。"
+  },
+  {
+    "order": 3,
+    "figure": "图3",
+    "output_basename": "Figure3_decomposition",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "每组X+Q+S等于黑色菱形净变化。正负号须按中国率、参照率及参照份额各项定义解释。"
+  },
+  {
+    "order": 4,
+    "figure": "图4",
+    "output_basename": "Figure4_population_source",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "替换人口份额、保留GBD病率。相近结果是人口权重稳健性检查，不能称独立疾病验证。"
+  },
+  {
+    "order": 5,
+    "figure": "图5",
+    "output_basename": "Figure5_benchmark_sensitivity",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "相同2023疾病率，更换参照基准就可能改变差值符号。三种基准不是同义替代。"
+  },
+  {
+    "order": 6,
+    "figure": "补图S1",
+    "output_basename": "FigureS1_reference_exclusions",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "删除一国后在年龄内重新归一化其余17国；20–49也重新归一化年龄权重。画的是2023端点差。"
+  },
+  {
+    "order": 7,
+    "figure": "补图S2",
+    "output_basename": "FigureS2_benchmark_trajectories",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "看34年轨迹，避免只看2023。UN仅用于人口份额，仍是同一GBD模型率。"
+  },
+  {
+    "order": 8,
+    "figure": "补图S3",
+    "output_basename": "FigureS3_composition_sensitivity",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "100S/有符号净变化可不在0–100%。50%虚线不是显著性阈值，39.8%–67.9%为设定范围，不是可信区间。"
+  },
+  {
+    "order": 9,
+    "figure": "补图S4",
+    "output_basename": "FigureS4_endometriosis_trajectory",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "末端接近零不代表历年接近零。三端点标记定位模型末年变化，不能据此推断疫情/临床机制。"
+  },
+  {
+    "order": 10,
+    "figure": "补图S5",
+    "output_basename": "FigureS5_country_shifts",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "年龄内各国人口份额用固定标准年龄权重平均再作差，不是实际全龄人口占比或疾病率变化。"
+  },
+  {
+    "order": 11,
+    "figure": "补图S6",
+    "output_basename": "FigureS6_terminal_country",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "同一模型来源的19国末年输出审计，不等于独立流行病学验证，不为末年突变编造机制。"
+  },
+  {
+    "order": 12,
+    "figure": "补图S7",
+    "output_basename": "FigureS7_terminal_age_type",
+    "notebook": "20261030_02_All_12_Figures.ipynb",
+    "meaning": "每柱是年龄权重×2022–2023率增量。七年龄×两亚型加和为总率增量，不是病因分数。"
+  }
+]

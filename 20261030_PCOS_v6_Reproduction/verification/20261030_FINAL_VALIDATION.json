@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "run_at": "2026-10-30T15:51:37+01:00",
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.7",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "jupyterlab": "4.6.4",
+    "ipykernel": "7.4.0"
+  },
+  "notebooks": [
+    {
+      "notebook": "20261030_01_Data_to_Estimands.ipynb",
+      "clean_sha256": "914c9cbbbd1ddfc0a9d7be11dc1477335b99c65fcd4ddec4a2c5ec5939e092bf",
+      "executed_sha256": "a1b88f0ae55644bc0c74237bf9fb50cd668b76c925d54231d73304edbca1194f",
+      "code_cells": 6,
+      "image_outputs": 0,
+      "errors": 0
+    },
+    {
+      "notebook": "20261030_02_All_12_Figures.ipynb",
+      "clean_sha256": "59ee75c398c8104be1fed7c2efba141452ef234248519d19084cf5cdaf8fc8bf",
+      "executed_sha256": "775569c8c409a4e7c3c43adf1b9fe68f70d60aa3858ef45571571a70242eef38",
+      "code_cells": 14,
+      "image_outputs": 12,
+      "errors": 0
+    },
+    {
+      "notebook": "20261030_03_Independent_R_and_Audit.ipynb",
+      "clean_sha256": "284f55168d579185e26f6d3a9624811633b446f99015af2e6167aaa4b2ec7d0a",
+      "executed_sha256": "859058186781fafa82a5dd45d9de31a6544f40aa85a603afdea4c0e2c0d06a03",
+      "code_cells": 4,
+      "image_outputs": 0,
+      "errors": 0
+    }
+  ],
+  "raw_input_sha256_checks": {
+    "verified_inputs": 7,
+    "GBD_raw_inputs": 4,
+    "UN_weights_provenance_inputs": 3,
+    "synthetic_inputs": false
+  },
+  "independent_numeric_tables": 13,
+  "historical_numeric_tables": 12,
+  "Python_figures": 12,
+  "R_figures": 12,
+  "no_joint_draws": true,
+  "paper_unchanged": true,
+  "Windows_native_execution": false,
+  "teacher_Windows_reproduction": "pending on teacher machine",
+  "submitted": false
+}

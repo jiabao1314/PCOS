@@ -1,0 +1,326 @@
+[
+  {
+    "table": "all_annual_benchmark_aspr",
+    "rows": 1224,
+    "numeric_columns": 4,
+    "max_absolute_difference": 5.684341886080801e-13,
+    "per_column": {
+      "china_aspr": {
+        "max_absolute_difference": 5.115907697472721e-13,
+        "max_scaled_difference": 1.677541017630474e-15
+      },
+      "ref_aspr": {
+        "max_absolute_difference": 5.684341886080801e-13,
+        "max_scaled_difference": 3.754505550664108e-15
+      },
+      "gap": {
+        "max_absolute_difference": 5.115907697472721e-13,
+        "max_scaled_difference": 4.782659300719429e-15
+      },
+      "ratio": {
+        "max_absolute_difference": 5.10702591327572e-15,
+        "max_scaled_difference": 4.860597547132831e-15
+      }
+    }
+  },
+  {
+    "table": "symmetric_decomposition_1990_endpoints",
+    "rows": 36,
+    "numeric_columns": 7,
+    "max_absolute_difference": 4.831690603168681e-13,
+    "per_column": {
+      "initial_gap": {
+        "max_absolute_difference": 4.405364961712621e-13,
+        "max_scaled_difference": 4.260334761626938e-15
+      },
+      "end_gap": {
+        "max_absolute_difference": 4.547473508864641e-13,
+        "max_scaled_difference": 3.4508720393329874e-15
+      },
+      "net_gap_change": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 4.572567392527865e-15
+      },
+      "china_rate_effect": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 4.094734365599563e-15
+      },
+      "reference_rate_effect": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 3.027886453236055e-15
+      },
+      "reference_country_composition_effect": {
+        "max_absolute_difference": 4.973799150320701e-14,
+        "max_scaled_difference": 1.580295429141027e-15
+      },
+      "composition_share_of_net": {
+        "max_absolute_difference": 4.440892098500626e-16,
+        "max_scaled_difference": 4.440892098500626e-16
+      }
+    }
+  },
+  {
+    "table": "leave_one_country_out",
+    "rows": 216,
+    "numeric_columns": 3,
+    "max_absolute_difference": 5.115907697472721e-13,
+    "per_column": {
+      "initial_gap": {
+        "max_absolute_difference": 5.115907697472721e-13,
+        "max_scaled_difference": 4.694255576033143e-15
+      },
+      "gap_2023": {
+        "max_absolute_difference": 4.973799150320701e-13,
+        "max_scaled_difference": 4.368377240366853e-15
+      },
+      "change": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 4.559691014023009e-15
+      }
+    }
+  },
+  {
+    "table": "annual_chained_decomposition",
+    "rows": 12,
+    "numeric_columns": 5,
+    "max_absolute_difference": 4.831690603168681e-13,
+    "per_column": {
+      "china_rate_effect": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 4.094734365599563e-15
+      },
+      "reference_rate_effect": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 2.8019328353157783e-15
+      },
+      "reference_country_composition_effect": {
+        "max_absolute_difference": 5.684341886080802e-14,
+        "max_scaled_difference": 1.7208456881689926e-15
+      },
+      "net_gap_change": {
+        "max_absolute_difference": 3.979039320256561e-13,
+        "max_scaled_difference": 3.784468026514515e-15
+      },
+      "composition_share_of_net": {
+        "max_absolute_difference": 6.106226635438361e-16,
+        "max_scaled_difference": 6.106226635438361e-16
+      }
+    }
+  },
+  {
+    "table": "composition_sensitivities",
+    "rows": 1440,
+    "numeric_columns": 8,
+    "max_absolute_difference": 9.57811607804615e-11,
+    "per_column": {
+      "initial_gap": {
+        "max_absolute_difference": 5.115907697472721e-13,
+        "max_scaled_difference": 4.810055376030417e-15
+      },
+      "end_gap": {
+        "max_absolute_difference": 5.400124791776761e-13,
+        "max_scaled_difference": 1.896892851745365e-14
+      },
+      "net_gap_change": {
+        "max_absolute_difference": 5.258016244624741e-13,
+        "max_scaled_difference": 2.8699265186560297e-14
+      },
+      "china_rate_effect": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 4.102866832161788e-15
+      },
+      "reference_rate_effect": {
+        "max_absolute_difference": 5.400124791776761e-13,
+        "max_scaled_difference": 4.664036919974936e-15
+      },
+      "reference_country_composition_effect": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 4.452639225092472e-15
+      },
+      "composition_share_of_net": {
+        "max_absolute_difference": 9.57811607804615e-11,
+        "max_scaled_difference": 6.914244273889125e-13
+      },
+      "identity_residual": {
+        "max_absolute_difference": 1.1368683772161605e-13,
+        "max_scaled_difference": 1.1368683772161605e-13
+      }
+    }
+  },
+  {
+    "table": "age_decomposition",
+    "rows": 252,
+    "numeric_columns": 4,
+    "max_absolute_difference": 6.039613253960852e-14,
+    "per_column": {
+      "china_rate_effect": {
+        "max_absolute_difference": 4.973799150320701e-14,
+        "max_scaled_difference": 3.542542018070644e-15
+      },
+      "reference_rate_effect": {
+        "max_absolute_difference": 5.1514348342607263e-14,
+        "max_scaled_difference": 3.856893894659581e-15
+      },
+      "reference_country_composition_effect": {
+        "max_absolute_difference": 4.973799150320701e-14,
+        "max_scaled_difference": 4.5761307728531264e-15
+      },
+      "net_gap_change": {
+        "max_absolute_difference": 6.039613253960852e-14,
+        "max_scaled_difference": 8.909539772616881e-15
+      }
+    }
+  },
+  {
+    "table": "national_annual_standardized",
+    "rows": 3876,
+    "numeric_columns": 3,
+    "max_absolute_difference": 5.122274160385132e-09,
+    "per_column": {
+      "aspr": {
+        "max_absolute_difference": 5.229594535194337e-12,
+        "max_scaled_difference": 4.7885316123721815e-15
+      },
+      "cases": {
+        "max_absolute_difference": 5.122274160385132e-09,
+        "max_scaled_difference": 5.000055195925765e-15
+      },
+      "yoy_percent": {
+        "max_absolute_difference": 6.94999613415348e-14,
+        "max_scaled_difference": 5.0969465678632416e-14
+      }
+    }
+  },
+  {
+    "table": "terminal_year_audit",
+    "rows": 114,
+    "numeric_columns": 4,
+    "max_absolute_difference": 3.026798367500305e-09,
+    "per_column": {
+      "aspr": {
+        "max_absolute_difference": 5.002220859751105e-12,
+        "max_scaled_difference": 4.7885316123721815e-15
+      },
+      "cases": {
+        "max_absolute_difference": 3.026798367500305e-09,
+        "max_scaled_difference": 4.483056095222962e-15
+      },
+      "yoy_percent": {
+        "max_absolute_difference": 4.973799150320701e-14,
+        "max_scaled_difference": 4.450259605270901e-14
+      },
+      "historical_max_yoy": {
+        "max_absolute_difference": 4.973799150320701e-14,
+        "max_scaled_difference": 3.442140207347998e-14
+      }
+    }
+  },
+  {
+    "table": "endometriosis_terminal_age_type",
+    "rows": 14,
+    "numeric_columns": 3,
+    "max_absolute_difference": 4.973799150320701e-14,
+    "per_column": {
+      "2022": {
+        "max_absolute_difference": 4.973799150320701e-14,
+        "max_scaled_difference": 3.868618493585566e-15
+      },
+      "2023": {
+        "max_absolute_difference": 4.973799150320701e-14,
+        "max_scaled_difference": 3.182922975325268e-15
+      },
+      "weighted_increment": {
+        "max_absolute_difference": 4.884981308350689e-15,
+        "max_scaled_difference": 3.2657838713063877e-15
+      }
+    }
+  },
+  {
+    "table": "age_weighted_reference_shifts",
+    "rows": 36,
+    "numeric_columns": 3,
+    "max_absolute_difference": 4.0245584642661925e-16,
+    "per_column": {
+      "share1990": {
+        "max_absolute_difference": 4.0245584642661925e-16,
+        "max_scaled_difference": 4.0245584642661925e-16
+      },
+      "share2023": {
+        "max_absolute_difference": 1.1102230246251565e-16,
+        "max_scaled_difference": 1.1102230246251565e-16
+      },
+      "share_change": {
+        "max_absolute_difference": 1.942890293094024e-16,
+        "max_scaled_difference": 1.942890293094024e-16
+      }
+    }
+  },
+  {
+    "table": "population_share_TVD",
+    "rows": 238,
+    "numeric_columns": 1,
+    "max_absolute_difference": 1.0061396160665481e-16,
+    "per_column": {
+      "total_variation_distance": {
+        "max_absolute_difference": 1.0061396160665481e-16,
+        "max_scaled_difference": 1.0061396160665481e-16
+      }
+    }
+  },
+  {
+    "table": "standard_weight_rounding",
+    "rows": 12,
+    "numeric_columns": 6,
+    "max_absolute_difference": 4.405364961712621e-13,
+    "per_column": {
+      "gap_min": {
+        "max_absolute_difference": 3.126388037344441e-13,
+        "max_scaled_difference": 7.066952567232552e-15
+      },
+      "gap_max": {
+        "max_absolute_difference": 4.405364961712621e-13,
+        "max_scaled_difference": 1.0596105670509286e-14
+      },
+      "share_effect_min": {
+        "max_absolute_difference": 3.197442310920451e-14,
+        "max_scaled_difference": 1.0613644626910086e-15
+      },
+      "share_effect_max": {
+        "max_absolute_difference": 3.552713678800501e-14,
+        "max_scaled_difference": 1.179283789449862e-15
+      },
+      "fraction_min": {
+        "max_absolute_difference": 7.771561172376096e-16,
+        "max_scaled_difference": 7.771561172376096e-16
+      },
+      "fraction_max": {
+        "max_absolute_difference": 4.440892098500626e-16,
+        "max_scaled_difference": 4.440892098500626e-16
+      }
+    }
+  },
+  {
+    "table": "v6_annual_subtype_differences",
+    "rows": 408,
+    "numeric_columns": 4,
+    "max_absolute_difference": 5.115907697472721e-13,
+    "per_column": {
+      "Primary": {
+        "max_absolute_difference": 4.973799150320701e-13,
+        "max_scaled_difference": 4.340328129397772e-15
+      },
+      "Secondary": {
+        "max_absolute_difference": 4.831690603168681e-13,
+        "max_scaled_difference": 4.782659300719429e-15
+      },
+      "Total": {
+        "max_absolute_difference": 5.115907697472721e-13,
+        "max_scaled_difference": 4.7072861886657616e-15
+      },
+      "sum_residual": {
+        "max_absolute_difference": 8.526512829121205e-14,
+        "max_scaled_difference": 8.526512829121205e-14
+      }
+    }
+  }
+]

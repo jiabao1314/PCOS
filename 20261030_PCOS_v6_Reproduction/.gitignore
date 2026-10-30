@@ -1,0 +1,11 @@
+data/input/IHME-*.csv
+data/published_expected/population_country_age_crosswalk.csv
+results/
+figures/
+tables/
+logs/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+docs/20261030_PRIVATE_MANIFEST.json
+*.zip
