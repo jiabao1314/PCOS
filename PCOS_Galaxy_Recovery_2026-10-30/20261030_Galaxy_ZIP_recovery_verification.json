@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-10-30T19:15:08+01:00",
+  "task": "Recover the original item-8 pilot ZIP as a new Galaxy PCOS dataset, preserving the old failure",
+  "official_IHME_redownload_succeeded": false,
+  "official_HTTP_status": 403,
+  "method": "Recovery of a previously downloaded original archive, not a new IHME download; private temporary file reference used for Galaxy import",
+  "ZIP_bytes": 1034,
+  "ZIP_sha256": "52c7b1a49ff3e352fa98c8cb7480bea4f5dc6c3826b7e5a3eeec414f902c7a8b",
+  "Galaxy_download_full_bytes_match_original_archive": true,
+  "zip_CRC_passed": true,
+  "members": [
+    "IHME-GBD_2023_DATA-0daed0e5-1.csv",
+    "citation.txt"
+  ],
+  "CSV_bytes": 1654,
+  "CSV_sha256": "ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0",
+  "CSV_rows": 8,
+  "Galaxy": {
+    "new_hid": 31,
+    "new_dataset_id": "40160950115d555e7a6fa417b07b9855",
+    "new_state": "ok",
+    "original_failed_hid": 8,
+    "original_failed_dataset_id": "40160950115d555edbcb7f0cbb270400",
+    "original_failed_state": "error",
+    "original_failed_record_preserved": true,
+    "Galaxy_history_id": "11ac94870d0bb33ad5abd2b59708ab6e",
+    "Galaxy_dataset_details_url": "https://usegalaxy.eu/datasets/40160950115d555e7a6fa417b07b9855/details",
+    "upload_type": "no_unzip.zip",
+    "recovery_method": "private temporary file-reference fetch of an unchanged archived original; temporary token intentionally omitted",
+    "official_fresh_download_status": 403,
+    "verified_at": "2026-10-30T18:14:48.654Z",
+    "new_UI_class": "content-item m-1 p-0 rounded btn-transparent-background alert-success being-used",
+    "Galaxy_download_href": "/api/datasets/40160950115d555e7a6fa417b07b9855/display?to_ext=no_unzip.zip"
+  },
+  "scientific_inputs_or_manuscript_modified": false,
+  "new_joint_draws": false,
+  "raw_data_published_to_GitHub": false,
+  "submitted": false
+}

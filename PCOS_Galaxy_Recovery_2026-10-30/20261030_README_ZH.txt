@@ -1,0 +1,14 @@
+Galaxy 第8条原始ZIP恢复核验 — 2026-10-30
+
+原始IHME下载地址本次仍返回403，不能声称本轮已从IHME重新下载。
+使用此前成功下载并在原始清单中登记的原ZIP，通过私人临时文件引用导入Galaxy，新增第31条。原第8条失败记录仍保留。
+
+新条目：20261030_IHME-GBD_2023_DATA-0daed0e5-1_recovered_original.zip
+Galaxy：https://usegalaxy.eu/datasets/40160950115d555e7a6fa417b07b9855/details
+状态：ok（绿色）；类型no_unzip.zip，用于保留压缩包字节。
+
+已从第31条Download链接下载回本机，ZIP全文1034字节，SHA256与原始档案完全一致；CRC通过，成员为原CSV和citation.txt。
+内部CSV1654字节、8行，SHA256也与原始清单一致。不是用CSV重新打包，没有改源数据或论文。
+
+完整许可ZIP仅保存在既有私人档案、私人Drive及Galaxy；GitHub仅保存核验元数据和验证代码，不发布原始ZIP、CSV或临时签名链接。
+没有新科学分析、联合draws或投稿。
