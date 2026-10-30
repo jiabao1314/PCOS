@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-30T19:18:39+01:00",
+  "artifact_commit": "e655b8c46ce1166d276cb7d2042d3cf1b52ab62e",
+  "shared_commit": "8c27a2c5bde83d382a257add0c726f646c9884af",
+  "Galaxy_new_hid": 31,
+  "Galaxy_new_dataset_id": "40160950115d555e7a6fa417b07b9855",
+  "Galaxy_state": "ok",
+  "old_hid8_failure_preserved": true,
+  "Galaxy_ZIP_download_bytes": 1034,
+  "ZIP_SHA256": "52c7b1a49ff3e352fa98c8cb7480bea4f5dc6c3826b7e5a3eeec414f902c7a8b",
+  "CRC_and_CSV_verified": true,
+  "CSV_rows": 8,
+  "official_fresh_IHME_download_succeeded": false,
+  "official_original_URL_HTTP_status": 403,
+  "method": "Existing original archive recovered, not a new IHME download",
+  "Drive_archive_and_public_metadata_files_verified": 4,
+  "GitHub_public_code_metadata_files_verified": 3,
+  "shared_seven_files": [
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "drive_id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "sha256": "bfc4ef1762ea35073fde3cdcb76236e5d4a60695f87be4d248805c71378c93e3",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "drive_id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "sha256": "e1f6385192b6ec68a3fbc52226e7bdc0a0598c2e1208610aa50d0c5f31cff6ee",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "drive_id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "sha256": "18edf880193763634dd9d7fc0140ca28d1b5a291be6413666e51b02c5b3488aa",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "drive_id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "sha256": "372cf7379553e7f2f204ce3f4f1ec657fdb5c48df173704687c359530554417f",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "drive_id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "sha256": "5a45e98034f917f04b6d34d2afae344eb7267059700bacb36ad6b23a8aea6f27",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "drive_id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "sha256": "a8afbc655056322b65ff39c580336fceb56963df2981eba3719daa5de877da7b",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/DATA_CATALOG.csv",
+      "drive_id": "1FhvPYllcSMI3iX3bp9xQrlPunTNkk_f0",
+      "sha256": "469163d861a7290caf32beb4f1a60ecfd93e01049a95264722e823dccfd6e0e1",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    }
+  ],
+  "concurrent_Blue_K_proposal_preserved": true,
+  "other_existing_remote_paths_and_blobs_preserved": 861,
+  "restricted_ZIP_or_CSV_published_to_GitHub": false,
+  "temporary_signed_URL_published": false,
+  "paper_or_scientific_inputs_modified": false,
+  "submitted": false,
+  "self_reference": "Own receipt publication independently verified in private final record"
+}
