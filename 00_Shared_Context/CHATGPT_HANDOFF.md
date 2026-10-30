@@ -1,5 +1,13 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-30T21:15:24+01:00 — 蓝字稿有限修订已授权；待指定Markdown原文
+
+用户本轮明确要求以老师已完成修改的19页PCOS 20261030 Blue K.pdf为基础，严格执行压缩包内20261030_PCOS_BlueK_EditorialFixes_for_Codex.md指定9项有限修正，实际生成独立可编辑TeX/Word/PDF、修改对照与真实核验，再同步Drive/GitHub；Overleaf仅论文TeX，旧v6、老师合理修改、统计结果、图表及XX保留，不投稿。这是新修订授权，不再沿用旧备注“未采纳”作为停止理由。
+
+当前前置依赖：本条消息无可用压缩包附件（list_artifacts为空）；本机项目/Downloads/Desktop共166个ZIP中央目录未找到该Markdown，Drive精确名/相关关键词及GitHub最新树亦无匹配。老师PDF已从Drive既有文件1OjCDP04uQNTUzed1nTc0lJnYUZNhIhRw完整获取108563字节，SHA256 e6884c181a3992ba1612635133c58b60f1a1762c98bddbdbd39576a1c10e5d5d，保存于本机私有运行目录。最新8份共享文档Drive原始字节已读取并与本地一致，冲突安全pull为0复制。
+
+已向用户请求该压缩包本机完整路径或Drive链接。需要实际Markdown才能逐项确保范围；旧HANDOFF中的9项审阅摘要不能冒充本次指定文件。未改稿、未生成新交付、未改数据或图表、未上传Overleaf或投稿。收到文件后具体下一步：核对9项原文并从老师蓝字正文建立可编辑基线，只实施明定修正，逐项检查合理蓝改保留、统计数值/图表/XX、三格式和云端字节。
+
 ## 2026-10-30T21:10:48+01:00 — 本次任务同步接续核验
 
 本轮为“同步PCOS + 本次任务”接续。通过Drive连接器fresh raw读取8份共享记录，逐字节与本地及GitHub main 8811ab8e10e51cea3799a08d68d23ca9dc873dba 的已提交blob核对一致；冲突安全pull复制0文件。原始数据最终公开回执亦与提交blob一致；桌面完整原始合集重新计算SHA256通过，原始数据目录仍在。实际证据保存在私有.shared_context_runtime/sync_current_task_20261030/。
