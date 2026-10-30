@@ -390,3 +390,11 @@ GBD2023现存Appendix 1的PDF685–687页核实调查五年定义/临床12个月
 发布前曾尝试git push单一运输提交到codex/v6-delivery-20261030，但shell缺少HTTPS用户名而失败，未创建分支、未改main。最终使用连接器41个新blob（已有图表41个blob复用）、82路径树、create_commit和expected_sha非强制更新。一次连接器CSV raw暂时失败，重试成功；一次编排脚本语法错误发生在执行前，修正后执行。云端raw文件下载和git fetch/show逐字节核对通过。
 
 本机实际代码基线及dirty清单、输入输出SHA256见上方真实runner记录；最终代码已进入制品提交3dd7b5c3aabdc670c034c161cec4f7f6bf094a45。私有事件记录同步填入publication_commit，后继共享核验与回执提交另存，不回写原始失败状态。未重算科学模型，无新raw或processed数据，DATA_CATALOG不变。
+
+### 2026-10-30T14:05:13+01:00 — 保存未来论文同步Overleaf偏好
+
+用户于2026-10-30确认：以后新生成的论文除Google Drive和GitHub外，还须同时上传既有Overleaf的`pcos`项目。保留日期前缀、版本与旧稿；适用时一并上传可复现的TeX、参考文献及图表资源，并核验项目文件。Overleaf状态需单独如实报告；缺少项目链接、访问权限或写入核验时不得称三方同步完成。该要求不构成投稿或公开受限数据授权。
+
+本轮仅保存未来交付偏好，未生成新论文、未修改v6文稿、未向Overleaf上传文件。用户随后提供并确认目标链接：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。已通过Chrome既有标签读取并核验标题“PCOS - Online LaTeX Editor Overleaf”、项目ID及现有文件树，读访问已验证；写入/编译同步尚未执行或验证。当前没有Overleaf专用连接器，插件搜索未返回匹配；可用浏览器完成后续操作。规则已保存不等于本轮已上传。
+
+实际检查：按Overleaf关键词检索现有AGENTS/共享/配置/docs，无匹配；插件管理search_plugins查询Overleaf返回空列表。编辑前通过Drive连接器raw获取七份最新文件并下载逐字节比较通过，再执行shared_context.py pull。仅更新操作规则，不属于科研分析，DATA_CATALOG/RESULTS_INDEX和v6内容均不变。本机旧HEAD与既有脏修改保留；本轮显式路径单独发布，不stage其他稿件。

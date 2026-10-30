@@ -39,5 +39,17 @@
     "chatgpt_instruction_file": "00_Shared_Context/CHATGPT_PROJECT_INSTRUCTIONS.txt",
     "chatgpt_activation_verified": false,
     "mode": "user_triggered_saved_file_handoff"
+  },
+  "overleaf": {
+    "project_name": "PCOS",
+    "project_id": "6adda2876e26d2e60e482e89",
+    "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+    "future_manuscript_upload_required": true,
+    "user_confirmed_on": "2026-10-30",
+    "read_access_verified_on": "2026-10-30",
+    "read_access_evidence": "Chrome project title, exact project URL and file tree observed",
+    "upload_verification": "not performed in preference-only task",
+    "preserve_prior_versions": true,
+    "desktop_app": "user reports installed; not independently inspected"
   }
 }
