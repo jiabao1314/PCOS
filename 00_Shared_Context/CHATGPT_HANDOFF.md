@@ -1,5 +1,21 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-30T15:58:49+01:00 — v6复现包已交付，待老师Windows验收
+
+用户已明确“现在的论文已经可以了”，并授权整理当前论文所有必需代码和数据供老师复现、用Jupyter逐张学习图片；用户计划复现后自行投稿，本轮不投稿。当前已接受论文仍为Human Reproduction v6 / Overleaf r1，科学快照1abf337d9f23cc69292e03cd581b6a1557e6effe，正文、XX、旧稿及联合draws限制未改。
+
+交付目录20261030_PCOS_v6_Reproduction。私人完整版20261030_PCOS_v6_Reproduction_FULL_PRIVATE.zip在本机Downloads及私人Drive目录 https://drive.google.com/drive/folders/1efGZdjoLTDKT_G5p0fehjzp_X7zWcTMv 保存，10,572,366字节，SHA256 7d6adcf66a193b2830b06ee1b8ae099ed699d71f4fd2b417fa644a38d43b99ff。解压到D盘得到同名根目录，代码不依赖原Mac路径。含7个真实输入（4份许可GBD原始导出、UN 4,522行人口子集、权重及来源）、完整分析代码、3个干净notebook及3个实际执行版、12图的Python/R/教学输出、两份当前论文TeX/PDF、图表地图和中文说明。完整全球UN原压缩源不是本分析运算输入，保留Galaxy并提供可选抽取代码/映射。历史预测、YLD、NSFG及医院工作不属于当前论文，未混入。
+
+本轮从原始输入真实重算下游分析，非上游GBD拟合。7输入哈希、两套各4,522人口格、27,132率格、1,064官方端点率、1,224年度基准、1,440敏感性及408年度亚型通过。12类Python数值表与存档一致；11份原数值TeX表身逐字一致；S10年度表数值核对通过。独立base R从原始输入计算核心及全部敏感性，不读取Python结果生成估计；13类R/Python表按键、每列及NA位置核对通过，容差1e-8。逐列误差已报告：百万量级病例CSV末位约5.12e-9绝对差，不能误报为核心率误差；核心年度率最大差约5.69e-13。GATHER、S9文献及S11定义为来源/方法表，保存原文，不伪装统计输出。
+
+三个notebook实际完整执行无错误；02有12段真实论文绘图代码及中文解释。12张Python与notebook图均与原论文图逐像素一致；12张R图逐张目视检查，样式不同而数据一致。含中文/空格的迁移副本从无计算结果开始，在包外工作目录运行全部R/Python成功。实际机器macOS，未在原生Windows/真实D盘运行；老师Windows实机验收仍待完成。公开包可显式选reference模式学画图；缺许可输入时完整复现明确失败，不静默回退参考值。
+
+规范制品提交 c9200003d1298ba0c7119ab987adb758222f9c11，104条显式路径已GitHub提交blob与Drive归档全文字节核对。Drive5个独立文件原始字节验证，公开ZIP103成员+独立打包脚本覆盖104项；私人ZIP241成员逐一与本地匹配。私人完整版权限元数据仅owner，未更改共享或发消息。公开包不含4原GBD、rate_cells、国家年龄源单元、执行版notebook或患者记录；私人许可输入保持私人。无新研究数据下载/新Galaxy上传；现有Galaxy档案不变。旧研究/稿件304文件哈希不变，远端原760路径/blob保留；本机旧HEAD及脏工作区保留，不reset、force或全目录暂存。
+
+证据：verification/20261030_FINAL_VALIDATION.json、REPRODUCTION_CHECK、R_INDEPENDENT_CHECK、RELOCATION_CHECK、FIGURE_PIXEL_CHECK、DELIVERY_QA及docs/20261030_PUBLIC_MANIFEST.json。教学顺序01数据/估计量→02逐图→03独立R/审计。Overleaf未改，本轮仅整理复现材料，不生成新论文，继续仅论文tex规则。无合格联合draws，未生成后验区间或新临床验证，暂不投稿。
+
+下一项：老师在Windows把整个文件夹放入D盘，按README完整运行及填写TEACHER_REVIEW_CHECKLIST，保存版本/日志/差异。用户复现后自行处理投稿；本次不自动投稿或发消息。不重复旧v5修订、不索要XX或额外医院资料。ChatGPT项目设置应用仍未核验，不因本包推断激活。
+
 ## 2026-10-30T15:34:49+01:00 — v6仅论文TeX编译修复；下一项作者审阅
 
 本轮用户授权的编译修复已完成。最新版技术修复包为 `PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30`，两份新论文为 `20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.tex` 和 `20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement.tex`。原编辑v6、v5及XX保留；此r1只修复编译，不替代科学版本判断。科学快照仍为1abf337d9f23cc69292e03cd581b6a1557e6effe，无新科研计算或联合draws，无合格联合draws的限制保留。

@@ -1,5 +1,13 @@
 # 下一阶段任务
 
+## 2026-10-30T15:58:49+01:00 — 复现包完成；下一步老师Windows实机验收
+
+用户接受当前论文；复现整理任务已完成，目录20261030_PCOS_v6_Reproduction，Drive https://drive.google.com/drive/folders/1efGZdjoLTDKT_G5p0fehjzp_X7zWcTMv ，GitHub c9200003d1298ba0c7119ab987adb758222f9c11。Mac上的原始数据重算、三notebook、13类双语表、12图像素及中文/空格路径全新迁移测试通过，不能等同老师电脑已通过。
+
+下一步：老师将FULL_PRIVATE解压至D盘，执行20261030_Setup_Windows.ps1和20261030_Run_All_Windows.ps1，再查看01–03 notebook、verification，填写老师验收模板。标准：7输入哈希、完整下游计算、13类R/Python核对、11数值表身与S10和12图；保存真实环境、日志及差异。公开PUBLIC包缺许可GBD，须合法恢复才能完整复算，或显式选择reference仅学画图。失败不能默认为通过。
+
+用户计划复现结束后自行投稿，本轮不投稿或向老师发消息。保留XX、旧稿及联合draws限制，不自动开展新分析。
+
 ## 2026-10-30T15:34:49+01:00 — Overleaf编译任务完成；转作者审阅
 
 已完成两份r1论文TeX云端编译和源字节核验：主稿19页、补充21页，均零错误零警告，仅Underfull提示。默认主文档为r1主稿。技术修复包 `PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30`，规范制品提交 `e877d47434c3aa5af5230892ba1a57db6187dca5`，Drive https://drive.google.com/drive/folders/1T02U_BMnBNQm1sCvBo7GE4P0vBMMNq32 。此前15:00的“完整编译未验证”是历史状态，已由本条实际编译证据取代。
@@ -177,3 +185,5 @@ v4主稿、补充稿和附信最终审查完成：关键数值与定位一致；
 - 2026-10-30T13:42:17+01:00 [20261030_hr_v6_final_package_retry] 核验Drive云端完整包及主要文件、GitHub提交blob；更新共享上下文和SYNC_CHECK。暂不投稿。
 
 - 2026-10-30T15:25:39+01:00 [20261030_hr_v6_overleaf_compile_final] 发布编译修复r1源稿/PDF/核验及代码至Drive/GitHub并完整回读；更新共享交接；Overleaf主稿为默认入口，补充可独立编译。暂不投稿。
+
+- 2026-10-30T15:51:38+01:00 [20261030_v6_portable_reproduction] 执行版notebook/24图目视/移盘复现和公开边界检查完成后，打包并双云回读，供老师Windows实机复现；不投稿
