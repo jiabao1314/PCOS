@@ -1,5 +1,11 @@
 # 共享配置与同步验证
 
+## 2026-10-30T09:38:45+01:00 — “同步PCOS”规则双云内容核验完成
+
+10个明确白名单文件已逐一Drive原文件回下载及GitHub提交blob完整字节比对一致，父目录均为现有共享目录。内容提交：686bff22948355df41c925df79ad60af404347d6；原远端639条路径全部保留，白名单外blob不变，本机HEAD及已有脏工作区未重置。私有回执：.shared_context_runtime/trigger_20261030/VERIFIED.json。初次树保留检查字段解析错误，已修正并重新通过；文件内容比对此前已通过。
+
+本条核验说明自身在后继回执提交中发布并再次读回，其最终哈希另存私有回执，避免自引用。协作规则已保存与核验，ChatGPT项目设置/来源绑定仍未验证；工具明确拒绝访问应用，不宣称该端口令已自动启用。无新科学分析、数据或稿件变更，暂不投稿。
+
 ## 2026-10-30T09:36:40+01:00 — 口令配置发布记录与核验标准
 
 本轮修改白名单：根AGENTS、docs/SHARED_CONTEXT_WORKFLOW.md、config/shared_context.json，以及PROJECT_STATUS、DECISIONS、NEXT_ACTIONS、CHATGPT_HANDOFF、CHATGPT_PROJECT_INSTRUCTIONS、CODEX_RUN_LOG、SYNC_CHECK共7份共享文件；仅公开协作规则及既有汇总状态。写前已读取7份共享与3份支持文件云端完整字节并保存基线。Drive旧AGENTS缺日期命名行，已保留该用户确认规则，不覆盖其他来源更新。
