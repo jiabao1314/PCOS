@@ -1,0 +1,211 @@
+{
+  "checked_at": "2026-10-30T19:26:48+01:00",
+  "Galaxy_history_id": "11ac94870d0bb33ad5abd2b59708ab6e",
+  "Galaxy_successful_records_downloaded": 14,
+  "files": [
+    {
+      "hid": 10,
+      "id": "40160950115d555eebf77aabacbbed50",
+      "name": "IHME-GBD_2023_DATA-1b13e337-1.csv",
+      "role": "core_input",
+      "state": "ok",
+      "bytes": 6729856,
+      "sha256": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b",
+      "comparison": "byte-identical paper input"
+    },
+    {
+      "hid": 11,
+      "id": "40160950115d555eb62eb5fd9f64809c",
+      "name": "IHME-GBD_2023_DATA-916826fb-1.csv",
+      "role": "core_input",
+      "state": "ok",
+      "bytes": 628106,
+      "sha256": "d7202eedb69a9ead4dd4994c1cf02917cca57e23d7d82af1edca32e129ae93ca",
+      "comparison": "byte-identical paper input"
+    },
+    {
+      "hid": 12,
+      "id": "40160950115d555ec453516913e91453",
+      "name": "weights.csv",
+      "role": "core_input",
+      "state": "ok",
+      "bytes": 121,
+      "sha256": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d",
+      "comparison": "byte-identical paper input"
+    },
+    {
+      "hid": 18,
+      "id": "40160950115d555e0b6e566d0ec7f593",
+      "name": "IHME-GBD_2023_DATA-416daf73-1.csv",
+      "role": "core_input",
+      "state": "ok",
+      "bytes": 7210811,
+      "sha256": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f",
+      "comparison": "byte-identical paper input"
+    },
+    {
+      "hid": 19,
+      "id": "40160950115d555ec0b5a6acf9f8474d",
+      "name": "IHME-GBD_2023_DATA-76c5523c-1.csv",
+      "role": "core_input",
+      "state": "ok",
+      "bytes": 827804,
+      "sha256": "5d4c87c8cb2a42e3ec4dd2819e227205273526ed0376144f8c850ebbba5094da",
+      "comparison": "byte-identical paper input"
+    },
+    {
+      "hid": 27,
+      "id": "40160950115d555efae902574403d634",
+      "name": "UN_WPP2024_G20_female_15_49_1990_2023.csv",
+      "role": "core_input",
+      "state": "ok",
+      "bytes": 344829,
+      "sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9",
+      "comparison": "byte-identical paper input"
+    },
+    {
+      "hid": 28,
+      "id": "40160950115d555e62507ae1c412416d",
+      "name": "UN_WPP2024_source_manifest.json",
+      "role": "core_input",
+      "state": "ok",
+      "bytes": 971,
+      "sha256": "1e103c5bf1a887d74be0a65e204bbe00301d04bd52a033d29b8f2affe68030bc",
+      "comparison": "JSON identical; Galaxy appended one terminal LF. Canonical input restores the original 970 bytes; unmodified Galaxy copy retained separately."
+    },
+    {
+      "hid": 26,
+      "id": "40160950115d555e1b198115a2e0bdec",
+      "name": "WPP2024_PopulationByAge5GroupSex_Medium.csv.gz",
+      "role": "full_UN_source",
+      "state": "ok",
+      "bytes": 188318047,
+      "sha256": "8cbadcc33b304dfe74156bf3066a1d700879b89cf27aea7fba045ef86e2bffa0",
+      "comparison": "Exact full original UN source after gzip decompression and CRLF-to-LF conversion; original gzip preserved byte-for-byte in the new collection."
+    },
+    {
+      "hid": 29,
+      "id": "40160950115d555e3757d31cf68fd29b",
+      "name": "UN_WPP2024_G20_female_15_49_1990_2023_direct.csv",
+      "role": "archived_duplicate",
+      "state": "ok",
+      "bytes": 344829,
+      "sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9"
+    },
+    {
+      "hid": 30,
+      "id": "40160950115d555e3aa02fd2337bffe2",
+      "name": "UN_WPP2024_source_manifest_direct.json",
+      "role": "archived_duplicate",
+      "state": "ok",
+      "bytes": 971,
+      "sha256": "1e103c5bf1a887d74be0a65e204bbe00301d04bd52a033d29b8f2affe68030bc"
+    },
+    {
+      "hid": 13,
+      "id": "40160950115d555ed013b2b3583d4839",
+      "name": "IHME-GBD_2023_DATA-0daed0e5-1.csv",
+      "role": "historical_pilot",
+      "state": "ok",
+      "bytes": 1654,
+      "sha256": "ca88e5c17587e8812edd2e84b99166ebff3f705c0e42e5bd1bc6ba5c9c3865d0"
+    },
+    {
+      "hid": 31,
+      "id": "40160950115d555e7a6fa417b07b9855",
+      "name": "IHME-GBD_2023_DATA-0daed0e5-1.zip",
+      "role": "historical_pilot",
+      "state": "ok",
+      "bytes": 1034,
+      "sha256": "52c7b1a49ff3e352fa98c8cb7480bea4f5dc6c3826b7e5a3eeec414f902c7a8b"
+    },
+    {
+      "hid": 14,
+      "id": "40160950115d555ef65a65c93a6409c7",
+      "name": "GBD2023_world_standard_reproduced.docx",
+      "role": "reference_document",
+      "state": "ok",
+      "bytes": 15352,
+      "sha256": "9e4a745a32fcaaea9a78bcc9a3179014fa6e70042e348acadd2fb94732d1c3b4"
+    },
+    {
+      "hid": 17,
+      "id": "40160950115d555efab530a950e0c4e2",
+      "name": "GBD2023_methods_appendix1.pdf",
+      "role": "reference_document",
+      "state": "ok",
+      "bytes": 82917810,
+      "sha256": "13abb92a6fa6d898d86684e1fffbf0f5d9e29f2c12ace88aca82aa8445d6b8be"
+    }
+  ],
+  "numerical_core_inputs_byte_identical": 6,
+  "metadata_JSON_content_identical": true,
+  "all_seven_canonical_input_hashes_verified": true,
+  "UN_full_source_original_gzip_sha256": "a04d7d1486a5eb2832cc812d599448f0a71e8ac9e1e7e6fa4066673d6a2487cd",
+  "UN_full_source_original_gzip_bytes": 29948947,
+  "Galaxy26_full_source_CSV_bytes": 188318047,
+  "Galaxy26_full_source_CSV_sha256": "8cbadcc33b304dfe74156bf3066a1d700879b89cf27aea7fba045ef86e2bffa0",
+  "UN_subset_reextraction_matches": true,
+  "UN_subset_rows": 4522,
+  "original_GBD_provider_ZIPs_preserved": 4,
+  "archive_bytes": 35808790,
+  "archive_sha256": "295372c0d5b90cf4352799ec2ecba445b7932290f53311de67fd9e5f2d2f5e13",
+  "archive_members": 23,
+  "collection_Galaxy_roundtrip": {
+    "Galaxy_download_bytes": 35808790,
+    "Galaxy_download_sha256": "295372c0d5b90cf4352799ec2ecba445b7932290f53311de67fd9e5f2d2f5e13",
+    "archive_members_verified": 23,
+    "canonical_paper_inputs_verified": 7,
+    "collection_files_verified": 22,
+    "original_UN_gzip_verified": true,
+    "original_pilot_ZIP_and_CSV_verified": true
+  },
+  "old_failed_hid8_action": {
+    "authorized_by_latest_user_request": true,
+    "verification_gate": "seven canonical inputs +23-member Galaxy collection roundtrip passed before delete",
+    "hid": 8,
+    "id": "40160950115d555edbcb7f0cbb270400",
+    "action": "recoverable delete only",
+    "undelete_button_observed": true,
+    "deleted_record_UI_class": "content-item m-1 p-0 rounded btn-transparent-background alert-danger",
+    "active_red_count": 0,
+    "old8_in_active_view": 0,
+    "permanent_purge_performed": false,
+    "at": "2026-10-30T18:33:17.014Z"
+  },
+  "original_records_overwritten": false,
+  "old_desktop_file_hashes_preserved": 2,
+  "scientific_analysis_rerun": false,
+  "paper_changed": false,
+  "submitted": false,
+  "final_verified_at": "2026-10-30T19:34:14+01:00",
+  "status": "passed",
+  "new_collection": {
+    "hid": 32,
+    "id": "40160950115d555e150beff2e0da6968",
+    "state": "ok",
+    "UI_class": "content-item m-1 p-0 rounded btn-transparent-background alert-success",
+    "download_href": "/api/datasets/40160950115d555e150beff2e0da6968/display?to_ext=no_unzip.zip"
+  },
+  "previous_successful_Galaxy_records_preserved": 14,
+  "UN_complete_original_gzip_preserved_in_new_Galaxy_collection": true,
+  "all_original_GBD_ZIPs_preserved_in_new_Galaxy_collection": true,
+  "JSON_original_bytes_preserved_in_new_collection": true,
+  "data_format_discrepancies": "Only documented auto-decompression/newline normalization; no changes to disease or population values. Both original bytes and Galaxy variants retained.",
+  "source_documents": [
+    {
+      "path": "sources/GBD2023_methods_appendix1.pdf",
+      "bytes": 82917810,
+      "sha256": "13abb92a6fa6d898d86684e1fffbf0f5d9e29f2c12ace88aca82aa8445d6b8be"
+    },
+    {
+      "path": "sources/GBD2023_world_standard_reproduced.docx",
+      "bytes": 15352,
+      "sha256": "9e4a745a32fcaaea9a78bcc9a3179014fa6e70042e348acadd2fb94732d1c3b4"
+    }
+  ],
+  "desktop_delivery_subfolder": "20261030_PCOS论文复现包/20261030_论文全部原始数据_已核验",
+  "Drive_collection_private_owner_only": true,
+  "public_raw_data": false,
+  "new_posterior_draws_obtained": false
+}
