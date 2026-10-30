@@ -1,5 +1,13 @@
 # 共享配置与同步验证
 
+## 2026-10-30T13:47:31+01:00 — v6制品双云通过；共享收尾由后继回执核验
+
+实测2026-10-30T13:46:38+01:00：Drive19原文件完整字节/父目录一致，完整ZIP92成员SHA256一致；GitHub提交`3dd7b5c3aabdc670c034c161cec4f7f6bf094a45`的82文件逐blob一致，旧657路径保留。12 TIFF只在完整ZIP内交付，已逐项核验。7份共享文件编辑前重新raw下载并核对本机字节，无并发冲突。
+
+本段及7份共享记录随后按固定文件ID更新Drive、按最新main建立树并用expected_sha非强制更新；收尾成功证据将记录在`PCOS_HumanReproduction_v6_2026-10-30/docs/20261030_v6_SYNC_RECEIPT.json`，以该后继回执证明共享记录核验，避免自引用。
+
+未投稿。draws依赖仍在；共享的是已保存记录，不是完整聊天。保留本机旧HEAD与无关脏修改；git push因无shell凭据失败未创建分支，最终全部改用GitHub连接器base64 blob/create_tree/create_commit/expected_sha更新main。
+
 ## 2026-10-30T13:21:25+01:00 — 前置核验制品9项双云内容核验通过
 
 内容提交`0254e74e0e5718c16c4ce82828fbfa70603b1b5f`；Drive：https://drive.google.com/drive/folders/1LCe-A_EWuZMmroIJRwyEaLM_LBQmhFaF 。8项审计/汇总与脚本均经连接器原文件引用下载、完整字节及父目录核对；git fetch后逐提交blob一致。原远端647路径及blob保留，本地HEAD与脏工作区未reset/force/暂存。
