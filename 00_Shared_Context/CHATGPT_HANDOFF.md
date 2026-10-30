@@ -1,5 +1,40 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-30T19:09:00+01:00 — Blue K蓝字修订审阅；建议待作者确认，科学基线未更换
+
+状态：**审阅已完成；以下改稿建议为proposed，未获得作者最终采纳，不改DECISIONS，不替换已接受v6/Overleaf r1。** 本轮未重跑完整统计、未获取联合draws、未编辑论文、未投稿或发送消息。
+
+### 审阅范围与证据
+- 实际读取用户上传《PCOS 20261030 Blue K.pdf》19页；蓝字位于1–13页。171个蓝色PDF文字span按语义合并为32审阅单元（含3个标题），不是171条独立建议。
+- 通过Google Drive连接真实读取PROJECT_STATUS、DECISIONS、NEXT_ACTIONS、CHATGPT_HANDOFF、SYNC_CHECK、PROJECT_OVERVIEW、DATA_CATALOG、RESULTS_INDEX、CODEX_RUN_LOG；最新既有状态为2026-10-30T15:58:49+01:00，主状态Drive更新时间14:59:09Z。科学快照仍1abf337d9f23cc69292e03cd581b6a1557e6effe。
+- 取得原v6主稿、21页补充稿及PUBLIC复现包，核对既有CSV与验证记录。本轮核对是对实际输出的独立读取/算术检查，不声称重新拟合GBD或完整重跑R/Python。
+- 新蓝字的印度剔除+56.16（39.8%）、俄罗斯剔除+110.34（67.9%）、年龄40–44 +23.76、35–39 +20.42、15–19 −2.27，与composition_sensitivities.csv及age_decomposition.csv吻合。
+- GBD继发不孕三基准+2.16/−47.99/−127.89与UN +2.26/−48.34/−127.89各自正确，不可混用。主分解+271.51−208.62+88.65=+151.54、58.5%，年链+87.11均与输出吻合。
+
+### 研究问题、估计目标与方法边界
+研究问题仍为固定年龄标准下，参照国家构成变化如何影响中国相对18国参考池的PCOS归因不孕比较。主估计目标仍为1990–2023总不孕率差变化，D=China−reference；同期GBD份额为主基准，固定1990份额与等国权重为不同描述性目标。Kitagawa型对称恒等式不是新发明的方法。UN仅替换参考份额；国家剔除、年龄限制、端点、年链及舍入分析属于结构/数值敏感性，不能充当联合后验区间或临床验证。
+
+### 审阅判断
+大部分蓝字应保留：明确非因果、58.5%有符号净变化分解比例、69.4%亚型比例不能与58.5%相加、13,566为模型单元非患者样本量、R/Python一致只验证计算、近零差值不支持可靠人群排名、率差收窄与两侧率升高并存、G20不代表全球。未发现核心公式或本轮新增数值错误。
+
+### 拟修改任务与验收标准
+1. P0：保留缺联合draws的诚实说明，补充GATHER map第13项部分满足/第16项未完成的状态不变；不能把文字修订记作不确定性已解决。只有合格对齐draws可按draw重算；本轮不另造UI、P值或国家bootstrap。
+2. P0：继续核对标准年龄权重原始出处。已直接读取Chen 2026官方S1表，七值0.082891/0.078012/0.075914/0.073217/0.068281/0.061474/0.055113与项目一致。其总和0.494902和归一化已在补充披露；128角点仅验证舍入。验收：准确区分已发表六位复刻向量与官方完整精度向量，不因披露限制就断言原数值错误。追溯线索Gil et al. DOI 10.1016/j.lanogw.2025.100031尚未取得全文，不写作已核实。
+3. P1：p3 “a smaller national-versus-pool difference”改为“a smaller absolute gap between the national and pooled-reference rates”，因为有符号D由−272.92增至−121.38而绝对差距缩小。未蓝改的摘要Study Question同步明确“change in the rate difference”。
+4. P1：p10 “share and net-change components”改为“reference-share components and total changes”。保留仅为人口权重敏感性、非独立疾病率验证。
+5. P1：蓝稿p12删去了原v6 p11已记录的2026-10-29 Codex gpt-6.1-sol，补充没有保存该项。应保留已核实标识与其他会话版本未知的区分；不把该版本套用于所有工作。XX继续按用户规则留至作者补齐；投稿前待办句转为作者确认后的事实声明。
+6. P1：Xu et al. 2025唯一文内引用被改写删掉，但参考文献保留（J Evid Based Med 18:e70100）。恢复确有依据的文内引用或删除未用条目，检查全部引文双向对应。
+7. P1：p13 “reproducibility archive”改为“public reproducibility repository/archive”，明确公开包排除许可原件，私人FULL_PRIVATE包内容以其manifest为准；不改变任何数据权限。
+8. P2：保留贡献但压缩重复“不是新方法/不是全球”等说明；定位为比较基准的实证应用。p11 Yang研究精确称2020调查（其20–49年龄范围对应2020，2010为20–44）。p9删“existing”工作记录语气；G20称purposively selected更精确。
+9. P2：准备clean稿删除首页Editorial revision说明及蓝色标记，另保留审阅标色稿；不把通行交稿建议冒称期刊明文禁止蓝字。保持S1–S11和Figures S1–S7及已核数值一致。
+
+### 本轮外部证据与访问边界
+全文实际读到：GATHER PLOS Med 2016 DOI 10.1371/journal.pmed.1002056；GBD2023 Lancet DOI 10.1016/S0140-6736(25)01637-X（250 draws）；Teede JCEM 2023 DOI 10.1210/clinem/dgad463；Yang LRHWP 2022 DOI 10.1016/j.lanwpc.2022.100494；Chen PLOS One 2026 DOI 10.1371/journal.pone.0351539及官方S1；Liang Front Public Health 2025 DOI 10.3389/fpubh.2025.1693486。Liu Human Reproduction 2024 DOI 10.1093/humrep/dead241及Liang RBMO 2026 DOI 10.1016/j.rbmo.2025.105239本次仅取得正式摘要。不能将后两者写成全文已读。
+检索工具返回空错误，改经获准只读公开网站/Europe PMC核验。HR Clinical_Studies、Manuscript_Preparation、OUP AI政策本次403；HROpen/HRUpdate亦403；F&S作者指南为不可用错误页。期刊判断仅结合既有2026-05-20 HR模板/2026-07-13 OUP政策核验记录，不能声称本次完整重读现行指南。不要用旧合并Funding/Competing Interests模板否定现有Funding与Disclosures分列，也不能臆造250/300/350词硬上限或“缺UI必拒稿”规则。
+
+总体结论：蓝字版可作为下一轮编辑基础，但文字改进没有解决联合不确定性或权重来源；本稿仍是描述性方法应用，不能据此保证中科院一区录用。下一步如作者采纳，仅按上述具体任务形成新版本并核验主补一致，保持已接受v6原件及数值。
+
+
 ## 2026-10-30T15:58:49+01:00 — v6复现包已交付，待老师Windows验收
 
 用户已明确“现在的论文已经可以了”，并授权整理当前论文所有必需代码和数据供老师复现、用Jupyter逐张学习图片；用户计划复现后自行投稿，本轮不投稿。当前已接受论文仍为Human Reproduction v6 / Overleaf r1，科学快照1abf337d9f23cc69292e03cd581b6a1557e6effe，正文、XX、旧稿及联合draws限制未改。
@@ -200,3 +235,4 @@ v3现有RH页眉、缺alt text、四段式摘要及无定向cover letter需要�
 
 
 用户同时说明桌面已安装Overleaf应用；这是用户提供的环境信息，尚未单独启动核验。以后可按可用性使用桌面应用或浏览器访问同一PCOS项目，不改变目标项目与上传核验要求。
+
