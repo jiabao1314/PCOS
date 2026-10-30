@@ -1,0 +1,140 @@
+{
+  "at": "2026-10-30T19:37:50+01:00",
+  "artifact_commit": "7e7d34618ce65d1a817cfcc9b79bcddf2bc9b72b",
+  "shared_commit": "3684847e381cbe42e131d0ae957e44ea99852f47",
+  "successful_existing_Galaxy_records_downloaded_and_verified": 14,
+  "collection_hid": 32,
+  "collection_id": "40160950115d555e150beff2e0da6968",
+  "collection_state": "ok",
+  "collection_full_bytes": 35808790,
+  "collection_sha256": "295372c0d5b90cf4352799ec2ecba445b7932290f53311de67fd9e5f2d2f5e13",
+  "collection_members_verified": 23,
+  "canonical_inputs_verified": 7,
+  "source_UN_gzip_preserved_byte_exact": true,
+  "original_GBD_provider_ZIPs_preserved": 4,
+  "format_discrepancies_explicitly_documented": [
+    "Galaxy26 original filename.gz stores decompressed CSV with LF normalization; full source content matched",
+    "Galaxy28/30 JSON objects identical, one extra terminal LF; original970 bytes separately preserved"
+  ],
+  "UN_reextracted_rows": 4522,
+  "UN_subset_sha256_matches": true,
+  "item8_recoverable_delete_after_all_checks": {
+    "authorized_by_latest_user_request": true,
+    "verification_gate": "seven canonical inputs +23-member Galaxy collection roundtrip passed before delete",
+    "hid": 8,
+    "id": "40160950115d555edbcb7f0cbb270400",
+    "action": "recoverable delete only",
+    "undelete_button_observed": true,
+    "deleted_record_UI_class": "content-item m-1 p-0 rounded btn-transparent-background alert-danger",
+    "active_red_count": 0,
+    "old8_in_active_view": 0,
+    "permanent_purge_performed": false,
+    "at": "2026-10-30T18:33:17.014Z"
+  },
+  "previous_successful_records_retained": 14,
+  "private_Drive_collection": {
+    "id": "1rajtJe9BtST29VB4DRo8LembG-8KV_iT",
+    "Drive_folder": "https://drive.google.com/drive/folders/1cGr1-6EUyOrhxMYKZHo3H9cv6UM3l448",
+    "bytes": 35808790,
+    "sha256": "295372c0d5b90cf4352799ec2ecba445b7932290f53311de67fd9e5f2d2f5e13",
+    "Drive_full_bytes_verified": true
+  },
+  "public_artifact_files_verified": [
+    {
+      "path": "scripts/build_galaxy_raw_collection_20261030.py",
+      "drive_id": "1AkdfyqeycJEfRAjdR4e7Hg1OUnyszMkX",
+      "sha256": "0cadddf3781c9348c83d63ec5b28efe50f056bf7bc53b844e4d593486d82317b",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "scripts/verify_galaxy_raw_collection_20261030.py",
+      "drive_id": "1uwGtPWqH4Cm6nY8gNVwrLl2HzlinhwjK",
+      "sha256": "931b8ad09cd342ef89b9a4f03b166154cc8753d3011d32b14a18225dcf1155f8",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Galaxy_AllRaw_2026-10-30/20261030_Galaxy_all_raw_verification.json",
+      "drive_id": "1mequ4Y6Cuhgd3h6FU-O9uOjqQbN0vYjO",
+      "sha256": "d86e2629c7cf1447b86103da2641b466a2755901867d458775a49546a8256a49",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Galaxy_AllRaw_2026-10-30/20261030_Galaxy_verified_data_inventory.csv",
+      "drive_id": "1pguXv4cFUt-qJuV78YhOw4qwS-Xi57Ca",
+      "sha256": "502f5a6c9bc0b1c997fb329e5dd11c79afa968045b63c5497d8949891a43f5df",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Galaxy_AllRaw_2026-10-30/20261030_README_ZH.txt",
+      "drive_id": "1tbGbIUgdx5S5UtwbfWQQSU3J-jL3ma7r",
+      "sha256": "a0fe5f952efa94a9cc574e279d35e2b0653cc670e1e17aac08e1b86bb2dd682f",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    }
+  ],
+  "seven_shared_files_verified": [
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "drive_id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "sha256": "826f87b62ff53367a9afa81f4b1e21f91c79e13dab364c139a50fa63192c0bbe",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "drive_id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "sha256": "5174d533d79dae574e74fb2a73be7515781495c47e636f4efa152ad6a9f52c6c",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "drive_id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "sha256": "8af81d2f66f99f51405745342b38092b73ef51006eecb02e24c86c9957b07328",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "drive_id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "sha256": "ff507adbba75632b58e2b9781d9626635c8bf7657a17380829894557daabc712",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "drive_id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "sha256": "b6f4c2184aef3b057fb4afc2b13419abfe6b2aa0dffb58f95c9845e307852ae7",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "drive_id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "sha256": "def3c6d447aeb82e5e88cafc4607065dccc92d62bbaeb9a0cb365b1cd74965aa",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/DATA_CATALOG.csv",
+      "drive_id": "1FhvPYllcSMI3iX3bp9xQrlPunTNkk_f0",
+      "sha256": "5dae8ed7f6d40bfd5f6a8397e077fa5d95ad809458ec743783758ee98d23461f",
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    }
+  ],
+  "other_existing_remote_paths_and_blobs_preserved": 867,
+  "desktop_directory": "20261030_PCOS论文复现包/20261030_论文全部原始数据_已核验",
+  "old_desktop_file_hashes_preserved": 2,
+  "restricted_raw_data_published_to_GitHub": false,
+  "permanent_purge": false,
+  "scientific_estimates_refitted": false,
+  "qualified_joint_draws_added": false,
+  "paper_changed": false,
+  "submitted": false,
+  "self_reference": "Own receipt publication independently verified in private final record; raw collection archive remains unchanged."
+}
