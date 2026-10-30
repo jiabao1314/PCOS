@@ -1,5 +1,17 @@
 # 项目状态
 
+## 2026-10-30T15:34:49+01:00 — v6 Overleaf r1两稿编译修复及云端核验完成
+
+本轮用户授权的编译修复已完成。最新版技术修复包为 `PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30`，两份新论文为 `20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.tex` 和 `20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement.tex`。原编辑v6、v5及XX保留；此r1只修复编译，不替代科学版本判断。科学快照仍为1abf337d9f23cc69292e03cd581b6a1557e6effe，无新科研计算或联合draws，无合格联合draws的限制保留。
+
+Overleaf https://www.overleaf.com/project/6adda2876e26d2e60e482e89 实测XeLaTeX/TeX Live 2026：主稿19页，Errors 0 / Warnings 0 / Info 4；补充21页，Errors 0 / Warnings 0 / Info 23。Info仅Underfull排版提示。两份都已实际重新编译、下载最终源文件并逐字节核对。主稿204613字节、SHA256 141819d0b11ce9ae4d5ff44dc3d709b8c608f890d01d79469de575e2af1d16bd；补充293941字节、SHA256 798d23bdf6ebb1d362b1348ca9819a548ff9a15200e81d2c95caa80c3e0436ce。默认主文档已设为r1主稿，最终打开及编译的也是该主稿。
+
+只向Overleaf新增两份真正的可编辑论文.tex，未上传PDF、Word、图片、独立bib、ZIP或数据，未通过改后缀规避规则。将3+9个外部表格TeX内联；使用原有未改的绘图函数及6份已有公开汇总CSV，转换12图为原生PGF路径/文字内联，无图像/PDF载荷。正文、公式、表数值、XX经重构比对保持，主稿XX 22处、补充2处。补充S11的重复label改为首个表头/续表头分离，消除重复标签警告。旧Overleaf 12个文件名仍在，无覆盖/删除；原本地v6基线97文件哈希未变。旧Overleaf全部内容没有重新下载，因此保全证据不扩大为逐字节旧blob核验。
+
+本地两稿实际编译及40页核验完成：29张变更页逐页打开，另11页与此前已逐页核验版像素一致；实际云端PDF另查15页，覆盖全部12幅图及S11跨页表。云端补充21页文字与本地一致；主稿19页排除左侧行号后正文文字逐页一致。不同引擎渲染不声称像素相同。证据见 `PCOS_HumanReproduction_v6_Overleaf_r1_2026-10-30/docs/20261030_v6_Overleaf_FINAL_VERIFICATION.json`、视觉核验和manifest。
+
+修复制品GitHub提交 `e877d47434c3aa5af5230892ba1a57db6187dca5`；Drive https://drive.google.com/drive/folders/1T02U_BMnBNQm1sCvBo7GE4P0vBMMNq32 。完整回读已验证21份Drive文件与17份GitHub规范交付文件，发布前742个远端路径及blob全部保留。GitHub二进制base64接口报Internal error，故4份PDF另生成合法ASCIIHex流PDF，通过UTF-8接口发布；全部页文字和72dpi像素与对应原PDF完全相同。规范ASCII PDF在两端字节相同，4份原二进制PDF额外保存在Drive及本地，不能宣称原二进制PDF也发布至GitHub。真实运行日志、输入/代码/输出哈希和PDF无损证明已保存。未改变raw/processed研究数据，DATA_CATALOG无需更新；无新科学决策。暂不投稿，未向任何人发送消息。
+
 ## 2026-10-30T15:00:00+01:00 — v6主稿及补充稿论文TeX已入Overleaf并完成下载字节核验
 
 按本轮用户指令，仅向既有Overleaf PCOS项目导入v6主稿和补充稿两份论文.tex，未上传附信、Word、PDF、ZIP、图像、独立.bib或数据。目标：https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。两文件保留20261030日期和v6版本名，原10个项目文件名仍在，无覆盖或删除操作。
@@ -148,3 +160,5 @@ Word制作完成不等于已获作者批准或所有投稿声明完成。XX按�
 - 2026-10-30T13:41:38+01:00 [20261030_hr_v6_final_package] 独立v6全部94页视觉核验后，内容/原生公式/17条回应/v5保全/完整包逐字节核验：failed；结果发布待核验。
 
 - 2026-10-30T13:42:17+01:00 [20261030_hr_v6_final_package_retry] 独立v6全部94页视觉核验后，内容/原生公式/17条回应/v5保全/完整包逐字节核验：verified；结果发布待核验。
+
+- 2026-10-30T15:25:39+01:00 [20261030_hr_v6_overleaf_compile_final] 核验仅论文TeX的独立v6 Overleaf r1编译修复；正文/公式/表值/XX保留、12原生矢量图、真实云端两稿编译与下载回读：verified；结果发布待核验。
