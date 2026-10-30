@@ -1,0 +1,1374 @@
+{
+  "title": "PCOS论文批注修改与Codex执行方案",
+  "subtitle": "17条原始批注逐条审阅  基于Human Reproduction v5",
+  "date": "2026年10月30日  Europe/Paris",
+  "comments": [
+    {
+      "topic": "用主要发现组织全文",
+      "priority": "P0",
+      "task": "T03",
+      "diagnosis": "采纳。v5已经聚焦PCOS和唯一主估计目标，但引言、结果、讨论和图注仍反复出现否定式结尾。问题是信息组织和叙述强度，不是数据必须全部重做。",
+      "actions": [
+        "以研究问题、绝对量级、分解解释、基准依赖四条主线重写；将“这不意味着”等重复句移至一个方法段和一个讨论局限段。",
+        "保留首次出现处必要的结局、分母和估计目标定义。58.5%首次出现时标明“有符号净变化之比”；以后通过表注指向该定义。",
+        "结果按“观察到什么、变化多少、不同基准是否改变解释”叙述，删除写作历史、自我贬低和口语化措辞；标题使用参照国家构成与PCOS归因不孕比较。"
+      ],
+      "data": "复用v5主稿、3张主表、5幅主图及已验证结果CSV。无需新下载；文字编辑不需要重跑全部统计。",
+      "english": "The China-minus-reference difference narrowed by 151.54 per 100,000 women between 1990 and 2023. Changes in reference-country population shares contributed 88.65 per 100,000 to this change, alongside opposing contributions from changes in Chinese and reference-country rates.",
+      "accept": "逐段建立原句与改句对照；所有数字、方向、单位和人口来源可追溯。主稿不再机械以否定句收尾；方法和局限保留数据支持范围。不得将“更直接”改成因果、临床疗效或统计显著性。",
+      "refs": "R1 R2 R3 R9",
+      "id": "0",
+      "ordinal": 1,
+      "original": "整个文章的书写结构比较清晰，问题陈述，数据引用都可以，需要改进的是太多的防御性说明，如“这不意味着，这并不能说明。。。”需要突出这些数据分析的主要贡献，用标准的统计术语来描述，不应该过于保守及口语化。",
+      "anchor": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "压缩摘要并保留期刊结构",
+      "priority": "P1",
+      "task": "T03",
+      "diagnosis": "部分采纳。v5英文摘要已有11个官方栏目，按Word空格分词约420词，含标题约456词。旧中文稿的“过长”不能直接等同于当前英文稿超限。已读HR页面和2026年5月20日模板未给出通用硬性摘要词数上限。",
+      "actions": [
+        "保留11个标题；STUDY QUESTION只问主问题，SUMMARY ANSWER只用一句。背景压至1至2句，方法删掉不影响理解的验证细节。",
+        "主结果保留中国和参照变化、三分量、UN对照，以及一个继发性基准例子；避免在主答案、结果和意义中重复同一数字。",
+        "以350至450英文词作为本稿内部编辑目标，不写成期刊规定。保留MAIN RESULTS AND THE ROLE OF CHANCE与LIMITATIONS中的最简必要说明；XX仍由作者补。"
+      ],
+      "data": "复用现有结果；不下载、不拟合新模型。读取当前官方模板，按同一计数法输出修改前后词数。",
+      "english": "How did changes in reference-country population composition contribute to the 1990–2023 change in China’s age-standardized PCOS-attributed infertility difference relative to 18 G20 countries?",
+      "accept": "11个标题完整且顺序正确；主问题与主估计目标一致；词数报告注明含不含标题。无虚构250词或600词上限；摘要中的GBD与UN数值不混用。",
+      "refs": "R8 R9",
+      "id": "3",
+      "ordinal": 2,
+      "original": "摘要过于长，可以考虑缩短",
+      "anchor": "扩展摘要",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "解释中国之外为何是18国",
+      "priority": "P1",
+      "task": "T01 T03",
+      "diagnosis": "采纳补充解释。G20有19个国家及欧盟、非盟两个区域组织，19国包括中国，因此参照为其余18国。v5已列国家并排除区域组织，但需用一句话解释计数与固定国家集合。",
+      "actions": [
+        "方法写清19个主权国家组成分析框架，中国不进入参照分母；EU和AU不作为额外国家纳入，避免与成员国人口重叠。",
+        "新增或复用国家与ISO3映射表；明确将同一集合回溯应用于1990至2023年。G20成立于1999年，因此不能写成1990年已经存在的逐年成员队列。",
+        "保留当前主估计目标；不为凑“其他19个”临时加入西班牙或其他受邀国家。若以后扩展全球，须建立独立估计目标与版本。"
+      ],
+      "data": "复用GBD与UN的国家映射及4,522行人口网格；只补查官方成员说明。",
+      "english": "We analysed a fixed set of 19 G20 member countries, comprising China and 18 comparator countries. Regional unions were excluded to avoid overlap with national populations. The same country set was applied throughout 1990–2023.",
+      "accept": "国家集合为19个唯一国家，参照为18个且无中国；名称与ISO3一对一；没有EU、AU重复行；方法文字与代码集合一致。",
+      "refs": "R10",
+      "id": "4",
+      "ordinal": 3,
+      "original": "为什么不是其他19个，文章中需要解释",
+      "anchor": "研究设计、规模和时间（Study design, size, duration）： 对 GBD 2023 进行描述性二次分析，覆盖1990—2023年中国以及其他18个 G20 主权国家的15—49岁女性。独立的人口来源敏感性分析采用联合国《世界人口展望2024》（UN World Population Prospects 2024，WPP 2024）1990—2023年历史年中人口估计，涵盖19个国家、34年和7个五岁年龄组，共4,522个“国家—年份—年龄组”数据单元。",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "把摘要中的不确定性说明改为标准表述",
+      "priority": "P1",
+      "task": "T02 T03",
+      "diagnosis": "采纳精简意图。v5已将旧句改为“未取得联合draws，因此未报告派生区间或显著性检验”。可以更紧凑，不能因审阅措辞意见删除真实的不确定性缺口。此条写作任务与批注51的数据任务分别验收。",
+      "actions": [
+        "在摘要“随机性因素”栏保留一条标准描述，其他重复句压缩到LIMITATIONS。",
+        "无draws时写“derived point estimates”；取得且验证draws后，替换为主估计量和绝对分量的95%UI，不同时保留过时的缺失声明。",
+        "避免“确定性比较”“只能”“并不能”等连续防御表达；用估计类型、已做的敏感性和缺失信息准确交代。"
+      ],
+      "data": "无draws分支直接复用v5；有draws分支执行第5章流程后方可改数值。",
+      "english": "We report derived point estimates and assess their sensitivity to comparator definitions; posterior uncertainty was not propagated because jointly aligned draws were unavailable.",
+      "accept": "摘要表述与实际数据分支一致；不能把情景范围放在95%UI括号中。若仍无draws，保留一处简洁说明，不伪称已完成不确定性传播。",
+      "refs": "R1 R2 R8",
+      "id": "5",
+      "ordinal": 4,
+      "original": "典型的GPT保护性语句，需要删除或者更改说法",
+      "anchor": "主要结果及随机性因素（Main results and the role of chance）： 从1990年至2023年，中国减去参照组的 PCOS 相关总体不孕症差异变化了 +151.54/10万名女性。按 GBD 人口占比计算，对称分解中的参照国占比分量为 +88.65，占有符号净变化的58.5%。改用联合国人口权重后，净变化为 +150.69，占比分量为 +86.76（57.6%）。在2023年，采用联合国当年人口占比时，PCOS 继发性不孕症差异为 +2.26/10万名女性；采用固定1990年占比时，则为 −48.34/10万名女性。这些是以模型结果为条件的确定性比较；由于无法获得跨各数据单元联合匹配的 GBD 后验抽样，不能计算所推导指标的不确定性区间。",
+      "v5_status": "已处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "删除本期刊并核对同名作者文献",
+      "priority": "P1",
+      "task": "T03 T05",
+      "diagnosis": "采纳，v5已删除“本期刊”。旧中文稿所指Liang的Human Reproduction 2025总体不孕文章，与v5引用的Liang等Frontiers in Public Health 2025 PCOS归因不孕文章是不同论文，必须按DOI区分。",
+      "actions": [
+        "保留“作者、年份、实际研究目标”的客观表述，不为迎合目标期刊写“本期刊”。",
+        "沿用v5 S9文献估计目标比较，核对Liu2024、Liang2025及Liang2026条目的题名、DOI、结局和时期；全文未取得的标明证据层级。",
+        "将本稿贡献定位为固定年龄标准下，参照国家年龄内份额变化对中国减多国汇总率差的影响。不能从摘要推断他人的pooling公式或声称前人计算错误。"
+      ],
+      "data": "下载或读取必要论文全文和补充材料；不下载新的GBD研究数据。",
+      "english": "Previous GBD studies have described the geographical distribution and temporal trends of PCOS-attributed infertility. We examine how changing country composition within a defined pooled reference affects the interpretation of China’s standardized-rate contrast.",
+      "accept": "全文不存在投稿指向性“in this journal”；每个作者年与唯一DOI对应；不把病例数的人口增长或老龄化分解混同为本稿的国家份额分解。",
+      "refs": "R3 R4 R5 R6",
+      "id": "8",
+      "ordinal": 5,
+      "original": "为什么会出现本期刊这个名词",
+      "anchor": "先前的工作已利用 GBD 2019 量化全球归因于 PCOS 的不孕症负担（Liu 等，2024）；利用 GBD 2021 在本期刊描述全球不孕症趋势并预测未来情况（Liang 等，2025）；以及通过 GBD 2021 考察子宫内膜异位症、PCOS 和原发性／继发性不孕症的病因归属（Xu 等，2025）。中国与全球的比较（Lu 等，2026）、GBD 2021/2023 分析（Wang 等，2026）及一般性的 GBD 趋势／分解研究（Feng 等，2025）进一步限定了新颖性主张的空间。仅更新 GBD 数据版本、增加国家数量、报告亚型或预测未来估计率，均会与已有分析重复。因此，我们考察另一个目标估计量问题：汇总国际参照组的人口构成随时间发生的变化。",
+      "v5_status": "已处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "区分中国符号与病例数符号",
+      "priority": "P0",
+      "task": "T03",
+      "diagnosis": "采纳，v5仍需处理。v5用C表示病例数，也在A和r的下标中用C表示China，读者确有歧义。优先统一符号，而不是只在一处加注。",
+      "actions": [
+        "病例数统一为N；中国统一写CHN；ℛ表示18国参照集合，R仅为汇总参照标签。c为国家，a为年龄组，t为年份，k为不孕亚型，P为女性人口。",
+        "更新主稿、补充、图表注、Word原生公式及符号表；代码不必仅为排版改名，但增加代码变量与论文符号映射。",
+        "本条只改变数学记号；如果连同代码重构，须与旧结果逐项比对后才能认为等价。"
+      ],
+      "data": "无新增数据。使用原有r=病例数除以人口乘10万、先年龄内合并后标化的计算顺序。",
+      "english": "N denotes modeled prevalent cases, P denotes the female population, and CHN denotes China. The comparator set comprises 18 countries; R labels their pooled reference.",
+      "accept": "C不再同时指病例数和中国；所有符号首次定义；原生公式可编辑。标号、下标、单位和正文一致，数值保持原结果或有明确变更记录。",
+      "refs": "P3 R7",
+      "id": "15",
+      "ordinal": 6,
+      "original": "这里的A_{Ctk}中的C 是否代指中国",
+      "anchor": "原稿标准化率公式段落；原批注为公式旁零宽锚点。中国与病例数共用C的符号问题，见本报告第5章的规范记号。",
+      "v5_status": "仍需处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "删除制作过程叙述并保留探索性说明",
+      "priority": "P1",
+      "task": "T03",
+      "diagnosis": "采纳，v5已删除“在论文修改过程中”。同时应保留探索性、未外部预注册的事实；删除制作过程不等于可以将事后加入分析写成事前计划。",
+      "actions": [
+        "正文直接说明使用何种分解及目的。不要恢复旧稿的“修改过程中增加”。",
+        "在补充方法简洁列出主分析、后续敏感性及新增分析的日期或版本；已存在的运行日志足以支持，不伪造预注册。",
+        "如果本轮新增draws或年度抵消表，在新版本方法中明确其分析角色。"
+      ],
+      "data": "复用CODEX_RUN_LOG及原有方法与运行记录；不需要研究数据下载。",
+      "english": "We applied a symmetric decomposition to separate changes in the standardized contrast into Chinese-rate, comparator-rate and comparator-composition components.",
+      "accept": "稿件不含制作指令或修改历史口语；探索性状态真实；新任务不会被包装成事前注册分析。",
+      "refs": "R2 R7",
+      "id": "18",
+      "ordinal": 7,
+      "original": "这个不是应该出现在最终论文中的话语",
+      "anchor": "在论文修改过程中，我们增加了起始年份 0 与终止年份 T 之间的对称分解：",
+      "v5_status": "已处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "明确年度率差与率差变化的关系",
+      "priority": "P0",
+      "task": "T03",
+      "diagnosis": "采纳。v5已定义总不孕的主变化量，但一般亚型k的定义还可更清楚。旧稿同时使用上标k和下标k容易误解。",
+      "actions": [
+        "统一写D(t,k)为某年中国减参照的标准化率差；ΔD(k;t0,t1)为同一亚型在两个年份率差的变化。正式公式采用一致的下标形式。",
+        "紧接定义给出ΔD=D(t1,k)−D(t0,k)=X+Q+S，并规定主分析t0=1990、t1=2023。",
+        "在符号表和表注中解释正分量会提高中国减参照的有符号差值，不能不加条件称“改善”或“负担下降”。"
+      ],
+      "data": "复用symmetric_decomposition_1990_endpoints.csv与既有恒等式核查。仅排版修改不要求重跑所有科学统计。",
+      "english": "For infertility type k, the change in the standardized difference is defined as the difference at the endpoint minus that at the starting year. The primary comparison uses 1990 and 2023.",
+      "accept": "主稿和补充的k位置统一；每个分解行使用同一期间、人口来源与单位；分量和等于期末减期初，未舍入值残差符合既定数值容差。",
+      "refs": "P3 R7",
+      "id": "19",
+      "ordinal": 8,
+      "original": "这个 \\Delta D^k 与上面的 D_{tk} 是什么关系",
+      "anchor": "原稿对称分解恒等式段落；原批注为公式旁零宽锚点。年度率差与期间变化的规范公式见本报告第5章。",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "正文简化UN来源并完整保留追溯信息",
+      "priority": "P1",
+      "task": "T01 T03",
+      "diagnosis": "采纳，v5正文已简化为UN WPP2024历史年中人口表；确切文件名已转入数据引用。无需再删除可复现材料中的真实文件名。",
+      "actions": [
+        "正文采用机构、产品、历史年份、年龄与性别描述；将下载URL、文件名、发布日期、单位和SHA256放在数据清单。",
+        "保留1990至2023年7月1日历史估计；排除2024年起预测。千人转为人数后，19×34×7应为4,522个唯一单元。",
+        "核查Galaxy原压缩文件的实际状态；现有子集已足够复现不等于完整压缩源已归档成功。只在缺失、损坏或溯源不一致时重新下载。"
+      ],
+      "data": "复用UN_WPP2024_G20_female_15_49_1990_2023.csv及其源清单。UN只替换参照国家份额，不用UN人口重新除GBD病例数。",
+      "english": "Female population estimates by five-year age group were obtained from the United Nations World Population Prospects 2024 for 1990–2023.",
+      "accept": "正文易读，清单可追溯；4,522个单元无缺失重复；历史与预测分界正确；份额替换和疾病率分母保持既定定义。",
+      "refs": "P4 R11",
+      "id": "22",
+      "ordinal": 9,
+      "original": "这个文件名太长，更正维从XXX 网站获得了XXX数据",
+      "anchor": "为检验参照组构成这一发现是否依赖于 GBD 人口序列，我们从联合国人口司下载了原始的 WPP 2024 PopulationByAge5GroupSex_Medium CSV 文件（UN DESA，2024）。仅使用1990—2023年历史时期的年中（7月1日）人口估计，排除2024年起的 WPP 人口预测。通过 ISO3 国家代码筛选与前述相同的19个 G20 主权国家、女性和7个五岁年龄组。预期的4,522条“国家—年份—年龄组”记录均恰好出现一次。原始单位为千人，转换为人数。原始压缩文件和筛选子集的哈希值与可复现脚本一并报告。",
+      "v5_status": "已处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "准确说明缺失的是联合抽样信息",
+      "priority": "P0",
+      "task": "T02 T03",
+      "diagnosis": "采纳，v5已有相应说明。缺失的是派生不确定性所需的联合对齐后验样本，不是已分析的病例数、人口或年份数据全部缺失。",
+      "actions": [
+        "方法分成“点估计与结构敏感性”和“后验不确定性”两个段落，说明前者已实施、后者取决于真实draws。",
+        "将已完成的基准、人口来源、端点、年龄、逐国剔除和舍入检验列全，但不要再以新增分析名义重复运行。",
+        "若无法取得draws，给出访问审计及停止条件；GATHER不确定性条目明确为部分满足或未满足，不以已有源边际UI替代。"
+      ],
+      "data": "读取既有uncertainty_access_audit_2026-10-29.json并核查本轮新增可访问档案。详细下载与分支见第4至5章。",
+      "english": "Because the accessible GBD exports contained marginal summaries without jointly aligned draws, we evaluated derived contrasts using point estimates and assessed sensitivity to comparator composition, population source and analysis period.",
+      "accept": "“缺什么、已做什么、未做什么”三者对应真实文件；每个敏感性都有实际输出；无新增draws时不出现新的后验区间。",
+      "refs": "P3 R1 R2",
+      "id": "25",
+      "ordinal": 10,
+      "original": "论文里面需要讲：鉴于XXX 的数据缺失，我们从XXX 分析",
+      "anchor": "无法获得年龄组、国家和年份之间联合对应的 GBD 后验抽样结果。因此，我们仅报告派生点估计，不提供传播后的不确定性区间或显著性检验。原始边际界限被保留，但不相加，也不视作标准误。剔除国家反映对参照组构成的敏感性，而非抽样不确定性。YLD 与患病率共享输入数据，不能视为相互独立的重复验证。分析采用 Python 3.12，以及固定版本的 NumPy、pandas、SciPy、statsmodels 和 Matplotlib。代码与机器可读结果见补充文件2及代码仓库（PCOS research workspace，2026）。适用的 GATHER 报告条目（包括尚未完整实现的不确定性传播报告）在补充文件1中作了对应说明（Stevens 等，2016）。",
+      "v5_status": "已处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "报告真实软件版本与第三方库",
+      "priority": "P1",
+      "task": "T01 T03",
+      "diagnosis": "采纳改写但纠正“内置包”。NumPy、pandas、Matplotlib等是第三方库。实际核心Python代码导入NumPy、pandas和Matplotlib；不能把旧稿列出的SciPy或statsmodels自动写成当前主要分析所用。",
+      "actions": [
+        "从真实科研运行日志、锁定依赖及脚本import核验版本。已读原R_session_info显示R4.6.1；Python正文写3.12，精确小版本及各库版本需以原分析环境为准。",
+        "区分科研计算环境与本次Word制作环境；不得用当前文档生成机器的版本填充历史分析声明。",
+        "主稿简写语言和主要库，补充文件列完整版本、平台及复现命令；清除未用于本稿计算的冗余包。"
+      ],
+      "data": "复用Python/R代码和运行环境记录。无需重新下载研究数据；原环境缺失时报告能核实的版本，并在新隔离环境重现后记录新环境。",
+      "english": "Analyses were implemented in Python 3.12 using NumPy, pandas and Matplotlib, with independent numerical verification in R 4.6.1. Exact dependency versions and execution details are provided in the reproducibility archive.",
+      "accept": "最终句子仅保留确有使用证据的库；环境清单对应真实运行；不能把缺失小版本伪填为已知。",
+      "refs": "P3",
+      "id": "26",
+      "ordinal": 11,
+      "original": "代码语言为 Python 3.12， 数据分析基于Numpy… 等内置包",
+      "anchor": "无法获得年龄组、国家和年份之间联合对应的 GBD 后验抽样结果。因此，我们仅报告派生点估计，不提供传播后的不确定性区间或显著性检验。原始边际界限被保留，但不相加，也不视作标准误。剔除国家反映对参照组构成的敏感性，而非抽样不确定性。YLD 与患病率共享输入数据，不能视为相互独立的重复验证。分析采用 Python 3.12，以及固定版本的 NumPy、pandas、SciPy、statsmodels 和 Matplotlib。代码与机器可读结果见补充文件2及代码仓库（PCOS research workspace，2026）。适用的 GATHER 报告条目（包括尚未完整实现的不确定性传播报告）在补充文件1中作了对应说明（Stevens 等，2016）。",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "精简AI声明并确保用途真实",
+      "priority": "P0",
+      "task": "T03 T07",
+      "diagnosis": "部分采纳原意见。可以精简，不能把已发生的代码开发、分析核查和起草辅助改写成“仅润色”。v5已按真实记录披露gpt-6.1-sol，仅限2026年10月29日已记录的Codex会话，未推定全部历史版本。",
+      "actions": [
+        "保留v5可核验的工具与用途，按实际日志补入本轮后续修订使用记录；不要凭批注将所有工具统称ChatGPT6.1。",
+        "按OUP政策在附信和Acknowledgements披露，方法相关用途按需在Methods说明；避免三处机械重复长段。",
+        "作者核查和批准尚未完成时保持待确认。只有作者实际完成后，才把相应句子改为完成时态；不以本次工具核查代替作者批准。"
+      ],
+      "data": "复用AI_VERSION_EVIDENCE.json、真实执行日志和当前披露。无需研究数据下载，也不需新增统计。",
+      "english": "OpenAI ChatGPT and Codex supported code development, analysis checks, drafting and technical editing under researcher-directed instructions. The documented Codex session on 29 October 2026 used gpt-6.1-sol; versions of earlier separate sessions could not be independently verified.",
+      "accept": "用途、版本和日期与记录一致；声明位置符合当前政策；不声称未知版本，不虚构“仅润色”或已完成的作者批准。",
+      "refs": "P2 R12",
+      "id": "31",
+      "ordinal": 12,
+      "original": "去掉，只能写用ChatGPT6.1 进行润色与代码整理，文稿构思，书写，数学推导，数据处理是作者间协助处理，blabla…",
+      "anchor": "本项目使用 OpenAI 辅助工具支持代码开发、文稿起草和技术核查。没有使用人工生成的观测值代替下载的 GBD 数据。投稿前仍需由人类作者最终核实代码、数据来源、解释及所有作者声明。工具不构成论文作者，也不能批准稿件。",
+      "v5_status": "已处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "结果段落直接呈现发现",
+      "priority": "P0",
+      "task": "T03",
+      "diagnosis": "采纳。v5仍在多段末尾重复“不能证明”。结果部分应报告估计量与敏感性，推断边界主要放在方法和讨论。",
+      "actions": [
+        "结果依次写数据覆盖、总体率差及三分量、亚型、UN对照、基准敏感性；与v5当前3表5图对应。",
+        "把R/Python最大差等复现细节压缩为一句，其余移补充；结果不再每段评价研究能证明什么。",
+        "写明中国率和参照率同时上升而负向率差缩小；写“点估计跨零/符号随基准改变”，避免“显著逆转”。子宫内膜异位症留在补充。"
+      ],
+      "data": "直接复用已读取的实际结果CSV及表图；不重复拟合。",
+      "english": "The 2023 secondary-infertility difference was +2.16 per 100,000 under current GBD country shares, −47.99 under fixed-1990 shares and −127.89 under equal-country weights. The sign of the point estimate therefore depended on the comparator definition.",
+      "accept": "每段有清楚发现和对应表图；GBD三值与UN的+2.26、−48.34分开；每个句子可追溯，必要限制不在段尾重复堆叠。",
+      "refs": "P3 R9",
+      "id": "36",
+      "ordinal": 13,
+      "original": "这一章节每段都以不能证明，不构成结尾，这不是好的文章应该有的结论，我们需要强调发现了什么。这些无法证明的需要一带而过。",
+      "anchor": "3.1 数据覆盖与总体比较差异",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "用年度结果回应抵消与年份",
+      "priority": "P1",
+      "task": "T04",
+      "diagnosis": "不直接采纳“显著相关”。该批注指向子宫内膜异位症原发与继发差异在2023年近乎抵消；它不是主PCOS国家构成分量的显著性问题。现有端点差异只支持终点敏感性。",
+      "actions": [
+        "先复用已有S7、末年国家及年龄审计，以及年度亚型结果；输出1990至2023全年度三种率差，正文引用补充中2021、2022、2023的对照。",
+        "若已有图表足以回答，直接改写，不追加模型。确需更直观呈现时，增加年度抵消表；可选抵消指数定义和验收见第6章。",
+        "无联合draws时不把34个平滑年度点估计当独立样本做普通相关检验。取得跨年对齐draws时，可估计本轮方案固定的2023减2022亚型率差变化及UI（仍属事后探索性），而非笼统声称“与年份显著相关”。"
+      ],
+      "data": "使用all_annual_benchmark_aspr.csv、terminal_year_audit.csv和已存在的末年图；无需新下载。只新增必要的整理与一致性检查。",
+      "english": "For endometriosis, the cancellation was sensitive to the endpoint year. Under the same GBD-weighted reference, the secondary-infertility difference was −0.40 per 100,000 in 2022 and +7.73 in 2023; the 2023 primary-infertility difference was −7.94.",
+      "accept": "先确认同病因、同分母、同年龄标准和同基准；全年份完整且总差等于两亚型和；不凭变化或跨零加入P值。若新增分析未运行，只标拟开展。",
+      "refs": "P3 R13",
+      "id": "39",
+      "ordinal": 14,
+      "original": "说明这种抵消与所选取年份成显著相关关系",
+      "anchor": "在逐一排除参照国家后，2023年 PCOS 原发性不孕症差异始终为负（−201.52至 −101.89），但继发性差异介于 −113.63和 +30.72之间。继发性不孕症的“接近持平”只是主分析参照组下的结果，不能认为其差异符号稳定。对于子宫内膜异位症，2023年原发性差异 −7.94 与继发性差异 +7.73 几乎互相抵消。两种亚型在2023年的差异符号在国家排除分析中均保持不变，但继发性差异在2022年为 −0.40，说明这种抵消依赖于所选终点年份。",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "明确应用贡献和比较设计意义",
+      "priority": "P0",
+      "task": "T03 T05",
+      "diagnosis": "采纳。经典方法的正确归属应保留，但不需要在讨论反复强调“没有提出新方法”。v5仍可把应用贡献写得更具体。",
+      "actions": [
+        "讨论首段用一个完整段落说明：固定年龄标准后国家年龄内份额仍改变参照；三分量揭示负向率差缩小的构成；不同基准可能改变继发性点估计的符号。",
+        "把Kitagawa归属集中到Methods；已有病因、亚型、趋势与人口分解文献放S9对照，不贬低本稿也不宣称算法首创。",
+        "增加一项实际用途：跨国生殖健康监测应同时说明基准权重并报告绝对分量。用Yang人群调查和PCOS指南补充结局背景，不把它们称为外部验证。"
+      ],
+      "data": "复用既有结果和S9；公开论文的定义对照可新增，无须下载临床微观数据。可选中心化国家分量见第6章，不能作为已完成结果。",
+      "english": "This study quantifies how changes in the within-age composition of a multinational reference contribute to China’s standardized PCOS-attributed infertility contrast. Reporting absolute components and explicitly defined comparators makes the sources of an apparent narrowing gap more transparent.",
+      "accept": "贡献对应实际表图；无未经全面证据支持的“首次”“新算法”“纠正前人错误”；不以方法重命名代替创新。结论说明监测解释意义，不推断治疗效果。",
+      "refs": "R3 R4 R5 R7 R14 R15",
+      "id": "48",
+      "ordinal": 15,
+      "original": "这里是说贡献，不要说我们没有提出新的方法",
+      "anchor": "在一个已被广泛研究的领域中，本研究提供的是一项增量贡献。既有文献已考察上述两种病因及其与原发性、继发性不孕症的关系，中国与全球的模式，以及常规趋势和分解方法（Xu 等，2025；Lu 等，2026；Wang 等，2026；Feng 等，2025）。我们的贡献在于，将亚型分解与年龄组内参照国人口占比分解结合起来，并考察国家纳入和终点年份的敏感性。我们没有提出新的分解方法，也不认为仅凭采用 GBD 2023 或进行亚型分层便具有新颖性。这项研究的价值是提供一种易于解释的具体应用，从而改变对表面“趋同”现象的实质理解。",
+      "v5_status": "部分处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    },
+    {
+      "topic": "优先核查并条件性实现不确定性传播",
+      "priority": "P0",
+      "task": "T02",
+      "diagnosis": "采纳其科学目标。这是最可能实质增强稿件证据的任务，v5尚未完成。重新下载val/lower/upper不能恢复国家、年龄、年份和亚型之间的依赖。官方GBD2023主文报告250次抽样，实际产品仍须核验。",
+      "actions": [
+        "先查现有授权档案及官方可访问产品，完成draws来源、版本、变量与联合配对审计；不把“文件名含draw”或“列名相同”视为配对证明。",
+        "有真实且合格的draws时，逐draw重新计算率、参照、标化、率差、分解和预定敏感性，并输出95%UI及数值QC。人口是否随机及与疾病draw是否联合必须说明。",
+        "若仍未取得，完成点估计版本和结构敏感性表达；集中说明未量化的后验不确定性，不用独立模拟、国家bootstrap、边际上下限相加或压力测试伪造UI。",
+        "删除旧结论中“有区间和独立证据便能作因果结论”的暗示。不确定性传播不提供因果识别。完整分支与停止标准见第5章。"
+      ],
+      "data": "可能需要实际下载经授权的GBD2023联合draw产品及元数据；当前未验证取得。已有源文件、敏感性和代码全部先复用。不得未经授权发信或重新提交申请。",
+      "english": "The main uncertainty upgrade will be a draw-wise propagation analysis, conditional on obtaining posterior samples with verified joint correspondence across the required countries, ages, years and infertility subtypes.",
+      "accept": "必须有实际文件、配对证据、逐draw恒等式和独立核查，才能标已验证。有源数据UI不等于有派生UI；无draws分支明确留存缺口，不能称该批注已通过完整统计解决。",
+      "refs": "P3 R1 R2",
+      "id": "51",
+      "ordinal": 16,
+      "original": "为什么不在该论文中进行不确定性分析，这将使文章档次上升",
+      "anchor": "在 GBD 2023 的点估计框架下，中国 PCOS 相关不孕症与其他 G20 国家之间表面上的趋同，部分反映了参照国家人口占比的变化，同时掩盖了原发性与继发性不孕症之间不同的模式。2023年子宫内膜异位症相关不孕症的“接近持平”高度依赖最后一年的数据。国际汇总比较应明确区分不孕症亚型、年龄及参照组构成。只有经过不确定性传播分析并得到独立证据的进一步证实，才能据此作出因果或政策层面的结论。",
+      "v5_status": "仍需处理",
+      "english_note": "以下为执行计划英文，未运行前不得作为已完成方法或结果；当前稿件仍使用批注5和25的无draws表述。"
+    },
+    {
+      "topic": "解释并保留投稿版替代文本",
+      "priority": "P1",
+      "task": "T07",
+      "diagnosis": "解释即可，v5已按HR要求处理。Alt text是供屏幕阅读器使用的图像描述，不是补充结果。HR明确要求放在对应图注正下方，并说明正式排版文章中不会作为可见内容出现。",
+      "actions": [
+        "保留主稿5段Alt text及已有图片descr/title；不要仅移入元数据后删除投稿稿中的段落。",
+        "按当前v5图像核对面板、轴、曲线和主要方向，清除旧稿图1六面板描述与当前两面板图之间的版本错配。",
+        "作者阅读版如需隐藏可见Alt text，应独立生成并标明用途；投稿版持续遵循HR要求。补充图也检查可访问性及期刊适用规定。"
+      ],
+      "data": "复用v5图像与替代文本；不需新数据或统计。",
+      "english": "Alt text describes the figure for screen-reader users. Human Reproduction requests it directly below the corresponding figure legend; it is not an additional result and will not appear as visible text in the typeset article.",
+      "accept": "每幅主图有对应替代文本和正确图号；所述面板与实际图一致；保留HR规定位置，图注与Alt text均不引入未经验证结果。",
+      "refs": "R9",
+      "id": "76",
+      "ordinal": 17,
+      "original": "每张图的说明还有个替代文本表示什么意思？是补充说明吗？",
+      "anchor": "替代文本（Alt text）： 年度患病率及中国减参照组的差异。PCOS 相关不孕症率上升，同时负向差异缩小；子宫内膜异位症的结论对终点年份敏感。上排A—C为子宫内膜异位症，下排D—F为 PCOS；每排从左到右分别为标化率、差异和比值。",
+      "v5_status": "已处理",
+      "english_note": "英文为候选改写；涉及已提供资料或完成分析的陈述，必须在对应验收完成后才能写入最终稿。"
+    }
+  ],
+  "refs": [
+    {
+      "id": "R1",
+      "citation": "GBD 2023 Disease and Injury and Risk Factor Collaborators. Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023. Lancet. 2025;406(10513):1873–1922. DOI 10.1016/S0140-6736(25)01637-X.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12535840/",
+      "use": "官方方法基础，GBD2023主文报告250 draws。公开摘要结果不等于可下载联合draw产品。",
+      "access": "官方研究全文已核验"
+    },
+    {
+      "id": "R2",
+      "citation": "Stevens GA, Alkema L, Black RE, et al. Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement. PLOS Medicine. 2016;13(6):e1002056. DOI 10.1371/journal.pmed.1002056.",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002056",
+      "use": "说明不确定性来源、方法、敏感性及报告缺口；不能用报告规范创造缺失信息。",
+      "access": "原始声明及WHO页面已核验"
+    },
+    {
+      "id": "R3",
+      "citation": "Liu X, Zhang J, Wang S. Global, regional, and national burden of infertility attributable to PCOS, 1990–2019. Human Reproduction. 2024;39:108–118. DOI 10.1093/humrep/dead241.",
+      "url": "https://academic.oup.com/humrep/article/39/1/108/7452815",
+      "use": "最接近的目标刊研究，已有GBD2019 PCOS归因不孕、亚型、年龄和趋势；本稿应强调不同的比较基准问题。",
+      "access": "原刊PDF的方法与目标已核验；部分直达请求受限"
+    },
+    {
+      "id": "R4",
+      "citation": "Liang Y, Zhong K, Huang Z, Shi W, Ou Y. Global, regional, and national burden of infertility attributable to polycystic ovary syndrome, 1990–2021: results from the Global Burden of Disease Study 2021. Frontiers in Public Health. 2025;13:1693486. DOI 10.3389/fpubh.2025.1693486.",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1693486/full",
+      "use": "PCOS归因不孕的病例负担分解已存在；区分人口增长、年龄结构与本稿年龄内国家份额。作为近邻证据，非期刊推荐。",
+      "access": "原刊全文已核验"
+    },
+    {
+      "id": "R5",
+      "citation": "Liang Q. Trend analysis of the burden of PCOS and related infertility in China and worldwide between 1990 and 2021. Reproductive BioMedicine Online. 2026;52(2):105239. DOI 10.1016/j.rbmo.2025.105239.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41456540/",
+      "use": "中国与全球的近邻比较。2025在线、2026卷期；未获全文不得推断其参照公式。",
+      "access": "原刊题录与摘要核验，全文未取得"
+    },
+    {
+      "id": "R6",
+      "citation": "Liang Y, Huang J, Zhao Q, et al. Global, regional, and national prevalence and trends of infertility among individuals of reproductive age (15–49 years) from 1990 to 2021, with projections to 2040. Human Reproduction. 2025;40(3):529–544. DOI 10.1093/humrep/deae292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39752330/?dopt=Abstract",
+      "use": "总体不孕及预测；不同于R4，不能因作者年份相近而混用。",
+      "access": "原始摘要已核验"
+    },
+    {
+      "id": "R7",
+      "citation": "Kitagawa EM. Components of a Difference Between Two Rates. Journal of the American Statistical Association. 1955;50:1168–1194. DOI 10.1080/01621459.1955.10501299.",
+      "url": "https://doi.org/10.1080/01621459.1955.10501299",
+      "use": "经典分解归属；本报告的恒等式由公式独立核对，不声称阅读全文或算法创新。",
+      "access": "原刊题录核验，全文访问受限"
+    },
+    {
+      "id": "R8",
+      "citation": "Human Reproduction. Clinical Studies及Clinical Study Extended Abstract模板，模板版本20 May 2026.",
+      "url": "https://academic.oup.com/humrep/pages/Clinical_Studies",
+      "use": "扩展摘要11栏目全部保留；已读材料未给出通用硬性词数上限。",
+      "access": "官方页面及可编辑模板已读取"
+    },
+    {
+      "id": "R9",
+      "citation": "Human Reproduction. Manuscript Preparation. Figure accessibility and alt text.",
+      "url": "https://academic.oup.com/HUMREP/pages/Manuscript_Preparation",
+      "use": "主图图注下提供Alt text，正式排版不作为可见正文；结果与讨论结构应清楚、简洁。",
+      "access": "官方页面已读取"
+    },
+    {
+      "id": "R10",
+      "citation": "Global Affairs Canada. Canada and the G20. Membership.",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g20/index.aspx?lang=eng",
+      "use": "19国加EU/AU；G20成立于1999年。研究采用固定国家集合。",
+      "access": "政府原始页面已读取"
+    },
+    {
+      "id": "R11",
+      "citation": "United Nations DESA Population Division. World Population Prospects 2024. Historical estimates 1950–2023 and projections 2024–2100.",
+      "url": "https://population.un.org/wpp/",
+      "use": "人口数据产品与历史预测分界；复用确切女性五岁组源表，UNdata总人口页面仅作元数据佐证。",
+      "access": "官方产品说明及UNdata元数据已核验"
+    },
+    {
+      "id": "R12",
+      "citation": "Oxford University Press. Policy on AI Use and Disclosure for OUP Journals Authors. Updated 13 July 2026.",
+      "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+      "use": "如实披露工具版本、用途与作者核查；附信及致谢，必要时Methods。",
+      "access": "官方现行政策已读取"
+    },
+    {
+      "id": "R13",
+      "citation": "Greenland S et al. Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. European Journal of Epidemiology. 2016;31:337–350. DOI 10.1007/s10654-016-0149-3.",
+      "url": "https://link.springer.com/article/10.1007/s10654-016-0149-3",
+      "use": "推断需适当变异模型；不能用结果跨零替代统计显著性检验。",
+      "access": "原始文章已读取"
+    },
+    {
+      "id": "R14",
+      "citation": "Yang R, Li Q, Zhou Z, et al. Changes in the prevalence of polycystic ovary syndrome in China over the past decade. Lancet Regional Health Western Pacific. 2022;25:100494. DOI 10.1016/j.lanwpc.2022.100494.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9162959/",
+      "use": "中国真实人群调查、PCOS和条件性不孕定义对照。微数据并非公开可直接下载，不作为本稿疾病率验证。",
+      "access": "原始全文、公开表格及共享声明已核验"
+    },
+    {
+      "id": "R15",
+      "citation": "Teede HJ, Tay CT, Laven J, et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Human Reproduction. 2023;38(9):1655–1679. DOI 10.1093/humrep/dead156.",
+      "url": "https://www.eshre.eu/Guidelines-and-Legal/Guidelines/Polycystic-Ovary-Syndrome",
+      "use": "PCOS诊断、异质性及生殖健康意义；不能替代特定国家归因率验证。",
+      "access": "官方学会页面与期刊索引已核验",
+      "additional_url": "https://pure.eur.nl/ws/portalfiles/portal/102751380/dead156.pdf"
+    },
+    {
+      "id": "R16",
+      "citation": "Xu Y, Jia Y, Li Q, et al. Global, Regional, and National Burden of Endometriosis, PCOS, and Unexplained Infertility and Their Attribution to Infertility, 1990–2021: Global Burden of Disease Study 2021. Journal of Evidence-Based Medicine. 2025;18(4):e70100. DOI 10.1111/jebm.70100.",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jebm.70100",
+      "use": "病因本身与其不孕归因是不同结局；病因及亚型分析已有先例。",
+      "access": "原刊全文已核验"
+    },
+    {
+      "id": "R17",
+      "citation": "Chen S, Yang X, Jiang S, et al. Burden and temporal trends of female-specific cancers in China: A systematic analysis of the 2023 global burden of disease study. PLOS One. 2026;21(6):e0351539. DOI 10.1371/journal.pone.0351539.",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351539",
+      "use": "仅用于当前六位小数权重的来源追溯；不能把二次复刻写成IHME原始机器精度文件。",
+      "access": "原文引用链已核验"
+    },
+    {
+      "id": "R18",
+      "citation": "Wang J, Gan C, Jia Z, et al. Global estimates of infertility burden and contributions of congenital, endocrine, metabolic and infectious factors. Molecular Medicine. 2026;32:192. DOI 10.1186/s10020-026-01548-8.",
+      "url": "https://link.springer.com/article/10.1186/s10020-026-01548-8",
+      "use": "近邻GBD不孕负担、病因、分解与预测；不作为本稿GBD2023结局定义的金标准。",
+      "access": "原刊全文已核验"
+    },
+    {
+      "id": "R19",
+      "citation": "Feng J, Wu Q, Liang Y, et al. Epidemiological characteristics of infertility, 1990–2021, and 15-year forecasts: an analysis based on the global burden of disease study 2021. Reproductive Health. 2025;22:26. DOI 10.1186/s12978-025-01966-7.",
+      "url": "https://link.springer.com/article/10.1186/s12978-025-01966-7",
+      "use": "总体不孕的近邻GBD负担、分解与预测；不支持本稿特定pool权重或疾病率外部验证。",
+      "access": "原刊全文已核验"
+    }
+  ],
+  "source_sha256": "19a82cef6e8a4dcd6a5d3861d2f5b3f3b830d49d57e3f7fba45f05540f398b83",
+  "source_filename": "20261029-26版原文翻译及修改意见.docx",
+  "crosswalk": {
+    "main_tables": 3,
+    "main_figures": 5,
+    "supplement_numerical_tables": 8,
+    "supplement_literature_table": "S9",
+    "supplement_gather_table": 1,
+    "supplement_word_tables_total": 10,
+    "supplement_figures": 7,
+    "main_alt_text_body_paragraphs": 5,
+    "main_image_descr_metadata_count": 5,
+    "supplement_image_descr_metadata_count": 7,
+    "abstract_whitespace_words_without_headings": 420,
+    "abstract_whitespace_words_with_headings": 456,
+    "abstract_heading_count": 11
+  },
+  "front_sections": [
+    {
+      "title": "1 审阅结论与本次交付范围",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "本报告给Codex一份可以逐项执行和验收的修稿方案。已完整提取上传Word的17条真实批注，并将旧中文稿逐条对照当前Human Reproduction v5、既有分析代码和结果，以及相关原始论文和官方投稿要求。建议首先完成符号统一、主要发现的直接表达和数据来源核查；联合后验不确定性则按真实数据能否取得分支推进。"
+        },
+        {
+          "type": "p",
+          "text": "17条批注中，7条的核心意图在v5已有合理处理，8条仍需完善，2条尚未解决。两条未解决事项分别是中国与病例数共用C的符号歧义，以及派生结果尚无联合后验不确定性传播。这里的“已处理”表示v5已有合理回应，不表示逐字服从可能失实的修改建议。"
+        },
+        {
+          "type": "p",
+          "text": "本次完成的是证据核验、逐条修改设计和执行文件制作；未重新拟合GBD模型、未取得新的联合draws、未重跑科研统计，也未生成v6研究稿。文中引用的数值均来自已经存在并实际读取的结果文件。新增分析、下载及英文替换句均按执行建议标明；只有Codex实际运行并验收后，才能改成完成状态。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "层级",
+            "应执行的工作",
+            "判断依据"
+          ],
+          "rows": [
+            [
+              "P0 必须",
+              "修复符号；核查结局与权重来源；执行联合draws访问审计；重写主要贡献与结果段",
+              "影响读者对估计目标、数字和证据强度的理解"
+            ],
+            [
+              "P1 完善",
+              "摘要精简；G20计数；环境与AI披露；年度亚型表；文献估计目标对照",
+              "主要依赖现有稿件、代码、已存结果和公开资料"
+            ],
+            [
+              "P2 可选",
+              "中心化国家分量或抵消指数；仅在能明确增加解释价值时实施",
+              "不得为增加方法数量而扩展；未运行前不写入结果"
+            ]
+          ],
+          "widths": [
+            1.0,
+            3.25,
+            2.55
+          ]
+        },
+        {
+          "type": "p",
+          "text": "对作者与Codex的共同建议：先把唯一主问题写清楚，再补可获得的证据。文献支持的是比较基准对跨国率差解释的重要性，不能保证稿件达到某一期刊录用标准。无联合draws时，仍可完成真实、可复现的描述性修订，但后验不确定性这一缺口应明确保留。[R1–R3]"
+        },
+        {
+          "type": "h2",
+          "text": "本轮的版本边界"
+        },
+        {
+          "type": "p",
+          "text": "当前最新研究稿为PCOS_HumanReproduction_v5_2026-10-29；它引用的固定科学分析快照为1abf337d9f23cc69292e03cd581b6a1557e6effe。上传中文批注稿是审阅来源，不是回退写作的基础。保留v5、旧稿、XX信息及原始批注；子宫内膜异位症继续作为补充，医院数据和NSFG不并入本稿。[P1–P4]"
+        },
+        {
+          "type": "p",
+          "text": "第3章逐条处理17条批注；第4章给出数据复用和重新下载条件；第5章给出统一公式及真实不确定性流程；第6章限定必要新增分析；第7至8章给出Codex执行顺序、验收清单和可直接使用的任务指令。"
+        }
+      ]
+    },
+    {
+      "title": "2 当前版本与已核验证据",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "证据编号",
+            "实际阅读对象",
+            "在本报告中的用途"
+          ],
+          "rows": [
+            [
+              "P1",
+              "上传20261029-26版原文翻译及修改意见.docx及其OOXML批注结构",
+              "17条原文、锚点、是否有隐藏批注和修订"
+            ],
+            [
+              "P2",
+              "v5完整包78成员中的main.tex、supplement.tex、Word及技术核验记录",
+              "以最新稿件判断哪些意见已经解决"
+            ],
+            [
+              "P3",
+              "PCOS_Revision_2026-10-29的Python/R代码、输入清单和已存结果CSV",
+              "核对数值、已有分析和可复用输出"
+            ],
+            [
+              "P4",
+              "云端PROJECT_STATUS、DECISIONS、NEXT_ACTIONS、CHATGPT_HANDOFF、SYNC_CHECK及目录索引",
+              "确认2026年10月30日最新协作状态与长期规则"
+            ],
+            [
+              "P5",
+              "本报告R1至R18b的原始论文、摘要和官方说明",
+              "给出修改依据并标明访问层级"
+            ]
+          ],
+          "widths": [
+            0.7,
+            3.0,
+            3.1
+          ]
+        },
+        {
+          "type": "p",
+          "text": "P1共17个comment节点，开始、结束和引用标记相互对应；无额外回复线程、未接受修订、文本框注释或另藏的文字批注。ID15和ID19属于公式旁零宽锚点。ID76是原始编号，不表示共有77条。本轮不依据截图推算批注数量；截图只用于确认用户所指审阅内容。"
+        },
+        {
+          "type": "p",
+          "text": "v5主稿为3张表、5幅图；补充稿为8张数值表、S9文献表及GATHER表，共10张Word表、7幅图。主稿已有5条可见Alt text，并有5幅图像描述元数据；补充7幅图也已有元数据。v5扩展摘要为11栏目，按空格分词约420词，含栏目名约456词。该版本技术日志记录statistics_rerun=false。[P2]"
+        },
+        {
+          "type": "h2",
+          "text": "主结果冻结表"
+        },
+        {
+          "type": "p",
+          "text": "以下是已存在结果的复核摘录，单位除比例外均为每10万名15至49岁女性。率差方向统一为中国减参照；正的变化量表示有符号率差增加，只有结合起点和终点才能解释为负向差距缩小。[P3]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "估计量",
+            "GBD国家份额",
+            "UN国家份额"
+          ],
+          "rows": [
+            [
+              "1990年总不孕率差",
+              "−272.92",
+              "−273.31"
+            ],
+            [
+              "2023年总不孕率差",
+              "−121.38",
+              "−122.62"
+            ],
+            [
+              "1990至2023年率差变化 ΔD",
+              "+151.54",
+              "+150.69"
+            ],
+            [
+              "中国率变化分量 X",
+              "+271.51",
+              "+271.51"
+            ],
+            [
+              "参照国率变化分量 Q",
+              "−208.62",
+              "−207.59"
+            ],
+            [
+              "参照国家构成分量 S",
+              "+88.65",
+              "+86.76"
+            ],
+            [
+              "有符号净变化之比 S除以ΔD",
+              "58.5%",
+              "57.6%"
+            ],
+            [
+              "2023继发性差值 当年份额",
+              "+2.16",
+              "+2.26"
+            ],
+            [
+              "2023继发性差值 固定1990份额",
+              "−47.99",
+              "−48.34"
+            ],
+            [
+              "2023继发性差值 等国家权重",
+              "−127.89",
+              "−127.89"
+            ]
+          ],
+          "widths": [
+            3.5,
+            1.65,
+            1.65
+          ]
+        },
+        {
+          "type": "p",
+          "text": "中国总体率由333.56升至605.08，GBD参照率由606.48升至726.45。因此，负向差距缩小不等同于中国绝对患病率下降。58.5%是上述有符号净变化的比值，非可预防病例占比、因果归因比例或全部情景均超过一半的结论。已有GBD规定情景范围39.8%至67.9%，UN为37.7%至67.1%；这些范围均不是95%UI。[P3]"
+        },
+        {
+          "type": "p",
+          "text": "既有验证记录包括R/Python核心1,488行的最大绝对差5.684×10⁻¹³，以及1,440行敏感分解的恒等式最大残差1.990×10⁻¹³。本轮读取并核对这些真实输出与日志，不声称重新独立运行了这两套计算。[P3]"
+        }
+      ]
+    }
+  ],
+  "after_sections": [
+    {
+      "title": "4 数据复用与重新下载方案",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "先从DATA_CATALOG和input_manifest恢复已有研究输入，再决定是否下载。新增下载必须有明确缺口、产品版本、查询条件和预期改变的估计目标。对批注51有价值的是补齐联合抽样信息；再次导出同一组val、lower、upper并不能提供缺失的跨单元依赖结构。[P3 R1 R2]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "数据或材料",
+            "优先动作",
+            "何时重新获取",
+            "输出与验收"
+          ],
+          "rows": [
+            [
+              "GBD现有点估计",
+              "按既有SHA256复用4份CSV",
+              "仅当文件损坏、缺失，或证实查询/版本错误",
+              "新旧查询对照；原始文件另存；19国×34年×7年龄组完整"
+            ],
+            [
+              "GBD联合后验draws",
+              "核查官方产品、项目已授权资源及说明",
+              "确有覆盖所需country-age-year-type且联合对齐的资源",
+              "访问审计、schema和依赖说明；不能只凭相同列名判断"
+            ],
+            [
+              "GBD结局方法附录",
+              "获取GBD2023对应不孕模型/病因归因说明",
+              "当前项目缺少可核验的本轮定义",
+              "定义矩阵、准确页码、病因/亚型/分母与时间阈值"
+            ],
+            [
+              "匹配女性人口",
+              "复用同版GBD人口",
+              "缺失、非同版或年龄/性别/单位错误",
+              "4,522唯一单元；病例/人口重构率与原始Rate相符"
+            ],
+            [
+              "UN WPP2024",
+              "复用已验证女性五岁组子集",
+              "完整源未归档、文件损坏或来源不一致时",
+              "历史1990–2023、7月1日、千人转人数；Galaxy真实状态"
+            ],
+            [
+              "标准年龄权重",
+              "先核验当前向量的来源链",
+              "取得同版官方原始向量或证实当前来源/精度需修正",
+              "7年龄组、归一化、版本与更换影响；旧结果保留"
+            ],
+            [
+              "公开临床研究",
+              "读取Yang调查公开表和PCOS指南",
+              "只有具体定义或公开结果缺项时",
+              "用于人群/结局对照；不宣称疾病率外部验证"
+            ]
+          ],
+          "widths": [
+            1.15,
+            1.7,
+            1.75,
+            2.2
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "现有文件的确切角色"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "现有文件名",
+            "用途",
+            "本轮处理"
+          ],
+          "rows": [
+            [
+              "IHME-GBD_2023_DATA-1b13e337-1.csv",
+              "总不孕病例数与原始指标",
+              "复用；不发布受限原表"
+            ],
+            [
+              "IHME-GBD_2023_DATA-416daf73-1.csv",
+              "全年份原发/继发分层",
+              "复用；与总不孕逐单元核对"
+            ],
+            [
+              "IHME-GBD_2023_DATA-76c5523c-1.csv",
+              "端点分层及原始Rate核查",
+              "复用；用作独立率重构核对"
+            ],
+            [
+              "IHME-GBD_2023_DATA-916826fb-1.csv",
+              "同版GBD女性人口",
+              "复用；不得与UN人口混作疾病率分母"
+            ],
+            [
+              "UN_WPP2024_G20_female_15_49_1990_2023.csv",
+              "19国女性分年龄人口",
+              "只替换参照份额"
+            ],
+            [
+              "weights.csv",
+              "7年龄组标准权重",
+              "复用基线并溯源；条件性升级精度"
+            ]
+          ],
+          "widths": [
+            3.5,
+            1.9,
+            1.4
+          ]
+        },
+        {
+          "type": "p",
+          "text": "上述文件在PCOS_Revision_2026-10-29/data/input/；正式哈希以docs/input_manifest.json为准。Galaxy PCOS历史ID为11ac94870d0bb33ad5abd2b59708ab6e。现有数据目录已记录对应dataset ID；先读实际状态，不能把历史running自动改写为完成。新增原始研究下载进入同一私有归档，分析结果与可公开代码按现有规则同步。[P3 P4]"
+        },
+        {
+          "type": "h2",
+          "text": "查询与定义必须同时可复现"
+        },
+        {
+          "type": "p",
+          "text": "既有主查询为GBD2023、女性sex_id=2、患病measure_id=5、1990至2023、15–49岁五岁组age_id=8至14、19个固定国家。PCOS cause_id=605，子宫内膜异位症cause_id=607；总/原发/继发不孕对应rei_id=198/220/221。保留真实源列及标签，源中PCOS名称为Polycystic ovarian syndrome。ID应与实际下载codebook核对，不能在新产品中默认永久不变。[P3]"
+        },
+        {
+          "type": "p",
+          "text": "目标结局是归因于PCOS的不孕患病率，分母为该年龄组全部女性。它与全部PCOS患病率、PCOS患者中的不孕比例、尝试妊娠夫妇的临床不孕率均不同。必须查GBD2023对应附录，核定不孕持续时间阈值、病因分配和模型映射；不能直接把12个月临床定义或GBD2019邻近论文的定义当作GBD2023已核实定义。[R1 R3 R14 R15]"
+        },
+        {
+          "type": "h2",
+          "text": "标准人口权重的具体处理"
+        },
+        {
+          "type": "p",
+          "text": "当前7项未归一化权重依年龄15–19至45–49岁依次为0.082891、0.078012、0.075914、0.073217、0.068281、0.061474、0.055113，总和0.494902，随后限制到15–49岁并归一化。现有记录来自二次文献复刻，不能写成已取得IHME机器精度原始权重。[P3 R17]"
+        },
+        {
+          "type": "p",
+          "text": "P0先追查二次文献引用链，记录原始标准人口的机构、版本、适用年龄与数值来源。若确认仅六位小数精度，透明报告这一事实；既有128角点的±0.5×10⁻⁶舍入敏感性可复用。该分析只处理舍入，不能替代“是否用了正确标准人口”的验证。若取得同一标准的高精度官方向量，建立独立输入版本后重算所有相关率与分解；若发现标准本身不同，则应作为更正/额外敏感性明确报告，不能静默替换。"
+        }
+      ]
+    },
+    {
+      "title": "5 公式规范与联合不确定性执行分支",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "先统一病例数与中国的数学记号"
+        },
+        {
+          "type": "p",
+          "text": "N表示GBD建模的现患病例数，P表示女性人口，c表示国家，a表示五岁年龄组，t表示年份，k表示总/原发/继发不孕；CHN专指中国，ℛ是其余18国的固定集合，R为汇总参照标签。u为未归一化的标准年龄权重，w为15–49岁内归一化的固定标准年龄权重，p为某年龄和年份内的参照国家人口份额。0与T分别为1990和2023。a和b均遍历七个五岁年龄组。以下为本报告建议采用的可编辑记号；仅统一符号不改变现有算法。[P3]"
+        },
+        {
+          "type": "equation",
+          "name": "rates"
+        },
+        {
+          "type": "equation",
+          "name": "shares"
+        },
+        {
+          "type": "equation",
+          "name": "china_ref"
+        },
+        {
+          "type": "equation",
+          "name": "gap"
+        },
+        {
+          "type": "equation",
+          "name": "decomp"
+        },
+        {
+          "type": "p",
+          "text": "对称分解中的中国率分量X、参照率分量Q和参照国家构成分量S定义如下。对参照率和份额取两个端点的算术平均，可保证未舍入值的精确加和。病例数不再使用C；论文与代码变量的对应表另存，避免为排版盲目重构已验证代码。"
+        },
+        {
+          "type": "equation",
+          "name": "x"
+        },
+        {
+          "type": "equation",
+          "name": "q"
+        },
+        {
+          "type": "equation",
+          "name": "s"
+        },
+        {
+          "type": "equation",
+          "name": "bars"
+        },
+        {
+          "type": "p",
+          "text": "Q和S前的负号来自“中国减参照”。即使分量为正，也不能直接译为减少负担或临床改善。主稿、补充、图表和Word/TeX中的亚型下标、端点、人口来源、单位及方向必须一致。结构敏感性是不同描述性基准的比较，与后验抽样误差分开报告。[P3 R7]"
+        },
+        {
+          "type": "h2",
+          "text": "分支A 真实联合draws可得且质量核验通过"
+        },
+        {
+          "type": "p",
+          "text": "A1 取得与实际产品对应的元数据和许可说明。GBD2023主文报告250次抽样，不能照搬GBD2019文献的1000次，亦不能把GBD2021的500次混入本轮。具体文件的实际draw数量、平均值与UI计算方式以交付产品说明为准；不硬编码250而拒绝有合理说明的其他产品。[R1 R3]"
+        },
+        {
+          "type": "p",
+          "text": "A2 要求相同draw标识在国家、年龄、年份及不孕亚型之间具有可验证的联合对应意义。相同列名或相同行号仅是必要信息，不足以证明共同后验样本。通过官方说明、数据提供者已随数据附带的文档或既有授权记录核实；此方案不自动发送联系邮件。缺少对齐证据时，归入分支B或C。"
+        },
+        {
+          "type": "p",
+          "text": "A3 验收keys、完整性、单位和依赖：优先PCOS的19×34×7×3个单元，再按需要覆盖补充病因；无重复或缺失，draw值有限非负。若交付为相互兼容的病因亚型分解，同draw内总量应等于原发加继发；若产品说明不保证该性质，先查原因和建模关系，不通过强行缩放使其相加。各单元draw均值和2.5/97.5分位须在官方舍入与分位约定容差内重构同一产品、模型版本及抽样集合的源摘要；若官方说明抽样集合或摘要约定不同，记录并核实差异，不机械要求与另一产品完全一致。"
+        },
+        {
+          "type": "p",
+          "text": "A4 每个draw都执行完整管线：年龄别疾病率 → 年龄内参照合并 → 固定年龄标准化 → 中国减参照率差 → 两端点变化 → X/Q/S。每个draw分别检查分解恒等式。若只能获得率draw而无可联合对齐的人口draw，使用固定人口份额并明确结果条件于所用人口；有病例数draw时不能用任意不同版人口充当兼容分母。UN分支仍只替换参照国家份额。"
+        },
+        {
+          "type": "p",
+          "text": "A5 首先报告ΔD、X、Q、S的draw均值和95%UI；绝对分量的均值亦须满足加和关系。对S/ΔD另外检查分母近零和符号变化，报告分母分布、异常大比值的频率及完整敏感性。比值的均值不等于均值之比；不要为了得到好看的区间而丢弃draw、截断比例或强制限制在0至100%。若不稳定，主结果保留绝对分量，比例降为谨慎的描述。 各量UI分别取自身2.5%和97.5%分位，不能加和分量区间端点得到总量区间。若另列中位数，说明分量中位数一般不具有加和性。"
+        },
+        {
+          "type": "p",
+          "text": "A6 对固定人口份额、固定年龄权重、同一组率draw均值作为输入的情况，ΔD、X、Q、S均为率的线性函数，draw均值应重构点估计；差异超出源摘要舍入时须检查输入、实现和产品对应关系。只有随机人口份额、病例数除以随机人口、S/ΔD等非线性情形，均值代入与draw汇总才可能因非线性和依赖而不同。分别保留两种汇总并解释实际原因，不强行平移后验，也不用笼统的“非线性”掩盖计算问题。该步骤不重新拟合上游GBD模型，亦不产生因果识别。[R1 R2]"
+        },
+        {
+          "type": "h2",
+          "text": "分支B 未取得真实且可核验的联合draws"
+        },
+        {
+          "type": "p",
+          "text": "完成20261030_draw_access_audit.json，逐项记录访问日期、官方产品URL、查询范围、成功/失败、返回字段、已有申请或授权状态和未解决缺口。网页403或本次连接受限只能记为访问失败，不能据此宣称该数据不存在或永远无法获得。读已授权资源和公开资料可以继续；需要联系他人时，先准备清晰申请清单，未经明确授权不发送。"
+        },
+        {
+          "type": "p",
+          "text": "继续完成文字、符号、定义、年度表和现有结构敏感性。所有派生量仍标点估计；GATHER对应不确定性条目如实写部分满足或未满足，并解释影响。不能用边际上下界求和、独立正态/对数正态模拟、国家bootstrap或情景最小最大范围来冒充GBD联合后验UI。国家bootstrap改变的是国家集合抽样假设，而本稿参照是固定18国。[R2]"
+        },
+        {
+          "type": "h2",
+          "text": "分支C 仅有局部draws或对齐关系不完整"
+        },
+        {
+          "type": "p",
+          "text": "例如仅1990与2023且在两个端点之间、跨国及跨年龄均联合对齐的样本可能足以支持主端点分解，却不能支持年度末年变化；仅总不孕draws不能自动生成原发/继发结果；仅单年边际draws不能保证跨年差值的后验。只对被数据完整支持的估计目标报告UI，并把其余部分维持点估计。核对总/亚型是否来自同一兼容产品，不从不同release拼接。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "交付文件",
+            "必要内容",
+            "完成条件"
+          ],
+          "rows": [
+            [
+              "20261030_draw_access_audit.json",
+              "来源、日期、查询、结果及真实缺口",
+              "无draws也应交付"
+            ],
+            [
+              "20261030_draw_schema_qc.json",
+              "产品版本、draw数量/对齐证据、keys、边际重构、亚型关系",
+              "仅在真实draws到位后生成已验证状态"
+            ],
+            [
+              "20261030_posterior_components.csv",
+              "估计目标、来源、期间、中心值和UI、条件假设",
+              "所有draw级计算和恒等式通过"
+            ],
+            [
+              "20261030_ratio_stability.json",
+              "ΔD分布、近零规则、比值分布、未删draw说明",
+              "报告比例UI前必须完成"
+            ]
+          ],
+          "widths": [
+            2.65,
+            2.5,
+            1.65
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6 有必要新增的分析与文献补强",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "回应批注39的最小分析"
+        },
+        {
+          "type": "p",
+          "text": "批注39落在子宫内膜异位症末年抵消的讨论，必须先定位病因，不能把它转写成PCOS构成分量的显著性问题。优先复用既有all_annual_benchmark_aspr.csv、terminal_year_audit.csv和补充S7；筛选Endometriosis、source=GBD、benchmark=dynamic，以相同标准列出1990至2023各年的原发、继发和总率差。[P1–P3]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "年份",
+            "原发率差",
+            "继发率差",
+            "总率差"
+          ],
+          "rows": [
+            [
+              "2021",
+              "−8.35",
+              "−0.11",
+              "−8.45"
+            ],
+            [
+              "2022",
+              "−8.36",
+              "−0.40",
+              "−8.76"
+            ],
+            [
+              "2023",
+              "−7.94",
+              "+7.73",
+              "−0.20"
+            ]
+          ],
+          "widths": [
+            1.0,
+            1.9,
+            1.9,
+            2.0
+          ]
+        },
+        {
+          "type": "p",
+          "text": "这里各项为未舍入数值分别四舍五入，显示值可能有0.01舍入差。可行改法是“2023年近乎抵消，对终点年份敏感”，并用2022与2023的相同基准对比支撑。已有末年国家和年龄审计用于追踪突变来自哪些单元；核验来源一致性后仍异常，就如实报告，不为消除异常删年或更换终点。[P3]"
+        },
+        {
+          "type": "p",
+          "text": "不要用34个平滑年度建模点估计做普通Pearson检验后写“显著相关”。若之后取得跨年联合draws，只可评估本轮固定的2023减2022对比及其后验差值，并注明属于看到末年现象后设计的探索性分析。增加UI也不会自动解决结构时间趋势或因果问题。[R1 R13]"
+        },
+        {
+          "type": "h2",
+          "text": "可选的抵消指数"
+        },
+        {
+          "type": "p",
+          "text": "仅当逐年三条率差及既有图仍不易解释时，计算下式；它是透明的描述性摘要，不是新统计检验。分母为零或低于依据数值误差预先记录的容差时设NA，不能随意设1；同时展示分母M和两项的正负号。指数0表示没有相反方向抵消，1表示等大相反。"
+        },
+        {
+          "type": "equation",
+          "name": "cancellation"
+        },
+        {
+          "type": "p",
+          "text": "这一输出放补充，命名20261030_annual_cancellation.csv，保留所有年份及缺失原因。已有表足够时直接标“无需新增”，不让可选指标阻塞修稿。"
+        },
+        {
+          "type": "h2",
+          "text": "可选的国家构成贡献展示"
+        },
+        {
+          "type": "p",
+          "text": "现有年龄分量、逐国剔除、人口份额变化与年度链式分解已回答多个稳健性问题，先复用。若仍需要更具体说明“哪些参照国家的份额变化对应总S”，可增加中心化分配；不要直接把原始国家项解释为独立因果贡献。固定构成份额相加为1，单个国家份额变化不能与其他国家完全分离。[P3]"
+        },
+        {
+          "type": "equation",
+          "name": "centred"
+        },
+        {
+          "type": "p",
+          "text": "其中μ为各年龄在端点平均份额下的端点平均率。中心化国家项之和仍等于S，并对所有参照率加同一常数不变。验收包括加和、共同率平移不变性、全部18国保留以及GBD/UN来源一致；中心的选择属于解释约定，须写清。新图限于允许公开的国家汇总分量，源国家年龄单元继续私有。该展示不是新的分解算法，也不是独立外部验证。"
+        },
+        {
+          "type": "p",
+          "text": "不建议仅为了新颖性追加Shapley：在当前中国率线性项与参照率×份额的双线性结构下，按相同分组作两顺序平均与现有对称分解相同。重新命名不能提供新信息；若扩展到不同多因素函数，需另立问题和验证。此为公式性质推导，不是新增实证结论。"
+        },
+        {
+          "type": "h2",
+          "text": "用高质量文献补强实际贡献"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "文献组",
+            "它已回答的问题",
+            "本稿可据此改善的内容"
+          ],
+          "rows": [
+            [
+              "GBD2023 Lancet及GATHER",
+              "健康估计方法、抽样与报告透明性",
+              "准确写数据定义、draws与未覆盖不确定性"
+            ],
+            [
+              "Liu 2024 Human Reproduction",
+              "GBD2019 PCOS归因不孕的地区、年龄、亚型和趋势",
+              "承认已有负担研究，强调本稿的多国参照构成问题"
+            ],
+            [
+              "Liang 2025及2026近邻研究",
+              "PCOS相关负担、人口分解、中国与全球趋势",
+              "按DOI区分，逐篇核对估计目标，不推断未读公式"
+            ],
+            [
+              "Yang 2022中国人群调查与2023指南",
+              "临床PCOS诊断、真实人群背景与生殖健康意义",
+              "补充临床含义，区分研究人群和分母"
+            ],
+            [
+              "Kitagawa及相关方法",
+              "经典率差分解",
+              "说明应用来源，集中一次归属，突出实际量级与基准解释"
+            ]
+          ],
+          "widths": [
+            1.75,
+            2.45,
+            2.6
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Yang等调查的20–49岁中国女性PCOS患病率及PCOS人群中的不孕信息，与本稿15–49岁所有女性的PCOS归因不孕率在人群、诊断、分母及时期上不同。可建立结局定义表；不能直接将两个年龄标准化率/条件比例相乘来产生“真实验证率”。其微观数据不属于可直接匿名公开下载资料，本轮不发送索取邮件，也不以缺少微数据阻塞方案。[R14 R15]"
+        },
+        {
+          "type": "p",
+          "text": "S9建议逐篇列出release、时期、人群、结局、分母、是否亚型、比较对象、分解目标和证据访问层级。论文仅取得摘要时明确标注。参考文献选取以问题相关性和原始证据为准，不把所有近邻期刊都称作顶级期刊，也不宣称完成系统综述。[R3–R6 R16 R18 R19]"
+        },
+        {
+          "type": "h2",
+          "text": "建议的讨论核心段落"
+        },
+        {
+          "type": "p",
+          "text": "本研究量化了在固定年龄标准下，多国参照组年龄内国家份额变化对中国PCOS归因不孕率差的影响。中国和参照国率均升高，而有符号率差的变化由方向相反的率分量与人口构成分量共同组成。不同参照权重还会改变继发性不孕率差点估计的符号。因此，跨国监测应同时报告参照的组成规则、绝对分量及其敏感性，使表面趋同的来源可被明确解释。上述表述对应现有结果；取得真实后验传播后再补估计精度。[P3]"
+        }
+      ]
+    },
+    {
+      "title": "7 Codex执行顺序与验收标准",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "先完成可复用工作，再让新增数据决定是否扩展分析。除真实来源更正或新增draws外，不为编辑修订重跑所有既有统计。以下任务状态均为“待Codex执行或核验”，本报告中的完成仅指本轮资料审阅与方案制作。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "任务",
+            "具体动作",
+            "输入与主要输出",
+            "完成标准"
+          ],
+          "rows": [
+            [
+              "T00 P0",
+              "刷新共享上下文并建立隔离副本",
+              "最新v5、科学快照及数据索引；20261030_baseline_manifest.json",
+              "记录commit、输入/稿件SHA256、脏改动；旧稿不变"
+            ],
+            [
+              "T01 P0",
+              "定义、成员、来源、权重、软件审计",
+              "原始清单和官方方法；20261030_source_definition_audit.json",
+              "19国/18参照、全部女性分母、7组权重、真实环境清楚"
+            ],
+            [
+              "T02 P0",
+              "联合draws访问与分支判定",
+              "既有访问记录、已授权/官方资源；第5章输出",
+              "真实覆盖和对齐已核验，或准确记录缺口"
+            ],
+            [
+              "T03 P0",
+              "按17条改写和统一公式",
+              "v5 main/supplement及既有表图；独立修订稿与差异表",
+              "17条逐项回应，GBD/UN不混，数值变更有依据"
+            ],
+            [
+              "T04 P1",
+              "年度抵消与末年解释",
+              "已存年度/末年CSV；20261030_annual_endpoint_check.csv",
+              "同病因同基准，各年亚型加和；无凭空P值"
+            ],
+            [
+              "T05 P1",
+              "补强S9与临床定义对照",
+              "核验文献、公开表和指南；20261030_literature_estimands.csv",
+              "DOI唯一、摘要/全文层级清楚、无虚假外部验证"
+            ],
+            [
+              "T06 P2",
+              "按需追加中心化或抵消指标",
+              "现有私有单元与允许公开汇总",
+              "先说明新增价值；通过性质验收；无价值则省略"
+            ],
+            [
+              "T07 P0",
+              "构建Word/TeX/PDF并核验同步",
+              "修订源与实测结果；新版本、17行回应表及运行日志",
+              "逐页检查、源文档一致、双端内容核验、状态如实"
+            ]
+          ],
+          "widths": [
+            0.85,
+            1.65,
+            2.55,
+            1.75
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "现有代码入口与安全运行方式"
+        },
+        {
+          "type": "p",
+          "text": "核心入口为PCOS_Revision_2026-10-29/code/PCOS_NewArticle_complete.py；main(root=None, output=None)会读取data/input及data/published_expected，并写results/python。R独立验证入口为同目录PCOS_NewArticle_complete.R。revision_analysis.py进一步读取Python/R结果并写结果、表格与图，其ROOT来自脚本位置，不具备已经验证的命令行输出目录参数。[P3]"
+        },
+        {
+          "type": "p",
+          "text": "若确需重跑，先在新隔离副本确认源码、路径和依赖，保留旧输入和预期结果，再执行现有入口。不要直接在v5或旧研究快照目录运行会写入结果的脚本；不要臆造--output等未实现参数。新增draw分析另建明确输入/输出参数的脚本，保存seed仅用于确有随机步骤的过程；确定性分解不需要伪造随机seed。"
+        },
+        {
+          "type": "p",
+          "text": "输入升级时先保留旧基线再生成新manifest，分开报告“输入改动导致的数值变化”和“实现错误修复”。旧published_expected是旧输入的回归基准，不能先覆盖预期值再宣称新结果验证通过。重复运行范围只覆盖变动路径和必需一致性门槛。"
+        },
+        {
+          "type": "h2",
+          "text": "新版本文件与回应记录"
+        },
+        {
+          "type": "p",
+          "text": "若执行日期仍为2026年10月30日，可使用PCOS_HumanReproduction_v6_2026-10-30目录，文件采用20261030_PCOS_HumanReproduction_v6_Manuscript.docx等日期前缀。若执行日改变，使用实际执行日期；版本号须以最新状态检查是否已占用。完整交付包括主稿、补充稿、附信及其源文件，必要表图和研究输出，保留XX，不提交期刊。"
+        },
+        {
+          "type": "p",
+          "text": "20261030_comment_response.csv必须正好17行，唯一键为原始comment_id，建议字段为ordinal、comment_id、verbatim_comment、v5_status、action、reason、evidence、output_path、verification、final_status。状态只用建议、已运行待核验、已验证、受依赖阻塞、无需新增等明确类别；“已运行”不能直接替代“已验证”。部分采纳或拒绝错误措辞时说明理由。"
+        },
+        {
+          "type": "h2",
+          "text": "交付前必须通过的检查"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "检查对象",
+            "验收门槛"
+          ],
+          "rows": [
+            [
+              "批注完整性",
+              "ID集合严格等于0,3,4,5,8,15,18,19,22,25,26,31,36,39,48,51,76；原批注逐字保留；每条有处理结论与文件位置"
+            ],
+            [
+              "数据与率",
+              "19×34×7=4,522人口单元；两病因三亚型共27,132病例单元；非负、唯一、单位正确；本稿PCOS子集不漏"
+            ],
+            [
+              "代数一致性",
+              "亚型病例加和既有容差小于10⁻⁶；端点原始Rate重构小于10⁻⁸；新分解/相同输入跨语言绝对差建议小于10⁻⁸，并报告实际最大值"
+            ],
+            [
+              "点估计与不确定性",
+              "保持表2冻结值，除非新输入/后验汇总有明确解释；场景范围与95%UI字段分离；无对齐draws不生成联合UI"
+            ],
+            [
+              "文稿与图表",
+              "当前基线主稿3表5图、补充10表7图；新增/移除均有清单；公式可编辑，图注、Alt text和面板一致"
+            ],
+            [
+              "叙述与来源",
+              "临床/GBD结局及分母分开；摘要11栏；软件、AI、年份、作者年和DOI真实；不夸大为因果或首创"
+            ],
+            [
+              "版本与存储",
+              "旧稿哈希不变；只提交显式允许路径；研究原表不公开；Drive回读和GitHub已提交blob与本地一致"
+            ]
+          ],
+          "widths": [
+            1.25,
+            5.55
+          ]
+        },
+        {
+          "type": "p",
+          "text": "数值容差用于同数据的浮点一致性，不是允许科学定义偏差。原始摘要与draw分位重构采用产品特有舍入规则；不能机械套用浮点10⁻⁸判断统计摘要。若draws亚型关系不满足，应先核实产品兼容性，不能靠放宽阈值通过。"
+        },
+        {
+          "type": "h2",
+          "text": "写回共享记录"
+        },
+        {
+          "type": "p",
+          "text": "完成后重新读取最新云端共享文件，合并本轮记录。PROJECT_STATUS、CODEX_RUN_LOG、RESULTS_INDEX、NEXT_ACTIONS和CHATGPT_HANDOFF记录真实输入、代码、结果、检查、下一步及阻塞；只有新增/改动研究数据时更新DATA_CATALOG。DECISIONS只写用户确认的范围和决定，科学建议仍留交接。SYNC_CHECK记录Drive云端内容回读与GitHub提交blob校验，不把本地同步成功等同双端完成。[P4]"
+        }
+      ]
+    },
+    {
+      "title": "8 可直接交给Codex的执行指令",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "请先执行“同步PCOS”：读取云端最新PROJECT_STATUS、DECISIONS、NEXT_ACTIONS、CHATGPT_HANDOFF、SYNC_CHECK及目录索引，解析最新研究稿。当前已核验基线为Human Reproduction v5，固定科学快照为1abf337d9f23cc69292e03cd581b6a1557e6effe；若有更新先按完成证据合并，勿回退到带批注的旧中文稿。"
+        },
+        {
+          "type": "p",
+          "text": "以本报告第3章为17条批注的逐条任务依据，按T00至T07执行。先完成已有结果可支持的文字、符号、定义和年度表修订；同时核查真实联合GBD2023 draws的可得性和对齐证据。取得并通过第5章验收后才运行后验传播；否则保存访问审计，完成无draws分支，并准确保留不确定性限制。"
+        },
+        {
+          "type": "p",
+          "text": "必须纠正C同时代表中国和病例数的问题，统一年度率差与期间变化定义；用直接结果和实际应用贡献替代重复防御性表述。保持GBD与UN数值分开，UN只替换参照国家份额。批注39用同病因同基准的完整年度结果及末年审计回应，不凭端点变化写显著相关。保留Human Reproduction要求的Alt text和真实AI披露。"
+        },
+        {
+          "type": "p",
+          "text": "主稿继续聚焦PCOS，子宫内膜异位症留补充。不要为增加方法数量新增预测、MR、医院分析或Shapley重命名。第6章的额外图/指标只在能回答具体剩余问题时实施，并标为本轮探索性。公开临床论文用于定义与背景，未经可比性证明不称外部验证。"
+        },
+        {
+          "type": "p",
+          "text": "保留v5和所有旧稿，在隔离目录生成新修订版；文件名加实际日期前缀。输出17行comment_response、定义/来源/权重审计、真实访问审计、已实施分析的代码与结果、主稿/补充/附信Word和TeX/PDF以及差异与验证记录。每个新增结论必须可追溯到真实输出；XX继续保留，不代替作者批准。"
+        },
+        {
+          "type": "p",
+          "text": "逐页检查Word与PDF的公式、表图、字符和页码，核对全部批注均有回应；按既定隐私规则把研究下载存入Galaxy，把允许公开的代码、派生汇总与稿件同步Drive和GitHub，逐文件回读核验并写回交接。不得覆盖受限原表、发布源国家年龄单元、自动发邮件或投稿。若某一路阻塞，完成其他已授权任务，清楚报告阻塞原因和下一项可执行工作。"
+        },
+        {
+          "type": "p",
+          "text": "完成报告请分为“已验证修订”“数据/分析新增及其影响”“仍缺资料或待作者事项”“下一步”四部分。不得将本份执行方案、未运行脚本或未取得的draws写成已经完成的科学结果。"
+        }
+      ]
+    },
+    {
+      "title": "9 参考证据与定位说明",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "以下按本报告编号列出证据。R表示公开原始文献或官方要求，P表示本项目实际读取的文件；访问日期为2026年10月30日。部分近邻文章仅取得摘要或题录，已逐条标明。引用不是系统综述，也不表示所有条目均属同一期刊等级。"
+        },
+        {
+          "type": "p",
+          "text": "P1 上传批注Word SHA256为19a82cef6e8a4dcd6a5d3861d2f5b3f3b830d49d57e3f7fba45f05540f398b83。原始17条及全部锚点见审计记录；本报告保留原话，不因用词或公式旧写法改动批注。"
+        },
+        {
+          "type": "p",
+          "text": "P2 v5制品提交07b3a3e305e98770117b81fbed340090150b493c；完整包SHA256为7fc2869d61b01291a009642bd856e2f82859617768af6100a48acd10911c5bdb。Drive目录1SDO13cK9jCLY_bnfcahHX97Isg5Ju1jU；关键文件为manuscript/main.tex、manuscript/supplement.tex、word/PCOS_HumanReproduction_v5_Manuscript.docx及对应Supplement。"
+        },
+        {
+          "type": "p",
+          "text": "P3 科学快照1abf337d9f23cc69292e03cd581b6a1557e6effe，研究目录PCOS_Revision_2026-10-29。本次读取代码、input_manifest、revision_analysis_qc、uncertainty_access_audit和结果CSV；年度/分解/敏感性/末年文件名见第4至7章。结果摘录及结构核验另存审阅配套记录。"
+        },
+        {
+          "type": "p",
+          "text": "P4 本轮开始时读取的最新PROJECT_STATUS为2026-10-30 09:36:40+01:00，SYNC_CHECK为09:38:45+01:00。共享目录1JM3i2CU65MZYyhXnRcpG6i7orlIVaTEI；GitHub基线main为fa88b6c4e8a96aeadf61b9298069ac9923b81bf7。写回时必须重新获取最新版本并合并，以上是审阅起点，不是对后续远端状态的断言。"
+        }
+      ]
+    }
+  ],
+  "execution_status": "方案与审阅已完成  科研修订及新增分析待Codex按条件执行"
+}

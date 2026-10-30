@@ -1,0 +1,9 @@
+PCOS 17条批注审阅与Codex执行方案
+
+本目录是2026-10-30完成的审阅交付，不是v6研究稿。
+完整方案见Word；逐条任务见CSV；JSON保存报告全文和结构；交叉表记录v5实际证据。
+没有运行新科研统计、没有取得新联合draws、没有投稿。
+
+复建Word：在具备python-docx的Python环境运行20261030_build_review_docx.py。字体采用Liberation Sans和Droid Sans Fallback，公式为原生Office Math。脚本只制作文档，不执行科研分析。原始受限GBD数据不在本目录。
+
+下一步按Word第7至8章执行；先读取最新共享上下文并保留旧稿。

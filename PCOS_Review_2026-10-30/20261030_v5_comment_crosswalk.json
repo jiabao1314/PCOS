@@ -1,0 +1,523 @@
+{
+  "audit_date": "2026-10-30",
+  "analysis_status": "只读核验v5文本、OOXML及已存日志；未重新运行科研统计",
+  "source_root": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29",
+  "source_hashes": {
+    "manuscript/main.tex": "c2f6d63ae14028c36cd969d20d7cc5feb91b7ed41fe841367b82ccd5a542d67a",
+    "manuscript/supplement.tex": "9af098b9176f1bcdd380a4a4f31b3e4e2b3051b567419cdf36f070c82ccef385",
+    "word/PCOS_HumanReproduction_v5_Manuscript.docx": "3411413a97ebc647edc61d3013b3cf7820c93e20eddd29f93eb03125aef5d4dd",
+    "word/PCOS_HumanReproduction_v5_Supplement.docx": "3ece57a2e5aaafba093cc2dee14427cca88e0c09d9b494034dd97463fc68dedf"
+  },
+  "status_counts": {
+    "部分处理": 8,
+    "已处理": 7,
+    "仍需处理": 2
+  },
+  "verified_structure": {
+    "main_tables": 3,
+    "main_figures": 5,
+    "supplement_numerical_tables": 8,
+    "supplement_literature_table": "S9",
+    "supplement_gather_table": 1,
+    "supplement_word_tables_total": 10,
+    "supplement_figures": 7,
+    "main_alt_text_body_paragraphs": 5,
+    "main_image_descr_metadata_count": 5,
+    "supplement_image_descr_metadata_count": 7,
+    "abstract_whitespace_words_without_headings": 420,
+    "abstract_whitespace_words_with_headings": 456,
+    "abstract_heading_count": 11
+  },
+  "important_scope_notes": [
+    "v5主稿已将子宫内膜异位症降为补充，不应因旧稿批注再扩大主稿。",
+    "v5研究快照引用1abf337d9f23cc69292e03cd581b6a1557e6effe，与v5排版版本分开。",
+    "v5技术日志statistics_rerun=false，既有统计结果可复用，不能称v5新增了统计分析。",
+    "v5已披露探索性/未预注册，但没有逐模块事后分析时间线；需要时在补充完善。",
+    "NumPy等第三方库版本需要真实研究运行日志；v5投稿包本身不是完整运行环境。",
+    "main.tex和supplement.tex本次全文均已阅读；图片只核查OOXML元数据与图注，未做新一轮逐页视觉QA。"
+  ],
+  "comments": [
+    {
+      "ordinal": 1,
+      "comment_id": "0",
+      "comment_text": "整个文章的书写结构比较清晰，问题陈述，数据引用都可以，需要改进的是太多的防御性说明，如“这不意味着，这并不能说明。。。”需要突出这些数据分析的主要贡献，用标准的统计术语来描述，不应该过于保守及口语化。",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5已聚焦单一PCOS主问题，并将子宫内膜异位症移入补充，但防御性否定仍反复出现在摘要、引言、方法、结果、讨论和图注。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 113,
+          "quote": "Computational checks establish implementation consistency, not independent disease-model validity."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 125,
+          "quote": "Both rates increased, so a narrowing negative contrast does not establish improved reproductive health."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 180,
+          "quote": "It cannot estimate service inequity or treatment effectiveness."
+        }
+      ],
+      "remaining_actions": [
+        "保留已有主问题、3表5图及数值；对正文逐段改成发现、量级、科学解释。",
+        "将同类边界归并到方法中的估计目标与讨论局限；结果段只保留一次点估计说明，必要图注仍自洽。",
+        "全文搜索 cannot、does not、not a、rather than；逐条判断科学必要性，不机械删除全部否定句。"
+      ],
+      "data_and_rerun_need": "无需重新下载；在统计结果冻结后统一编辑。"
+    },
+    {
+      "ordinal": 2,
+      "comment_id": "3",
+      "comment_text": "摘要过于长，可以考虑缩短",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 扩展摘要",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5已采用11项扩展摘要，实际Word正文约420词，含小标题456词（空格分词法）；比旧中文稿更集中，仍可合并重复限制与宽泛意义，不能按假定硬性字数上限盲目压缩。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 33,
+          "quote": "\\noindent\\textbf{STUDY QUESTION:} How much of the 1990--2023 change"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 45,
+          "quote": "\\noindent\\textbf{LIMITATIONS, REASONS FOR CAUTION:} These empirical quantities are conditional"
+        }
+      ],
+      "remaining_actions": [
+        "保留目标期刊要求的11个标题；在已有约420词基础上精简重复，优先压缩67词的限制和53词的意义段。",
+        "摘要只保留主差异变化、绝对三分量、UN敏感性及一种代表性的基准符号变化；所有数值由最终结果表自动检查。",
+        "报告实际英语词数及计算规则；目标长度是编辑建议，不能伪称期刊固定要求。"
+      ],
+      "data_and_rerun_need": "无需新数据；若draws新增则更新role of chance。"
+    },
+    {
+      "ordinal": 3,
+      "comment_id": "4",
+      "comment_text": "为什么不是其他19个，文章中需要解释",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 扩展摘要",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5列出18国并明确排除中国和区域组织，但尚未一句解释G20含19个主权国家、中国占其一的计数逻辑。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 70,
+          "quote": "China was always excluded from the reference; regional organizations were excluded."
+        }
+      ],
+      "remaining_actions": [
+        "在国家选择处增加19个主权国家包含中国、因此其他18国构成参照组的说明。",
+        "按官方当前来源说明欧盟和非盟是区域组织，避免读者把G20名称中的20当成主权国家数量。",
+        "用既有ISO3清单核对19个唯一国家与18国参考集合，不改国家名单。"
+      ],
+      "data_and_rerun_need": "仅核验官方成员信息和既有清单；无需扩大数据集。"
+    },
+    {
+      "ordinal": 4,
+      "comment_id": "5",
+      "comment_text": "典型的GPT保护性语句，需要删除或者更改说法",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 扩展摘要",
+      "v5_status": "已处理",
+      "priority": "P1",
+      "v5_assessment": "旧稿口语性防御说明已改为简洁的标准报告语句；其数据限制仍真实，不能按删字意见把缺少UI隐去。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 43,
+          "quote": "Jointly aligned GBD posterior draws were unavailable; no derived uncertainty intervals or significance tests are reported."
+        }
+      ],
+      "remaining_actions": [
+        "保留一句简洁的不确定性状态；若取得并验证draws，替换为实际派生UI及方法。",
+        "将重复的Scenario ranges等提醒按全稿一致性处理，无需另起分析。"
+      ],
+      "data_and_rerun_need": "目前无需新数据；与批注51的真实结果同步。"
+    },
+    {
+      "ordinal": 5,
+      "comment_id": "8",
+      "comment_text": "为什么会出现本期刊这个名词",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 1 引言",
+      "v5_status": "已处理",
+      "priority": "P2",
+      "v5_assessment": "v5引言已不含in this journal之类措辞，并改成作者及研究问题的直接叙述。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 62,
+          "quote": "Liu and colleagues described GBD 2019 PCOS-attributed infertility prevalence, disability and trends at global, regional and national levels"
+        }
+      ],
+      "remaining_actions": [
+        "保留中性叙述；检查最终参考文献与对应论点。",
+        "不要恢复旧稿过长且自我削弱的文献清单。"
+      ],
+      "data_and_rerun_need": "无需分析或下载。"
+    },
+    {
+      "ordinal": 6,
+      "comment_id": "15",
+      "comment_text": "这里的A_{Ctk}中的C 是否代指中国",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 2 材料与方法 > 2.2 数据核验与标准化",
+      "v5_status": "仍需处理",
+      "priority": "P1",
+      "v5_assessment": "v5仍以C表示病例数，又以A_C和r_C表示中国，正文只明确R和w，C的双重含义未解除。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 74,
+          "quote": "$r_{catk}=10^5 C_{catk}/P_{cat}$"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 83,
+          "quote": "A_{Ctk}&=\\sum_a w_ar_{Catk}"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 85,
+          "quote": "Here $R$ is the fixed set of 18 reference countries, and $w_a$ is the normalized standard age weight."
+        }
+      ],
+      "remaining_actions": [
+        "病例数统一改为N_{catk}；中国下标统一为CHN，参照组保留R。",
+        "在首个公式前完整定义c、a、t、k、N、P、r、w、CHN、R。",
+        "修改仅作用于显示符号；对应代码变量若不改须在符号字典映射，所有计算值保持一致。",
+        "核查Word OMML、TeX、表头图注与补充的符号一致。"
+      ],
+      "data_and_rerun_need": "无需重新分析；做公式恒等与渲染检查。"
+    },
+    {
+      "ordinal": 7,
+      "comment_id": "18",
+      "comment_text": "这个不是应该出现在最终论文中的话语",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 2 材料与方法 > 2.3 不孕症亚型与参照组构成的分解",
+      "v5_status": "已处理",
+      "priority": "P2",
+      "v5_assessment": "v5已删除在论文修改过程中增加等制作过程语言，并保留未预注册/探索性状态。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 88,
+          "quote": "For start year 0 and end year $T$, we applied the symmetric product decomposition"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 113,
+          "quote": "These exploratory analyses were not externally preregistered."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 184,
+          "quote": "rounded standard weights, and exploratory choices made during manuscript development."
+        }
+      ],
+      "remaining_actions": [
+        "保留客观方法描述，不恢复制作过程语言。",
+        "如需更透明，在补充分析历史表中区分主问题锁定、结果驱动终点核查及既有敏感性；不得改写成事先预设。"
+      ],
+      "data_and_rerun_need": "无需新数据；已有探索性披露可复用。"
+    },
+    {
+      "ordinal": 8,
+      "comment_id": "19",
+      "comment_text": "这个 \\Delta D^k 与上面的 D_{tk} 是什么关系",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 2 材料与方法 > 2.3 不孕症亚型与参照组构成的分解",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5已经明确总不孕主估计目标ΔD_total的起止年差，并定义D_tk；但一般亚型k的分解式前仍可补一行统一定义，消除正文上下标迁移。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 77,
+          "quote": "$\\Delta D_{\\mathrm{total}}=D_{2023,\\mathrm{total}}-D_{1990,\\mathrm{total}}$"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 83,
+          "quote": "D_{tk}&=A_{Ctk}-A_{Rtk}."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 90,
+          "quote": "\\Delta D_k &=X_k+Q_k+S_k"
+        }
+      ],
+      "remaining_actions": [
+        "增加ΔD_k(0,T)=D_{T,k}−D_{0,k}，说明主要分析0=1990、T=2023。",
+        "统一D和ΔD的逗号、上下标、单位与正号含义；与CHN符号变更一并完成。",
+        "复用现有1,440行恒等检查；不要为公式排版另造统计结果。"
+      ],
+      "data_and_rerun_need": "无需新数据；核验已有加总残差。"
+    },
+    {
+      "ordinal": 9,
+      "comment_id": "22",
+      "comment_text": "这个文件名太长，更正维从XXX 网站获得了XXX数据",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 2 材料与方法 > 2.4 使用联合国独立人口基准进行核查",
+      "v5_status": "已处理",
+      "priority": "P2",
+      "v5_assessment": "v5方法正文已经改为official UN WPP 2024 historical mid-year population table；完整文件名移到了数据引用处，符合可读性与可追溯性。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 100,
+          "quote": "The official UN WPP 2024 historical mid-year population table supplied females in the same 4,522 country--age--year cells"
+        }
+      ],
+      "remaining_actions": [
+        "保留当前简短正文和精确数据引用；无需删除参考文献中的必要文件名。",
+        "如重新下载，仅在获取清单追加日期、URL、SHA256并比较原有文件，不覆盖旧版本。"
+      ],
+      "data_and_rerun_need": "无需重新下载。"
+    },
+    {
+      "ordinal": 10,
+      "comment_id": "25",
+      "comment_text": "论文里面需要讲：鉴于XXX 的数据缺失，我们从XXX 分析",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 2 材料与方法 > 2.5 敏感性分析与不确定性",
+      "v5_status": "已处理",
+      "priority": "P1",
+      "v5_assessment": "v5已明确缺失的是输入文件中的联合后验draws，列出确定性敏感性并说明未来逐draw计算步骤；不会把整个数据集误称缺失。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 111,
+          "quote": "The existing exports contain marginal summaries and no posterior draw columns."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 111,
+          "quote": "If aligned draws become available, the complete pooling and decomposition must be repeated within each verified draw before summarizing posterior quantiles."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+          "line": 48,
+          "quote": "This does not imply that suitable draws do not exist or cannot be supplied."
+        }
+      ],
+      "remaining_actions": [
+        "复用现有缺失性质和方法说明；新增draws获取审计结果后再更新状态。",
+        "科学方案需要实际获取/替代分析的部分归批注51，避免重复设置两套数据下载任务。"
+      ],
+      "data_and_rerun_need": "现有点估计与敏感性无需重跑；draws获取仍待批注51执行。"
+    },
+    {
+      "ordinal": 11,
+      "comment_id": "26",
+      "comment_text": "代码语言为 Python 3.12， 数据分析基于Numpy… 等内置包",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 2 材料与方法 > 2.5 敏感性分析与不确定性",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5正文给出Python 3.12与base R 4.6，并报告交叉核对；当前78成员投稿包未包含研究分析的完整依赖锁文件，不能凭文字确认实际小版本或包版本。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 113,
+          "quote": "Core estimates were independently recomputed in Python 3.12 and base R 4.6 and compared numerically."
+        }
+      ],
+      "remaining_actions": [
+        "从固定研究快照的运行日志和依赖文件核验Python/R精确版本与NumPy/pandas等实际用到的第三方库。",
+        "主稿用一句软件及关键库说明，补充保存requirements/lockfile与R sessionInfo。",
+        "不要把NumPy等称内置包；不要为满足旧批注凭空补写未使用的SciPy/statsmodels。"
+      ],
+      "data_and_rerun_need": "不需下载研究数据；只需读取既有真实运行环境证据。"
+    },
+    {
+      "ordinal": 12,
+      "comment_id": "31",
+      "comment_text": "去掉，只能写用ChatGPT6.1 进行润色与代码整理，文稿构思，书写，数学推导，数据处理是作者间协助处理，blabla…",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 2 材料与方法 > 2.7 人工智能工具的使用",
+      "v5_status": "已处理",
+      "priority": "P1",
+      "v5_assessment": "v5已按真实用途披露代码开发、分析核对、起草及技术编辑，并把已证实的Codex模型版本限定在2026-10-29那次会话；未冒充所有旧会话均用6.1。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 119,
+          "quote": "OpenAI ChatGPT and Codex supported code development, analysis checks, drafting and technical editing."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 119,
+          "quote": "The documented Codex session used the recorded model identifier \\texttt{gpt-6.1-sol} on 29 October 2026."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 192,
+          "quote": "exact model versions for earlier separate ChatGPT sessions could not be independently verified and are not specified."
+        }
+      ],
+      "remaining_actions": [
+        "保留真实范围，不采纳只剩润色与整理的失实缩减。",
+        "可合并方法和致谢中的重复披露，按目标期刊政策放置；已证实的会话证据留档。",
+        "作者最终核验仍为XX/待确认，不能把当前待核验声明改成已经完成。"
+      ],
+      "data_and_rerun_need": "无需数据下载；AI_VERSION_EVIDENCE.json已经存在。"
+    },
+    {
+      "ordinal": 13,
+      "comment_id": "36",
+      "comment_text": "这一章节每段都以不能证明，不构成结尾，这不是好的文章应该有的结论，我们需要强调发现了什么。这些无法证明的需要一带而过。",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 3 结果 > 3.1 数据覆盖与总体比较差异",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5结果已更聚焦，但多段仍以not validation、does not establish、not uncertainty interval或must not be added结尾，未完全落实以发现为中心的表达。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 123,
+          "quote": "These are computational consistency checks rather than validation of the underlying disease model."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 143,
+          "quote": "These limits describe specified benchmark sensitivities and are not an uncertainty interval."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 159,
+          "quote": "Thus the small positive secondary contrast does not support a stable sign or international ranking."
+        }
+      ],
+      "remaining_actions": [
+        "结果保留已验证数值：总差异变化、三分量、UN替换、基准符号变化；每段最后落在具体观察。",
+        "可将近零继发性结果写为其估计方向随比较基准变化，列出数值；不称有统计支持的翻转。",
+        "将加总分区重叠、数据源非验证等必要解释集中在方法或讨论，并保留独立可读的图注。"
+      ],
+      "data_and_rerun_need": "无需重新下载；结果编辑与批注0合并执行。"
+    },
+    {
+      "ordinal": 14,
+      "comment_id": "39",
+      "comment_text": "说明这种抵消与所选取年份成显著相关关系",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 3 结果 > 3.2 原发性与继发性不孕症",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5已把子宫内膜异位症移入补充，含2021/2022/2023总差异、终点轨迹、19国末年变动与年龄亚型分量；没有伪造显著相关。但尚未专门把原发/继发差异抵消程度随终点的变化汇总呈现。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+          "line": 43,
+          "quote": "The endometriosis example is secondary."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+          "line": 43,
+          "quote": "China's modeled restricted-age standardized rate increased from 43.13 to 53.30 per 100,000 in 2022--2023, or +23.58"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+          "line": 43,
+          "quote": "All 19 countries appear in Table"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+          "line": 45,
+          "quote": "No mechanism is inferred for the final-year jump."
+        }
+      ],
+      "remaining_actions": [
+        "复用年度亚型结果，输出D_primary(t)、D_secondary(t)、D_total(t)，标明同号/异号、关键终点的差别。",
+        "可增加抵消指数K(t)=1−|D_primary+D_secondary|/(|D_primary|+|D_secondary|)，分母为零时记NA，清楚标为新增描述性指标。",
+        "输出1990–2023完整轨迹与2021/2022/2023小表；仍放补充，不重新扩大主稿。",
+        "若无有效不确定性方案，仅报告明显的终点依赖，不写统计显著相关；不要为一句批注套用不适当的独立年份检验。"
+      ],
+      "data_and_rerun_need": "不需重新下载；需要复用现有年度表新增一项描述性计算，尚未运行。"
+    },
+    {
+      "ordinal": 15,
+      "comment_id": "48",
+      "comment_text": "这里是说贡献，不要说我们没有提出新的方法",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 4 讨论",
+      "v5_status": "部分处理",
+      "priority": "P1",
+      "v5_assessment": "v5已明确参照组构建审计这一应用贡献，且有S9文献比较表；但仍在引言和讨论直接写rather than propose a new method及not a new estimator等自我削弱句。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 66,
+          "quote": "We apply established Kitagawa-type accounting rather than propose a new method"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 172,
+          "quote": "our added information is an explicit audit of reference construction"
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 172,
+          "quote": "not a new estimator, a new clinical association or a comprehensive systematic review of prior work."
+        }
+      ],
+      "remaining_actions": [
+        "改为积极且精确的贡献句：量化固定年龄标准下仍保留的国别人口构成分量，并展示比较基准改变继发性差异方向。",
+        "方法段保留Kitagawa引用即可，不必反复强调没发明方法。",
+        "复用并更新S9文献表；不得声称首创、推翻前人结论或他人使用了未经核验的汇总公式。"
+      ],
+      "data_and_rerun_need": "无需新数据；文献核查与贡献定位可并行。"
+    },
+    {
+      "ordinal": 16,
+      "comment_id": "51",
+      "comment_text": "为什么不在该论文中进行不确定性分析，这将使文章档次上升",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 5 结论",
+      "v5_status": "仍需处理",
+      "priority": "P0",
+      "v5_assessment": "v5真实确认无联合draws、无派生UI；仅有未来方案，技术修改日志明确statistics_rerun=false，因此这条实质性分析建议尚未完成。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+          "line": 48,
+          "quote": "The GBD input files contain point estimates and marginal lower/upper limits, without posterior draw columns."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/supplement.tex",
+          "line": 48,
+          "quote": "The present analyses therefore do not quantify joint posterior uncertainty."
+        },
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 182,
+          "quote": "The principal evidential limitation is the absence of confirmed jointly aligned GBD posterior draws."
+        }
+      ],
+      "remaining_actions": [
+        "先查私有原始档案与官方下载的draws可用性、版本和联合索引；如只能新增下载同样的val/lower/upper，不能把重复下载当成取得不确定性信息。",
+        "若得到经提供者确认的联合draws，按每个共同draw完整重算年龄标准化、参照组、差异、亚型和分解；输出分位数与分母接近零诊断。",
+        "若得不到，保留严格点估计；按root方法方案增加明确假设的依赖敏感性/范围分析时，必须区别于官方后验UI，标注拟开展并完成运行验收。",
+        "不进行国家bootstrap、独立拼接边际区间等冒充联合GBD后验；不因得到UI就声称因果识别。"
+      ],
+      "data_and_rerun_need": "draws可得性审计和条件性新增分析尚待执行；现有敏感性全部复用。"
+    },
+    {
+      "ordinal": 17,
+      "comment_id": "76",
+      "comment_text": "每张图的说明还有个替代文本表示什么意思？是补充说明吗？",
+      "old_anchor_section": "参照国家的人口构成变化如何影响多囊卵巢综合征相关不孕症的国际比较 > 图及图注 > 图1　年度总体不孕症率及中国—参照组差异",
+      "v5_status": "已处理",
+      "priority": "P2",
+      "v5_assessment": "v5主稿5张图均有图注后Alt text段落，同时Word图片已有descr/title元数据；补充7图亦有descr/title，当前不存在旧稿仅正文替代文字而元数据为空的问题。",
+      "evidence": [
+        {
+          "source": "/workspace/scratch/23a10bc1d696/review/v5_package/PCOS_HumanReproduction_v5_2026-10-29/manuscript/main.tex",
+          "line": 226,
+          "quote": "\\caption*{\\textbf{Alt text:} Two-panel line plot."
+        }
+      ],
+      "remaining_actions": [
+        "按已核验Human Reproduction规则保留图注正下Alt text，用于无障碍阅读，向审阅者解释其用途。",
+        "不要因批注疑问删除期刊所需内容；可另做不显示Alt text的作者阅读版，但投稿版保持规定格式。",
+        "继续验证Word元数据与每张图的真实内容匹配；补充图目前用图注文字作为descr，可按需增加简洁的视觉描述。"
+      ],
+      "data_and_rerun_need": "无需下载或统计分析；主稿5个真实alt属性已完成。"
+    }
+  ]
+}
