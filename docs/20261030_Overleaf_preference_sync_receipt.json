@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-30T14:07:30+01:00",
+  "preference_saved_and_synced": true,
+  "git_commit": "7090c5f812d6bf20ff48cbe5a197f32335168d6b",
+  "files_verified_full_Drive_bytes_and_GitHub_committed_blobs": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "3bdfcb2168a1aa48b2b308a50607ff83a1d89a2fd1d47585a667dac1d3901bcf",
+      "blob": "fe910174396ca30e58a0ed8de39e80203c693280",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_PROJECT_INSTRUCTIONS.txt",
+      "sha256": "7698f7793f049a30fdb0c192277943fe5c60ce4d054a1651da399be8f69decc0",
+      "blob": "dcd09a6c3370eb3b76c49c78196d878081a4107d",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/DECISIONS.md",
+      "sha256": "5678359f9846f67935ea43f9261355930bfc1ec10a47246fa428cf2f5b3ddb83",
+      "blob": "2fa5a63ba12f069116a980f23e979c0dc6ac68f6",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "sha256": "cd398b1cc13943c0f7084836b545baa672a7bbf13688e03fce65db2d61cf749f",
+      "blob": "ae1abeb0fa53b542a98aebfe15ce85649fd9c827",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "sha256": "44a40c808cb1ef63c0566e612e08217a4663bea7d51994025d81ea6b333f5d88",
+      "blob": "4fba0492d094d8d461c1caeef3bec55acd50910b",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "sha256": "7d5632ac25523b36712560eea908ba5ac8b9d993b97eb77c0bda2fb898578e16",
+      "blob": "f4cbe29623589901241afae0fd47a55716eec9b9",
+      "drive_id": null
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "sha256": "fede9193e2840394dc796069b8b1ad97bc5d0897ed36dfa3b065cfa536fd69f7",
+      "blob": "223afc10e30bf554ddbe83ece6164916162cff13",
+      "drive_id": null
+    },
+    {
+      "path": "config/shared_context.json",
+      "sha256": "1c8e33f62e220f039f67ed8fce7ff9df327cd186f1970ec957ede52e994a9c1d",
+      "blob": "5f4190c69a0cf1bef002f9de1c8d7c12e557abb0",
+      "drive_id": null
+    }
+  ],
+  "overleaf_project": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+  "overleaf_read_access": "verified via Chrome project title and file tree",
+  "overleaf_upload": "not performed; future manuscript requirement saved",
+  "desktop_app": "user reports installed, not independently inspected",
+  "new_manuscript_generated": false,
+  "v6_files_changed": false,
+  "submitted": false
+}
