@@ -286,3 +286,31 @@ Human Reproduction独立v5已完成四项技术修改：42字符短标题、可�
 `/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/wangjiajia/.codex/plugins/cache/openai-primary-runtime/documents/26.1026.10807/skills/documents/render_docx.py PCOS_HumanReproduction_v5_2026-10-29/submission/Tables.docx --output_dir .shared_context_runtime/v5/clean_tables --emit_pdf`
 
 TeX三稿经tectonic真实编译成功，以pdftoppm -scale-to 1800 -png逐页渲染；45页Word校对页及39页TeX PDF均打开检查，页图哈希见VISUAL_QA。lineno包UTF-8注释警告及Underfull hbox未伴随可见缺字/溢出；无Overfull/未定义引用。单独表格与主稿逐单元格一致，无未处理批注/修订。无raw/processed研究数据变更，DATA_CATALOG不变。投稿系统未访问、未提交。
+
+## 2026-10-30T13:18:12+01:00 — 20261030_revision_preflight
+
+任务：17条批注修订前置核验：基线隔离、来源/定义/环境、联合draws访问和既有年度亚型加和
+
+实际命令：`PCOS_NewArticle_GBD_UNWPP_2026-10-26/.venv/bin/python scripts/pcos_revision_preflight_20261030.py audit`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_Revision_2026-10-29/data/input/IHME-GBD_2023_DATA-916826fb-1.csv": "d7202eedb69a9ead4dd4994c1cf02917cca57e23d7d82af1edca32e129ae93ca", "PCOS_Revision_2026-10-29/data/input/IHME-GBD_2023_DATA-1b13e337-1.csv": "98ab71644243db9272454ccbeba3dc4b21c7cd65784613633a82c4602083bf3b", "PCOS_Revision_2026-10-29/data/input/IHME-GBD_2023_DATA-416daf73-1.csv": "92c05887365b6beb2abbb75924093273935b575ff2fff6b5343612f29d47c66f", "PCOS_Revision_2026-10-29/data/input/UN_WPP2024_G20_female_15_49_1990_2023.csv": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9", "PCOS_Revision_2026-10-29/data/input/IHME-GBD_2023_DATA-76c5523c-1.csv": "5d4c87c8cb2a42e3ec4dd2819e227205273526ed0376144f8c850ebbba5094da", "PCOS_Revision_2026-10-29/data/input/weights.csv": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d", "PCOS_Revision_2026-10-29/data/input/UN_WPP2024_source_manifest.json": "437240da1b218808563763424772ffc1f0c6fd683e956a01a44cc8f8c9d29033", "PCOS_Revision_2026-10-29/docs/input_manifest.json": "96a1ac29bda9d126d3bd461f38d02c49dfbadc724c3b728487285233fa54884b", "PCOS_Revision_2026-10-29/results/python/all_annual_benchmark_aspr.csv": "942f16120889db8bf03f7cc3b2185f38cbae96cd60640b1fffcc897ee524f40a", "PCOS_Revision_2026-10-29/results/python/qc_summary.json": "9794325d24493ce422a173472638575d6b6dae66d95e564447375a5d22a91b5e", "PCOS_Revision_2026-10-29/results/R/R_session_info.txt": "eae6e30517cd6542b2b6a77af35bd59611da24156b20b3a14930abc00681b23a", "PCOS_Revision_2026-10-29/requirements.lock.txt": "2a00f67cbcfa8be9162cf7519e58e7704f5653919b46b13760378cf83515f14b", "sources/GBD2023_methods_appendix1.pdf": "13abb92a6fa6d898d86684e1fffbf0f5d9e29f2c12ace88aca82aa8445d6b8be", "sources/GBD2023_world_standard_reproduced.docx": "9e4a745a32fcaaea9a78bcc9a3179014fa6e70042e348acadd2fb94732d1c3b4", "PCOS_Review_2026-10-30/20261030_review_plan_content.json": "6b912bcbfe7e66b62bf69a8f3898e453ed02a02f5e0995e570447b214d2d090e", "scripts/pcos_revision_preflight_20261030.py": "c88c7a30199e7a3da64759097e012b32b208b3885450e59d87224c816eb543d4", "PCOS_Revision_2026-10-29/code/PCOS_NewArticle_complete.py": "96dc848c7ea9080a297d347c9857a6700da9f0af48728fcc82b50cf676e2fe43"}`。
+
+输出 SHA-256：`{"PCOS_Revision_Preflight_2026-10-30/20261030_baseline_manifest.json": "53ef643aefb330fb6d0ff2341303346ece346dec585cd9e4edb91bcebffbbf1e", "PCOS_Revision_Preflight_2026-10-30/20261030_country_reference_mapping.csv": "24ab82fcdd22789caf1f77a649fc8683e5599b11e1774343d871b6e90a6b2a3b", "PCOS_Revision_Preflight_2026-10-30/20261030_source_definition_audit.json": "bdd62bb6cd094a49a8db3e1deeabbee07f9bc025e118bdf184c31373413e4009", "PCOS_Revision_Preflight_2026-10-30/20261030_annual_endpoint_check.csv": "b5f98cb154f7ab37a238e13aa1ea2245015a3fed7ce63c92f5e719abea239080", "PCOS_Revision_Preflight_2026-10-30/20261030_annual_endpoint_qc.json": "ed2e7df1f8acb652bbf1f9ae5cc44d264c545ad0388aefe95d356cd3c091b660", "PCOS_Revision_Preflight_2026-10-30/20261030_joint_draws_access_audit.json": "6c1084fea0ca8646e9927c40d917cbe751eca5ecb5f7ca5e785fd1e28ca5d61d", "PCOS_Revision_Preflight_2026-10-30/20261030_preflight_verification.json": "141cccd5171b0194aa29591a709a5974d98b9e42e0facd6ec117ebc5915fb26f", "PCOS_Revision_Preflight_2026-10-30/20261030_README_ZH.txt": "92f2ae3605e46be0a6524796207cc908788cc4be0d88936375807d4144adf1f3"}`。
+
+错误/解决办法：Drive首个filename过滤语法错误400，修正后成功；官方入口403与PDF挑战如实记录，不推断draws不存在。未重新下载研究数据或更换权重。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+### 2026-10-30T13:21:25+01:00 — 20261030_revision_preflight 发布回传
+
+本轮接续最新17条批注方案，完成T00基线与私有隔离、T01输入/定义/环境审计、T02联合draws访问审计；T04复用既有年度汇总并通过独立核查，尚未写入新稿。7项输入哈希一致，19国/18参照、两套各4,522人口单元、27,132病例单元及1,064端点Rate通过。病例亚型加和最大误差5.82e-10，端点率重构1.16e-11；1,224行既有年度结果整理为408行，率差亚型加和误差6.82e-13。v5全部82个本地文件（含本机辅助文件）哈希不变，其中66条远端制品路径逐字节比较通过。
+
+GBD2023现存Appendix 1的PDF685–687页核实调查五年定义/临床12个月来源及全部育龄女性分母；PDF591–592、691–693页核实PCOS定义调整与归因流程。4个相关页已渲染目视检查。历史Python输出记录3.12.14，R会话4.6.1；本轮环境另记。
+
+限制：官方GBD入口本次403，Drive限定文件名搜索和既有输入未识别合格联合draws；批注51仍未统计解决。7组权重与六位复刻一致，官方全精度向量来源未独立确认，未升级权重。2023子宫内膜异位症GBD动态率差为原发−7.935717、继发+7.733263、总−0.202454/10万人；年度变化仅描述，未作年份相关显著性检验。
+
+8项审计/汇总文件位于`PCOS_Revision_Preflight_2026-10-30/`，脚本为`scripts/pcos_revision_preflight_20261030.py`。内容提交`0254e74e0e5718c16c4ce82828fbfa70603b1b5f`；Drive：https://drive.google.com/drive/folders/1LCe-A_EWuZMmroIJRwyEaLM_LBQmhFaF 。9项已Drive原文件引用下载逐字节及GitHub已提交blob核验；原远端647路径全部保留。最新稿仍v5，未创建v6、未重拟合GBD、未下载新研究数据、未投稿或外发消息。XX与原数据保持原位，DATA_CATALOG不变。
+
+真实日志私存.shared_context_runtime/20261030_revision_preflight.log及runs/20261030_revision_preflight.json。初次Drive查询400已修复，官方403未绕过。文本渲染回读不等同原文件字节，最终9项raw引用下载核验通过。共享内联脚本UTF-8失败未产生修改，改为独立UTF-8脚本重试成功；共享与回执后继提交再核验。
+
+- Path.write_text兼容性重试：收尾脚本在Python3.9上不支持newline参数，首轮已写5份记录但未写RESULTS_INDEX；随后改为open(newline=)，幂等重试完成6份且无重复条目。
