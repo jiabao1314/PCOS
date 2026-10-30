@@ -1,5 +1,11 @@
 # 项目状态
 
+## 2026-10-30T09:36:40+01:00 — 共享口令配置；科学状态仍为v5
+
+“同步PCOS”已按用户本轮指令保存为共享接续口令：读最新云端交接、继续授权范围内下一项可执行任务、写回证据与下一步，并完成双云核验。详细规则见CHATGPT_PROJECT_INSTRUCTIONS.txt及docs/SHARED_CONTEXT_WORKFLOW.md。此轮仅配置协作规则，未运行新统计、未改稿，DATA_CATALOG及RESULTS_INDEX不变。
+当前最新科学/文稿状态仍为Human Reproduction v5四项技术修改完成，作者最终批准及提交信息待作者处理；暂不投稿。历史待办按最新完成证据判定，不能重复执行v3/v4已完成工作。
+ChatGPT项目指令与来源绑定未核验，chatgpt_project_settings_applied保持false；连接器没有设置写入操作，电脑控制工具拒绝访问应用。共享文件可用不等于完整聊天同步或项目设置已应用。
+
 ## 2026-10-29T20:33:26+01:00 — 最新独立v5，技术修改完成，暂不投稿
 
 Human Reproduction独立v5已完成四项技术修改：42字符短标题、可核实AI声明、3项数据/代码引用及固定研究快照、补充稿制作措辞清理。Word主稿21页、补充20页、附信1页（另有独立表3页）；TeX PDF为19/19/1页。84页均已逐页检查。7编号公式、56原生数学对象、13表161正文行和12图保留；主稿22/补充2/附信5处XX保留。v4全部89文件哈希不变。66条GitHub路径、20个Drive独立文件及完整包78成员已字节核验。制品提交 `07b3a3e305e98770117b81fbed340090150b493c`；Drive：https://drive.google.com/drive/folders/1SDO13cK9jCLY_bnfcahHX97Isg5Ju1jU。

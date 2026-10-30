@@ -1,5 +1,11 @@
 # 共享配置与同步验证
 
+## 2026-10-30T09:36:40+01:00 — 口令配置发布记录与核验标准
+
+本轮修改白名单：根AGENTS、docs/SHARED_CONTEXT_WORKFLOW.md、config/shared_context.json，以及PROJECT_STATUS、DECISIONS、NEXT_ACTIONS、CHATGPT_HANDOFF、CHATGPT_PROJECT_INSTRUCTIONS、CODEX_RUN_LOG、SYNC_CHECK共7份共享文件；仅公开协作规则及既有汇总状态。写前已读取7份共享与3份支持文件云端完整字节并保存基线。Drive旧AGENTS缺日期命名行，已保留该用户确认规则，不覆盖其他来源更新。
+
+本记录发布后必须逐一Drive原始字节回下载、git fetch后逐提交blob核验，并确保原远端路径保留；最终提交及哈希回执另存.shared_context_runtime/trigger_20261030/VERIFIED.json，避免自引用。无科学数据/稿件改动；ChatGPT设置激活仍未核验，不能以双云保存代替。
+
 ## 2026-10-29T20:41:51+01:00 — 日期前缀偏好保存
 
 今后新生成的论文相关交付文件名必须以实际生成/修订日期的八位YYYYMMDD加下划线开头，例如20261029_PCOS_HumanReproduction_v6_Manuscript.docx；同一版本的主稿、补充稿、投稿附信及其Word/PDF/TeX和论文交付包统一遵循。日期示例不是固定日期。保留版本标识；不追溯重命名现有文件，除非用户另行要求。

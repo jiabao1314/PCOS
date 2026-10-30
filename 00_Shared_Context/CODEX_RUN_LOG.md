@@ -1,5 +1,13 @@
 # Codex 实际运行日志
 
+## 2026-10-30T09:36:40+01:00 — 共享口令配置记录（非科研重算）
+
+实际执行：Drive连接器原文件读取7份共享文件，Python回下载逐字节比对本机一致；读取3份支持文件并保存基线（Drive AGENTS仅缺已确认日期命名行，已明确合并）；git fetch origin main；python3 scripts/shared_context.py pull（0文件复制，桌面一致）。依据用户指令修改根AGENTS、共享项目指令、流程/映射及本轮共享状态。未执行新的科研命令，未改变数据或论文。
+
+代码/文档基线：本机HEAD f17691ea374fec76cabc331d94a0220c06cd94fd；发布基线origin/main 757321cf838189deedfa72e4d2d1306e7a50ccea。已有脏工作区与暂存区保留。真实输入/输出哈希及最终云端/Git验证记录保存在忽略目录.shared_context_runtime/trigger_20261030；此配置任务不用科研runner虚构统计运行。
+
+设置限制：电脑控制工具返回“Computer Use is not allowed to use the app com.openai.codex for safety reasons”，未绕过；ChatGPT设置启用未验证。
+
 最后更新：2026-10-29T17:10:17+01:00。本轮是资料库配置与现有证据核验；未重新运行GBD分析或医院模型。
 
 ## 2026-10-29 — shared-context-setup

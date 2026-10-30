@@ -30,5 +30,14 @@
     "NEXT_ACTIONS.md": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
     "CHATGPT_PROJECT_INSTRUCTIONS.txt": "19USY_KNEXPdjPCxV7YVqcObIGUhZpx1M",
     "SYNC_CHECK.md": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK"
+  },
+  "shared_trigger": {
+    "phrase": "同步PCOS",
+    "confirmed_on": "2026-10-30",
+    "workflow": "docs/SHARED_CONTEXT_WORKFLOW.md",
+    "codex_instruction_file": "AGENTS.md",
+    "chatgpt_instruction_file": "00_Shared_Context/CHATGPT_PROJECT_INSTRUCTIONS.txt",
+    "chatgpt_activation_verified": false,
+    "mode": "user_triggered_saved_file_handoff"
   }
 }
