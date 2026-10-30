@@ -1,0 +1,18 @@
+{
+  "actual_verifier_command": "python scripts/verify_bluek_v7_20261030.py",
+  "verifier_exit_code": 0,
+  "verification_sha256": "ef0f45862ecbcb47d4d7d68352a1025a5b9e17789a91bd16d5a9d7c6d47c39cd",
+  "status": "local_content_and_visual_verified_cloud_pending",
+  "fix_ids": [
+    "FIX-01",
+    "FIX-02",
+    "FIX-03",
+    "FIX-04",
+    "FIX-05",
+    "FIX-06",
+    "FIX-07",
+    "FIX-08",
+    "FIX-09"
+  ],
+  "submitted": false
+}

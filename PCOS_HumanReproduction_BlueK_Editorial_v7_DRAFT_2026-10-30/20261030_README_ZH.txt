@@ -1,0 +1,13 @@
+PCOS Blue K 独立候选修订 v7 DRAFT
+本版以老师19页已修改的Blue K全文为内容基础，仅执行指定Markdown FIX-01至09；不是回退到v6重新改全文。尚未由作者最终接受，未投稿。
+word目录：完整可编辑主稿Word，实际渲染21页，32个原生可编辑数学对象、7条编号公式、3张可编辑主表、5幅原图。
+manuscript目录：独立主稿TeX（clean）及本轮定位标色TeX（Review），均内联原有表格与PGF图，不依赖新上传图片或独立bib。
+output目录：两份19页PDF及真实TeX日志。clean为黑色正文；Review科学内容相同，仅标示本轮受改文字，老师原始蓝稿另存sources。
+docs目录：55行BlueK_vs_v6对照、FIX-01至09修改表、原有汇总CSV数值审计、原稿保护清单、Word内容映射、真实执行回执及完整核验记录。
+补充稿未修改：使用既有v6/Overleaf r1补充（21页PDF，S1–S11表、S1–S7图）。已检查与本主稿一致，GATHER13仍部分满足、16仍Incomplete；没有虚构联合区间。
+FIX-05采用删除未在Blue K正文引用的Xu2025条目，保留其余13条文献并执行双向对应。FIX-04只恢复有记录的2026-10-29会话gpt-6.1-sol；其他版本未独立核实，作者最终复核/批准仍待确认，原XX保持。
+原统计结果、权重及全部旧稿/研究文件保持；没有重拟合GBD、重跑科研分析、下载新原始研究数据或生成posterior intervals。原305文件哈希通过。
+本地编译零错误、无LaTeX/package警告、无Overfull；每份有7条Underfull提示。Tectonic还报告其缓存lineno.sty第296行有非UTF8字节；独立渲染已确认成稿没有替换字符/缺字。这与论文科学内容无关，记录保留。
+Overleaf仅上传clean主稿论文TeX。补充无新版，无需重复上传；其余格式只保存在本地、Drive及GitHub。
+完整同步与Overleaf实际结果见最终SYNC_RECEIPT及共享SYNC_CHECK；不要把本地完成等同云端已核验。
+尚未解决的既有科学限制：无合格联合对齐draws、官方全精度年龄标准向量未独立确认。XX由作者投稿阶段填写。老师Windows实机复现仍待完成。

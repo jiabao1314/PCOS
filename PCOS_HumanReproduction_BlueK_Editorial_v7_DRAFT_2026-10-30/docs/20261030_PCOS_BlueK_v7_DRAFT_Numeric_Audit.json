@@ -1,0 +1,126 @@
+{
+  "type": "existing aggregate output readback; no new estimates",
+  "source_dir": "PCOS_Revision_2026-10-29/results/python",
+  "checks": [
+    {
+      "label": "china_rate_effect",
+      "column": "china_rate_effect",
+      "unrounded": 271.5137227009629,
+      "display": "271.51",
+      "expected": "271.51",
+      "passed": true
+    },
+    {
+      "label": "reference_rate_effect",
+      "column": "reference_rate_effect",
+      "unrounded": -208.62325252508722,
+      "display": "-208.62",
+      "expected": "-208.62",
+      "passed": true
+    },
+    {
+      "label": "reference_country_composition_effect",
+      "column": "reference_country_composition_effect",
+      "unrounded": 88.64853315602541,
+      "display": "88.65",
+      "expected": "88.65",
+      "passed": true
+    },
+    {
+      "label": "net_gap_change",
+      "column": "net_gap_change",
+      "unrounded": 151.53900333190114,
+      "display": "151.54",
+      "expected": "151.54",
+      "passed": true
+    },
+    {
+      "label": "GBD dynamic",
+      "column": "gap",
+      "unrounded": 2.163354472894241,
+      "display": "2.16",
+      "expected": "2.16",
+      "passed": true
+    },
+    {
+      "label": "GBD fixed1990",
+      "column": "gap",
+      "unrounded": -47.992169763161144,
+      "display": "-47.99",
+      "expected": "-47.99",
+      "passed": true
+    },
+    {
+      "label": "GBD equal",
+      "column": "gap",
+      "unrounded": -127.88594257101062,
+      "display": "-127.89",
+      "expected": "-127.89",
+      "passed": true
+    },
+    {
+      "label": "UN-WPP2024 dynamic",
+      "column": "gap",
+      "unrounded": 2.2627112285969133,
+      "display": "2.26",
+      "expected": "2.26",
+      "passed": true
+    },
+    {
+      "label": "UN-WPP2024 fixed1990",
+      "column": "gap",
+      "unrounded": -48.34271287711471,
+      "display": "-48.34",
+      "expected": "-48.34",
+      "passed": true
+    },
+    {
+      "label": "UN-WPP2024 equal",
+      "column": "gap",
+      "unrounded": -127.88594257101062,
+      "display": "-127.89",
+      "expected": "-127.89",
+      "passed": true
+    },
+    {
+      "label": "Age 40",
+      "column": "reference_country_composition_effect",
+      "unrounded": 23.761308565014243,
+      "display": "23.76",
+      "expected": "23.76",
+      "passed": true
+    },
+    {
+      "label": "Age 35",
+      "column": "reference_country_composition_effect",
+      "unrounded": 20.423301310136246,
+      "display": "20.42",
+      "expected": "20.42",
+      "passed": true
+    },
+    {
+      "label": "Age 15",
+      "column": "reference_country_composition_effect",
+      "unrounded": -2.274837370331501,
+      "display": "-2.27",
+      "expected": "-2.27",
+      "passed": true
+    },
+    {
+      "label": "Omit India",
+      "column": "reference_country_composition_effect",
+      "unrounded": 56.16400074547242,
+      "display": "56.16",
+      "expected": "56.16",
+      "passed": true
+    },
+    {
+      "label": "Omit Russian Federation",
+      "column": "reference_country_composition_effect",
+      "unrounded": 110.33979158615091,
+      "display": "110.34",
+      "expected": "110.34",
+      "passed": true
+    }
+  ]
+}

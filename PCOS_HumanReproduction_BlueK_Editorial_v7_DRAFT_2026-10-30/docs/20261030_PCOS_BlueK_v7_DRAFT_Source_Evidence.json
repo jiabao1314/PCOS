@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-30",
+  "source_package_retrieved": true,
+  "zip_filename": "20261030_PCOS_BlueK_EditorialFixes_Codex_Package.zip",
+  "zip_members": 3,
+  "actual_markdown_sha256": "05225ebfdd631a765bed6de02ceb2206a8be899bd16aa580c1e97851f752834a",
+  "teacher_pdf_sha256": "e6884c181a3992ba1612635133c58b60f1a1762c98bddbdbd39576a1c10e5d5d",
+  "Yang": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9162959/",
+    "finding": "2020 survey final analysis 20–49 years; retained Yang2022 citation. This fixes year wording only."
+  },
+  "AI_policy": {
+    "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+    "policy_updated": "2026-07-13",
+    "finding": "Disclose tool/version and purpose in manuscript and cover letter; human accountability. Methods, Acknowledgements and existing v6 cover are consistent; final author review not assumed."
+  },
+  "HR_guide": {
+    "url": "https://academic.oup.com/humrep/pages/Clinical_Studies",
+    "access": "Initial readable structure; subsequent open/find timed out. No fresh abstract word ceiling asserted; existing 11 headings preserved."
+  },
+  "scope": "Only nine finite editorial fixes; no new scientific decision, estimates or submission."
+}

@@ -1,0 +1,371 @@
+{
+  "kind": "main",
+  "references": [
+    {
+      "key": "g20",
+      "label": "Australian Government(2026)",
+      "tex": "Australian Government Department of Foreign Affairs and Trade. The G20. Accessed 30 October 2026. \\url{https://www.dfat.gov.au/trade/organisations/g20}."
+    },
+    {
+      "key": "chen",
+      "label": "Chen et al.(2026)",
+      "tex": "Chen S, Yang X, Jiang S, Lin Y, Huang L, Chen H, Zheng J, Xie Y, Kuang Z. Burden and temporal trends of female-specific cancers in China: a systematic analysis of the 2023 global burden of disease study. \\emph{PLOS One}. 2026;21:e0351539. Supplemental table of reproduced GBD standard population. \\href{https://doi.org/10.1371/journal.pone.0351539}{doi:10.1371/journal.pone.0351539}."
+    },
+    {
+      "key": "gbd",
+      "label": "GBD 2023 Collaborators(2025)",
+      "tex": "GBD 2023 Disease and Injury and Risk Factor Collaborators. Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990--2023: a systematic analysis for the Global Burden of Disease Study 2023. \\emph{Lancet}. 2025;406(10513):1873--1922. \\href{https://doi.org/10.1016/S0140-6736(25)01637-X}{doi:10.1016/S0140-6736(25)01637-X}. Includes Supplementary Appendix 1, infertility methods."
+    },
+    {
+      "key": "results",
+      "label": "Institute for Health Metrics and Evaluation(2026)",
+      "tex": "[dataset] Institute for Health Metrics and Evaluation. GBD 2023 prevalence and matched female-population extracts for China and 18 other G20 countries, 1990--2023. GBD Results Tool; extracts accessed 25 October 2026. \\url{https://vizhub.healthdata.org/gbd-results/}. Release: GBD 2023; export identifiers 1b13e337, 916826fb, 416daf73 and 76c5523c. Query specifications and input hashes are provided in the versioned research snapshot listed below. Access is subject to IHME terms."
+    },
+    {
+      "key": "kitagawa",
+      "label": "Kitagawa(1955)",
+      "tex": "Kitagawa EM. Components of a difference between two rates. \\emph{J Am Stat Assoc}. 1955;50(272):1168--1194. \\href{https://doi.org/10.1080/01621459.1955.10501299}{doi:10.1080/01621459.1955.10501299}."
+    },
+    {
+      "key": "liang_trend2026",
+      "label": "Liang(2026)",
+      "tex": "Liang Q. Trend analysis of the burden of PCOS and related infertility in China and worldwide between 1990 and 2021. \\emph{Reprod Biomed Online}. 2026;52(2):105239. Published online 2 September 2025. \\href{https://doi.org/10.1016/j.rbmo.2025.105239}{doi:10.1016/j.rbmo.2025.105239}."
+    },
+    {
+      "key": "liang_burden2025",
+      "label": "Liang et al.(2025)",
+      "tex": "Liang Y, Zhong K, Huang Z, Shi W, Ou Y. Global, regional, and national burden of infertility attributable to polycystic ovary syndrome, 1990--2021: results from the Global Burden of Disease Study 2021. \\emph{Front Public Health}. 2025;13:1693486. \\href{https://doi.org/10.3389/fpubh.2025.1693486}{doi:10.3389/fpubh.2025.1693486}."
+    },
+    {
+      "key": "liu_pcos2024",
+      "label": "Liu et al.(2024)",
+      "tex": "Liu X, Zhang J, Wang S. Global, regional, and national burden of infertility attributable to PCOS, 1990--2019. \\emph{Hum Reprod}. 2024;39:108--118. \\href{https://doi.org/10.1093/humrep/dead241}{doi:10.1093/humrep/dead241}."
+    },
+    {
+      "key": "repository",
+      "label": "PCOS research workspace(2026)",
+      "tex": "[dataset] PCOS research workspace. Analysis code, query manifests and aggregate derived results for GBD 2023 infertility comparisons. GitHub; 2026. Immutable revision 1abf337d9f23cc69292e03cd581b6a1557e6effe. \\url{https://github.com/jiabao1314/PCOS/tree/1abf337d9f23cc69292e03cd581b6a1557e6effe/PCOS_Revision_2026-10-29}. Includes the Python/R workflow, input manifest, aggregate results and attributed UN population subset; restricted GBD originals are excluded."
+    },
+    {
+      "key": "gather",
+      "label": "Stevens et al.(2016)",
+      "tex": "Stevens GA, Alkema L, Black RE, Boerma JT, Collins GS, Ezzati M, Grove JT, Hogan DR, Hogan MC, Horton R, et al. Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement. \\emph{PLOS Med}. 2016;13:e1002056. \\href{https://doi.org/10.1371/journal.pmed.1002056}{doi:10.1371/journal.pmed.1002056}."
+    },
+    {
+      "key": "pcos",
+      "label": "Teede et al.(2023)",
+      "tex": "Teede HJ, Tay CT, Laven JJE, Dokras A, Moran LJ, Piltonen TT, Costello MF, Boivin J, Redman LM, Boyle JA, et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. \\emph{J Clin Endocrinol Metab}. 2023;108:2447--2469. \\href{https://doi.org/10.1210/clinem/dgad463}{doi:10.1210/clinem/dgad463}."
+    },
+    {
+      "key": "wpp2024",
+      "label": "United Nations(2024)",
+      "tex": "[dataset] United Nations, Department of Economic and Social Affairs, Population Division. World Population Prospects 2024, Online Edition: population by five-year age group and sex, medium variant, midyear. United Nations; 2024. Source file: \\texttt{WPP2024\\_PopulationByAge5GroupSex\\_Medium.csv.gz}. \\url{https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz}. Historical estimates through 2023 only were selected. Creative Commons Attribution 3.0 IGO."
+    },
+    {
+      "key": "yang",
+      "label": "Yang et al.(2022)",
+      "tex": "Yang R, Li Q, Zhou Z, et al. Changes in the prevalence of polycystic ovary syndrome in China over the past decade. \\emph{Lancet Reg Health West Pac}. 2022;25:100494. \\href{https://doi.org/10.1016/j.lanwpc.2022.100494}{doi:10.1016/j.lanwpc.2022.100494}."
+    }
+  ],
+  "citation_groups": [
+    "pcos",
+    "gbd",
+    "liu_pcos2024",
+    "liang_burden2025",
+    "liang_trend2026",
+    "results",
+    "g20",
+    "gbd",
+    "chen",
+    "kitagawa",
+    "wpp2024",
+    "repository",
+    "gather",
+    "liu_pcos2024,liang_burden2025,liang_trend2026",
+    "yang",
+    "pcos",
+    "repository",
+    "results",
+    "wpp2024"
+  ],
+  "cross_references": [],
+  "tables": [
+    {
+      "number": "1",
+      "caption_tex": "PCOS-attributed infertility rates and contrasts under contemporary GBD population shares.",
+      "note_tex": "Rates and differences are per 100,000 females, standardized within ages 15--49. Difference is China minus reference; ratio is China divided by reference. Calculations precede rounding, so displayed values may not add or subtract exactly. All values are model point estimates without propagated posterior intervals.",
+      "rows": [
+        [
+          "Type",
+          "Year",
+          "China",
+          "Reference",
+          "Difference",
+          "Ratio"
+        ],
+        [
+          "Total",
+          "1990",
+          "333.56",
+          "606.48",
+          "-272.92",
+          "0.550"
+        ],
+        [
+          "Total",
+          "2023",
+          "605.08",
+          "726.45",
+          "-121.38",
+          "0.833"
+        ],
+        [
+          "Primary",
+          "1990",
+          "44.70",
+          "214.64",
+          "-169.94",
+          "0.208"
+        ],
+        [
+          "Primary",
+          "2023",
+          "97.35",
+          "220.89",
+          "-123.54",
+          "0.441"
+        ],
+        [
+          "Secondary",
+          "1990",
+          "288.86",
+          "391.84",
+          "-102.98",
+          "0.737"
+        ],
+        [
+          "Secondary",
+          "2023",
+          "507.72",
+          "505.56",
+          "+2.16",
+          "1.004"
+        ]
+      ]
+    },
+    {
+      "number": "2",
+      "caption_tex": "Symmetric PCOS contrast-change decomposition, 1990--2023, by population source.",
+      "note_tex": "All contributions are per 100,000 females, with fixed standard age weights. Components sum before rounding. UN changes country shares only. Positive and negative components may cancel; percentages use the signed net denominator defined in Methods.",
+      "rows": [
+        [
+          "Type",
+          "Shares",
+          "China rates X",
+          "Ref. rates Q",
+          "Ref. shares S",
+          "Net \\Delta D"
+        ],
+        [
+          "Total",
+          "GBD",
+          "+271.51",
+          "-208.62",
+          "+88.65",
+          "+151.54"
+        ],
+        [
+          "Total",
+          "UN WPP",
+          "+271.51",
+          "-207.59",
+          "+86.76",
+          "+150.69"
+        ],
+        [
+          "Primary",
+          "GBD",
+          "+52.65",
+          "-38.09",
+          "+31.84",
+          "+46.40"
+        ],
+        [
+          "Primary",
+          "UN WPP",
+          "+52.65",
+          "-37.75",
+          "+30.13",
+          "+45.02"
+        ],
+        [
+          "Secondary",
+          "GBD",
+          "+218.86",
+          "-170.53",
+          "+56.81",
+          "+105.14"
+        ],
+        [
+          "Secondary",
+          "UN WPP",
+          "+218.86",
+          "-169.83",
+          "+56.64",
+          "+105.67"
+        ]
+      ]
+    },
+    {
+      "number": "3",
+      "caption_tex": "Benchmark definition changes the 2023 PCOS secondary infertility contrast.",
+      "note_tex": "China's standardized rate is 507.72 per 100,000 throughout. Country weights are applied within each age; the same GBD disease rates and age standard are used. Equal-country rows are identical by construction. Each row represents a different benchmark definition.",
+      "rows": [
+        [
+          "Population source",
+          "Benchmark",
+          "Reference rate",
+          "China minus reference"
+        ],
+        [
+          "GBD",
+          "Current-year shares",
+          "505.56",
+          "+2.16"
+        ],
+        [
+          "GBD",
+          "Fixed-1990 shares",
+          "555.71",
+          "-47.99"
+        ],
+        [
+          "GBD",
+          "Equal countries",
+          "635.61",
+          "-127.89"
+        ],
+        [
+          "UN WPP",
+          "Current-year shares",
+          "505.46",
+          "+2.26"
+        ],
+        [
+          "UN WPP",
+          "Fixed-1990 shares",
+          "556.06",
+          "-48.34"
+        ],
+        [
+          "UN WPP",
+          "Equal countries",
+          "635.61",
+          "-127.89"
+        ]
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "number": "1",
+      "image": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/figures/20261030_v6_Figure1_PCOS_trends.png",
+      "sha256": "1a33085e7426d120855a109818272204c9ffdf39371f84de0d2b64195ce6a4cf",
+      "caption_tex": "\\textbf{PCOS-attributed total infertility rates and China-minus-reference differences.} The reference pools the 18 countries within age before fixed-age standardization. Both national and reference modeled rates increase. All values are point estimates without propagated GBD uncertainty.",
+      "alt_tex": "\\textbf{Alt text:} Two-panel line plot. China and the population-pooled reference both increase from 1990 to 2023; the China-minus-reference difference remains negative and narrows from minus 272.92 to minus 121.38 per 100,000."
+    },
+    {
+      "number": "2",
+      "image": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/figures/20261030_v6_Figure2_PCOS_subtypes.png",
+      "sha256": "49c46f01048a7e0c5f0952a61092b42633c19c94f92d1c0d2c43299f060bc94d",
+      "caption_tex": "\\textbf{PCOS-attributed primary and secondary infertility trajectories.} The same population-pooled GBD reference and age standard are used. The categories do not track individual transitions.",
+      "alt_tex": "\\textbf{Alt text:} Primary and secondary PCOS-attributed infertility trajectories. The primary contrast remains negative; the secondary contrast approaches zero and is plus 2.16 per 100,000 in 2023 under contemporary GBD reference shares."
+    },
+    {
+      "number": "3",
+      "image": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/figures/20261030_v6_Figure3_decomposition.png",
+      "sha256": "bcfa95341b505d4ddf46db1dcb466acd71ba813cae205d29c0628db044134e8a",
+      "caption_tex": "\\textbf{Absolute symmetric components of changing PCOS contrasts, 1990--2023.} China-rate, reference-rate and reference-share components add to the diamond-marked net changes before rounding. Components with opposing signs cancel; their percentages of the net are descriptive accounting ratios.",
+      "alt_tex": "\\textbf{Alt text:} Bars separate Chinese rate, reference rate and reference share components by infertility type, with diamonds for net changes. For total infertility the components are plus 271.51, minus 208.62 and plus 88.65 per 100,000."
+    },
+    {
+      "number": "4",
+      "image": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/figures/20261030_v6_Figure4_population_source.png",
+      "sha256": "92e3457a2cbe84083acd16355e1efea6ca83cc4000b20743ab4efd59e2f881ae",
+      "caption_tex": "\\textbf{Alternative demographic-source weighting of the PCOS comparison.} Panel A shows annual total-infertility differences; panel B shows endpoint decomposition components. Only within-age reference-country shares change between GBD and UN scenarios; disease rates and age weights remain fixed.",
+      "alt_tex": "\\textbf{Alt text:} Annual differences and endpoint components under GBD and UN shares are close. For total infertility, the share component is plus 88.65 with GBD and plus 86.76 with UN; disease rates are held fixed."
+    },
+    {
+      "number": "5",
+      "image": "PCOS_HumanReproduction_v6_2026-10-30/manuscript/figures/20261030_v6_Figure5_benchmark_sensitivity.png",
+      "sha256": "de0c408d14dfe0c3c06e1756b1e3d1d90d6ce355a02213bc1c5a2468a4df0a87",
+      "caption_tex": "\\textbf{Benchmark dependence of the 2023 PCOS secondary-infertility difference.} Current-year, fixed-1990 and equal-country reference weights answer different comparison questions. Bars show point estimates under GBD or UN population shares. Equal-country values coincide by construction; no bar represents a confidence interval.",
+      "alt_tex": "\\textbf{Alt text:} Benchmark bars for secondary infertility in 2023. The GBD difference is plus 2.16 with current shares, minus 47.99 with 1990 shares and minus 127.89 with equal-country weights; UN scenarios show the same sign pattern."
+    }
+  ],
+  "numbered_equations": [
+    {
+      "number": 1,
+      "latex": "s_{c,a,t}=\\frac{P_{c,a,t}}{\\sum_{j\\in\\mathcal{R}}P_{j,a,t}}, \\qquad \n A_{\\mathrm{R},t,k}=\\sum_a w_a\\sum_{c\\in\\mathcal{R}}s_{c,a,t}r_{c,a,t,k},"
+    },
+    {
+      "number": 2,
+      "latex": "A_{\\mathrm{CHN},t,k}=\\sum_a w_ar_{\\mathrm{CHN},a,t,k}, \\qquad \n D_{t,k}=A_{\\mathrm{CHN},t,k}-A_{\\mathrm{R},t,k}."
+    },
+    {
+      "number": 3,
+      "latex": "\\Delta D_k(t_0,t_1)=X_k+Q_k+S_k,"
+    },
+    {
+      "number": 4,
+      "latex": "X_k=\\sum_a w_a(r_{\\mathrm{CHN},a,t_1,k}-r_{\\mathrm{CHN},a,t_0,k}),"
+    },
+    {
+      "number": 5,
+      "latex": "Q_k=-\\sum_a w_a\\sum_{c\\in\\mathcal{R}}\\frac{s_{c,a,t_0}+s_{c,a,t_1}}{2}(r_{c,a,t_1,k}-r_{c,a,t_0,k}),"
+    },
+    {
+      "number": 6,
+      "latex": "S_k=-\\sum_a w_a\\sum_{c\\in\\mathcal{R}}\\frac{r_{c,a,t_0,k}+r_{c,a,t_1,k}}{2}(s_{c,a,t_1}-s_{c,a,t_0})."
+    },
+    {
+      "number": 7,
+      "latex": "\\underbrace{+271.51}_{X}\\;\\underbrace{-208.62}_{Q}\\;\\underbrace{+88.65}_{S}\n =\\underbrace{+151.54}_{\\Delta D}\\quad\\text{per 100,000},"
+    }
+  ],
+  "all_math_latex": [
+    "c",
+    "a",
+    "t",
+    "k",
+    "N_{c,a,t,k}",
+    "P_{c,a,t}",
+    "r_{c,a,t,k}=10^5N_{c,a,t,k}/P_{c,a,t}",
+    "\\mathcal{R}",
+    "\\mathrm{CHN}",
+    "\\mathrm{R}",
+    "s_{c,a,t}=\\frac{P_{c,a,t}}{\\sum_{j\\in\\mathcal{R}}P_{j,a,t}}, \\qquad \n A_{\\mathrm{R},t,k}=\\sum_a w_a\\sum_{c\\in\\mathcal{R}}s_{c,a,t}r_{c,a,t,k},",
+    "A_{\\mathrm{CHN},t,k}=\\sum_a w_ar_{\\mathrm{CHN},a,t,k}, \\qquad \n D_{t,k}=A_{\\mathrm{CHN},t,k}-A_{\\mathrm{R},t,k}.",
+    "w_a",
+    "s_{c,a,t}",
+    "D_{t,k}",
+    "\\Delta D_k(t_0,t_1)=D_{t_1,k}-D_{t_0,k}",
+    "\\Delta D_{\\mathrm{total}}(1990,2023)",
+    "t_0",
+    "t_1",
+    "\\Delta D_k(t_0,t_1)=X_k+Q_k+S_k,",
+    "X_k=\\sum_a w_a(r_{\\mathrm{CHN},a,t_1,k}-r_{\\mathrm{CHN},a,t_0,k}),",
+    "Q_k=-\\sum_a w_a\\sum_{c\\in\\mathcal{R}}\\frac{s_{c,a,t_0}+s_{c,a,t_1}}{2}(r_{c,a,t_1,k}-r_{c,a,t_0,k}),",
+    "S_k=-\\sum_a w_a\\sum_{c\\in\\mathcal{R}}\\frac{r_{c,a,t_0,k}+r_{c,a,t_1,k}}{2}(s_{c,a,t_1}-s_{c,a,t_0}).",
+    "X_k",
+    "Q_k",
+    "S_k",
+    "100S_k/\\Delta D_k(t_0,t_1)",
+    "\\underbrace{+271.51}_{X}\\;\\underbrace{-208.62}_{Q}\\;\\underbrace{+88.65}_{S}\n =\\underbrace{+151.54}_{\\Delta D}\\quad\\text{per 100,000},",
+    "X",
+    "Q",
+    "S",
+    "\\Delta D"
+  ],
+  "xx_count": 23
+}
