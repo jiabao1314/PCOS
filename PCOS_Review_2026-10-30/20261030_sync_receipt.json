@@ -1,0 +1,146 @@
+{
+  "created_utc": "2026-10-30 12:09:45 UTC",
+  "scope": "PCOS comment audit and Codex execution plan; no new scientific analysis",
+  "status": "VERIFIED",
+  "artifact_commit": "38a7e08580e806220c815e9a5ac1e4d62d3871ea",
+  "shared_context_commit": "f10f557009aa9692137ef49c679eb06fc7654e41",
+  "drive_folder": "https://drive.google.com/drive/folders/1iMBqP16WHtgiPdBBrQ03dMeyJ90YFVUu",
+  "artifact_count": 7,
+  "artifact_files": [
+    {
+      "path": "PCOS_Review_2026-10-30/20261030_README.txt",
+      "bytes": 638,
+      "sha256": "d0058da965b88c89abbabc7627e362804cf24c556cfc5af9a302e043b2870a6b",
+      "git_blob_sha1": "310134ee6ee604bb126de71fe052e1a1f3e7e509",
+      "drive_id": "1SX1rK_wSiGBMW7LUynJ_dR6peHKCqgRx",
+      "drive_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Review_2026-10-30/20261030_v5_comment_crosswalk.json",
+      "bytes": 31549,
+      "sha256": "fc20491b245eaab518115e7116cc031f1e8fcffc6681cb40d021fbe094d773ef",
+      "git_blob_sha1": "1b424fb9345dc88cd97bc3a13b14e9d3e9509407",
+      "drive_id": "1_48F9ktJhNarx38N4Y4bQVr2kA71v5aB",
+      "drive_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Review_2026-10-30/20261030_comment_tasks.csv",
+      "bytes": 15750,
+      "sha256": "57b60de021bb2ea2832a003438e24d23118ddb7a1ddb547f449b1d07fd3678ef",
+      "git_blob_sha1": "dddfa014d3127c9372d9e7102dbfd0458f91dcb5",
+      "drive_id": "1AR8s0T14vWbxCM7w_ILIovQ9vX-jJHch",
+      "drive_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Review_2026-10-30/20261030_review_verification.json",
+      "bytes": 1514,
+      "sha256": "6b6a339e8eee0b7bd235cc172bc727a1fbc89e0ca7ded8c6a0931889c1f02538",
+      "git_blob_sha1": "5e0358c200bc586ef98199a975975ad74f781a95",
+      "drive_id": "1vP_qcAa0aeimX3sWd_PpGJ4ATW5OrSKT",
+      "drive_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Review_2026-10-30/20261030_PCOS_17条批注修改与Codex执行方案.docx",
+      "bytes": 79537,
+      "sha256": "2606899688bd16850ca2046775c7bb13d58b770c5ddb7f0311cfbb4bec25f3bd",
+      "git_blob_sha1": "88e88a46b47daf89bdaf34d47c7cbc88ecb2719f",
+      "drive_id": "1-5HnPoB_K7M2NQZyfeu9XSpekSM_SvT6",
+      "drive_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Review_2026-10-30/20261030_build_review_docx.py",
+      "bytes": 13852,
+      "sha256": "37ac04ae83e566ed65d93fb8a2c511fb8e4378bcac19a8608f23b86dc40b5653",
+      "git_blob_sha1": "27aee1950429a896c3c7b4451050d99f45e89995",
+      "drive_id": "1qDMuxzAIphz7O-BoH_PoeQQk7899pyd0",
+      "drive_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    },
+    {
+      "path": "PCOS_Review_2026-10-30/20261030_review_plan_content.json",
+      "bytes": 93170,
+      "sha256": "6b912bcbfe7e66b62bf69a8f3898e453ed02a02f5e0995e570447b214d2d090e",
+      "git_blob_sha1": "9ac99c21e9ac935320815f3fe3f3d0f27bced19c",
+      "drive_id": "18RSaFU3s5_XXWxBJwYD7-HZKjiILyaYx",
+      "drive_bytes_verified": true,
+      "github_committed_bytes_verified": true
+    }
+  ],
+  "shared_context_files": [
+    {
+      "name": "CHATGPT_HANDOFF.md",
+      "drive_id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "sha256": "3e81c1a386aa7fec65b481d0f7eda529e6eaaff02558f99e655be1a1c3384836",
+      "git_blob_sha1": "3db7b6aafecbc35928956ce14c9a25b07d0b36a3",
+      "bytes": 15405,
+      "drive_verified": true,
+      "github_verified": true
+    },
+    {
+      "name": "CODEX_RUN_LOG.md",
+      "drive_id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "sha256": "158601c4cad163e2c3b1c341d6f29f254a487e2d3af8d74b625278c9fcb18c33",
+      "git_blob_sha1": "fb199e84bcb8ca32eae9248d177012deb351edd3",
+      "bytes": 46408,
+      "drive_verified": true,
+      "github_verified": true
+    },
+    {
+      "name": "DECISIONS.md",
+      "drive_id": "1xzP-OMTmwv18prRITfaw3fOqnDBcRwkk",
+      "sha256": "54ac47d32ae446767c9bb4da0a2ee565a0e755dd3fe8c746800742f1d7e6e758",
+      "git_blob_sha1": "909b779b8ffb755e98df9e8c9f8e3b2579fbd5ee",
+      "bytes": 6337,
+      "drive_verified": true,
+      "github_verified": true
+    },
+    {
+      "name": "NEXT_ACTIONS.md",
+      "drive_id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "sha256": "f82a023cd3219e436399308f077f602821a96167b413881334476d8d23db1ffd",
+      "git_blob_sha1": "0331c99bf454180384a9713e5a870c40d516e653",
+      "bytes": 14149,
+      "drive_verified": true,
+      "github_verified": true
+    },
+    {
+      "name": "PROJECT_STATUS.md",
+      "drive_id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "sha256": "937f6e10ae348d4d34fc2900fcb7bb0c69fa15d02c37fc314ab2703fae2176aa",
+      "git_blob_sha1": "f2a562a7cfbdf1e8f115ac4267e9ba8a053e550e",
+      "bytes": 12948,
+      "drive_verified": true,
+      "github_verified": true
+    },
+    {
+      "name": "RESULTS_INDEX.csv",
+      "drive_id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "sha256": "c4611dd6598b3b6aa0304329af87803431865b9e236b512a77acbf1d91c480cf",
+      "git_blob_sha1": "0419a0c65f32e24b9b17ac002a527a6dbfaefdef",
+      "bytes": 300692,
+      "drive_verified": true,
+      "github_verified": true
+    },
+    {
+      "name": "SYNC_CHECK.md",
+      "drive_id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "sha256": "6e4fad6e8e270b77e86017afb0ea334b00bd0b43031950bb5e262e087bde637c",
+      "git_blob_sha1": "40839bb792306feeed975b472fe5552835abd9f9",
+      "bytes": 15991,
+      "drive_verified": true,
+      "github_verified": true
+    }
+  ],
+  "data_catalog_changed": false,
+  "statistics_rerun": false,
+  "joint_draws_obtained": false,
+  "v6_created": false,
+  "submission_or_external_messages": false,
+  "old_versions_preserved": true,
+  "note": "This receipt records already verified artifact and shared-context commits. Its own publication is verified after creation and is not self-referenced."
+}
