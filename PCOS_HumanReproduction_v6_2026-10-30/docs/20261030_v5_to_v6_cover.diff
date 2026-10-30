@@ -1,0 +1,23 @@
+--- v5/cover_letter.tex
++++ 20261030_PCOS_HumanReproduction_v6_CoverLetter.tex
+@@ -6,7 +6,7 @@
+ \setstretch{1.08}\setlength{\parindent}{0pt}\setlength{\parskip}{9pt}
+ \pagestyle{empty}
+ \begin{document}\sloppy
+-29 October 2026\\
++30 October 2026\\
+ Editor-in-Chief\\
+ \emph{Human Reproduction}
+ 
+@@ -18,9 +18,9 @@
+ 
+ In GBD 2023 estimates for females aged 15--49, the total China-minus-18-country difference changed by +151.54 per 100,000 between 1990 and 2023. Established symmetric accounting allocated +88.65 to reference-country composition, +271.51 to Chinese rates and $-208.62$ to reference-country rates. Substituting UN WPP 2024 shares gave +86.76 for composition. Alternative benchmark definitions changed the sign of a near-zero secondary-infertility contrast in 2023.
+ 
+-Liu and colleagues' 2024 \emph{Human Reproduction} study (doi:10.1093/humrep/dead241) examined burden and geographical trends. Our contribution addresses pooled-reference construction and reporting, rather than a new decomposition algorithm, clinical association or allegation that earlier national comparisons were erroneous. This exploratory aggregate analysis does not estimate causal effects, individual risk or treatment benefit. Confirmed jointly aligned GBD posterior draws were unavailable; derived uncertainty intervals are therefore not supplied. Code and aggregate results are available at an immutable public revision identified in the article; licensed GBD originals and restricted source-cell extracts are excluded.
++The study makes explicit how the population represented by a pooled reference changes within age. It adds absolute country-composition accounting to the geographical burden and trend questions addressed by earlier PCOS-attributed infertility studies, and shows why the same near-zero secondary contrast changes sign under different reference definitions. Reporting reference weights and absolute components can improve the interpretation of reproductive-health monitoring. Jointly aligned posterior draws were not obtained; derived results retain their point-estimate status. Code and aggregate outputs are linked to the immutable scientific snapshot; licensed source extracts remain in the private archive.
+ 
+-OpenAI ChatGPT and Codex supported code development, analysis checks, drafting and technical editing under researcher-specified questions and revision instructions. The recorded model identifier for the documented Codex session on 29 October 2026 was \texttt{gpt-6.1-sol}; exact model versions for earlier separate ChatGPT sessions could not be independently verified and are not specified. No artificial observations or posterior draws replaced study data. The authors' final scientific review, verification of AI-supported content and approval remain to be confirmed before submission; human authors retain responsibility for the work.
++OpenAI ChatGPT and Codex supported code development, analysis checks, drafting and technical editing under researcher-specified questions and revision instructions, including editorial revision and document checks on 30 October 2026. The earlier documented Codex session on 29 October 2026 recorded \texttt{gpt-6.1-sol}; exact model versions for earlier separate ChatGPT sessions and an independently verified serving identifier for this later revision are not specified. No artificial observations or posterior draws replaced study data. The authors' final scientific review, verification of AI-supported content and approval remain to be confirmed before submission; human authors retain responsibility for the work.
+ 
+ XX: Corresponding author to confirm final author approval, authorship order, exclusive consideration, related manuscripts/preprints, funding and disclosures, and institutional ethics-review applicability before submission. These declarations have not been assumed on behalf of the authors.
+ 

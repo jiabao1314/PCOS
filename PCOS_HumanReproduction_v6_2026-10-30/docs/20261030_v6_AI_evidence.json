@@ -1,0 +1,23 @@
+{
+  "earlier_verified_evidence": {
+    "verified_tool": "OpenAI Codex",
+    "recorded_model_identifier": "gpt-6.1-sol",
+    "verified_date": "2026-10-29",
+    "basis": "turn_context metadata of the current PCOS editing session",
+    "evidence_sha256": "f450a519f4fb26812144e55ad708cdc533d2e552df168e061b30e8992e8f2470",
+    "earlier_separate_ChatGPT_versions": "not independently verified; not supplied",
+    "exact_serving_snapshot": "not established by the model identifier",
+    "author_final_verification": "pending; no approval assumed"
+  },
+  "current_revision_date": "2026-10-30",
+  "current_tools": "OpenAI Codex; actual builder and QC commands retained",
+  "current_serving_model_identifier_independently_verified": false,
+  "uses": [
+    "code development",
+    "analysis checks",
+    "drafting",
+    "technical editing",
+    "document production"
+  ],
+  "author_final_approval": "pending; not assumed"
+}

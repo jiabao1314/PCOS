@@ -1,0 +1,45 @@
+{
+  "verified_at": "2026-10-30T13:35:28+01:00",
+  "old_v5_files_preserved": 82,
+  "unchanged_core_tables": 3,
+  "unchanged_existing_supplement_numerical_tables": 8,
+  "new_supplement_tables": [
+    "S10 recent endpoints",
+    "S11 outcome definitions"
+  ],
+  "main_numbered_equations": 7,
+  "all_17_verbatim_comments_preserved": true,
+  "comments_with_completed_edit_or_reasoned_response": 16,
+  "comment_51": "partial response; qualified joint draws missing",
+  "core_point_estimates_changed": false,
+  "new_scientific_model_fitted": false,
+  "posterior_intervals_added": false,
+  "un_source_role_preserved": true,
+  "original_XX_counts": {
+    "main": 22,
+    "supplement": 2,
+    "cover": 5
+  },
+  "pdfs": {
+    "main": {
+      "pages": 19,
+      "sha256": "2aaae32418539426663ca2d1302ea2d8a22b144300a77c24f4ce867996228210",
+      "compile_exit_code": 0,
+      "visual_inspection": "pending"
+    },
+    "supplement": {
+      "pages": 21,
+      "sha256": "33b750e4f39f0620a07f6a1a1e43dd126314e3fe22e3cfc22cdc53883fb2b4ee",
+      "compile_exit_code": 0,
+      "visual_inspection": "pending"
+    },
+    "cover": {
+      "pages": 1,
+      "sha256": "87acc35f86a68de3903d2c567c71c9a0569cde2ea19d93c759c7309963e37358",
+      "compile_exit_code": 0,
+      "visual_inspection": "pending"
+    }
+  },
+  "visual_inspection": "pending",
+  "submitted": false
+}

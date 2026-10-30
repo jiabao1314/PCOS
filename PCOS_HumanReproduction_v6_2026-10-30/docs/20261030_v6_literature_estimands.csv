@@ -1,0 +1,6 @@
+study,doi,release_period,target,access,relation
+Liu et al. 2024,10.1093/humrep/dead241,GBD2019 1990-2019,Geographical prevalence/YLD and trends,Original Methods text via publisher search extraction and PubMed abstract; prior plan/full-text audit retained,Different target from explicit China-minus-18-country pool
+Liang et al. 2025,10.3389/fpubh.2025.1693486,GBD2021 1990-2021,"Burden/trends; Das Gupta population growth, ageing, epidemiological count components",Publisher full-text Methods,Count components differ from country shares within fixed age standard
+Liang 2026,10.1016/j.rbmo.2025.105239,GBD2021 1990-2021; online2025 volume2026,"China/worldwide PCOS and related infertility trends, Joinpoint and ARIMA",PubMed abstract only; full comparator construction unverified,No inference about an undocumented pooling formula
+Yang et al. 2022,10.1016/j.lanwpc.2022.100494,Community surveys2010/2020,Rotterdam PCOS among married Han women20-49; conditional infertility characteristics,PMC full text; detailed infertility questionnaire threshold not independently established,Definition context; no clinical rate validation
+Teede et al. 2023,10.1210/clinem/dgad463,2023 clinical guideline,PCOS assessment and management,PMC full text,Clinical diagnostic/care context; not a GBD modeled impairment-rate dataset

@@ -1,0 +1,20 @@
+gbd_country,ISO3_code,reference
+Argentina,ARG,True
+Australia,AUS,True
+Brazil,BRA,True
+Canada,CAN,True
+China,CHN,False
+Germany,DEU,True
+France,FRA,True
+United Kingdom,GBR,True
+Indonesia,IDN,True
+India,IND,True
+Italy,ITA,True
+Japan,JPN,True
+Republic of Korea,KOR,True
+Mexico,MEX,True
+Russian Federation,RUS,True
+Saudi Arabia,SAU,True
+Türkiye,TUR,True
+United States of America,USA,True
+South Africa,ZAF,True

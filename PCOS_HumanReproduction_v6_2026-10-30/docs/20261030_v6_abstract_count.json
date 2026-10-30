@@ -1,0 +1,44 @@
+{
+  "method": "Pandoc LaTeX-to-plain followed by whitespace split; same method both versions",
+  "internal_target_without_headings": [
+    350,
+    450
+  ],
+  "journal_hard_limit_asserted": false,
+  "counts": {
+    "v5": {
+      "words_without_headings": 426,
+      "words_with_headings": 462,
+      "headings": [
+        "STUDY QUESTION",
+        "SUMMARY ANSWER",
+        "WHAT IS KNOWN ALREADY",
+        "STUDY DESIGN, SIZE, DURATION",
+        "PARTICIPANTS/MATERIALS, SETTING, METHODS",
+        "MAIN RESULTS AND THE ROLE OF CHANCE",
+        "LIMITATIONS, REASONS FOR CAUTION",
+        "WIDER IMPLICATIONS OF THE FINDINGS",
+        "FUNDING",
+        "DISCLOSURES",
+        "TRIAL REGISTRATION NUMBER"
+      ]
+    },
+    "v6": {
+      "words_without_headings": 352,
+      "words_with_headings": 388,
+      "headings": [
+        "STUDY QUESTION",
+        "SUMMARY ANSWER",
+        "WHAT IS KNOWN ALREADY",
+        "STUDY DESIGN, SIZE, DURATION",
+        "PARTICIPANTS/MATERIALS, SETTING, METHODS",
+        "MAIN RESULTS AND THE ROLE OF CHANCE",
+        "LIMITATIONS, REASONS FOR CAUTION",
+        "WIDER IMPLICATIONS OF THE FINDINGS",
+        "FUNDING",
+        "DISCLOSURES",
+        "TRIAL REGISTRATION NUMBER"
+      ]
+    }
+  }
+}

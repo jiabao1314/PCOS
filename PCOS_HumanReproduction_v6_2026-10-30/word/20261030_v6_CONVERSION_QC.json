@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-30T13:42:15.284970+01:00",
+  "documents": {
+    "main": {
+      "sha256": "96aa7484a894048681be05c59195eb5bca031d8b826c2e32f1aa4e7133a67b49",
+      "native_editable_math_objects": 49,
+      "numbered_equations": 7,
+      "math_recovered_by_docx_reader": 49,
+      "all_nonmath_text_exact_after_whitespace_normalization": true,
+      "nonmath_characters_verified": 26946,
+      "references": 14,
+      "editable_tables": 3,
+      "body_table_rows_exactly_verified": 18,
+      "source_pngs_byte_identical": 5,
+      "xx_occurrences_preserved": 22,
+      "continuous_line_numbers": true,
+      "right_header_page_field": true
+    },
+    "supplement": {
+      "sha256": "fa91c88caf4abc93802fefdc59b045074c5c6762468432cd6095546f6bab5be2",
+      "native_editable_math_objects": 21,
+      "numbered_equations": 0,
+      "math_recovered_by_docx_reader": 21,
+      "all_nonmath_text_exact_after_whitespace_normalization": true,
+      "nonmath_characters_verified": 19344,
+      "references": 0,
+      "editable_tables": 12,
+      "body_table_rows_exactly_verified": 153,
+      "source_pngs_byte_identical": 7,
+      "xx_occurrences_preserved": 2,
+      "continuous_line_numbers": true,
+      "right_header_page_field": true
+    }
+  },
+  "existing_v4_files_preserved": 82,
+  "visual_inspection": "pending",
+  "submitted": false
+}
