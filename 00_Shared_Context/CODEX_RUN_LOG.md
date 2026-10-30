@@ -1,5 +1,16 @@
 # Codex 实际运行日志
 
+## 2026-10-30T13:03:29+01:00 — ChatGPT批注审阅与执行书制作 非科研重算
+
+- 范围：读取真实云端共享记录及GitHub当前快照；完整审阅上传Word17条批注；下载并读取已有v5完整包；核对已存代码/CSV及19条文献/官方证据；制作32页Word与配套任务。
+- 研究/稿件基线：科学快照1abf337d9f23cc69292e03cd581b6a1557e6effe，v5制品07b3a3e305e98770117b81fbed340090150b493c；本轮发布前main为fa88b6c4e8a96aeadf61b9298069ac9923b81bf7。读取未修改既有研究目录；不执行git reset、force push或全目录暂存。
+- 实际文档命令：primary runtime Python执行review/plan_content.py、review/extend_plan_content.py、review/build_review_docx.py；documents/render_docx.py输出qa_final中32页PNG及内部QA PDF。先运行规定的文档创建marker一次。最终所有页被实际打开检查，17条原批注逐字验证，14原生数学对象和11表检查通过。
+- 修复记录：规范两条零宽公式锚点；修正“率变化相反”为“对率差贡献相反”；补固定权重线性量的draw均值重构门槛、条件性英文示例与19篇一对一引用；调整分页。同步准备发现早期本地中间文本多一个末尾换行、CSV换行被规范化，遂改用双端一致的云端原始文本重建精确基线；没有覆盖云端差异。
+- 科研状态：statistics_rerun=false；new_joint_draws=false；v6_created=false；没有新raw/processed研究数据，DATA_CATALOG不改。报告写明R/Python旧QC记录不是本轮运行结果。
+- 允许发布清单：仅PCOS_Review_2026-10-30的7项审阅制品；SHA256与git blob SHA逐项生成，Word SHA256为2606899688bd16850ca2046775c7bb13d58b770c5ddb7f0311cfbb4bec25f3bd。原始受限GBD表、国家年龄源单元、医院资料均未上传。
+- 实际发布：GitHub制品提交`38a7e08580e806220c815e9a5ac1e4d62d3871ea`，7文件已按提交读取并逐字节匹配；Drive https://drive.google.com/drive/folders/1iMBqP16WHtgiPdBBrQ03dMeyJ90YFVUu 中7文件亦原始字节读取匹配。当前本条及另6份共享记录通过最新基线合并写回，最终提交/校验详情由`PCOS_Review_2026-10-30/20261030_sync_receipt.json`记录，避免本文件自引用。
+- 下一项：按新Word的T00–T07推进独立修订，draws等依赖决定分支；不投稿、不外发消息，保留XX与作者最终确认。
+
 ## 2026-10-30T09:36:40+01:00 — 共享口令配置记录（非科研重算）
 
 实际执行：Drive连接器原文件读取7份共享文件，Python回下载逐字节比对本机一致；读取3份支持文件并保存基线（Drive AGENTS仅缺已确认日期命名行，已明确合并）；git fetch origin main；python3 scripts/shared_context.py pull（0文件复制，桌面一致）。依据用户指令修改根AGENTS、共享项目指令、流程/映射及本轮共享状态。未执行新的科研命令，未改变数据或论文。
