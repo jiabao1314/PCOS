@@ -1,0 +1,870 @@
+{
+  "at": "2026-10-30T16:00:33+01:00",
+  "task": "Accepted v6 portable full-data reproduction package with independent R and three Jupyter notebooks; teacher Windows validation pending; no submission",
+  "artifact_commit": "c9200003d1298ba0c7119ab987adb758222f9c11",
+  "shared_context_commit": "703444c32478df7fcab1d47668f869a216bc0415",
+  "Drive_folder": "https://drive.google.com/drive/folders/1efGZdjoLTDKT_G5p0fehjzp_X7zWcTMv",
+  "Drive_stored_files": [
+    {
+      "id": "1UiCu2tFoPIWNUqO_GmEDqR3VFncB2i6-",
+      "name": "20261030_PCOS_v6_Reproduction_FULL_PRIVATE.zip",
+      "sha256": "7d6adcf66a193b2830b06ee1b8ae099ed699d71f4fd2b417fa644a38d43b99ff"
+    },
+    {
+      "id": "153RiJAQ2UA9dS4uS4w-omNWjo4GKtTDk",
+      "name": "20261030_PCOS_v6_Reproduction_PUBLIC.zip",
+      "sha256": "5fa98ff52527f81d88745592d1d96f915f07ea1d42e8b8c7783626409fc4e541"
+    },
+    {
+      "id": "1_ssB2_z0KdTAjLGg0q2WA24o9Oqh6IXW",
+      "name": "20261030_README_ZH.md",
+      "sha256": "8a9d917bf318ab9c856d065e4198159b7fda09139fb63175ee9294549aa2d4ab"
+    },
+    {
+      "id": "1SqQDnA2EAs3_Gn5AdXwU3s3hQkkGU7Lr",
+      "name": "build_v6_reproduction_20261030.py",
+      "sha256": "9d66520ec39ed8c0c2feae270f3f379456b3d0b8143690aaa4fb3e526046d2ff"
+    },
+    {
+      "id": "15OqyHPa5lhAeTAkosviqUNxtZ8e3OAKs",
+      "name": "20261030_FINAL_VALIDATION.json",
+      "sha256": "98006a9b5b1be5647e244c1938ee0ffb22c2a677c613e6173b67ac05b3209540"
+    }
+  ],
+  "Drive_full_files_verified": 5,
+  "GitHub_and_Drive_public_files_verified": 104,
+  "public_zip_members_verified": 103,
+  "private_zip_members_verified": 241,
+  "private_zip_GBD_originals": 4,
+  "public_zip_GBD_originals": 0,
+  "private_zip_sha256": "7d6adcf66a193b2830b06ee1b8ae099ed699d71f4fd2b417fa644a38d43b99ff",
+  "private_zip_bytes": 10572366,
+  "shared_context_files": [
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "Drive_id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "bytes": 28575,
+      "sha256": "cb03268f6ff439176d89a5ad9b9135f5534dfc37536e4a46a94f4041162ff84d",
+      "git_blob": "8df971a9f80fae5475365babeba0da2f3eae4fa9",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "Drive_id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "bytes": 34039,
+      "sha256": "dbbe58620f345295c9b51539f8e04f31b67a0de554e8fa110936ab10ea5ef90b",
+      "git_blob": "caa0b2d20aa39c6b41d1ee8673919ef65d1e62fa",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "Drive_id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "bytes": 23519,
+      "sha256": "fadf02d009d9331976aba387313b8e12aff223850a61c5acf9edaaf403fc61dd",
+      "git_blob": "ae8c0f4a360c1fffab5df0e9940658ade56dc1ed",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "Drive_id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "bytes": 31176,
+      "sha256": "d95491227af31eee2c8596a66ab9178bc2655be5c1049a30118fa80e39eae8f0",
+      "git_blob": "24dfb48884e2ca87084254eeddd7803b224309b5",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "Drive_id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "bytes": 90745,
+      "sha256": "ce630fe17538f65c7fbfa4b91a28eebf652609aa60d4790a10b4adf5d66a583d",
+      "git_blob": "466d4cb049b6abdda554d5d3ce036175bead3459",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "Drive_id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "bytes": 480661,
+      "sha256": "c34e5904814521092b3ee8bffa9139e754d1e3316beb1d07109e6639f8924f0f",
+      "git_blob": "b75f1c0f066942eb82aa18d6c3278f6036ceb23a",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/DECISIONS.md",
+      "Drive_id": "1xzP-OMTmwv18prRITfaw3fOqnDBcRwkk",
+      "bytes": 10102,
+      "sha256": "3174860decff57432e022e195334a14302484523c145bb99be091e208287e7d2",
+      "git_blob": "5f211a01d5bbdc918561fbe0d23010a6bde40519",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "00_Shared_Context/DATA_CATALOG.csv",
+      "Drive_id": "1FhvPYllcSMI3iX3bp9xQrlPunTNkk_f0",
+      "bytes": 49725,
+      "sha256": "dd6eb92b5050d3d9f4b92b2e119c990c672398db72ad623b4ba3fe0d67140078",
+      "git_blob": "0c545db4bf80393a634eb364b4356e35fc8b4f7b",
+      "Drive_raw_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    }
+  ],
+  "public_artifact_files": [
+    {
+      "path": "20261030_PCOS_v6_Reproduction/.gitignore",
+      "sha256": "13b006578ceb2e103175bcad5db44be773b9cc9dcdda0deaf2be4e295d1514e8",
+      "bytes": 197,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/20261030_PCOS_v6.Rproj",
+      "sha256": "48fbc0e143082d48ff17b6e6ec72c8215b229ec1e5d8f5983bc5756050e5cf47",
+      "bytes": 91,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/20261030_README_ZH.md",
+      "sha256": "8a9d917bf318ab9c856d065e4198159b7fda09139fb63175ee9294549aa2d4ab",
+      "bytes": 5852,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/20261030_Run_All_Windows.ps1",
+      "sha256": "b4e7a6b7ef74dcabd6f8736b51830be284336bc6cc55a1bcf4d8966dbb3dcd6f",
+      "bytes": 345,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/20261030_Setup_Windows.ps1",
+      "sha256": "d6d72aee04f66ab38c75a8ced7a84f40574cf32bc80284fadf6484f63ab234f9",
+      "bytes": 638,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/20261030_Start_Jupyter.cmd",
+      "sha256": "fafdd0224c388c2d1b82fbced586d0549f5f437003d64fbbbf9d5cbacc56a552",
+      "bytes": 176,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/PCOS_NewArticle_complete.R",
+      "sha256": "09848df5ae2a542d9ce7718bf70a87e43568e3a88ac46037deb9fb52a6ea5f4a",
+      "bytes": 9111,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/PCOS_NewArticle_complete.py",
+      "sha256": "96dc848c7ea9080a297d347c9857a6700da9f0af48728fcc82b50cf676e2fe43",
+      "bytes": 11881,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/extract_wpp2024.py",
+      "sha256": "3fa4866d460ede2e0d7a40c07e6549c82cd175528173833a8ff09e8402342057",
+      "bytes": 3800,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/figures_R.R",
+      "sha256": "3cc0b9a1aad2d7c000f31d4b402ed7416d1e4ae4030515cc871fd611ba68cf98",
+      "bytes": 6666,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/make_notebooks.py",
+      "sha256": "b3ef2cf58bb90a5dd6498d922c47b74749a0750094f7a95caf5074ef2498d09b",
+      "bytes": 12040,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/notebook_support.py",
+      "sha256": "843a37ec9e7a87c67c59162504b3e7404ff1e9a3d7bd36c347386a7faf7d8c0a",
+      "bytes": 1075,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/reproduce.py",
+      "sha256": "d91759d74462aece718e36b046cc9bba3d69607b05e0dc1ed51657d9654f909f",
+      "bytes": 8718,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/reproduce_all.R",
+      "sha256": "e86e3ae1a239e2e4f0c0a3627875901b501f26e2a2b2b9990c382e70293ebe95",
+      "bytes": 9049,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/revision_analysis.py",
+      "sha256": "3357050707bb4a0ae0cb50974cc6996989ecdae49f1798e24d8a635ea653af94",
+      "bytes": 20230,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/validate_delivery.py",
+      "sha256": "a91305e23292313f37baf474150591c5004e7a320519d68a308083783dcc4e10",
+      "bytes": 2997,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/code/write_documentation.py",
+      "sha256": "162b0c8626d0ad3b871aa62457cacf4e069ca87aad99664d03cd8102a15b07f2",
+      "bytes": 12582,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/data/input/UN_WPP2024_G20_female_15_49_1990_2023.csv",
+      "sha256": "07a8edbeaa9d1d2114664e19c7c4d8709c7cc5cf3d5b4dfbb8e46e7acc429de9",
+      "bytes": 344829,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/data/input/UN_WPP2024_source_manifest.json",
+      "sha256": "437240da1b218808563763424772ffc1f0c6fd683e956a01a44cc8f8c9d29033",
+      "bytes": 970,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/data/input/weights.csv",
+      "sha256": "7723724865fbe2189c6892f111aab496915fd5de46893c2a98acc3b86f55944d",
+      "bytes": 121,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/data/published_expected/all_annual_benchmark_aspr.csv",
+      "sha256": "84def8c966a4e821befd0cca83c1b475a9d5af6fa9d88b22db2afb56c018268b",
+      "bytes": 152278,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/data/published_expected/leave_one_country_out.csv",
+      "sha256": "eb3e66b193a6e81edd455e888d6e39bab47ecbf87136788a4f95c77fc98a993e",
+      "bytes": 22645,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/data/published_expected/qc_summary.json",
+      "sha256": "6384faa94f55ac35ad0baae812e429c342d71a29f6d3274437f00e05ae2fabe5",
+      "bytes": 1608,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/data/published_expected/symmetric_decomposition_1990_endpoints.csv",
+      "sha256": "19e22c8904d4b23bb50b2586c76118575991e4fa027f685e334acd2f284dabe9",
+      "bytes": 6504,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/20261030_DATA_RIGHTS_ZH.md",
+      "sha256": "469460a2814cd8155e3a2fdf1bed9a01f855e9f5bd728f1cdf80e3f85c0a72bb",
+      "bytes": 1109,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/20261030_FIGURE_LEARNING_GUIDE.json",
+      "sha256": "43f1fc2bf6f86f167c3271cf3d432f7e85d404bdea1763cfab977fc73e97df99",
+      "bytes": 3464,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/20261030_FIGURE_TABLE_MAP.csv",
+      "sha256": "3e279c4787e3d347c4508ed3b91574d25eb8bb7312f1ad099b16bae27cd25625",
+      "bytes": 8141,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/20261030_INPUT_CHECKSUMS.csv",
+      "sha256": "14dc49f1285a11698646d5a1faec86a1f3cc923b0b4533aa786c5c59a49f9534",
+      "bytes": 1060,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/20261030_SOURCE_PROVENANCE.json",
+      "sha256": "8b9ebddc30efc875cab51ef358c63a670c807264eddff82dd03afd5bc1f11c90",
+      "bytes": 1564,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/20261030_TEACHER_REVIEW_CHECKLIST_ZH.md",
+      "sha256": "42c497d3851be96ff8c8a4b199f66d437e939ccaa22f02dd9ba365e58057c7f0",
+      "bytes": 660,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/DATA_ACQUISITION.md",
+      "sha256": "0d657f44d5f9c18e9c2d19408c2d1dbb36d847a327db6b1d4b529ab1f9e8be17",
+      "bytes": 2889,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/R_Python_crosscheck.json",
+      "sha256": "17549d59590576a38e22c575f3c7a636cad8e3e68dfb49953c7141c9f9bf6844",
+      "bytes": 10417,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/UN_reextraction_check.json",
+      "sha256": "f59a8e36b9afb6d7b2ca1c04545db2989b31261d7c7ca514a3d1857303f83ffd",
+      "bytes": 1303,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/input_manifest.json",
+      "sha256": "96a1ac29bda9d126d3bd461f38d02c49dfbadc724c3b728487285233fa54884b",
+      "bytes": 1095,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/joint_draws_request.json",
+      "sha256": "13740add0a6d92ecf90db008ae0e56677c55f4751622664ee6291639dd482abf",
+      "bytes": 2034,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/revision_analysis_qc.json",
+      "sha256": "4b8343b9685088ca05eb74894c5f8e4a2ddb55a7beb7d97ce20d63cf4e50bf30",
+      "bytes": 11920,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/uncertainty_access_audit_2026-10-29.json",
+      "sha256": "cc8344d81eae109057ac44a2570158aa0c969d4b22c2ae57106d5578746cefb9",
+      "bytes": 723,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/notebooks/20261030_01_Data_to_Estimands.ipynb",
+      "sha256": "914c9cbbbd1ddfc0a9d7be11dc1477335b99c65fcd4ddec4a2c5ec5939e092bf",
+      "bytes": 7128,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/notebooks/20261030_02_All_12_Figures.ipynb",
+      "sha256": "59ee75c398c8104be1fed7c2efba141452ef234248519d19084cf5cdaf8fc8bf",
+      "bytes": 16759,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/notebooks/20261030_03_Independent_R_and_Audit.ipynb",
+      "sha256": "284f55168d579185e26f6d3a9624811633b446f99015af2e6167aaa4b2ec7d0a",
+      "bytes": 3223,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/paper/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.tex",
+      "sha256": "141819d0b11ce9ae4d5ff44dc3d709b8c608f890d01d79469de575e2af1d16bd",
+      "bytes": 204613,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/paper/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript_Cloud_ASCII.pdf",
+      "sha256": "f57db109bdd9c4b34d87b32fb282f847e9eefb5a660d7e99fadfb43388fa3053",
+      "bytes": 231501,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/paper/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement.tex",
+      "sha256": "798d23bdf6ebb1d362b1348ca9819a548ff9a15200e81d2c95caa80c3e0436ce",
+      "bytes": 293941,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/paper/20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement_Cloud_ASCII.pdf",
+      "sha256": "e55bd04017690cb545d2329debf8a934c3f6fd4e085188b89146296c8e4fd821",
+      "bytes": 170722,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/20261030_annual_endpoint_check.csv",
+      "sha256": "b5f98cb154f7ab37a238e13aa1ea2245015a3fed7ce63c92f5e719abea239080",
+      "bytes": 49377,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/age_decomposition.csv",
+      "sha256": "a52202aecd3beb00473816dc54fe296e465597c880299951bd2b3c8e6cf4b487",
+      "bytes": 32081,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/age_weighted_reference_shifts.csv",
+      "sha256": "8e611292edfceb78e8a8e7b6aa2b564b5875c466941dbe6b776d8f45e0ee6dbe",
+      "bytes": 2956,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/all_annual_benchmark_aspr.csv",
+      "sha256": "942f16120889db8bf03f7cc3b2185f38cbae96cd60640b1fffcc897ee524f40a",
+      "bytes": 152282,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/annual_chained_decomposition.csv",
+      "sha256": "c0a35d11f7d90c3f83a509447f3283c9be3ae0159bccf274279595d03091a949",
+      "bytes": 1728,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/composition_sensitivities.csv",
+      "sha256": "169a7041a361bab68b18095332c7ee132a6e687b0f2187259d0beede0a84f09e",
+      "bytes": 313359,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/endometriosis_terminal_age_type.csv",
+      "sha256": "4c50204bb4bc2d25fad62de90237886704c3bd23564cb8e406203c0d43541a04",
+      "bytes": 1000,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/leave_one_country_out.csv",
+      "sha256": "7c26d571ad15b8b06e5350b42f9c9e14840170f23fc452f624be1eab1e2e896d",
+      "bytes": 22643,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/national_annual_standardized.csv",
+      "sha256": "e13082da0090489afeb24f78a1cccd7abc1b2d58e2614aa1960d7696d9524a87",
+      "bytes": 388483,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/population_share_TVD.csv",
+      "sha256": "d9f1149210ff3055a1a37522f1327cd932ecd8c495be6597683b887c0025fa5e",
+      "bytes": 6906,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/standard_weight_rounding.csv",
+      "sha256": "fdb414d68f9f3a625d3ea36045f4d29ed0fe94fc3487f55784ddf42ec6f0936c",
+      "bytes": 1933,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/symmetric_decomposition_1990_endpoints.csv",
+      "sha256": "3a3be73287981b762e9dad4151c9e04ac33d559f0a4b3f9996f2028a84dde0bf",
+      "bytes": 6497,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/aggregates/terminal_year_audit.csv",
+      "sha256": "1bbf872d42e74a8fb80d97deb2d5f7eb59983fbe625ae43a9e17206bb3f9b2e1",
+      "bytes": 13703,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/age_decomposition.csv",
+      "sha256": "4ce4ac559a1880c97919c8da94bde982ad2f6ca5e391dd2195f0282aba3a7fde",
+      "bytes": 32059,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/age_weighted_reference_shifts.csv",
+      "sha256": "ce25319561fe62e453dec48e59340831310b403289ed02075f9fb629914ac459",
+      "bytes": 2959,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/all_annual_benchmark_aspr.csv",
+      "sha256": "ed0921abc4ccea8b69015e663574f0668f0b6bebbca651614353bfaad0531575",
+      "bytes": 155316,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/annual_chained_decomposition.csv",
+      "sha256": "f385ed5145feb93b1fd9279e4cb6d8ea0de7be57e6960f57ea18702be5f554cd",
+      "bytes": 1725,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/composition_sensitivities.csv",
+      "sha256": "1ff470546c25eb2feae8ab6ae33a1f56e9641a0418b068d3ef7b5dc6c4e4b3e9",
+      "bytes": 307122,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/endometriosis_terminal_age_type.csv",
+      "sha256": "68ea3d3f5bb5d52dc876c5da34c229103fda33e4c1df248a1abe82fba2c75d85",
+      "bytes": 975,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/leave_one_country_out.csv",
+      "sha256": "323ccb99f8d96282fbdba6ba35b205ac7dcebc65ce0e6f6f4b4521c348b749b3",
+      "bytes": 23387,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/national_annual_standardized.csv",
+      "sha256": "00103947f153c26573a292671486ef93be39ee2644cc9f44785198c976295392",
+      "bytes": 394698,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/population_share_TVD.csv",
+      "sha256": "269406d0b36fd44cfe0ebc12b03a598bdf68aa888b023829b2fcba40a1dc4f8e",
+      "bytes": 6553,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/standard_weight_rounding.csv",
+      "sha256": "29a5ff532d8ded5c279eacfe5082b7b253e785fbcab26cc880602a14bcf0523a",
+      "bytes": 1920,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/symmetric_decomposition_1990_endpoints.csv",
+      "sha256": "cd600e5282733ebead3b4c53f9a59f22bb4526bf2e89d2948a805ced3aa8fd8a",
+      "bytes": 6365,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/terminal_year_audit.csv",
+      "sha256": "eca53b0988a6cb761ae0b78d0ee1eef88a360e6cdb36a9e23e69c8df8c30020b",
+      "bytes": 13700,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_R/v6_annual_subtype_differences.csv",
+      "sha256": "4b1c77a604ffbbdd94511092aec1c07f9faac49a1f993da25cbb04cbc9a0ada5",
+      "bytes": 49181,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/age_decomposition.csv",
+      "sha256": "a52202aecd3beb00473816dc54fe296e465597c880299951bd2b3c8e6cf4b487",
+      "bytes": 32081,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/age_weighted_reference_shifts.csv",
+      "sha256": "8e611292edfceb78e8a8e7b6aa2b564b5875c466941dbe6b776d8f45e0ee6dbe",
+      "bytes": 2956,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/all_annual_benchmark_aspr.csv",
+      "sha256": "942f16120889db8bf03f7cc3b2185f38cbae96cd60640b1fffcc897ee524f40a",
+      "bytes": 152282,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/annual_chained_decomposition.csv",
+      "sha256": "c0a35d11f7d90c3f83a509447f3283c9be3ae0159bccf274279595d03091a949",
+      "bytes": 1728,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/composition_sensitivities.csv",
+      "sha256": "169a7041a361bab68b18095332c7ee132a6e687b0f2187259d0beede0a84f09e",
+      "bytes": 313359,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/endometriosis_terminal_age_type.csv",
+      "sha256": "4c50204bb4bc2d25fad62de90237886704c3bd23564cb8e406203c0d43541a04",
+      "bytes": 1000,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/leave_one_country_out.csv",
+      "sha256": "7c26d571ad15b8b06e5350b42f9c9e14840170f23fc452f624be1eab1e2e896d",
+      "bytes": 22643,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/national_annual_standardized.csv",
+      "sha256": "e13082da0090489afeb24f78a1cccd7abc1b2d58e2614aa1960d7696d9524a87",
+      "bytes": 388483,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/population_share_TVD.csv",
+      "sha256": "d9f1149210ff3055a1a37522f1327cd932ecd8c495be6597683b887c0025fa5e",
+      "bytes": 6906,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/standard_weight_rounding.csv",
+      "sha256": "fdb414d68f9f3a625d3ea36045f4d29ed0fe94fc3487f55784ddf42ec6f0936c",
+      "bytes": 1933,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/symmetric_decomposition_1990_endpoints.csv",
+      "sha256": "3a3be73287981b762e9dad4151c9e04ac33d559f0a4b3f9996f2028a84dde0bf",
+      "bytes": 6497,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/terminal_year_audit.csv",
+      "sha256": "1bbf872d42e74a8fb80d97deb2d5f7eb59983fbe625ae43a9e17206bb3f9b2e1",
+      "bytes": 13703,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/reproduced_python/v6_annual_subtype_differences.csv",
+      "sha256": "759eac66256e82d5334daeafaae84732b799e30bb4f75c374f6064db5bafd9bf",
+      "bytes": 49369,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_benchmark.tex",
+      "sha256": "24fd4ce09f5b1919945407224afbf1a9c28d4385d9da20a6bf4fb3325ac02986",
+      "bytes": 285,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_decomposition.tex",
+      "sha256": "a5eb811427b12dab42a8412f86b519a988c3dd9629efaf92190d8ddb1f8b3ab6",
+      "bytes": 345,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_prevalence.tex",
+      "sha256": "689c14a9b487e60f34eab15e8a259df4f4f40a73025fd8822997bef01b3f79c8",
+      "bytes": 326,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s10_endometriosis_endpoints.tex",
+      "sha256": "75db636f34fdaf20b2e82d22e71cf2f398ef8f795ce56d7ce1c7d83d4ad12b3b",
+      "bytes": 315,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s1_endpoints.tex",
+      "sha256": "5a1dfbd028c429e4cb3b618bb143138fe7655869a0cb75607d2da7e58d015a02",
+      "bytes": 368,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s2_sensitivity.tex",
+      "sha256": "89938ebff929b19a79a552d7a844eb14a80941a3e2e4b7c0609a97a288877c8f",
+      "bytes": 2150,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s3_age.tex",
+      "sha256": "31ddcc211c3b459c45a3c0d7d753898a285c708d3cfcb6aa2681f008ba1e79ad",
+      "bytes": 1134,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s4_chained.tex",
+      "sha256": "f399941f6f2f8936b00feb3eb67270e34d4590fcf021a155008025d222113b9f",
+      "bytes": 676,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s5_population.tex",
+      "sha256": "b1223c376ea87888fdabfe73a38067d823512834f3ffaa42cc55a116194b194f",
+      "bytes": 187,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s6_rate_conventions.tex",
+      "sha256": "771c4bcdfef5461602b7c3e574eb075fda70abbfd642b29724a6490e41f17ede",
+      "bytes": 88,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s7_terminal.tex",
+      "sha256": "f92d0a97b4c835f4d8803027abe59525af1b5585c41ab46c2ba81ff17d5087ac",
+      "bytes": 561,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/reference/tables/20261030_v6_s8_rounding.tex",
+      "sha256": "f55008b295a690bc6d0c70df02939d7586651633eb7556d1116638f444210f25",
+      "bytes": 632,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/requirements.txt",
+      "sha256": "9af8b952262af7f51f7eb93c433c1081982ff629e553d4736f1f5ecb09b0fec8",
+      "bytes": 115,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/verification/20261030_DELIVERY_QA.json",
+      "sha256": "d4357d3af68a09854b6c47a73cb8d838449867544f3eb0b28f1d9f95db61243b",
+      "bytes": 1745,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/verification/20261030_FIGURE_PIXEL_CHECK.json",
+      "sha256": "8c53dc3aeed0f6540ea2957e92e4676e2bb82881b4923113dc85827c09754564",
+      "bytes": 2349,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/verification/20261030_FINAL_VALIDATION.json",
+      "sha256": "98006a9b5b1be5647e244c1938ee0ffb22c2a677c613e6173b67ac05b3209540",
+      "bytes": 1818,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/verification/20261030_RELOCATION_CHECK.json",
+      "sha256": "860ae5835a55be95ac7f9a7b4b31a41f003ff0a8437e346904a81e623db7e093",
+      "bytes": 500,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/verification/20261030_REPRODUCTION_CHECK.json",
+      "sha256": "bd6504046844f88a15d416adf2f4adb38b6f3fcdb9bacfc9a0d1b5aeb3b48a4c",
+      "bytes": 20298,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/verification/20261030_R_INDEPENDENT_CHECK.csv",
+      "sha256": "98bca826337d5653ba081ac81a9ffb59d0ac4734962da4b5e0e2b1592e7295a2",
+      "bytes": 794,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "20261030_PCOS_v6_Reproduction/docs/20261030_PUBLIC_MANIFEST.json",
+      "sha256": "e53e9d5527c54c32234e49240f9becee6e61b829a7030562d2e454df5ab3b52e",
+      "bytes": 35015,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    },
+    {
+      "path": "scripts/build_v6_reproduction_20261030.py",
+      "sha256": "9d66520ec39ed8c0c2feae270f3f379456b3d0b8143690aaa4fb3e526046d2ff",
+      "bytes": 9212,
+      "Drive_full_bytes_verified": true,
+      "GitHub_committed_bytes_verified": true
+    }
+  ],
+  "public_only_learning_check": {
+    "missing_GBD_inputs_stop_full_reproduction": true,
+    "explicit_reference_mode_notebook_runs": true,
+    "images": 12,
+    "all_12_images_pixel_equal_to_full_run": true,
+    "source_notebooks_unchanged": true
+  },
+  "scientific_run": "20261030_v6_portable_reproduction",
+  "standalone_final_three_notebooks_executed": true,
+  "twelve_Python_and_notebook_figures_match_paper_pixels": true,
+  "thirteen_independent_R_Python_numeric_table_checks": "passed; per-column errors in REPRODUCTION_CHECK",
+  "fresh_Chinese_and_space_path_relocation": "passed on macOS with no prior results",
+  "native_Windows_D_drive_execution": false,
+  "teacher_Windows_validation": "pending on teacher machine",
+  "original_304_research_manuscript_files_unchanged": true,
+  "original_remote_760_paths_and_blobs_preserved": true,
+  "existing_XX_and_joint_draw_limitations_preserved": true,
+  "upstream_GBD_refit": false,
+  "new_research_downloads": false,
+  "patient_data_included": false,
+  "restricted_raw_or_source_cells_published_to_GitHub": false,
+  "Overleaf_modified": false,
+  "journal_submitted": false,
+  "self_reference": "This receipt records prior verified commits; own cloud publication is independently verified in private final record."
+}
