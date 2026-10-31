@@ -1,5 +1,13 @@
 # 共享配置与同步验证
 
+## 2026-10-31T07:38:16+01:00 — 标色Word7项已核验，后继共享记录及同步回执
+
+7项本次交付及构建/核验代码已Drive完整原字节回读，GitHub已提交blob逐项比对相同；制品提交cc7273036aa5f494a27182b2c01176917835b4ac。Drive沿用已核验v7目录https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE ，Word文件id 1fKYSM_ZAJnclfIAMl44y2O-aE8VBaHaO。Word SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba。完整同步的后继共享提交/回执见本目录docs/20261031_PCOS_BlueK_v7_ReviewWord_SYNC_RECEIPT.json；本条不把桌面push当云端验证。Overleaf仅论文TeX：本轮只有Word新输出，TeX/PDF源版本未改，所以不向Overleaf上传Word或重复旧TeX，无Overleaf同步待办。
+
+最终编辑前8份共享资料再次Drive raw回读，全部与本地一致（其中runner4份已自动桌面同步到云端）；保存fresh_final基线和修改前备份。现在仅更新6份共享状态/交接/下一步/日志/索引/同步；需后继原始字节及已提交blob比对，结果由SYNC_RECEIPT记录，避免自引用。DATA_CATALOG与DECISIONS无新科学变更。
+
+最终Word实际25页：前21页标色论文，文末4页可编辑逐项前后索引（FIX01–09，第8项两处，共10行）。正文蓝色8处与既有Review TeX的受改正文对应；保留Word原黑色标题。红色删除线原文只在审阅索引，不属于论文正文，不是Word修订模式。正文含引文逐字与clean Word一致，23个XX、32原生OMML、3可编辑表、5原图及所有样式/关系等其余ZIP部件原字节一致。335个旧论文/科学文件SHA256保持。全部25页渲染PNG逐页检查通过，中文正常，10个内部跳转均在实际导出PDF中指向正文。
+
 ## 2026-10-30T21:49:33+01:00 — v7有限编辑的实际三端核验与收尾回执
 
 28项初批稿件/审计/代码已Drive完整原字节回读及GitHub提交blob逐项匹配，制品提交8bb9c39b84cbbc98cd2cc6a89966c06ff4672ae1；Drive新文件夹https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE 。额外原生老师源检查与Overleaf实测JSON随本次收尾发布；最终各目的地/共享记录提交和逐字节证据以本目录docs/20261030_PCOS_BlueK_v7_DRAFT_SYNC_RECEIPT.json及后继云端回读为准。

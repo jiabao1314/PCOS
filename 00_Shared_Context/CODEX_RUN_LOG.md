@@ -1,5 +1,19 @@
 # Codex 实际运行日志
 
+## 2026-10-31T07:38:16+01:00 — 标色Word真实生成、中文显示修复与实际核验
+
+用户仅要求把已完成9项修正的v7标色对照稿另生成为可编辑Word。新日期版本20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx位于PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word；旧版及老师原稿全部保留，不新增科学修改、数据分析或投稿。v7仍为候选审阅稿，未替作者作最终接受。
+
+实际执行scripts/build_bluek_review_word_20261031.py，通过OOXML复制原clean Word，只改8段文字字体色、添加10书签和4页独立审阅索引，core元数据日期为31日；未重建公式、表或图。使用documents技能render_docx.py与bundled LibreOffice实际渲染三轮。首轮中文字体不可见，改用已安装Noto Sans CJK SC和仅任务级fontconfig（不改系统设置）；随后只减索引段后距避免FIX09孤页。首轮复用ZipInfo被writestr更改offset导致源ZIP审计报BadZipFile，改copy(info)。失败/未核验候选留在私有运行目录，未发布。
+
+实际执行scripts/verify_bluek_review_word_20261031.py及共享runner run --spec .shared_context_runtime/bluek_review_word_20261031/final_audit_spec.json，退出0；后者真实验证状态verified，Execution_Receipt是新文件。独立颜色比较以受改正文为范围：保留Word黑色标题，孤立Pandoc片段不展开的2条natbib标签仅在此颜色比较正规化，完整主稿含引文仍与clean逐字一致。所有25个最终PNG重新逐页目视通过；核验未通过前未声称交付完成。
+
+旧本机HEAD f17691ea374fec76cabc331d94a0220c06cd94fd及dirty工作区保留。代码实际SHA256：build_bluek_review_word_20261031.py 9110e110eacfa57ddc9ce54cfa6a2f1a24303100cf2db20b096ae3f61aa94e17; verify_bluek_review_word_20261031.py f3e0b37564cf203cf3431ddc582e0bf10eb8e98b3ade6e3cc795eac4447edb23。逐项审查7新路径后以最新remote tree建立blob/tree/commit，expected_sha非force；没有git add -A/reset或受限原数据公开。
+
+最终Word实际25页：前21页标色论文，文末4页可编辑逐项前后索引（FIX01–09，第8项两处，共10行）。正文蓝色8处与既有Review TeX的受改正文对应；保留Word原黑色标题。红色删除线原文只在审阅索引，不属于论文正文，不是Word修订模式。正文含引文逐字与clean Word一致，23个XX、32原生OMML、3可编辑表、5原图及所有样式/关系等其余ZIP部件原字节一致。335个旧论文/科学文件SHA256保持。全部25页渲染PNG逐页检查通过，中文正常，10个内部跳转均在实际导出PDF中指向正文。
+
+7项本次交付及构建/核验代码已Drive完整原字节回读，GitHub已提交blob逐项比对相同；制品提交cc7273036aa5f494a27182b2c01176917835b4ac。Drive沿用已核验v7目录https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE ，Word文件id 1fKYSM_ZAJnclfIAMl44y2O-aE8VBaHaO。Word SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba。完整同步的后继共享提交/回执见本目录docs/20261031_PCOS_BlueK_v7_ReviewWord_SYNC_RECEIPT.json；本条不把桌面push当云端验证。Overleaf仅论文TeX：本轮只有Word新输出，TeX/PDF源版本未改，所以不向Overleaf上传Word或重复旧TeX，无Overleaf同步待办。
+
 ## 2026-10-30T21:49:33+01:00 — Blue K真实有限修订、格式核验与三端发布
 
 本轮以实际取得的20261030_PCOS_BlueK_EditorialFixes_Codex_Package.zip内Markdown为9项唯一编辑范围，老师19页Blue K已修改正文为基线。先前21:15“缺文件”依赖已解决；旧HANDOFF审阅建议不能扩展本次9项。生成独立v7 DRAFT候选稿，尚非作者最终接受；原v6/XX及全部旧稿保留，未投稿。
@@ -549,3 +563,17 @@ v6正文、XX与既有无合格draws限制保持不变，无科学重算，无�
 输出 SHA-256：`{"PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_Execution_Receipt.json": "28d434cf352fb3d68dc8226b82ceebda080c06d21f7efab483f2f63253c3ad54"}`。
 
 错误/解决办法：先前构建提取误把图轴数字当行号、TeX片段跨环境、跨行年份连字符，均修复；核验脚本适配真实S9无label及UN-WPP2024/equal标识后通过。只修复编辑/QC代码，未改科研估计。 共享run首次因outputs已存在而在执行前退出2，改为新收尾执行回执路径；既有验证报告不作为新输出冒用。。最终发布提交与云端同步：pending；须完成连接器核验。
+
+## 2026-10-31T07:36:38+01:00 — 20261031_bluek_review_word_final_audit
+
+任务：为已核验Blue K v7九项有限修正新增可编辑标色Word与四页前后核对索引，保留原科学文字和旧版本
+
+实际命令：`/Users/wangjiajia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/verify_bluek_review_word_20261031.py PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/docs/20261031_PCOS_BlueK_v7_ReviewWord_Execution_Receipt.json`
+
+状态：verified；exit=0；验证退出码=[0]。
+
+代码基线：f17691ea374fec76cabc331d94a0220c06cd94fd；工作树有修改=True。实际代码/输入 SHA-256：`{"PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/word/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.docx": "cd82840ed85b72ac455161a952825686d4ec2b07450f58da6e3e68e3ae465e04", "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/manuscript/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.tex": "255496e6d2bd5bae2205180cf2d2e6c7fb01c421c04de411931071a84409b11d", "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/docs/20261030_PCOS_BlueK_v7_DRAFT_ChangeLog.csv": "e529ded7a3c9b8be02894aed7d6d33c05b994301ede4658514efc8e0b65a7596", "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word/20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx": "f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba", "scripts/build_bluek_review_word_20261031.py": "9110e110eacfa57ddc9ce54cfa6a2f1a24303100cf2db20b096ae3f61aa94e17", "scripts/verify_bluek_review_word_20261031.py": "f3e0b37564cf203cf3431ddc582e0bf10eb8e98b3ade6e3cc795eac4447edb23"}`。
+
+输出 SHA-256：`{"PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/docs/20261031_PCOS_BlueK_v7_ReviewWord_Execution_Receipt.json": "3bdcd0cf62be44bd5c077d7bab2231f966ffbee8024b42737a9f25ddbb7311c0"}`。
+
+错误/解决办法：首轮ZipInfo对象被写入复用导致源ZIP读取偏移错误，改复制ZipInfo；首轮渲染中文缺字，改Noto Sans CJK SC及任务级fontconfig使用已安装字体；仅调索引段后距避免孤页；颜色范围比较分离Word保留的黑色标题及Pandoc片段不展开的引文标签，完整正文含引文仍严格一致。失败尝试私人留存，最终25页逐页检查通过。。最终发布提交与云端同步：pending；须完成连接器核验。

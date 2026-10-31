@@ -1,5 +1,13 @@
 # 项目状态
 
+## 2026-10-31T07:38:16+01:00 — v7九项修正的可编辑标色Word完成并双云核验
+
+用户仅要求把已完成9项修正的v7标色对照稿另生成为可编辑Word。新日期版本20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx位于PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word；旧版及老师原稿全部保留，不新增科学修改、数据分析或投稿。v7仍为候选审阅稿，未替作者作最终接受。
+
+最终Word实际25页：前21页标色论文，文末4页可编辑逐项前后索引（FIX01–09，第8项两处，共10行）。正文蓝色8处与既有Review TeX的受改正文对应；保留Word原黑色标题。红色删除线原文只在审阅索引，不属于论文正文，不是Word修订模式。正文含引文逐字与clean Word一致，23个XX、32原生OMML、3可编辑表、5原图及所有样式/关系等其余ZIP部件原字节一致。335个旧论文/科学文件SHA256保持。全部25页渲染PNG逐页检查通过，中文正常，10个内部跳转均在实际导出PDF中指向正文。
+
+7项本次交付及构建/核验代码已Drive完整原字节回读，GitHub已提交blob逐项比对相同；制品提交cc7273036aa5f494a27182b2c01176917835b4ac。Drive沿用已核验v7目录https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE ，Word文件id 1fKYSM_ZAJnclfIAMl44y2O-aE8VBaHaO。Word SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba。完整同步的后继共享提交/回执见本目录docs/20261031_PCOS_BlueK_v7_ReviewWord_SYNC_RECEIPT.json；本条不把桌面push当云端验证。Overleaf仅论文TeX：本轮只有Word新输出，TeX/PDF源版本未改，所以不向Overleaf上传Word或重复旧TeX，无Overleaf同步待办。
+
 ## 2026-10-30T21:49:33+01:00 — Blue K指定9项有限修订完成；v7独立候选三格式及云端核验
 
 本轮以实际取得的20261030_PCOS_BlueK_EditorialFixes_Codex_Package.zip内Markdown为9项唯一编辑范围，老师19页Blue K已修改正文为基线。先前21:15“缺文件”依赖已解决；旧HANDOFF审阅建议不能扩展本次9项。生成独立v7 DRAFT候选稿，尚非作者最终接受；原v6/XX及全部旧稿保留，未投稿。
@@ -218,3 +226,5 @@ Word制作完成不等于已获作者批准或所有投稿声明完成。XX按�
 - 2026-10-30T15:51:38+01:00 [20261030_v6_portable_reproduction] 按用户授权将已接受v6全部论文分析整理为可移至Windows D盘的完整私人复现包，独立R/Python重算并教学notebook逐图学习；不投稿：verified；结果发布待核验。
 
 - 2026-10-30T21:38:29+01:00 [20261030_bluek_v7_finite_editorial_final] 以老师Blue K全文为基线实施FIX01至09；独立v7 DRAFT主稿与Word/TeX/PDF真实核验，不做新科研估计、不投稿：verified；结果发布待核验。
+
+- 2026-10-31T07:36:39+01:00 [20261031_bluek_review_word_final_audit] 为已核验Blue K v7九项有限修正新增可编辑标色Word与四页前后核对索引，保留原科学文字和旧版本：verified；结果发布待核验。
