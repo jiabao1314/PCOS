@@ -1,0 +1,123 @@
+{
+  "at": "2026-10-31T07:53:47+01:00",
+  "status": "Overleaf_and_Drive_GitHub_Word_delivery_verified",
+  "revision_id": "20261031-1",
+  "artifact_and_shared_commit": "ac8c4a0e178372864d68d8cd17bbc976c49d1201",
+  "Overleaf": {
+    "date": "2026-10-31",
+    "revision_id": "20261031-1",
+    "status": "Overleaf_Word_upload_verified",
+    "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
+    "Overleaf_filename": "20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx",
+    "local_path": "PCOS_HumanReproduction_BlueK_v7_OverleafWord_2026-10-31/word/20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx",
+    "source_original": "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word/20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx",
+    "source_commit": "cc7273036aa5f494a27182b2c01176917835b4ac",
+    "Overleaf_imported_blob": "c46ff962ff2f76bb32b2955d9dc1064a18854edc",
+    "method": "Overleaf From external URL using immutable already verified GitHub Word source; new filename in project; Download actual stored attachment",
+    "bytes": 380789,
+    "sha256": "f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba",
+    "downloaded_Overleaf_complete_bytes_equal_local_and_original": true,
+    "DOCX_ZIP_CRC_passed": true,
+    "previous25_page_QA_reused_exact_same_bytes": true,
+    "editable_math_objects": 32,
+    "editable_tables": 3,
+    "original_figures": 5,
+    "main_pages": 21,
+    "index_pages": 4,
+    "Overleaf_preview": "Sorry, no preview is available; Download works and bytes are verified. Existing right PDF pane is not a preview of this Word.",
+    "original15_filenames_preserved": [
+      "20251026-1HumanReproduction_SubmissionDraft_XX.pdf",
+      "20261025-1-GBD2023_Reproductive_Health_main.pdf",
+      "20261025-1-supplement.pdf",
+      "20261025-GBD_不孕研究_技术路线与执行方案.pptx",
+      "20261025-GBD_不孕研究_技术路线图.png",
+      "20261028-意见.tex",
+      "20261029-26版原文翻译及修改意见.docx",
+      "20261029-PCOS_HumanReproduction_v5_Manuscript.docx",
+      "20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Imported_Archive.tex",
+      "20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.tex",
+      "20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Manuscript.tex",
+      "20261030_PCOS_HumanReproduction_v6_Overleaf_r1_Supplement.tex",
+      "20261030_PCOS_v6_revised_blue.tex",
+      "PCOS_新文章组会汇报_5页_2026-10-26_终版.pptx",
+      "Share.tex"
+    ],
+    "old_file_content_claim": "No old files written/renamed/deleted by this task; old file contents not fully downloaded this round",
+    "TeX_or_main_document_changed": false,
+    "recompile_clicked": false,
+    "new_scientific_results_or_intervals": false,
+    "submitted": false,
+    "Drive_GitHub_sync": "final successor SYNC_RECEIPT after byte verification"
+  },
+  "Drive_raw_full_byte_checks": [
+    {
+      "path": "PCOS_HumanReproduction_BlueK_v7_OverleafWord_2026-10-31/word/20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx",
+      "id": "1uuG3EFHGgs745_EMkUp5vIFmmloSquNY",
+      "bytes": 380789,
+      "sha256": "f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_v7_OverleafWord_2026-10-31/docs/20261031-1_PCOS_BlueK_v7_Overleaf_Word_Verification.json",
+      "id": "1MDGooMQqLW5KZtWUopYeb1yT2eWgfiTy",
+      "bytes": 2610,
+      "sha256": "80b4352fbf0bcd06e1d726682839ca94b0295b57f9e66a1cdd804e1051848a87",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "config/shared_context.json",
+      "id": "1B0V0PAzoFinMhK6JbtlYS95SARfo9Jns",
+      "bytes": 5424,
+      "sha256": "f2bd49a815fea0436957b648811d7e3e1233bf835094693c697951b54c5f8bdd",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "bytes": 41498,
+      "sha256": "d0822e4a29ba42d56e7d3fb62fd1fc32ec7dbc5a8a29d2d8601d1eb6437863db",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "bytes": 58827,
+      "sha256": "4d4c2a8bb25b8bbf676e3ab6f83707910d614c3ef69d118d3d088205ac17cddd",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "bytes": 33259,
+      "sha256": "d752f7ebb1e0db02f912a2f3a12a28c8d2aea883f5986e7858e36d5a64095ce8",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "bytes": 47011,
+      "sha256": "3a9f075975a29ae92d8c217fd3cc8a31c6893f681bdb6c643a9ad5e3990bd55b",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "bytes": 116783,
+      "sha256": "151d64e1868c9405fcfda3121ef723400861b55c048be83fe6d2d6ae799fe912",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "bytes": 523808,
+      "sha256": "ede7595cbdc3d0f343b207ab73e93d3e4ce4ce0e5951b305998955278727a9ef",
+      "full_bytes_equal": true
+    }
+  ],
+  "GitHub_nine_committed_blobs_full_bytes_equal": true,
+  "next_new_revision_this_date": "20261031-2",
+  "old_local_and_cloud_manuscripts_preserved": true,
+  "TeX_compile_not_part_of_Word_upload": true,
+  "submitted": false,
+  "receipt_note": "This file records already verified predecessor artifacts and shared records. Its own subsequent Drive/Git full-byte readback is retained in private final publication evidence to avoid a self-referential hash."
+}
