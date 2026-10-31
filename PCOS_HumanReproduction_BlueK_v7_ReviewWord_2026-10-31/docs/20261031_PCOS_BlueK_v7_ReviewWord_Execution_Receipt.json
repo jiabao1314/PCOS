@@ -1,0 +1,32 @@
+{
+  "actual_command": [
+    "scripts/verify_bluek_review_word_20261031.py",
+    "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/docs/20261031_PCOS_BlueK_v7_ReviewWord_Execution_Receipt.json"
+  ],
+  "checks_passed": {
+    "date": "2026-10-31",
+    "status": "local_content_visual_and_internal_links_verified",
+    "Word_pages": 25,
+    "main_pages": 21,
+    "separate_index_pages": 4,
+    "main_text_exact_clean_Word": true,
+    "main_XX_count": 23,
+    "native_OMML_exact": 32,
+    "editable_tables_exact": 3,
+    "image_bytes_exact": 5,
+    "blue_prose_groups_equal_Review_TeX": 8,
+    "colour_scope_note": "Word preserves black heading styles; eight blue prose groups match Review TeX. Isolated Pandoc snippets omit two natbib labels; full Word main including citations independently equals the clean Word.",
+    "nine_fix_ids_present": true,
+    "index_rows_and_working_internal_links": 10,
+    "all_25_pages_rendered_and_visually_passed": true,
+    "CJK_font_embedded_in_QA_render": true,
+    "all335_old_files_unchanged": true,
+    "output_sha256": "f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba",
+    "source_hashes": {
+      "PCOS_HumanReproduction_BlueK_Editorial_v7_DRAFT_2026-10-30/word/20261030_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript.docx": "cd82840ed85b72ac455161a952825686d4ec2b07450f58da6e3e68e3ae465e04"
+    },
+    "new_analysis": false,
+    "submitted": false,
+    "cloud_sync": "separate final SYNC_RECEIPT after actual cloud byte verification"
+  }
+}
