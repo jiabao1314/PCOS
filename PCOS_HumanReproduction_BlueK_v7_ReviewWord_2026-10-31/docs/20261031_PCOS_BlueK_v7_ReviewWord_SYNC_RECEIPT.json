@@ -1,0 +1,147 @@
+{
+  "at": "2026-10-31T07:39:22+01:00",
+  "status": "Word_review_document_and_Drive_GitHub_full_byte_verification_complete",
+  "artifact_commit": "cc7273036aa5f494a27182b2c01176917835b4ac",
+  "shared_context_commit": "f3ce3f2fb41ca58a7bf8f193944bde25bb10ada8",
+  "Drive_folder_url": "https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE",
+  "artifact_full_byte_checks": [
+    {
+      "path": "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/20261031_README_ZH.txt",
+      "id": "13P91K4GYAP-Usvd7TwcBIa5O9Ly9mWNg",
+      "shared": false,
+      "bytes": 738,
+      "sha256": "b93da8bd5fa95722909b6669092d80da21da680a6751854f6973e1aa1e6f7af8",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/docs/20261031_PCOS_BlueK_v7_ReviewWord_Change_Index.csv",
+      "id": "1lT5NuZ59LTPT211nbG1lR7Ajt8jlZKz3",
+      "shared": false,
+      "bytes": 4439,
+      "sha256": "ad4a3b6a176097ac7954c9a6218645fad0f16009110fceba98c33940341d1dbf",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/docs/20261031_PCOS_BlueK_v7_ReviewWord_Execution_Receipt.json",
+      "id": "1Nqtg_4FODQzuP7GJ2NpZ8cWdQtwcXDGz",
+      "shared": false,
+      "bytes": 1504,
+      "sha256": "3bdcd0cf62be44bd5c077d7bab2231f966ffbee8024b42737a9f25ddbb7311c0",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/docs/20261031_PCOS_BlueK_v7_ReviewWord_Verification.json",
+      "id": "1AxJooOLI0tHcAMZ-nRt0dTcn1TNdMGNE",
+      "shared": false,
+      "bytes": 11948,
+      "sha256": "668e002a3bb09ad9a98e48ace7277d46a971dd01a98ef803ea0c5d10b1e77bc3",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word/20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx",
+      "id": "1fKYSM_ZAJnclfIAMl44y2O-aE8VBaHaO",
+      "shared": false,
+      "bytes": 380789,
+      "sha256": "f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "scripts/build_bluek_review_word_20261031.py",
+      "id": "1qQRSjr80X-wf5rKj1rEY6AIHb5mkjnaA",
+      "shared": false,
+      "bytes": 13505,
+      "sha256": "9110e110eacfa57ddc9ce54cfa6a2f1a24303100cf2db20b096ae3f61aa94e17",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "scripts/verify_bluek_review_word_20261031.py",
+      "id": "1e4sO0Qvu8-oCtjIdmI_8O32dun787wQ4",
+      "shared": false,
+      "bytes": 5187,
+      "sha256": "f3e0b37564cf203cf3431ddc582e0bf10eb8e98b3ade6e3cc795eac4447edb23",
+      "full_bytes_equal": true
+    }
+  ],
+  "shared_context_full_byte_checks": [
+    {
+      "path": "00_Shared_Context/PROJECT_STATUS.md",
+      "id": "1wznV9jWZmTNJXGYdFSvSk_Zl_bzzotmz",
+      "bytes": 39571,
+      "sha256": "d8a0b48747e9c407ca7c46abc03df9e54545a8d2e2b4134326d1c0ca15332722",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/CHATGPT_HANDOFF.md",
+      "id": "1cDlh2el6jA9bnGsRWusfuDx-PVZymokX",
+      "bytes": 55130,
+      "sha256": "931cbe5c778d3423d1c21cac8a36fbebb33c3f3c59518f294a7a3c546b7f7ae7",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/NEXT_ACTIONS.md",
+      "id": "10wdRXs-KbgZJ7sO--U1pEgA-s_oGD0QB",
+      "bytes": 30334,
+      "sha256": "7910b218d57ee7d9cbe76c6d96da7cb06ddcd0895b03664d88e8a1306a1cd9fd",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/SYNC_CHECK.md",
+      "id": "1ZBVJOvlCY87Zt7rYLwGMsehPhemqlbLK",
+      "bytes": 43746,
+      "sha256": "883f049a46e32eaa151e6f50a31d005ffb2dd88c4fa2d1688fff99e5b10a5044",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/CODEX_RUN_LOG.md",
+      "id": "15dZ_LPYyOsooT5bFivRPZSUPiOHyIAVg",
+      "bytes": 112295,
+      "sha256": "806e1d49e64e07f10aff579e151023ca838e3b67264aa8b65c512acbfda7c662",
+      "full_bytes_equal": true
+    },
+    {
+      "path": "00_Shared_Context/RESULTS_INDEX.csv",
+      "id": "1qO-_x-aVZBlOOVcFieho4MH5XKWgvy7W",
+      "bytes": 521851,
+      "sha256": "5be6e0a52225e840cd201bb00604b798febdddb9d2d9a038dafd37444eb58f49",
+      "full_bytes_equal": true
+    }
+  ],
+  "Word_pages": 25,
+  "main_pages": 21,
+  "index_pages": 4,
+  "main_text_citations_and_23_XX_exact_clean_Word": true,
+  "native_equation_objects": 32,
+  "editable_main_tables": 3,
+  "original_figures": 5,
+  "fix_ids": [
+    "FIX-01",
+    "FIX-02",
+    "FIX-03",
+    "FIX-04",
+    "FIX-05",
+    "FIX-06",
+    "FIX-07",
+    "FIX-08",
+    "FIX-09"
+  ],
+  "eight_blue_prose_groups_equal_Review_TeX": true,
+  "Word_headings_remain_black": true,
+  "index_internal_links_verified": 10,
+  "all25_final_pages_visually_inspected": true,
+  "old335_files_unchanged": true,
+  "desktop_folder": "/Users/wangjiajia/Desktop/20261031_PCOS_BlueK_v7_标色Word",
+  "desktop_copy_full_bytes_verified_before_receipt_addition": true,
+  "overleaf": {
+    "status": "not_applicable_Word_only",
+    "new_TeX": false,
+    "Word_uploaded": false,
+    "prior_paper_TeX_preserved": true
+  },
+  "Galaxy_and_research_data": "unchanged_no_new_data",
+  "new_scientific_results_or_intervals": false,
+  "submitted": false,
+  "local_HEAD": "f17691ea374fec76cabc331d94a0220c06cd94fd",
+  "local_dirty_workspace_preserved": true,
+  "publication_method": "Reviewed explicit paths on latest GitHub base tree, expected_sha non-force; full Drive download and git show committed blobs compared with local bytes",
+  "receipt_note": "Predecessor artifact and shared commits above were actually read back before this receipt. Its own subsequent Drive/committed-blob verification is retained in the private final publication record, avoiding a self-referential hash."
+}
