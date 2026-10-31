@@ -1,5 +1,13 @@
 # 共享配置与同步验证
 
+## 2026-10-31T07:46:01+01:00 — Word Overleaf与每日序号偏好保存，实际上传未执行
+
+用户2026-10-31明确要求：以后生成的Word论文同时上传到Overleaf的PCOS项目，并把当日每次新版本按20261031-1、20261031-2这样依次标记。本项优先取代2026-10-30“仅论文TeX”对论文Word的禁止；其他既有隐私、旧版本保护、上传核验及暂不投稿规则继续。
+
+本轮仅保存长期偏好，没有生成论文、没有分配或占用20261031-1、没有向Overleaf上传Word/其他文件，也不回填前一轮的TeX-only状态为Word已上传。既有25页标色Word、v7/v6、全部XX/统计/图表/数据不改。PROJECT_STATUS仍以先前已核验v7候选及Word交付为稿件事实；无新科研结果，DATA_CATALOG/RESULTS_INDEX不变。ChatGPT项目设置应用未验证，配置保持false。
+
+写前9份共享文件Drive完整原字节与本地一致，冲突安全pull复制0；最新GitHub f70976836f35b430802c71056b27b6a2cdf4c1ae的AGENTS/config/workflow也与编辑前本地一致。6份共享文本保留fresh/before基线后新增规则，3支持文件只改已审查规则。Drive支持文件用20261031日期新快照保留原文件；GitHub在最新base tree仅发布这9条路径并expected_sha非force。后继云端完整字节/提交blob回读记录在本轮运行目录，不把桌面push当云端验证。
+
 ## 2026-10-31T07:38:16+01:00 — 标色Word7项已核验，后继共享记录及同步回执
 
 7项本次交付及构建/核验代码已Drive完整原字节回读，GitHub已提交blob逐项比对相同；制品提交cc7273036aa5f494a27182b2c01176917835b4ac。Drive沿用已核验v7目录https://drive.google.com/drive/folders/1J1xLpGOLPBh-YieHvWI4WbH7tthgxXuE ，Word文件id 1fKYSM_ZAJnclfIAMl44y2O-aE8VBaHaO。Word SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba。完整同步的后继共享提交/回执见本目录docs/20261031_PCOS_BlueK_v7_ReviewWord_SYNC_RECEIPT.json；本条不把桌面push当云端验证。Overleaf仅论文TeX：本轮只有Word新输出，TeX/PDF源版本未改，所以不向Overleaf上传Word或重复旧TeX，无Overleaf同步待办。

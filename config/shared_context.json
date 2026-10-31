@@ -45,20 +45,49 @@
     "project_id": "6adda2876e26d2e60e482e89",
     "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
     "future_manuscript_upload_required": true,
-    "user_confirmed_on": "2026-10-30",
+    "user_confirmed_on": "2026-10-31",
     "read_access_verified_on": "2026-10-30",
     "read_access_evidence": "Chrome project title, exact project URL and file tree observed",
-    "upload_verification": "not performed in preference-only task",
+    "upload_verification": "TeX actual verification exists in dated v7 Overleaf_Verification; this policy update performs no new upload",
     "preserve_prior_versions": true,
     "desktop_app": "user reports installed; not independently inspected",
     "allowed_upload_extensions": [
-      ".tex"
+      ".tex",
+      ".docx"
     ],
-    "upload_content_scope": "paper/manuscript TeX source files only",
+    "upload_content_scope": "paper/manuscript TeX and editable Word, including supplements and marked review manuscripts",
     "upload_verification_required": true,
-    "non_tex_upload_allowed": false,
+    "non_tex_upload_allowed": true,
     "journal_submission_authorized": false,
-    "restriction_confirmed_on": "2026-10-30",
-    "missing_asset_policy": "Report compilation limitations; never upload excluded assets or rename them to .tex"
+    "restriction_confirmed_on": "2026-10-31",
+    "missing_asset_policy": "Report missing excluded TeX assets; do not upload excluded formats or disguise extensions",
+    "word_manuscript_upload_required": true,
+    "word_upload_verification": "Verify actual filename and full downloaded bytes; newly authorized, no actual Word upload in this preference-only task",
+    "supersedes": "2026-10-30 TeX-only rule for paper Word documents",
+    "excluded_content_without_separate_request": [
+      "PDF",
+      "ZIP",
+      "images",
+      "separate .bib",
+      "data",
+      "cover letters",
+      "response documents"
+    ]
+  },
+  "manuscript_naming": {
+    "confirmed_on": "2026-10-31",
+    "pattern": "YYYYMMDD-N_",
+    "timezone": "Europe/Paris",
+    "daily_sequence_start": 1,
+    "new_day_resets_sequence": true,
+    "unit": "manuscript revision batch; same identifier across formats and manuscript variants",
+    "example_first": "20261031-1_PCOS_HumanReproduction_v7_Manuscript.docx",
+    "example_next": "20261031-2_PCOS_HumanReproduction_v7_Manuscript.docx",
+    "preserve_scientific_version_label": true,
+    "rename_existing_files": false,
+    "check_existing_local_and_cloud_names_before_allocation": true,
+    "same_bytes_upload_retry_increments": false,
+    "assigned_revision_ids": [],
+    "note": "Preference-only update does not create or reserve a numbered manuscript; next authorized generation on 2026-10-31 starts at 1 if no existing allocation."
   }
 }

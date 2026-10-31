@@ -1,5 +1,15 @@
 # 下一阶段任务
 
+## 2026-10-31T07:46:01+01:00 — 下一次新稿执行Word上传及YYYYMMDD-N版本命名
+
+执行规则：新生成论文主稿/补充稿/标色审阅稿.docx与论文.tex同步到https://www.overleaf.com/project/6adda2876e26d2e60e482e89 ，完整交付继续Drive/GitHub。Word上传后回读实际文件名及完整字节；TeX另核验编译。PDF、ZIP、图片、独立bib、数据、附信、逐条回应不因本条自动获得Overleaf上传授权。
+
+新修订批次用实际日期与每日递增序号YYYYMMDD-N_，示例20261031-1_PCOS_HumanReproduction_v7_Manuscript.docx，下一版本20261031-2_；次日使用新日期并从-1开始。同次修订主补稿/clean与review及对应格式共用编号，下一修订递增，保留v6/v7等科学版本标签。分配前查已保存记录/本地/云端文件防止重用覆盖；同字节上传重试不另占编号。旧文件不追溯改名。
+
+本轮仅保存长期偏好，没有生成论文、没有分配或占用20261031-1、没有向Overleaf上传Word/其他文件，也不回填前一轮的TeX-only状态为Word已上传。既有25页标色Word、v7/v6、全部XX/统计/图表/数据不改。PROJECT_STATUS仍以先前已核验v7候选及Word交付为稿件事实；无新科研结果，DATA_CATALOG/RESULTS_INDEX不变。ChatGPT项目设置应用未验证，配置保持false。
+
+下一次当天新稿从20261031-1开始（实际分配前核查占用）；旧交付不重复上传、不改名。完成标准：新Word/TeX按各自规则上传、源文件实际字节核验及三端状态明确。
+
 ## 2026-10-31T07:38:16+01:00 — 标色Word已完成，供作者老师逐项审阅
 
 用户仅要求把已完成9项修正的v7标色对照稿另生成为可编辑Word。新日期版本20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx位于PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word；旧版及老师原稿全部保留，不新增科学修改、数据分析或投稿。v7仍为候选审阅稿，未替作者作最终接受。

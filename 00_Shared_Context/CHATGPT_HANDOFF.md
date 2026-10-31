@@ -1,5 +1,17 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-31T07:46:01+01:00 — 新规则已接受：今后Word论文也存Overleaf，按日期序号命名
+
+用户2026-10-31明确要求：以后生成的Word论文同时上传到Overleaf的PCOS项目，并把当日每次新版本按20261031-1、20261031-2这样依次标记。本项优先取代2026-10-30“仅论文TeX”对论文Word的禁止；其他既有隐私、旧版本保护、上传核验及暂不投稿规则继续。
+
+执行规则：新生成论文主稿/补充稿/标色审阅稿.docx与论文.tex同步到https://www.overleaf.com/project/6adda2876e26d2e60e482e89 ，完整交付继续Drive/GitHub。Word上传后回读实际文件名及完整字节；TeX另核验编译。PDF、ZIP、图片、独立bib、数据、附信、逐条回应不因本条自动获得Overleaf上传授权。
+
+新修订批次用实际日期与每日递增序号YYYYMMDD-N_，示例20261031-1_PCOS_HumanReproduction_v7_Manuscript.docx，下一版本20261031-2_；次日使用新日期并从-1开始。同次修订主补稿/clean与review及对应格式共用编号，下一修订递增，保留v6/v7等科学版本标签。分配前查已保存记录/本地/云端文件防止重用覆盖；同字节上传重试不另占编号。旧文件不追溯改名。
+
+本轮仅保存长期偏好，没有生成论文、没有分配或占用20261031-1、没有向Overleaf上传Word/其他文件，也不回填前一轮的TeX-only状态为Word已上传。既有25页标色Word、v7/v6、全部XX/统计/图表/数据不改。PROJECT_STATUS仍以先前已核验v7候选及Word交付为稿件事实；无新科研结果，DATA_CATALOG/RESULTS_INDEX不变。ChatGPT项目设置应用未验证，配置保持false。
+
+下一次获授权生成新论文时按新规则分配编号并实际上传核验；本轮没有新的论文修订任务。作者/老师审阅和Windows真实复现待办保持，不自动投稿。
+
 ## 2026-10-31T07:38:16+01:00 — 新增标色Word与逐项索引，论文科学内容保持
 
 用户仅要求把已完成9项修正的v7标色对照稿另生成为可编辑Word。新日期版本20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx位于PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word；旧版及老师原稿全部保留，不新增科学修改、数据分析或投稿。v7仍为候选审阅稿，未替作者作最终接受。
