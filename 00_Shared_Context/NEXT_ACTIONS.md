@@ -1,5 +1,15 @@
 # 下一阶段任务
 
+## 2026-10-31T07:52:28+01:00 — Word上传已完成；后续实际修订使用当日-2
+
+按用户本轮明确要求，刚生成的25页可编辑标色Word已实际上传Overleaf PCOS。新项目文件名20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx，项目https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。这是既有已核验v7 Review Word的相同字节编号交付副本，不是新科学修订；原20261031_文件保留，不追溯改名。
+
+从Overleaf新文件Download实际回读380789字节，SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba，与原Word及新编号本机副本完全一致，DOCX ZIP CRC通过。原21页论文+4页索引、32原生可编辑数学对象、3表、5图及23 XX均沿用完全相同文件的既有完整25页QA，未冒称本轮重新渲染或新估计。
+
+实际检查本地文件、最新GitHub树、Drive v7目录及Overleaf15原文件名，未占用20261031-1；现登记首个编号已使用。下一次当天新修订用20261031-2；同字节重试继续使用-1。未投稿、未发消息、未改数据或统计，不新增联合draws/区间。
+
+无需重复本次上传。作者/老师Download审阅；未来内容修订再用20261031-2并上传核验。Overleaf不预览Word不能当上传失败；不为此重复上传或改文件后缀。
+
 ## 2026-10-31T07:46:01+01:00 — 下一次新稿执行Word上传及YYYYMMDD-N版本命名
 
 执行规则：新生成论文主稿/补充稿/标色审阅稿.docx与论文.tex同步到https://www.overleaf.com/project/6adda2876e26d2e60e482e89 ，完整交付继续Drive/GitHub。Word上传后回读实际文件名及完整字节；TeX另核验编译。PDF、ZIP、图片、独立bib、数据、附信、逐条回应不因本条自动获得Overleaf上传授权。

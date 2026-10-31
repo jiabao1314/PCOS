@@ -1,5 +1,15 @@
 # 共享配置与同步验证
 
+## 2026-10-31T07:52:28+01:00 — 首次实际Word Overleaf上传完整字节核验通过
+
+按用户本轮明确要求，刚生成的25页可编辑标色Word已实际上传Overleaf PCOS。新项目文件名20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx，项目https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。这是既有已核验v7 Review Word的相同字节编号交付副本，不是新科学修订；原20261031_文件保留，不追溯改名。
+
+从Overleaf新文件Download实际回读380789字节，SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba，与原Word及新编号本机副本完全一致，DOCX ZIP CRC通过。原21页论文+4页索引、32原生可编辑数学对象、3表、5图及23 XX均沿用完全相同文件的既有完整25页QA，未冒称本轮重新渲染或新估计。
+
+Overleaf界面显示Imported file，源为已核验GitHub固定提交cc7273036aa5f494a27182b2c01176917835b4ac中的Word；实际保存blob c46ff962ff2f76bb32b2955d9dc1064a18854edc。界面“Sorry, no preview is available”只是Word不提供在线预览，Download成功及字节回读证明已保存。右侧保留的PDF不是此Word的预览。本轮不改TeX/主文档设置、不点击Recompile；原15文件名仍在，现16个，无旧稿写入/删除，不冒称所有旧blob重新下载检查。
+
+8份共享上下文最初Drive raw与本地一致，pull0；写回前6份再次回读一致并保存before_update。仅新增编号Word和上传核验JSON，更新config编号登记及6份共享记录；Drive保存编号Word/JSON、更新共享原文件并新增编号配置快照，旧配置保留。逐项审查9路径，在最新remote tree上非force提交，并完整Drive/Git回读；最终提交与完成证据由后继SYNC_RECEIPT记录，避免自引用。无原数据/患者资料公开。
+
 ## 2026-10-31T07:46:01+01:00 — Word Overleaf与每日序号偏好保存，实际上传未执行
 
 用户2026-10-31明确要求：以后生成的Word论文同时上传到Overleaf的PCOS项目，并把当日每次新版本按20261031-1、20261031-2这样依次标记。本项优先取代2026-10-30“仅论文TeX”对论文Word的禁止；其他既有隐私、旧版本保护、上传核验及暂不投稿规则继续。

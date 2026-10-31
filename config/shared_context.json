@@ -46,9 +46,9 @@
     "project_url": "https://www.overleaf.com/project/6adda2876e26d2e60e482e89",
     "future_manuscript_upload_required": true,
     "user_confirmed_on": "2026-10-31",
-    "read_access_verified_on": "2026-10-30",
+    "read_access_verified_on": "2026-10-31",
     "read_access_evidence": "Chrome project title, exact project URL and file tree observed",
-    "upload_verification": "TeX actual verification exists in dated v7 Overleaf_Verification; this policy update performs no new upload",
+    "upload_verification": "Actual TeX verification retained in dated v7 records; Word first actual complete-byte verification on 2026-10-31.",
     "preserve_prior_versions": true,
     "desktop_app": "user reports installed; not independently inspected",
     "allowed_upload_extensions": [
@@ -62,7 +62,7 @@
     "restriction_confirmed_on": "2026-10-31",
     "missing_asset_policy": "Report missing excluded TeX assets; do not upload excluded formats or disguise extensions",
     "word_manuscript_upload_required": true,
-    "word_upload_verification": "Verify actual filename and full downloaded bytes; newly authorized, no actual Word upload in this preference-only task",
+    "word_upload_verification": "Actual 2026-10-31 first Word upload verified by complete Download byte equality, 380789 bytes, SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba",
     "supersedes": "2026-10-30 TeX-only rule for paper Word documents",
     "excluded_content_without_separate_request": [
       "PDF",
@@ -72,7 +72,16 @@
       "data",
       "cover letters",
       "response documents"
-    ]
+    ],
+    "last_verified_word_upload": {
+      "on": "2026-10-31",
+      "filename": "20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx",
+      "bytes": 380789,
+      "sha256": "f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba",
+      "evidence": "PCOS_HumanReproduction_BlueK_v7_OverleafWord_2026-10-31/docs/20261031-1_PCOS_BlueK_v7_Overleaf_Word_Verification.json",
+      "preview_available": false,
+      "Download_verified": true
+    }
   },
   "manuscript_naming": {
     "confirmed_on": "2026-10-31",
@@ -87,7 +96,19 @@
     "rename_existing_files": false,
     "check_existing_local_and_cloud_names_before_allocation": true,
     "same_bytes_upload_retry_increments": false,
-    "assigned_revision_ids": [],
-    "note": "Preference-only update does not create or reserve a numbered manuscript; next authorized generation on 2026-10-31 starts at 1 if no existing allocation."
+    "assigned_revision_ids": [
+      {
+        "id": "20261031-1",
+        "date": "2026-10-31",
+        "scientific_version": "BlueK_v7_DRAFT",
+        "kind": "numbered delivery copy of existing verified Review Word; not a new scientific edit",
+        "path": "PCOS_HumanReproduction_BlueK_v7_OverleafWord_2026-10-31/word/20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx",
+        "Overleaf_full_bytes_verified": true
+      }
+    ],
+    "note": "First numbered Word delivery 20261031-1 actually saved and uploaded on 2026-10-31; identical-byte retries reuse it, next revised batch this date is 20261031-2.",
+    "next_sequence_by_date": {
+      "20261031": 2
+    }
   }
 }

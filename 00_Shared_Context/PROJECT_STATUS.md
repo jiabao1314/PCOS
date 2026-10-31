@@ -1,5 +1,17 @@
 # 项目状态
 
+## 2026-10-31T07:52:28+01:00 — 20261031-1标色Word实际存入Overleaf并完整回读
+
+按用户本轮明确要求，刚生成的25页可编辑标色Word已实际上传Overleaf PCOS。新项目文件名20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx，项目https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。这是既有已核验v7 Review Word的相同字节编号交付副本，不是新科学修订；原20261031_文件保留，不追溯改名。
+
+从Overleaf新文件Download实际回读380789字节，SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba，与原Word及新编号本机副本完全一致，DOCX ZIP CRC通过。原21页论文+4页索引、32原生可编辑数学对象、3表、5图及23 XX均沿用完全相同文件的既有完整25页QA，未冒称本轮重新渲染或新估计。
+
+Overleaf界面显示Imported file，源为已核验GitHub固定提交cc7273036aa5f494a27182b2c01176917835b4ac中的Word；实际保存blob c46ff962ff2f76bb32b2955d9dc1064a18854edc。界面“Sorry, no preview is available”只是Word不提供在线预览，Download成功及字节回读证明已保存。右侧保留的PDF不是此Word的预览。本轮不改TeX/主文档设置、不点击Recompile；原15文件名仍在，现16个，无旧稿写入/删除，不冒称所有旧blob重新下载检查。
+
+实际检查本地文件、最新GitHub树、Drive v7目录及Overleaf15原文件名，未占用20261031-1；现登记首个编号已使用。下一次当天新修订用20261031-2；同字节重试继续使用-1。未投稿、未发消息、未改数据或统计，不新增联合draws/区间。
+
+证据：PCOS_HumanReproduction_BlueK_v7_OverleafWord_2026-10-31/docs/20261031-1_PCOS_BlueK_v7_Overleaf_Word_Verification.json。本轮Drive/GitHub新编号副本与共享记录的后继核验见本目录docs/20261031-1_PCOS_BlueK_v7_Word_SYNC_RECEIPT.json。
+
 ## 2026-10-31T07:38:16+01:00 — v7九项修正的可编辑标色Word完成并双云核验
 
 用户仅要求把已完成9项修正的v7标色对照稿另生成为可编辑Word。新日期版本20261031_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx位于PCOS_HumanReproduction_BlueK_v7_ReviewWord_2026-10-31/word；旧版及老师原稿全部保留，不新增科学修改、数据分析或投稿。v7仍为候选审阅稿，未替作者作最终接受。

@@ -1,5 +1,17 @@
 # ChatGPT → Codex 科研交接
 
+## 2026-10-31T07:52:28+01:00 — Word已实际上传；20261031-1已分配
+
+按用户本轮明确要求，刚生成的25页可编辑标色Word已实际上传Overleaf PCOS。新项目文件名20261031-1_PCOS_HumanReproduction_BlueK_v7_DRAFT_Manuscript_Review.docx，项目https://www.overleaf.com/project/6adda2876e26d2e60e482e89 。这是既有已核验v7 Review Word的相同字节编号交付副本，不是新科学修订；原20261031_文件保留，不追溯改名。
+
+从Overleaf新文件Download实际回读380789字节，SHA256 f74e0281414e5016a64035c885173496d5cf4535f41912a722f0827d5fd043ba，与原Word及新编号本机副本完全一致，DOCX ZIP CRC通过。原21页论文+4页索引、32原生可编辑数学对象、3表、5图及23 XX均沿用完全相同文件的既有完整25页QA，未冒称本轮重新渲染或新估计。
+
+Overleaf界面显示Imported file，源为已核验GitHub固定提交cc7273036aa5f494a27182b2c01176917835b4ac中的Word；实际保存blob c46ff962ff2f76bb32b2955d9dc1064a18854edc。界面“Sorry, no preview is available”只是Word不提供在线预览，Download成功及字节回读证明已保存。右侧保留的PDF不是此Word的预览。本轮不改TeX/主文档设置、不点击Recompile；原15文件名仍在，现16个，无旧稿写入/删除，不冒称所有旧blob重新下载检查。
+
+实际检查本地文件、最新GitHub树、Drive v7目录及Overleaf15原文件名，未占用20261031-1；现登记首个编号已使用。下一次当天新修订用20261031-2；同字节重试继续使用-1。未投稿、未发消息、未改数据或统计，不新增联合draws/区间。
+
+作者/老师可在Overleaf选中-1文件后Download，用Word编辑并按9项索引审阅；Windows真实复现待办保持，不能视为已完成。
+
 ## 2026-10-31T07:46:01+01:00 — 新规则已接受：今后Word论文也存Overleaf，按日期序号命名
 
 用户2026-10-31明确要求：以后生成的Word论文同时上传到Overleaf的PCOS项目，并把当日每次新版本按20261031-1、20261031-2这样依次标记。本项优先取代2026-10-30“仅论文TeX”对论文Word的禁止；其他既有隐私、旧版本保护、上传核验及暂不投稿规则继续。
